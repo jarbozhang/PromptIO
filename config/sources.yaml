@@ -1,0 +1,31 @@
+# AI 领域 RSS 源
+# 每个源包含 name, url, language
+
+sources:
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    language: en
+
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    language: en
+
+  - name: MIT Technology Review AI
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    language: en
+
+  - name: VentureBeat AI
+    url: https://venturebeat.com/category/ai/feed/
+    language: en
+
+  - name: Hacker News (Algolia AI filter)
+    url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=50
+    language: en
+
+  - name: ArsTechnica AI
+    url: https://feeds.arstechnica.com/arstechnica/technology-lab
+    language: en
+
+  - name: 量子位
+    url: https://www.qbitai.com/feed
+    language: zh

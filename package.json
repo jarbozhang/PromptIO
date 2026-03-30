@@ -1,0 +1,19 @@
+{
+  "name": "hamburg",
+  "version": "0.1.0",
+  "description": "AI content pipeline: RSS collection → topic scoring → article generation → publish",
+  "type": "module",
+  "scripts": {
+    "pipeline": "node scripts/pipeline.js",
+    "publish": "node scripts/publish.js",
+    "setup": "node scripts/setup.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@google/generative-ai": "^0.24.0",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1",
+    "rss-parser": "^3.13.0"
+  }
+}
