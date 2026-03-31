@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-03-30T13:00:00.000Z'
-fetched_at: '2026-03-31T04:42:06.091Z'
+fetched_at: '2026-03-31T16:34:34.600Z'
 ---
 The startup, which is planning to go public later this year, designs chips specifically for AI inference, another challenger to Nvidia's dominance.

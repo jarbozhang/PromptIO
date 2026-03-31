@@ -6,9 +6,9 @@ source: Hacker News (Algolia AI filter)
 source_type: rss
 language: en
 published: '2026-03-30T07:03:18.000Z'
-fetched_at: '2026-03-31T04:42:10.026Z'
+fetched_at: '2026-03-31T16:34:39.843Z'
 ---
 Article URL: https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era
 Comments URL: https://news.ycombinator.com/item?id=47571279
-Points: 299
-# Comments: 220
+Points: 310
+# Comments: 231

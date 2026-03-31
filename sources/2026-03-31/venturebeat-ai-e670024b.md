@@ -8,7 +8,7 @@ source: VentureBeat AI
 source_type: rss
 language: en
 published: '2026-01-22T14:00:00.000Z'
-fetched_at: '2026-03-31T04:42:08.364Z'
+fetched_at: '2026-03-31T16:34:38.217Z'
 ---
 Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure.
 TQ Ventures led the round, with participation from FPV Ventures, Redpoint, and Unusual Ventures. The investment values Railway as one of the most significant infrastructure startups to emerge during the AI boom, capitalizing on developer frustration with the complexity and cost of traditional platforms like Amazon Web Services and Google Cloud.

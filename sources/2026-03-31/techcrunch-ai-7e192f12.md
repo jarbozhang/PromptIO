@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-03-28T20:45:54.000Z'
-fetched_at: '2026-03-31T04:42:06.093Z'
+fetched_at: '2026-03-31T16:34:34.601Z'
 ---
 While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.

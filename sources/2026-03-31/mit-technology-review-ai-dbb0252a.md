@@ -6,6 +6,6 @@ source: MIT Technology Review AI
 source_type: rss
 language: en
 published: '2026-03-25T11:48:13.000Z'
-fetched_at: '2026-03-31T04:42:07.911Z'
+fetched_at: '2026-03-31T16:34:37.622Z'
 ---
 Imagine telling a digital agent, “Use my points and book a family trip to Italy. Keep it within budget, pick hotels we’ve liked before, and handle the details.” Instead of returning a list of links, the agent assembles an itinerary and executes the purchase. That shift, from assistance to execution, is what makes agentic AI…

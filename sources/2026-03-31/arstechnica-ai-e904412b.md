@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-25T15:49:17.000Z'
-fetched_at: '2026-03-31T04:42:10.378Z'
+fetched_at: '2026-03-31T16:34:40.584Z'
 ---
 Company warns entire industry to move off RSA and EC more quickly.

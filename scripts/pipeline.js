@@ -462,8 +462,8 @@ async function phaseScore() {
         source_name: sourceArticle.source || '',
         score: topic.score,
         novelty: topic.novelty || 0,
-        heat: topic.heat || 0,
-        writability: topic.writability || 0,
+        depth_potential: topic.depth_potential || 0,
+        relevance: topic.relevance || 0,
         angle: topic.angle || '',
         tags: topic.tags || [],
       }

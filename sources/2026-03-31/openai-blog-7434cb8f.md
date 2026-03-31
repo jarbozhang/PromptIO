@@ -5,6 +5,6 @@ source: OpenAI Blog
 source_type: rss
 language: en
 published: '2026-03-25T10:00:00.000Z'
-fetched_at: '2026-03-31T04:42:07.612Z'
+fetched_at: '2026-03-31T16:34:37.224Z'
 ---
 Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.

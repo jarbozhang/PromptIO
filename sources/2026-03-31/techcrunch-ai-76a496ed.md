@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-03-28T14:15:00.000Z'
-fetched_at: '2026-03-31T04:42:06.093Z'
+fetched_at: '2026-03-31T16:34:34.601Z'
 ---
 Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.

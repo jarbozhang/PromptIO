@@ -7,6 +7,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-03-30T23:41:48.000Z'
-fetched_at: '2026-03-31T04:42:06.088Z'
+fetched_at: '2026-03-31T16:34:34.599Z'
 ---
 According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules.

@@ -8,6 +8,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-12T22:18:11.000Z'
-fetched_at: '2026-03-31T04:42:10.379Z'
+fetched_at: '2026-03-31T16:34:40.585Z'
 ---
 Company says it doesn't know how long it will take to restore its Microsoft environment.

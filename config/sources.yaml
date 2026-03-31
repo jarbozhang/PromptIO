@@ -1,5 +1,5 @@
-# AI 领域 RSS 源
-# 每个源包含 name, url, language
+# AI 领域英文信息源（专注信息差：海外一手信息 → 中文解读）
+# 只保留英文源，中文源去掉（避免选出已被中文媒体覆盖的内容）
 
 sources:
   - name: TechCrunch AI
@@ -26,6 +26,10 @@ sources:
     url: https://feeds.arstechnica.com/arstechnica/technology-lab
     language: en
 
-  - name: 量子位
-    url: https://www.qbitai.com/feed
-    language: zh
+  - name: The Verge AI
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    language: en
+
+  - name: Anthropic Blog
+    url: https://www.anthropic.com/rss.xml
+    language: en

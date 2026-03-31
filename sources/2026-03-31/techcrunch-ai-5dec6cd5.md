@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-03-30T23:08:12.000Z'
-fetched_at: '2026-03-31T04:42:06.090Z'
+fetched_at: '2026-03-31T16:34:34.599Z'
 ---
 LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.

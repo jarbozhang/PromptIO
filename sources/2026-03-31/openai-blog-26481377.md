@@ -5,6 +5,6 @@ source: OpenAI Blog
 source_type: rss
 language: en
 published: '2026-03-29T22:15:00.000Z'
-fetched_at: '2026-03-31T04:42:07.611Z'
+fetched_at: '2026-03-31T16:34:37.223Z'
 ---
 AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation
