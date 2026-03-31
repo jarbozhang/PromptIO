@@ -8,7 +8,7 @@ source_type: github
 language: en
 stars: 78272
 published: '2026-03-31T15:34:48Z'
-fetched_at: '2026-03-31T16:34:44.030Z'
+fetched_at: '2026-03-31T16:54:11.697Z'
 ---
 The fastest path to AI-powered full stack observability, even for lean teams.
 

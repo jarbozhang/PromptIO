@@ -8,6 +8,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-02-26T15:45:18.000Z'
-fetched_at: '2026-03-31T16:34:40.586Z'
+fetched_at: '2026-03-31T16:54:05.860Z'
 ---
 That guest network you set up for your neighbors may not be as secure as you think.

@@ -5,8 +5,8 @@ source: GitHub Trending
 source_type: github
 language: en
 stars: 158601
-published: '2026-03-31T16:02:11Z'
-fetched_at: '2026-03-31T16:34:42.686Z'
+published: '2026-03-31T16:40:18Z'
+fetched_at: '2026-03-31T16:54:10.460Z'
 ---
 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
 

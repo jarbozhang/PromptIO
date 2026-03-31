@@ -6,7 +6,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-03-27T18:35:53.000Z'
-fetched_at: '2026-03-31T16:34:40.904Z'
+fetched_at: '2026-03-31T16:54:06.151Z'
 ---
 Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. 
 From audacious plans to launch data centers into space to the latest legal battles over pollution, The Verge has the biggest news and reporting surrounding data centers.

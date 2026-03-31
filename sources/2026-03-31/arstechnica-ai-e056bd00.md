@@ -8,6 +8,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-18T17:36:40.000Z'
-fetched_at: '2026-03-31T16:34:40.584Z'
+fetched_at: '2026-03-31T16:54:05.859Z'
 ---
 One Microsoft product was approved despite years of concerns about its security.

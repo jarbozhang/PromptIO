@@ -5,9 +5,9 @@ source: Hacker News (Algolia AI filter)
 source_type: rss
 language: en
 published: '2026-03-31T01:23:34.000Z'
-fetched_at: '2026-03-31T16:34:39.841Z'
+fetched_at: '2026-03-31T16:54:05.645Z'
 ---
 Article URL: https://github.com/drona23/claude-token-efficient
 Comments URL: https://news.ycombinator.com/item?id=47581701
-Points: 409
-# Comments: 145
+Points: 412
+# Comments: 147

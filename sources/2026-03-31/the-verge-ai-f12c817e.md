@@ -6,7 +6,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-03-30T01:32:14.000Z'
-fetched_at: '2026-03-31T16:34:40.903Z'
+fetched_at: '2026-03-31T16:54:06.150Z'
 ---
 People don’t like that they can’t identify AI music. | Image: Cath Virginia / The Verge	
 

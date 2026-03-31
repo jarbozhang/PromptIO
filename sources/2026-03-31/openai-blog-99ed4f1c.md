@@ -5,6 +5,6 @@ source: OpenAI Blog
 source_type: rss
 language: en
 published: '2026-03-17T10:00:00.000Z'
-fetched_at: '2026-03-31T16:34:37.225Z'
+fetched_at: '2026-03-31T16:53:54.819Z'
 ---
 OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.

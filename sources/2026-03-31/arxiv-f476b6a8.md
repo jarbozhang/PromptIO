@@ -14,7 +14,7 @@ categories:
   - cs.AI
   - cs.AI
 published: '2026-03-30T17:32:11Z'
-fetched_at: '2026-03-31T16:34:45.077Z'
+fetched_at: '2026-03-31T16:54:12.140Z'
 ---
 Agentic reinforcement learning (RL) can benefit substantially from reusable experience, yet existing skill-based methods mainly extract trajectory-level guidance and often lack principled mechanisms for maintaining an evolving skill memory. We propose D2Skill, a dynamic dual-granularity skill bank for agentic RL that organizes reusable experience into task skills for high-level guidance and step skills for fine-grained decision support and error correction. D2Skill jointly trains the policy and skill bank through paired baseline and skill-injected rollouts under the same policy, using their performance gap to derive hindsight utility signals for both skill updating and policy optimization. Built entirely from training-time experience, the skill bank is continuously expanded through reflection and maintained with utility-aware retrieval and pruning. Experiments on ALFWorld and WebShop with Qwen2.5-7B-Instruct and Qwen3-4B-Instruct-2507 show that D2Skill consistently improves success rates over skill-free baselines by 10-20 points. Further ablations and analyses show that both dual-granularity skill modeling and dynamic skill maintenance are critical to these gains, while the learned skills exhibit higher utility, transfer across evaluation settings, and introduce only modest training overhead.
 

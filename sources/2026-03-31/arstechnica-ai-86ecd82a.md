@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-05T21:06:05.000Z'
-fetched_at: '2026-03-31T16:34:40.585Z'
+fetched_at: '2026-03-31T16:54:05.860Z'
 ---
 Problems viewing products and checking out.

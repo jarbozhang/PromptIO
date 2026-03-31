@@ -6,7 +6,7 @@ source_type: github
 language: en
 stars: 73241
 published: '2026-03-29T17:08:42Z'
-fetched_at: '2026-03-31T16:34:44.030Z'
+fetched_at: '2026-03-31T16:54:11.697Z'
 ---
 Tesseract Open Source OCR Engine (main repository)
 

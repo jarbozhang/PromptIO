@@ -7,8 +7,8 @@ source: GitHub Trending
 source_type: github
 language: en
 stars: 64802
-published: '2026-03-31T04:34:21Z'
-fetched_at: '2026-03-31T16:34:44.030Z'
+published: '2026-03-31T16:43:53Z'
+fetched_at: '2026-03-31T16:54:11.697Z'
 ---
 Financial data platform for analysts, quants and AI agents.
 

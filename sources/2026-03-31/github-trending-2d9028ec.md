@@ -7,8 +7,8 @@ source: GitHub Trending
 source_type: github
 language: en
 stars: 98694
-published: '2026-03-31T16:27:02Z'
-fetched_at: '2026-03-31T16:34:44.029Z'
+published: '2026-03-31T16:49:59Z'
+fetched_at: '2026-03-31T16:54:11.697Z'
 ---
 Tensors and Dynamic neural networks in Python with strong GPU acceleration
 

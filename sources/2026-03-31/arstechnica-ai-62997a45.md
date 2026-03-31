@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-13T20:18:08.000Z'
-fetched_at: '2026-03-31T16:34:40.585Z'
+fetched_at: '2026-03-31T16:54:05.859Z'
 ---
 Unicode that's invisible to the human eye was largely abandoned—until attackers took notice.

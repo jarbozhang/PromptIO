@@ -7,12 +7,12 @@ url: 'https://github.com/affaan-m/everything-claude-code'
 source: GitHub Trending
 source_type: github
 language: en
-stars: 125088
+stars: 125192
 published: '2026-03-31T11:42:42Z'
-fetched_at: '2026-03-31T16:34:42.687Z'
+fetched_at: '2026-03-31T16:54:10.462Z'
 ---
 The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
-Stars: 125088 | Forks: 16762 | Language: JavaScript
+Stars: 125192 | Forks: 16799 | Language: JavaScript
 Created: 2026-01-18 | Last push: 2026-03-31
 Topics: ai-agents, anthropic, claude, claude-code, developer-tools, llm, mcp, productivity

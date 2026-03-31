@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-03-30T13:52:02.000Z'
-fetched_at: '2026-03-31T16:34:34.600Z'
+fetched_at: '2026-03-31T16:53:50.905Z'
 ---
 ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.

@@ -5,6 +5,6 @@ source: OpenAI Blog
 source_type: rss
 language: en
 published: '2026-03-19T00:00:00.000Z'
-fetched_at: '2026-03-31T16:34:37.224Z'
+fetched_at: '2026-03-31T16:53:54.819Z'
 ---
 Accelerates Codex growth to power the next generation of Python developer tools

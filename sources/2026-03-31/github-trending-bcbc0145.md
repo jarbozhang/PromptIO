@@ -5,8 +5,8 @@ source: GitHub Trending
 source_type: github
 language: en
 stars: 194415
-published: '2026-03-31T16:31:24Z'
-fetched_at: '2026-03-31T16:34:44.028Z'
+published: '2026-03-31T16:54:05Z'
+fetched_at: '2026-03-31T16:54:11.696Z'
 ---
 An Open Source Machine Learning Framework for Everyone
 

@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-17T17:07:12.000Z'
-fetched_at: '2026-03-31T16:34:40.584Z'
+fetched_at: '2026-03-31T16:54:05.859Z'
 ---
 Internet-exposed devices that give BIOS-level access? What could possibly go wrong?

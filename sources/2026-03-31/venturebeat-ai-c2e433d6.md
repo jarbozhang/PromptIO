@@ -8,7 +8,7 @@ source: VentureBeat AI
 source_type: rss
 language: en
 published: '2026-01-05T07:45:00.000Z'
-fetched_at: '2026-03-31T16:34:38.219Z'
+fetched_at: '2026-03-31T16:53:55.673Z'
 ---
 When the creator of the world's most advanced coding agent speaks, Silicon Valley doesn't just listen — it takes notes.
 For the past week, the engineering community has been dissecting a thread on X from Boris Cherny, the creator and head of Claude Code at Anthropic. What began as a casual sharing of his personal terminal setup has spiraled into a viral manifesto on the future of software development, with industry insiders calling it a watershed moment for the startup.

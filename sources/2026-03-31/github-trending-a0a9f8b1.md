@@ -6,7 +6,7 @@ source_type: github
 language: en
 stars: 65579
 published: '2026-03-30T15:45:03Z'
-fetched_at: '2026-03-31T16:34:44.030Z'
+fetched_at: '2026-03-31T16:54:11.697Z'
 ---
 scikit-learn: machine learning in Python
 

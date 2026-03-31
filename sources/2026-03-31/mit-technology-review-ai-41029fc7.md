@@ -6,6 +6,6 @@ source: MIT Technology Review AI
 source_type: rss
 language: en
 published: '2026-03-30T16:00:00.000Z'
-fetched_at: '2026-03-31T16:34:37.621Z'
+fetched_at: '2026-03-31T16:53:55.113Z'
 ---
 Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted to members of its One Medical service, would…

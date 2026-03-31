@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-03-27T21:44:45.000Z'
-fetched_at: '2026-03-31T16:34:34.601Z'
+fetched_at: '2026-03-31T16:53:50.907Z'
 ---
 Wall Street giants JPMorgan and Goldman Sachs are extending a 12-month, unsecured loan to the Japanese conglomerate.

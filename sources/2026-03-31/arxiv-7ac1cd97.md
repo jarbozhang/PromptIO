@@ -14,7 +14,7 @@ categories:
   - cs.AI
   - cs.SE
 published: '2026-03-30T17:46:41Z'
-fetched_at: '2026-03-31T16:34:45.076Z'
+fetched_at: '2026-03-31T16:54:12.140Z'
 ---
 Modern distributed systems integrate heterogeneous services, REST APIs with different schema versions, GraphQL endpoints, and IoT devices with proprietary payloads that suffer from persistent schema mismatches. Traditional static adapters require manual coding for every schema pair and cannot handle novel combinations at runtime. We present SAGAI-MID, a FastAPI-based middleware that uses large language models (LLMs) to dynamically detect and resolve schema mismatches at runtime. The system employs a five-layer pipeline: hybrid detection (structural diff plus LLM semantic analysis), dual resolution strategies (per-request LLM transformation and LLM-generated reusable adapter code), and a three-tier safeguard stack (validation, ensemble voting, rule-based fallback). We frame the architecture through Bass et al.'s interoperability tactics, transforming them from design-time artifacts into runtime capabilities. We evaluate SAGAI-MID on 10 interoperability scenarios spanning REST version migration, IoT-to-analytics bridging, and GraphQL protocol conversion across six LLMs from two providers. The best-performing configuration achieves 0.90 pass@1 accuracy. The CODEGEN strategy consistently outperforms DIRECT (0.83 vs 0.77 mean pass@1), while cost varies by over 30x across models with no proportional accuracy gain; the most accurate model is also the cheapest. We discuss implications for software architects adopting LLMs as runtime architectural components.
 

@@ -6,7 +6,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-03-30T15:15:00.000Z'
-fetched_at: '2026-03-31T16:34:40.903Z'
+fetched_at: '2026-03-31T16:54:06.150Z'
 ---
 Today, I’m talking with Todd McKinnon, who is co-founder and CEO of Okta, a platform that lets big companies manage security and identity across all the apps and services their employees use. Think of it like login management — actually, that’s a great way to think about it because the way most people encounter Okta is that it’s the thing that makes you log in again right before joining a meeting several times a week, so then you’re late for the meeting… Can you tell we use Okta?
 Anyhow, all of that is a big business — Okta has a $14 billion market cap. But big software as a service companies like Okta are under a lot of pressure in the age of AI. Why would you pay their fees when you can just vibe-code your own tools? This so-called Saaspocalypse is a big deal, and Todd recently said he was “paranoid” about it on Okta’s most recent earnings call. So we dug into it, and how he’s putting that paranoia into practice inside Okta — what he’s changing, and what opportunities he’s going after to head off the apocalypse.

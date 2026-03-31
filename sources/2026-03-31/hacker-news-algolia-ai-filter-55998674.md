@@ -7,7 +7,7 @@ source: Hacker News (Algolia AI filter)
 source_type: rss
 language: en
 published: '2026-03-29T22:15:06.000Z'
-fetched_at: '2026-03-31T16:34:39.843Z'
+fetched_at: '2026-03-31T16:54:05.646Z'
 ---
 Article URL: https://github.com/anthropics/claude-code/issues/40710
 Comments URL: https://news.ycombinator.com/item?id=47567969

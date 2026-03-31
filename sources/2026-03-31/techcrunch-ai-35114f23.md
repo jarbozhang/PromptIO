@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-03-30T11:00:00.000Z'
-fetched_at: '2026-03-31T16:34:34.600Z'
+fetched_at: '2026-03-31T16:53:50.906Z'
 ---
 Starcloud becomes the fastest Y Combinator startup to reach unicorn status, just 17 months after demo day.

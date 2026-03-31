@@ -8,8 +8,8 @@ source: GitHub Trending
 source_type: github
 language: en
 stars: 182997
-published: '2026-03-31T16:30:30Z'
-fetched_at: '2026-03-31T16:34:42.684Z'
+published: '2026-03-31T16:49:55Z'
+fetched_at: '2026-03-31T16:54:10.460Z'
 ---
 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 

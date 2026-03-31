@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-02-12T22:56:02.000Z'
-fetched_at: '2026-03-31T16:34:40.587Z'
+fetched_at: '2026-03-31T16:54:05.861Z'
 ---
 OpenAI's new GPT‑5.3‑Codex‑Spark is 15 times faster at coding than its predecessor.

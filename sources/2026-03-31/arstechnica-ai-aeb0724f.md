@@ -8,6 +8,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-02-13T19:40:21.000Z'
-fetched_at: '2026-03-31T16:34:40.587Z'
+fetched_at: '2026-03-31T16:54:05.861Z'
 ---
 This story has been retracted

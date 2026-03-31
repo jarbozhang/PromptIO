@@ -8,7 +8,7 @@ source: VentureBeat AI
 source_type: rss
 language: en
 published: '2026-01-12T11:30:00.000Z'
-fetched_at: '2026-03-31T16:34:38.218Z'
+fetched_at: '2026-03-31T16:53:55.672Z'
 ---
 Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.
 The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Microsoft's Copilot in the burgeoning market for AI-powered productivity tools.

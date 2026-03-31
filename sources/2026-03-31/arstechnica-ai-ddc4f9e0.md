@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-20T20:50:46.000Z'
-fetched_at: '2026-03-31T16:34:40.584Z'
+fetched_at: '2026-03-31T16:54:05.859Z'
 ---
 Admins: Sorry to say, but it's likely a rotate-your-secrets kind of weekend.

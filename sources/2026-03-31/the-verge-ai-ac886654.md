@@ -6,7 +6,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-03-28T14:00:00.000Z'
-fetched_at: '2026-03-31T16:34:40.903Z'
+fetched_at: '2026-03-31T16:54:06.151Z'
 ---
 Samsung, like many companies using generative AI in their advertising, hasn’t placed an AI label on several videos shared through its TikTok accounts, and the fine print doesn’t always contain the answers. | Image by Samsung	
 
