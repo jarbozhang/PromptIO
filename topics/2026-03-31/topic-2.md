@@ -1,18 +1,17 @@
 ---
 rank: 2
-title: VC疯狂下注AI新基建，为何OpenAI却在此时战略收缩Sora？
-source_url: >-
-  https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/
-source_name: TechCrunch AI
-score: 7.9
-novelty: 8
-heat: 8
+title: 阿里Qwen3.5-Omni炸场：多模态超越Gemini，API价格打到骨折
+source_url: 'https://www.qbitai.com/2026/03/393460.html'
+source_name: 量子位
+score: 9
+novelty: 9
+heat: 10
 writability: 8
-angle: 对比VC对AI Agent和算力中心的狂热投资，分析OpenAI关停Sora背后的资源博弈与战略重心转移。
+angle: 解读通义千问3.5-Omni的技术突围：在多模态能力全面对标甚至超越海外顶尖模型的同时，通过极致的价格战重塑行业API生态的竞争逻辑。
 tags:
-  - OpenAI
-  - VC投资
-  - Sora
-  - 战略分析
+  - 阿里通义
+  - Qwen3.5
+  - 多模态
+  - 大模型价格战
 ---
-文章捕捉到了资本热情与巨头战略之间的温差，值得深入探讨当前AI赛道的真实价值流向。
+国内大厂重磅模型发布自带超高热度，结合技术突破与极具攻击性的定价策略，是AI产业界最关注的核心事件。

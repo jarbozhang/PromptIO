@@ -329,6 +329,35 @@ function extractXML(xml, tag) {
   return match ? match[1] : null;
 }
 
+// ── JSON parsing with repair ────────────────────────────
+function parseScoreJSON(text) {
+  try {
+    const jsonMatch = text.match(/```json\s*([\s\S]*?)```/) || text.match(/\[[\s\S]*\]/);
+    let jsonStr = jsonMatch ? (jsonMatch[1] || jsonMatch[0]) : text;
+    jsonStr = jsonStr.replace(/[\x00-\x1f\x7f]/g, m => m === '\n' || m === '\r' || m === '\t' ? m : ' ');
+    jsonStr = jsonStr.replace(/,\s*([}\]])/g, '$1');
+    const parsed = JSON.parse(jsonStr);
+    return Array.isArray(parsed) ? parsed : null;
+  } catch {
+    // Fallback: extract individual JSON objects
+    const objects = [];
+    const objRegex = /\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}/g;
+    let match;
+    while ((match = objRegex.exec(text)) !== null) {
+      try {
+        const obj = JSON.parse(match[0]);
+        if (obj.index && obj.score) objects.push(obj);
+      } catch { /* skip */ }
+    }
+    if (objects.length > 0) {
+      log(`  JSON repaired: extracted ${objects.length} objects`);
+      return objects;
+    }
+    log(`  ERROR: could not parse scoring JSON`);
+    return null;
+  }
+}
+
 // ── Phase 2: Score & Select Topics ──────────────────────
 async function phaseScore() {
   if (fs.existsSync(TOPICS_DIR) && fs.readdirSync(TOPICS_DIR).length > 0) {
@@ -347,44 +376,64 @@ async function phaseScore() {
   }
 
   // Build context for scoring
-  const articles = sourceFiles.map(f => {
+  const articles = sourceFiles.map((f, i) => {
     const raw = fs.readFileSync(path.join(SOURCES_DIR, f), 'utf-8');
     const { data, content } = matter(raw);
-    return { file: f, ...data, snippet: content.slice(0, 500) };
+    return { file: f, globalIndex: i + 1, ...data, snippet: content.slice(0, 500) };
   });
 
   const scoringPrompt = fs.readFileSync(SCORING_PROMPT_PATH, 'utf-8');
-
-  const articlesText = articles.map((a, i) =>
-    `[${i + 1}] ${a.title}\n    Source: ${a.source} | URL: ${a.url}\n    ${a.snippet.slice(0, 200)}...`
-  ).join('\n\n');
-
   const anthropic = createAnthropicClient();
 
-  log(`  Sending ${articles.length} articles to Claude for scoring...`);
+  // Score in batches of 30 to avoid timeout on large source sets
+  const BATCH_SIZE = 30;
+  let allScored = [];
 
-  const response = await anthropic.messages.create({
-    model: LLM_MODEL,
-    max_tokens: 4000,
-    messages: [{
-      role: 'user',
-      content: `${scoringPrompt}\n\n---\n\nArticles to score:\n\n${articlesText}`
-    }]
-  });
+  for (let batchStart = 0; batchStart < articles.length; batchStart += BATCH_SIZE) {
+    const batch = articles.slice(batchStart, batchStart + BATCH_SIZE);
+    const batchNum = Math.floor(batchStart / BATCH_SIZE) + 1;
+    const totalBatches = Math.ceil(articles.length / BATCH_SIZE);
 
-  const responseText = response.content[0].text;
+    const articlesText = batch.map(a =>
+      `[${a.globalIndex}] ${a.title}\n    Source: ${a.source} | URL: ${a.url}\n    ${a.snippet.slice(0, 150)}...`
+    ).join('\n\n');
 
-  // Parse JSON from response
-  let scored;
-  try {
-    const jsonMatch = responseText.match(/```json\s*([\s\S]*?)```/) || responseText.match(/\[[\s\S]*\]/);
-    const jsonStr = jsonMatch ? (jsonMatch[1] || jsonMatch[0]) : responseText;
-    scored = JSON.parse(jsonStr);
-  } catch (err) {
-    log(`ERROR: Failed to parse scoring response: ${err.message}`);
-    log(`  Raw response (first 500 chars): ${responseText.slice(0, 500)}`);
-    return 'error';
+    log(`  Scoring batch ${batchNum}/${totalBatches} (${batch.length} articles)...`);
+
+    let responseText;
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const response = await anthropic.messages.create({
+          model: LLM_MODEL,
+          max_tokens: 4000,
+          messages: [{
+            role: 'user',
+            content: `${scoringPrompt}\n\n---\n\nArticles to score:\n\n${articlesText}`
+          }]
+        });
+        responseText = response.content[0].text;
+        break;
+      } catch (err) {
+        if (attempt < 2) {
+          log(`  WARN: batch ${batchNum} attempt ${attempt} failed (${err.message}), retrying...`);
+          await new Promise(r => setTimeout(r, 3000));
+        } else {
+          log(`  ✗ batch ${batchNum} failed after 2 attempts: ${err.message}`);
+        }
+      }
+    }
+
+    if (!responseText) continue;
+
+    // Parse JSON with repair
+    const batchScored = parseScoreJSON(responseText);
+    if (batchScored) {
+      allScored.push(...batchScored);
+      log(`  ✓ batch ${batchNum}: ${batchScored.length} topics scored`);
+    }
   }
+
+  const scored = allScored;
 
   // Validate and sort
   if (!Array.isArray(scored)) {
