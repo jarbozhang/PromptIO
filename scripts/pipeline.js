@@ -19,6 +19,33 @@ const SCORING_PROMPT_PATH = path.join(ROOT, 'config/prompts/scoring.md');
 const WECHAT_PROMPT_PATH = path.join(ROOT, 'config/prompts/wechat.md');
 const LOCK_FILE = path.join(ROOT, 'pipeline.lock');
 
+// ── Load .env ───────────────────────────────────────────
+loadEnv(path.join(ROOT, '.env'));
+
+// LLM config: supports Anthropic direct or GLM Coding Plan (Anthropic-compatible)
+const LLM_MODEL = process.env.LLM_MODEL || 'claude-sonnet-4-20250514';
+const ANTHROPIC_BASE_URL = process.env.ANTHROPIC_BASE_URL; // undefined = Anthropic default
+
+function createAnthropicClient() {
+  const opts = {};
+  if (ANTHROPIC_BASE_URL) opts.baseURL = ANTHROPIC_BASE_URL;
+  return new Anthropic(opts);
+}
+
+function loadEnv(filepath) {
+  if (!fs.existsSync(filepath)) return;
+  const lines = fs.readFileSync(filepath, 'utf-8').split('\n');
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) continue;
+    const eqIdx = trimmed.indexOf('=');
+    if (eqIdx === -1) continue;
+    const key = trimmed.slice(0, eqIdx).trim();
+    const val = trimmed.slice(eqIdx + 1).trim();
+    if (!process.env[key]) process.env[key] = val;
+  }
+}
+
 // ── Directories ─────────────────────────────────────────
 const SOURCES_DIR = path.join(ROOT, 'sources', TODAY);
 const TOPICS_DIR = path.join(ROOT, 'topics', TODAY);
@@ -332,12 +359,12 @@ async function phaseScore() {
     `[${i + 1}] ${a.title}\n    Source: ${a.source} | URL: ${a.url}\n    ${a.snippet.slice(0, 200)}...`
   ).join('\n\n');
 
-  const anthropic = new Anthropic();
+  const anthropic = createAnthropicClient();
 
   log(`  Sending ${articles.length} articles to Claude for scoring...`);
 
   const response = await anthropic.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: LLM_MODEL,
     max_tokens: 4000,
     messages: [{
       role: 'user',
@@ -417,7 +444,7 @@ async function phaseGenerate() {
   }
 
   const wechatPrompt = fs.readFileSync(WECHAT_PROMPT_PATH, 'utf-8');
-  const anthropic = new Anthropic();
+  const anthropic = createAnthropicClient();
 
   for (const topicFile of topicFiles) {
     const raw = fs.readFileSync(path.join(TOPICS_DIR, topicFile), 'utf-8');
@@ -432,7 +459,7 @@ async function phaseGenerate() {
     try {
       // Generate article
       const response = await anthropic.messages.create({
-        model: 'claude-sonnet-4-20250514',
+        model: LLM_MODEL,
         max_tokens: 8000,
         messages: [{
           role: 'user',
@@ -534,6 +561,7 @@ async function main() {
 
   fs.mkdirSync(LOGS_DIR, { recursive: true });
   log(`Pipeline started`);
+  log(`LLM: ${LLM_MODEL} via ${ANTHROPIC_BASE_URL || 'api.anthropic.com'}`);
 
   acquireLock();
 
