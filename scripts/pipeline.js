@@ -8,6 +8,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { fileURLToPath } from 'url';
 import { parse as parseYaml } from './lib/yaml.js';
+import { titleScorer, goldQuote, summaryGen } from './lib/gates.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -518,9 +519,40 @@ async function phaseGenerate() {
 
       const articleText = response.content[0].text;
 
-      // Write wechat draft
-      const draft = matter.stringify(articleText, {
-        title: topic.title,
+      // Word count check (Chinese characters)
+      const chineseChars = (articleText.match(/[\u4e00-\u9fff]/g) || []).length;
+      if (chineseChars < 800 || chineseChars > 2200) {
+        log(`  ⚠ Word count outside target range: ${chineseChars} Chinese chars (target: 1000-1800)`);
+      }
+
+      // Run post-generation gates in parallel
+      const gateResults = await Promise.allSettled([
+        titleScorer(articleText, anthropic, LLM_MODEL),
+        goldQuote(articleText, anthropic, LLM_MODEL),
+        summaryGen(articleText, anthropic, LLM_MODEL),
+      ]);
+
+      // Extract gate results
+      const gateFields = {};
+      const gateNames = ['titleScorer', 'goldQuote', 'summaryGen'];
+      const gateStatus = [];
+
+      for (let i = 0; i < gateResults.length; i++) {
+        const result = gateResults[i];
+        if (result.status === 'fulfilled') {
+          Object.assign(gateFields, result.value);
+          gateStatus.push(`${gateNames[i]} ✓`);
+          log(`  ✓ Gate ${gateNames[i]} succeeded`);
+        } else {
+          gateStatus.push(`${gateNames[i]} ✗`);
+          log(`  ✗ Gate ${gateNames[i]} failed: ${result.reason?.message || result.reason}`);
+        }
+      }
+      log(`  Gates: ${gateStatus.join(', ')}`);
+
+      // Build frontmatter, merging gate results
+      const frontmatter = {
+        title: gateFields.title || topic.title,
         source_url: topic.source_url,
         score: topic.score,
         scoring_reason: reason.trim(),
@@ -528,10 +560,21 @@ async function phaseGenerate() {
         platform: 'wechat',
         tags: topic.tags || [],
         created_at: new Date().toISOString(),
-      });
+      };
+
+      // Preserve original title if gate replaced it
+      if (gateFields.title) {
+        frontmatter.original_title = topic.title;
+      }
+      if (gateFields.title_score !== undefined) frontmatter.title_score = gateFields.title_score;
+      if (gateFields.title_alternatives) frontmatter.title_alternatives = gateFields.title_alternatives;
+      if (gateFields.gold_quote) frontmatter.gold_quote = gateFields.gold_quote;
+      if (gateFields.summary) frontmatter.summary = gateFields.summary;
+
+      const draft = matter.stringify(articleText, frontmatter);
 
       fs.writeFileSync(path.join(draftDir, 'wechat.md'), draft);
-      log(`  ✓ ${topic.title}`);
+      log(`  ✓ ${frontmatter.title}`);
 
       // Generate cover image via Gemini
       try {
