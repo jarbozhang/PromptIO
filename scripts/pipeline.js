@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
-import { execSync } from 'child_process';
+import { execSync, execFileSync } from 'child_process';
 import Parser from 'rss-parser';
 import matter from 'gray-matter';
 import Anthropic from '@anthropic-ai/sdk';
@@ -93,7 +93,7 @@ function gitCommit(message) {
       log('git: nothing to commit');
       return;
     }
-    execSync(`git commit -m "${message}"`, { cwd: ROOT, stdio: 'pipe' });
+    execFileSync('git', ['commit', '-m', message], { cwd: ROOT, stdio: 'pipe' });
     log(`git: committed "${message}"`);
   } catch (err) {
     log(`ERROR: git commit failed: ${err.message}`);
