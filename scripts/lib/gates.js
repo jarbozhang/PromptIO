@@ -47,18 +47,21 @@ export async function titleScorer(articleText, client, model) {
     messages: [{ role: 'user', content: `${prompt}\n\n---\n\n${articleText}` }],
   });
 
-  const text = response.content[0].text;
+  const text = response.content?.[0]?.text;
+  if (!text) {
+    throw new Error('titleScorer: LLM returned empty or missing content');
+  }
   const titles = parseTitleJSON(text);
 
   if (!titles || titles.length === 0) {
     throw new Error('titleScorer: failed to parse titles from LLM response');
   }
 
-  // Coerce scores to numbers, sort descending
-  const scored = titles.map(t => ({
-    title: t.title,
-    score: Number(t.score),
-  })).sort((a, b) => b.score - a.score);
+  // Coerce scores to numbers, filter invalid, sort descending
+  const scored = titles
+    .map(t => ({ title: t.title, score: Number(t.score) }))
+    .filter(t => t.title && !Number.isNaN(t.score))
+    .sort((a, b) => b.score - a.score);
 
   return {
     title: scored[0].title,
@@ -79,7 +82,7 @@ export async function goldQuote(articleText, client, model) {
     messages: [{ role: 'user', content: `${prompt}\n\n---\n\n${articleText}` }],
   });
 
-  const text = response.content[0].text.trim();
+  const text = response.content?.[0]?.text?.trim();
   if (!text) {
     throw new Error('goldQuote: LLM returned empty response');
   }
@@ -99,7 +102,7 @@ export async function summaryGen(articleText, client, model) {
     messages: [{ role: 'user', content: `${prompt}\n\n---\n\n${articleText}` }],
   });
 
-  const text = response.content[0].text.trim();
+  const text = response.content?.[0]?.text?.trim();
   if (!text) {
     throw new Error('summaryGen: LLM returned empty response');
   }

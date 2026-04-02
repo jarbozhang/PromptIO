@@ -88,8 +88,8 @@ function releaseLock() {
 // ── Git helpers ─────────────────────────────────────────
 function gitCommit(message) {
   try {
-    execSync('git add -A', { cwd: ROOT, stdio: 'pipe' });
-    const status = execSync('git status --porcelain', { cwd: ROOT, encoding: 'utf-8' });
+    execFileSync('git', ['add', '-A'], { cwd: ROOT, stdio: 'pipe' });
+    const status = execFileSync('git', ['status', '--porcelain'], { cwd: ROOT, encoding: 'utf-8' });
     if (!status.trim()) {
       log('git: nothing to commit');
       return;
@@ -642,7 +642,7 @@ function slugify(text) {
 function notify(message) {
   if (process.platform === 'darwin') {
     try {
-      execSync(`osascript -e 'display notification "${message}" with title "Hamburg Pipeline"'`);
+      execFileSync('osascript', ['-e', `display notification "${message.replace(/"/g, '\\"')}" with title "Hamburg Pipeline"`]);
     } catch { /* non-blocking */ }
   }
 }
