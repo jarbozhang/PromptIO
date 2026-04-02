@@ -48,7 +48,7 @@ npm test            # 运行测试
 4. 我的判断（必须有立场）
 5. 行动建议（可选）
 
-选题偏好：novelty 50% + depth_potential 30% + relevance 20%
+选题偏好：novelty 40% + practicality 35% + depth_potential 25%
 核心原则：如果量子位已经报道了，我们就不选这个题
 
 ## Skill routing
