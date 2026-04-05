@@ -1,0 +1,25 @@
+Andrej Karpathy (@karpathy) — July 3, 2026
+
+Thread: Building Local AI Knowledge Bases with LLMs
+
+Karpathy shared his approach to building personal knowledge bases using LLMs. Here's the full breakdown:
+
+**Data Ingestion**: Source documents (articles, papers, images, web pages) go into a raw/ directory. Then LLMs "incrementally compile a wiki" — processing these raw inputs into structured markdown files with summaries, backlinks, and categorized concepts.
+
+**IDE / Frontend**: Obsidian serves as the viewing interface where users can browse raw data, the compiled wiki, and visualizations. Key quote: "the LLM writes and maintains all of the data of the wiki, I rarely touch it directly."
+
+**Q&A Capabilities**: Once wikis reach substantial size (~100 articles, ~400K words), users can query complex questions. The LLM researches across the entire knowledge base to answer. Karpathy found that LLMs handle "auto-maintaining index files and brief summaries" effectively — no sophisticated RAG (Retrieval Augmented Generation) systems needed. Simple markdown files with good structure work surprisingly well.
+
+**Output Formats**: Results render as markdown, Marp slideshows, or matplotlib images, all viewable directly in Obsidian. Users can file outputs back into the wiki to enhance it iteratively — creating a compounding loop.
+
+**Linting**: LLMs perform health checks on the wiki, identifying inconsistencies, imputing missing data, and suggesting new article candidates. This self-maintenance keeps the knowledge base clean and growing.
+
+**Token Efficiency**: Queries against a well-structured wiki become much cheaper than rethinking problems from scratch each time. The knowledge compounds — each exploration adds to the base, improving future queries.
+
+**Vision**: Karpathy concludes there's opportunity for "an incredible new product instead of a hacky collection of scripts." He sees this as a new category of software.
+
+**Follow-up in thread**: Karpathy noted that LLM teams could "iteratively construct an entire ephemeral wiki, lint it, loop a few times, then write a full report" — going "way beyond a .decode()." This suggests the pattern could scale from personal knowledge management to automated research and report generation.
+
+**Community Response**: The thread generated significant discussion. Commenters highlighted extensions including: structured entity extraction, contradiction detection across articles, cross-domain knowledge synthesis, and scaling from personal to organizational use cases. One respondent noted the particular impact for researchers without institutional library access.
+
+Key context: Karpathy is the former head of AI at Tesla and a founding member of OpenAI. He's widely respected in the AI community for making complex concepts accessible. This thread represents his practical approach to using LLMs not just for one-off queries, but as persistent, compounding knowledge infrastructure.
