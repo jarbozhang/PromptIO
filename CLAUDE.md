@@ -6,22 +6,21 @@
 
 ## 架构
 
-- **pipeline.js** — 主 pipeline (Node.js + Anthropic SDK)，cron 定时触发
+- **pipeline.js** — RSS 采集脚本 (fetch-only)，评分和生成由 Claude Code 会话直接完成
 - **Git 作为内容数据库** — 每篇内容是 markdown 文件，frontmatter 管理状态
 - **状态机** — draft → approved → published (或 rejected / publish_failed)
 
 ## 技术栈
 
 - Node.js (ESM)
-- Anthropic SDK (选题评分 + 文章生成)
-- Google Generative AI (封面图生成)
 - rss-parser (RSS 采集)
 - gray-matter (frontmatter 解析)
+- Claude Code 会话 (选题评分 + 文章生成 + gates)
 
 ## 命令
 
 ```bash
-npm run pipeline    # 执行完整采集→选题→生成流程
+npm run pipeline    # RSS 采集（仅 fetch，不含评分/生成）
 npm run publish     # 发布 approved 状态的文章到公众号
 npm run setup       # 初始化配置
 npm test            # 运行测试
