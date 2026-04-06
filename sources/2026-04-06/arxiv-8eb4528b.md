@@ -1,0 +1,25 @@
+---
+title: >-
+  Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by
+  Unifying Text to 2D and 3D Generation
+url: 'https://arxiv.org/abs/2604.02289v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Chongjie Ye
+  - Cheng Cao
+  - Chuanyu Pan
+  - Yiming Hao
+  - Yihao Zhi
+categories:
+  - cs.CV
+  - cs.AI
+  - cs.CV
+published: '2026-04-02T17:29:38Z'
+fetched_at: '2026-04-06T00:50:51.199Z'
+---
+Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D imagery, high-quality 3D assets are scarce, making 3D synthesis under-constrained. Existing methods often rely on indirect pipelines that edit in 2D and lift results into 3D via optimization, sacrificing geometric consistency. We present Omni123, a 3D-native foundation model that unifies text-to-2D and text-to-3D generation within a single autoregressive framework. Our key insight is that cross-modal consistency between images and 3D can serve as an implicit structural constraint. By representing text, images, and 3D as discrete tokens in a shared sequence space, the model leverages abundant 2D data as a geometric prior to improve 3D representations. We introduce an interleaved X-to-X training paradigm that coordinates diverse cross-modal tasks over heterogeneous paired datasets without requiring fully aligned text-image-3D triplets. By traversing semantic-visual-geometric cycles (e.g., text to image to 3D to image) within autoregressive sequences, the model jointly enforces semantic alignment, appearance fidelity, and multi-view geometric consistency. Experiments show that Omni123 significantly improves text-guided 3D generation and editing, demonstrating a scalable path toward multimodal 3D world models.
+
+Authors: Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi
+Categories: cs.CV, cs.AI, cs.CV

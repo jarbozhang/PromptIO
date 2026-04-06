@@ -1,0 +1,713 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - main [ref=e3]:
+      - generic [ref=e6]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+        - navigation [ref=e13]:
+          - list [ref=e14]:
+            - listitem [ref=e15]:
+              - link "Orchestration" [ref=e16] [cursor=pointer]:
+                - /url: /category/orchestration
+            - listitem [ref=e17]:
+              - link "Infrastructure" [ref=e18] [cursor=pointer]:
+                - /url: /category/infrastructure
+            - listitem [ref=e19]:
+              - link "Data" [ref=e20] [cursor=pointer]:
+                - /url: /category/data
+            - listitem [ref=e21]:
+              - link "Security" [ref=e22] [cursor=pointer]:
+                - /url: /category/security
+            - listitem [ref=e23]:
+              - link "Events" [ref=e24] [cursor=pointer]:
+                - /url: /events
+            - button "More" [ref=e27] [cursor=pointer]:
+              - generic [ref=e28]: More
+              - img [ref=e29]
+        - generic [ref=e31]:
+          - button "Open search bar" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+          - link "Newsletters" [ref=e35] [cursor=pointer]:
+            - /url: /newsletters
+            - generic [ref=e36]: Newsletters
+      - generic [ref=e37]:
+        - article [ref=e38]:
+          - generic [ref=e40]: Featured
+          - heading "Claude Code costs up to $200 a month. Goose does the same thing for free." [level=1] [ref=e42]
+          - link "Michael Nuñez" [ref=e45] [cursor=pointer]:
+            - /url: /author/michael_nunez
+          - time [ref=e46]: January 19, 2026
+          - figure [ref=e48]:
+            - img "nuneybits Vector art of white goose silhouette flying through c 8100d5a7-9e36-4ed6-a188-016470e1d0e1" [ref=e49]
+            - generic [ref=e50]:
+              - paragraph [ref=e52]: "Credit: VentureBeat made with Midjourney"
+              - generic [ref=e53]:
+                - button "Copy link" [ref=e54] [cursor=pointer]:
+                  - img [ref=e55]
+                - button "Share on LinkedIn" [ref=e58] [cursor=pointer]:
+                  - img [ref=e59]
+                - button "Share on X" [ref=e61] [cursor=pointer]:
+                  - img [ref=e62]
+                - button "Share on Facebook" [ref=e64] [cursor=pointer]:
+                  - img [ref=e65]
+                - link "Add to Google Preferred Source" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.google.com/preferences/source?q=venturebeat.com
+                  - img [ref=e68]
+          - generic [ref=e70]:
+            - generic [ref=e73]:
+              - paragraph [ref=e74]: "The artificial intelligence coding revolution comes with a catch: it's expensive."
+              - paragraph [ref=e75]:
+                - link "Claude Code" [ref=e76] [cursor=pointer]:
+                  - /url: https://claude.com/product/claude-code
+                - text: ", Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its"
+                - link "pricing" [ref=e77] [cursor=pointer]:
+                  - /url: https://claude.com/pricing
+                - text: — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve.
+              - paragraph [ref=e78]:
+                - text: Now, a free alternative is gaining traction.
+                - link "Goose" [ref=e79] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: ", an open-source AI agent developed by"
+                - link "Block" [ref=e80] [cursor=pointer]:
+                  - /url: https://block.xyz/
+                - text: (the financial technology company formerly known as Square), offers nearly identical functionality to
+                - link "Claude Code" [ref=e81] [cursor=pointer]:
+                  - /url: https://claude.com/product/claude-code
+                - text: but runs entirely on a user's local machine. No subscription fees. No cloud dependency. No rate limits that reset every five hours.
+              - paragraph [ref=e83]:
+                - text: "\"Your data stays with you, period,\" said Parth Sareen, a software engineer who demonstrated the tool during a"
+                - link "recent livestream" [ref=e84] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=WG10r2N0IwM
+                - text: ". The comment captures the core appeal: Goose gives developers complete control over their AI-powered workflow, including the ability to work offline — even on an airplane."
+              - paragraph [ref=e85]:
+                - text: The project has exploded in popularity. Goose now boasts more than
+                - link "26,100 stars on GitHub" [ref=e86] [cursor=pointer]:
+                  - /url: https://github.com/block/goose
+                - text: ", the code-sharing platform, with 362 contributors and 102 releases since its launch. The latest version,"
+                - link "1.20.1" [ref=e87] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/docs/getting-started/installation
+                - text: ", shipped on January 19, 2026, reflecting a development pace that rivals commercial products."
+              - paragraph [ref=e89]: "For developers frustrated by Claude Code's pricing structure and usage caps, Goose represents something increasingly rare in the AI industry: a genuinely free, no-strings-attached option for serious work."
+              - iframe [ref=e90]:
+                - generic [active] [ref=f1e1]:
+                  - generic "YouTube Video Player" [ref=f1e3]
+                  - generic [ref=f1e5]:
+                    - generic:
+                      - generic:
+                        - button "Play video" [ref=f1e10] [cursor=pointer]
+                        - button "Hide player controls" [ref=f1e12] [cursor=pointer]
+                        - generic [ref=f1e14]:
+                          - generic [ref=f1e19]:
+                            - generic [ref=f1e20]:
+                              - link "Build Apps Faster with AI | Vibe Coding with Goose" [ref=f1e21] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=D-DpDunrbpo
+                              - link "goose OSS" [ref=f1e22] [cursor=pointer]:
+                                - /url: /channel/UCVLuT_AS687XAJ__-COCRFw
+                                - generic [ref=f1e23]: goose OSS
+                            - generic [ref=f1e24]:
+                              - button [ref=f1e25] [cursor=pointer]
+                              - generic [ref=f1e27]:
+                                - generic: goose OSS
+                                - generic: 8.39K subscribers
+                          - generic [ref=f1e28]:
+                            - button "Share" [ref=f1e31] [cursor=pointer]:
+                              - generic [ref=f1e35]:
+                                - img
+                            - link "Watch on YouTube" [ref=f1e42] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=D-DpDunrbpo
+                              - generic [ref=f1e45]:
+                                - text: Watch on
+                                - img [ref=f1e47]:
+                                  - generic [ref=f1e49]:
+                                    - img
+              - heading "Anthropic's new rate limits spark a developer revolt" [level=2] [ref=e91]
+              - paragraph [ref=e92]:
+                - text: To understand why
+                - link "Goose" [ref=e93] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: matters, you need to understand the
+                - link "Claude Code pricing controversy" [ref=e94] [cursor=pointer]:
+                  - /url: https://techcrunch.com/2025/07/17/anthropic-tightens-usage-limits-for-claude-code-without-telling-users/
+                - text: .
+              - paragraph [ref=e95]:
+                - text: Anthropic, the San Francisco artificial intelligence company founded by former OpenAI executives, offers Claude Code as part of its subscription tiers. The free plan provides no access whatsoever. The
+                - link "Pro plan" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.anthropic.com/news/claude-pro
+                - text: ", at $17 per month with annual billing (or $20 monthly), limits users to just 10 to 40 prompts every five hours — a constraint that serious developers exhaust within minutes of intensive work."
+              - paragraph [ref=e97]:
+                - text: The
+                - link "Max plans" [ref=e98] [cursor=pointer]:
+                  - /url: https://support.claude.com/en/articles/11049741-what-is-the-max-plan
+                - text: ", at $100 and $200 per month, offer more headroom: 50 to 200 prompts and 200 to 800 prompts respectively, plus access to Anthropic's most powerful model,"
+                - link "Claude 4.5 Opus" [ref=e99] [cursor=pointer]:
+                  - /url: https://www.anthropic.com/news/claude-opus-4-5
+                - text: . But even these premium tiers come with restrictions that have inflamed the developer community.
+              - paragraph [ref=e100]: In late July, Anthropic announced new weekly rate limits. Under the system, Pro users receive 40 to 80 hours of Sonnet 4 usage per week. Max users at the $200 tier get 240 to 480 hours of Sonnet 4, plus 24 to 40 hours of Opus 4. Nearly five months later, the frustration has not subsided.
+              - paragraph [ref=e101]: The problem? Those "hours" are not actual hours. They represent token-based limits that vary wildly depending on codebase size, conversation length, and the complexity of the code being processed. Independent analysis suggests the actual per-session limits translate to roughly 44,000 tokens for Pro users and 220,000 tokens for the $200 Max plan.
+              - paragraph [ref=e102]:
+                - text: "\"It's confusing and vague,\" one developer wrote in a"
+                - link "widely shared analysis" [ref=e103] [cursor=pointer]:
+                  - /url: https://userjot.com/blog/claude-code-pricing-200-dollar-plan-worth-it
+                - text: . "When they say '24-40 hours of Opus 4,' that doesn't really tell you anything useful about what you're actually getting."
+              - paragraph [ref=e104]:
+                - text: The
+                - link "backlash on Reddit" [ref=e105] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/Anthropic/comments/1mbo4uw/claude_code_max_new_weekly_rate_limits/
+                - text: and
+                - link "developer forums" [ref=e106] [cursor=pointer]:
+                  - /url: https://venturebeat.com/ai/anthropic-throttles-claude-rate-limits-devs-call-foul
+                - text: has been fierce. Some users report hitting their daily limits within 30 minutes of intensive coding. Others have canceled their subscriptions entirely, calling the new restrictions "a joke" and "unusable for real work."
+              - paragraph [ref=e107]:
+                - text: Anthropic has defended the changes, stating that the limits affect fewer than five percent of users and target people running Claude Code "
+                - link "continuously in the background, 24/7" [ref=e108] [cursor=pointer]:
+                  - /url: https://techcrunch.com/2025/07/28/anthropic-unveils-new-rate-limits-to-curb-claude-code-power-users/
+                - text: ." But the company has not clarified whether that figure refers to five percent of Max subscribers or five percent of all users — a distinction that matters enormously.
+              - heading "How Block built a free AI coding agent that works offline" [level=2] [ref=e109]
+              - paragraph [ref=e110]:
+                - link "Goose" [ref=e111] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: takes a radically different approach to the same problem.
+              - paragraph [ref=e112]:
+                - text: Built by
+                - link "Block" [ref=e113] [cursor=pointer]:
+                  - /url: https://block.xyz/
+                - text: ", the payments company led by Jack Dorsey, Goose is what engineers call an \""
+                - link "on-machine AI agent" [ref=e114] [cursor=pointer]:
+                  - /url: https://github.com/block/goose
+                - text: ." Unlike Claude Code, which sends your queries to Anthropic's servers for processing, Goose can run entirely on your local computer using open-source language models that you download and control yourself.
+              - paragraph [ref=e115]:
+                - text: The project's documentation describes it as going "
+                - link "beyond code suggestions" [ref=e116] [cursor=pointer]:
+                  - /url: https://github.com/block/goose
+                - text: "\" to \"install, execute, edit, and test with any LLM.\" That last phrase — \"any LLM\" — is the key differentiator. Goose is model-agnostic by design."
+              - paragraph [ref=e117]:
+                - text: You can connect Goose to Anthropic's
+                - link "Claude models" [ref=e118] [cursor=pointer]:
+                  - /url: https://platform.claude.com/docs/en/about-claude/models/overview
+                - text: if you have
+                - link "API access" [ref=e119] [cursor=pointer]:
+                  - /url: https://claude.com/platform/api
+                - text: . You can use OpenAI's
+                - link "GPT-5" [ref=e120] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/gpt-5
+                - text: or Google's
+                - link "Gemini" [ref=e121] [cursor=pointer]:
+                  - /url: https://ai.google.dev/gemini-api/docs
+                - text: . You can route it through services like
+                - link "Groq" [ref=e122] [cursor=pointer]:
+                  - /url: https://groq.com/
+                - text: or
+                - link "OpenRouter" [ref=e123] [cursor=pointer]:
+                  - /url: https://openrouter.ai/
+                - text: . Or — and this is where things get interesting — you can run it entirely locally using tools like
+                - link "Ollama" [ref=e124] [cursor=pointer]:
+                  - /url: https://ollama.com/
+                - text: ", which let you download and execute open-source models on your own hardware."
+              - paragraph [ref=e125]: The practical implications are significant. With a local setup, there are no subscription fees, no usage caps, no rate limits, and no concerns about your code being sent to external servers. Your conversations with the AI never leave your machine.
+              - paragraph [ref=e126]:
+                - text: "\"I use Ollama all the time on planes — it's a lot of fun!\""
+                - link "Sareen noted" [ref=e127] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=WG10r2N0IwM
+                - text: during a demonstration, highlighting how local models free developers from the constraints of internet connectivity.
+              - heading "What Goose can do that traditional code assistants can't" [level=2] [ref=e128]
+              - paragraph [ref=e129]:
+                - link "Goose" [ref=e130] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: operates as a command-line tool or desktop application that can autonomously perform complex development tasks. It can build entire projects from scratch, write and execute code, debug failures, orchestrate workflows across multiple files, and interact with external APIs — all without constant human oversight.
+              - paragraph [ref=e131]:
+                - text: The architecture relies on what the AI industry calls "
+                - link "tool calling" [ref=e132] [cursor=pointer]:
+                  - /url: https://www.ibm.com/think/topics/tool-calling
+                - text: "\" or \""
+                - link "function calling" [ref=e133] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/function-calling?api-mode=chat
+                - text: "\" — the ability for a language model to request specific actions from external systems. When you ask"
+                - link "Goose" [ref=e134] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: to create a new file, run a test suite, or check the status of a GitHub pull request, it doesn't just generate text describing what should happen. It actually executes those operations.
+              - paragraph [ref=e135]:
+                - text: This capability depends heavily on the underlying language model.
+                - link "Claude 4 models" [ref=e136] [cursor=pointer]:
+                  - /url: https://platform.claude.com/docs/en/about-claude/models/overview
+                - text: from Anthropic currently perform best at tool calling, according to the
+                - link "Berkeley Function-Calling Leaderboard" [ref=e137] [cursor=pointer]:
+                  - /url: https://gorilla.cs.berkeley.edu/leaderboard.html
+                - text: ", which ranks models on their ability to translate natural language requests into executable code and system commands."
+              - paragraph [ref=e138]:
+                - text: "But newer open-source models are catching up quickly. Goose's documentation highlights several options with strong tool-calling support: Meta's"
+                - link "Llama series" [ref=e139] [cursor=pointer]:
+                  - /url: https://www.llama.com/
+                - text: ", Alibaba's"
+                - link "Qwen models" [ref=e140] [cursor=pointer]:
+                  - /url: https://qwen.ai/home
+                - text: ", Google's"
+                - link "Gemma variants" [ref=e141] [cursor=pointer]:
+                  - /url: https://deepmind.google/models/gemma/
+                - text: ", and DeepSeek's"
+                - link "reasoning-focused architectures" [ref=e142] [cursor=pointer]:
+                  - /url: https://huggingface.co/deepseek-ai/DeepSeek-R1
+                - text: .
+              - paragraph [ref=e143]:
+                - text: The tool also integrates with the
+                - link "Model Context Protocol" [ref=e144] [cursor=pointer]:
+                  - /url: https://modelcontextprotocol.io/docs/getting-started/intro
+                - text: ", or MCP, an emerging standard for connecting AI agents to external services. Through MCP, Goose can access databases, search engines, file systems, and third-party APIs — extending its capabilities far beyond what the base language model provides."
+              - heading "Setting Up Goose with a Local Model" [level=2] [ref=e145]
+              - paragraph [ref=e146]:
+                - text: "For developers interested in a completely free, privacy-preserving setup, the process involves three main components:"
+                - link "Goose" [ref=e147] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: itself,
+                - link "Ollama" [ref=e148] [cursor=pointer]:
+                  - /url: https://ollama.com/
+                - text: (a tool for running open-source models locally), and a compatible language model.
+              - paragraph [ref=e149]: "Step 1: Install Ollama"
+              - paragraph [ref=e150]:
+                - link "Ollama" [ref=e151] [cursor=pointer]:
+                  - /url: https://ollama.com/
+                - text: is an open-source project that dramatically simplifies the process of running large language models on personal hardware. It handles the complex work of downloading, optimizing, and serving models through a simple interface.
+              - paragraph [ref=e152]:
+                - text: Download and install Ollama from
+                - link "ollama.com" [ref=e153] [cursor=pointer]:
+                  - /url: http://ollama.com
+                - text: . Once installed, you can pull models with a single command. For coding tasks,
+                - link "Qwen 2.5" [ref=e154] [cursor=pointer]:
+                  - /url: https://qwen.ai/blog?id=qwen2.5-max
+                - text: "offers strong tool-calling support:"
+              - paragraph [ref=e155]: ollama run qwen2.5
+              - paragraph [ref=e156]: The model downloads automatically and begins running on your machine.
+              - paragraph [ref=e157]: "Step 2: Install Goose"
+              - paragraph [ref=e158]:
+                - link "Goose" [ref=e159] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: is available as both a desktop application and a command-line interface. The desktop version provides a more visual experience, while the CLI appeals to developers who prefer working entirely in the terminal.
+              - paragraph [ref=e160]:
+                - text: Installation instructions vary by operating system but generally involve downloading from Goose's
+                - link "GitHub releases page" [ref=e161] [cursor=pointer]:
+                  - /url: https://github.com/block/goose
+                - text: or using a package manager. Block provides pre-built binaries for macOS (both Intel and Apple Silicon), Windows, and Linux.
+              - paragraph [ref=e162]: "Step 3: Configure the Connection"
+              - paragraph [ref=e163]: In Goose Desktop, navigate to Settings, then Configure Provider, and select Ollama. Confirm that the API Host is set to http://localhost:11434 (Ollama's default port) and click Submit.
+              - paragraph [ref=e164]: For the command-line version, run goose configure, select "Configure Providers," choose Ollama, and enter the model name when prompted.
+              - paragraph [ref=e165]: That's it. Goose is now connected to a language model running entirely on your hardware, ready to execute complex coding tasks without any subscription fees or external dependencies.
+              - heading "The RAM, processing power, and trade-offs you should know about" [level=2] [ref=e166]
+              - paragraph [ref=e167]: "The obvious question: what kind of computer do you need?"
+              - paragraph [ref=e168]: Running large language models locally requires substantially more computational resources than typical software. The key constraint is memory — specifically, RAM on most systems, or VRAM if using a dedicated graphics card for acceleration.
+              - paragraph [ref=e169]:
+                - text: Block's
+                - link "documentation" [ref=e170] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/docs/category/guides
+                - text: suggests that 32 gigabytes of RAM provides "a solid baseline for larger models and outputs." For Mac users, this means the computer's unified memory is the primary bottleneck. For Windows and Linux users with discrete NVIDIA graphics cards, GPU memory (VRAM) matters more for acceleration.
+              - paragraph [ref=e171]:
+                - text: But you don't necessarily need expensive hardware to get started. Smaller models with fewer parameters run on much more modest systems.
+                - link "Qwen 2.5" [ref=e172] [cursor=pointer]:
+                  - /url: https://qwen.ai/blog?id=qwen2.5-max
+                - text: ", for instance, comes in multiple sizes, and the smaller variants can operate effectively on machines with 16 gigabytes of RAM."
+              - paragraph [ref=e173]:
+                - text: "\"You don't need to run the largest models to get excellent results,\""
+                - link "Sareen emphasized" [ref=e174] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=WG10r2N0IwM
+                - text: ". The practical recommendation: start with a smaller model to test your workflow, then scale up as needed."
+              - paragraph [ref=e175]:
+                - text: For context, Apple's entry-level
+                - link "MacBook Air" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.apple.com/macbook-air/
+                - text: with 8 gigabytes of RAM would struggle with most capable coding models. But a
+                - link "MacBook Pro" [ref=e177] [cursor=pointer]:
+                  - /url: https://www.apple.com/macbook-pro/
+                - text: with 32 gigabytes — increasingly common among professional developers — handles them comfortably.
+              - heading "Why keeping your code off the cloud matters more than ever" [level=2] [ref=e178]
+              - paragraph [ref=e179]:
+                - link "Goose" [ref=e180] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: with a local LLM is not a perfect substitute for
+                - link "Claude Code" [ref=e181] [cursor=pointer]:
+                  - /url: https://claude.com/product/claude-code
+                - text: . The comparison involves real trade-offs that developers should understand.
+              - paragraph [ref=e182]:
+                - text: "Model Quality:"
+                - link "Claude 4.5 Opus" [ref=e183] [cursor=pointer]:
+                  - /url: https://www.anthropic.com/news/claude-opus-4-5
+                - text: ", Anthropic's flagship model, remains arguably the most capable AI for software engineering tasks. It excels at understanding complex codebases, following nuanced instructions, and producing high-quality code on the first attempt. Open-source models have improved dramatically, but a gap persists — particularly for the most challenging tasks."
+              - paragraph [ref=e184]:
+                - text: One developer who switched to the $200 Claude Code plan
+                - link "described the difference bluntly" [ref=e185] [cursor=pointer]:
+                  - /url: https://userjot.com/blog/claude-code-pricing-200-dollar-plan-worth-it
+                - text: ": \"When I say 'make this look modern,' Opus knows what I mean. Other models give me Bootstrap circa 2015.\""
+              - paragraph [ref=e186]:
+                - text: "Context Window:"
+                - link "Claude Sonnet 4.5" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.anthropic.com/news/claude-sonnet-4-5
+                - text: ", accessible through the API, offers a massive one-million-token context window — enough to load entire large codebases without chunking or context management issues. Most local models are limited to 4,096 or 8,192 tokens by default, though many can be configured for longer contexts at the cost of increased memory usage and slower processing."
+              - paragraph [ref=e188]:
+                - text: "Speed: Cloud-based services like"
+                - link "Claude Code" [ref=e189] [cursor=pointer]:
+                  - /url: https://claude.com/product/claude-code
+                - text: run on dedicated server hardware optimized for AI inference. Local models, running on consumer laptops, typically process requests more slowly. The difference matters for iterative workflows where you're making rapid changes and waiting for AI feedback.
+              - paragraph [ref=e190]:
+                - text: "Tooling Maturity:"
+                - link "Claude Code" [ref=e191] [cursor=pointer]:
+                  - /url: https://claude.com/product/claude-code
+                - text: benefits from Anthropic's dedicated engineering resources. Features like prompt caching (which can reduce costs by up to 90 percent for repeated contexts) and structured outputs are polished and well-documented.
+                - link "Goose" [ref=e192] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: ", while actively developed with 102 releases to date, relies on community contributions and may lack equivalent refinement in specific areas."
+              - heading "How Goose stacks up against Cursor, GitHub Copilot, and the paid AI coding market" [level=2] [ref=e193]
+              - paragraph [ref=e194]: Goose enters a crowded market of AI coding tools, but occupies a distinctive position.
+              - paragraph [ref=e195]:
+                - link "Cursor" [ref=e196] [cursor=pointer]:
+                  - /url: https://cursor.com/
+                - text: ", a popular AI-enhanced code editor, charges $20 per month for its"
+                - link "Pro tier" [ref=e197] [cursor=pointer]:
+                  - /url: https://cursor.com/pricing
+                - text: and $200 for
+                - link "Ultra" [ref=e198] [cursor=pointer]:
+                  - /url: https://cursor.com/pricing
+                - text: —pricing that mirrors
+                - link "Claude Code's Max plans" [ref=e199] [cursor=pointer]:
+                  - /url: https://claude.com/pricing
+                - text: . Cursor provides approximately 4,500 Sonnet 4 requests per month at the Ultra level, a substantially different allocation model than Claude Code's hourly resets.
+              - paragraph [ref=e200]:
+                - link "Cline" [ref=e201] [cursor=pointer]:
+                  - /url: https://cline.bot/
+                - text: ","
+                - link "Roo Code" [ref=e202] [cursor=pointer]:
+                  - /url: https://roocode.com/
+                - text: ", and similar open-source projects offer AI coding assistance but with varying levels of autonomy and tool integration. Many focus on code completion rather than the agentic task execution that defines Goose and Claude Code."
+              - paragraph [ref=e203]:
+                - text: Amazon's
+                - link "CodeWhisperer" [ref=e204] [cursor=pointer]:
+                  - /url: https://aws.amazon.com/blogs/aws/now-in-preview-amazon-codewhisperer-ml-powered-coding-companion/
+                - text: ","
+                - link "GitHub Copilot" [ref=e205] [cursor=pointer]:
+                  - /url: https://github.com/features/copilot
+                - text: ", and enterprise offerings from major cloud providers target large organizations with complex procurement processes and dedicated budgets. They are less relevant to individual developers and small teams seeking lightweight, flexible tools."
+              - paragraph [ref=e206]: Goose's combination of genuine autonomy, model agnosticism, local operation, and zero cost creates a unique value proposition. The tool is not trying to compete with commercial offerings on polish or model quality. It's competing on freedom — both financial and architectural.
+              - heading "The $200-a-month era for AI coding tools may be ending" [level=2] [ref=e207]
+              - paragraph [ref=e208]:
+                - text: The AI coding tools market is evolving quickly. Open-source models are improving at a pace that continually narrows the gap with proprietary alternatives. Moonshot AI's
+                - link "Kimi K2" [ref=e209] [cursor=pointer]:
+                  - /url: https://www.kimi.com/en
+                - text: and z.ai's
+                - link "GLM 4.5" [ref=e210] [cursor=pointer]:
+                  - /url: https://z.ai/blog/glm-4.5
+                - text: now benchmark near
+                - link "Claude Sonnet 4 levels" [ref=e211] [cursor=pointer]:
+                  - /url: https://www.anthropic.com/news/claude-4
+                - text: — and they're freely available.
+              - paragraph [ref=e212]: If this trajectory continues, the quality advantage that justifies Claude Code's premium pricing may erode. Anthropic would then face pressure to compete on features, user experience, and integration rather than raw model capability.
+              - paragraph [ref=e213]:
+                - text: For now, developers face a clear choice. Those who need the absolute best model quality, who can afford premium pricing, and who accept usage restrictions may prefer
+                - link "Claude Code" [ref=e214] [cursor=pointer]:
+                  - /url: https://claude.com/product/claude-code
+                - text: . Those who prioritize cost, privacy, offline access, and flexibility have a genuine alternative in
+                - link "Goose" [ref=e215] [cursor=pointer]:
+                  - /url: https://block.github.io/goose/
+                - text: .
+              - paragraph [ref=e216]: The fact that a $200-per-month commercial product has a zero-dollar open-source competitor with comparable core functionality is itself remarkable. It reflects both the maturation of open-source AI infrastructure and the appetite among developers for tools that respect their autonomy.
+              - paragraph [ref=e217]: Goose is not perfect. It requires more technical setup than commercial alternatives. It depends on hardware resources that not every developer possesses. Its model options, while improving rapidly, still trail the best proprietary offerings on complex tasks.
+              - paragraph [ref=e218]: "But for a growing community of developers, those limitations are acceptable trade-offs for something increasingly rare in the AI landscape: a tool that truly belongs to them."
+              - separator [ref=e219]
+              - paragraph [ref=e220]:
+                - text: Goose is available for download at
+                - link "github.com/block/goose" [ref=e221] [cursor=pointer]:
+                  - /url: http://github.com/block/goose
+                - text: . Ollama is available at
+                - link "ollama.com" [ref=e222] [cursor=pointer]:
+                  - /url: http://ollama.com
+                - text: . Both projects are free and open source.
+            - complementary [ref=e224]:
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - heading "Subscribe to get latest news!" [level=5] [ref=e228]
+                  - paragraph [ref=e229]: Deep insights for enterprise AI, data, and security leaders
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - checkbox "VB Daily" [ref=e233]:
+                      - generic [ref=e234]: VB Daily
+                    - checkbox "AI Weekly" [ref=e236]:
+                      - generic [ref=e237]: AI Weekly
+                    - checkbox "AGI Weekly" [ref=e239]:
+                      - generic [ref=e240]: AGI Weekly
+                    - checkbox "Security Weekly" [ref=e242]:
+                      - generic [ref=e243]: Security Weekly
+                    - checkbox "Data Infrastructure Weekly" [ref=e245]:
+                      - generic [ref=e246]: Data Infrastructure Weekly
+                    - checkbox "VB Events" [ref=e248]:
+                      - generic [ref=e249]: VB Events
+                    - checkbox "All of them" [ref=e251]:
+                      - generic [ref=e252]: All of them
+                  - generic [ref=e253]:
+                    - generic [ref=e254]:
+                      - textbox "Enter Your Email" [ref=e256]
+                      - paragraph [ref=e257]:
+                        - generic [ref=e258]:
+                          - text: By submitting your email, you agree to our
+                          - link "Terms" [ref=e259] [cursor=pointer]:
+                            - /url: /terms-of-service
+                          - text: and
+                          - link "Privacy Notice" [ref=e260] [cursor=pointer]:
+                            - /url: /privacy-policy
+                          - text: .
+                    - button "Get updates" [ref=e261] [cursor=pointer]:
+                      - generic [ref=e262]: Get updates
+        - generic [ref=e266]:
+          - heading "More" [level=2] [ref=e268]
+          - generic [ref=e272]:
+            - article [ref=e273]:
+              - link [ref=e274] [cursor=pointer]:
+                - /url: /infrastructure/nvidia-backed-thinklabs-ai-raises-usd28-million-to-tackle-a-growing-power
+                - figure [ref=e275]:
+                  - img "nuneybits Vector art of the electric grid b9ccec58-81e4-4cb1-9a24-7f8be84d69b5" [ref=e276]
+              - generic [ref=e277]:
+                - heading "Nvidia-backed ThinkLabs AI raises $28 million to tackle a growing power grid crunch" [level=2] [ref=e279]:
+                  - link "Nvidia-backed ThinkLabs AI raises $28 million to tackle a growing power grid crunch" [ref=e280] [cursor=pointer]:
+                    - /url: /infrastructure/nvidia-backed-thinklabs-ai-raises-usd28-million-to-tackle-a-growing-power
+                - paragraph [ref=e282]:
+                  - text: The funding marks a significant escalation in the race to apply AI not just to software and content generation, but to the physical infrastructure that powers modern life. While most AI investment headlines have centered on large language models and generative tools,
+                  - link "ThinkLabs" [ref=e283] [cursor=pointer]:
+                    - /url: https://thinklabs.ai/
+                  - text: "is pursuing a different and arguably more consequential application: using physics-informed AI to model the behavior of electrical grids in real time, compressing engineering studies that once took weeks or months into minutes."
+                - link "Michael Nuñez" [ref=e286] [cursor=pointer]:
+                  - /url: /author/michael_nunez
+                - time [ref=e287]: March 31, 2026
+            - article [ref=e288]:
+              - link [ref=e289] [cursor=pointer]:
+                - /url: /infrastructure/googles-new-turboquant-algorithm-speeds-up-ai-memory-8x-cutting-costs-by-50
+                - figure [ref=e290]:
+                  - img "Turbo Guy blasts off of GPU in cyberspace blank canvas world" [ref=e291]
+              - generic [ref=e292]:
+                - heading "Google's new TurboQuant algorithm speeds up AI memory 8x, cutting costs by 50% or more" [level=2] [ref=e294]:
+                  - link "Google's new TurboQuant algorithm speeds up AI memory 8x, cutting costs by 50% or more" [ref=e295] [cursor=pointer]:
+                    - /url: /infrastructure/googles-new-turboquant-algorithm-speeds-up-ai-memory-8x-cutting-costs-by-50
+                - generic [ref=e296]: Within 24 hours of the release, community members began porting the algorithm to popular local AI libraries like MLX for Apple Silicon and llama.cpp.
+                - link "Carl Franzen" [ref=e299] [cursor=pointer]:
+                  - /url: /author/carlfranzen
+                - time [ref=e300]: March 26, 2026
+            - article [ref=e301]:
+              - link [ref=e302] [cursor=pointer]:
+                - /url: /infrastructure/cloudflares-new-dynamic-workers-ditch-containers-to-run-ai-agent-code-100x
+                - figure [ref=e303]:
+                  - img "Rocket boots guy" [ref=e304]
+              - generic [ref=e305]:
+                - heading "Cloudflare’s new Dynamic Workers ditch containers to run AI agent code 100x faster" [level=2] [ref=e307]:
+                  - link "Cloudflare’s new Dynamic Workers ditch containers to run AI agent code 100x faster" [ref=e308] [cursor=pointer]:
+                    - /url: /infrastructure/cloudflares-new-dynamic-workers-ditch-containers-to-run-ai-agent-code-100x
+                - generic [ref=e309]: Cloudflare says dynamically loaded Workers are priced at $0.002 per unique Worker loaded per day, in addition to standard CPU and invocation charges
+                - link "Carl Franzen" [ref=e312] [cursor=pointer]:
+                  - /url: /author/carlfranzen
+                - time [ref=e313]: March 25, 2026
+            - article [ref=e314]:
+              - link [ref=e315] [cursor=pointer]:
+                - /url: /orchestration/the-three-disciplines-separating-ai-agent-demos-from-real-world-deployment
+                - figure [ref=e316]:
+                  - img "Creatio AI agents" [ref=e317]
+              - generic [ref=e318]:
+                - heading "The three disciplines separating AI agent demos from real-world deployment" [level=2] [ref=e320]:
+                  - link "The three disciplines separating AI agent demos from real-world deployment" [ref=e321] [cursor=pointer]:
+                    - /url: /orchestration/the-three-disciplines-separating-ai-agent-demos-from-real-world-deployment
+                - generic [ref=e322]: Enterprises are getting AI agents to 80–90% autonomy in production without multi-year data overhauls. Here's the methodology.
+                - link "Taryn Plumb" [ref=e325] [cursor=pointer]:
+                  - /url: /author/taryn-plumb
+                - time [ref=e326]: March 25, 2026
+            - article [ref=e327]:
+              - link [ref=e328] [cursor=pointer]:
+                - /url: /infrastructure/liquid-cooled-ai-systems-expose-the-limits-of-traditional-storage
+                - figure [ref=e329]:
+                  - img "AdobeStock 1725140751 Preview" [ref=e330]
+              - generic [ref=e331]:
+                - paragraph [ref=e332]: Partner Content
+                - heading "Liquid-cooled AI systems expose the limits of traditional storage architecture" [level=2] [ref=e334]:
+                  - link "Liquid-cooled AI systems expose the limits of traditional storage architecture" [ref=e335] [cursor=pointer]:
+                    - /url: /infrastructure/liquid-cooled-ai-systems-expose-the-limits-of-traditional-storage
+                - paragraph [ref=e337]: Presented by Solidigm
+                - link "VB Staff" [ref=e340] [cursor=pointer]:
+                  - /url: /author/vb-staff
+                - time [ref=e341]: March 24, 2026
+            - article [ref=e342]:
+              - link [ref=e343] [cursor=pointer]:
+                - /url: /orchestration/testing-autonomous-agents-or-how-i-learned-to-stop-worrying-and-embrace
+                - figure [ref=e344]:
+                  - img "AI chaos" [ref=e345]
+              - generic [ref=e346]:
+                - 'heading "Testing autonomous agents (Or: how I learned to stop worrying and embrace chaos)" [level=2] [ref=e348]':
+                  - 'link "Testing autonomous agents (Or: how I learned to stop worrying and embrace chaos)" [ref=e349] [cursor=pointer]':
+                    - /url: /orchestration/testing-autonomous-agents-or-how-i-learned-to-stop-worrying-and-embrace
+                - paragraph [ref=e351]: Look, we've spent the last 18 months building production AI systems, and we'll tell you what keeps us up at night — and it's not whether the model can answer questions. That's table stakes now. What haunts us is the mental image of an agent autonomously approving a six-figure vendor contract at 2 a.m. because someone typo'd a config file.
+                - generic [ref=e352]:
+                  - generic [ref=e353]:
+                    - link "Deepika Singh" [ref=e354] [cursor=pointer]:
+                      - /url: /author/deepika-singh
+                    - text: ","
+                  - link "Madhvesh Kumar" [ref=e356] [cursor=pointer]:
+                    - /url: /author/madhvesh-kumar
+                - time [ref=e357]: March 24, 2026
+            - article [ref=e358]:
+              - link [ref=e359] [cursor=pointer]:
+                - /url: /infrastructure/why-enterprises-are-replacing-generic-ai-with-tools-that-know-their-users
+                - figure [ref=e360]:
+                  - img "Personalization" [ref=e361]
+              - generic [ref=e362]:
+                - heading "Why enterprises are replacing generic AI with tools that know their users" [level=2] [ref=e364]:
+                  - link "Why enterprises are replacing generic AI with tools that know their users" [ref=e365] [cursor=pointer]:
+                    - /url: /infrastructure/why-enterprises-are-replacing-generic-ai-with-tools-that-know-their-users
+                - generic [ref=e366]: The bar for enterprise AI just got a lot higher — and most tools aren't clearing it.
+                - link "Taryn Plumb" [ref=e369] [cursor=pointer]:
+                  - /url: /author/taryn-plumb
+                - time [ref=e370]: March 20, 2026
+            - article [ref=e371]:
+              - link [ref=e372] [cursor=pointer]:
+                - /url: /infrastructure/mistral-ai-launches-forge-to-help-companies-build-proprietary-ai-models
+                - figure [ref=e373]:
+                  - img "nuneybits Vector art of a Forge made of computer code in the co e81353af-4d23-4b20-853d-84fad8cc9b3f" [ref=e374]
+              - generic [ref=e375]:
+                - heading "Mistral AI launches Forge to help companies build proprietary AI models, challenging cloud giants" [level=2] [ref=e377]:
+                  - link "Mistral AI launches Forge to help companies build proprietary AI models, challenging cloud giants" [ref=e378] [cursor=pointer]:
+                    - /url: /infrastructure/mistral-ai-launches-forge-to-help-companies-build-proprietary-ai-models
+                - paragraph [ref=e380]:
+                  - text: The announcement caps a remarkably aggressive week for Mistral, which also released its Mistral
+                  - link "Small 4 model" [ref=e381] [cursor=pointer]:
+                    - /url: https://mistral.ai/news/mistral-small-4
+                  - text: ", unveiled Leanstral — an open-source code agent for formal verification — and joined the newly formed Nvidia"
+                  - link "Nemotron Coalition" [ref=e382] [cursor=pointer]:
+                    - /url: https://nvidianews.nvidia.com/news/nvidia-launches-nemotron-coalition-of-leading-global-ai-labs-to-advance-open-frontier-models
+                  - text: as a co-developer of the coalition's first open frontier base model. Together, these moves paint the picture of a company that is no longer content to compete on model benchmarks alone and is instead racing to become the infrastructure backbone for organizations that want to own their AI rather than rent it.
+                - link "Michael Nuñez" [ref=e385] [cursor=pointer]:
+                  - /url: /author/michael_nunez
+                - time [ref=e386]: March 18, 2026
+            - article [ref=e387]:
+              - link [ref=e388] [cursor=pointer]:
+                - /url: /infrastructure/nvidias-dgx-station-is-a-desktop-supercomputer-that-runs-trillion-parameter
+                - figure [ref=e389]:
+                  - img "nuneybits Vector art of a Macbook Pro and next to it is a small a3ecfc07-561b-4aad-94df-621a7373b52d" [ref=e390]
+              - generic [ref=e391]:
+                - heading "Nvidia's DGX Station is a desktop supercomputer that runs trillion-parameter AI models without the cloud" [level=2] [ref=e393]:
+                  - link "Nvidia's DGX Station is a desktop supercomputer that runs trillion-parameter AI models without the cloud" [ref=e394] [cursor=pointer]:
+                    - /url: /infrastructure/nvidias-dgx-station-is-a-desktop-supercomputer-that-runs-trillion-parameter
+                - paragraph [ref=e396]:
+                  - text: The announcement, made at the company's annual
+                  - link "GTC conference" [ref=e397] [cursor=pointer]:
+                    - /url: https://www.nvidia.com/gtc/
+                  - text: "in San Jose, lands at a moment when the AI industry is grappling with a fundamental tension: the most powerful models in the world require enormous data center infrastructure, but the developers and enterprises building on those models increasingly want to keep their data, their agents, and their intellectual property local. The DGX Station is Nvidia's answer — a six-figure machine that collapses the distance between AI's frontier and a single engineer's desk."
+                - link "Michael Nuñez" [ref=e400] [cursor=pointer]:
+                  - /url: /author/michael_nunez
+                - time [ref=e401]: March 17, 2026
+            - article [ref=e402]:
+              - link [ref=e403] [cursor=pointer]:
+                - /url: /infrastructure/nvidia-introduces-vera-rubin-a-seven-chip-ai-platform-with-openai-anthropic
+                - figure [ref=e404]:
+                  - img "nuneybits Vector art of black server racks green pulse 7ca548b3-420f-48b3-b0a0-2778f7b28668" [ref=e405]
+              - generic [ref=e406]:
+                - heading "Nvidia introduces Vera Rubin, a seven-chip AI platform with OpenAI, Anthropic and Meta on board" [level=2] [ref=e408]:
+                  - link "Nvidia introduces Vera Rubin, a seven-chip AI platform with OpenAI, Anthropic and Meta on board" [ref=e409] [cursor=pointer]:
+                    - /url: /infrastructure/nvidia-introduces-vera-rubin-a-seven-chip-ai-platform-with-openai-anthropic
+                - paragraph [ref=e411]:
+                  - text: "The message to the AI industry, and to investors, was unmistakable: Nvidia is not slowing down. The"
+                  - link "Vera Rubin platform" [ref=e412] [cursor=pointer]:
+                    - /url: https://www.nvidia.com/en-us/data-center/technologies/rubin/
+                  - text: claims up to 10x more inference throughput per watt and one-tenth the cost per token compared with the Blackwell systems that only recently began shipping. CEO Jensen Huang, speaking at the company's annual
+                  - link "GTC conference" [ref=e413] [cursor=pointer]:
+                    - /url: https://www.nvidia.com/gtc/
+                  - text: ", called it \"a generational leap\" that would kick off \"the greatest infrastructure buildout in history.\""
+                  - link "Amazon Web Services" [ref=e414] [cursor=pointer]:
+                    - /url: https://aws.amazon.com/
+                  - text: ","
+                  - link "Google Cloud" [ref=e415] [cursor=pointer]:
+                    - /url: https://cloud.google.com/
+                  - text: ","
+                  - link "Microsoft Azure" [ref=e416] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us
+                  - text: and
+                  - link "Oracle Cloud" [ref=e417] [cursor=pointer]:
+                    - /url: https://www.oracle.com/cloud/
+                  - text: Infrastructure will all offer the platform, and more than 80 manufacturing partners are building systems around it.
+                - link "Michael Nuñez" [ref=e420] [cursor=pointer]:
+                  - /url: /author/michael_nunez
+                - time [ref=e421]: March 17, 2026
+            - article [ref=e422]:
+              - link [ref=e423] [cursor=pointer]:
+                - /url: /technology/rethinking-aeo-when-software-agents-navigate-the-web-on-behalf-of-users
+                - figure [ref=e424]:
+                  - img "Web search" [ref=e425]
+              - generic [ref=e426]:
+                - heading "Rethinking AEO when software agents navigate the web on behalf of users" [level=2] [ref=e428]:
+                  - link "Rethinking AEO when software agents navigate the web on behalf of users" [ref=e429] [cursor=pointer]:
+                    - /url: /technology/rethinking-aeo-when-software-agents-navigate-the-web-on-behalf-of-users
+                - paragraph [ref=e431]: "For more than two decades, digital businesses have relied on a simple assumption: When someone interacts with a website, that activity reflects a human making a conscious choice. Clicks are treated as signals of interest. Time on page is assumed to indicate engagement. Movement through a funnel is interpreted as intent. Entire growth strategies, marketing budgets, and product decisions have been built on this premise."
+                - link "Shashwat Jain, Amazon" [ref=e434] [cursor=pointer]:
+                  - /url: /author/shashwat-jain
+                - time [ref=e435]: March 16, 2026
+            - article [ref=e436]:
+              - link [ref=e437] [cursor=pointer]:
+                - /url: /infrastructure/nanoclaw-and-docker-partner-to-make-sandboxes-the-safest-way-for-enterprises
+                - figure [ref=e438]:
+                  - img "Blue lobster in sandbox" [ref=e439]
+              - generic [ref=e440]:
+                - heading "NanoClaw and Docker partner to make sandboxes the safest way for enterprises to deploy AI agents" [level=2] [ref=e442]:
+                  - link "NanoClaw and Docker partner to make sandboxes the safest way for enterprises to deploy AI agents" [ref=e443] [cursor=pointer]:
+                    - /url: /infrastructure/nanoclaw-and-docker-partner-to-make-sandboxes-the-safest-way-for-enterprises
+                - generic [ref=e444]: Instead of one central AI system doing everything, the model emerging here is many bounded agents operating across teams, channels and tasks.
+                - link "Carl Franzen" [ref=e447] [cursor=pointer]:
+                  - /url: /author/carlfranzen
+                - time [ref=e448]: March 13, 2026
+    - contentinfo [ref=e451]:
+      - generic [ref=e452]:
+        - generic [ref=e453]:
+          - generic [ref=e454]:
+            - link [ref=e455] [cursor=pointer]:
+              - /url: /
+              - img [ref=e456]
+            - generic [ref=e460]:
+              - link "Facebook" [ref=e461] [cursor=pointer]:
+                - /url: https://www.facebook.com/venturebeat
+                - img [ref=e462]
+              - link "Instagram" [ref=e464] [cursor=pointer]:
+                - /url: https://www.instagram.com/venturebeat
+                - img [ref=e465]
+              - link "X" [ref=e467] [cursor=pointer]:
+                - /url: https://twitter.com/venturebeat
+                - img [ref=e468]
+              - link "Linkedin" [ref=e470] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/venturebeat
+                - img [ref=e471]
+              - link "Youtube" [ref=e473] [cursor=pointer]:
+                - /url: https://www.youtube.com/venturebeat
+                - img [ref=e474]
+          - generic [ref=e476]:
+            - navigation [ref=e477]:
+              - list [ref=e478]:
+                - listitem [ref=e479]:
+                  - link "Press Releases" [ref=e480] [cursor=pointer]:
+                    - /url: /press-releases
+                - listitem [ref=e481]:
+                  - link "Contact Us" [ref=e482] [cursor=pointer]:
+                    - /url: /contact-2
+                - listitem [ref=e483]:
+                  - link "Advertise" [ref=e484] [cursor=pointer]:
+                    - /url: https://media.venturebeat.com
+                - listitem [ref=e485]:
+                  - link "Share a News Tip" [ref=e486] [cursor=pointer]:
+                    - /url: /contact-2
+                - listitem [ref=e487]:
+                  - link "Contribute" [ref=e488] [cursor=pointer]:
+                    - /url: /guest-posts
+            - navigation [ref=e489]:
+              - list [ref=e490]:
+                - listitem [ref=e491]:
+                  - link "Privacy Policy" [ref=e492] [cursor=pointer]:
+                    - /url: /privacy-policy
+                - listitem [ref=e493]:
+                  - link "Terms of Service" [ref=e494] [cursor=pointer]:
+                    - /url: /terms-of-service
+                - listitem [ref=e495]:
+                  - link "Consent Preferences" [ref=e496] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e497]:
+                  - link "Do Not Sell or Share My Personal Information" [ref=e498] [cursor=pointer]:
+                    - /url: https://app.termly.io/notify/f592675e-4484-4dc9-bb50-462a84720662
+                - listitem [ref=e499]:
+                  - link "Limit the Use Of My Sensitive Personal Information" [ref=e500] [cursor=pointer]:
+                    - /url: https://app.termly.io/notify/f592675e-4484-4dc9-bb50-462a84720662
+        - paragraph [ref=e503]: © 2026 VentureBeat. All rights reserved.
+  - alert [ref=e504]

@@ -1,0 +1,26 @@
+---
+title: >-
+  Grounded Token Initialization for New Vocabulary in LMs for Generative
+  Recommendation
+url: 'https://arxiv.org/abs/2604.02324v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Daiwei Chen
+  - Zhoutong Fu
+  - Chengming Jiang
+  - Haichao Zhang
+  - Ran Zhou
+categories:
+  - cs.CL
+  - cs.AI
+  - cs.LG
+  - cs.CL
+published: '2026-04-02T17:59:19Z'
+fetched_at: '2026-04-06T00:50:51.195Z'
+---
+Language models (LMs) are increasingly extended with new learnable vocabulary tokens for domain-specific tasks, such as Semantic-ID tokens in generative recommendation. The standard practice initializes these new tokens as the mean of existing vocabulary embeddings, then relies on supervised fine-tuning to learn their representations. We present a systematic analysis of this strategy: through spectral and geometric diagnostics, we show that mean initialization collapses all new tokens into a degenerate subspace, erasing inter-token distinctions that subsequent fine-tuning struggles to fully recover. These findings suggest that \emph{token initialization} is a key bottleneck when extending LMs with new vocabularies. Motivated by this diagnosis, we propose the \emph{Grounded Token Initialization Hypothesis}: linguistically grounding novel tokens in the pretrained embedding space before fine-tuning better enables the model to leverage its general-purpose knowledge for novel-token domains. We operationalize this hypothesis as GTI (Grounded Token Initialization), a lightweight grounding stage that, prior to fine-tuning, maps new tokens to distinct, semantically meaningful locations in the pretrained embedding space using only paired linguistic supervision. Despite its simplicity, GTI outperforms both mean initialization and existing auxiliary-task adaptation methods in the majority of evaluation settings across multiple generative recommendation benchmarks, including industry-scal
+
+Authors: Daiwei Chen, Zhoutong Fu, Chengming Jiang, Haichao Zhang, Ran Zhou
+Categories: cs.CL, cs.AI, cs.LG, cs.CL
