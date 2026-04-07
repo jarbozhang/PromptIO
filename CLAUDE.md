@@ -1,4 +1,4 @@
-# Hamburg - AI Content Pipeline
+# PromptIO - AI Content Pipeline
 
 ## 项目概述
 

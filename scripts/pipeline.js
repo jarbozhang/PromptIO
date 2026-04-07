@@ -183,7 +183,7 @@ async function fetchGitHubTrending() {
     for (const q of queries) {
       const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(q)}&sort=stars&order=desc&per_page=10`;
       const res = await fetchJSON(url, {
-        headers: { 'Accept': 'application/vnd.github.v3+json', 'User-Agent': 'hamburg-pipeline' }
+        headers: { 'Accept': 'application/vnd.github.v3+json', 'User-Agent': 'promptio-pipeline' }
       });
 
       if (!res?.items) continue;
@@ -325,14 +325,14 @@ function slugify(text) {
 function notify(message) {
   if (process.platform === 'darwin') {
     try {
-      execFileSync('osascript', ['-e', `display notification "${message.replace(/"/g, '\\"')}" with title "Hamburg Pipeline"`]);
+      execFileSync('osascript', ['-e', `display notification "${message.replace(/"/g, '\\"')}" with title "PromptIO Pipeline"`]);
     } catch { /* non-blocking */ }
   }
 }
 
 // ── Main ────────────────────────────────────────────────
 async function main() {
-  console.log(`\n========== Hamburg Pipeline: ${TODAY} ==========\n`);
+  console.log(`\n========== PromptIO Pipeline: ${TODAY} ==========\n`);
 
   fs.mkdirSync(LOGS_DIR, { recursive: true });
   log(`Pipeline started (fetch-only, scoring/generation handled by Claude Code)`);
@@ -345,7 +345,7 @@ async function main() {
   } catch (err) {
     log(`FATAL: ${err.message}`);
     log(err.stack);
-    notify(`Hamburg Pipeline ERROR: ${err.message}`);
+    notify(`PromptIO Pipeline ERROR: ${err.message}`);
     throw err;
   } finally {
     releaseLock();

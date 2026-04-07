@@ -1,5 +1,5 @@
 {
-  "name": "hamburg",
+  "name": "promptio",
   "version": "0.1.0",
   "description": "AI content pipeline: RSS fetch → Claude Code scoring/generation → publish",
   "type": "module",
