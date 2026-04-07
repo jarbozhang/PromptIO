@@ -24,8 +24,8 @@
 
 ```
 1. npm run pipeline              # RSS/GitHub/arXiv 采集
-2. agent-browser 抓取 X 账号      # 按 config/sources.yaml 中 x_accounts 列表
-   过滤：近7天 + likes>100        # 保存到 sources/{date}/ 同目录
+2. bird search "from:{handle}" 抓取 X  # 按 config/sources.yaml 中 x_accounts 列表
+   过滤：近14天 + likes>50            # bird CLI 读 Chrome cookies 认证，无需 API key
 3. Claude Code 评分 top 10       # 从全部 sources 中选题，去重已有 drafts
 4. 10 个子代理并行生成文章         # 保存到 drafts/{date}/
 5. commit
