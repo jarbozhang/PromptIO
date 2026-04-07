@@ -5,6 +5,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-06T18:06:28.000Z'
-fetched_at: '2026-04-07T09:57:25.820Z'
+fetched_at: '2026-04-07T11:23:37.066Z'
 ---
 Iran said it will target U.S.-linked data centers with new missile strikes, as the war between the U.S. and Iran escalates.

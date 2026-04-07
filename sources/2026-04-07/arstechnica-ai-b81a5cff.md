@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-02-28T01:26:41.000Z'
-fetched_at: '2026-04-07T09:57:47.476Z'
+fetched_at: '2026-04-07T11:23:42.734Z'
 ---
 Merkle Tree Certificate support is already in Chrome. Soon, it will be everywhere.

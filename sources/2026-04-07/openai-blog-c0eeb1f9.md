@@ -5,6 +5,6 @@ source: OpenAI Blog
 source_type: rss
 language: en
 published: '2026-03-19T10:00:00.000Z'
-fetched_at: '2026-04-07T09:57:29.366Z'
+fetched_at: '2026-04-07T11:23:57.167Z'
 ---
 How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.

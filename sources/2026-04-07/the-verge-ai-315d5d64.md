@@ -5,7 +5,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-04-05T12:00:00.000Z'
-fetched_at: '2026-04-07T09:57:49.152Z'
+fetched_at: '2026-04-07T11:23:41.304Z'
 ---
 This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the ups and downs of AI, follow Stevie Bonifield. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. 
 How it started

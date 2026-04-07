@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-05T15:40:58.000Z'
-fetched_at: '2026-04-07T09:57:25.823Z'
+fetched_at: '2026-04-07T11:23:37.068Z'
 ---
 On the latest episode of TechCrunch’s Equity podcast, we debated Elon Musk's vision for data centers in space.

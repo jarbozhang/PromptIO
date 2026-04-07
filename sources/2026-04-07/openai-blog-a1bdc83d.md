@@ -5,6 +5,6 @@ source: OpenAI Blog
 source_type: rss
 language: en
 published: '2026-03-25T00:00:00.000Z'
-fetched_at: '2026-04-07T09:57:29.365Z'
+fetched_at: '2026-04-07T11:23:57.166Z'
 ---
 OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.

@@ -6,7 +6,7 @@ source_type: github
 language: en
 stars: 63927
 published: '2026-04-07T03:55:47Z'
-fetched_at: '2026-04-07T09:57:55.851Z'
+fetched_at: '2026-04-07T11:24:21.540Z'
 ---
 Deep Learning for humans
 

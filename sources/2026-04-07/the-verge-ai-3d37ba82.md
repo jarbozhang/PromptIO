@@ -6,7 +6,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-04-06T15:54:19.000Z'
-fetched_at: '2026-04-07T09:57:49.151Z'
+fetched_at: '2026-04-07T11:23:41.303Z'
 ---
 An October 2025 image of OpenAI’s UAE Stargate data center under construction. | Image: G42	
 

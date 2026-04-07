@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-03T19:48:22.000Z'
-fetched_at: '2026-04-07T09:57:25.824Z'
+fetched_at: '2026-04-07T11:23:37.069Z'
 ---
 Meta, Microsoft, and Google are all betting big on new natural gas power plants to run their AI data centers. They may regret it.

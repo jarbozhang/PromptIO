@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-04T01:31:00.000Z'
-fetched_at: '2026-04-07T09:57:25.823Z'
+fetched_at: '2026-04-07T11:23:37.068Z'
 ---
 Glen Anderson, president of Rainmaker Securities, says the secondary market for private shares has never been more active — with Anthropic the hottest trade around, OpenAI losing ground, and SpaceX's looming IPO poised to reshape the landscape for everyone.

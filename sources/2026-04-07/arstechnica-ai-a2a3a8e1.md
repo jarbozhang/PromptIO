@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-03T22:20:06.000Z'
-fetched_at: '2026-04-07T09:57:47.476Z'
+fetched_at: '2026-04-07T11:23:42.733Z'
 ---
 Accenture plans to buy Ookla, which also includes RootMetrics and Ekahau.

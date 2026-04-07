@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-04-02T17:00:11.000Z'
-fetched_at: '2026-04-07T09:57:47.472Z'
+fetched_at: '2026-04-07T11:23:42.730Z'
 ---
 GDDRHammer, GeForge and GPUBreach hammer GPU memory in ways that hijack the CPU.

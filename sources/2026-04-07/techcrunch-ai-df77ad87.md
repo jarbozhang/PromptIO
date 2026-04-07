@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-06T15:55:55.000Z'
-fetched_at: '2026-04-07T09:57:25.821Z'
+fetched_at: '2026-04-07T11:23:37.067Z'
 ---
 OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact.
