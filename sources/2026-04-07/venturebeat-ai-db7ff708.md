@@ -8,7 +8,7 @@ source: VentureBeat AI
 source_type: rss
 language: en
 published: '2026-01-13T13:00:00.000Z'
-fetched_at: '2026-04-07T02:39:45.588Z'
+fetched_at: '2026-04-07T09:57:43.640Z'
 ---
 Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf of employees.
 The new Slackbot, now generally available to Business+ and Enterprise+ customers, is Salesforce's most aggressive move yet to position Slack at the center of the emerging "agentic AI" movement — where software agents work alongside humans to complete complex tasks. The launch comes as Salesforce attempts to convince investors that artificial intelligence will bolster its products rather than render them obsolete.

@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-11T21:27:16.000Z'
-fetched_at: '2026-04-07T02:39:49.237Z'
+fetched_at: '2026-04-07T09:57:47.475Z'
 ---
 Most of the devices are made by Asus and are located in the US.

@@ -8,7 +8,7 @@ source: VentureBeat AI
 source_type: rss
 language: en
 published: '2026-01-07T20:00:00.000Z'
-fetched_at: '2026-04-07T02:39:45.588Z'
+fetched_at: '2026-04-07T09:57:43.641Z'
 ---
 Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems — trained in just four days using 48 of Nvidia's latest B200 graphics processors.
 The model, called NousCoder-14B, is another entry in a crowded field of AI coding assistants, but arrives at a particularly charged moment: Claude Code, the agentic programming tool from rival Anthropic, has dominated social media discussion since New Year's Day, with developers posting breathless testimonials about its capabilities. The simultaneous developments underscore how quickly AI-assisted software development is evolving — and how fiercely companies large and small are competing to capture what many believe will become a foundational technology for how software gets written.

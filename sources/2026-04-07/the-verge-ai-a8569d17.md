@@ -5,7 +5,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-04-05T14:00:00.000Z'
-fetched_at: '2026-04-07T02:39:50.916Z'
+fetched_at: '2026-04-07T09:57:49.152Z'
 ---
 Take me to the tacos, Gemini.	
 

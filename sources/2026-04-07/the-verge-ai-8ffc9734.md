@@ -5,7 +5,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-04-03T12:52:41.000Z'
-fetched_at: '2026-04-07T02:39:50.917Z'
+fetched_at: '2026-04-07T09:57:49.153Z'
 ---
 All week, we've been asking you to help us rank the 50 best products Apple ever made, as we mark the company's 50th anniversary. Thanks to everyone who pitched in - we ended up with more than 1.6 million votes! We also have lots of other coverage of Apple's first half century, and you should check it all out. All those votes later, we have some answers. And some thoughts.
 

@@ -5,9 +5,9 @@ source: Hacker News (Algolia AI filter)
 source_type: rss
 language: en
 published: '2026-04-05T05:08:39.000Z'
-fetched_at: '2026-04-07T02:39:47.353Z'
+fetched_at: '2026-04-07T09:57:45.595Z'
 ---
 https://web.archive.org/web/20260403164006/https://taggart-t...
 Comments URL: https://news.ycombinator.com/item?id=47646277
 Points: 54
-# Comments: 123
+# Comments: 124

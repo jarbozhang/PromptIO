@@ -5,10 +5,10 @@ source: Hacker News (Algolia AI filter)
 source_type: rss
 language: en
 published: '2026-04-06T00:20:12.000Z'
-fetched_at: '2026-04-07T02:39:47.352Z'
+fetched_at: '2026-04-07T09:57:45.594Z'
 ---
 Built a ~9M param LLM from scratch to understand how they actually work. Vanilla transformer, 60K synthetic conversations, ~130 lines of PyTorch. Trains in 5 min on a free Colab T4. The fish thinks the meaning of life is food.
 Fork it and swap the personality for your own character.
 Comments URL: https://news.ycombinator.com/item?id=47655408
-Points: 845
-# Comments: 126
+Points: 871
+# Comments: 129

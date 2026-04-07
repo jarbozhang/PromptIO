@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-03T20:22:18.000Z'
-fetched_at: '2026-04-07T02:39:28.269Z'
+fetched_at: '2026-04-07T09:57:25.824Z'
 ---
 With the midterms right around the corner, the new group is positioned to back candidates who support the AI company's policy agenda.

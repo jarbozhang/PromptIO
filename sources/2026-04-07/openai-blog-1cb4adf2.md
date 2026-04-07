@@ -5,6 +5,6 @@ source: OpenAI Blog
 source_type: rss
 language: en
 published: '2026-03-23T00:00:00.000Z'
-fetched_at: '2026-04-07T02:39:31.700Z'
+fetched_at: '2026-04-07T09:57:29.366Z'
 ---
 To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.

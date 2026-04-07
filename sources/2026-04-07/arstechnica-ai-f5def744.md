@@ -8,6 +8,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-06T19:41:33.000Z'
-fetched_at: '2026-04-07T02:39:49.237Z'
+fetched_at: '2026-04-07T09:57:47.475Z'
 ---
 The long, strange trip of a large assembly of advanced iOS exploits.

@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-03T20:35:34.000Z'
-fetched_at: '2026-04-07T02:39:28.269Z'
+fetched_at: '2026-04-07T09:57:25.823Z'
 ---
 In addition to Lightcap's new role, OpenAI CMO Kate Rouch will be stepping away from the company to focus on cancer recovery, with a plan to return when her health allows.

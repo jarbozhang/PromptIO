@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-06T14:11:42.000Z'
-fetched_at: '2026-04-07T02:39:28.267Z'
+fetched_at: '2026-04-07T09:57:25.821Z'
 ---
 Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in ChatGPT.

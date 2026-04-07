@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-05T18:51:37.000Z'
-fetched_at: '2026-04-07T02:39:28.267Z'
+fetched_at: '2026-04-07T09:57:25.822Z'
 ---
 AI skeptics aren’t the only ones warning users not to unthinkingly trust models’ outputs — that’s what the AI companies say themselves in their terms of service.

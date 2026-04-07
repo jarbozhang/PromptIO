@@ -6,7 +6,7 @@ source: VentureBeat AI
 source_type: rss
 language: en
 published: '2026-01-19T14:00:00.000Z'
-fetched_at: '2026-04-07T02:39:45.588Z'
+fetched_at: '2026-04-07T09:57:43.639Z'
 ---
 The artificial intelligence coding revolution comes with a catch: it's expensive.
 Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve.

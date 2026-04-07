@@ -6,7 +6,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-04-04T17:52:10.000Z'
-fetched_at: '2026-04-07T02:39:50.916Z'
+fetched_at: '2026-04-07T09:57:49.152Z'
 ---
 Murphy Campbell is at the center of a brewing storm around AI and a broken copyright system. | Image: Murphy Campbell	
 

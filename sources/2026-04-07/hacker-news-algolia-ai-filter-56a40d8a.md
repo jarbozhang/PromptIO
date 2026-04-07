@@ -5,7 +5,7 @@ source: Hacker News (Algolia AI filter)
 source_type: rss
 language: en
 published: '2026-04-05T03:55:10.000Z'
-fetched_at: '2026-04-07T02:39:47.354Z'
+fetched_at: '2026-04-07T09:57:45.596Z'
 ---
 https://xcancel.com/VladTheInflator/status/20395770015317689...
 Comments URL: https://news.ycombinator.com/item?id=47645976

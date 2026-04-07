@@ -6,7 +6,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-04-06T15:15:00.000Z'
-fetched_at: '2026-04-07T02:39:50.916Z'
+fetched_at: '2026-04-07T09:57:49.151Z'
 ---
 Today, I’m talking with Chuck Robbins, CEO of Cisco.
 Cisco is one of those big companies that everyone has heard of but that most of us don’t have to interact with very much; it’s not really a consumer brand. But all of us are in some way using Cisco’s products and services every day because it makes a huge amount of networking equipment for other big companies, like telecoms and ISPs. It’s a guarantee that somewhere between me recording this and you watching, listening to, or reading it, the bits have passed through Cisco products. Without the actual routers and switches and silicon — and the software to make those things work — there’s no internet, there’s no cloud, and there’s no AI.

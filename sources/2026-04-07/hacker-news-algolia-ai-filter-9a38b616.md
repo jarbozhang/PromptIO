@@ -5,9 +5,9 @@ source: Hacker News (Algolia AI filter)
 source_type: rss
 language: en
 published: '2026-04-05T14:21:17.000Z'
-fetched_at: '2026-04-07T02:39:47.353Z'
+fetched_at: '2026-04-07T09:57:45.595Z'
 ---
 Article URL: https://github.com/salmanmohammadi/nanocode/discussions/1
 Comments URL: https://news.ycombinator.com/item?id=47649742
-Points: 204
+Points: 214
 # Comments: 26

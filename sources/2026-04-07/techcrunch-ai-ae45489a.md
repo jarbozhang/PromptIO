@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-03T20:28:40.000Z'
-fetched_at: '2026-04-07T02:39:28.269Z'
+fetched_at: '2026-04-07T09:57:25.824Z'
 ---
 Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal, according to The Information and Eric Newcomer.

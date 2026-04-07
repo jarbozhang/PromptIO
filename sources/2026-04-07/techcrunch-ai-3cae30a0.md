@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-05T14:00:00.000Z'
-fetched_at: '2026-04-07T02:39:28.268Z'
+fetched_at: '2026-04-07T09:57:25.823Z'
 ---
 Driven by labor shortages, Japan is pushing physical AI from pilot projects into real-world deployment.

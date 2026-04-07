@@ -5,7 +5,7 @@ source: The Verge AI
 source_type: rss
 language: en
 published: '2026-04-04T13:00:00.000Z'
-fetched_at: '2026-04-07T02:39:50.916Z'
+fetched_at: '2026-04-07T09:57:49.153Z'
 ---
 "This looks like AI."
 It's a phrase I dread seeing as a writer who dabbles in illustration and amateur photography. In a world where generative AI technology is increasingly adept at mimicking the work of humans, people are naturally skeptical when online platforms refuse to label even obvious AI content.

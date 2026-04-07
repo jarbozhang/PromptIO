@@ -8,6 +8,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-24T12:38:09.000Z'
-fetched_at: '2026-04-07T02:39:49.235Z'
+fetched_at: '2026-04-07T09:57:47.473Z'
 ---
 Development houses: It's time to check your networks for infections.

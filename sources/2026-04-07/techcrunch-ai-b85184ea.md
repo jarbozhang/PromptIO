@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-04T16:32:22.000Z'
-fetched_at: '2026-04-07T02:39:28.268Z'
+fetched_at: '2026-04-07T09:57:25.823Z'
 ---
 It’s about to become more expensive for Claude Code subscribers to use Anthropic’s coding assistant with OpenClaw and other third-party tools.

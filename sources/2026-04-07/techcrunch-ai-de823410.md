@@ -6,6 +6,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-06T21:54:26.000Z'
-fetched_at: '2026-04-07T02:39:28.263Z'
+fetched_at: '2026-04-07T09:57:25.819Z'
 ---
 Zero Shot, a new venture capital fund with deep ties to OpenAI, is aiming to raise $100 million for its first fund. It has already written some checks.

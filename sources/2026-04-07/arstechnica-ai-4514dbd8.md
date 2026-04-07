@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-02-17T20:43:01.000Z'
-fetched_at: '2026-04-07T02:39:49.238Z'
+fetched_at: '2026-04-07T09:57:47.477Z'
 ---
 Contrary to what password managers say, a server compromise can mean game over.

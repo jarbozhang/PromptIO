@@ -8,6 +8,6 @@ source: TechCrunch AI
 source_type: rss
 language: en
 published: '2026-04-03T19:20:36.000Z'
-fetched_at: '2026-04-07T02:39:28.269Z'
+fetched_at: '2026-04-07T09:57:25.824Z'
 ---
 A new poll shows that the debate over data centers is far from settled.

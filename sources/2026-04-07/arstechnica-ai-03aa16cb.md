@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-04-03T20:30:15.000Z'
-fetched_at: '2026-04-07T02:39:49.235Z'
+fetched_at: '2026-04-07T09:57:47.471Z'
 ---
 The viral AI agentic tool let attackers silently gain admin unauthenticated access.

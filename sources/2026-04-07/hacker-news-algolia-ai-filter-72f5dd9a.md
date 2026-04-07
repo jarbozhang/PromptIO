@@ -5,9 +5,9 @@ source: Hacker News (Algolia AI filter)
 source_type: rss
 language: en
 published: '2026-04-05T20:19:11.000Z'
-fetched_at: '2026-04-07T02:39:47.353Z'
+fetched_at: '2026-04-07T09:57:45.594Z'
 ---
 Article URL: https://twitter.com/unlimited_ls/status/2040577536136974444
 Comments URL: https://news.ycombinator.com/item?id=47653471
-Points: 116
+Points: 119
 # Comments: 19

@@ -5,9 +5,9 @@ source: Hacker News (Algolia AI filter)
 source_type: rss
 language: en
 published: '2026-04-05T12:43:47.000Z'
-fetched_at: '2026-04-07T02:39:47.353Z'
+fetched_at: '2026-04-07T09:57:45.595Z'
 ---
 Article URL: https://lalitm.com/post/building-syntaqlite-ai/
 Comments URL: https://news.ycombinator.com/item?id=47648828
-Points: 915
-# Comments: 287
+Points: 929
+# Comments: 289

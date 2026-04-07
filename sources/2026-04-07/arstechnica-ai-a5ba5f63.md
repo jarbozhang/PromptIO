@@ -6,6 +6,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-19T21:29:53.000Z'
-fetched_at: '2026-04-07T02:39:49.236Z'
+fetched_at: '2026-04-07T09:57:47.473Z'
 ---
 Broadcom says the group is misrepresenting market "realities."

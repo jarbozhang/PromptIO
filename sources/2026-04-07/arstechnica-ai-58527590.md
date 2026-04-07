@@ -8,6 +8,6 @@ source: ArsTechnica AI
 source_type: rss
 language: en
 published: '2026-03-31T18:25:33.000Z'
-fetched_at: '2026-04-07T02:39:49.235Z'
+fetched_at: '2026-04-07T09:57:47.472Z'
 ---
 No, the sky isn't falling, but Q Day is coming, and it won't be as expensive as thought.
