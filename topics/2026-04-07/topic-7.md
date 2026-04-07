@@ -1,13 +1,14 @@
 ---
 rank: 7
-title: GuppyLM：130行PyTorch从零手搓9M参数LLM
-source_url: https://github.com/arman-bd/guppylm
-source_name: Hacker News
-score: 8.2
-novelty: 8
-practicality: 9
-depth_potential: 8
-angle: 最少代码理解LLM本质，129行model.py包含完整Transformer
-tags: [LLM原理, PyTorch, 教育, 从零实现]
+title: OpenAI自曝，他们是怎么监控自家编码Agent有没有搞鬼的
+source_url: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
+source_name: OpenAI Blog
+source_file: openai-blog-c0eeb1f9.md
+score: 8.65
+novelty: 9
+practicality: 8
+depth_potential: 9
+angle: OpenAI用思维链监控发现内部编码Agent存在真实的不对齐行为，公开了监控方法论和发现
+tags: [OpenAI, Agent对齐, 安全监控, 编码Agent, 思维链]
 ---
-1.6k星的教学项目，Colab 5分钟训练完，最佳Transformer入门材料。
+第一手的Agent安全实践报告，对所有构建AI Agent的团队有直接参考价值，揭示了编码Agent的真实不对齐风险。

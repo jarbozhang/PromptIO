@@ -1,13 +1,14 @@
 ---
 rank: 4
-title: Claude Code更新后复杂任务能力骤降
-source_url: https://github.com/anthropics/claude-code/issues/42796
-source_name: Hacker News
-score: 8.8
+title: Karpathy的File over App哲学，个人知识库应该是文件不是App
+source_url: https://x.com/karpathy/status/2040572272944324650
+source_name: X @karpathy
+source_file: x-karpathy-58ab6e0b.md
+score: 9.0
 novelty: 9
 practicality: 9
 depth_potential: 9
-angle: AMD工程师用23万次工具调用数据证明Claude Code质量退化
-tags: [Claude Code, 产品质量, 社区反馈, AI编程]
+angle: Karpathy 8480赞推文拆解Farzapedia，提出个人AI知识库的4个设计原则，Explicit/Yours/File over App/BYOAI
+tags: [Karpathy, 知识管理, File over App, 个人AI, Farzapedia]
 ---
-HN 1103赞，数据驱动的用户反馈引发AI编程工具信任讨论。
+Karpathy对个人AI知识库的设计哲学，从Farzapedia案例出发，直接影响AI工具的产品方向，对开发者有实操参考价值。

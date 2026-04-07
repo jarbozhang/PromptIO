@@ -1,13 +1,14 @@
 ---
 rank: 1
-title: Karpathy的File over App哲学：个人知识库应该是文件不是App
-source_url: https://x.com/karpathy/status/2040572272944324650
-source_name: X @karpathy
-score: 9.4
+title: ggerganov加入Hugging Face，llama.cpp的本地AI之路走向何方
+source_url: https://huggingface.co/blog/ggml-joins-hf
+source_name: Hugging Face Blog
+source_file: hugging-face-blog-e4d4cd09.md
+score: 9.2
 novelty: 10
-practicality: 9
+practicality: 8
 depth_potential: 9
-angle: Karpathy 8480赞推文拆解Farzapedia，提出个人AI知识库的4个设计原则：Explicit/Yours/File over App/BYOAI
-tags: [Karpathy, 知识管理, File over App, 个人AI]
+angle: llama.cpp创始人ggerganov正式加入HF，GGML项目并入HF生态，本地AI推理的格局彻底改变
+tags: [llama.cpp, GGML, Hugging Face, 本地AI, 开源生态]
 ---
-Karpathy对个人AI知识库的设计哲学，直接影响AI工具的产品方向，对开发者有实操参考价值。
+llama.cpp是本地AI推理的基石项目，ggerganov加入HF意味着本地推理和模型分发的两大支柱合并，对整个开源AI生态影响深远。

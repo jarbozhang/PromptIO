@@ -1,13 +1,14 @@
 ---
 rank: 6
-title: Hippo：仿海马体的AI Agent记忆系统
-source_url: https://github.com/kitfunso/hippo-memory
+title: M3 Pro上跑实时音视频AI对话，我试了开源Parlor的极限在哪
+source_url: https://github.com/fikrikarim/parlor
 source_name: Hacker News
-score: 8.4
+source_file: hacker-news-algolia-ai-filter-51c11bb1.md
+score: 8.75
 novelty: 9
-practicality: 8
-depth_potential: 9
-angle: 从脑科学海马体出发设计AI Agent记忆架构，解决长期记忆和遗忘平衡
-tags: [AI记忆, Agent架构, 脑科学, 开源]
+practicality: 9
+depth_potential: 8
+angle: 开源Parlor用Gemma E2B在Mac本地实现实时多模态AI交互，音频+视频输入，语音输出
+tags: [本地AI, 实时语音, Gemma, Mac开发, 多模态]
 ---
-Agent记忆是当前AI工程核心难题，生物学启发的衰减机制引起社区关注。
+在消费级硬件上跑实时多模态AI的可行性验证，对想做本地AI应用的开发者有直接参考价值。

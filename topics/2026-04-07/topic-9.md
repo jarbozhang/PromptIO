@@ -1,13 +1,14 @@
 ---
 rank: 9
-title: YLeCun反驳Musk：语言不是思维的全部
-source_url: https://x.com/ylecun/status/2040770225990172676
-source_name: X @ylecun
-score: 7.8
-novelty: 8
-practicality: 7
-depth_potential: 9
-angle: LeCun 2677赞推文驳Musk，论证思维操作的是心智模型而非语言，对LLM路线有根本性质疑
-tags: [YLeCun, 思维与语言, LLM局限, AI哲学]
+title: Gemma 4直接跑在浏览器里，不需要API Key也不需要云
+source_url: https://github.com/kessler/gemma-gem
+source_name: Hacker News
+source_file: hacker-news-algolia-ai-filter-c3f81812.md
+score: 8.5
+novelty: 9
+practicality: 9
+depth_potential: 7
+angle: Chrome扩展通过WebGPU在离线环境加载Gemma 4 2B，真正的零依赖本地AI
+tags: [WebGPU, Gemma, 浏览器AI, Chrome扩展, 离线AI]
 ---
-Meta AI首席对LLM路线的根本性质疑，涉及AI未来方向的核心分歧。
+WebGPU让浏览器直接跑LLM成为现实，这个Chrome扩展展示了零后端AI的可能性，对前端开发者和隐私敏感场景有价值。
