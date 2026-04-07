@@ -1,99 +1,69 @@
 ---
-title: "Karpathy说PR不该叫Pull Request了，他是对的吗？"
-source_url: 'https://x.com/karpathy/status/2040473058834878662'
-score: 8
-scoring_reason: Agent时代PR含义变化
 status: draft
-platform: wechat
-tags:
-  - Karpathy
-  - Agent
-  - 开源协作
-  - 开发范式
-created_at: '2026-04-07'
-generated_by: claude-opus-4-6
+topic: topics/2026-04-07/topic-8.md
+source_url: https://x.com/karpathy/status/2040473058834878662
+generated_at: 2026-04-07T20:00:00+08:00
 ---
 
-好的 boss，已读完写作规范。这是一篇"现象解读型"文章，我来写。
+# Karpathy说PR应该改名叫Prompt Request，1055个人点了赞
 
-# Karpathy说PR不该叫Pull Request了，他是对的吗？
+三天前Karpathy转了一条推，底下炸了。Peter Steinberger（PSPDFKit创始人，iOS圈老炮）跟他说，PR不应该再叫Pull Request了，应该叫**Prompt Request**。
 
-上周Karpathy发了条推，1055个赞，说的不是什么新模型新论文，而是一个概念替换，PR应该从Pull Request变成Prompt Request。
+1055个赞，49个转发。英文开发者圈已经在认真讨论这件事了。
 
-我盯着这条推看了很久。
+## 到底发生了什么
 
-不是因为这个梗有多精妙，而是因为我前两天刚拒绝了一个开源项目的PR，理由是"代码能跑但完全看不出思路"。提交者很委屈，说他花了一整个周末。我也很委屈，因为我花了两小时review，最后发现他想解决的问题用三行配置就能搞定。
+Steinberger的原话很直白。他的Agent已经能搞定大部分实现工作了，所以他不需要你把想法变成代码再提PR。你只要把想法描述清楚，发一个prompt过来，让Agent去实现就行。
 
-Karpathy转述的是Peter Steinberger的观点，这位是知名iOS开发者。原话很直接，"His agents are perfectly capable of implementing most ideas, so there is no need to take your idea, expand it into a vibe coded mess using free tier ChatGPT and send that as a PR."
+而现在他收到的PR是什么样的？大量用免费版ChatGPT vibe coding出来的代码，质量一塌糊涂。
 
-翻译一下，别把你的想法用免费版ChatGPT搞成一坨vibe coding的烂摊子然后甩过来了。
+Karpathy显然深有同感，直接转发表态。
 
-## 问题不在代码质量，在沟通效率
+这不是一个段子。这是一个信号。
 
-你想想看，传统的PR流程是什么？我有个想法，我写代码实现它，我提交PR，维护者review代码，来回讨论，合并或者拒绝。
+## 你可能没意识到的事
 
-这个流程的隐含假设是，代码是稀缺资源。写代码很贵，所以贡献者写好了代码递过来，维护者应该感激。
+英文开发者社区正在经历一场静悄悄的分裂。
 
-但2026年的现实是什么？Claude Code、Cursor这些工具已经把"把想法变成代码"这一步的成本打到了接近零。
+一边是**会写prompt的人**。他们用Claude Code、Cursor、Copilot Workspace这些工具，把需求描述得精确到边界条件，Agent输出的代码质量比大多数人手写的还好。
 
-成本结构变了，流程就该跟着变。
+另一边是**只会vibe code的人**。打开ChatGPT免费版，把报错信息复制粘贴进去，把生成的代码原封不动提交PR。不看diff，不跑测试，不理解自己提交了什么。
 
-现在的痛点早就不是"没人写代码"，而是"太多人写了质量参差不齐的代码"。我维护的一个小工具库，每个月能收到十几个PR，其中至少一半一看就是LLM生成的，变量命名风格跟项目完全不搭，测试覆盖率为零，commit message写的是"fix bug"。
+Steinberger作为开源项目维护者，每天要review后者提交的垃圾PR。他烦了。
 
-review这些PR花的时间，比我自己重写还多。
+这才是Prompt Request这个概念真正的含义。不是"用AI写代码"这么简单。是**协作方式的接口变了**。以前你给我代码，我review代码。现在你给我意图，Agent帮你实现，我review意图+实现。
 
-## Karpathy的idea file才是真正的线索
+中文社区几乎没人在讨论这个转变。大家还在争论"AI会不会取代程序员"，英文圈已经在重新定义程序员之间怎么协作了。
 
-其实Prompt Request这个梗只是表面。真正值得关注的是Karpathy几乎同期发的另一条推，24804个赞，他公开了自己的"idea file"。
+## 我的判断
 
-这个东西的逻辑是，我不写代码了，我写想法。想法足够清晰，agent就能实现。
+说一个可能得罪人的话。
 
-坦率讲，我一开始觉得这有点装。你是Karpathy啊，你当然可以只写想法，你的想法本身就值钱。普通开发者的想法值什么？
+**未来两年，不会写高质量prompt的开发者，连给开源项目贡献代码的资格都没有。**
 
-但我后来想了想，发现这个逻辑其实不取决于你是不是Karpathy。
+太极端了？我收回一半。但方向不会错。
 
-它取决于一个更根本的问题，在agent时代，开源协作的最小单位到底是什么？
+想想看，如果Steinberger的项目真的开始接受Prompt Request而不是Pull Request，会发生什么？贡献的门槛不是降低了，是变了。你不需要会写Swift，但你需要能把一个feature描述得足够精确，让Agent生成的代码能通过CI、通过review。
 
-## 从"代码单位"到"意图单位"
+这对很多人反而更难。
 
-我自己最近在用Claude Code的subagent跑并行任务，十个agent同时生成文章，每个agent拿到的不是代码模板，是一段描述意图的prompt。效果比我手写模板好得多。
+写代码是一种技能，描述清楚你想要什么是另一种技能。大多数人两样都不太行，但至少写代码可以靠Stack Overflow抄。描述意图？没得抄。
 
-原因很简单。代码是实现的快照，意图是问题的本质。你给agent一段代码让它改，它只能在你的实现框架里打补丁。你给它一段清晰的意图描述，它能从零开始选最优方案。
+GitHub的下一个大功能更新，我赌一定跟这个方向有关。可能是PR描述栏直接集成Agent，可能是一种新的contribution格式。Copilot Workspace已经在试水了。
 
-这跟PR的逻辑是一样的。你提交一个600行的diff，维护者得先理解你的实现路径，再判断这个路径对不对，再看代码质量行不行。三层认知负担。
+## 你现在可以做什么
 
-你提交一个Prompt Request，用自然语言描述"我想让这个库支持流式输出，因为当前的批量模式在处理大文件时会OOM，我试过的方案是X但有Y问题"。维护者只需要判断一件事，这个需求该不该做。代码让agent去写。
+如果你是开源项目维护者，从今天开始在CONTRIBUTING.md里加一句话。告诉贡献者，与其花三小时写一个半成品PR，不如花三十分钟写一个清晰的issue描述你想解决什么问题、边界条件是什么、预期行为是什么。
 
-一层认知负担。
+如果你是想给开源项目贡献的开发者，练习一件事。打开Claude Code或者Cursor，不要自己写代码。把你的想法写成一段prompt，让Agent实现，然后review Agent的输出。这个过程训练的不是你的编码能力，是你的**需求表达能力**。
 
-## 但我不完全同意
+Karpathy点赞的东西，通常六个月后就变成行业共识。上次是vibe coding，这次是Prompt Request。
 
-说实话我也不确定这个判断是不是太极端了。
+六个月后回来看这篇文章，看我说得对不对。
 
-Prompt Request的前提是agent能写出符合项目规范的代码。现实是，就算是Claude Opus，你不给它足够的上下文，它写出来的代码也是"能跑但不对味"。每个项目都有自己的implicit knowledge，命名习惯、架构决策、历史包袱，这些东西很难在一个prompt里说清楚。
 
-所以我认为更准确的说法不是"PR变成Prompt Request"，而是PR变成了两层。
+相关链接
 
-第一层是Intent Review，这才是人该做的事。看需求合不合理，看方向对不对。
-
-第二层是Code Review，这一步越来越多可以交给agent。让CI里跑一个agent来检查代码风格、测试覆盖率、安全隐患。人只看agent标记出来的问题。
-
-Peter Steinberger和Karpathy看到的是终态。但从现在到终态之间，还有一个过渡期。这个过渡期里，最有价值的技能不是写代码，也不是写prompt，是把意图描述得足够精确，精确到agent能一次性输出合格的实现。
-
-这个技能，可能比写代码本身更难。
-
-## 所以呢
-
-如果你在维护开源项目，现在就可以在CONTRIBUTING.md里加一句，欢迎提交Issue描述你的需求和场景，不需要附带实现代码。你的想法比你的代码更有价值。
-
-如果你是贡献者，下次想给一个项目提PR之前，先问自己一个问题，我要贡献的到底是我的想法，还是我让ChatGPT写的代码？
-
-如果答案是后者，一个写得好的Issue可能比一个写得烂的PR有用十倍。
-
-Karpathy的idea file拿了24804个赞。你的idea file在哪？
-
-## 相关链接
-
-- Karpathy原推（PR应变成Prompt Request）：https://x.com/karpathy/status/2040473058834878662
-- Peter Steinberger（原始观点来源）：https://x.com/steipete
-- Karpathy idea file推文：https://x.com/karpathy
+- [Karpathy原推](https://x.com/karpathy/status/2040473058834878662)
+- [Peter Steinberger](https://x.com/steipete) - PSPDFKit创始人，Prompt Request概念提出者
+- [GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) - GitHub正在试验的AI原生协作工具

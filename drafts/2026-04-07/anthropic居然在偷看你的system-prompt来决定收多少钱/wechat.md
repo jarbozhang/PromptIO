@@ -1,104 +1,100 @@
 ---
-title: "Anthropic居然在偷看你的system prompt来决定收多少钱"
-source_url: 'https://x.com/simonw/status/2040846932239851936'
-score: 9.2
-scoring_reason: Anthropic按system prompt内容差异计费
 status: draft
-platform: wechat
-tags:
-  - Anthropic
-  - Claude
-  - 计费策略
-  - 开发者信任
-created_at: '2026-04-07'
-generated_by: claude-opus-4-6
+topic: topics/2026-04-07/topic-2.md
+source_url: https://x.com/simonw/status/2040846932239851936
+generated_at: 2026-04-07T20:00:00+08:00
 ---
 
-现在我有了足够的背景信息。让我用搜集到的素材写这篇文章。
+# Simon Willison一句话撕开了Anthropic的计费黑箱，1490个开发者点了赞
 
-# Anthropic居然在偷看你的system prompt来决定收多少钱
+4月4日，Anthropic宣布Claude订阅不再覆盖第三方工具的用量。这个消息本身不算新鲜，我们上一篇聊过了。
 
-Simon Willison上周发了一条推，1490个赞，内容只有一句话，但炸了整个开发者社区。
+但Simon Willison随后发了一条推，1490个赞，84次转发，只有一句话。
 
 "Billing different based on text contained in the system prompt is a really bad look."
 
-我第一次看到这条的时候愣了几秒。不是因为Anthropic限制第三方工具使用，这事儿4月4号就官宣了，我心理准备早就有了。让我愣住的是那个细节，Anthropic的计费系统会去读你system prompt里的具体文本，如果检测到你用的是OpenClaw或者其他第三方harness的特征字符串，就给你切到更贵的计费通道。
+根据system prompt里包含的文本内容来区别计费，这吃相太难看了。
 
-不是按token数，不是按请求频率，是按你prompt里写了什么字。
+我看到这条推的时候愣了大概三秒钟。然后去翻了Anthropic的技术文档和社区讨论，发现这条推背后的信息量，比表面大得多。
 
-## 事情的来龙去脉
+## Anthropic到底是怎么区分"自家人"和"外人"的
 
-4月4号，Anthropic给Claude Code订阅用户群发邮件，大意是说你的订阅额度以后不能用在OpenClaw这类第三方工具上了，想用就得走按量付费，单独计费。
+先讲清楚技术细节。
 
-官方理由是"our subscriptions weren't built for the usage patterns of these third-party tools"。说白了就是13万5千多个OpenClaw实例把Anthropic的算力池子快薅秃了，有些重度用户实际消耗的算力是订阅费的50倍。
+当你用Claude Code发起API请求时，Anthropic的服务端会检查你的system prompt。如果system prompt里包含特定的文本标记，比如"A personal assistant running inside OpenClaw"这类字符串，系统就会把这个请求标记为"第三方工具调用"。
 
-到这一步我还觉得合理。你Anthropic的订阅，你定规则，没毛病。
+标记完之后呢？计费走另一条路。订阅额度不算，走按量付费。
 
-Boris Cherny（Claude Code负责人）也出来解释了，说Claude Code做了大量prompt cache优化，第三方工具没有这些优化，同样的活儿消耗的算力更多。这也讲得通。
+同一个API端点，同一个模型，同样的token数量。唯一的区别是你在system prompt里写了什么。
 
-但问题出在执行层面。
+Simon Willison抓住的就是这个点。
 
-## 技术细节才是真正让人不舒服的地方
+他没有说"Anthropic不该对第三方收费"，他说的是"根据system prompt的文本内容来决定计费规则"这个机制本身有问题。这两件事完全不一样。
 
-有开发者做了实验。用`claude -p --append-system-prompt`传一段包含OpenClaw标识的system prompt，直接触发Extra Usage计费。同样的prompt结构，把OpenClaw的标识去掉，走同一个认证通道，不触发。
+## 为什么这件事比"多花点钱"严重得多
 
-更离谱的是，用Anthropic API key直接调用SDK，哪怕system prompt里写满了OpenClaw，也不会触发这个计费门槛。
+你可能觉得，不就是多付点钱吗，API本来也不贵。
 
-HN上甚至有人发了一个帖子，标题就是"Anthropic has a blacklist on the word OpenClaw"。
+不是钱的问题。
 
-你品品这个逻辑。同一个模型，同一个用户，同一段prompt，就因为里面包含了某个特定词汇，计费方式完全不同。
+想象一下这个场景。你是一个开发者，在做一个AI应用。你精心调试了system prompt，让Claude的行为符合你的产品需求。现在你发现，Anthropic会读取你的system prompt内容，不光是为了让模型理解指令，还用来做计费决策。
 
-这不是限制第三方接入的问题了。这是内容审查式的计费。
+这打开了一个潘多拉魔盒。
 
-## Simon Willison为什么突然翻脸
+今天他们检测的是"这个请求来自OpenClaw还是Claude Code"。明天呢？他们可以检测你的system prompt里有没有提到竞品。后天呢？可以根据你的use case描述来分级定价，教育用途便宜点，商业用途贵一点。
 
-Simon一开始其实是接受Anthropic说法的。"我们优化了自家产品的缓存效率，第三方工具没优化所以成本更高"，逻辑上成立，商业上合理。
+技术上完全可行。
 
-但当他发现实际的执行机制是扫描system prompt文本来决定计费等级的时候，态度180度转弯。
+Anthropic已经证明了他们有能力、也有意愿根据system prompt的内容来做差异化处理。这个先例一旦开了，边界在哪里？
 
-这两件事的区别很大。
+## 社区里吵翻了，但有几个声音值得单独拎出来
 
-"因为你的调用模式效率低所以收你更多钱"，这是合理的成本传导。"因为你的prompt里写了OpenClaw这个词所以收你更多钱"，这是文本歧视。
+Hacker News上的讨论很快分成了两派。
 
-坦率讲我完全理解Simon的反应。今天你可以根据prompt里有没有"OpenClaw"来差异计费，明天你是不是可以根据prompt里有没有"竞品对比"来差异化服务？后天呢？
+一派说Anthropic有权保护自己的商业利益。第三方工具绕过了prompt caching机制，同样的output消耗的算力确实更多。Claude Code做了大量缓存优化，OpenClaw没有。从成本角度看，区别定价是合理的。
 
-OpenClaw创始人Peter Steinberger说了一句更扎心的，"first they copy some popular features into their closed harness, then they lock out open source"。先抄你的功能，再封杀你。
+我承认这个逻辑站得住。
 
-这个剧本是不是有点眼熟？
+但另一派的反驳更犀利。有人说，如果成本差异是问题，那你应该按实际算力消耗计费，而不是按system prompt里的文本来判断。一个token就是一个token，缓存命中率低导致成本高，那就把缓存命中率作为计费因子，而不是偷偷检查用户写了什么。
+
+还有开发者指出了一个更实际的问题。如果我自己写了一个工具，system prompt里恰好包含了某些关键词呢？我会不会被误判为第三方工具，莫名其妙多扣钱？
+
+这不是假设，是真实会发生的事。
 
 ## 我的判断
 
-我认为Anthropic限制第三方harness薅订阅额度这件事本身没有任何问题。你的平台你的规则，13万个实例50倍超额使用，换谁都扛不住。
+说一个可能得罪Anthropic粉丝的话。
 
-但执行方式选错了。
+**Anthropic在技术能力上是行业顶尖的，但在开发者关系上正在犯一个初级错误。**
 
-按system prompt文本内容来区分计费，这是一个极其危险的先例。它意味着模型提供商开始把system prompt当作一个可以窥探、分析、并据此做商业决策的对象。
+他们把system prompt从"用户对模型的指令"变成了"平台对用户的监控信号"。这两个角色之间存在根本性的利益冲突。
 
-system prompt是开发者和模型之间的契约空间。你可以限制它的长度，可以限制它的token数，可以按量收费，但你不应该去读它的内容然后据此差异化定价。
+作为开发者，我写system prompt是为了让模型更好地服务我的用户。我没有预期、也不应该预期Anthropic会拿这个东西来对我做商业决策。
 
-说实话我也不确定Anthropic有没有更好的技术方案。也许可以按实际cache命中率来差异化计费？cache命中率低的请求自动走更高的价格，不管你system prompt里写了啥。这既解决了成本问题，又不用碰prompt内容。
+收回来一点。Anthropic现在面临的成本压力是真实的。他们的订阅定价模型确实在重度用户面前扛不住。他们需要找到一种方式来平衡成本。
 
-可能有些想法还不成熟，但至少方向应该是按行为计费，而不是按内容计费。
+但方式很重要。
 
-## 这件事对你意味着什么
+透明地按算力消耗计费，开发者可以接受。根据缓存命中率给折扣，开发者甚至会叫好。但偷偷读system prompt来判断你是谁、然后给你不同的价格，这个做法伤害的是最核心的东西，信任。
 
-如果你在用Anthropic API做产品，目前API key直连不受影响。但你应该开始认真想一个问题。
+Simon Willison用16个词说清楚了一千个开发者的不安。1490个赞不是因为大家在乎那点token钱，是因为大家突然意识到，API供应商可能正在你不知情的情况下，根据你发送的内容来决定怎么对你收费。
 
-你的system prompt里有什么？如果有一天API层面也开始按prompt内容差异化定价，你准备好了吗？
+这在整个API经济的历史上，是前所未见的。
 
-Simon在那条推下面还说了一句话，我觉得特别值得记住。
+## 你该关注什么
 
-大意是当一家公司开始根据你说了什么来决定收你多少钱，信任关系就已经破裂了。不管它的理由多充分。
+如果你在生产环境用Claude API，现在就去检查一下你的system prompt。看看有没有任何文本可能触发Anthropic的第三方检测机制。
 
-回到开头那1490个赞。开发者社区的情绪不是在抱怨涨价，而是在抗议一种新的权力边界被突破。你的prompt内容，本不该是别人的计费依据。
+如果你正在评估AI API供应商，把"计费透明度"加到你的评估清单里。不只是价格高低，而是计费规则是否清晰、可预测、不依赖于你发送的内容。
 
----
+还记得开头Simon Willison那条推吗？1490个赞，84次转发。在AI开发者圈子里，这个互动量不算小了。
 
-相关链接
+但真正让我在意的是55条回复。我翻了一遍，没有一条是替Anthropic辩护的。
 
-- [Simon Willison 原推](https://x.com/simonw/status/2040846932239851936)
-- [HN讨论: Anthropic不再允许订阅用户使用OpenClaw](https://news.ycombinator.com/item?id=47633396)
-- [HN讨论: Anthropic对OpenClaw一词设黑名单](https://news.ycombinator.com/item?id=47656695)
-- [TechCrunch报道: Claude Code订阅者需为OpenClaw额外付费](https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/)
-- [OpenClaw官方文档 Anthropic接入说明](https://docs.openclaw.ai/providers/anthropic)
-- [The Register报道](https://www.theregister.com/2026/04/06/anthropic_closes_door_on_subscription/)
+一条都没有。
+
+## 相关链接
+
+- [Simon Willison推文原文](https://x.com/simonw/status/2040846932239851936)
+- [Anthropic官方定价页面](https://www.anthropic.com/pricing)
+- [Simon Willison博客](https://simonwillison.net)
