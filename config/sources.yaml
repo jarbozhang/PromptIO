@@ -1,35 +1,147 @@
-# AI 领域英文信息源（专注信息差：海外一手信息 → 中文解读）
-# 只保留英文源，中文源去掉（避免选出已被中文媒体覆盖的内容）
+# PromptIO — AI 领域英文信息源
+# 定位：英文→中文信息差，专做国内媒体未覆盖的一手信息
+
+# ── RSS 源（pipeline.js 自动抓取）──────────────────────
 
 sources:
+  # 科技媒体
   - name: TechCrunch AI
     url: https://techcrunch.com/category/artificial-intelligence/feed/
-    language: en
-
-  - name: OpenAI Blog
-    url: https://openai.com/blog/rss.xml
-    language: en
-
-  - name: MIT Technology Review AI
-    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
     language: en
 
   - name: VentureBeat AI
     url: https://venturebeat.com/category/ai/feed/
     language: en
 
-  - name: Hacker News (Algolia AI filter)
-    url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=50
+  - name: The Verge AI
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
     language: en
 
   - name: ArsTechnica AI
     url: https://feeds.arstechnica.com/arstechnica/technology-lab
     language: en
 
-  - name: The Verge AI
-    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+  - name: MIT Technology Review AI
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
     language: en
 
-  - name: Anthropic Blog
-    url: https://www.anthropic.com/rss.xml
+  # AI 公司官方博客
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
     language: en
+
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    language: en
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    language: en
+
+  - name: DeepMind Blog
+    url: https://deepmind.google/blog/rss.xml
+    language: en
+
+  - name: Meta AI Blog
+    url: https://ai.meta.com/blog/rss/
+    language: en
+
+  # 开发者社区
+  - name: Hacker News (Algolia AI filter)
+    url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=50
+    language: en
+
+  - name: Lobsters AI
+    url: https://lobste.rs/t/ai,ml.rss
+    language: en
+
+  - name: Reddit r/LocalLLaMA
+    url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day
+    language: en
+
+  - name: Reddit r/MachineLearning
+    url: https://www.reddit.com/r/MachineLearning/top/.rss?t=day
+    language: en
+
+  # 个人技术博客（高质量实操内容）
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    language: en
+
+  - name: Sebastian Raschka
+    url: https://magazine.sebastianraschka.com/feed
+    language: en
+
+  # Newsletter
+  - name: TLDR AI
+    url: https://tldr.tech/ai/rss
+    language: en
+
+# ── X 账号（Claude Code 会话里用 agent-browser 抓取）──────
+# 过滤规则：只保留近 7 天内、likes > 100 的推文
+# 抓取时按 x_accounts 列表逐个访问 https://x.com/{handle}
+
+x_accounts:
+  # AI 研究者 / 技术领袖
+  - handle: karpathy
+    name: Andrej Karpathy
+    why: LLM 教育 + 实操，idea file 级别内容
+
+  - handle: ylecun
+    name: Yann LeCun
+    why: Meta AI 首席，经常有独立观点和争论
+
+  - handle: fchollet
+    name: François Chollet
+    why: Keras 作者，AI 推理/评测的独立思考
+
+  - handle: jimfan
+    name: Jim Fan
+    why: NVIDIA 研究员，Agent/具身智能前沿
+
+  # 开发者 / AI 工程
+  - handle: simonw
+    name: Simon Willison
+    why: LLM 实操之王，每天分享新发现
+
+  - handle: swyx
+    name: Shawn Wang (swyx)
+    why: AI 工程视角，行业趋势嗅觉极准
+
+  - handle: emollick
+    name: Ethan Mollick
+    why: Wharton 教授，AI 应用实测第一人
+
+  - handle: ggerganov
+    name: Georgi Gerganov
+    why: llama.cpp 作者，本地推理生态核心
+
+  - handle: rasaborshka
+    name: Sebastian Raschka
+    why: LLM 教育内容，从零实现系列
+
+  # AI 产品 / 商业分析
+  - handle: benthompson
+    name: Ben Thompson
+    why: Stratechery 作者，AI 商业分析最深度
+
+  - handle: chiefaioffice
+    name: Bindu Reddy
+    why: AI 产品/创业视角
+
+  # 开源生态
+  - handle: huggingface
+    name: Hugging Face
+    why: 开源模型生态，新模型/工具第一手发布
+
+  - handle: GoogleDeepMind
+    name: Google DeepMind
+    why: 前沿研究发布
+
+  - handle: AnthropicAI
+    name: Anthropic
+    why: Claude 生态更新
+
+  - handle: OpenAI
+    name: OpenAI
+    why: GPT/Codex 生态更新

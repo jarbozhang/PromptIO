@@ -6,7 +6,9 @@
 
 ## 架构
 
-- **pipeline.js** — RSS 采集脚本 (fetch-only)，评分和生成由 Claude Code 会话直接完成
+- **pipeline.js** — RSS/GitHub/arXiv 采集脚本 (fetch-only)
+- **agent-browser** — X 账号推文抓取（Claude Code 会话内用 skill 调用）
+- **Claude Code 会话** — 评分、生成、gates 全部直接完成
 - **Git 作为内容数据库** — 每篇内容是 markdown 文件，frontmatter 管理状态
 - **状态机** — draft → approved → published (或 rejected / publish_failed)
 
@@ -15,12 +17,24 @@
 - Node.js (ESM)
 - rss-parser (RSS 采集)
 - gray-matter (frontmatter 解析)
+- agent-browser skill (X 推文抓取)
 - Claude Code 会话 (选题评分 + 文章生成 + gates)
+
+## 每日流程
+
+```
+1. npm run pipeline              # RSS/GitHub/arXiv 采集
+2. agent-browser 抓取 X 账号      # 按 config/sources.yaml 中 x_accounts 列表
+   过滤：近7天 + likes>100        # 保存到 sources/{date}/ 同目录
+3. Claude Code 评分 top 10       # 从全部 sources 中选题，去重已有 drafts
+4. 10 个子代理并行生成文章         # 保存到 drafts/{date}/
+5. commit
+```
 
 ## 命令
 
 ```bash
-npm run pipeline    # RSS 采集（仅 fetch，不含评分/生成）
+npm run pipeline    # RSS/GitHub/arXiv 采集（不含 X 抓取、评分、生成）
 npm run publish     # 发布 approved 状态的文章到公众号
 npm run setup       # 初始化配置
 npm test            # 运行测试
