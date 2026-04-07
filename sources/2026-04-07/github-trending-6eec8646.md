@@ -1,0 +1,17 @@
+---
+title: >-
+  ollama/ollama: Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek,
+  gpt-oss, Qwen, Gemma and other models.
+url: 'https://github.com/ollama/ollama'
+source: GitHub Trending
+source_type: github
+language: en
+stars: 167754
+published: '2026-04-07T01:51:33Z'
+fetched_at: '2026-04-07T02:40:03.169Z'
+---
+Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+
+Stars: 167754 | Forks: 15391 | Language: Go
+Created: 2023-06-26 | Last push: 2026-04-07
+Topics: deepseek, gemma, gemma3, glm, go, golang, gpt-oss, llama, llama3, llm, llms, minimax, mistral, ollama, qwen

@@ -1,0 +1,486 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Imbue" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "Imbue" [ref=e6]
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: Products
+          - img [ref=e11]
+        - navigation:
+          - list:
+            - listitem:
+              - link "Sculptor →":
+                - /url: /sculptor/
+            - listitem:
+              - link "Vet →":
+                - /url: /product/vet/
+            - listitem:
+              - link "Latchkey →":
+                - /url: /product/latchkey/
+            - listitem:
+              - link "Offload →":
+                - /url: /product/offload/
+            - listitem:
+              - link "Documentation →":
+                - /url: https://docs.imbue.com/
+      - generic [ref=e13]:
+        - generic [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]: Company
+          - img [ref=e16]
+        - navigation:
+          - list:
+            - listitem:
+              - link "About →":
+                - /url: /company/
+            - listitem:
+              - link "Our mission →":
+                - /url: /company/vision/
+            - listitem:
+              - link "Work with us →":
+                - /url: /careers/
+      - generic [ref=e18]:
+        - generic [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: Learn
+          - img [ref=e21]
+        - navigation:
+          - list:
+            - listitem:
+              - link "Blog →":
+                - /url: /blog/
+            - listitem:
+              - link "Events →":
+                - /url: https://luma.com/imbue_ai
+            - listitem:
+              - link "Newsletter →":
+                - /url: http://eepurl.com/jsmsyw
+            - listitem:
+              - link "Essays →":
+                - /url: https://ideas.imbue.com/t/essays
+            - listitem:
+              - link "Podcasts →":
+                - /url: https://ideas.imbue.com/t/podcast
+      - generic [ref=e23]:
+        - generic [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Community
+          - img [ref=e26]
+        - navigation:
+          - list:
+            - listitem:
+              - link "GitHub →":
+                - /url: https://github.com/imbue-ai
+            - listitem:
+              - link "Discord →":
+                - /url: https://discord.gg/GvK8MsCVgk
+            - listitem:
+              - link "X (Twitter) →":
+                - /url: https://twitter.com/imbue_ai
+            - listitem:
+              - link "Substack →":
+                - /url: https://ideas.imbue.com/
+            - listitem:
+              - link "YouTube →":
+                - /url: https://www.youtube.com/@imbue_ai?sub_confirmation=1
+            - listitem:
+              - link "LinkedIn →":
+                - /url: https://www.linkedin.com/company/imbue-ai
+      - button "Get updates" [ref=e29] [cursor=pointer]
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - heading "A case study in testing with 100+ of Claude agents in parallel" [level=1] [ref=e32]
+      - 'heading "How we''re using `mngr` to create (and improve) its own tests and documentation." [level=2] [ref=e33]'
+      - generic [ref=e34]: April 3, 2026
+    - generic [ref=e35]:
+      - complementary [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Author" [level=3] [ref=e38]
+          - list [ref=e39]:
+            - listitem [ref=e40]: The Imbue Team
+        - generic [ref=e41]:
+          - heading "Outline" [level=3] [ref=e42]
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "High-level architecture" [ref=e45] [cursor=pointer]:
+                - /url: "#high-level-architecture"
+            - listitem [ref=e46]:
+              - link "Writing the tutorial script" [ref=e47] [cursor=pointer]:
+                - /url: "#writing-the-tutorial-script"
+            - listitem [ref=e48]:
+              - link "Converting tutorial blocks to pytest functions" [ref=e49] [cursor=pointer]:
+                - /url: "#converting-tutorial-blocks-to-pytest-functions"
+            - listitem [ref=e50]:
+              - link "Orchestrating the tests" [ref=e51] [cursor=pointer]:
+                - /url: "#orchestrating-the-tests"
+            - listitem [ref=e52]:
+              - link "Software composability" [ref=e53] [cursor=pointer]:
+                - /url: "#software-composability"
+            - listitem [ref=e54]:
+              - link "Software scalability" [ref=e55] [cursor=pointer]:
+                - /url: "#software-scalability"
+            - listitem [ref=e56]:
+              - link "The future of software development" [ref=e57] [cursor=pointer]:
+                - /url: "#the-future-of-software-development"
+      - main [ref=e58]:
+        - paragraph [ref=e59]:
+          - text: In our
+          - link "previous blog post" [ref=e60] [cursor=pointer]:
+            - /url: https://imbue.com/product/mngr/
+          - text: ", we introduced"
+          - code [ref=e61]: mngr
+          - text: and how you can use it to usefully launch hundreds of parallel agents. Here’s all the details of how we are actually using
+          - code [ref=e62]: mngr
+          - text: to run and improve itself, by testing its own demo script.
+        - heading "High-level architecture" [level=1] [ref=e63]
+        - paragraph [ref=e68]: "This is how the entire setup works:"
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - text: We start from a tutorial script,
+            - code [ref=e71]: tutorial.sh
+            - text: ", containing blocks of commands. A block is simply a sequence of consecutive non-empty lines."
+          - listitem [ref=e72]: For each block, we derive one or more pytest function.
+          - listitem [ref=e73]: For each pytest function, we launch an agent to run, debug, fix and improve it.
+          - listitem [ref=e74]: Finally, we integrate the outcome of all the agents together.
+        - paragraph [ref=e75]: Let’s dive into how each step works.
+        - heading "Writing the tutorial script" [level=1] [ref=e76]
+        - paragraph [ref=e77]: "This script is seeded with a lot of content we wrote ourselves, but it is a bit tiring once we have written 50 or so examples. So we simply:"
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - text: Write some comments in the file, like
+            - code [ref=e80]: "# Managing snapshots"
+          - listitem [ref=e81]: Ask a coding agent to fill in the blank.
+          - listitem [ref=e82]: Review and keep the ones that we like.
+        - paragraph [ref=e83]:
+          - text: Since we already have a lot of documentation elsewhere in the codebase—in particular, we have auto-generated man pages committed into the git repo, like
+          - link "this one" [ref=e84] [cursor=pointer]:
+            - /url: https://github.com/imbue-ai/mngr/blob/main/libs/mngr/docs/commands/primary/create.md
+          - text: —the agent does a good job of generating examples!
+        - paragraph [ref=e85]:
+          - text: "In fact, even when it doesn’t, it’s still useful: that means our interface is too confusing or was not properly documented, and a human may have problems figuring out how to use it too. We then used that signal to refine"
+          - code [ref=e86]: mngr
+          - text: ’s interface to be as simple as possible.
+        - paragraph [ref=e87]:
+          - text: Asking agents to generate examples turned out to be a win-win situation–we either get good examples, or get bad examples and use that to improve
+          - code [ref=e88]: mngr
+          - text: itself!
+        - heading "Converting tutorial blocks to pytest functions" [level=1] [ref=e89]
+        - paragraph [ref=e90]: Now that we have a healthy amount of tutorial commands, we can ask a coding agent to convert it into pytest functions. There are a few details worth mentioning.
+        - list [ref=e91]:
+          - listitem [ref=e92]: "Tutorial blocks tend to be concise and sometimes a bit contrived, but we want tests to be more exhaustive, covering both happy and unhappy paths. So this is a 1:N correspondence: for the same tutorial block, we can expect slight variations of the command itself or the environment to result in different outcomes, and they often deserve separate test cases."
+          - listitem [ref=e93]: In order to preserve the correspondence between tutorial blocks and test functions, we also ask the agent to “declare” which tutorial block it corresponds to, by citing the tutorial block in the function it generates, using a specific API in the test fixture.
+          - listitem [ref=e94]: In order to keep the agent honest, we also use a simple script to check that it’s indeed the case - for each tutorial block, there’s at least one pytest function that cites the tutorial block.
+        - paragraph [ref=e95]:
+          - text: All of these are packaged into a slash command
+          - link "sync-tutorial-to-e2e-tests" [ref=e96] [cursor=pointer]:
+            - /url: https://github.com/imbue-ai/mngr/blob/main/.claude/skills/sync-tutorial-to-e2e-tests/SKILL.md
+          - text: .
+        - paragraph [ref=e97]: "The coding agent usually can’t do a very good job of writing end-to-end tests in this step, and that’s totally expected. End-to-end tests are difficult to write for humans because there are fundamental tensions in all three stages of tests, and the reasons equally hold for coding agents:"
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - strong [ref=e100]: Arrange
+            - text: ": You want to set up as little as possible to reflect real-world usage scenarios, but you need an appropriate amount of setup to make tests appropriately isolated."
+          - listitem [ref=e101]:
+            - strong [ref=e102]: Act
+            - text: ": You want to be as faithful to real-world commands as possible—in this case, the commands from the tutorial—but you often need some variation for the commands to be suitable for testing."
+          - listitem [ref=e103]:
+            - strong [ref=e104]: Assert
+            - text: ": You want to test the effect of the commands as closely as possible, but testing e.g. file contents too literally can end up with fragile or flaky tests."
+        - paragraph [ref=e105]: But it’s okay if the coding agent doesn’t do a good job at this stage! We’ll solve this in the next step, but let’s mention a few things about our test framework.
+        - heading "The test framework" [level=2] [ref=e106]
+        - paragraph [ref=e107]:
+          - text: "The great thing about running CLI commands is that Python (and any other programming language, really) already has an API for it: the"
+          - code [ref=e108]: subprocess
+          - text: module. Give it a command, and you can get the stdout, stderr and exit code.
+        - paragraph [ref=e109]:
+          - text: Still, we built some utilities (really just a thin layer on top of
+          - code [ref=e110]: subprocess
+          - text: ") so that the test functions can be a little bit more concise and carry a little bit more information. A test function looks like this:"
+        - generic [ref=e111]:
+          - generic [ref=e112]: "def test_help_succeeds(e2e: E2eSession) -> None:"
+          - generic [ref=e113]: e2e.write_tutorial_block("""
+          - generic [ref=e114]: "# or see the other commands--list, destroy, message, connect, push, pull, clone, and more! These other commands are covered in their own sections below."
+          - generic [ref=e115]: mngr --help
+          - generic [ref=e116]: "\"\"\")"
+          - generic [ref=e117]: result = e2e.run(
+          - generic [ref=e118]: "\"mngr --help\","
+          - generic [ref=e119]: comment="or see the other commands--list, destroy, message, connect, push, pull, clone, and more!",
+          - generic [ref=e120]: )
+          - generic [ref=e121]: expect(result).to_succeed()
+          - generic [ref=e122]: expect(result.stdout).to_contain("Usage")
+          - generic [ref=e123]: expect(result.stdout).to_contain("create")
+          - generic [ref=e124]: expect(result.stdout).to_contain("list")
+        - paragraph [ref=e125]: "Building this extra layer also allows us to generate transcripts for the commands, which looks like:"
+        - generic [ref=e126]:
+          - generic [ref=e127]: "# or see the other commands--list, destroy, message, connect, push, pull, clone, and more!"
+          - generic [ref=e128]: $ mngr --help
+          - generic [ref=e129]: any output to stdout
+          - generic [ref=e130]: "! any errors to stderr"
+        - paragraph [ref=e131]:
+          - text: Finally, remember that
+          - code [ref=e132]: mngr
+          - text: runs your agent in a tmux session, and
+          - code [ref=e133]: tmux
+          - text: "can’t be so easily captured as simple CLI transcripts. But fear not:"
+          - code [ref=e134]: mngr
+          - text: "allows us to define a custom “connect command”, and in our test setup, we redirect it to a script by writing the following config:"
+        - generic [ref=e135]:
+          - generic [ref=e136]: "[commands.create]"
+          - generic [ref=e137]: "'connect_command = \"mngr-e2e-connect\""
+        - paragraph [ref=e138]:
+          - text: The
+          - code [ref=e139]: mngr-e2e-connect
+          - text: script, in turn, uses
+          - code [ref=e140]: asciinema
+          - text: to attach to the agent, and saves the recording in the test output directory.
+        - paragraph [ref=e141]: "We also built a combined view of all the artifacts–you can see the CLI transcript and TUI recordings on a web page:"
+        - heading "Orchestrating the tests" [level=1] [ref=e146]
+        - paragraph [ref=e147]: "Now that we have all those tests, let’s run them! Here’s the plan:"
+        - list [ref=e148]:
+          - listitem [ref=e149]:
+            - paragraph [ref=e150]:
+              - text: Collect all the test names using
+              - code [ref=e151]: pytest --collect-only
+          - listitem [ref=e152]:
+            - paragraph [ref=e153]: "For each test, launch an agent to work on it. This means several things:"
+            - paragraph [ref=e154]: a. If the test is failing, either fix the test code or the code it’s testing
+            - paragraph [ref=e155]: "b. If the test is passing, think about how to improve the test itself: make it more faithful to the original tutorial block, make the assertions more realistic, create additional tests etc."
+            - paragraph [ref=e156]: c. In any case, we instruct the agent to write a result JSON file.
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: Wait for them to finish, pulling their result JSON files and test artifacts.
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: Collect all the code changes they made, and use an agent to merge them all together into one mega PR.
+        - paragraph [ref=e161]:
+          - text: Aside from step 1, every other step is implemented using
+          - code [ref=e162]: mngr
+          - text: "’s primitives:"
+        - list [ref=e163]:
+          - listitem [ref=e164]:
+            - text: Use the
+            - code [ref=e165]: mngr create
+            - text: primitive to launch testing agents, which also allows us to send an initial prompt.
+          - listitem [ref=e166]:
+            - text: Use the
+            - code [ref=e167]: mngr list
+            - text: primitive to poll the state of the agents.
+          - listitem [ref=e168]:
+            - text: When an agent is done, use the
+            - code [ref=e169]: mngr pull
+            - text: primitive to pull down the result files and test artifacts, and then the
+            - code [ref=e170]: mngr stop
+            - text: primitive to stop it.
+          - listitem [ref=e171]:
+            - text: Finally, use the
+            - code [ref=e172]: mngr create
+            - text: primitive again to create the “integrator” agent that merges all the changes together.
+        - heading "Integrating changes from all the agents" [level=2] [ref=e173]
+        - paragraph [ref=e174]: "Integrating changes from many agents is not a trivial task, even for an agent. We spent a lot of time thinking about and iterating on this, and this is eventually what we ended up with:"
+        - list [ref=e175]:
+          - listitem [ref=e176]: Each of the testing agents would divide its commits into implementation fixes, and non-implementation (fixing the test or just making it better, fixing some doc, etc.)
+          - listitem [ref=e177]: When the integrator sees the results from all the testing agents, it just merges all the non-implementation fixes together - since these are usually uncontroversial.
+          - listitem [ref=e178]: For all the implementation fixes, we instruct the integrator to rank them by importance, and keep them as distinct commits, but merge them into a single linear branch, resolving conflicts along the way.
+        - paragraph [ref=e179]: "This results in a single PR that can be easily reviewed by a human: the non-implementation fixes usually can be merged as is, and the implementation fixes can be reviewed one by one, with undesirable ones reverted."
+        - paragraph [ref=e180]: Another thing worth mentioning is that not all testing agents produce changes that can get integrated. Some testing agents just get confused, or can’t make progress unless something in the environment is fixed. We instruct the testing agents to reproduce a “blocked” outcome in that case, and simply put that in the report we generate.
+        - heading "How I developed the orchestration workflow" [level=2] [ref=e181]
+        - paragraph [ref=e182]: When I started building this workflow, I built the entire lifecycle using only agents on my local machine. This allows me to iterate super quickly, because the agents start up immediately, and if I want to peek into an agent, it’s just an instant tmux attach command away.
+        - paragraph [ref=e183]:
+          - text: Eventually I’m happy with this workflow for running 10 agents, and I want to scale up to 100 agents. My local machine is not strong enough for that, and it’s time to deploy those agents remotely. To do that, I simply change one thing in how I use
+          - code [ref=e184]: mngr create
+          - text: ": from"
+          - code [ref=e185]: mngr create foo
+          - text: to
+          - code [ref=e186]: mngr create foo@.modal
+          - text: "and voila! All my agents now run on Modal instead. And the subsequent interactions with the agents remain the same:"
+          - code [ref=e187]: mngr list
+          - text: ","
+          - code [ref=e188]: mngr pull
+          - text: and
+          - code [ref=e189]: mngr stop
+          - text: all work the same between local and remote Modal agents, because
+          - code [ref=e190]: mngr
+          - text: abstracts away the differences between them.
+        - paragraph [ref=e191]: I lied a bit actually. When I started, I was using the Git worktree mode to create working copies for my local agents; merging their changes together is very easy, since they are already available as branches in my original Git repo. But Git worktrees don’t work on remote agents—they use the Git mirror mode.
+        - paragraph [ref=e192]:
+          - text: "But fear not: I can also simply request"
+          - code [ref=e193]: mngr
+          - text: to also use the Git mirror mode when creating the local agent. Git worktree is the default for local agents, but you’re in no way locked into it. Now we’re exercising roughly the same code path as with remote agents, and we should now use
+          - code [ref=e194]: mngr pull
+          - text: to explicitly pull the changes into my original git repo before merging the changes there. Now the workflow is really the same between local and remote.
+        - heading "Software composability" [level=1] [ref=e195]
+        - paragraph [ref=e196]: "Let’s take a step back and think about what we built. What we have built is essentially a small map reduce pipeline:"
+        - list [ref=e197]:
+          - listitem [ref=e198]: Gather a list of tests
+          - listitem [ref=e199]: Map them over an agent per test
+          - listitem [ref=e200]: Reduce the results together into a single branch
+        - paragraph [ref=e201]:
+          - text: What is remarkable is that
+          - code [ref=e202]: mngr
+          - text: "itself doesn’t know anything about map reduce: we built the pipeline, but each step uses a primitive that"
+          - code [ref=e203]: mngr
+          - text: provides. Unlike other multi-agent workflow tools that try to give you the “map reduce framework”,
+          - code [ref=e204]: mngr
+          - text: gives you the “maps” and “reduces”, just like a library of functional programming primitives, so that you can build whatever simple or complex multi-agent pipeline you want.
+        - heading "Software scalability" [level=1] [ref=e205]
+        - paragraph [ref=e206]:
+          - text: Let’s also think about how I built the pipeline. The “end product” runs on hundreds of Modal sandboxes, but I started out by running everything on my local machine. In other words, I started small and
+          - code [ref=e207]: mngr
+          - text: allowed me to scale up smoothlessly.
+        - paragraph [ref=e208]: But what is also remarkable—and this is a property that is often overlooked—is that I can always easily scale down back into my local machine. Sure, I can’t easily run hundreds of agents on my machine because we are in the middle of a global RAM shortage, but I can always run 10 of them in parallel, and by trading space for time, I can run hundreds of agents overnight.
+        - paragraph [ref=e209]:
+          - text: "When we talk about software scalability, we often focus on two things: the ability to scale"
+          - strong [ref=e210]: up
+          - text: ", and the"
+          - strong [ref=e211]: incremental
+          - text: cost to do so. But we don’t talk nearly enough about the ability to scale
+          - strong [ref=e212]: down
+          - text: ", and the"
+          - strong [ref=e213]: upfront
+          - text: cost you have to pay.
+        - paragraph [ref=e214]:
+          - text: In the world of increasingly large tech conglomerates with highly specialized infrastructure teams and billions of users, being only able to scale up and paying a lot of cost upfront is not a bad tradeoff. But for small teams, being able to get started quickly and easily and locally–without the big up-front investment–is often much more valuable. When doing so with
+          - code [ref=e215]: mngr
+          - text: ", it’s still easy to scale up later if you want to."
+        - paragraph [ref=e216]:
+          - code [ref=e217]: mngr
+          - text: "is engineered to be truly scalable: the incremental cost is low, as is the upfront cost. It is an ergonomic CLI for managing a few local “pet agents,” but you can also just ask it to run 100 agents on Modal."
+        - heading "The future of software development" [level=1] [ref=e218]
+        - paragraph [ref=e219]:
+          - text: We’re really happy that we’ve been able to leverage
+          - code [ref=e220]: mngr
+          - text: to make itself better, but this is just the beginning.
+        - paragraph [ref=e221]:
+          - text: Imbue’s mission is to make tech serve humans, and the way we are building
+          - code [ref=e222]: mngr
+          - text: is consistent with that mission. Multi-agent workflows—whether it’s running a few coding agents locally, or launching hundreds of them remotely—are quickly becoming the key to fully harnessing the power of AI-assisted software engineering.
+        - paragraph [ref=e223]:
+          - text: Instead of locking you to a specific platform,
+          - code [ref=e224]: mngr
+          - text: gives you primitives that you can use locally or remotely, works at tiny scales and large scales alike, giving you all the freedom to build the workflows that suit your personal or business needs.
+        - paragraph [ref=e225]:
+          - code [ref=e226]: mngr
+          - text: is free, open source, and
+          - link "available here" [ref=e227] [cursor=pointer]:
+            - /url: https://github.com/imbue-ai/mngr/
+          - text: . Try it out and let us know what you think on
+          - link "X" [ref=e228] [cursor=pointer]:
+            - /url: https://x.com/joshalbrecht/status/2039727392915349902
+          - text: or
+          - link "Product Hunt" [ref=e229] [cursor=pointer]:
+            - /url: https://www.producthunt.com/products/imbue-7
+          - text: .
+  - contentinfo [ref=e230]:
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - img "Imbue logo" [ref=e234]
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - heading "Products" [level=3] [ref=e237]
+            - list [ref=e238]:
+              - listitem [ref=e239]:
+                - link "Sculptor" [ref=e240] [cursor=pointer]:
+                  - /url: /sculptor/
+              - listitem [ref=e241]:
+                - link "Vet" [ref=e242] [cursor=pointer]:
+                  - /url: /product/vet/
+              - listitem [ref=e243]:
+                - link "Latchkey" [ref=e244] [cursor=pointer]:
+                  - /url: /product/latchkey/
+              - listitem [ref=e245]:
+                - link "Offload" [ref=e246] [cursor=pointer]:
+                  - /url: /product/offload/
+              - listitem [ref=e247]:
+                - link "Documentation" [ref=e248] [cursor=pointer]:
+                  - /url: https://docs.imbue.com/
+          - generic [ref=e249]:
+            - heading "Subscribe" [level=3] [ref=e250]
+            - list [ref=e251]:
+              - listitem [ref=e252]:
+                - link "Newsletters" [ref=e253] [cursor=pointer]:
+                  - /url: http://eepurl.com/jsmsyw
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - heading "Learn" [level=3] [ref=e256]
+            - list [ref=e257]:
+              - listitem [ref=e258]:
+                - link "Blog" [ref=e259] [cursor=pointer]:
+                  - /url: /blog/
+              - listitem [ref=e260]:
+                - link "Events" [ref=e261] [cursor=pointer]:
+                  - /url: https://luma.com/imbue_ai
+              - listitem [ref=e262]:
+                - link "Newsletter" [ref=e263] [cursor=pointer]:
+                  - /url: http://eepurl.com/jsmsyw
+              - listitem [ref=e264]:
+                - link "Essays" [ref=e265] [cursor=pointer]:
+                  - /url: https://ideas.imbue.com/t/essays
+              - listitem [ref=e266]:
+                - link "Podcasts" [ref=e267] [cursor=pointer]:
+                  - /url: https://ideas.imbue.com/t/podcast
+          - generic [ref=e268]:
+            - heading "Documentation" [level=3] [ref=e269]
+            - list [ref=e270]:
+              - listitem [ref=e271]:
+                - link "Sculptor docs" [ref=e272] [cursor=pointer]:
+                  - /url: https://docs.imbue.com/
+              - listitem [ref=e273]:
+                - link "Latchkey docs" [ref=e274] [cursor=pointer]:
+                  - /url: https://docs.imbue.com/latchkey
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - heading "Company" [level=3] [ref=e277]
+            - list [ref=e278]:
+              - listitem [ref=e279]:
+                - link "About" [ref=e280] [cursor=pointer]:
+                  - /url: /company/
+              - listitem [ref=e281]:
+                - link "Our mission" [ref=e282] [cursor=pointer]:
+                  - /url: /company/vision/
+              - listitem [ref=e283]:
+                - link "Work with us" [ref=e284] [cursor=pointer]:
+                  - /url: /careers/
+          - generic [ref=e285]:
+            - heading "Research" [level=3] [ref=e286]
+            - list [ref=e287]:
+              - listitem [ref=e288]:
+                - link "Beating ARC-AGI-2" [ref=e289] [cursor=pointer]:
+                  - /url: /research/2026-02-27-arc-agi-2-evolution/
+              - listitem [ref=e290]:
+                - link "LLM-based Evolution as Universal Optimizer" [ref=e291] [cursor=pointer]:
+                  - /url: /research/2026-02-27-darwinian-evolver/
+              - listitem [ref=e292]:
+                - link "Open-sourcing CARBS" [ref=e293] [cursor=pointer]:
+                  - /url: /research/70b-carbs/
+              - listitem [ref=e294]:
+                - link "70B Model Training" [ref=e295] [cursor=pointer]:
+                  - /url: /research/70b-intro/
+        - generic [ref=e296]:
+          - generic [ref=e297]:
+            - heading "Community" [level=3] [ref=e298]
+            - list [ref=e299]:
+              - listitem [ref=e300]:
+                - link "GitHub" [ref=e301] [cursor=pointer]:
+                  - /url: https://github.com/imbue-ai
+              - listitem [ref=e302]:
+                - link "Discord" [ref=e303] [cursor=pointer]:
+                  - /url: https://discord.gg/GvK8MsCVgk
+              - listitem [ref=e304]:
+                - link "X (Twitter)" [ref=e305] [cursor=pointer]:
+                  - /url: https://twitter.com/imbue_ai
+              - listitem [ref=e306]:
+                - link "Substack" [ref=e307] [cursor=pointer]:
+                  - /url: https://ideas.imbue.com/
+              - listitem [ref=e308]:
+                - link "YouTube" [ref=e309] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@imbue_ai?sub_confirmation=1
+              - listitem [ref=e310]:
+                - link "LinkedIn" [ref=e311] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/imbue-ai
+          - generic [ref=e312]:
+            - heading "Terms and policies" [level=3] [ref=e313]
+            - list [ref=e314]:
+              - listitem [ref=e315]:
+                - link "Privacy policy" [ref=e316] [cursor=pointer]:
+                  - /url: /legal/privacy/
+              - listitem [ref=e317]:
+                - link "Terms of use" [ref=e318] [cursor=pointer]:
+                  - /url: /legal/terms/
+      - generic [ref=e319]: © 2026 Imbue
