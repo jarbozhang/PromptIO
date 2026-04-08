@@ -1,0 +1,14 @@
+title: "500 行 Python 扫出你日志里的 API Key，Simon Willison 的开发过程比工具本身更值得学"
+status: draft
+date: 2026-04-08
+sources:
+  - simon-willison-268befaf
+  - simon-willison-6b2f4519
+  - simon-willison-5f045cfb
+  - x-simonw-2712e831
+tags:
+  - Simon Willison
+  - scan-for-secrets
+  - CLI
+  - Security
+  - Python

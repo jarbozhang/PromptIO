@@ -1,0 +1,13 @@
+title: "300 token/s，ggerganov 用一台三年前的 Mac 干掉了我的 API 账单"
+status: draft
+date: 2026-04-08
+sources:
+  - x-ggerganov-70dcb49d
+  - x-ggerganov-3f55485a
+  - x-ggerganov-d0287651
+tags:
+  - llama.cpp
+  - Tailscale
+  - Local AI
+  - Mac Studio
+  - ggerganov
