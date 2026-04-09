@@ -1,0 +1,13 @@
+title: "Chollet 搞了个新东西，TPU 微调 LLM 只要加一行装饰器"
+status: draft
+date: 2026-04-09
+sources:
+  - x-fchollet-8c419508
+  - x-fchollet-7cc73ab6
+  - x-fchollet-b5466727
+tags:
+  - Keras
+  - Kinetic
+  - Chollet
+  - TPU
+  - LLM Fine-tuning
