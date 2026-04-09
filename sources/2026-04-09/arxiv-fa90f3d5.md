@@ -1,0 +1,18 @@
+---
+title: How to sketch a learning algorithm
+url: 'https://arxiv.org/abs/2604.07328v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Sam Gunn
+categories:
+  - cs.LG
+  - cs.LG
+published: '2026-04-08T17:46:06Z'
+fetched_at: '2026-04-09T07:18:08.756Z'
+---
+How does the choice of training data influence an AI model? This question is of central importance to interpretability, privacy, and basic science. At its core is the data deletion problem: after a reasonable amount of precomputation, quickly predict how the model would behave in a given situation if a given subset of training data had been excluded from the learning algorithm. We present a data deletion scheme capable of predicting model outputs with vanishing error $\varepsilon$ in the deep learning setting. Our precomputation and prediction algorithms are only $\mathrm{poly}(1/\varepsilon)$ factors slower than regular training and inference, respectively. The storage requirements are those of $\mathrm{poly}(1/\varepsilon)$ models. Our proof is based on an assumption that we call "stability." In contrast to the assumptions made by prior work, stability appears to be fully compatible with learning powerful AI models. In support of this, we show that stability is satisfied in a minimal set of experiments with microgpt. Our code is available at https://github.com/SamSpo1/microgpt-sketch. At a technical level, our work is based on a new method for locally sketching an arithmetic circuit by computing higher-order derivatives in random complex directions. Forward-mode automatic differentiation allows cheap computation of these derivatives.
+
+Authors: Sam Gunn
+Categories: cs.LG, cs.LG
