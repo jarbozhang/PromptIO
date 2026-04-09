@@ -1,4 +1,4 @@
-# Karpathy 扫了一下自己的电脑，发现差点被 npm 投毒搞了
+# Karpathy 差点被黑客搞了，你装的 npm 包安全吗？
 
 axios，每周 3 亿次下载，几乎是 JavaScript 世界里用得最多的 HTTP 客户端。上周它被供应链投毒了。
 
@@ -74,3 +74,5 @@ Karpathy 差几个小时就中招了。你运气有他好吗？
 - [npm 官方安全公告](https://www.npmjs.com/advisories)
 - [Socket.dev 供应链安全扫描](https://socket.dev/)
 - [npm ci 文档](https://docs.npmjs.com/cli/v10/commands/npm-ci)
+
+<!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

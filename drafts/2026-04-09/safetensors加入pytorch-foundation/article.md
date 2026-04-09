@@ -1,4 +1,4 @@
-# Safetensors 加入 PyTorch Foundation，Hugging Face 在下一盘什么棋？
+# 你下载的 AI 模型可能藏着后门，Safetensors 为什么正在取代 Pickle
 
 昨天，Hugging Face 把 Safetensors 捐给了 PyTorch Foundation。
 
@@ -78,3 +78,5 @@ Safetensors 的 Python 包安装就一行 `pip install safetensors`，从 Pickle
 - Safetensors 文档: https://huggingface.co/docs/safetensors
 - PyTorch Foundation: https://pytorch.org/foundation
 - 原文博客: https://huggingface.co/blog/safetensors-joins-pytorch-foundation
+
+<!-- REACH: 3/10 | 品牌✓ 利益点✗ 可操作✗ -->

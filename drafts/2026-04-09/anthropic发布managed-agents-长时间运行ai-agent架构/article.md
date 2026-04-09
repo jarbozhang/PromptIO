@@ -1,4 +1,4 @@
-# Anthropic 把 Agent 拆成了三块，p95 延迟直接砍掉 90%
+# Anthropic 公开了 Agent 架构设计图，解决了我搭系统时最头疼的问题
 
 昨天 Anthropic 工程博客放了一篇文章，标题很低调，叫 "Scaling Managed Agents"。但里面藏了一个让我盯着屏幕看了好久的架构图。
 
@@ -89,3 +89,5 @@ Anthropic 在 X 上的官方推文拿到了 2769 个赞、340 次转发。从互
 - [Anthropic 工程博客原文 - Scaling Managed Agents](https://www.anthropic.com/engineering/managed-agents)
 - [Claude Managed Agents 产品页](https://claude.com/blog/claude-managed-agents)
 - [Hacker News 讨论](https://news.ycombinator.com/item?id=47693047)
+
+<!-- REACH: 4/10 | 品牌✓ 利益点✗ 可操作✗ -->

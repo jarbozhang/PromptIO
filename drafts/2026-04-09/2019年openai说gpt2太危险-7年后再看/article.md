@@ -1,4 +1,4 @@
-# OpenAI 说 GPT-2 太危险不敢发布，7 年后这个笑话还好笑吗？
+# 下次有人说"AI 太危险不能发布"，问这三个问题就够了
 
 2019 年 2 月，OpenAI 发了一篇博客，说他们训练出了一个文本生成模型 GPT-2，15 亿参数，效果好到"太危险了，不能公开发布"。当时整个 AI 圈都炸了，媒体争相报道，Slate 杂志的 Aaron Mak 专门写了一篇长文讨论，技术什么时候危险到不该发布。
 
@@ -63,3 +63,5 @@ HN 上有人为 2019 年的 OpenAI 辩护，说这在当时是合理的谨慎，
 - [Slate 原文 - When Is Technology Too Dangerous to Release?](https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html)
 - [Hacker News 讨论](https://news.ycombinator.com/item?id=47684326)
 - [OpenAI 2019 年 GPT-2 发布策略论文](https://arxiv.org/pdf/1908.09203)
+
+<!-- REACH: 5/10 | 品牌✓ 利益点✗ 可操作✗ -->
