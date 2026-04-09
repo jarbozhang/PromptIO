@@ -14,6 +14,14 @@ Your core value proposition: deliver **practical, hands-on insights** from Engli
 
 Note: practicality is weighted almost as high as novelty because readers value "I can try this today" over "interesting but abstract."
 
+- **xhs_fit** (1-10): 是否适合小红书发布？评估标准：
+  - 10 = 知名品牌（Google/OpenAI/Apple/Claude）+ 读者能动手的事 + 标题有明确利益点（"免费""不需要""一键""本地跑"）
+  - 7 = 有品牌认知 + 有实操内容，但门槛偏高或需要一定技术背景
+  - 4 = 品牌读者不熟悉（Holo3/Astral/MemPalace）或纯观点分析
+  - 1 = 深度技术分析、行业趋势、纯数字对比，小红书用户不会停下来看
+
+xhs_fit 不影响最终评分排序，但在输出中标注，用于后续分发决策。
+
 ## For each article, provide:
 
 - **title**: A compelling Chinese title. Frame it as something the reader can learn or do. "如何用X实现Y" > "X公司发布了Y"。"我用X踩了这些坑" > "X的技术分析"
@@ -32,9 +40,11 @@ Return a JSON array:
   "novelty": 9,
   "practicality": 8,
   "depth_potential": 8,
+  "xhs_fit": 9,
   "angle": "实操角度",
   "tags": ["tag1", "tag2"],
-  "reason": "为什么这对读者有实操价值"
+  "reason": "为什么这对读者有实操价值",
+  "xhs_note": "适合/不适合小红书的原因（一句话）"
 }
 ```
 
