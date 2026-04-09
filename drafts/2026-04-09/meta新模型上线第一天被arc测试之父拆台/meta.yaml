@@ -1,6 +1,7 @@
-title: "Meta 花了几十亿搞出 Muse Spark，结果上线第一天就被 Chollet 拆台了"
+title: "Meta 花几十亿搞的新模型，上线第一天就被 ARC 测试之父拆台了"
 status: draft
 date: 2026-04-09
+reach: 7
 sources:
   - x-fchollet-059aae99
   - x-emollick-49b090e9
@@ -10,4 +11,3 @@ tags:
   - Muse Spark
   - Chollet
   - Benchmark
-  - AI Models

@@ -118,12 +118,13 @@ replies: {replyCount}
 
 **slug 命名规则：** 标题方向的中文 kebab-case，去掉标点，例如 `openai收购astral-python工具链要变天`
 
-**meta.yaml 格式：**
+**meta.yaml 格式（title 是唯一标题源）：**
 
 ```yaml
-title: "最终标题"
+title: "最终发布标题"
 status: draft
 date: {date}
+reach: 8
 sources:
   - source-file-id-1
   - source-file-id-2
@@ -131,6 +132,8 @@ tags:
   - tag1
   - tag2
 ```
+
+**article.md 格式：** 不写 H1 标题，正文从第一句话直接开始。标题由 meta.yaml 管理。
 
 等待所有子代理完成，逐一报告完成状态。
 
