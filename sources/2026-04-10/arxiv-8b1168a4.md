@@ -1,0 +1,20 @@
+---
+title: Toward a Tractability Frontier for Exact Relevance Certification
+url: 'https://arxiv.org/abs/2604.07349v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Tristan Simas
+categories:
+  - cs.CC
+  - cs.AI
+  - cs.LO
+  - cs.CC
+published: '2026-04-08T17:59:47Z'
+fetched_at: '2026-04-10T00:43:39.928Z'
+---
+Exact relevance certification asks which coordinates are necessary to determine the optimal action in a coordinate-structured decision problem. The tractable families treated here admit a finite primitive basis, but optimizer-quotient realizability is maximal, so quotient shape alone cannot characterize the frontier. We prove a meta-impossibility theorem for efficiently checkable structural predicates invariant under the theorem-forced closure laws of exact certification. Structural convergence with zero-distortion summaries, quotient entropy bounds, and support-counting arguments explains why those closure laws are canonical. We establish the theorem by constructing same-orbit disagreements for four obstruction families, namely dominant-pair concentration, margin masking, ghost-action concentration, and additive/statewise offset concentration, using action-independent, pair-targeted affine witnesses. Consequently no correct tractability classifier on a closure-closed domain yields an exact characterization over these families. Here closure-orbit agreement is forced by correctness rather than assumed as an invariance axiom. The result therefore applies to correct classifiers on closure-closed domains, not only to classifiers presented through a designated admissibility package.
+
+Authors: Tristan Simas
+Categories: cs.CC, cs.AI, cs.LO, cs.CC
