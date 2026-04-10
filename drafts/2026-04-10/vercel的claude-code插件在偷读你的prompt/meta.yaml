@@ -1,0 +1,11 @@
+title: "Vercel 的 Claude Code 插件在偷偷读你的 prompt，HN 252 分炸了"
+status: draft
+date: 2026-04-10
+reach: 8
+sources:
+  - hacker-news-algolia-ai-filter-9b21896a
+tags:
+  - Vercel
+  - Claude Code
+  - Privacy
+  - Telemetry
