@@ -1,0 +1,14 @@
+title: "ggerganov 用三年前的 Mac 跑出 300 token/s，llama.cpp 的完整配置我替你试了"
+status: draft
+date: 2026-04-11
+reach: 8
+sources:
+  - x-ggerganov-3f55485a
+  - x-GoogleDeepMind-6dcfa7e4
+  - x-ggerganov-54afaa66
+tags:
+  - llama.cpp
+  - ggerganov
+  - Gemma 4
+  - Mac Studio
+  - Local AI
