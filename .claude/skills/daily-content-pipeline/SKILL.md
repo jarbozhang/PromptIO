@@ -72,6 +72,23 @@ replies: {replyCount}
 
 用 bash 脚本批量处理所有账号（循环，非并行，避免触发限流）。内嵌 Node.js 做 JSON 解析和文件写入。
 
+**Step 2b: 推荐流抓取（For You + Following）**
+
+除了按账号搜索，还要抓取用户的推荐流和关注流，获取更广泛的 AI 相关内容：
+
+```bash
+bird home -n 50 --json          # For You 推荐流
+bird home --following -n 50 --json  # Following 关注流
+```
+
+**注意 home timeline 的 author 字段是对象**，需要用 `t.author.username` 获取用户名（不是 `t.author`）。
+
+过滤规则同上（14 天 + likes >= 100），但文件名前缀改为 `x-home-{username}-{hash8}.md` 和 `x-following-{username}-{hash8}.md`，source 字段标记为 `"X home @{username}"` 或 `"X following @{username}"`。
+
+去重：检查 hash 是否已存在于当天目录中，避免和 Step 2a 的账号搜索结果重复。
+
+推荐流的价值在于发现不在 `x_accounts` 列表中的账号和话题，特别是中文 AI 社区的接地气内容（省钱攻略、工具推荐、开源项目）。
+
 ### Step 3: 选题评分
 
 读取 `sources/{date}/` 下全部 source 文件的 frontmatter（title、source、url、likes），提取为索引列表。
