@@ -143,7 +143,7 @@ bird home --following -n 50 --json  # Following 关注流
    - 不把社区按语言对立（不用"中文世界""英文社区"）
    - 信息差洞察用"社区里的多种声音"统一呈现
    - 不要虚构你不确定的细节，所有数据必须来自源材料
-   - article.md 不写 H1 标题，正文从第一句话直接开始
+   - article.md 以 H1 标题开头（与 meta.yaml title 一致），空一行后接正文
    - meta.yaml 的 title 是唯一标题源
 6. 输出路径：
    - 文章：`drafts/{date}/{slug}/article.md`
@@ -166,7 +166,7 @@ tags:
   - tag2
 ```
 
-**article.md 格式：** 不写 H1 标题，正文从第一句话直接开始。标题由 meta.yaml 管理。末尾加 `<!-- REACH: X/10 | 品牌✓/✗ 利益点✓/✗ 可操作✓/✗ -->`。
+**article.md 格式：** 以 H1 标题开头（与 meta.yaml title 一致），空一行后接正文。末尾加 `<!-- REACH: X/10 | 品牌✓/✗ 利益点✓/✗ 可操作✓/✗ -->`。
 
 等待所有子代理完成，逐一报告完成状态。
 

@@ -197,7 +197,6 @@
 
 ## 输出格式
 
-直接输出 markdown 正文，**不要以 H1 标题开头**（标题由 meta.yaml 的 title 字段管理）。
-正文从第一句话直接开始，不要有 frontmatter。
+以 H1 标题开头（与 meta.yaml 的 title 保持一致），然后空一行接正文。不要有 frontmatter。
 结尾加"相关链接"section，包含可操作的链接（仓库、论文、文档、demo）。
 最后一行加 REACH 评分注释：`<!-- REACH: X/10 | 品牌✓/✗ 利益点✓/✗ 可操作✓/✗ -->`
