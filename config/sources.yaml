@@ -145,3 +145,13 @@ x_accounts:
   - handle: OpenAI
     name: OpenAI
     why: GPT/Codex 生态更新
+
+# ── Web 抓取源（Claude Code 会话里用 agent-browser 抓取）──────
+# 无 RSS，需要用 agent-browser 打开页面提取数据
+
+web_sources:
+  - name: TrustMRR OpenClaw Ecosystem
+    url: https://trustmrr.com/special-category/openclaw
+    why: OpenClaw 生态创业公司营收排行榜，verified revenue 数据
+    method: agent-browser
+    frequency: weekly
