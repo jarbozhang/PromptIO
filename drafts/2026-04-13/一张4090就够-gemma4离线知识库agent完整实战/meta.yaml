@@ -1,0 +1,16 @@
+title: "一张4090就够-Gemma 4离线知识库Agent完整实战"
+status: draft
+date: 2026-04-13
+reach: 9
+sources:
+  - x-home-PWenzhen76938-a86814e5
+  - x-ggerganov-70dcb49d
+  - x-ggerganov-3f55485a
+  - x-GoogleDeepMind-c560bf8c
+  - deepmind-blog-c64eb2c5
+tags:
+  - Gemma 4
+  - 本地部署
+  - 知识库
+  - RAG
+  - 离线AI
