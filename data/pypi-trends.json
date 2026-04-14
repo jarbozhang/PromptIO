@@ -1,0 +1,45 @@
+{
+  "packages": {
+    "transformers": {
+      "last_day": 4371128,
+      "last_week": 28625398,
+      "last_month": 126021930
+    },
+    "openai": {
+      "last_day": 9309329,
+      "last_week": 59924394,
+      "last_month": 235863964
+    },
+    "anthropic": {
+      "last_day": 3944840,
+      "last_week": 23952084,
+      "last_month": 89947506
+    },
+    "vllm": {
+      "last_day": 546188,
+      "last_week": 3139967,
+      "last_month": 9880137
+    },
+    "llama-cpp-python": {
+      "last_day": 27158,
+      "last_week": 163232,
+      "last_month": 591636
+    },
+    "crewai": {
+      "last_day": 249257,
+      "last_week": 1519425,
+      "last_month": 6126307
+    },
+    "autogen": {
+      "last_day": 5146,
+      "last_week": 35790,
+      "last_month": 160029
+    },
+    "dspy-ai": {
+      "last_day": 49830,
+      "last_week": 321425,
+      "last_month": 1577259
+    }
+  },
+  "updated_at": "2026-04-14T03:33:36.080Z"
+}
