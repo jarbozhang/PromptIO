@@ -9,7 +9,7 @@ description: >
 
 # Daily Content Pipeline
 
-自动化 AI 内容管线，5 步完成从采集到生成。
+自动化 AI 内容管线，7 步完成从采集到生成（含 wiki 维护）。
 
 ## 前置条件
 
@@ -19,7 +19,7 @@ description: >
 
 ## 完整流程
 
-依次执行以下 5 步。每步完成后汇报结果，遇到错误时诊断但不中断整体流程。
+依次执行以下 6 步。每步完成后汇报结果，遇到错误时诊断但不中断整体流程。
 
 ### Step 1: RSS/GitHub/arXiv 采集
 
@@ -30,6 +30,24 @@ npm run pipeline
 这会运行 `scripts/pipeline.js`，采集 `config/sources.yaml` 中定义的所有 RSS 源、GitHub Trending 和 arXiv 论文，保存到 `sources/{date}/`，并自动 commit。
 
 记录采集条目数，报告失败的源（常见的 Reddit 403、MIT Tech Review 超时可忽略）。
+
+### Step 1b: 脚本信号源采集
+
+在 RSS/GitHub/arXiv 采集完成后，运行额外的脚本信号源。这些脚本独立于 pipeline.js，需要单独调用：
+
+```bash
+npm run fetch:trending    # GitHub Trending 每日热门 AI 项目（抓取 trending 页面 + API 补充 topics）
+npm run fetch:openrouter   # OpenRouter 新增模型监控（对比上次快照，只输出新增）
+npm run fetch:pypi         # PyPI AI 包下载趋势（10 个核心包，检测增速异常 >20%）
+```
+
+**注意事项：**
+- `fetch:trending` 抓取 3 个页面（all/python/jupyter-notebook），用 AI 关键词过滤
+- `fetch:openrouter` 首次运行会建立基线快照（存在 `data/openrouter-models.json`），后续只报告新增模型
+- `fetch:pypi` 有 rate limit（pypistats.org），脚本内置 3s 间隔，偶尔仍有 429 失败属正常
+- PyPI 趋势数据存在 `data/pypi-trends.json`，增速 >20% 的包会单独生成 spike 文件
+
+三个脚本的输出都保存到 `sources/{date}/`，文件名前缀分别为 `github-trending-`、`openrouter-new-model-`、`pypi-trends-` / `pypi-spike-`。
 
 ### Step 2: X 推文抓取
 
@@ -89,11 +107,17 @@ bird home --following -n 50 --json  # Following 关注流（至少50条）
 
 推荐流的价值在于发现不在 `x_accounts` 列表中的账号和话题，特别是中文 AI 社区的接地气内容（省钱攻略、工具推荐、开源项目）。
 
-### Step 3: 选题评分
+### Step 3: 选题评分（wiki-informed）
 
 读取 `sources/{date}/` 下全部 source 文件的 frontmatter（title、source、url、likes），提取为索引列表。
 
-**去重：** 读取最近 3 天的 `drafts/` 目录名，提取已覆盖主题，在评分时排除。
+**Wiki 查询（评分前必做）：**
+1. 读取 `wiki/coverage/topic-saturation.md` 了解当前主题饱和度，高饱和主题自动降权
+2. 读取 `wiki/coverage/article-registry.md` 进行精确去重（比 3 天 drafts 目录名更准确）
+3. 读取相关实体页（如涉及 Karpathy 的选题，读 `wiki/entities/people/karpathy.md`）确认覆盖次数
+4. 如果某实体/主题在 wiki 中标注为"高饱和"或"需要降权"，在评分时 REACH 自动 -1
+
+**去重：** 优先使用 wiki/coverage/article-registry.md 进行去重。同时读取最近 3 天的 `drafts/` 目录名作为补充。
 
 **评分标准（读取 `config/prompts/scoring.md` 获取完整版）：**
 - novelty (1-10): 对读者的新鲜度，量子位/机器之心已覆盖的扣分
@@ -170,14 +194,51 @@ tags:
 
 等待所有子代理完成，逐一报告完成状态。
 
-### Step 5: Commit
+### Step 5: Wiki 更新
 
-将 X 推文源文件和全部 drafts 一次性 commit：
+文章生成完成后，更新 wiki 知识库。这一步确保知识持续积累而非每次从零开始。
+
+**5a. 更新文章注册表：**
+读取 `wiki/coverage/article-registry.md`，将今天生成的所有文章追加到对应日期段落。格式与现有条目一致（标题、REACH、主要实体、主题）。
+
+**5b. 更新主题饱和度：**
+读取 `wiki/coverage/topic-saturation.md`，根据今天的选题调整各主题的篇数和饱和度评估。如果某主题从"中等"升到"高饱和"，更新建议。
+
+**5c. 更新实体页（按需）：**
+对今天文章涉及的主要实体，更新对应的 wiki 实体页：
+- 在"我们的覆盖"表格中追加新条目
+- 如果出现新的关键动态，更新"近期关键动态"
+- 如果覆盖次数已过多，在"注意"中标注需要降权
+- 如果涉及的实体没有 wiki 页面，创建新页面
+
+**5d. 更新主题页（按需）：**
+如果今天的文章引入了新的主题角度，更新 `wiki/topics/` 下对应页面的覆盖记录和饱和度评估。
+
+**5e. 更新源质量（如有新信息）：**
+如果今天采集阶段有新的源失败/恢复模式，更新 `wiki/sources/` 下对应页面。
+
+**5f. 追加操作日志：**
+在 `wiki/log.md` 顶部追加今天的操作记录，格式：
+```
+## [{date}] generate | {N} drafts, REACH>={min_reach}
+- 新增文章：{逗号分隔的简短标题}
+- 涉及实体：{更新了哪些实体页}
+- 主题饱和变化：{哪些主题饱和度发生了变化}
+```
+
+**5g. 更新 index.md：**
+更新 `wiki/index.md` 的"最近更新"段落。如果有新的实体或主题页面被创建，追加到对应列表中。
+
+### Step 6: Commit
+
+将 X 推文源文件、脚本信号源文件、全部 drafts 和 wiki 更新一次性 commit：
 
 ```bash
-git add sources/{date}/x-*.md drafts/{date}/ logs/{date}.md
-git commit -m "generate: {date} ({N} drafts, REACH>=7, X+RSS sources)
+git add sources/{date}/ drafts/{date}/ logs/{date}.md data/ wiki/
+git commit -m "generate: {date} ({N} drafts, REACH>=7, RSS+X+signals)
 
+- {R} RSS/GitHub/arXiv items via pipeline.js
+- {T} GitHub Trending AI repos, {O} new OpenRouter models, PyPI trends checked
 - {X} X tweets from {M} accounts (likes>50, 14d window)
 - {N} drafts scored and generated in parallel (REACH>=7 only)
 - Topics: {逗号分隔的简短主题列表}
@@ -193,10 +254,22 @@ Co-Authored-By: Happy <yesreply@happy.engineering>"
 
 用户可能只要求执行某一步：
 
-- "只抓取" / "fetch only" → 只执行 Step 1 + Step 2
+- "只抓取" / "fetch only" → 只执行 Step 1 + Step 1b + Step 2
 - "只评分" / "选题" → 只执行 Step 3（假设 sources 已存在）
 - "只生成" / "生成文章" → 只执行 Step 4（假设选题已确认）
-- "commit" → 只执行 Step 5
+- "更新wiki" / "wiki update" / "wiki lint" → 只执行 Step 5
+- "commit" → 只执行 Step 6
+- "fetch:trending" / "fetch:openrouter" / "fetch:pypi" → 只执行对应的脚本信号源
+
+## Wiki Lint（定期维护）
+
+用户说"lint wiki"或每周至少执行一次：
+
+1. 检查实体页中的"近期关键动态"是否过时（超过 2 周的动态可以归档）
+2. 检查主题饱和度评估是否需要重新校准
+3. 检查 article-registry.md 是否与实际 drafts 目录一致
+4. 检查 failed-sources.md 是否有新的修复或恶化
+5. 检查是否有新的高频实体/主题需要创建 wiki 页面
 
 ## 常见问题
 

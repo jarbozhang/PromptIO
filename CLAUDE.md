@@ -45,10 +45,18 @@ npm test            # 运行测试
 - `config/sources.yaml` — RSS 源列表
 - `config/prompts/` — prompt 模板
 - `scripts/` — 脚本
-- `sources/` — 采集的原始数据
+- `sources/` — 采集的原始数据（不可变，按日期组织）
 - `topics/` — 选题评分结果
 - `drafts/` — 生成的草稿（状态在 frontmatter 中追踪）
 - `logs/` — 运行日志
+- `data/` — 数据快照（OpenRouter 模型、PyPI 趋势）
+- `wiki/` — LLM 维护的知识库（Karpathy LLM Wiki 模式）
+  - `wiki/index.md` — 总目录
+  - `wiki/log.md` — 操作日志
+  - `wiki/entities/` — 人物/公司/产品实体页
+  - `wiki/topics/` — 主题演化追踪
+  - `wiki/sources/` — 源质量追踪
+  - `wiki/coverage/` — 文章注册表和主题饱和度
 
 ## 内容定位
 
