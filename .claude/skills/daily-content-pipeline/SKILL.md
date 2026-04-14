@@ -167,10 +167,11 @@ bird home --following -n 50 --json  # Following 关注流（至少50条）
    - 不把社区按语言对立（不用"中文世界""英文社区"）
    - 信息差洞察用"社区里的多种声音"统一呈现
    - 不要虚构你不确定的细节，所有数据必须来自源材料
-   - article.md 以 H1 标题开头（与 meta.yaml title 一致），空一行后接正文
+   - 文章文件以 H1 标题开头（与 meta.yaml title 一致），空一行后接正文
    - meta.yaml 的 title 是唯一标题源
+   - 文章末尾（REACH 注释之前）加 Obsidian Dataview 内联字段关联区块
 6. 输出路径：
-   - 文章：`drafts/{date}/{slug}/article.md`
+   - 文章：`drafts/{date}/{slug}/{slug}.md`（文件名与文件夹同名，不叫 article.md）
    - 元数据：`drafts/{date}/{slug}/meta.yaml`
 
 **slug 命名规则：** 标题的中文 kebab-case，去掉标点，例如 `karpathy差点被黑客搞了-npm包安全吗`
@@ -190,7 +191,24 @@ tags:
   - tag2
 ```
 
-**article.md 格式：** 以 H1 标题开头（与 meta.yaml title 一致），空一行后接正文。末尾加 `<!-- REACH: X/10 | 品牌✓/✗ 利益点✓/✗ 可操作✓/✗ -->`。
+**文章文件格式：** 以 H1 标题开头（与 meta.yaml title 一致），空一行后接正文。
+
+文章末尾加 Obsidian 关联区块和 REACH 评分：
+```
+---
+相关实体:: [[karpathy|Karpathy]] | [[openai|OpenAI]]
+相关主题:: [[ai-coding-tools|AI编程工具]]
+
+<!-- REACH: X/10 | 品牌✓/✗ 利益点✓/✗ 可操作✓/✗ -->
+```
+
+**实体/主题 wikilink 映射：**
+人物: karpathy, simon-willison, chollet, ggerganov, emollick
+公司: openai, anthropic, google, meta
+产品: claude-code, codex, llama-cpp, chatgpt
+主题: local-inference, ai-coding-tools, supply-chain-security, ai-pricing, agent-frameworks
+
+根据文章内容智能选择相关实体和主题，只链接真正相关的（不要全部链接）。
 
 等待所有子代理完成，逐一报告完成状态。
 
