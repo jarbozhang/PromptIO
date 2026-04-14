@@ -68,4 +68,7 @@ pip install voxcpm
 - 模型权重（Hugging Face），https://huggingface.co/openbmb
 - 模型权重（ModelScope），https://modelscope.cn/organization/OpenBMB
 
+---
+相关主题:: [[local-inference|本地推理]]
+
 <!-- REACH: 9/10 | 品牌✓ 利益点✓ 可操作✓ -->

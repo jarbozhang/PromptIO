@@ -7,20 +7,20 @@
 本地推理在 Gemma 4 发布后迎来新一轮热潮。关键数据点：
 - Gemma 4 26B A4B 在 M2 Ultra 上 300 t/s（Q8_0 全精度）
 - 一张 4090 可以跑完整的知识库 Agent
-- Tailscale + llama.cpp 实现手机远程推理
+- Tailscale + [[llama-cpp|llama.cpp]] 实现手机远程推理
 
 ## 关键技术栈
 
-llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
+[[llama-cpp|llama.cpp]] + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 ## 我们的覆盖
 
 | 日期 | 文章 | 具体角度 |
 |------|------|---------|
-| 2026-04-14 | Mac mini变身24小时AI编程站 | 远程访问方案 |
-| 2026-04-13 | 一张4090就够，Gemma4离线知识库Agent | 实操教程 |
-| 2026-04-11 | ggerganov用三年前Mac跑出300 token/s | 性能实测 |
-| 2026-04-08 | 300 token/s干掉API账单 | 性价比对比 |
+| 2026-04-14 | [[drafts/2026-04-14/mac-mini变身24小时ai编程站-三件套让你随时随地给ai派活/article|Mac mini变身24小时AI编程站]] | 远程访问方案 |
+| 2026-04-13 | [[drafts/2026-04-13/一张4090就够-gemma4离线知识库agent完整实战/article|一张4090就够，Gemma4离线知识库Agent]] | 实操教程 |
+| 2026-04-11 | [[drafts/2026-04-11/ggerganov三年前mac跑出300token-llama-cpp配置/article|ggerganov用三年前Mac跑出300 token/s]] | 性能实测 |
+| 2026-04-08 | [[drafts/2026-04-08/把mac变成私有ai云-tailscale一键手机访问/article|300 token/s干掉API账单]] | 性价比对比 |
 
 ## 饱和度评估
 

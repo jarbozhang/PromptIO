@@ -85,4 +85,8 @@ GBrain 还提供了 MCP server 模式，可以直接接入 Claude Code、Cursor�
 - GBrain 技能包文档 https://github.com/garrytan/gbrain/blob/master/docs/GBRAIN_SKILLPACK.md
 - GBrain 推荐目录结构 https://github.com/garrytan/gbrain/blob/master/docs/GBRAIN_RECOMMENDED_SCHEMA.md
 
+---
+相关实体:: [[karpathy|Karpathy]] | [[claude-code|Claude Code]]
+相关主题:: [[agent-frameworks|Agent框架]]
+
 <!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

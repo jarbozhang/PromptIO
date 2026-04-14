@@ -14,9 +14,9 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-13 | Shopify把后台开放给AI Agent | 企业落地 |
-| 2026-04-13 | Anthropic托管Agent来了 | 平台服务 |
-| 2026-04-12 | Harness是什么 | 概念解读 |
+| 2026-04-13 | [[drafts/2026-04-13/shopify把整个后台开放给ai-agent-每个店主等于有了五人团队/article|Shopify把后台开放给AI Agent]] | 企业落地 |
+| 2026-04-13 | [[drafts/2026-04-13/anthropic托管agent来了-你的ai员工可以连续干活几小时不断线/article|Anthropic托管Agent来了]] | 平台服务 |
+| 2026-04-12 | [[drafts/2026-04-12/harness是什么-claude-code和codex高手都在聊这个词/article|Harness是什么]] | 概念解读 |
 
 ## 饱和度评估
 
@@ -24,6 +24,6 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 ## 潜在下一个角度
 
-- Multi-agent 协作实操（Anthropic 官方多智能体指南已发布但未覆盖）
+- Multi-agent 协作实操（[[anthropic|Anthropic]] 官方多智能体指南已发布但未覆盖）
 - Skills 文件编写实战（从 0 写一个 production skill）
 - MCP 服务器开发教程

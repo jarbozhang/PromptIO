@@ -71,4 +71,8 @@ Karpathy 前两周发了一条 8699 赞的推，把这个理念叫 "File over Ap
 - [Skill Graph 本地研究引擎方案](https://x.com/the_smart_ape/status/2043262727922053128)
 - [Karpathy: File over App 理念](https://x.com/karpathy/status/2040572272944324650)
 
+---
+相关实体:: [[claude-code|Claude Code]] | [[karpathy|Karpathy]] | [[codex|Codex]]
+相关主题:: [[ai-coding-tools|AI编程工具]] | [[local-inference|本地推理]]
+
 <!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

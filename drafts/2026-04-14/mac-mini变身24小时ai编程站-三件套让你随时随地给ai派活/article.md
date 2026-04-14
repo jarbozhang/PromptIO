@@ -63,4 +63,8 @@ Mac mini + SSH + tmux + Tailscale，总共花15分钟配置，零成本，但它
 - llama.cpp 项目，https://github.com/ggerganov/llama.cpp
 - ggerganov 的 Tailscale + llama.cpp 演示，https://x.com/ggerganov/status/2039804601810001921
 
+---
+相关实体:: [[claude-code|Claude Code]] | [[ggerganov|ggerganov]] | [[llama-cpp|llama.cpp]]
+相关主题:: [[ai-coding-tools|AI编程工具]] | [[local-inference|本地推理]]
+
 <!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

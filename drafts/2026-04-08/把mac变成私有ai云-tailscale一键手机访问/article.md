@@ -72,3 +72,7 @@ llama.cpp 编译完就能跑，浏览器打开就能用，Tailscale 装上就能
 - [Tailscale](https://tailscale.com/)
 - [ggerganov 原推](https://x.com/ggerganov/status/2039804601810001921)
 - [Gemma 4 模型](https://huggingface.co/google/gemma-4-26b-a4b)
+
+---
+相关实体:: [[ggerganov|Ggerganov]] | [[llama-cpp|llama.cpp]] | [[google|Google]]
+相关主题:: [[local-inference|本地推理]]

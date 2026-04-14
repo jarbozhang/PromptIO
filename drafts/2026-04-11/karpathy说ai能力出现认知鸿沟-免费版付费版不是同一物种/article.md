@@ -76,4 +76,8 @@ Karpathy 在推文最后说,"So here we are." 两拨人隔着一道认知的墙,
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
 - [OpenAI Codex](https://openai.com/codex)
 
+---
+相关实体:: [[karpathy|Karpathy]] | [[simon-willison|Simon Willison]] | [[emollick|Ethan Mollick]] | [[openai|OpenAI]] | [[claude-code|Claude Code]] | [[codex|Codex]]
+相关主题:: [[ai-coding-tools|AI编程工具]] | [[ai-pricing|AI定价]]
+
 <!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

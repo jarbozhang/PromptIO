@@ -9,15 +9,15 @@ Muse Spark / Llama 系列的开发商。
 
 ## 近期动态
 
-- **Muse Spark 发布** (2026-04-08) — App Store 排名从 #57 到 #5，但 Chollet 批评 benchmark 注水
+- **Muse Spark 发布** (2026-04-08) — App Store 排名从 #57 到 #5，但 [[chollet|Chollet]] 批评 benchmark 注水
 - **Meta AI 博客持续 404** — 官方博客无法访问
 
 ## 我们的覆盖
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
-| 2026-04-13 | Meta Muse Spark首秀，Chollet说benchmark注水 | 7 |
-| 2026-04-09 | Meta新模型上线第一天被ARC测试之父拆台 | 7 |
+| 2026-04-13 | [[drafts/2026-04-13/meta-muse-spark首秀-app-store冲到第5但chollet说benchmark注水了/article|Meta Muse Spark首秀，Chollet说benchmark注水]] | 7 |
+| 2026-04-09 | [[drafts/2026-04-09/meta新模型上线第一天被arc测试之父拆台/article|Meta新模型上线第一天被ARC测试之父拆台]] | 7 |
 
 ## 注意
 

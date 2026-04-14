@@ -7,12 +7,12 @@
 | 源 | 每次产出 | 内容质量 | 选题命中率 |
 |----|---------|---------|-----------|
 | TechCrunch AI | 18-20 条 | 高，AI 产业新闻全面 | 中 |
-| OpenAI Blog | 20 条 | 高，第一手产品更新 | 高 |
+| [[openai|OpenAI]] Blog | 20 条 | 高，第一手产品更新 | 高 |
 | VentureBeat AI | 7 条 | 中高，偏企业/融资 | 中 |
 | ArsTechnica AI | 20 条 | 高，技术深度好 | 中 |
-| Google AI Blog | 20 条 | 高，产品和研究 | 中高 |
+| [[google|Google]] AI Blog | 20 条 | 高，产品和研究 | 中高 |
 | DeepMind Blog | 20 条 | 高，研究导向 | 中 |
-| Simon Willison | 20 条 | 极高，实操密度最大 | 高 |
+| [[simon-willison|Simon Willison]] | 20 条 | 极高，实操密度最大 | 高 |
 | Sebastian Raschka | 20 条 | 高，LLM 研究综述 | 中 |
 | Lobsters AI | 20 条 | 中，社区讨论 | 低 |
 
@@ -38,8 +38,8 @@
 | 源 | 成功率 | 失败类型 | 建议 |
 |----|--------|---------|------|
 | MIT Technology Review | 8% | TLS 断开 / 超时 | 移除或换抓取策略 |
-| Anthropic Blog | 8% | 404 | URL 可能已变更，需排查 |
-| Meta AI Blog | 0% | 404 | 持续不可用，依赖第三方 |
+| [[anthropic|Anthropic]] Blog | 8% | 404 | URL 可能已变更，需排查 |
+| [[meta|Meta]] AI Blog | 0% | 404 | 持续不可用，依赖第三方 |
 | TLDR AI | 0% | 404 | 从未成功，移除 |
 
 ## 待验证

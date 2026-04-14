@@ -9,7 +9,7 @@
 | @karpathy | 思想领袖 | 5K-25K likes | 4 篇文章 | 频率太高需降权 |
 | @OpenAI | 官方 | 2K-16K likes | 9 篇文章（含间接） | 最高频源 |
 | @AnthropicAI | 官方 | 3K-43K likes | 4 篇文章 | 稳定高质量 |
-| @ggerganov | 开发者 | 100-3K likes | 3 篇文章 | 本地推理专属 |
+| @ggerganov | 开发者 | 100-3K likes | 3 篇文章 | [[local-inference|本地推理]]专属 |
 | @simonw | 博主 | 200-1.5K likes | 2 篇文章 | 实操密度极高 |
 
 ## Tier 2 — 中等价值（偶尔产出选题或提供佐证）
@@ -28,7 +28,7 @@
 大部分 home timeline 账号属于此类。中文 AI 社区账号产出量大但多为转述/翻译，偶尔有原创实操内容。
 
 **高互动中文账号（值得关注）：**
-- @dachaoren — 10K+ likes 的 Claude Code 教程推文
+- @dachaoren — 10K+ likes 的 [[claude-code|Claude Code]] 教程推文
 - @berryxia — Stanford 课程翻译系列（6K likes）
 - @safaricheung — Opus 4.6 体验（1.3K likes）
 - @VincentLogic — 视频汉化工具等实操内容（1.4K likes）

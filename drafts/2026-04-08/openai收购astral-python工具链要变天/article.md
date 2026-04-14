@@ -69,3 +69,7 @@ DEV Community 上有个评论让我印象很深，有人把这叫 "The Great Abs
 - Simon Willison 的分析 https://simonwillison.net/2026/mar/19/openai-acquiring-astral/
 - uv GitHub 仓库 https://github.com/astral-sh/uv
 - Ruff GitHub 仓库 https://github.com/astral-sh/ruff
+
+---
+相关实体:: [[openai|OpenAI]] | [[anthropic|Anthropic]] | [[simon-willison|Simon Willison]] | [[codex|Codex]]
+相关主题:: [[ai-coding-tools|AI编程工具]] | [[supply-chain-security|供应链安全]]

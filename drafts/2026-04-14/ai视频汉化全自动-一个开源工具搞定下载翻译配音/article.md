@@ -65,4 +65,8 @@ python setup_env.py
 - VideoLingo GitHub 仓库 https://github.com/Huanshere/VideoLingo
 - 官方文档 https://docs.videolingo.io
 
+---
+相关实体:: [[openai|OpenAI]]
+相关主题:: [[local-inference|本地推理]] | [[ai-coding-tools|AI编程工具]]
+
 <!-- REACH: 7/10 | 品牌✗ 利益点✓ 可操作✓ -->

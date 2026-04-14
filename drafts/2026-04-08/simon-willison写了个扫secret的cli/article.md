@@ -93,3 +93,7 @@ uvx scan-for-secrets $OPENAI_API_KEY -d ./your-project/
 - GitHub 仓库: https://github.com/simonw/scan-for-secrets
 - Simon 的博客发布记录: https://simonwillison.net/2026/Apr/6/scan-for-secrets/
 - 快速体验: `uvx scan-for-secrets --help`
+
+---
+相关实体:: [[simon-willison|Simon Willison]] | [[claude-code|Claude Code]]
+相关主题:: [[supply-chain-security|供应链安全]] | [[ai-coding-tools|AI编程工具]]

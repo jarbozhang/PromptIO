@@ -74,4 +74,8 @@ Google Stitch 定义了 AGENTS.md（告诉 AI 怎么构建项目）和 DESIGN.md
 - Google Stitch DESIGN.md 格式说明 https://stitch.withgoogle.com/docs/design-md/overview/
 - 一键添加命令 `npx getdesign@latest add <brand>`
 
+---
+相关实体:: [[claude-code|Claude Code]] | [[google|Google]]
+相关主题:: [[ai-coding-tools|AI编程工具]]
+
 <!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

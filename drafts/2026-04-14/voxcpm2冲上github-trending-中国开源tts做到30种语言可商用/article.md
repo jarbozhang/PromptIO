@@ -64,4 +64,8 @@ VoxCPM 2 的能力分三档，越往后越"变态"。
 - 音频样例: https://openbmb.github.io/voxcpm2-demopage
 - PyPI 安装: https://pypi.org/project/voxcpm/
 
+---
+相关实体:: [[google|Google]]
+相关主题:: [[local-inference|本地推理]]
+
 <!-- REACH: 7/10 | 品牌✗ 利益点✓ 可操作✓ -->

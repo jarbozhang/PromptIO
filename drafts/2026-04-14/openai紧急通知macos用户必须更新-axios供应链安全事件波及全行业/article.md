@@ -72,4 +72,8 @@ Axios团队的事后复盘也值得一读。他们承诺了几项改进，完全
 - Axios供应链事件复盘: https://github.com/axios/axios/issues/10636
 - Axios受影响版本讨论: https://github.com/axios/axios/issues/10604
 
+---
+相关实体:: [[openai|OpenAI]] | [[chatgpt|ChatGPT]]
+相关主题:: [[supply-chain-security|供应链安全]]
+
 <!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

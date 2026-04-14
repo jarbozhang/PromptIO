@@ -72,4 +72,8 @@ export VERCEL_PLUGIN_TELEMETRY=off
 - [HN 讨论帖 (252 分, 102 条评论)](https://news.ycombinator.com/item?id=47704881)
 - [Anthropic 插件政策文档](https://docs.anthropic.com/en/docs/claude-code/plugins)
 
+---
+相关实体:: [[anthropic|Anthropic]] | [[claude-code|Claude Code]]
+相关主题:: [[supply-chain-security|供应链安全]] | [[ai-coding-tools|AI编程工具]]
+
 <!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

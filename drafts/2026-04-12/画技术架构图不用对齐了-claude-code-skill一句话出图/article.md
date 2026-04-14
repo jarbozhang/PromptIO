@@ -65,4 +65,8 @@ git clone https://github.com/yizhiyanhua-ai/fireworks-tech-graph.git ~/.claude/s
 - fireworks-tech-graph GitHub 仓库，https://github.com/yizhiyanhua-ai/fireworks-tech-graph
 - Claude Code Skills 文档，https://docs.anthropic.com/en/docs/claude-code/skills
 
+---
+相关实体:: [[claude-code|Claude Code]] | [[anthropic|Anthropic]] | [[openai|OpenAI]]
+相关主题:: [[ai-coding-tools|AI编程工具]]
+
 <!-- REACH: 7/10 | 品牌✓ 利益点✓ 可操作✓ -->

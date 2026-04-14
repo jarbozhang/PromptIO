@@ -82,3 +82,7 @@ OpenAI 说了三个失败模式。
 - [Codex Security Research Preview](https://openai.com/index/codex-security-now-in-research-preview/)
 - [Codex Security Developer Docs](https://developers.openai.com/codex/security)
 - [Codex Security FAQ](https://developers.openai.com/codex/security/faq)
+
+---
+相关实体:: [[openai|OpenAI]] | [[anthropic|Anthropic]] | [[codex|Codex]]
+相关主题:: [[supply-chain-security|供应链安全]] | [[ai-coding-tools|AI编程工具]]

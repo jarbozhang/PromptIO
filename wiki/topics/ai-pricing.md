@@ -1,12 +1,12 @@
 # 主题追踪：AI 定价战
 
-OpenAI vs Anthropic 的订阅方案演变和省钱攻略。
+[[openai|OpenAI]] vs [[anthropic|Anthropic]] 的订阅方案演变和省钱攻略。
 
 ## 当前格局
 
 | 产品 | 基础 | 中档 | 高档 |
 |------|------|------|------|
-| ChatGPT | Plus $20 | Pro $100（新） | Pro $200 |
+| [[chatgpt|ChatGPT]] | Plus $20 | Pro $100（新） | Pro $200 |
 | Claude | Pro $20 | — | Max $100+ |
 
 ## 中文社区关注焦点
@@ -17,10 +17,10 @@ OpenAI vs Anthropic 的订阅方案演变和省钱攻略。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-14 | OpenAI新增$100 Pro层 | 定价分析 |
-| 2026-04-11 | Claude尼日利亚区订阅88元 | 省钱攻略 |
-| 2026-04-10 | ChatGPT出了100美元新档 | 跳船分析 |
-| 2026-04-10 | Zed+OpenRouter省70% | 替代方案 |
+| 2026-04-14 | [[drafts/2026-04-14/openai新增100美元pro层-codex用量翻5倍但最高档不变/article|OpenAI新增$100 Pro层]] | 定价分析 |
+| 2026-04-11 | [[drafts/2026-04-11/claude尼日利亚区订阅pro只要88元/article|Claude尼日利亚区订阅88元]] | 省钱攻略 |
+| 2026-04-10 | [[drafts/2026-04-10/chatgpt出了100美元月新档-claude用户该不该跳船/article|ChatGPT出了100美元新档]] | 跳船分析 |
+| 2026-04-10 | [[drafts/2026-04-10/claude-code换zed加openrouter省了70percent/article|Zed+OpenRouter省70%]] | 替代方案 |
 
 ## 饱和度评估
 

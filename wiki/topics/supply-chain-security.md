@@ -4,21 +4,21 @@ npm/PyPI 包投毒、第三方库安全事件。
 
 ## 当前状态
 
-Axios 供应链攻击是 2026 年 Q2 最大的安全事件之一。社会工程学攻击维护者 → RAT 木马 → 恶意版本 axios@1.14.1 和 axios@0.30.4 发布 → 3 小时后移除。OpenAI 因此要求所有 macOS 用户紧急更新。
+Axios 供应链攻击是 2026 年 Q2 最大的安全事件之一。社会工程学攻击维护者 → RAT 木马 → 恶意版本 axios@1.14.1 和 axios@0.30.4 发布 → 3 小时后移除。[[openai|OpenAI]] 因此要求所有 macOS 用户紧急更新。
 
 ## 关键事件时间线
 
 - 2026-03-31 凌晨 — Axios 维护者被社会工程学攻击
 - 2026-03-31 — 恶意版本发布（plain-crypto-js 依赖），3 小时后移除
-- 2026-04-11 — OpenAI 公开安全事件，要求 macOS 更新
+- 2026-04-11 — [[openai|OpenAI]] 公开安全事件，要求 macOS 更新
 
 ## 我们的覆盖
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-14 | OpenAI紧急通知macOS用户更新，Axios供应链安全 | 事件报道+行动建议 |
-| 2026-04-12 | OpenAI因axios投毒紧急更新macOS应用 | 紧急通知 |
-| 2026-04-09 | Karpathy差点被黑客搞了，npm包安全吗 | 个人视角 |
+| 2026-04-14 | [[drafts/2026-04-14/openai紧急通知macos用户必须更新-axios供应链安全事件波及全行业/article|OpenAI紧急通知macOS用户更新，Axios供应链安全]] | 事件报道+行动建议 |
+| 2026-04-12 | [[drafts/2026-04-12/openai因axios投毒紧急更新macos应用-立刻升级/article|OpenAI因axios投毒紧急更新macOS应用]] | 紧急通知 |
+| 2026-04-09 | [[drafts/2026-04-09/karpathy差点被黑客搞了-npm包安全吗/article|Karpathy差点被黑客搞了，npm包安全吗]] | 个人视角 |
 
 ## 饱和度评估
 

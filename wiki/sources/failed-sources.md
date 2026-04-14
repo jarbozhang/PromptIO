@@ -7,13 +7,13 @@
 | 源 | 失败率 | 原因 | 建议 |
 |----|--------|------|------|
 | TLDR AI | 100% (6/6) | 404 Not Found | RSS URL 已失效，移除 |
-| Meta AI Blog | 100% (6/6) | 404 Not Found | 官方博客 URL 变更，依赖 TechCrunch/Verge 报道 |
+| [[meta|Meta]] AI Blog | 100% (6/6) | 404 Not Found | 官方博客 URL 变更，依赖 TechCrunch/Verge 报道 |
 
 ## 需要排查
 
 | 源 | 失败率 | 原因 | 可能的修复 |
 |----|--------|------|-----------|
-| Anthropic Blog | 92% (11/12) | 404 Not Found | 检查 RSS feed URL 是否已变更 |
+| [[anthropic|Anthropic]] Blog | 92% (11/12) | 404 Not Found | 检查 RSS feed URL 是否已变更 |
 | MIT Technology Review | 92% (11/12) | TLS 断开 | 可能需要代理或更换 User-Agent |
 
 ## 间歇性问题

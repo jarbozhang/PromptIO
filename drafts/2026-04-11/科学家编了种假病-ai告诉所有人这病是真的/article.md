@@ -68,4 +68,8 @@ AI 不是在判断信息的真伪。它在判断信息"看起来像不像真的"
 - [Bixonimania 维基百科词条](https://en.wikipedia.org/wiki/Bixonimania)
 - [HN 讨论帖（86 分 88 评论）](https://news.ycombinator.com/item?id=47715291)
 
+---
+相关实体:: [[openai|OpenAI]] | [[google|Google]] | [[chatgpt|ChatGPT]]
+相关主题:: [[supply-chain-security|供应链安全]]
+
 <!-- REACH: 8/10 | 品牌✓ 利益点✗ 可操作✓ -->

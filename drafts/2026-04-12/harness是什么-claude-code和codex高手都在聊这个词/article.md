@@ -87,4 +87,8 @@ Viv Trivedy 给这个实践起了名字叫 Harness Engineering。Mitchell Hashim
 - [Claude Code 官方文档](https://code.claude.com/docs/en/how-claude-code-works) - 理解 CLAUDE.md 和 skills 的工作原理
 - [claude-code-harness GitHub 仓库](https://github.com/Chachamaru127/claude-code-harness) - 一个开源的 Claude Code harness 实现
 
+---
+相关实体:: [[claude-code|Claude Code]] | [[codex|Codex]] | [[anthropic|Anthropic]]
+相关主题:: [[ai-coding-tools|AI编程工具]] | [[agent-frameworks|Agent框架]]
+
 <!-- REACH: 7/10 | 品牌✓ 利益点✓ 可操作✓ -->

@@ -58,4 +58,8 @@ Ethan Mollick 最近在讨论 ChatGPT 的思考过程可视化做得不错，主
 - [Simon Willison 关于语音模式弱模型的分析](https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/)
 - [Simon Willison 推文](https://x.com/simonw/status/2042611602726539283)
 
+---
+相关实体:: [[openai|OpenAI]] | [[chatgpt|ChatGPT]] | [[simon-willison|Simon Willison]] | [[karpathy|Karpathy]] | [[emollick|Ethan Mollick]]
+相关主题:: [[ai-pricing|AI定价]]
+
 <!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

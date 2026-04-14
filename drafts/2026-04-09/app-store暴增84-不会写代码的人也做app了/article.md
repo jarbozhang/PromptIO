@@ -74,4 +74,8 @@ Apple 的态度很微妙。一方面，每周处理超过 20 万次提交，90% 
 - [Claude（Anthropic）](https://claude.ai/)
 - [Cursor 编辑器](https://cursor.sh/)
 
+---
+相关实体:: [[anthropic|Anthropic]]
+相关主题:: [[ai-coding-tools|AI编程工具]]
+
 <!-- REACH: 7/10 | 品牌✓ 利益点✓ 可操作✓ -->

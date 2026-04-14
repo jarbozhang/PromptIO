@@ -68,4 +68,8 @@ Anthropic开放了一个Cyber Verification Program，安全专业人员可以申
 - Anthropic官方推文: https://x.com/AnthropicAI/status/2041578392852517128
 - Ethan Mollick评论: https://x.com/emollick/status/2043516250081407422
 
+---
+相关实体:: [[anthropic|Anthropic]] | [[emollick|Ethan Mollick]]
+相关主题:: [[supply-chain-security|供应链安全]]
+
 <!-- REACH: 7/10 | 品牌✓ 利益点✓ 可操作✗ -->

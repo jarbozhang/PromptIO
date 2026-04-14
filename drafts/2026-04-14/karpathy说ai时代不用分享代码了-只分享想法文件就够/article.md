@@ -78,4 +78,8 @@ Karpathy 在推文里说了一句很妙的话，"agent proficiency is a CORE SKI
 - Karpathy 原始推文: https://x.com/karpathy/status/2040470801506541998
 - Farzapedia 讨论推文: https://x.com/karpathy/status/2040572272944324650
 
+---
+相关实体:: [[karpathy|Karpathy]] | [[openai|OpenAI]] | [[claude-code|Claude Code]]
+相关主题:: [[ai-coding-tools|AI编程工具]] | [[local-inference|本地推理]]
+
 <!-- REACH: 9/10 | 品牌✓ 利益点✓ 可操作✓ -->

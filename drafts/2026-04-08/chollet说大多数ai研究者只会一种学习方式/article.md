@@ -66,3 +66,7 @@ Chollet 说的那种"无法想象其他选项"的状态,治愈方法其实很简
 - [Chollet 论 curve-fitting vs symbolic learning](https://x.com/fchollet/status/2041276397474533565)
 - [Chollet 论极端泛化与符号压缩](https://x.com/fchollet/status/2040826890127319086)
 - [ARC Prize 官网](https://arcprize.org/)
+
+---
+相关实体:: [[chollet|François Chollet]]
+相关主题:: [[local-inference|本地推理]]

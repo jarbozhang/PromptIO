@@ -93,3 +93,7 @@ Anthropic、OpenAI、Google，每一家做 coding agent 的公司都应该在产
 - Hazmat GitHub 仓库: https://github.com/dredozubov/hazmat
 - 作者博客全文: https://codeofchange.io/how-i-made-dangerously-skip-permissions-safe-in-claude-code/
 - Claude Code 官方文档: https://docs.anthropic.com/en/docs/claude-code
+
+---
+相关实体:: [[anthropic|Anthropic]] | [[claude-code|Claude Code]] | [[openai|OpenAI]]
+相关主题:: [[ai-coding-tools|AI编程工具]] | [[supply-chain-security|供应链安全]]

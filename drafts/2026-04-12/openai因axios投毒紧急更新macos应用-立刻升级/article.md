@@ -57,4 +57,8 @@ Karpathy 前两天在推文里说了一句话让我印象很深，最前沿的 A
 - OpenAI 官方声明：https://x.com/OpenAI/status/2042780052669239782
 - OpenAI macOS 应用下载：https://openai.com/chatgpt/download/
 
+---
+相关实体:: [[openai|OpenAI]] | [[karpathy|Karpathy]] | [[chatgpt|ChatGPT]]
+相关主题:: [[supply-chain-security|供应链安全]]
+
 <!-- REACH: 9/10 | 品牌✓ 利益点✓ 可操作✓ -->

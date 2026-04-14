@@ -90,4 +90,8 @@ Zed + OpenRouter 的组合不是完美方案。Zed 的扩展生态远不如 VSCo
 - Zed 编辑器 https://zed.dev
 - OpenRouter https://openrouter.ai
 
+---
+相关实体:: [[anthropic|Anthropic]] | [[claude-code|Claude Code]]
+相关主题:: [[ai-pricing|AI定价]] | [[ai-coding-tools|AI编程工具]]
+
 <!-- REACH: 7/10 | 品牌✓ 利益点✓ 可操作✓ -->

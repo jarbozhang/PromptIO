@@ -77,3 +77,7 @@ OpenAI 说大多数提交会在几天内完成分诊。提交之后，Safety 团
 - [OpenAI Security Bug Bounty（传统安全）](https://bugcrowd.com/openai)
 - [OpenAI 漏洞披露政策](https://openai.com/policies/coordinated-vulnerability-disclosure-policy/)
 - [OpenAI 关于 Prompt Injection 的技术文档](https://openai.com/index/prompt-injections/)
+
+---
+相关实体:: [[openai|OpenAI]] | [[chatgpt|ChatGPT]]
+相关主题:: [[supply-chain-security|供应链安全]] | [[agent-frameworks|Agent框架]]
