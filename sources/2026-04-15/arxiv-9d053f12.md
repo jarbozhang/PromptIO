@@ -1,0 +1,21 @@
+---
+title: Generative Anonymization in Event Streams
+url: 'https://arxiv.org/abs/2604.12803v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Adam T. Müller
+  - Mihai Kocsis
+  - Nicolaj C. Stache
+categories:
+  - cs.CV
+  - cs.LG
+  - cs.CV
+published: '2026-04-14T14:33:28Z'
+fetched_at: '2026-04-15T02:22:53.569Z'
+---
+Neuromorphic vision sensors offer low latency and high dynamic range, but their deployment in public spaces raises severe data protection concerns. Recent Event-to-Video (E2V) models can reconstruct high-fidelity intensity images from sparse event streams, inadvertently exposing human identities. Current obfuscation methods, such as masking or scrambling, corrupt the spatio-temporal structure, severely degrading data utility for downstream perception tasks. In this paper, to the best of our knowledge, we present the first generative anonymization framework for event streams to resolve this utility-privacy trade-off. By bridging the modality gap between asynchronous events and standard spatial generative models, our pipeline projects events into an intermediate intensity representation, leverages pretrained models to synthesize realistic, non-existent identities, and re-encodes the features back into the neuromorphic domain. Experiments demonstrate that our method reliably prevents identity recovery from E2V reconstructions while preserving the structural data integrity required for downstream vision tasks. Finally, to facilitate rigorous evaluation, we introduce a novel, synchronized real-world event and RGB dataset captured via precise robotic trajectories, providing a robust benchmark for future research in privacy-preserving neuromorphic vision.
+
+Authors: Adam T. Müller, Mihai Kocsis, Nicolaj C. Stache
+Categories: cs.CV, cs.LG, cs.CV

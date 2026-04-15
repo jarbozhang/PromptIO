@@ -7,6 +7,9 @@
     "pipeline": "node scripts/pipeline.js",
     "publish": "node scripts/publish.js",
     "setup": "node scripts/setup.js",
+    "fetch:trending": "node scripts/fetch-github-trending.js",
+    "fetch:openrouter": "node scripts/fetch-openrouter-models.js",
+    "fetch:pypi": "node scripts/fetch-pypi-trends.js",
     "test": "node --test 'test/**/*.test.js'"
   },
   "dependencies": {

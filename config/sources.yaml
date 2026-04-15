@@ -42,8 +42,36 @@ sources:
     url: https://deepmind.google/blog/rss.xml
     language: en
 
+  - name: Anthropic Blog
+    url: https://www.anthropic.com/rss.xml
+    language: en
+
   - name: Meta AI Blog
     url: https://ai.meta.com/blog/rss/
+    language: en
+
+  - name: Mistral AI Blog
+    url: https://mistral.ai/news/rss
+    language: en
+
+  - name: Cohere Blog
+    url: https://cohere.com/blog/rss
+    language: en
+
+  - name: Perplexity Blog
+    url: https://blog.perplexity.ai/rss
+    language: en
+
+  - name: Scale AI Blog
+    url: https://scale.com/blog/rss
+    language: en
+
+  - name: Replicate Blog
+    url: https://replicate.com/blog/rss
+    language: en
+
+  - name: Stability AI Blog
+    url: https://stability.ai/news/rss
     language: en
 
   # 开发者社区
@@ -72,9 +100,123 @@ sources:
     url: https://magazine.sebastianraschka.com/feed
     language: en
 
+  # 独立研究者博客
+  - name: Lilian Weng (OpenAI)
+    url: https://lilianweng.github.io/feed.xml
+    language: en
+
+  - name: Chip Huyen
+    url: https://huyenchip.com/blog/rss
+    language: en
+
+  - name: Eugene Yan
+    url: https://eugeneyan.com/rss
+    language: en
+
+  - name: Hamel Husain
+    url: https://hamel.dev/rss
+    language: en
+
   # Newsletter
   - name: TLDR AI
     url: https://tldr.tech/ai/rss
+    language: en
+
+  - name: Import AI (Jack Clark)
+    url: https://importai.substack.com/feed
+    language: en
+
+  - name: Interconnects (Nathan Lambert)
+    url: https://www.interconnects.ai/feed
+    language: en
+
+  - name: The Batch (DeepLearning.AI)
+    url: https://www.deeplearning.ai/the-batch/feed
+    language: en
+
+  - name: AI Snake Oil
+    url: https://aisnakeoil.substack.com/feed
+    language: en
+
+  - name: Latent Space
+    url: https://www.latent.space/feed
+    language: en
+
+  - name: Last Week in AI
+    url: https://lastweekin.ai/feed
+    language: en
+
+  # 学术 / 论文信号
+  - name: HuggingFace Papers
+    url: https://huggingface.co/papers/rss
+    language: en
+
+  - name: Papers With Code
+    url: https://paperswithcode.com/rss
+    language: en
+
+  - name: Alignment Forum
+    url: https://www.alignmentforum.org/feed.xml
+    language: en
+
+  # VC 博客（融资早信号）
+  - name: a16z Blog
+    url: https://a16z.com/feed
+    language: en
+
+  - name: Sequoia Articles
+    url: https://sequoiacap.com/articles/feed
+    language: en
+
+  - name: Index Ventures
+    url: https://indexventures.com/perspectives/feed
+    language: en
+
+  # AI 政策 / 监管
+  - name: Stanford HAI Policy
+    url: https://hai.stanford.edu/policy/feed
+    language: en
+
+  - name: CSET Georgetown
+    url: https://cset.georgetown.edu/publications/feed
+    language: en
+
+  - name: AI Now Institute
+    url: https://ainowinstitute.org/feed
+    language: en
+
+  # GitHub Release 追踪（比博客公告更早）
+  - name: llama.cpp Releases
+    url: https://github.com/ggerganov/llama.cpp/releases.atom
+    language: en
+
+  - name: vLLM Releases
+    url: https://github.com/vllm-project/vllm/releases.atom
+    language: en
+
+  - name: Transformers Releases
+    url: https://github.com/huggingface/transformers/releases.atom
+    language: en
+
+  - name: LangChain Releases
+    url: https://github.com/langchain-ai/langchain/releases.atom
+    language: en
+
+  - name: OpenAI Python SDK Releases
+    url: https://github.com/openai/openai-python/releases.atom
+    language: en
+
+  - name: Anthropic Python SDK Releases
+    url: https://github.com/anthropics/anthropic-sdk-python/releases.atom
+    language: en
+
+  # 产品 / 商业信号
+  - name: Product Hunt AI
+    url: https://www.producthunt.com/feed?category=artificial-intelligence
+    language: en
+
+  - name: Epoch AI
+    url: https://epochai.org/blog/rss
     language: en
 
 # ── X 账号（Claude Code 会话里用 agent-browser 抓取）──────
@@ -99,6 +241,50 @@ x_accounts:
     name: Jim Fan
     why: NVIDIA 研究员，Agent/具身智能前沿
 
+  - handle: jeffdean
+    name: Jeff Dean
+    why: Google DeepMind 首席科学家，Gemini/TPU 架构决策者
+
+  - handle: GaryMarcus
+    name: Gary Marcus
+    why: NYU 教授，AI 批评性视角，常引发行业争论
+
+  - handle: hardmaru
+    name: David Ha
+    why: Sakana AI CEO，前 Google Brain，创意 AI 研究
+
+  - handle: OriolVinyalsML
+    name: Oriol Vinyals
+    why: DeepMind，AlphaStar/Gemini 核心研究员
+
+  - handle: noaborhymes
+    name: Noam Brown
+    why: OpenAI，推理/博弈论，o1 核心人物
+
+  - handle: _jasonwei
+    name: Jason Wei
+    why: OpenAI，Chain of Thought 论文作者
+
+  - handle: chelseabfinn
+    name: Chelsea Finn
+    why: Stanford，机器人/元学习前沿
+
+  - handle: SergeyLevine
+    name: Sergey Levine
+    why: UC Berkeley，机器人 RL 先驱
+
+  - handle: Seb_Bubeck
+    name: Sebastien Bubeck
+    why: Microsoft，Phi 系列小模型架构师
+
+  - handle: arthurmensch
+    name: Arthur Mensch
+    why: Mistral CEO，欧洲开源模型领袖
+
+  - handle: percyliang
+    name: Percy Liang
+    why: Stanford，HELM 基准负责人，AI 评测权威
+
   # 开发者 / AI 工程
   - handle: simonw
     name: Simon Willison
@@ -119,6 +305,141 @@ x_accounts:
   - handle: rasaborshka
     name: Sebastian Raschka
     why: LLM 教育内容，从零实现系列
+
+  - handle: dotey
+    name: 宝玉
+    why: AI 工具实操（Claude Code、多智能体），中文 AI 圈头部 KOL
+
+  - handle: leerob
+    name: Lee Robinson
+    why: Vercel VP，Cursor/AI 开发工具
+
+  - handle: levelsio
+    name: Pieter Levels
+    why: 独立开发者，AI 编程项目
+
+  - handle: lxfater
+    name: lxfater
+    why: Claude Code 入门指南
+
+  - handle: 9hills
+    name: 9hills
+    why: AI First 工作流
+
+  - handle: VincentLogic
+    name: VincentLogic
+    why: AI 智能体搭建教程
+
+  - handle: chenchengpro
+    name: chenchengpro
+    why: Agentic Engineering 架构
+
+  - handle: tychozzz
+    name: tychozzz
+    why: Obsidian + Claude 知识库
+
+  - handle: IndieDevHailey
+    name: IndieDevHailey
+    why: Claude Code 最佳实践
+
+  - handle: sitinme
+    name: sitinme
+    why: Claude Code 远程工作台
+
+  - handle: shao__meng
+    name: shao__meng
+    why: Apify 自动化 + AI Skills
+
+  - handle: pangyusio
+    name: pangyusio
+    why: AI 蒸馏/Skills 解读
+
+  - handle: dachaoren
+    name: dachaoren
+    why: Claude Code 教程
+
+  - handle: safaricheung
+    name: safaricheung
+    why: Claude Opus 实操分享
+
+  - handle: yuanhao
+    name: yuanhao
+    why: Agent Harness 实践
+
+  - handle: MissCat_AI
+    name: MissCat_AI
+    why: Claude 持久记忆方案
+
+  - handle: NeoAIForecast
+    name: NeoAIForecast
+    why: Multi-Agent 团队构建
+
+  - handle: imaxichuhai
+    name: imaxichuhai
+    why: Agent Skill 教程
+
+  - handle: ai_xiaomu
+    name: ai_xiaomu
+    why: AI 视频 SaaS 商业
+
+  - handle: xiangxiang103
+    name: xiangxiang103
+    why: Claude Code 配置优化
+
+  - handle: ohxiyu
+    name: ohxiyu
+    why: Claude 认证架构师
+
+  - handle: liyue_ai
+    name: liyue_ai
+    why: AI 大模型应用/画廊
+
+  - handle: gxjdian
+    name: gxjdian
+    why: Claude 风控检测工具
+
+  - handle: axiaisacat
+    name: axiaisacat
+    why: 微软 MarkItDown 等 AI 工具
+
+  - handle: libapi_
+    name: libapi_
+    why: Hermes Web UI 工具
+
+  # AI CEO / 领袖（低频必读）
+  - handle: darioamodei
+    name: Dario Amodei
+    why: Anthropic CEO，安全+能力前沿
+
+  - handle: sama
+    name: Sam Altman
+    why: OpenAI CEO，GPT 路线图暗示
+
+  - handle: ilyasut
+    name: Ilya Sutskever
+    why: SSI 创始人，安全超级智能
+
+  - handle: AravindSrinivas
+    name: Aravind Srinivas
+    why: Perplexity CEO，搜索+AI 产品战略
+
+  # 论文 / 研究信号
+  - handle: _akhaliq
+    name: AK (HuggingFace)
+    why: arXiv 每日精选放大器，论文传播第一站
+
+  - handle: tunguz
+    name: Tomasz Tunguz
+    why: Kaggle GM，每日 ML 论文推荐
+
+  - handle: TimDettmers
+    name: Tim Dettmers
+    why: bitsandbytes 作者，模型量化/压缩前沿
+
+  # AI Agent / 产品实践
+  - handle: mattshumer_
+    name: Matt Shumer
+    why: HyperWrite CEO，AI Agent 产品实践
 
   # AI 产品 / 商业分析
   - handle: benthompson
@@ -155,3 +476,40 @@ web_sources:
     why: OpenClaw 生态创业公司营收排行榜，verified revenue 数据
     method: agent-browser
     frequency: weekly
+
+# ── 开发类信号源（需要脚本支持）──────────────────────
+# 以下信号源无法通过 RSS 直接获取，需要开发专用脚本
+# 脚本统一放在 scripts/ 目录下，通过 npm run 调用
+
+dev_sources:
+  # GitHub Trending — 每日最热开源项目，工具爆发早信号
+  - name: GitHub Trending (Python)
+    url: https://github.com/trending/python?since=daily
+    method: scrape
+    frequency: daily
+    script: scripts/fetch-github-trending.js  # TODO: 待开发
+
+# OpenRouter 模型监控 — API 轮询新模型上线
+  - name: OpenRouter New Models
+    url: https://openrouter.ai/api/v1/models
+    method: api-poll
+    frequency: daily
+    script: scripts/fetch-openrouter-models.js  # TODO: 待开发
+
+  # PyPI 下载趋势 — 判断哪些 AI 库真正被用起来
+  - name: PyPI AI Package Trends
+    url: https://pypistats.org/api/
+    method: api-poll
+    frequency: weekly
+    script: scripts/fetch-pypi-trends.js  # TODO: 待开发
+    packages:
+      - transformers
+      - langchain
+      - openai
+      - anthropic
+      - vllm
+      - llama-cpp-python
+      - ollama
+      - crewai
+      - autogen
+      - dspy-ai

@@ -1,0 +1,17 @@
+node_modules/
+sources/
+data/
+test/
+scripts/
+.git/
+.claude/
+.playwright-mcp/
+topics/
+logs/
+docs/
+tmp-content.txt
+package.json
+package-lock.json
+.env
+.env.example
+.gitignore
