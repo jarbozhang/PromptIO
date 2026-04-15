@@ -4,6 +4,7 @@
 
 ## 最近更新
 
+- 2026-04-15 — 5 篇新文章（语音UI、OpenAI备忘录、AI健康、LangAlpha、AMD GAIA），Agent框架饱和度升高
 - 2026-04-14 — 初始化 wiki，从 49 篇历史文章和 15 天运行数据建立基线
 
 ## 实体 (Entities)

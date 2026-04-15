@@ -1,9 +1,9 @@
 {
   "packages": {
     "transformers": {
-      "last_day": 4371128,
-      "last_week": 28625398,
-      "last_month": 126021930
+      "last_day": 4603109,
+      "last_week": 28823036,
+      "last_month": 127200751
     },
     "openai": {
       "last_day": 9309329,
@@ -11,9 +11,9 @@
       "last_month": 235863964
     },
     "anthropic": {
-      "last_day": 3944840,
-      "last_week": 23952084,
-      "last_month": 89947506
+      "last_day": 4047764,
+      "last_week": 24451351,
+      "last_month": 92202194
     },
     "vllm": {
       "last_day": 546188,
@@ -25,21 +25,26 @@
       "last_week": 163232,
       "last_month": 591636
     },
+    "ollama": {
+      "last_day": 469992,
+      "last_week": 2903338,
+      "last_month": 11497700
+    },
     "crewai": {
-      "last_day": 249257,
-      "last_week": 1519425,
-      "last_month": 6126307
+      "last_day": 233284,
+      "last_week": 1542455,
+      "last_month": 6195704
     },
     "autogen": {
-      "last_day": 5146,
-      "last_week": 35790,
-      "last_month": 160029
+      "last_day": 5066,
+      "last_week": 33892,
+      "last_month": 160623
     },
     "dspy-ai": {
-      "last_day": 49830,
-      "last_week": 321425,
-      "last_month": 1577259
+      "last_day": 61395,
+      "last_week": 332886,
+      "last_month": 1607416
     }
   },
-  "updated_at": "2026-04-14T03:33:36.080Z"
+  "updated_at": "2026-04-15T02:25:38.658Z"
 }

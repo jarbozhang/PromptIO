@@ -2,6 +2,16 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-15（5 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| [[吴恩达说语音是下一代ui层-用claude-code不到1小时给女儿做了个语音数学app|吴恩达说语音是下一代UI层]] | 8 | Andrew Ng, [[claude-code|Claude Code]] | 语音UI |
+| [[openai内部备忘录泄露-cro说必须锁住用户防止跳船到anthropic|OpenAI内部备忘录泄露]] | 8 | [[openai|OpenAI]], [[anthropic|Anthropic]] | 竞争策略 |
+| [[ai让10x工程师的身体先崩了-hn-70条评论全是真话|AI让10x工程师的身体先崩了]] | 7 | [[claude-code|Claude Code]], [[codex|Codex]] | AI健康 |
+| [[langalpha把claude-code搬到华尔街-hn-110分的金融ai-agent怎么解决token爆炸|LangAlpha金融AI Agent]] | 7 | [[claude-code|Claude Code]] | [[agent-frameworks|Agent框架]] |
+| [[amd开源gaia框架-本地硬件跑ai-agent不再是nvidia专利|AMD开源GAIA框架]] | 7 | AMD, [[llama-cpp|llama.cpp]] | [[agent-frameworks|Agent框架]] |
+
 ## 2026-04-14（7 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |
