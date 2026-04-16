@@ -4,7 +4,7 @@
 
 ## 最近更新
 
-- 2026-04-16 — 4 篇新文章（交大trading bot、Gemini TTS、设计复制插件、Nature论文），首次覆盖多模态主题
+- 2026-04-16 — 9 篇新文章（含第二批: AI法律判例、Chrome Skills、Gemma 4 iPhone、Open Lovable、AutoClip），首次覆盖AI法律/隐私主题
 - 2026-04-15 — 5 篇新文章（语音UI、OpenAI备忘录、AI健康、LangAlpha、AMD GAIA），Agent框架饱和度升高
 - 2026-04-14 — 初始化 wiki，从 49 篇历史文章和 15 天运行数据建立基线
 

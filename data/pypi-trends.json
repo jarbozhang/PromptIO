@@ -36,9 +36,9 @@
       "last_month": 11561997
     },
     "crewai": {
-      "last_day": 233284,
-      "last_week": 1542455,
-      "last_month": 6195704
+      "last_day": 256841,
+      "last_week": 1576670,
+      "last_month": 6225918
     },
     "autogen": {
       "last_day": 5156,
@@ -51,5 +51,5 @@
       "last_month": 1597865
     }
   },
-  "updated_at": "2026-04-16T06:05:13.639Z"
+  "updated_at": "2026-04-16T23:09:26.912Z"
 }

@@ -1,5 +1,9 @@
 {
   "models": {
+    "anthropic/claude-opus-4.7": {
+      "name": "Anthropic: Claude Opus 4.7",
+      "context_length": 1000000
+    },
     "openrouter/elephant-alpha": {
       "name": "Elephant",
       "context_length": 262144
@@ -702,7 +706,7 @@
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "context_length": 131072
+      "context_length": 262144
     },
     "z-ai/glm-4-32b": {
       "name": "Z.ai: GLM 4 32B ",
@@ -944,10 +948,6 @@
       "name": "Mistral: Mistral Small 3.1 24B",
       "context_length": 128000
     },
-    "allenai/olmo-2-0325-32b-instruct": {
-      "name": "AllenAI: Olmo 2 32B Instruct",
-      "context_length": 128000
-    },
     "google/gemma-3-4b-it:free": {
       "name": "Google: Gemma 3 4B (free)",
       "context_length": 32768
@@ -1062,7 +1062,7 @@
     },
     "qwen/qwen2.5-vl-72b-instruct": {
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
-      "context_length": 32768
+      "context_length": 32000
     },
     "qwen/qwen-plus": {
       "name": "Qwen: Qwen-Plus",
@@ -1184,25 +1184,17 @@
       "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
       "context_length": 131072
     },
-    "inflection/inflection-3-productivity": {
-      "name": "Inflection: Inflection 3 Productivity",
-      "context_length": 8000
-    },
     "inflection/inflection-3-pi": {
       "name": "Inflection: Inflection 3 Pi",
+      "context_length": 8000
+    },
+    "inflection/inflection-3-productivity": {
+      "name": "Inflection: Inflection 3 Productivity",
       "context_length": 8000
     },
     "thedrummer/rocinante-12b": {
       "name": "TheDrummer: Rocinante 12B",
       "context_length": 32768
-    },
-    "meta-llama/llama-3.2-3b-instruct:free": {
-      "name": "Meta: Llama 3.2 3B Instruct (free)",
-      "context_length": 131072
-    },
-    "meta-llama/llama-3.2-3b-instruct": {
-      "name": "Meta: Llama 3.2 3B Instruct",
-      "context_length": 80000
     },
     "meta-llama/llama-3.2-1b-instruct": {
       "name": "Meta: Llama 3.2 1B Instruct",
@@ -1211,6 +1203,14 @@
     "meta-llama/llama-3.2-11b-vision-instruct": {
       "name": "Meta: Llama 3.2 11B Vision Instruct",
       "context_length": 131072
+    },
+    "meta-llama/llama-3.2-3b-instruct:free": {
+      "name": "Meta: Llama 3.2 3B Instruct (free)",
+      "context_length": 131072
+    },
+    "meta-llama/llama-3.2-3b-instruct": {
+      "name": "Meta: Llama 3.2 3B Instruct",
+      "context_length": 80000
     },
     "qwen/qwen-2.5-72b-instruct": {
       "name": "Qwen2.5 72B Instruct",
@@ -1260,12 +1260,12 @@
       "name": "Mistral: Mistral Nemo",
       "context_length": 131072
     },
-    "openai/gpt-4o-mini-2024-07-18": {
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
-      "context_length": 128000
-    },
     "openai/gpt-4o-mini": {
       "name": "OpenAI: GPT-4o-mini",
+      "context_length": 128000
+    },
+    "openai/gpt-4o-mini-2024-07-18": {
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "context_length": 128000
     },
     "google/gemma-2-27b-it": {
@@ -1280,16 +1280,16 @@
       "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
       "context_length": 8192
     },
-    "openai/gpt-4o-2024-05-13": {
-      "name": "OpenAI: GPT-4o (2024-05-13)",
-      "context_length": 128000
-    },
     "openai/gpt-4o": {
       "name": "OpenAI: GPT-4o",
       "context_length": 128000
     },
     "openai/gpt-4o:extended": {
       "name": "OpenAI: GPT-4o (extended)",
+      "context_length": 128000
+    },
+    "openai/gpt-4o-2024-05-13": {
+      "name": "OpenAI: GPT-4o (2024-05-13)",
       "context_length": 128000
     },
     "meta-llama/llama-3-8b-instruct": {
@@ -1320,13 +1320,13 @@
       "name": "Mistral Large",
       "context_length": 128000
     },
-    "openai/gpt-4-turbo-preview": {
-      "name": "OpenAI: GPT-4 Turbo Preview",
-      "context_length": 128000
-    },
     "openai/gpt-3.5-turbo-0613": {
       "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
       "context_length": 4095
+    },
+    "openai/gpt-4-turbo-preview": {
+      "name": "OpenAI: GPT-4 Turbo Preview",
+      "context_length": 128000
     },
     "mistralai/mixtral-8x7b-instruct": {
       "name": "Mistral: Mixtral 8x7B Instruct",
@@ -1368,12 +1368,12 @@
       "name": "MythoMax 13B",
       "context_length": 4096
     },
-    "openai/gpt-4-0314": {
-      "name": "OpenAI: GPT-4 (older v0314)",
-      "context_length": 8191
-    },
     "openai/gpt-4": {
       "name": "OpenAI: GPT-4",
+      "context_length": 8191
+    },
+    "openai/gpt-4-0314": {
+      "name": "OpenAI: GPT-4 (older v0314)",
       "context_length": 8191
     },
     "openai/gpt-3.5-turbo": {
@@ -1381,5 +1381,5 @@
       "context_length": 16385
     }
   },
-  "updated_at": "2026-04-16T06:05:13.450Z"
+  "updated_at": "2026-04-16T23:09:26.673Z"
 }

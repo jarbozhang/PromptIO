@@ -2,7 +2,7 @@
 
 全部已生成文章索引，按日期倒序。
 
-## 2026-04-16（4 篇）
+## 2026-04-16（9 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |
 |------|-------|---------|------|
@@ -10,6 +10,11 @@
 | [[google-gemini-flash-tts来了-用文字标签就能控制语音风格|Gemini Flash TTS]] | 8 | [[google|Google]] | 多模态 |
 | [[claude-code插件一键复制任意网站设计-1206人点赞的抄作业神器|Claude Code设计复制插件]] | 8 | [[claude-code|Claude Code]] | AI+前端 |
 | [[anthropic发了篇nature论文-发现ai能偷偷传染坏习惯|Anthropic Nature论文]] | 7 | [[anthropic|Anthropic]] | AI研究 |
+| [[美国法院裁了-你跟ai聊的天法庭上能当证据用|AI对话不受律师特权保护]] | 8 | US Court | AI法律 |
+| [[chrome现在能把你的ai提示词变成一键按钮了|Chrome AI Skills]] | 8 | [[google|Google]] | AI产品 |
+| [[gemma4跑在iphone上了-完全离线不联网|Gemma 4 iPhone离线]] | 8 | [[google|Google]] | [[local-inference|本地推理]] |
+| [[open-lovable爆了2.4万星-输入网址就能克隆整站|Open Lovable]] | 8 | Firecrawl | 开源生态 |
+| [[autoclip把短视频生产线全拉通了-下载到发布一条龙|AutoClip视频流水线]] | 7 | AutoClip | 内容创作工具 |
 
 ## 2026-04-15（5 篇）
 
@@ -107,6 +112,6 @@
 
 ## 统计
 
-- 总计：49 篇（2026-04-08 至 2026-04-14，7 天）
+- 总计：63 篇（2026-04-08 至 2026-04-16，9 天）
 - 日均：7 篇
-- REACH 分布：9分×6篇 / 8分×19篇 / 7分×14篇 / N/A×10篇
+- REACH 分布：9分×6篇 / 8分×28篇 / 7分×19篇 / N/A×10篇

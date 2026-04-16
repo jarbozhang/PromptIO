@@ -2,6 +2,12 @@
 
 追加式记录，最新在前。
 
+## [2026-04-16] generate-batch2 | 5 drafts, REACH>=7, low-saturation focus
+- 新增文章: AI对话法律风险, Chrome AI Skills, Gemma 4 iPhone, Open Lovable, AutoClip视频流水线
+- 新覆盖主题: AI法律/隐私(首次), AI产品体验(+1), 开源生态(+1), 内容创作工具(+1), 本地推理移动端(+1)
+- 刻意避开高饱和区(AI编程/安全/定价)，开拓新主题
+- 810条源材料可用（532 RSS + 225 X + 86 home + signals）
+
 ## [2026-04-16] generate | 4 drafts, REACH>=7
 - 新增文章: 交大trading bot, Gemini Flash TTS, 网站设计复制插件, Anthropic Nature论文
 - 策略: 刻意避开高饱和区(AI编程11篇)，聚焦低饱和主题
