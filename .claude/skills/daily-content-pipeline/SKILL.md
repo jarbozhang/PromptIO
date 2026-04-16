@@ -88,7 +88,22 @@ replies: {replyCount}
 {推文全文}
 ```
 
-用 bash 脚本批量处理所有账号（循环，非并行，避免触发限流）。内嵌 Node.js 做 JSON 解析和文件写入。
+**重要：不要用 bash 循环内嵌 Node.js（引号转义会出错）。** 直接用纯 Node.js 脚本，通过 `execSync` 调用 bird CLI：
+
+```javascript
+// 在 Bash 工具中用 node -e "..." 执行
+const {execSync}=require('child_process');
+const fs=require('fs'),crypto=require('crypto');
+const accounts='karpathy ylecun ...'.split(' '); // 从 sources.yaml 提取
+const cutoff=Date.now()-14*86400000;
+for(const handle of accounts){
+  try{
+    const raw=execSync(`bird search "from:${handle}" -n 20 --json`,{timeout:30000}).toString();
+    const tweets=JSON.parse(raw);
+    // 过滤 + 写入 markdown 文件
+  }catch(e){continue;}
+}
+```
 
 **Step 2b: 推荐流抓取（For You + Following）**
 
