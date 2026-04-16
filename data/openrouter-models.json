@@ -856,6 +856,10 @@
       "name": "Arcee AI: Coder Large",
       "context_length": 32768
     },
+    "meta-llama/llama-guard-4-12b:free": {
+      "name": "Meta: Llama Guard 4 12B (free)",
+      "context_length": 163840
+    },
     "meta-llama/llama-guard-4-12b": {
       "name": "Meta: Llama Guard 4 12B",
       "context_length": 163840
@@ -1377,5 +1381,5 @@
       "context_length": 16385
     }
   },
-  "updated_at": "2026-04-15T02:25:39.574Z"
+  "updated_at": "2026-04-16T06:05:13.450Z"
 }
