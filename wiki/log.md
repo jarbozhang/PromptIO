@@ -2,6 +2,12 @@
 
 追加式记录，最新在前。
 
+## [2026-04-16] generate | 4 drafts, REACH>=7
+- 新增文章: 交大trading bot, Gemini Flash TTS, 网站设计复制插件, Anthropic Nature论文
+- 策略: 刻意避开高饱和区(AI编程11篇)，聚焦低饱和主题
+- 新覆盖: AI落地(2篇), 多模态(1篇,首次), AI+前端(2篇), AI研究(2篇)
+- 788条源材料采集（532 RSS + 225 X + signals）
+
 ## [2026-04-15] generate | 5 drafts, REACH>=7
 - 新增文章: 吴恩达语音UI, OpenAI备忘录泄露, AI工程师健康, LangAlpha金融Agent, AMD GAIA
 - 新主题: 语音UI(新), AI健康(新), 竞争策略(新)

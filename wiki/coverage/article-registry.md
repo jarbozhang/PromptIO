@@ -2,6 +2,15 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-16（4 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| [[交大学生用claude-code做了个交易bot-一晚赚1940刀|交大学生用Claude Code做了个交易bot]] | 8 | [[claude-code|Claude Code]] | AI落地 |
+| [[google-gemini-flash-tts来了-用文字标签就能控制语音风格|Gemini Flash TTS]] | 8 | [[google|Google]] | 多模态 |
+| [[claude-code插件一键复制任意网站设计-1206人点赞的抄作业神器|Claude Code设计复制插件]] | 8 | [[claude-code|Claude Code]] | AI+前端 |
+| [[anthropic发了篇nature论文-发现ai能偷偷传染坏习惯|Anthropic Nature论文]] | 7 | [[anthropic|Anthropic]] | AI研究 |
+
 ## 2026-04-15（5 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |
