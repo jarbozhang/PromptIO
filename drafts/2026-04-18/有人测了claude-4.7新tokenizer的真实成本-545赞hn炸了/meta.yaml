@@ -1,0 +1,21 @@
+title: 有人测了Claude 4.7新tokenizer的真实成本，545赞HN炸了
+status: draft
+date: 2026-04-18T00:00:00.000Z
+reach: 8
+sources:
+  - hacker-news-algolia-ai-filter-86d87fd8
+tags:
+  - Anthropic
+  - Claude
+  - AI定价
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l1_replacements: 0
+  issues: []
+  error: ""

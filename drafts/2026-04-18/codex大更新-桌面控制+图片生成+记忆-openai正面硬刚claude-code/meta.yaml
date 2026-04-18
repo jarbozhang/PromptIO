@@ -1,0 +1,23 @@
+title: Codex大更新：桌面控制+图片生成+记忆，OpenAI正面硬刚Claude Code
+status: draft
+date: 2026-04-18T00:00:00.000Z
+reach: 9
+sources:
+  - the-verge-ai-92ec85da
+  - openai-blog-a0464d43
+  - product-hunt-ai-6ba7d52c
+tags:
+  - AI编程工具
+  - OpenAI
+  - Codex
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 1
+  issues: []
+  error: ""

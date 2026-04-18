@@ -1,0 +1,24 @@
+title: Claude Opus 4.7来了：1934赞HN刷屏，但你该升级吗
+status: draft
+date: 2026-04-18T00:00:00.000Z
+reach: 9
+sources:
+  - hacker-news-algolia-ai-filter-b5232cfa
+  - the-verge-ai-f9e1dd9d
+  - hacker-news-algolia-ai-filter-9732d782
+  - latent-space-c95c555a
+tags:
+  - Anthropic
+  - Claude
+  - AI编程工具
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 1
+  issues: []
+  error: ""

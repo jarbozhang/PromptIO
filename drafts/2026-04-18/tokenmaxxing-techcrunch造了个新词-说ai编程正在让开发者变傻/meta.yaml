@@ -1,0 +1,21 @@
+title: "\"Tokenmaxxing\"：TechCrunch造了个新词，说AI编程正在让开发者变傻"
+status: draft
+date: 2026-04-18T00:00:00.000Z
+reach: 8
+sources:
+  - techcrunch-ai-573fe906
+  - latent-space-8f78d6f3
+tags:
+  - AI编程工具
+  - 开发者生产力
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l1_replacements: 1
+  issues: []
+  error: ""

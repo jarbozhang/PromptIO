@@ -1,0 +1,23 @@
+title: Qwen3.6-35B在笔记本上画的图比Claude Opus 4.7好——Simon Willison亲测
+status: draft
+date: 2026-04-18T00:00:00.000Z
+reach: 7
+sources:
+  - hacker-news-algolia-ai-filter-ce502ccf
+  - simon-willison-307c09f6
+  - product-hunt-ai-3ef1be02
+tags:
+  - 开源模型
+  - Qwen
+  - 本地推理
+qa:
+  status: passed
+  rounds: 2
+  l1_qa_violations: 0
+  l2_score: 7
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

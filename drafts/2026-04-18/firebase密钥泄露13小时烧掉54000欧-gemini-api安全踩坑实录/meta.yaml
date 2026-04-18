@@ -1,0 +1,21 @@
+title: Firebase密钥泄露13小时烧掉54000欧——Gemini API安全踩坑实录
+status: draft
+date: 2026-04-18T00:00:00.000Z
+reach: 7
+sources:
+  - hacker-news-algolia-ai-filter-9d598abb
+tags:
+  - API安全
+  - Google
+  - Firebase
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""
