@@ -11,6 +11,7 @@
 
 ## 近期动态
 
+- **Codex 大更新** (2026-04-18) — 桌面控制+图片生成+记忆功能，正面对标 Claude Code
 - **$100 Pro 新层** (2026-04-09) — [[codex|Codex]] 用量 5x Plus，限时促销 10x
 - **$852B 估值融资** (2026-03-31) — $122B committed capital
 - **Axios [[supply-chain-security|供应链安全]]事件** (2026-04-11) — 要求 macOS 用户紧急更新
@@ -21,6 +22,8 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-18 | Codex大更新：桌面控制+图片生成+记忆，OpenAI正面硬刚Claude Code | 9 |
+| 2026-04-18 | "Tokenmaxxing"：TechCrunch造了个新词，说AI编程正在让开发者变傻 | 8 |
 | 2026-04-14 | [[openai紧急通知macos用户必须更新-axios供应链安全事件波及全行业|OpenAI紧急通知macOS用户更新]] | 8 |
 | 2026-04-14 | [[openai新增100美元pro层-codex用量翻5倍但最高档不变|OpenAI新增$100 Pro层]] | 8 |
 | 2026-04-13 | [[chatgpt上车了-但simon-willison说语音模式跑的是弱模型|ChatGPT上车了，语音模式跑弱模型]] | 8 |
@@ -33,4 +36,4 @@
 
 ## 注意
 
-OpenAI 是覆盖最频繁的实体（9 篇/15 天）。$100 Pro 和 Axios 事件各写了 2 篇（不同日期角度略有不同）。短期内 OpenAI [[ai-pricing|定价]]类选题需严格降权。
+OpenAI 是覆盖最频繁的实体（11 篇/11 天）。Codex 更新和 Tokenmaxxing 又加了 2 篇。短期内 OpenAI 选题需严格降权。

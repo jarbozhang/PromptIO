@@ -2,6 +2,18 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-18（7 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| Codex大更新：桌面控制+图片生成+记忆，OpenAI正面硬刚Claude Code | 9 | [[openai|OpenAI]], [[claude-code|Claude Code]], [[codex|Codex]] | [[ai-coding-tools|AI编程工具]] |
+| Claude Opus 4.7来了：1934赞HN刷屏，但你该升级吗 | 9 | [[anthropic|Anthropic]], [[claude-code|Claude Code]] | [[ai-coding-tools|AI编程工具]] |
+| Claude Design发布：没有设计背景也能出图，Anthropic在下什么棋 | 8 | [[anthropic|Anthropic]] | AI设计 |
+| 有人测了Claude 4.7新tokenizer的真实成本，545赞HN炸了 | 8 | [[anthropic|Anthropic]] | [[ai-pricing|AI定价]] |
+| "Tokenmaxxing"：TechCrunch造了个新词，说AI编程正在让开发者变傻 | 8 | [[openai|OpenAI]], [[anthropic|Anthropic]] | [[ai-coding-tools|AI编程工具]] |
+| Firebase密钥泄露13小时烧掉54000欧——Gemini API安全踩坑实录 | 7 | [[google|Google]] | [[supply-chain-security|供应链安全]] |
+| Qwen3.6-35B在笔记本上画的图比Claude Opus 4.7好——Simon Willison亲测 | 7 | [[simon-willison|Simon Willison]], [[anthropic|Anthropic]] | [[local-inference|本地推理]] |
+
 ## 2026-04-16（9 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |
@@ -112,6 +124,6 @@
 
 ## 统计
 
-- 总计：63 篇（2026-04-08 至 2026-04-16，9 天）
-- 日均：7 篇
-- REACH 分布：9分×6篇 / 8分×28篇 / 7分×19篇 / N/A×10篇
+- 总计：70 篇（2026-04-08 至 2026-04-18，11 天）
+- 日均：6.4 篇
+- REACH 分布：9分×8篇 / 8分×31篇 / 7分×21篇 / N/A×10篇

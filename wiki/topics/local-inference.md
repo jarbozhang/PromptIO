@@ -17,6 +17,8 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 | 日期 | 文章 | 具体角度 |
 |------|------|---------|
+| 2026-04-18 | Qwen3.6-35B在笔记本上画的图比Claude Opus 4.7好——Simon Willison亲测 | 本地图片生成 |
+| 2026-04-16 | [[gemma4跑在iphone上了-完全离线不联网|Gemma 4 iPhone离线]] | 移动端 |
 | 2026-04-14 | [[mac-mini变身24小时ai编程站-三件套让你随时随地给ai派活|Mac mini变身24小时AI编程站]] | 远程访问方案 |
 | 2026-04-13 | [[一张4090就够-gemma4离线知识库agent完整实战|一张4090就够，Gemma4离线知识库Agent]] | 实操教程 |
 | 2026-04-11 | [[ggerganov三年前mac跑出300token-llama-cpp配置|ggerganov用三年前Mac跑出300 token/s]] | 性能实测 |
@@ -24,7 +26,7 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 ## 饱和度评估
 
-**高饱和** — 4 篇/15 天。除非出现新模型（如 Llama 4）或新硬件突破，建议暂停此主题 1-2 周。
+**高饱和** — 6 篇/11 天。Qwen 本地图片生成是新角度（从文本推理扩展到图片生成），但总量已高。建议暂停 1-2 周。
 
 ## 潜在下一个角度
 
