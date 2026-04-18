@@ -1,7 +1,7 @@
 ---
 title: "feat: Add quality-check and revision loop to content pipeline"
 type: feat
-status: active
+status: completed
 date: 2026-04-17
 origin: docs/brainstorms/2026-04-17-content-quality-pipeline-requirements.md
 ---
@@ -131,7 +131,7 @@ origin: docs/brainstorms/2026-04-17-content-quality-pipeline-requirements.md
 
 ## Implementation Units
 
-- [ ] **Unit 0a: 基础 Pre-flight（无需 QA prompt）**
+- [x] **Unit 0a: 基础 Pre-flight（无需 QA prompt）**
 
 **Goal:** 处理不依赖 QA prompt 的前置验证
 
@@ -157,7 +157,7 @@ origin: docs/brainstorms/2026-04-17-content-quality-pipeline-requirements.md
 
 ---
 
-- [ ] **Unit 1: 创建 QA prompt 模板**
+- [x] **Unit 1: 创建 QA prompt 模板**
 
 **Goal:** 创建独立的质检 agent prompt，从 wechat.md 提取 L1-L5 标准但以"独立审稿人"视角重写
 
@@ -190,7 +190,7 @@ origin: docs/brainstorms/2026-04-17-content-quality-pipeline-requirements.md
 
 ---
 
-- [ ] **Unit 0b: QA 有效性验证（依赖 Unit 1 的 QA prompt）**
+- [x] **Unit 0b: QA 有效性验证（依赖 Unit 1 的 QA prompt）**
 
 **Goal:** 用真实的 QA prompt 验证质修循环有效性和 QA 评分区分度
 
@@ -214,7 +214,7 @@ origin: docs/brainstorms/2026-04-17-content-quality-pipeline-requirements.md
 
 ---
 
-- [ ] **Unit 2: 实现 L1 机械替换逻辑**
+- [x] **Unit 2: 实现 L1 机械替换逻辑**
 
 **Goal:** 在生成后、QA 前执行确定性的禁用词/禁用标点替换
 
@@ -250,7 +250,7 @@ origin: docs/brainstorms/2026-04-17-content-quality-pipeline-requirements.md
 
 ---
 
-- [ ] **Unit 3: 扩展 meta.yaml schema**
+- [x] **Unit 3: 扩展 meta.yaml schema**
 
 **Goal:** 在 meta.yaml 中增加 `qa` 字段，存储质检结果
 
@@ -290,7 +290,7 @@ qa:
 
 ---
 
-- [ ] **Unit 4: 修改 SKILL.md 编排逻辑**
+- [x] **Unit 4: 修改 SKILL.md 编排逻辑**
 
 **Goal:** 在 SKILL.md Step 4 的子代理流程中插入质检循环
 
@@ -344,7 +344,7 @@ qa:
 
 ---
 
-- [ ] **Unit 5: 端到端验证**
+- [x] **Unit 5: 端到端验证**
 
 **Goal:** 用实际管线跑一批文章，验证质检循环工作正常
 
