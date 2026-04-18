@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "drafts/2026-04-14/voxcpm2冲上github-trending-中国开源tts做到30种语言可商用/article.md",
+                "file": "drafts/2026-04-16/google-gemini-flash-tts来了-用文字标签就能控制语音风格/google-gemini-flash-tts来了-用文字标签就能控制语音风格.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "article"
+              "title": "google-gemini-flash-tts来了-用文字标签就能控制语音风格"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "drafts/2026-04-14/voxcpm2冲上github-trending-中国开源tts做到30种语言可商用/article.md",
+            "file": "drafts/2026-04-16/google-gemini-flash-tts来了-用文字标签就能控制语音风格/google-gemini-flash-tts来了-用文字标签就能控制语音风格.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -168,10 +168,20 @@
   },
   "active": "40e4c7c952e645cc",
   "lastOpenFiles": [
-    "wiki/entities/people/simon-willison.md",
-    "wiki/entities/people/karpathy.md",
+    "drafts/2026-04-16/chrome现在能把你的ai提示词变成一键按钮了/chrome现在能把你的ai提示词变成一键按钮了.md",
+    "drafts/2026-04-16/autoclip把短视频生产线全拉通了-下载到发布一条龙/autoclip把短视频生产线全拉通了-下载到发布一条龙.md",
+    "drafts/2026-04-16/交大学生用claude-code做了个交易bot-一晚赚1940刀/交大学生用claude-code做了个交易bot-一晚赚1940刀.md",
+    "TODOS.md",
     "wiki/log.md",
     "wiki/index.md",
+    "drafts/2026-04-16/open-lovable爆了2.4万星-输入网址就能克隆整站/open-lovable爆了2.4万星-输入网址就能克隆整站.md",
+    "drafts/2026-04-16/google-gemini-flash-tts来了-用文字标签就能控制语音风格/google-gemini-flash-tts来了-用文字标签就能控制语音风格.md",
+    "drafts/2026-04-16/gemma4跑在iphone上了-完全离线不联网/gemma4跑在iphone上了-完全离线不联网.md",
+    "drafts/2026-04-16/claude-code插件一键复制任意网站设计-1206人点赞的抄作业神器/claude-code插件一键复制任意网站设计-1206人点赞的抄作业神器.md",
+    "drafts/2026-04-16/anthropic发了篇nature论文-发现ai能偷偷传染坏习惯/anthropic发了篇nature论文-发现ai能偷偷传染坏习惯.md",
+    "drafts/2026-04-16/美国法院裁了-你跟ai聊的天法庭上能当证据用/美国法院裁了-你跟ai聊的天法庭上能当证据用.md",
+    "wiki/entities/people/simon-willison.md",
+    "wiki/entities/people/karpathy.md",
     "wiki/entities/products",
     "wiki/entities/people",
     "wiki/entities/companies",
@@ -179,7 +189,6 @@
     "wiki/sources",
     "wiki/topics",
     "wiki/coverage",
-    "wiki",
-    "TODOS.md"
+    "wiki"
   ]
 }

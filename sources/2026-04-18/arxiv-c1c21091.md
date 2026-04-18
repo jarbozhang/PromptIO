@@ -1,0 +1,19 @@
+---
+title: Stability and Generalization in Looped Transformers
+url: 'https://arxiv.org/abs/2604.15259v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Asher Labovich
+categories:
+  - cs.LG
+  - cs.AI
+  - cs.LG
+published: '2026-04-16T17:35:49Z'
+fetched_at: '2026-04-18T02:24:59.960Z'
+---
+Looped transformers promise test-time compute scaling by spending more iterations on harder problems, but it remains unclear which architectural choices let them extrapolate to harder problems at test time rather than memorize training-specific solutions. We introduce a fixed-point based framework for analyzing looped architectures along three axes of stability -- reachability, input-dependence, and geometry -- and use it to characterize when fixed-point iteration yields meaningful predictions. Theoretically, we prove that looped networks without recall have countable fixed points and cannot achieve strong input-dependence at any spectral regime, while recall combined with outer normalization reliably produces a regime in which fixed points are simultaneously reachable, locally smooth in the input, and supported by stable backpropagation. Empirically, we train single-layer looped transformers on chess, sudoku, and prefix-sums and find that downstream performance tracks the framework's predictions across tasks and architectural configurations. We additionally introduce internal recall, a novel recall placement variant, and show that it becomes competitive with -- and on sudoku, substantially better than -- standard recall placement once outer normalization is applied.
+
+Authors: Asher Labovich
+Categories: cs.LG, cs.AI, cs.LG

@@ -1,0 +1,10 @@
+---
+title: Get Good at Agents
+url: 'https://www.interconnects.ai/p/get-good-at-agents'
+source: Interconnects (Nathan Lambert)
+source_type: rss
+language: en
+published: '2026-01-21T17:05:15.000Z'
+fetched_at: '2026-04-18T02:23:46.037Z'
+---
+The tools are getting so powerful that we need to change how we scope, manage, and approach our work.
