@@ -204,7 +204,23 @@ sources:
 tags:
   - tag1
   - tag2
+qa:                      # 质检结果（由质检循环自动写入）
+  status: passed         # passed | needs_review | failed_qa
+  rounds: 1              # 质修循环轮数
+  l1_qa_violations: 0    # L1-3/L1-4 残留违规数（L1-1/L1-2 由机械替换处理，不计入）
+  l2_score: 8            # 1-10
+  l3_score: 7            # 1-10
+  l4_pass: true          # boolean
+  l5_score: 8            # 1-10
+  l1_replacements: 3     # L1 机械替换次数
+  issues: []             # 最后一轮的未解决问题列表（仅 needs_review 时有值）
+  error: ""              # failed_qa 时填写错误原因（parse_error/timeout/unknown）
 ```
+
+**qa.status 说明：**
+- `passed` = L1 零违规 + L2/L3/L5 均 >= 7 + L4 pass
+- `needs_review` = 3 轮质修后仍未达标，带 issues 进入人工审核
+- `failed_qa` = QA agent 错误（超时/不可解析），带 error 进入人工审核
 
 **文章文件格式：** 以 H1 标题开头（与 meta.yaml title 一致），空一行后接正文。
 
@@ -225,7 +241,90 @@ tags:
 
 根据文章内容智能选择相关实体和主题，只链接真正相关的（不要全部链接）。
 
-等待所有子代理完成，逐一报告完成状态。
+### Step 4.5: 质检循环（在所有子代理写入文件后执行）
+
+等待所有 Step 4 写作子代理完成。然后对每篇生成的文章执行以下质检流程。**10 篇文章的质检可以并行执行**（每篇启动独立的质检子代理）。
+
+**对每篇文章：**
+
+**4.5a L1 机械替换（不消耗质修轮次）**
+
+读取生成的文章 markdown 文件，通过 Bash tool 执行 L1 替换：
+
+```bash
+node -e "
+import { l1Replace } from './scripts/lib/l1-replace.js';
+import { readFileSync, writeFileSync } from 'fs';
+const path = 'drafts/{date}/{slug}/{slug}.md';
+const original = readFileSync(path, 'utf8');
+const { text, replacements } = l1Replace(original);
+writeFileSync(path, text);
+console.log(JSON.stringify({ replacements_count: replacements.length, details: replacements }));
+"
+```
+
+记录 `replacements_count` 供后续写入 meta.yaml。
+
+**4.5b 独立 QA 检查**
+
+启动一个新的子代理（Agent tool, mode: bypassPermissions），传入以下内容：
+
+1. **System prompt**：读取 `config/prompts/qa-check.md` 的完整内容
+2. **文章文本**：读取 L1 替换后的文章 markdown（仅正文，不含 meta.yaml）
+3. **文章原型**：工具实测/现象解读/论文拆解/社区事件/方法论（从选题信息中传入，影响 L3 专项检查）
+4. **指令**：按 qa-check.md 的格式输出 JSON 结果
+
+解析 QA agent 返回的 JSON。**如果返回不可解析，重试最多 2 次**（基础设施错误重试，不消耗内容修改轮次）。
+
+**4.5c 判断阈值**
+
+检查 QA 结果：
+- `overall_pass == true` → 质检通过，跳到 4.5e
+- `overall_pass == false` → 进入质修循环（4.5d）
+- JSON 不可解析且 2 次重试均失败 → 消耗 1 轮内容修改配额
+
+**4.5d 质修循环（最多 3 轮）**
+
+对于未通过质检的文章：
+
+1. 从 QA JSON 中提取问题清单（l4_issues + l1_details + 低分维度的 reasons）
+2. 启动修改子代理（Agent tool, mode: bypassPermissions），传入：
+   - 文章原文
+   - QA 问题清单（不含 QA 的推理过程，只传结论和建议）
+   - 修改原则：
+     - **删减类**（冗余/节奏/风格问题）：只删不加，禁止扩充
+     - **替换类**（L4 AI 味段落、结构性缺陷）：允许定向替换，但替换后全文总字数 ≤ 原文总字数 × 1.1
+     - 违反上述条件的修改视为"加内容"，禁止
+3. 修改完成后，重新执行 4.5b（独立 QA 检查）
+4. 重复直到通过或达到 3 轮上限
+
+**3 轮后仍未通过** → 标记为 `needs_review`，保留最后一轮的 issues 列表。
+
+**4.5e 写入 QA 结果到 meta.yaml**
+
+将质检结果写入对应文章的 meta.yaml `qa` 字段：
+
+```yaml
+qa:
+  status: passed          # 或 needs_review 或 failed_qa
+  rounds: 1               # 实际执行的质修循环轮数
+  l1_qa_violations: 0     # 最终 L1-3/L1-4 违规数
+  l2_score: 8
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 3      # Step 4.5a 的机械替换次数
+  issues: []              # needs_review 时填写
+  error: ""               # failed_qa 时填写
+```
+
+**所有文章质检完成后，汇报质检结果：**
+- 通过的文章数 / 总数
+- 需要人工审核的文章列表（如有）
+- 平均质修轮次
+- L1 机械替换总次数
+
+然后继续 Step 5（Wiki 更新）。
 
 ### Step 5: Wiki 更新
 
