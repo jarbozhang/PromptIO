@@ -1,0 +1,22 @@
+title: NVIDIA Lyra 2.0：AI生成可探索的3D世界
+status: draft
+date: 2026-04-19T00:00:00.000Z
+reach: 7
+sources:
+  - x-_akhaliq-9fc5b065
+tags:
+  - NVIDIA
+  - 3D生成
+  - HuggingFace
+  - 开源模型
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l1_replacements: 1
+  issues: []
+  error: ''

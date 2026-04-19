@@ -1,0 +1,22 @@
+title: 25人公司99%代码AI写：CREAO的AI-First不是口号
+status: draft
+date: 2026-04-19T00:00:00.000Z
+reach: 7
+sources:
+  - x-chenchengpro-833aa137
+tags:
+  - AI落地
+  - 工程实践
+  - Claude
+  - 团队管理
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l1_replacements: 1
+  issues: []
+  error: ''

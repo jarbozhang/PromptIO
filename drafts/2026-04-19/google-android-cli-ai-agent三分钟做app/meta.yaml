@@ -1,0 +1,22 @@
+title: Google发布Android CLI：让AI Agent三分钟开发App
+status: draft
+date: 2026-04-19T00:00:00.000Z
+reach: 8
+sources:
+  - x-home-AI_jacksaku-8dbddb6a
+tags:
+  - Google
+  - Android
+  - AI Agent
+  - 移动开发
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 2
+  issues: []
+  error: ''

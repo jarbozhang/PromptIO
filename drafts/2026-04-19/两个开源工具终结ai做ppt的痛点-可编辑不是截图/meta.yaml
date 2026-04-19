@@ -1,0 +1,23 @@
+title: 两个开源工具终结AI做PPT的痛点：可编辑不是截图
+status: draft
+date: 2026-04-19T00:00:00.000Z
+reach: 7
+sources:
+  - x-IndieDevHailey-bfe1ae1e
+  - x-home-wherecall1-9cdded6a
+tags:
+  - PPT
+  - 开源工具
+  - Claude Code
+  - 效率工具
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 2
+  issues: []
+  error: ''

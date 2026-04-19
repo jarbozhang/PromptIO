@@ -1,0 +1,22 @@
+title: 微信支付官方为AI Agent开源Skills
+status: draft
+date: 2026-04-19T00:00:00.000Z
+reach: 9
+sources:
+  - x-IndieDevHailey-78c69a0c
+tags:
+  - 微信支付
+  - AI Agent
+  - Skills
+  - 开源
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ''

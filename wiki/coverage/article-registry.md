@@ -2,6 +2,19 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-19（8 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| 微信支付官方为AI Agent开源Skills | 9 | 微信支付 | Agent生态 |
+| HeyGen开源HyperFrames：一行命令让AI生成视频 | 8 | HeyGen | 内容创作工具 |
+| Google发布Android CLI：让AI Agent三分钟开发App | 8 | [[google|Google]] | AI移动开发 |
+| 给AI签了3年租约，让它开实体店赚钱 | 8 | Andon Labs | AI商业落地 |
+| 两个开源工具终结AI做PPT的痛点：可编辑不是截图 | 7 | PPT Master, html-ppt-skill | 效率工具 |
+| 一键检测你的网站是否为AI Agent做好准备 | 7 | IsItAgentReady | Agent生态 |
+| NVIDIA Lyra 2.0：AI生成可探索的3D世界 | 7 | NVIDIA | 多模态AI |
+| 25人公司99%代码AI写：CREAO的AI-First不是口号 | 7 | CREAO, [[claude-code|Claude Code]] | AI商业落地 |
+
 ## 2026-04-18（7 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |
@@ -124,6 +137,6 @@
 
 ## 统计
 
-- 总计：70 篇（2026-04-08 至 2026-04-18，11 天）
-- 日均：6.4 篇
-- REACH 分布：9分×8篇 / 8分×31篇 / 7分×21篇 / N/A×10篇
+- 总计：78 篇（2026-04-08 至 2026-04-19，12 天）
+- 日均：6.5 篇
+- REACH 分布：9分×9篇 / 8分×34篇 / 7分×25篇 / N/A×10篇

@@ -1,0 +1,22 @@
+title: HeyGen开源HyperFrames：一行命令让AI生成视频
+status: draft
+date: 2026-04-19T00:00:00.000Z
+reach: 8
+sources:
+  - x-home-yanhua1010-7cb885b2
+tags:
+  - HeyGen
+  - 视频生成
+  - 开源
+  - Claude Code
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 2
+  issues: []
+  error: ''

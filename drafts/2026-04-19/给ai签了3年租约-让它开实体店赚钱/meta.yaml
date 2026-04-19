@@ -1,0 +1,22 @@
+title: 给AI签了3年租约，让它开实体店赚钱
+status: draft
+date: 2026-04-19T00:00:00.000Z
+reach: 8
+sources:
+  - hacker-news-algolia-ai-filter-eeef97f3
+tags:
+  - AI落地
+  - 零售
+  - 自主Agent
+  - 商业实验
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l1_replacements: 1
+  issues: []
+  error: ''
