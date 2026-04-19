@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "drafts/2026-04-16/google-gemini-flash-tts来了-用文字标签就能控制语音风格/google-gemini-flash-tts来了-用文字标签就能控制语音风格.md",
+                "file": "drafts/2026-04-18/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "google-gemini-flash-tts来了-用文字标签就能控制语音风格"
+              "title": "tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "drafts/2026-04-16/google-gemini-flash-tts来了-用文字标签就能控制语音风格/google-gemini-flash-tts来了-用文字标签就能控制语音风格.md",
+            "file": "drafts/2026-04-18/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -166,8 +166,16 @@
       "bases:新建数据库": false
     }
   },
-  "active": "40e4c7c952e645cc",
+  "active": "b90dc2b65e3ff659",
   "lastOpenFiles": [
+    "drafts/2026-04-18/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了.md",
+    "drafts/2026-04-18/claude-design发布-没有设计背景也能出图-anthropic在下什么棋/claude-design发布-没有设计背景也能出图-anthropic在下什么棋.md",
+    "drafts/2026-04-18/claude-opus-4.7来了-1934赞hn刷屏-但你该升级吗/claude-opus-4.7来了-1934赞hn刷屏-但你该升级吗.md",
+    "drafts/2026-04-18/codex大更新-桌面控制+图片生成+记忆-openai正面硬刚claude-code/codex大更新-桌面控制+图片生成+记忆-openai正面硬刚claude-code.md",
+    "drafts/2026-04-18/firebase密钥泄露13小时烧掉54000欧-gemini-api安全踩坑实录/firebase密钥泄露13小时烧掉54000欧-gemini-api安全踩坑实录.md",
+    "drafts/2026-04-18/qwen3.6-35b在笔记本上画的图比claude-opus-4.7好-simon-willison亲测/qwen3.6-35b在笔记本上画的图比claude-opus-4.7好-simon-willison亲测.md",
+    "drafts/2026-04-18/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻.md",
+    "drafts/2026-04-16/google-gemini-flash-tts来了-用文字标签就能控制语音风格/google-gemini-flash-tts来了-用文字标签就能控制语音风格.md",
     "drafts/2026-04-16/chrome现在能把你的ai提示词变成一键按钮了/chrome现在能把你的ai提示词变成一键按钮了.md",
     "drafts/2026-04-16/autoclip把短视频生产线全拉通了-下载到发布一条龙/autoclip把短视频生产线全拉通了-下载到发布一条龙.md",
     "drafts/2026-04-16/交大学生用claude-code做了个交易bot-一晚赚1940刀/交大学生用claude-code做了个交易bot-一晚赚1940刀.md",
@@ -175,7 +183,6 @@
     "wiki/log.md",
     "wiki/index.md",
     "drafts/2026-04-16/open-lovable爆了2.4万星-输入网址就能克隆整站/open-lovable爆了2.4万星-输入网址就能克隆整站.md",
-    "drafts/2026-04-16/google-gemini-flash-tts来了-用文字标签就能控制语音风格/google-gemini-flash-tts来了-用文字标签就能控制语音风格.md",
     "drafts/2026-04-16/gemma4跑在iphone上了-完全离线不联网/gemma4跑在iphone上了-完全离线不联网.md",
     "drafts/2026-04-16/claude-code插件一键复制任意网站设计-1206人点赞的抄作业神器/claude-code插件一键复制任意网站设计-1206人点赞的抄作业神器.md",
     "drafts/2026-04-16/anthropic发了篇nature论文-发现ai能偷偷传染坏习惯/anthropic发了篇nature论文-发现ai能偷偷传染坏习惯.md",
