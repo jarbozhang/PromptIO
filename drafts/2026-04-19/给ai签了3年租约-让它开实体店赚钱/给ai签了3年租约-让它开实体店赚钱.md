@@ -1,4 +1,4 @@
-# 给AI签了3年租约，让它开实体店赚钱
+# 5分钟发招聘、700美元买版画、策略性隐瞒身份：一个AI拿到信用卡之后
 
 旧金山 Cow Hollow 街区，Union Street 2102号，一家叫 Andon Market 的精品店在4月1号开业了。店里卖手工蜡烛、精选零食、品牌卫衣，还有一整面墙的书，包括 Nick Bostrom 的《Superintelligence》和《Brave New World》。
 

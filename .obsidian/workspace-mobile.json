@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "drafts/2026-04-18/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻.md",
+                "file": "drafts/2026-04-19/heygen开源hyperframes-html变视频一行命令装好/heygen开源hyperframes-html变视频一行命令装好.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻"
+              "title": "heygen开源hyperframes-html变视频一行命令装好"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "drafts/2026-04-18/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻.md",
+            "file": "drafts/2026-04-19/给ai签了3年租约-让它开实体店赚钱/给ai签了3年租约-让它开实体店赚钱.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -166,15 +166,23 @@
       "bases:新建数据库": false
     }
   },
-  "active": "b90dc2b65e3ff659",
+  "active": "40e4c7c952e645cc",
   "lastOpenFiles": [
+    "drafts/2026-04-19/25人公司99-percent代码ai写-creao的ai-first实验/25人公司99-percent代码ai写-creao的ai-first实验.md",
+    "drafts/2026-04-19/给ai签了3年租约-让它开实体店赚钱/给ai签了3年租约-让它开实体店赚钱.md",
+    "drafts/2026-04-19/微信支付官方为ai-agent开源skills/微信支付官方为ai-agent开源skills.md",
+    "drafts/2026-04-19/两个开源工具终结ai做ppt的痛点-可编辑不是截图/两个开源工具终结ai做ppt的痛点-可编辑不是截图.md",
+    "drafts/2026-04-19/一键检测你的网站是否为ai-agent做好准备/一键检测你的网站是否为ai-agent做好准备.md",
+    "drafts/2026-04-19/heygen开源hyperframes-html变视频一行命令装好/heygen开源hyperframes-html变视频一行命令装好.md",
+    "drafts/2026-04-19/nvidia-lyra-2-ai生成可探索的3d世界/nvidia-lyra-2-ai生成可探索的3d世界.md",
+    "drafts/2026-04-19/google-android-cli-ai-agent三分钟做app/google-android-cli-ai-agent三分钟做app.md",
+    "drafts/2026-04-18/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻.md",
     "drafts/2026-04-18/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了.md",
     "drafts/2026-04-18/claude-design发布-没有设计背景也能出图-anthropic在下什么棋/claude-design发布-没有设计背景也能出图-anthropic在下什么棋.md",
     "drafts/2026-04-18/claude-opus-4.7来了-1934赞hn刷屏-但你该升级吗/claude-opus-4.7来了-1934赞hn刷屏-但你该升级吗.md",
     "drafts/2026-04-18/codex大更新-桌面控制+图片生成+记忆-openai正面硬刚claude-code/codex大更新-桌面控制+图片生成+记忆-openai正面硬刚claude-code.md",
     "drafts/2026-04-18/firebase密钥泄露13小时烧掉54000欧-gemini-api安全踩坑实录/firebase密钥泄露13小时烧掉54000欧-gemini-api安全踩坑实录.md",
     "drafts/2026-04-18/qwen3.6-35b在笔记本上画的图比claude-opus-4.7好-simon-willison亲测/qwen3.6-35b在笔记本上画的图比claude-opus-4.7好-simon-willison亲测.md",
-    "drafts/2026-04-18/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻.md",
     "drafts/2026-04-16/google-gemini-flash-tts来了-用文字标签就能控制语音风格/google-gemini-flash-tts来了-用文字标签就能控制语音风格.md",
     "drafts/2026-04-16/chrome现在能把你的ai提示词变成一键按钮了/chrome现在能把你的ai提示词变成一键按钮了.md",
     "drafts/2026-04-16/autoclip把短视频生产线全拉通了-下载到发布一条龙/autoclip把短视频生产线全拉通了-下载到发布一条龙.md",
@@ -186,9 +194,6 @@
     "drafts/2026-04-16/gemma4跑在iphone上了-完全离线不联网/gemma4跑在iphone上了-完全离线不联网.md",
     "drafts/2026-04-16/claude-code插件一键复制任意网站设计-1206人点赞的抄作业神器/claude-code插件一键复制任意网站设计-1206人点赞的抄作业神器.md",
     "drafts/2026-04-16/anthropic发了篇nature论文-发现ai能偷偷传染坏习惯/anthropic发了篇nature论文-发现ai能偷偷传染坏习惯.md",
-    "drafts/2026-04-16/美国法院裁了-你跟ai聊的天法庭上能当证据用/美国法院裁了-你跟ai聊的天法庭上能当证据用.md",
-    "wiki/entities/people/simon-willison.md",
-    "wiki/entities/people/karpathy.md",
     "wiki/entities/products",
     "wiki/entities/people",
     "wiki/entities/companies",
