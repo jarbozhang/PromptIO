@@ -1,0 +1,10 @@
+---
+title: Accelerating the cyber defense ecosystem that protects us all
+url: 'https://openai.com/index/accelerating-cyber-defense-ecosystem'
+source: OpenAI Blog
+source_type: rss
+language: en
+published: '2026-04-16T00:00:00.000Z'
+fetched_at: '2026-04-20T05:37:27.701Z'
+---
+Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.
