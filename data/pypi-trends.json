@@ -1,14 +1,14 @@
 {
   "packages": {
     "transformers": {
-      "last_day": 3383704,
-      "last_week": 29354882,
-      "last_month": 126008934
+      "last_day": 3231020,
+      "last_week": 29294056,
+      "last_month": 125021408
     },
     "langchain": {
-      "last_day": 7166001,
-      "last_week": 54678148,
-      "last_month": 229273848
+      "last_day": 7032845,
+      "last_week": 54859240,
+      "last_month": 228824557
     },
     "openai": {
       "last_day": 6480794,
@@ -21,9 +21,9 @@
       "last_month": 93493732
     },
     "vllm": {
-      "last_day": 461872,
-      "last_week": 3264106,
-      "last_month": 11295655
+      "last_day": 138059,
+      "last_week": 3103227,
+      "last_month": 11118941
     },
     "llama-cpp-python": {
       "last_day": 23141,
@@ -36,14 +36,14 @@
       "last_month": 11559694
     },
     "crewai": {
-      "last_day": 207227,
-      "last_week": 1625018,
-      "last_month": 6278048
+      "last_day": 199288,
+      "last_week": 1648456,
+      "last_month": 6258997
     },
     "autogen": {
-      "last_day": 3412,
-      "last_week": 32426,
-      "last_month": 151620
+      "last_day": 3710,
+      "last_week": 32930,
+      "last_month": 149526
     },
     "dspy-ai": {
       "last_day": 32604,
@@ -51,5 +51,5 @@
       "last_month": 1532177
     }
   },
-  "updated_at": "2026-04-19T01:19:24.085Z"
+  "updated_at": "2026-04-20T05:40:08.859Z"
 }

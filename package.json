@@ -10,6 +10,7 @@
     "fetch:trending": "node scripts/fetch-github-trending.js",
     "fetch:openrouter": "node scripts/fetch-openrouter-models.js",
     "fetch:pypi": "node scripts/fetch-pypi-trends.js",
+    "fetch:trendradar": "node scripts/fetch-trendradar.js",
     "test": "node --test 'test/**/*.test.js'"
   },
   "dependencies": {
