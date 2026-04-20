@@ -2,6 +2,25 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-20（14 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| NVIDIA免费送一年API Key，MiniMax、Kimi、DeepSeek全能用 | 9 | NVIDIA, [[deepseek|DeepSeek]] | 工具实测/省钱 |
+| Chrome解锁"上帝模式"，Gemini+技能商店+垂直标签 | 9 | [[google|Google]] | 工具实测 |
+| DeepSeek V4要来了，万亿参数、GPT-4成本1/70 | 9 | [[deepseek|DeepSeek]] | 国产AI生态 |
+| OpenAI充值漏洞，0元激活200刀Pro | 9 | [[openai|OpenAI]] | 安全/省钱 |
+| 腾讯大神手把手教，0基础用AI编程做跑腿小程序 | 8 | 腾讯 | AI+中国特色场景 |
+| 22岁创业者扒开Claude Mythos黑箱，全开源了 | 8 | [[anthropic|Anthropic]] | 开源生态 |
+| GPT-image-2提示词仓库，近百个现成prompt | 8 | [[openai|OpenAI]] | 工具实测 |
+| 番茄月入80万金番作者被曝用AI写小说 | 8 | 番茄小说 | AI变现 |
+| Google Veo 3.1 Lite，最便宜的AI视频生成API | 8 | [[google|Google]] | 多模态/内容创作 |
+| 7个AI玄学Skills，赛博算命看风水批八字 | 8 | Claude Code | AI+中国特色场景 |
+| Anthropic突然封了60人公司Claude账户 | 8 | [[anthropic|Anthropic]] | 安全/平台风险 |
+| ESP32小屏幕变Claude编程搭子 | 7 | [[anthropic|Anthropic]] | AI+硬件 |
+| Browser Harness，592行Python让AI操作浏览器 | 7 | - | 开源工具 |
+| MiniMind，几块钱从零训练GPT，47k Stars | 7 | MiniMind | 开源生态 |
+
 ## 2026-04-19（8 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |
@@ -137,6 +156,6 @@
 
 ## 统计
 
-- 总计：78 篇（2026-04-08 至 2026-04-19，12 天）
-- 日均：6.5 篇
-- REACH 分布：9分×9篇 / 8分×34篇 / 7分×25篇 / N/A×10篇
+- 总计：92 篇（2026-04-08 至 2026-04-20，13 天）
+- 日均：7.1 篇
+- REACH 分布：9分×13篇 / 8分×41篇 / 7分×28篇 / N/A×10篇

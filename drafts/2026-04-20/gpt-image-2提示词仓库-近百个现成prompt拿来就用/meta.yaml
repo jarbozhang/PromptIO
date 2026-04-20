@@ -1,0 +1,22 @@
+title: "GPT-image-2提示词仓库，近百个现成prompt，拿来就用"
+status: draft
+date: 2026-04-20
+reach: 8
+sources:
+  - x-home-cheerselflin-821a823f
+tags:
+  - GPT-image-2
+  - 提示词
+  - AI绘图
+  - OpenAI
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 7
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

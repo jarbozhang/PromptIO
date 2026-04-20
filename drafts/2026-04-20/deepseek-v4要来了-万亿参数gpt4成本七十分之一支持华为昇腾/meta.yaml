@@ -1,0 +1,22 @@
+title: "DeepSeek V4要来了，万亿参数、GPT-4成本1/70、支持华为昇腾"
+status: draft
+date: 2026-04-20
+reach: 9
+sources:
+  - x-xiangxiang103-487a31fa
+tags:
+  - DeepSeek
+  - 国产AI
+  - 华为昇腾
+  - MoE
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 7
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

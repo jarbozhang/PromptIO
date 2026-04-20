@@ -1,0 +1,22 @@
+title: "OpenAI充值漏洞，0元激活200刀Pro，还没修"
+status: draft
+date: 2026-04-20
+reach: 9
+sources:
+  - x-home-xkajon-0f6725d9
+tags:
+  - OpenAI
+  - 漏洞
+  - 省钱
+  - Pro订阅
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 7
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

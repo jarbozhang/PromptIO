@@ -1,0 +1,22 @@
+title: "ESP32小屏幕变Claude编程搭子，花token升级的桌面宠物"
+status: draft
+date: 2026-04-20
+reach: 7
+sources:
+  - x-home-yadong_xie-28fbfe63
+tags:
+  - ESP32
+  - Claude
+  - 硬件
+  - 桌面宠物
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 7
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

@@ -2,6 +2,13 @@
 
 追加式记录，最新在前。
 
+## [2026-04-20] generate | 14 drafts, REACH>=7
+- 新增文章：NVIDIA免费API Key, Chrome上帝模式, DeepSeek V4, OpenAI充值漏洞, 腾讯AI编程小程序, OpenMythos开源, GPT-image-2提示词, 番茄AI写作, Veo 3.1 Lite, AI玄学Skills, Anthropic封号, ESP32 Claude Buddy, Browser Harness, MiniMind
+- 涉及实体：NVIDIA, Google, DeepSeek, OpenAI, Anthropic, 腾讯
+- 主题饱和变化：安全/供应链升至10篇严重过饱和，开源生态升至6篇中等饱和
+- 新主题：AI+硬件(首次), AI写作/变现(首次)
+- 更新 wiki: article-registry, topic-saturation, log
+
 ## [2026-04-19] generate | 8 drafts, REACH>=7
 - 新增文章：HeyGen HyperFrames, Google Android CLI, AI做PPT, AI开实体店, Agent Ready检测, 微信支付Skills, NVIDIA Lyra 2.0, CREAO AI-First
 - 涉及实体：Google, NVIDIA, HeyGen, 微信支付, Andon Labs, CREAO

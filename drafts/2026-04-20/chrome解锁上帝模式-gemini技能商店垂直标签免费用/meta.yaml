@@ -1,0 +1,24 @@
+title: "Chrome解锁\"上帝模式\"，Gemini+技能商店+垂直标签，免费用"
+status: draft
+date: 2026-04-20
+reach: 9
+sources:
+  - x-VincentLogic-73803a48
+  - google-ai-blog-a7d98974
+  - google-ai-blog-35335b85
+tags:
+  - Google
+  - Chrome
+  - Gemini
+  - 免费工具
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 7
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

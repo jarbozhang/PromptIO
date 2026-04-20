@@ -1,0 +1,22 @@
+title: "腾讯大神手把手教，0基础用AI编程，37分钟做出跑腿小程序"
+status: draft
+date: 2026-04-20
+reach: 8
+sources:
+  - x-dachaoren-b5a3e771
+tags:
+  - 腾讯
+  - AI编程
+  - 微信小程序
+  - 0基础
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 7
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""
