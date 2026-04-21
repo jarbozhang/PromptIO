@@ -1,5 +1,9 @@
 {
   "models": {
+    "moonshotai/kimi-k2.6": {
+      "name": "MoonshotAI: Kimi K2.6",
+      "context_length": 262144
+    },
     "anthropic/claude-opus-4.7": {
       "name": "Anthropic: Claude Opus 4.7",
       "context_length": 1000000
@@ -374,7 +378,7 @@
     },
     "deepseek/deepseek-v3.2": {
       "name": "DeepSeek: DeepSeek V3.2",
-      "context_length": 163840
+      "context_length": 131072
     },
     "prime-intellect/intellect-3": {
       "name": "Prime Intellect: INTELLECT-3",
@@ -1369,5 +1373,5 @@
       "context_length": 16385
     }
   },
-  "updated_at": "2026-04-20T05:40:08.632Z"
+  "updated_at": "2026-04-21T00:57:24.151Z"
 }
