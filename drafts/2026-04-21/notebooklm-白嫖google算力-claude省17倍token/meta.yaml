@@ -1,0 +1,25 @@
+title: "为什么我不再往 Claude 里塞资料，NotebookLM 才是你没用起来的 RAG"
+status: draft
+date: 2026-04-21
+reach: 9
+sources:
+  - x-home-alin_zone-daa46871
+  - x-home-MinLiBuilds-1873a65a
+  - x-home-LawrenceW_Zen-b19c011f
+  - x-home-xiangxiang103-5ce805c9
+tags:
+  - NotebookLM
+  - Google
+  - Claude Code
+  - 省Token
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

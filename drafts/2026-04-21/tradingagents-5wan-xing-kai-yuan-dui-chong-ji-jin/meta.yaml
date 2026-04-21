@@ -1,0 +1,22 @@
+title: "有人把对冲基金的底层架构开源了，GitHub 5 万星，年化 30.5%，我敢跑实盘吗？说实话还是不敢"
+status: draft
+date: 2026-04-21
+reach: 8
+sources:
+  - x-home-Huanusa-efe2c35c
+tags:
+  - TradingAgents
+  - AI交易
+  - 开源
+  - AI变现
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 3
+  issues: []
+  error: ""

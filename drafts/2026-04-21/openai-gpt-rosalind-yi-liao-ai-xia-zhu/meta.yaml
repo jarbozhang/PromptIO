@@ -1,0 +1,23 @@
+title: "OpenAI 发了一个专门搞药的 GPT，国内 AI 医疗赛道尴尬了吗"
+status: draft
+date: 2026-04-21
+reach: 8
+sources:
+  - openai-blog-b6d50c92
+  - x-OpenAI-20b4382a
+tags:
+  - OpenAI
+  - GPT-Rosalind
+  - AI医疗
+  - 药物发现
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

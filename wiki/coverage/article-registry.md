@@ -2,7 +2,7 @@
 
 全部已生成文章索引，按日期倒序。
 
-## 2026-04-21（11 篇）
+## 2026-04-21（17 篇，分两轮生成）
 
 | 标题 | REACH | 主要实体 | 主题 |
 |------|-------|---------|------|
@@ -17,6 +17,12 @@
 | [[firecrawl破11万星-ai爬网页都在用\|Firecrawl破11万星为什么AI Agent都在用它爬网页]] | 7 | Firecrawl | AI工具链 / RAG |
 | [[n8n工作流自动化-184k星不写代码做ai企业集成\|n8n冲到18.4万星替掉了Zapier和半个Dify]] | 7 | n8n | 效率工具 / 工作流自动化 |
 | [[typewords开源背单词神器-79k星免费还联动ai释义\|墨墨163开源7.9k星替代品浏览器打开就能用]] | 7 | TypeWords | 效率工具 / 教育 |
+| [[notebooklm-白嫖google算力-claude省17倍token\|为什么我不再往 Claude 里塞资料，NotebookLM 才是你没用起来的 RAG]] | 9 | [[google\|Google]]/[[notebooklm\|NotebookLM]], [[anthropic\|Anthropic]]/Claude | [[ai-pricing\|AI定价/省钱]] / RAG |
+| [[llm-api-yongjiu-mianfei-qingdan-15jia\|我把"永久免费"的 LLM API 挨个撸了一遍，15 家里只有 6 家真能长期当饭吃]] | 9 | [[google\|Google]]/Gemini, [[openai\|OpenAI]]/GPT, Groq, Cerebras, SiliconFlow, Z.AI | [[ai-pricing\|AI定价/省钱]] / 免费资源 |
+| [[tradingagents-5wan-xing-kai-yuan-dui-chong-ji-jin\|有人把对冲基金的底层架构开源了，GitHub 5 万星，年化 30.5%，我敢跑实盘吗？说实话还是不敢]] | 8 | [[tradingagents\|TradingAgents]], [[openai\|OpenAI]], [[anthropic\|Anthropic]] | AI金融 / AI变现 / [[agent-frameworks\|Agent框架]] |
+| [[openai-gpt-rosalind-yi-liao-ai-xia-zhu\|OpenAI 发了一个专门搞药的 GPT，国内 AI 医疗赛道尴尬了吗]] | 8 | [[openai\|OpenAI]]/[[gpt-rosalind\|GPT-Rosalind]], 百图生科, 晶泰, 英矽智能 | AI+医疗 / AI+科研 |
+| [[github-42k-star-ai-english-guide\|4.3 万星的"离谱英语学习指南"2026 版更新，我劝你在背单词之前先看看这个]] | 8 | byoungd/English-level-up-tips, Gemini, Claude | AI+教育 / 开源生态 |
+| [[notebooklm-gemini-dazao-maikenxi-guwen-wanfa\|我把《金字塔原理》喂给NotebookLM，捏了个麦肯锡顾问出来，然后发现了这玩法最大的坑]] | 8 | [[google\|Google]]/[[notebooklm\|NotebookLM]]/Gemini | AI变现 / AI+知识管理 / 咨询方法论 |
 
 ## 2026-04-20（14 篇）
 
@@ -172,6 +178,6 @@
 
 ## 统计
 
-- 总计：103 篇（2026-04-08 至 2026-04-21，14 天）
-- 日均：7.4 篇
-- REACH 分布：9分×17篇 / 8分×46篇 / 7分×30篇 / N/A×10篇
+- 总计：109 篇（2026-04-08 至 2026-04-21，14 天）
+- 日均：7.8 篇
+- REACH 分布：9分×19篇 / 8分×50篇 / 7分×30篇 / N/A×10篇

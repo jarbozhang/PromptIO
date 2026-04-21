@@ -1,0 +1,22 @@
+title: "我把\"永久免费\"的 LLM API 挨个撸了一遍，15 家里只有 6 家真能长期当饭吃"
+status: draft
+date: 2026-04-21
+reach: 9
+sources:
+  - x-home-geekbb-04ed00bf
+tags:
+  - 免费API
+  - LLM API
+  - Gemini
+  - 省钱攻略
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 10
+  l1_replacements: 0
+  issues: []
+  error: ""

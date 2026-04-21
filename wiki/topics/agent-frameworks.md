@@ -14,6 +14,7 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-21 | [[tradingagents-5wan-xing-kai-yuan-dui-chong-ji-jin\|TradingAgents 5 万星对冲基金架构开源]] | 金融多 Agent 架构 |
 | 2026-04-21 | [[openai开源多agent-python框架-905星今日冲榜\|OpenAI官方Agent框架冲905星，杀死CrewAI]] | 官方框架 + 对标 LangGraph/CrewAI |
 | 2026-04-19 | 微信支付官方为 AI Agent 开源 Skills | 中国支付生态 |
 | 2026-04-19 | 一键检测你的网站是否为 AI Agent 做好准备（IsItAgentReady） | Agent 化网站诊断 |
@@ -25,7 +26,7 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 ## 饱和度评估
 
-**中等偏上** — 9 篇，2026-04-21 OpenAI 官方 Agent 框架加剧饱和。后续选题需明确角度差异化，避免"又一款 Agent 框架推荐"。
+**中等偏上** — 10 篇，2026-04-21 连续两轮各 +1 篇（OpenAI 官方框架 + TradingAgents 金融多 Agent），饱和度持续加剧。后续选题必须聚焦"跑通实操"或"实盘/生产评测"，不再做工具盘点。
 
 ## 潜在下一个角度
 

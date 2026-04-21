@@ -11,6 +11,8 @@
 
 ## 近期动态
 
+- **GPT-Rosalind 医疗 AI 模型发布** (2026-04-21) — 专用于药物发现/医疗推理的 GPT 变体，对标百图生科/晶泰/英矽智能
+- **GPT API 入选永久免费 LLM API 清单** (2026-04-21) — 15 家梳理中 GPT 系列被归为"真能长期当饭吃"的 6 家之一（依靠免费层 + 学生计划）
 - **官方多 Agent Python 框架开源** (2026-04-21) — openai-agents-python 一日 +905 GitHub stars，Swarm 正式版，handoff/guardrail 概念，对标 LangGraph/CrewAI
 - **Codex 大更新** (2026-04-18) — 桌面控制+图片生成+记忆功能，正面对标 Claude Code
 - **$100 Pro 新层** (2026-04-09) — [[codex|Codex]] 用量 5x Plus，限时促销 10x
@@ -23,6 +25,9 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-21 | [[llm-api-yongjiu-mianfei-qingdan-15jia\|15 家永久免费 LLM API 清单（GPT 系列入选）]] | 9 |
+| 2026-04-21 | [[openai-gpt-rosalind-yi-liao-ai-xia-zhu\|OpenAI 发了个专门搞药的 GPT-Rosalind]] | 8 |
+| 2026-04-21 | [[tradingagents-5wan-xing-kai-yuan-dui-chong-ji-jin\|TradingAgents 对冲基金架构开源（依赖 GPT 调用）]] | 8 |
 | 2026-04-21 | [[openai开源多agent-python框架-905星今日冲榜\|OpenAI官方Agent框架冲905星，杀死CrewAI]] | 8 |
 | 2026-04-18 | Codex大更新：桌面控制+图片生成+记忆，OpenAI正面硬刚Claude Code | 9 |
 | 2026-04-18 | "Tokenmaxxing"：TechCrunch造了个新词，说AI编程正在让开发者变傻 | 8 |
@@ -38,4 +43,4 @@
 
 ## 注意
 
-OpenAI 是覆盖最频繁的实体（12 篇/14 天）。2026-04-21 新增 openai-agents-python 框架覆盖。短期内 OpenAI 选题需严格降权，除非出现 GPT/Codex 重要功能更新。
+OpenAI 是覆盖最频繁的实体（15 篇/14 天）。2026-04-21 第二轮新增 3 个间接/直接角度（GPT-Rosalind 医疗、免费 API 清单列名、TradingAgents 默认后端）。短期内 OpenAI 选题必须严格降权，除非出现 GPT-Rosalind 后续/Codex 范式级更新。

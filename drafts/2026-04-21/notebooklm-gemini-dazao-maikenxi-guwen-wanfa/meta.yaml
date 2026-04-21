@@ -1,0 +1,22 @@
+title: "我把《金字塔原理》喂给NotebookLM，捏了个麦肯锡顾问出来，然后发现了这玩法最大的坑"
+status: draft
+date: 2026-04-21
+reach: 8
+sources:
+  - x-VincentLogic-f2a2b495
+tags:
+  - NotebookLM
+  - Gemini
+  - AI变现
+  - 咨询
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

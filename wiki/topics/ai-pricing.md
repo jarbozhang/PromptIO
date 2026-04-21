@@ -17,6 +17,8 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-21 | [[notebooklm-白嫖google算力-claude省17倍token\|NotebookLM 代替 Claude 做 RAG，省 17 倍 Token]] | RAG 架构省钱 |
+| 2026-04-21 | [[llm-api-yongjiu-mianfei-qingdan-15jia\|15 家"永久免费"LLM API 清单，只有 6 家真能长期当饭吃]] | 免费 API 盘点 |
 | 2026-04-18 | 有人测了Claude 4.7新tokenizer的真实成本，545赞HN炸了 | tokenizer 成本分析 |
 | 2026-04-14 | [[openai新增100美元pro层-codex用量翻5倍但最高档不变|OpenAI新增$100 Pro层]] | 定价分析 |
 | 2026-04-11 | [[claude尼日利亚区订阅pro只要88元|Claude尼日利亚区订阅88元]] | 省钱攻略 |
@@ -25,4 +27,4 @@
 
 ## 饱和度评估
 
-**高饱和** — 5 篇/11 天。tokenizer 成本是新技术角度，但总量已高。暂停此主题。
+**严重高饱和** — 7 篇/14 天。4/21 第二轮 +2 篇（NotebookLM 省 Token、免费 API 清单），角度是"架构省钱"和"盘点免费资源"，算新角度但主题整体已超阈值。暂停此主题至少 5 天。

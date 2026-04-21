@@ -13,6 +13,8 @@ Gemini / Gemma / Veo 系列的开发商。
 
 ## 近期动态
 
+- **NotebookLM 作为 RAG/顾问替代方案** (2026-04-21) — 中文社区 NotebookLM 玩法升温，既做省 Token 的 RAG 平替，也被用来"捏麦肯锡顾问"做知识方法论咨询
+- **Gemini 继续入选永久免费 LLM API 清单** (2026-04-21) — Gemini API 免费额度稳定，成为 15 家梳理中"真能长期当饭吃的 6 家"之一
 - **Gemini Robotics x Boston Dynamics** (2026-04-21) — Gemini Robotics-ER 1.6 驱动 Spot 完成 agentic 任务（捡易拉罐、巡检），GoogleDeepMind 推文 1657 likes
 - **Gemma 4 发布** (2026-04-02) — 10M+ 下载/首周，8792 likes
 - **Flex/Priority 推理层** — Gemini API 新定价模式
@@ -25,6 +27,9 @@ Gemini / Gemma / Veo 系列的开发商。
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-21 | [[notebooklm-白嫖google算力-claude省17倍token\|为什么我不再往 Claude 里塞资料，NotebookLM 才是你没用起来的 RAG]] | 9 |
+| 2026-04-21 | [[llm-api-yongjiu-mianfei-qingdan-15jia\|15 家永久免费 LLM API 清单，只有 6 家真能长期当饭吃]] | 9 |
+| 2026-04-21 | [[notebooklm-gemini-dazao-maikenxi-guwen-wanfa\|把《金字塔原理》喂给 NotebookLM，捏了个麦肯锡顾问]] | 8 |
 | 2026-04-21 | [[gemini-robotics控boston-dynamics机器人自主整理房间\|Gemini指挥Spot捡易拉罐，机器人还得等三年]] | 8 |
 | 2026-04-13 | [[一张4090就够-gemma4离线知识库agent完整实战|一张4090就够，Gemma 4离线知识库Agent实战]] | 9 |
 | 2026-04-18 | Firebase密钥泄露13小时烧掉54000欧——Gemini API安全踩坑实录 | 7 |
@@ -36,4 +41,4 @@ Gemini / Gemma / Veo 系列的开发商。
 
 ## 选题建议
 
-Google 覆盖已升至 8 篇。Gemini Robotics x Boston Dynamics 开拓具身智能方向。Veo 3.1 Lite 和 Project Genie 仍有空间。注意 Google 实体饱和度已较高，后续选题需差异化角度（机器人、视频生成、教育等）。
+Google 覆盖已升至 11 篇。4/21 第二轮 NotebookLM 方向单独贡献 3 篇（RAG 省 Token、麦肯锡顾问玩法 + 免费 API 清单中被列为 6 家之一），NotebookLM/Gemini 在中文 AI 社区的工具认知正在成形。后续选题需严格降权，Veo 3.1 Lite、Project Genie、Android CLI 仍有空间但角度必须明显差异化。

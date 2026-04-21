@@ -2,6 +2,14 @@
 
 追加式记录，最新在前。
 
+## [2026-04-21 第二轮] generate | 6 drafts, REACH>=7
+
+- 新增文章：NotebookLM 省 Token、15 家免费 LLM API 清单、TradingAgents 金融 AI、GPT-Rosalind OpenAI 医疗、42k 星 AI 学英语、NotebookLM+Gemini 麦肯锡顾问
+- 涉及实体：Google/NotebookLM/Gemini（重度）、OpenAI（2 篇）、Anthropic/Claude、TradingAgents（新建）、GPT-Rosalind（新建）
+- 主题饱和变化：AI+医疗从空白→1 篇；AI 金融从空白→1 篇；AI+教育+1；AI 定价/省钱+2（持续高饱和）；AI 变现+2
+- 更新 wiki: article-registry（17 篇节+总篇数 109）、topic-saturation、log、index、google/openai/anthropic 实体页、ai-pricing/agent-frameworks 主题页
+- 新建页面：products/notebooklm.md, products/gpt-rosalind.md, products/tradingagents.md, topics/ai-education.md, topics/ai-medical.md, topics/ai-finance.md
+
 ## [2026-04-21] generate | 11 drafts, REACH>=7, RSS+X+signals
 
 - 新增文章：Kimi K2.6-code-preview登陆OpenRouter, 华为鸿蒙AI眼镜2499元, 爱奇艺AI艺人库百位演员入驻, 钉钉CEO禁员工写文档, TrendRadar 604星一屏看热榜, OpenAI官方多Agent Python框架, Gemini Robotics x Boston Dynamics, Datawhale self-llm 3万星教程, Firecrawl破11万星, n8n 18.4万星替掉Zapier, TypeWords 7.9k星背单词开源
