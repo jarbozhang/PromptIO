@@ -1,0 +1,25 @@
+---
+title: >-
+  Evaluating the Progression of Large Language Model Capabilities for
+  Small-Molecule Drug Design
+url: 'https://arxiv.org/abs/2604.16279v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Shriram Chennakesavalu
+  - Kirill Shmilovich
+  - Hayley Weir
+  - Colin Grambow
+  - John Bradshaw
+categories:
+  - cs.LG
+  - physics.chem-ph
+  - cs.LG
+published: '2026-04-17T17:40:26Z'
+fetched_at: '2026-04-21T00:54:57.870Z'
+---
+Large Language Models (LLMs) have the potential to accelerate small molecule drug design due to their ability to reason about information from diverse sources and formats. However, their practical utility remains unclear due to the lack of benchmarks that reflect real-world scenarios. In this work, we introduce a suite of chemically-grounded tasks spanning molecular property prediction, molecular representation transformations, and molecular design. Importantly, we formulate these tasks as reinforcement learning (RL) environments, enabling a unified approach for evaluation and post-training. Across three model families, we find that frontier models are increasingly proficient at chemical tasks, but that there is significant room for improvement, especially in experimental settings with low data. Critically, we show that RL-based post-training can substantially improve performance. A smaller model post-trained on our environments becomes competitive with state-of-the-art frontier models, despite a significantly weaker base model. This suggests a practical route toward employing LLMs in drug discovery; by combining carefully-designed evaluation tasks with targeted post-training, we can both elucidate and close critical capability gaps.
+
+Authors: Shriram Chennakesavalu, Kirill Shmilovich, Hayley Weir, Colin Grambow, John Bradshaw
+Categories: cs.LG, physics.chem-ph, cs.LG

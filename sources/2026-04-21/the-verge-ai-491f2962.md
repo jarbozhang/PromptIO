@@ -1,0 +1,15 @@
+---
+title: >-
+  Anthropic’s new cybersecurity model could get it back in the government’s good
+  graces
+url: >-
+  https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview
+source: The Verge AI
+source_type: rss
+language: en
+published: '2026-04-17T20:14:21.000Z'
+fetched_at: '2026-04-21T00:52:20.876Z'
+---
+The Trump administration has spent nearly two months fighting with AI company Anthropic. It's dubbed the company a "RADICAL LEFT, WOKE COMPANY" full of "Leftwing nut jobs" and a menace to national security. But some of the ice may reportedly be melting between the two, thanks to Anthropic's buzzy new cybersecurity-focused model: Claude Mythos Preview.
+Anthropic's relationship with the Pentagon soured quickly in late February after the company refused to budge on two red lines: using its technology for domestic mass surveillance or lethal fully autonomous weapons with no human in the loop. Anthropic's tech has in the past been used heavily b …
+Read the full story at The Verge.

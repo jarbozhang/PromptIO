@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "drafts/2026-04-18/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了.md",
+                "file": "drafts/2026-04-20/esp32小屏幕变claude编程搭子-花token升级的桌面宠物/esp32小屏幕变claude编程搭子-花token升级的桌面宠物.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了"
+              "title": "esp32小屏幕变claude编程搭子-花token升级的桌面宠物"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "drafts/2026-04-11/开源ai声音克隆干翻elevenlabs-免费本地跑/开源ai声音克隆干翻elevenlabs-免费本地跑.md",
+            "file": "drafts/2026-04-20/chrome解锁上帝模式-gemini技能商店垂直标签免费用/chrome解锁上帝模式-gemini技能商店垂直标签免费用.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -168,6 +168,18 @@
   },
   "active": "40e4c7c952e645cc",
   "lastOpenFiles": [
+    "drafts/2026-04-20/deepseek-v4要来了-万亿参数gpt4成本七十分之一支持华为昇腾/deepseek-v4要来了-万亿参数gpt4成本七十分之一支持华为昇腾.md",
+    "drafts/2026-04-20/腾讯大神手把手教-0基础ai编程37分钟做出跑腿小程序/腾讯大神手把手教-0基础ai编程37分钟做出跑腿小程序.md",
+    "drafts/2026-04-20/番茄月入80万金番作者被曝用ai写小说-正文还留着提示词/番茄月入80万金番作者被曝用ai写小说-正文还留着提示词.md",
+    "drafts/2026-04-20/22岁创业者扒开claude-mythos黑箱-全开源了/22岁创业者扒开claude-mythos黑箱-全开源了.md",
+    "drafts/2026-04-20/7个ai玄学skills-赛博算命看风水批八字/7个ai玄学skills-赛博算命看风水批八字.md",
+    "drafts/2026-04-20/chrome解锁上帝模式-gemini技能商店垂直标签免费用/chrome解锁上帝模式-gemini技能商店垂直标签免费用.md",
+    "drafts/2026-04-20/esp32小屏幕变claude编程搭子-花token升级的桌面宠物/esp32小屏幕变claude编程搭子-花token升级的桌面宠物.md",
+    "drafts/2026-04-20/google-veo-31-lite-最便宜的ai视频生成api来了/google-veo-31-lite-最便宜的ai视频生成api来了.md",
+    "drafts/2026-04-20/gpt-image-2提示词仓库-近百个现成prompt拿来就用/gpt-image-2提示词仓库-近百个现成prompt拿来就用.md",
+    "drafts/2026-04-20/nvidia免费送一年apikey-minimax-kimi-deepseek全能用/nvidia免费送一年apikey-minimax-kimi-deepseek全能用.md",
+    "drafts/2026-04-20/openai充值漏洞-0元激活200刀pro还没修/openai充值漏洞-0元激活200刀pro还没修.md",
+    "drafts/2026-04-18/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了.md",
     "wiki/topics/local-inference.md",
     "drafts/2026-04-11/开源ai声音克隆干翻elevenlabs-免费本地跑/开源ai声音克隆干翻elevenlabs-免费本地跑.md",
     "sources/2026-04-16/x-IndieDevHailey-c1b14553.md",
@@ -181,19 +193,7 @@
     "drafts/2026-04-19/nvidia-lyra-2-ai生成可探索的3d世界/nvidia-lyra-2-ai生成可探索的3d世界.md",
     "drafts/2026-04-19/google-android-cli-ai-agent三分钟做app/google-android-cli-ai-agent三分钟做app.md",
     "drafts/2026-04-18/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻/tokenmaxxing-techcrunch造了个新词-说ai编程正在让开发者变傻.md",
-    "drafts/2026-04-18/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了/有人测了claude-4.7新tokenizer的真实成本-545赞hn炸了.md",
     "drafts/2026-04-18/claude-design发布-没有设计背景也能出图-anthropic在下什么棋/claude-design发布-没有设计背景也能出图-anthropic在下什么棋.md",
-    "drafts/2026-04-18/claude-opus-4.7来了-1934赞hn刷屏-但你该升级吗/claude-opus-4.7来了-1934赞hn刷屏-但你该升级吗.md",
-    "drafts/2026-04-18/codex大更新-桌面控制+图片生成+记忆-openai正面硬刚claude-code/codex大更新-桌面控制+图片生成+记忆-openai正面硬刚claude-code.md",
-    "drafts/2026-04-18/firebase密钥泄露13小时烧掉54000欧-gemini-api安全踩坑实录/firebase密钥泄露13小时烧掉54000欧-gemini-api安全踩坑实录.md",
-    "drafts/2026-04-18/qwen3.6-35b在笔记本上画的图比claude-opus-4.7好-simon-willison亲测/qwen3.6-35b在笔记本上画的图比claude-opus-4.7好-simon-willison亲测.md",
-    "drafts/2026-04-16/google-gemini-flash-tts来了-用文字标签就能控制语音风格/google-gemini-flash-tts来了-用文字标签就能控制语音风格.md",
-    "drafts/2026-04-16/chrome现在能把你的ai提示词变成一键按钮了/chrome现在能把你的ai提示词变成一键按钮了.md",
-    "drafts/2026-04-16/autoclip把短视频生产线全拉通了-下载到发布一条龙/autoclip把短视频生产线全拉通了-下载到发布一条龙.md",
-    "drafts/2026-04-16/交大学生用claude-code做了个交易bot-一晚赚1940刀/交大学生用claude-code做了个交易bot-一晚赚1940刀.md",
-    "TODOS.md",
-    "wiki/log.md",
-    "wiki/index.md",
     "wiki/entities/products",
     "wiki/entities/people",
     "wiki/entities/companies",
