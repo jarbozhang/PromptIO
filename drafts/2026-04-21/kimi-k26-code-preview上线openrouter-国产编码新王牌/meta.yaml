@@ -1,0 +1,23 @@
+title: "Kimi K2.6-code-preview 登陆 OpenRouter，我测了一天，这国产编码模型真的能打 Claude 吗"
+status: draft
+date: 2026-04-21
+reach: 9
+sources:
+  - openrouter-new-model-6f856b15
+  - trendradar-知乎-76fdf8c4
+tags:
+  - 国产AI
+  - Kimi
+  - OpenRouter
+  - 工具实测
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

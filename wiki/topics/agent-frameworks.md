@@ -14,16 +14,23 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-13 | [[shopify把整个后台开放给ai-agent-每个店主等于有了五人团队|Shopify把后台开放给AI Agent]] | 企业落地 |
-| 2026-04-13 | [[anthropic托管agent来了-你的ai员工可以连续干活几小时不断线|Anthropic托管Agent来了]] | 平台服务 |
-| 2026-04-12 | [[harness是什么-claude-code和codex高手都在聊这个词|Harness是什么]] | 概念解读 |
+| 2026-04-21 | [[openai开源多agent-python框架-905星今日冲榜\|OpenAI官方Agent框架冲905星，杀死CrewAI]] | 官方框架 + 对标 LangGraph/CrewAI |
+| 2026-04-19 | 微信支付官方为 AI Agent 开源 Skills | 中国支付生态 |
+| 2026-04-19 | 一键检测你的网站是否为 AI Agent 做好准备（IsItAgentReady） | Agent 化网站诊断 |
+| 2026-04-15 | [[langalpha把claude-code搬到华尔街-hn-110分的金融ai-agent怎么解决token爆炸\|LangAlpha 金融 AI Agent]] | 金融落地 |
+| 2026-04-15 | [[amd开源gaia框架-本地硬件跑ai-agent不再是nvidia专利\|AMD 开源 GAIA 框架]] | 硬件 Agent 框架 |
+| 2026-04-13 | [[shopify把整个后台开放给ai-agent-每个店主等于有了五人团队\|Shopify 把后台开放给 AI Agent]] | 企业落地 |
+| 2026-04-13 | [[anthropic托管agent来了-你的ai员工可以连续干活几小时不断线\|Anthropic 托管 Agent 来了]] | 平台服务 |
+| 2026-04-12 | [[harness是什么-claude-code和codex高手都在聊这个词\|Harness 是什么]] | 概念解读 |
 
 ## 饱和度评估
 
-**中等** — 3 篇，但都偏概念。缺少"我自己搭了一个 multi-agent 系统"的实操型文章。
+**中等偏上** — 9 篇，2026-04-21 OpenAI 官方 Agent 框架加剧饱和。后续选题需明确角度差异化，避免"又一款 Agent 框架推荐"。
 
 ## 潜在下一个角度
 
-- Multi-agent 协作实操（Anthropic 官方多智能体指南已发布但未覆盖）
+- Multi-agent 协作实操（跑通一套 production multi-agent 系统）
 - Skills 文件编写实战（从 0 写一个 production skill）
 - MCP 服务器开发教程
+- Agent 评测方法论（怎么知道 Agent 真正稳定）
+- Agent 的商业化：谁在给 Agent 付费、按 token 还是按结果

@@ -2,6 +2,22 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-21（11 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| [[kimi-k26-code-preview上线openrouter-国产编码新王牌\|Kimi K2.6-code-preview登陆OpenRouter能打Claude吗]] | 9 | Moonshot/Kimi, [[anthropic\|Anthropic]] | 国产AI生态 / [[ai-coding-tools\|AI编程工具]] |
+| [[华为鸿蒙ai眼镜2499元起售-余承东说成本涨1500\|2499元华为鸿蒙AI眼镜是Ray-Ban Meta国产平替]] | 9 | 华为, 余承东 | AI+硬件 |
+| [[爱奇艺ai艺人库百位演员入驻-ai抢演员饭碗\|爱奇艺AI艺人库百位演员入驻龚宇说真人要成非遗]] | 9 | 爱奇艺, 龚宇 | AI+中国特色场景 / AI影视 |
+| [[钉钉禁员工写文档做会议纪要-全靠ai整理\|钉钉CEO禁员工写文档全靠AI实测是话术]] | 8 | 钉钉, 阿里 | 效率工具 / AI办公 |
+| [[trendradar开源604星-知乎微博百度热榜一屏看\|一天涨604星TrendRadar卸载8个APP]] | 8 | TrendRadar | 开源工具 / 信息聚合 |
+| [[openai开源多agent-python框架-905星今日冲榜\|OpenAI官方Agent框架冲905星杀死CrewAI]] | 8 | [[openai\|OpenAI]] | [[agent-frameworks\|Agent框架]] |
+| [[gemini-robotics控boston-dynamics机器人自主整理房间\|Gemini指挥Spot捡易拉罐机器人还得等三年]] | 8 | [[google\|Google]], DeepMind, Boston Dynamics | 具身智能 / AI+硬件 |
+| [[self-llm国产教程-零门槛微调deepseek-qwen\|3万星50模型全中文Datawhale最该收藏的AI教程]] | 8 | Datawhale, [[deepseek\|DeepSeek]] | 国产AI / 开源教程 |
+| [[firecrawl破11万星-ai爬网页都在用\|Firecrawl破11万星为什么AI Agent都在用它爬网页]] | 7 | Firecrawl | AI工具链 / RAG |
+| [[n8n工作流自动化-184k星不写代码做ai企业集成\|n8n冲到18.4万星替掉了Zapier和半个Dify]] | 7 | n8n | 效率工具 / 工作流自动化 |
+| [[typewords开源背单词神器-79k星免费还联动ai释义\|墨墨163开源7.9k星替代品浏览器打开就能用]] | 7 | TypeWords | 效率工具 / 教育 |
+
 ## 2026-04-20（14 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |
@@ -156,6 +172,6 @@
 
 ## 统计
 
-- 总计：92 篇（2026-04-08 至 2026-04-20，13 天）
-- 日均：7.1 篇
-- REACH 分布：9分×13篇 / 8分×41篇 / 7分×28篇 / N/A×10篇
+- 总计：103 篇（2026-04-08 至 2026-04-21，14 天）
+- 日均：7.4 篇
+- REACH 分布：9分×17篇 / 8分×46篇 / 7分×30篇 / N/A×10篇

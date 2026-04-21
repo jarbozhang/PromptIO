@@ -13,6 +13,7 @@ Gemini / Gemma / Veo 系列的开发商。
 
 ## 近期动态
 
+- **Gemini Robotics x Boston Dynamics** (2026-04-21) — Gemini Robotics-ER 1.6 驱动 Spot 完成 agentic 任务（捡易拉罐、巡检），GoogleDeepMind 推文 1657 likes
 - **Gemma 4 发布** (2026-04-02) — 10M+ 下载/首周，8792 likes
 - **Flex/Priority 推理层** — Gemini API 新定价模式
 - **Google Vids + Lyria 3** — 免费视频生成
@@ -24,6 +25,7 @@ Gemini / Gemma / Veo 系列的开发商。
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-21 | [[gemini-robotics控boston-dynamics机器人自主整理房间\|Gemini指挥Spot捡易拉罐，机器人还得等三年]] | 8 |
 | 2026-04-13 | [[一张4090就够-gemma4离线知识库agent完整实战|一张4090就够，Gemma 4离线知识库Agent实战]] | 9 |
 | 2026-04-18 | Firebase密钥泄露13小时烧掉54000欧——Gemini API安全踩坑实录 | 7 |
 | 2026-04-16 | [[google-gemini-flash-tts来了-用文字标签就能控制语音风格|Gemini Flash TTS]] | 8 |
@@ -34,4 +36,4 @@ Gemini / Gemma / Veo 系列的开发商。
 
 ## 选题建议
 
-Google 覆盖已升至 7 篇。Android CLI 是 AI+移动开发新角度。Veo 3.1 Lite 和 Project Genie 仍有空间。注意 Google 实体饱和度已较高。
+Google 覆盖已升至 8 篇。Gemini Robotics x Boston Dynamics 开拓具身智能方向。Veo 3.1 Lite 和 Project Genie 仍有空间。注意 Google 实体饱和度已较高，后续选题需差异化角度（机器人、视频生成、教育等）。

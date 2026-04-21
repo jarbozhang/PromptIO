@@ -1,0 +1,23 @@
+title: "墨墨背单词一年 163，我装了这个 7.9k 星的开源替代品，浏览器打开就能用"
+status: draft
+date: 2026-04-21
+reach: 7
+sources:
+  - x-VincentLogic-4f1a3a6d
+tags:
+  - TypeWords
+  - 开源工具
+  - 背单词
+  - 效率工具
+  - 教育
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

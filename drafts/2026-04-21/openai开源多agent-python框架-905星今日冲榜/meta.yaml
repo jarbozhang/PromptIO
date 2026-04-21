@@ -1,0 +1,22 @@
+title: "OpenAI 官方 Agent 框架一天冲 905 星，我试了半天，它打不赢 LangGraph 但杀死了 CrewAI"
+status: draft
+date: 2026-04-21
+reach: 8
+sources:
+  - github-trending-f955208d
+tags:
+  - OpenAI
+  - Agent框架
+  - 工具实测
+  - 开源
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

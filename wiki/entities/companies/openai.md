@@ -11,6 +11,7 @@
 
 ## 近期动态
 
+- **官方多 Agent Python 框架开源** (2026-04-21) — openai-agents-python 一日 +905 GitHub stars，Swarm 正式版，handoff/guardrail 概念，对标 LangGraph/CrewAI
 - **Codex 大更新** (2026-04-18) — 桌面控制+图片生成+记忆功能，正面对标 Claude Code
 - **$100 Pro 新层** (2026-04-09) — [[codex|Codex]] 用量 5x Plus，限时促销 10x
 - **$852B 估值融资** (2026-03-31) — $122B committed capital
@@ -22,6 +23,7 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-21 | [[openai开源多agent-python框架-905星今日冲榜\|OpenAI官方Agent框架冲905星，杀死CrewAI]] | 8 |
 | 2026-04-18 | Codex大更新：桌面控制+图片生成+记忆，OpenAI正面硬刚Claude Code | 9 |
 | 2026-04-18 | "Tokenmaxxing"：TechCrunch造了个新词，说AI编程正在让开发者变傻 | 8 |
 | 2026-04-14 | [[openai紧急通知macos用户必须更新-axios供应链安全事件波及全行业|OpenAI紧急通知macOS用户更新]] | 8 |
@@ -36,4 +38,4 @@
 
 ## 注意
 
-OpenAI 是覆盖最频繁的实体（11 篇/11 天）。Codex 更新和 Tokenmaxxing 又加了 2 篇。短期内 OpenAI 选题需严格降权。
+OpenAI 是覆盖最频繁的实体（12 篇/14 天）。2026-04-21 新增 openai-agents-python 框架覆盖。短期内 OpenAI 选题需严格降权，除非出现 GPT/Codex 重要功能更新。

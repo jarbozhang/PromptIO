@@ -1,0 +1,24 @@
+title: "2499 元的华为鸿蒙 AI 眼镜，是 Ray-Ban Meta 的国产平替，还是又一个尝鲜税"
+status: draft
+date: 2026-04-21
+reach: 9
+sources:
+  - trendradar-百度热搜-cda87d89
+  - trendradar-今日头条-3b0c05f4
+  - trendradar-华尔街见闻-a7f25d7d
+tags:
+  - 华为
+  - AI眼镜
+  - 鸿蒙
+  - AI硬件
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

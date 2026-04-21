@@ -2,6 +2,16 @@
 
 追加式记录，最新在前。
 
+## [2026-04-21] generate | 11 drafts, REACH>=7, RSS+X+signals
+
+- 新增文章：Kimi K2.6-code-preview登陆OpenRouter, 华为鸿蒙AI眼镜2499元, 爱奇艺AI艺人库百位演员入驻, 钉钉CEO禁员工写文档, TrendRadar 604星一屏看热榜, OpenAI官方多Agent Python框架, Gemini Robotics x Boston Dynamics, Datawhale self-llm 3万星教程, Firecrawl破11万星, n8n 18.4万星替掉Zapier, TypeWords 7.9k星背单词开源
+- 涉及实体：OpenAI, Google/DeepMind, Anthropic(降权监控), DeepSeek, Moonshot/Kimi, 华为, 爱奇艺, 钉钉/阿里, Datawhale, Boston Dynamics
+- 主题饱和变化：Agent框架 8→9（中等饱和加剧）、效率工具 1→4（升至中等饱和）、国产AI 1→4（升至中等饱和）、AI+硬件 1→3（升至中等饱和）、AI+中国特色场景 +1
+- 新主题：AI影视（爱奇艺首次）、具身智能（Gemini Robotics首次）、信息聚合工具（TrendRadar首次）
+- 刻意避开主题：AI编程工具（暂停至 4/25）、安全/供应链（持平）、本地推理（暂停）、Karpathy（降权）
+- QA 结果：11/11 全部首轮通过，平均修订轮次 1，L1 机械替换 5 次（钉钉全角冒号→逗号）
+- 更新 wiki: article-registry, topic-saturation, log, index, openai 实体页, google 实体页, agent-frameworks 主题页
+
 ## [2026-04-20] generate | 14 drafts, REACH>=7
 - 新增文章：NVIDIA免费API Key, Chrome上帝模式, DeepSeek V4, OpenAI充值漏洞, 腾讯AI编程小程序, OpenMythos开源, GPT-image-2提示词, 番茄AI写作, Veo 3.1 Lite, AI玄学Skills, Anthropic封号, ESP32 Claude Buddy, Browser Harness, MiniMind
 - 涉及实体：NVIDIA, Google, DeepSeek, OpenAI, Anthropic, 腾讯

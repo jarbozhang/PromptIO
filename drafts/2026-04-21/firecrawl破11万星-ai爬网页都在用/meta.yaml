@@ -1,0 +1,22 @@
+title: "Firecrawl 破 11 万星，为什么 AI Agent 都在用它爬网页"
+status: draft
+date: 2026-04-21
+reach: 7
+sources:
+  - github-trending-49a1c7e3
+tags:
+  - Firecrawl
+  - 开源工具
+  - AI工具链
+  - 网页爬取
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

@@ -1,0 +1,22 @@
+title: "钉钉 CEO 禁员工写文档、做会议纪要全靠 AI，我实测完想说这是话术"
+status: draft
+date: 2026-04-21
+reach: 8
+sources:
+  - trendradar-知乎-a0774dad
+tags:
+  - 钉钉
+  - AI办公
+  - 效率工具
+  - 国产AI
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 5
+  issues: []
+  error: ""

@@ -1,0 +1,22 @@
+title: "3万星、50个模型、全中文，我愿称 Datawhale 这份教程为中文 AI 工程师最该收藏的一本书"
+status: draft
+date: 2026-04-21
+reach: 8
+sources:
+  - github-trending-e76db649
+tags:
+  - Datawhale
+  - 国产AI
+  - 开源教程
+  - 微调
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

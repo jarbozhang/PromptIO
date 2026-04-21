@@ -1,0 +1,30 @@
+title: "爱奇艺 AI 艺人库百位演员入驻，龚宇说真人实拍要成非遗，观众集体不买账"
+status: draft
+date: 2026-04-21
+reach: 9
+sources:
+  - trendradar-知乎-ec485e28
+  - trendradar-知乎-683f8f9d
+  - trendradar-澎湃新闻-14367253
+  - trendradar-澎湃新闻-4959e3eb
+  - trendradar-微博-35564a8e
+  - trendradar-微博-64338bac
+  - trendradar-微博-5239bc08
+  - trendradar-微博-be8d6fab
+  - trendradar-贴吧-6902d5ca
+tags:
+  - 爱奇艺
+  - AI艺人
+  - AI影视
+  - 中国特色场景
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8.5
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7.5
+  l1_replacements: 0
+  issues: []
+  error: ""
