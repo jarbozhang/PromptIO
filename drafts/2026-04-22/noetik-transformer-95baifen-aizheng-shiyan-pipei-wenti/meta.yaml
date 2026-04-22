@@ -1,0 +1,22 @@
+title: 95% 癌症临床试验是失败的，Noetik 用 Transformer 说这其实是个匹配问题
+status: draft
+date: 2026-04-22
+reach: 8
+sources:
+  - latent-space-7d43df5a
+tags:
+  - Noetik
+  - AI+医疗
+  - Transformer
+  - 癌症AI
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 9
+  l4_pass: true
+  l5_score: 7
+  l1_replacements: 0
+  issues: []
+  error: ""

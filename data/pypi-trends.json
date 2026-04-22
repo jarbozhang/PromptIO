@@ -1,55 +1,55 @@
 {
   "packages": {
     "transformers": {
-      "last_day": 3231020,
-      "last_week": 29294056,
-      "last_month": 125021408
+      "last_day": 4695361,
+      "last_week": 30035222,
+      "last_month": 125293726
     },
     "langchain": {
-      "last_day": 7032845,
-      "last_week": 54859240,
-      "last_month": 228824557
+      "last_day": 8326800,
+      "last_week": 55550272,
+      "last_month": 232475136
     },
     "openai": {
-      "last_day": 6094483,
-      "last_week": 61229965,
-      "last_month": 240862767
+      "last_day": 10185569,
+      "last_week": 62538162,
+      "last_month": 251404409
     },
     "anthropic": {
-      "last_day": 2206932,
-      "last_week": 24687068,
-      "last_month": 92826682
+      "last_day": 3900036,
+      "last_week": 24380163,
+      "last_month": 96931676
     },
     "vllm": {
-      "last_day": 138059,
-      "last_week": 3103227,
-      "last_month": 11118941
+      "last_day": 211411,
+      "last_week": 2518844,
+      "last_month": 11094063
     },
     "llama-cpp-python": {
-      "last_day": 23141,
-      "last_week": 180630,
-      "last_month": 635047
+      "last_day": 20274,
+      "last_week": 164465,
+      "last_month": 639791
     },
     "ollama": {
-      "last_day": 292244,
-      "last_week": 2801407,
-      "last_month": 11503794
+      "last_day": 424502,
+      "last_week": 2685231,
+      "last_month": 11788130
     },
     "crewai": {
-      "last_day": 199288,
-      "last_week": 1648456,
-      "last_month": 6258997
+      "last_day": 293422,
+      "last_week": 1733079,
+      "last_month": 6492205
     },
     "autogen": {
-      "last_day": 3710,
-      "last_week": 32930,
-      "last_month": 149526
+      "last_day": 5173,
+      "last_week": 33345,
+      "last_month": 152775
     },
     "dspy-ai": {
-      "last_day": 25451,
-      "last_week": 340050,
-      "last_month": 1486593
+      "last_day": 66110,
+      "last_week": 352476,
+      "last_month": 1558394
     }
   },
-  "updated_at": "2026-04-21T00:57:23.638Z"
+  "updated_at": "2026-04-22T08:16:45.610Z"
 }

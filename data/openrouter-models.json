@@ -1,5 +1,21 @@
 {
   "models": {
+    "openai/gpt-5.4-image-2": {
+      "name": "OpenAI: GPT-5.4 Image 2",
+      "context_length": 272000
+    },
+    "inclusionai/ling-2.6-flash:free": {
+      "name": "inclusionAI: Ling-2.6-flash (free)",
+      "context_length": 262144
+    },
+    "~anthropic/claude-opus-latest": {
+      "name": "Anthropic: Claude Opus Latest",
+      "context_length": 1000000
+    },
+    "openrouter/pareto-code": {
+      "name": "Pareto Code Router",
+      "context_length": 200000
+    },
     "moonshotai/kimi-k2.6": {
       "name": "MoonshotAI: Kimi K2.6",
       "context_length": 262144
@@ -7,10 +23,6 @@
     "anthropic/claude-opus-4.7": {
       "name": "Anthropic: Claude Opus 4.7",
       "context_length": 1000000
-    },
-    "openrouter/elephant-alpha": {
-      "name": "Elephant",
-      "context_length": 262144
     },
     "anthropic/claude-opus-4.6-fast": {
       "name": "Anthropic: Claude Opus 4.6 (Fast)",
@@ -202,7 +214,7 @@
     },
     "z-ai/glm-5": {
       "name": "Z.ai: GLM 5",
-      "context_length": 80000
+      "context_length": 202752
     },
     "qwen/qwen3-max-thinking": {
       "name": "Qwen: Qwen3 Max Thinking",
@@ -1373,5 +1385,5 @@
       "context_length": 16385
     }
   },
-  "updated_at": "2026-04-21T00:57:24.151Z"
+  "updated_at": "2026-04-22T08:16:44.560Z"
 }

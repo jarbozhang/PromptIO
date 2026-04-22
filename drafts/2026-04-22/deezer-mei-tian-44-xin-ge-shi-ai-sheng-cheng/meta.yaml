@@ -1,0 +1,22 @@
+title: 流媒体每天新歌 44% 是 AI 生成，Deezer 自己承认的，网易云敢说吗
+status: draft
+date: 2026-04-22
+reach: 8
+sources:
+  - hacker-news-algolia-ai-filter-52c38880
+tags:
+  - Deezer
+  - AI音乐
+  - AI+娱乐
+  - 创作者经济
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

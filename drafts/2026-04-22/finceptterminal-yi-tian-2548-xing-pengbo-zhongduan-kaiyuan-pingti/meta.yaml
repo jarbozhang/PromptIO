@@ -1,0 +1,22 @@
+title: 一天涨 2548 个 star，这个开源项目想干掉 25000 美元的彭博终端
+status: draft
+date: 2026-04-22
+reach: 7
+sources:
+  - github-trending-87af085a
+tags:
+  - FinceptTerminal
+  - AI金融
+  - 开源工具
+  - 彭博终端
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 9
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

@@ -1,0 +1,22 @@
+title: 港大又开源了个全能 RAG：我把公司那堆混合 PDF 扔进去后彻底不想碰 LlamaIndex 了
+status: draft
+date: 2026-04-22
+reach: 7
+sources:
+  - github-trending-7dea479d
+tags:
+  - RAG
+  - 港大HKUDS
+  - 多模态
+  - 开源生态
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 1
+  issues: []
+  error: ""

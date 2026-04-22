@@ -1,0 +1,25 @@
+title: Kimi K2.6 正式版今天凌晨偷跑，我顺手装了官方 kimi-cli，有几个反常识的发现
+status: draft
+date: 2026-04-22
+reach: 9
+sources:
+  - latent-space-facc13a5
+  - github-trending-57ce1214
+  - last-week-in-ai-5a91f296
+  - sebastian-raschka-639cb2bc
+tags:
+  - 国产AI
+  - Kimi
+  - Moonshot
+  - CLI工具
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

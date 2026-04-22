@@ -4,6 +4,7 @@
 
 ## 最近更新
 
+- 2026-04-22 — 9 篇新文章（Kimi K2.6+CLI、SpaceX 600亿收 Cursor、Meta 录键鼠、Deezer 44% AI 歌、ChatGPT Images 2.0、Mythos 一周四连炸、Noetik 癌症 AI、FinceptTerminal 彭博平替、RAG-Anything 港大多模态 RAG），首次覆盖 AI 音乐/AI 训练数据/AI 行业并购 3 个主题，AI 安全独立成主题线头。新增 Moonshot/Meta（更新）/Deezer/kimi-cli/Mythos/Noetik/FinceptTerminal/RAG-Anything/Sam Altman/Elon Musk 10 个实体/产品页
 - 2026-04-21 第二轮 — 6 篇追加（NotebookLM 省 Token、15 家免费 LLM API、TradingAgents 金融 AI、GPT-Rosalind 医疗、42k 星 AI 学英语、NotebookLM 麦肯锡顾问），新开 AI+医疗/AI 金融/AI+教育 3 个主题赛道，新增 NotebookLM/GPT-Rosalind/TradingAgents 3 个产品实体页
 - 2026-04-21 — 11 篇新文章（Kimi K2.6-code、华为鸿蒙AI眼镜、爱奇艺AI艺人库、钉钉AI会议纪要、TrendRadar、OpenAI多Agent框架、Gemini Robotics、Datawhale self-llm、Firecrawl、n8n、TypeWords），新增AI影视/具身智能/信息聚合3个主题，效率工具与国产AI升至中等饱和
 - 2026-04-20 — 14 篇新文章（NVIDIA免费Key、Chrome上帝模式、DeepSeek V4、OpenAI充值漏洞、腾讯AI编程、OpenMythos、GPT-image-2、番茄AI写作、Veo 3.1 Lite、AI玄学Skills、Anthropic封号、ESP32 Claude Buddy、Browser Harness、MiniMind），安全/供应链升至10篇严重过饱和
@@ -19,12 +20,16 @@
 - [[chollet|François Chollet]] — Keras 作者，ARC-AGI 创始人
 - [[ggerganov|Georgi Gerganov]] — llama.cpp 作者，本地推理先驱
 - [[emollick|Ethan Mollick]] — Wharton 教授，AI 应用研究者
+- [[sam-altman|Sam Altman]] — OpenAI CEO
+- [[elon-musk|Elon Musk]] — SpaceX / xAI / Tesla 创始人
 
 ### 公司
 - [[openai|OpenAI]] — ChatGPT / Codex / GPT 系列
-- [[anthropic|Anthropic]] — Claude / Claude Code / Glasswing
-- [[google|Google DeepMind]] — Gemini / Gemma / Veo
-- [[meta|Meta]] — Muse Spark / Llama
+- [[anthropic|Anthropic]] — Claude / Claude Code / Glasswing / Mythos
+- [[google|Google DeepMind]] — Gemini / Gemma / Veo / NotebookLM
+- [[meta|Meta]] — Muse Spark / Llama / 员工键鼠训练数据
+- [[moonshot|Moonshot / Kimi]] — Kimi K 系列 / kimi-cli
+- [[deezer|Deezer]] — 法国流媒体，AI 音乐占比披露者
 
 ### 产品
 - [[claude-code|Claude Code]] — Anthropic 的 CLI 编程工具
@@ -34,6 +39,11 @@
 - [[notebooklm|NotebookLM]] — Google 的资料型 AI 笔记本 / RAG 平替
 - [[gpt-rosalind|GPT-Rosalind]] — OpenAI 医疗/药物发现 GPT 变体
 - [[tradingagents|TradingAgents]] — 5 万星开源多 Agent 对冲基金架构
+- [[kimi-cli|kimi-cli]] — Moonshot 官方 CLI Agent
+- [[mythos|Mythos]] — Anthropic 受限版网络安全模型
+- [[noetik|Noetik]] — Noetik TARIO-2，Transformer 癌症临床试验匹配
+- [[finceptterminal|FinceptTerminal]] — 开源彭博终端平替
+- [[rag-anything|RAG-Anything]] — 港大 HKUDS 全能多模态 RAG 框架
 
 ## 主题 (Topics)
 
@@ -43,8 +53,13 @@
 - [[ai-pricing|AI 定价战]] — OpenAI vs Anthropic 订阅方案演变
 - [[agent-frameworks|Agent 框架]] — Harness / Skills / MCP
 - [[ai-education|AI+教育]] — 学习工具 / 教培 / 高校 AI 化
-- [[ai-medical|AI+医疗/科研]] — GPT-Rosalind / 国产 AI 制药
-- [[ai-finance|AI 金融/量化]] — TradingAgents / LangAlpha
+- [[ai-medical|AI+医疗/科研]] — GPT-Rosalind / Noetik / 国产 AI 制药
+- [[ai-finance|AI 金融/量化]] — TradingAgents / FinceptTerminal / LangAlpha
+- [[ai-music|AI 音乐]] — Deezer / 流媒体 AI 内容占比
+- [[ai-training-data|AI 训练数据]] — Meta 录键鼠 / 训练数据边界
+- [[ai-security|AI 安全]] — Mythos / Glasswing / 网络攻击模型
+- [[ai-mergers|AI 行业并购]] — SpaceX 收购 Cursor 等资本动作
+- [[multimodal|多模态 / AI 画画]] — ChatGPT Images 2.0 / Gemini / Veo
 
 ## 源质量 (Sources)
 
@@ -54,5 +69,5 @@
 
 ## 覆盖追踪 (Coverage)
 
-- [[article-registry|文章注册表]] — 全部 109 篇文章索引
+- [[article-registry|文章注册表]] — 全部 118 篇文章索引
 - [[topic-saturation|主题饱和度]] — 哪些写多了，哪些是空白

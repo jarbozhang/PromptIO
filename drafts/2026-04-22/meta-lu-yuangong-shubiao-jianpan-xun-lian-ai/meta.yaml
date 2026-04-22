@@ -1,0 +1,24 @@
+title: Meta 开始录员工的鼠标和键盘了，AI 训练数据的下一块肉是"你的每一次点击"
+status: draft
+date: 2026-04-22
+reach: 9
+sources:
+  - techcrunch-ai-b23181db
+  - hacker-news-algolia-ai-filter-e53fd54b
+  - hacker-news-algolia-ai-filter-6b8e31ec
+tags:
+  - Meta
+  - AI训练数据
+  - 隐私
+  - 职场
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

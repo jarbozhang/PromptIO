@@ -2,6 +2,14 @@
 
 追加式记录，最新在前。
 
+## [2026-04-22] generate | 9 drafts, REACH>=7
+
+- 新增文章：Kimi K2.6+CLI、SpaceX 600亿 Cursor、Meta 录键鼠、Deezer 44% AI 歌、ChatGPT Images 2.0、Mythos 四连炸、Noetik 癌症、FinceptTerminal、RAG-Anything
+- 涉及实体：Moonshot/Kimi（新建）、Meta（更新）、Deezer（新建）、Noetik（新建）、FinceptTerminal（新建）、RAG-Anything（新建）、kimi-cli（新建）、Mythos（新建）、Elon Musk（新建）、Sam Altman（新建）；openai/anthropic 追加
+- 主题饱和变化：AI+医疗 1→2、AI 金融 2→3（含 LangAlpha）、多模态 4→5、RAG 1→2、AI 编程工具 15→16、国产AI生态 4→5；首次覆盖 AI 音乐 / AI 训练数据 / AI 行业并购 / AI 安全（作为独立主题线头）
+- 新建页面：entities/companies/moonshot.md, entities/companies/deezer.md, entities/products/kimi-cli.md, entities/products/mythos.md, entities/products/noetik.md, entities/products/finceptterminal.md, entities/products/rag-anything.md, entities/people/sam-altman.md, entities/people/elon-musk.md, topics/ai-music.md, topics/ai-training-data.md, topics/ai-security.md, topics/ai-mergers.md, topics/multimodal.md
+- 更新 wiki: article-registry（新增 4/22 9 篇节 + 总篇数 118）、topic-saturation、log、index、openai/anthropic/meta 实体页、ai-coding-tools/ai-finance/ai-medical 主题页
+
 ## [2026-04-21 第二轮] generate | 6 drafts, REACH>=7
 
 - 新增文章：NotebookLM 省 Token、15 家免费 LLM API 清单、TradingAgents 金融 AI、GPT-Rosalind OpenAI 医疗、42k 星 AI 学英语、NotebookLM+Gemini 麦肯锡顾问

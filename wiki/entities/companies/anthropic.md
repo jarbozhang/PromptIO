@@ -13,6 +13,8 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 
 ## 近期动态
 
+- **Mythos 一周四连炸** (2026-04-22) — Mythos 48 小时内经历 NSA 报告引用 → Pentagon 泄露声称 → Sam Altman 公开嘲讽 fear-based marketing → 黑客利用四个剧情转折，从"神坛"滚到"阴沟"
+- **SpaceX/Cursor 并购中被提及** (2026-04-22) — 马斯克 600 亿美元收购 Cursor 一役被多方解读为对 Anthropic/Claude Code 编程工具护城河的直接冲击
 - **Claude 被 NotebookLM 省 Token 对比** (2026-04-21) — 中文社区把 NotebookLM 当 Claude RAG 的省钱替代，单任务 Token 消耗声称相差 17 倍
 - **Claude 成为 TradingAgents 默认后端之一** (2026-04-21) — 5 万星对冲基金开源项目依赖 Claude/GPT 做多 Agent 推理，年化 30.5%（回测数据）
 - **[[google|Google]]/Broadcom TPU 协议** (2026-04-06) — 多 GW 级 TPU 容量，2027 年上线
@@ -28,6 +30,8 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-22 | [[anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike\|Anthropic 一周四连炸，Mythos 48 小时从神坛滚到阴沟]] | 8 |
+| 2026-04-22 | [[spacex-600yi-shougou-cursor-mask-de-ai-biancheng-tu\|SpaceX 600 亿美元收 Cursor，Claude Code 护城河被挑战]] | 9 |
 | 2026-04-21 | [[notebooklm-白嫖google算力-claude省17倍token\|为什么我不再往 Claude 里塞资料，NotebookLM 才是你没用起来的 RAG]] | 9 |
 | 2026-04-21 | [[tradingagents-5wan-xing-kai-yuan-dui-chong-ji-jin\|TradingAgents 5 万星对冲基金架构（Claude 作为后端）]] | 8 |
 | 2026-04-18 | Claude Opus 4.7来了：1934赞HN刷屏，但你该升级吗 | 9 |
@@ -42,4 +46,4 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 
 ## 注意
 
-覆盖 11 篇。4/18 单日 5 篇涉及 Anthropic（Opus 4.7/Design/Tokenizer/Tokenmaxxing/Qwen对比）。4/21 第二轮 +2 篇间接涉及（NotebookLM 作为 Claude 替代、TradingAgents 依赖 Claude 后端）。Anthropic 实体仍处高饱和，后续严格降权。
+覆盖 13 篇。4/18 单日 5 篇涉及 Anthropic。4/22 +2 篇（Mythos 四连炸正面 + SpaceX/Cursor 间接涉及）。Anthropic 实体仍处高饱和，后续严格降权。Mythos 作为独立产品线头已建立 [[mythos|mythos.md]] 单独跟踪。

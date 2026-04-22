@@ -1,0 +1,25 @@
+title: Anthropic 这一周炸了四次，Mythos 从神坛滚到阴沟只用了 48 小时
+status: draft
+date: 2026-04-22
+reach: 8
+sources:
+  - techcrunch-ai-9c57fea7
+  - techcrunch-ai-fdde9ca6
+  - techcrunch-ai-cd78e201
+  - interconnects-nathan-lambert-f14370ae
+tags:
+  - Anthropic
+  - Mythos
+  - AI安全
+  - 网络攻击
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

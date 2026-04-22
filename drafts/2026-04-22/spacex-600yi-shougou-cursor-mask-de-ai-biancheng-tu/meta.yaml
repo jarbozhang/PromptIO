@@ -1,0 +1,23 @@
+title: 600 亿美元，马斯克把 Cursor 买回家，这不是 AI 编程的胜利
+status: draft
+date: 2026-04-22
+reach: 9
+sources:
+  - techcrunch-ai-b55747f6
+  - the-verge-ai-3101b2eb
+tags:
+  - SpaceX
+  - Cursor
+  - 马斯克
+  - AI并购
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 1
+  issues: []
+  error: ""

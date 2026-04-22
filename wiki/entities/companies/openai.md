@@ -11,6 +11,8 @@
 
 ## 近期动态
 
+- **ChatGPT Images 2.0 新增打字+联网搜图** (2026-04-22) — ChatGPT 画画支持准确渲染文字与实时联网取图素材，GPT Image 2 同步登陆 OpenRouter
+- **Sam Altman 嘲讽 Anthropic Mythos 为 fear-based marketing** (2026-04-22) — Mythos 一周四连炸期间，Altman 公开发声唱反调
 - **GPT-Rosalind 医疗 AI 模型发布** (2026-04-21) — 专用于药物发现/医疗推理的 GPT 变体，对标百图生科/晶泰/英矽智能
 - **GPT API 入选永久免费 LLM API 清单** (2026-04-21) — 15 家梳理中 GPT 系列被归为"真能长期当饭吃"的 6 家之一（依靠免费层 + 学生计划）
 - **官方多 Agent Python 框架开源** (2026-04-21) — openai-agents-python 一日 +905 GitHub stars，Swarm 正式版，handoff/guardrail 概念，对标 LangGraph/CrewAI
@@ -25,6 +27,9 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-22 | [[chatgpt-images-2-hui-dazi-lian-wang-souturcai-huatu\|ChatGPT 画画终于会打字还会联网搜图了]] | 8 |
+| 2026-04-22 | [[anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike\|Anthropic Mythos 四连炸，Altman 嘲讽 fear-based marketing]] | 8 |
+| 2026-04-22 | [[spacex-600yi-shougou-cursor-mask-de-ai-biancheng-tu\|SpaceX 600 亿收 Cursor，OpenAI 编程护城河被提及]] | 9 |
 | 2026-04-21 | [[llm-api-yongjiu-mianfei-qingdan-15jia\|15 家永久免费 LLM API 清单（GPT 系列入选）]] | 9 |
 | 2026-04-21 | [[openai-gpt-rosalind-yi-liao-ai-xia-zhu\|OpenAI 发了个专门搞药的 GPT-Rosalind]] | 8 |
 | 2026-04-21 | [[tradingagents-5wan-xing-kai-yuan-dui-chong-ji-jin\|TradingAgents 对冲基金架构开源（依赖 GPT 调用）]] | 8 |
@@ -43,4 +48,4 @@
 
 ## 注意
 
-OpenAI 是覆盖最频繁的实体（15 篇/14 天）。2026-04-21 第二轮新增 3 个间接/直接角度（GPT-Rosalind 医疗、免费 API 清单列名、TradingAgents 默认后端）。短期内 OpenAI 选题必须严格降权，除非出现 GPT-Rosalind 后续/Codex 范式级更新。
+OpenAI 是覆盖最频繁的实体（18 篇/15 天）。2026-04-22 新增 3 个直接/间接角度（ChatGPT Images 2.0、Mythos 四连炸中 Altman 嘲讽、SpaceX/Cursor 并购涉及）。短期内 OpenAI 选题必须严格降权，除非出现 Codex 范式级更新或 OpenAI 自己的重大并购/融资动作。

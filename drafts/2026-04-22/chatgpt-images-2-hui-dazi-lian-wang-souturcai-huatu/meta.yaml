@@ -1,0 +1,24 @@
+title: ChatGPT 画画终于会打字还会联网搜图了，国产这次真的落后了
+status: draft
+date: 2026-04-22
+reach: 8
+sources:
+  - techcrunch-ai-0c88065d
+  - the-verge-ai-dfa2e360
+  - openrouter-new-model-59692c24
+tags:
+  - OpenAI
+  - ChatGPT
+  - 多模态
+  - AI画画
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 10
+  l1_replacements: 0
+  issues: []
+  error: ""
