@@ -1,0 +1,24 @@
+---
+title: >-
+  Learning Hybrid-Control Policies for High-Precision In-Contact Manipulation
+  Under Uncertainty
+url: 'https://arxiv.org/abs/2604.19677v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Hunter L. Brown
+  - Geoffrey Hollinger
+  - Stefan Lee
+categories:
+  - cs.RO
+  - cs.AI
+  - cs.LG
+  - cs.RO
+published: '2026-04-21T16:55:48Z'
+fetched_at: '2026-04-22T08:06:49.542Z'
+---
+Reinforcement learning-based control policies have been frequently demonstrated to be more effective than analytical techniques for many manipulation tasks. Commonly, these methods learn neural control policies that predict end-effector pose changes directly from observed state information. For tasks like inserting delicate connectors which induce force constraints, pose-based policies have limited explicit control over force and rely on carefully tuned low-level controllers to avoid executing damaging actions. In this work, we present hybrid position-force control policies that learn to dynamically select when to use force or position control in each control dimension. To improve learning efficiency of these policies, we introduce Mode-Aware Training for Contact Handling (MATCH) which adjusts policy action probabilities to explicitly mirror the mode selection behavior in hybrid control. We validate MATCH's learned policy effectiveness using fragile peg-in-hole tasks under extreme localization uncertainty. We find MATCH substantially outperforms pose-control policies -- solving these tasks with up to 10% higher success rates and 5x fewer peg breaks than pose-only policies under common types of state estimation error. MATCH also demonstrates data efficiency equal to pose-control policies, despite learning in a larger and more complex action space. In over 1600 sim-to-real experiments, we find MATCH succeeds twice as often as pose policies in high noise settings (33% vs.~68%) a
+
+Authors: Hunter L. Brown, Geoffrey Hollinger, Stefan Lee
+Categories: cs.RO, cs.AI, cs.LG, cs.RO

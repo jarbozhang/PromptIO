@@ -14,7 +14,7 @@ description: >
 ## 前置条件
 
 - `npm` 可用（pipeline.js 依赖 node）
-- `bird` CLI 可用（X 推文抓取，读 Chrome/Safari cookies 认证）
+- `bird` CLI 可用（X 推文抓取，读 Chrome/Safari cookies 认证）。CLI 用法/认证细节以上游 `bird` skill 为准（`~/.claude/skills/bird/SKILL.md`），Step 2 运行时先用 Skill tool 调一次 bird skill 加载到上下文
 - 当前目录为 PromptIO 项目根目录
 
 ## 完整流程
@@ -53,28 +53,24 @@ npm run fetch:trendradar    # 中文平台热点（知乎/B站/微博/抖音等 
 
 ### Step 2: X 推文抓取
 
-从 `config/sources.yaml` 的 `x_accounts` 列表读取所有账号，用 `bird` CLI 批量抓取。
+**CLI 基础：先通过 Skill tool 调用 `bird` skill** 了解 bird CLI 的用法（auth 来源、命令语法、通用选项）。bird skill 是 steipete 上游维护的，`~/.claude/skills/bird/SKILL.md`，单次对话内一次 Skill 调用即可，后续都直接用 Bash 工具执行 bird 命令。
 
-**抓取逻辑：**
+本 step 的任务 = 用 bird CLI 抓 X 推文 + 按本项目的过滤/保存规则落盘。CLI 本身的行为/认证请看 bird skill，下面只列项目特定部分。
+
+**Step 2a: 按账号搜索（x_accounts 列表）**
+
+从 `config/sources.yaml` 的 `x_accounts` 列表读取所有账号，对每个账号执行：
 
 ```bash
 bird search "from:{handle}" -n 20 --json
 ```
 
-**过滤规则：**
-- 时间窗口：近 14 天（从当天往回算）
-- 最低互动：likes >= 50
-- 排除：RT 转推、纯回复（保留原创和引用推文）
+过滤规则：
+- 时间窗口：近 14 天
+- 最低互动：`likeCount >= 50`
+- 排除：`inReplyToStatusId` 非空的纯回复、RT 转推（保留原创和引用推文 `quotedTweet`）
 
-**JSON 字段映射（bird 输出）：**
-- `createdAt` → 发布时间
-- `likeCount` → 点赞数
-- `retweetCount` → 转发数
-- `replyCount` → 回复数
-- `inReplyToStatusId` → 非空则为回复
-- `quotedTweet` → 非空则为引用推文
-
-**保存格式：** 每条推文一个 markdown 文件，文件名 `x-{handle}-{hash8}.md`
+保存格式：每条推文一个 markdown 文件，路径 `sources/{date}/x-{handle}-{hash8}.md`
 
 ```yaml
 ---
@@ -90,39 +86,43 @@ replies: {replyCount}
 {推文全文}
 ```
 
-**重要：不要用 bash 循环内嵌 Node.js（引号转义会出错）。** 直接用纯 Node.js 脚本，通过 `execSync` 调用 bird CLI：
+**实现提示：** 不要用 bash 循环内嵌 Node.js（引号转义会出错）。用纯 Node.js 脚本通过 `execSync` 调用 bird CLI：
 
 ```javascript
-// 在 Bash 工具中用 node -e "..." 执行
 const {execSync}=require('child_process');
 const fs=require('fs'),crypto=require('crypto');
-const accounts='karpathy ylecun ...'.split(' '); // 从 sources.yaml 提取
+const accounts='karpathy ylecun ...'.split(' '); // 从 config/sources.yaml 提取
 const cutoff=Date.now()-14*86400000;
 for(const handle of accounts){
   try{
     const raw=execSync(`bird search "from:${handle}" -n 20 --json`,{timeout:30000}).toString();
     const tweets=JSON.parse(raw);
-    // 过滤 + 写入 markdown 文件
+    // 过滤 + 写入 markdown
   }catch(e){continue;}
 }
 ```
 
-**Step 2b: 推荐流抓取（For You + Following）**
-
-除了按账号搜索，还要抓取用户的推荐流和关注流，获取更广泛的 AI 相关内容：
+**Step 2b: 推荐流 + 关注流（For You + Following）**
 
 ```bash
-bird home -n 100 --json          # For You 推荐流（至少100条）
-bird home --following -n 50 --json  # Following 关注流（至少50条）
+bird home -n 100 --json             # For You 推荐流
+bird home --following -n 50 --json  # Following 关注流
 ```
 
-**注意 home timeline 的 author 字段是对象**，需要用 `t.author.username` 获取用户名（不是 `t.author`）。
+**字段差异：** home timeline 的 author 是对象，用 `t.author.username`（不是 `t.author`）取用户名。
 
-过滤规则：14 天时间窗口，推荐流 likes >= 50（降低门槛以获取更多候选），关注流 likes >= 30（关注流内容质量更稳定，门槛可以更低）。文件名前缀改为 `x-home-{username}-{hash8}.md` 和 `x-following-{username}-{hash8}.md`，source 字段标记为 `"X home @{username}"` 或 `"X following @{username}"`。
+过滤规则：
+- 时间窗口：14 天
+- 推荐流：`likeCount >= 50`（降低门槛以获取更多候选）
+- 关注流：`likeCount >= 30`（关注流质量更稳定）
 
-去重：检查 hash 是否已存在于当天目录中，避免和 Step 2a 的账号搜索结果重复。
+保存格式：
+- 文件名前缀 `x-home-{username}-{hash8}.md` / `x-following-{username}-{hash8}.md`
+- frontmatter 里 `source: "X home @{username}"` / `source: "X following @{username}"`
 
-推荐流的价值在于发现不在 `x_accounts` 列表中的账号和话题，特别是中文 AI 社区的接地气内容（省钱攻略、工具推荐、开源项目）。
+去重：抓前先 `ls sources/{date}/` 拿到已有 hash 集合，避免和 Step 2a 的账号搜索结果重复。
+
+推荐流/关注流的价值在于发现不在 `x_accounts` 列表中的账号和话题，特别是中文 AI 社区的接地气内容（省钱攻略、工具推荐、开源项目）。
 
 ### Step 3: 选题评分（wiki-informed）
 
