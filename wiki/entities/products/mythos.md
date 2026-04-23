@@ -11,13 +11,13 @@ Mythos 的核心矛盾是"最强模型封印"——Anthropic 声称出于 AI 安
 - **2026-04-07** — Glasswing/Mythos 限制发布，只给安全研究
 - **2026-04-08** — 首次覆盖："754B 参数 Claude Mythos：Anthropic 为什么把最强模型只给安全研究员"
 - **2026-04-20** — OpenMythos：22 岁创业者扒开 Mythos 黑箱全开源，迫使 Anthropic 面对"封印失败"的议题
-- **2026-04-22** — 48 小时四连炸：NSA 报告引用 → Pentagon 泄露声称 → [[sam-altman|Sam Altman]] 公开嘲讽 fear-based marketing → 黑客利用四件事接连发生，从神坛滚到阴沟
+- **2026-04-22** — 48 小时四连炸：NSA 报告引用 → Pentagon 泄露声称 → [[sam-altman|Sam Altman]] 公开嘲讽 fear-based marketing → 黑客利用四件事接连发生，戏剧弧拉满
 
 ## 我们的覆盖
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-22 | [[anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike\|Anthropic 一周四连炸，Mythos 从神坛滚到阴沟只用了 48 小时]] | 事件复盘+行业解读 |
+| 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic 的 Mythos 48 小时内出了四件事，从 NSA 偷用到 Altman 公开嘲讽]] | 事件复盘+行业解读 |
 | 2026-04-20 | [[22岁创业者扒开claude-mythos黑箱-全开源了\|22 岁创业者扒开 Claude Mythos 黑箱，全开源了]] | 开源逆向 |
 | 2026-04-08 | [[claude-mythos-754b-anthropic为什么把最强模型只给安全研究员\|754B 参数的 Claude Mythos]] | 封印策略分析 |
 

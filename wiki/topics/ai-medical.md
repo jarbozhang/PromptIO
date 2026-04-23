@@ -13,7 +13,7 @@ AI 进入药物发现、医疗推理、生物科学场景。是高门槛低饱�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-22 | [[noetik-transformer-95baifen-aizheng-shiyan-pipei-wenti\|95% 癌症临床试验是失败的，Noetik 用 Transformer 说这其实是个匹配问题]] | 行业重新框定 + Transformer 应用 |
+| 2026-04-22 | [[noetik用transformer解癌症-95失败率其实是匹配问题\|95% 癌症临床试验是失败的，Noetik 用 Transformer 说这其实是个匹配问题]] | 行业重新框定 + Transformer 应用 |
 | 2026-04-21 | [[openai-gpt-rosalind-yi-liao-ai-xia-zhu\|OpenAI 发了一个专门搞药的 GPT，国内 AI 医疗赛道尴尬了吗]] | 中外对比 + 行业格局 |
 
 ## 相关实体

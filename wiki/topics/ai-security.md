@@ -12,7 +12,7 @@ AI 模型本身作为网络攻击工具 / 被攻击目标 / 安全研究对象�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-22 | [[anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike\|Anthropic 这一周炸了四次，Mythos 48 小时从神坛滚到阴沟]] | 事件复盘 + 行业解读 |
+| 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic 的 Mythos 48 小时内出了四件事，从 NSA 偷用到 Altman 公开嘲讽]] | 事件复盘 + 行业解读 |
 | 2026-04-20 | [[22岁创业者扒开claude-mythos黑箱-全开源了\|22 岁创业者扒开 Claude Mythos 黑箱，全开源了]] | 开源逆向 |
 | 2026-04-08 | [[claude-mythos-754b-anthropic为什么把最强模型只给安全研究员\|754B 参数的 Claude Mythos]] | 封印策略分析 |
 

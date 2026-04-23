@@ -27,7 +27,7 @@ Noetik 的差异化切入点是 "临床试验失败"这一行业痛点的重新�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-22 | [[noetik-transformer-95baifen-aizheng-shiyan-pipei-wenti\|95% 癌症临床试验是失败的，Noetik 用 Transformer 说这其实是个匹配问题]] | 行业重新框定 |
+| 2026-04-22 | [[noetik用transformer解癌症-95失败率其实是匹配问题\|95% 癌症临床试验是失败的，Noetik 用 Transformer 说这其实是个匹配问题]] | 行业重新框定 |
 
 ## 相关实体
 

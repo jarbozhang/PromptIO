@@ -197,7 +197,7 @@ bird home --following -n 50 --json  # Following 关注流
    - 文章：`drafts/{date}/{slug}/{slug}.md`（文件名与文件夹同名，不叫 article.md）
    - 元数据：`drafts/{date}/{slug}/meta.yaml`
 
-**slug 命名规则：** 标题的中文 kebab-case，去掉标点，例如 `karpathy差点被黑客搞了-npm包安全吗`
+**slug 命名规则：** **中文字符 + 英文品牌** kebab-case，**禁止纯拼音**。英文品牌/产品名保留原样（OpenAI、Claude、Cursor、Kimi、NotebookLM、Firecrawl 等），数字保留阿拉伯数字（600亿、44），标点全换成 `-`，大写转小写。示例：`karpathy差点被黑客搞了-npm包安全吗`、`notebooklm-白嫖google算力-claude省17倍token`、`爱奇艺ai艺人库百位演员入驻-ai抢演员饭碗`。**反例（禁止）**：`anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike`（纯拼音）。
 
 **meta.yaml 格式（title 是唯一标题源）：**
 

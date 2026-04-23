@@ -17,7 +17,7 @@ Muse Spark / Llama 系列的开发商。同时是 AI 训练数据收集领域的
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
-| 2026-04-22 | [[meta-lu-yuangong-shubiao-jianpan-xun-lian-ai\|Meta 开始录员工的鼠标和键盘了，AI 训练数据的下一块肉是你的每一次点击]] | 9 |
+| 2026-04-22 | [[meta录员工鼠标键盘-ai训练数据下一块肉\|Meta 开始录员工的鼠标和键盘了，AI 训练数据的下一块肉是你的每一次点击]] | 9 |
 | 2026-04-13 | [[meta-muse-spark首秀-app-store冲到第5但chollet说benchmark注水了\|Meta Muse Spark首秀，Chollet说benchmark注水]] | 7 |
 | 2026-04-09 | [[meta新模型上线第一天被arc测试之父拆台\|Meta新模型上线第一天被ARC测试之父拆台]] | 7 |
 

@@ -6,15 +6,15 @@
 
 | 标题 | REACH | 主要实体 | 主题 |
 |------|-------|---------|------|
-| [[moonshot-kimi-k26-zhengshiban-cli-tongbu-fabu\|Kimi K2.6 正式版今天凌晨偷跑，我顺手装了官方 kimi-cli，有几个反常识的发现]] | 9 | Moonshot/[[kimi-cli\|Kimi]] | 国产AI生态 / [[agent-frameworks\|Agent框架]] |
-| [[spacex-600yi-shougou-cursor-mask-de-ai-biancheng-tu\|600 亿美元，马斯克把 Cursor 买回家，这不是 AI 编程的胜利]] | 9 | SpaceX, Cursor, [[elon-musk\|Elon Musk]], xAI, [[anthropic\|Anthropic]], [[openai\|OpenAI]] | [[ai-coding-tools\|AI编程工具]] / [[ai-mergers\|AI行业并购]] |
-| [[meta-lu-yuangong-shubiao-jianpan-xun-lian-ai\|Meta 开始录员工的鼠标和键盘了，AI 训练数据的下一块肉是"你的每一次点击"]] | 9 | [[meta\|Meta]] | [[ai-training-data\|AI训练数据]] / AI隐私 / [[supply-chain-security\|供应链安全]] |
-| [[deezer-mei-tian-44-xin-ge-shi-ai-sheng-cheng\|流媒体每天新歌 44% 是 AI 生成，Deezer 自己承认的，网易云敢说吗]] | 8 | [[deezer\|Deezer]], 网易云音乐, QQ音乐 | [[ai-music\|AI音乐]] / AI+娱乐 / 创作者经济 |
-| [[chatgpt-images-2-hui-dazi-lian-wang-souturcai-huatu\|ChatGPT 画画终于会打字还会联网搜图了，国产这次真的落后了]] | 8 | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], GPT Image 2 | 多模态 / AI画画 / 工具实测 |
-| [[anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike\|Anthropic 这一周炸了四次，Mythos 从神坛滚到阴沟只用了 48 小时]] | 8 | [[anthropic\|Anthropic]], [[mythos\|Mythos]], [[openai\|OpenAI]], [[sam-altman\|Sam Altman]], NSA | [[ai-security\|AI安全]] / 网络攻击模型 / [[supply-chain-security\|供应链安全]] |
-| [[noetik-transformer-95baifen-aizheng-shiyan-pipei-wenti\|95% 癌症临床试验是失败的，Noetik 用 Transformer 说这其实是个匹配问题]] | 8 | [[noetik\|Noetik]], Ron Alfa, Daniel Bear, 百图生科, 晶泰, 英矽智能 | [[ai-medical\|AI+医疗]] / AI+科研 / Transformer应用 |
-| [[finceptterminal-yi-tian-2548-xing-pengbo-zhongduan-kaiyuan-pingti\|一天涨 2548 个 star，这个开源项目想干掉 25000 美元的彭博终端]] | 7 | [[finceptterminal\|FinceptTerminal]], 彭博Bloomberg | [[ai-finance\|AI金融]] / 开源工具 / 金融数据 |
-| [[rag-anything-gangda-hkuds-quan-neng-duomotai-kuangjia\|港大又开源了个全能 RAG：我把公司那堆混合 PDF 扔进去后彻底不想碰 LlamaIndex 了]] | 7 | [[rag-anything\|RAG-Anything]], HKUDS/港大, LightRAG, LlamaIndex | RAG / 多模态 / 开源生态 / 国产AI |
+| [[kimi-k26正式版偷跑-官方kimi-cli几个反常识发现\|Kimi K2.6 正式版今天凌晨偷跑，我顺手装了官方 kimi-cli，有几个反常识的发现]] | 9 | Moonshot/[[kimi-cli\|Kimi]] | 国产AI生态 / [[agent-frameworks\|Agent框架]] |
+| [[马斯克600亿买cursor-不是ai编程的胜利\|600 亿美元，马斯克把 Cursor 买回家，这不是 AI 编程的胜利]] | 9 | SpaceX, Cursor, [[elon-musk\|Elon Musk]], xAI, [[anthropic\|Anthropic]], [[openai\|OpenAI]] | [[ai-coding-tools\|AI编程工具]] / [[ai-mergers\|AI行业并购]] |
+| [[meta录员工鼠标键盘-ai训练数据下一块肉\|Meta 开始录员工的鼠标和键盘了，AI 训练数据的下一块肉是"你的每一次点击"]] | 9 | [[meta\|Meta]] | [[ai-training-data\|AI训练数据]] / AI隐私 / [[supply-chain-security\|供应链安全]] |
+| [[deezer每天44新歌是ai生成-网易云敢说吗\|流媒体每天新歌 44% 是 AI 生成，Deezer 自己承认的，网易云敢说吗]] | 8 | [[deezer\|Deezer]], 网易云音乐, QQ音乐 | [[ai-music\|AI音乐]] / AI+娱乐 / 创作者经济 |
+| [[chatgpt-images-2会打字还联网搜图-国产真的落后了\|ChatGPT 画画终于会打字还会联网搜图了，国产这次真的落后了]] | 8 | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], GPT Image 2 | 多模态 / AI画画 / 工具实测 |
+| [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic 的 Mythos 48 小时内出了四件事，从 NSA 偷用到 Altman 公开嘲讽]] | 8 | [[anthropic\|Anthropic]], [[mythos\|Mythos]], [[openai\|OpenAI]], [[sam-altman\|Sam Altman]], NSA | [[ai-security\|AI安全]] / 网络攻击模型 / [[supply-chain-security\|供应链安全]] |
+| [[noetik用transformer解癌症-95失败率其实是匹配问题\|95% 癌症临床试验是失败的，Noetik 用 Transformer 说这其实是个匹配问题]] | 8 | [[noetik\|Noetik]], Ron Alfa, Daniel Bear, 百图生科, 晶泰, 英矽智能 | [[ai-medical\|AI+医疗]] / AI+科研 / Transformer应用 |
+| [[finceptterminal一天2548星-开源版彭博终端\|一天涨 2548 个 star，这个开源项目想干掉 25000 美元的彭博终端]] | 7 | [[finceptterminal\|FinceptTerminal]], 彭博Bloomberg | [[ai-finance\|AI金融]] / 开源工具 / 金融数据 |
+| [[港大开源全能rag-anything-把llamaindex扔了\|港大又开源了个全能 RAG：我把公司那堆混合 PDF 扔进去后彻底不想碰 LlamaIndex 了]] | 7 | [[rag-anything\|RAG-Anything]], HKUDS/港大, LightRAG, LlamaIndex | RAG / 多模态 / 开源生态 / 国产AI |
 
 ## 2026-04-21（17 篇，分两轮生成）
 

@@ -18,7 +18,7 @@ kimi-cli 的定位是 Kimi K 系列模型在命令行侧的官方载体，直接
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-22 | [[moonshot-kimi-k26-zhengshiban-cli-tongbu-fabu\|Kimi K2.6 正式版偷跑+官方 kimi-cli 反常识点]] | 上手实测+配置差异 |
+| 2026-04-22 | [[kimi-k26正式版偷跑-官方kimi-cli几个反常识发现\|Kimi K2.6 正式版偷跑+官方 kimi-cli 反常识点]] | 上手实测+配置差异 |
 
 ## 相关实体
 

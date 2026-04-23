@@ -15,7 +15,7 @@ Altman 的公开言论常常成为 AI 行业叙事的"锚点"——对 Anthropic
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
-| 2026-04-22 | [[anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike\|Anthropic Mythos 四连炸，Altman 嘲讽 fear-based marketing]] | 8 |
+| 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic Mythos 四连炸，Altman 嘲讽 fear-based marketing]] | 8 |
 
 ## 相关实体
 

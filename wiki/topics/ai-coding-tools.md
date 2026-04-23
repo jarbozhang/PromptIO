@@ -21,7 +21,7 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-22 | [[spacex-600yi-shougou-cursor-mask-de-ai-biancheng-tu\|SpaceX 600 亿美元收购 Cursor]] | [[ai-mergers\|并购]]（非工具评测） |
+| 2026-04-22 | [[马斯克600亿买cursor-不是ai编程的胜利\|SpaceX 600 亿美元收购 Cursor]] | [[ai-mergers\|并购]]（非工具评测） |
 | 2026-04-18 | Codex大更新：桌面控制+图片生成+记忆，OpenAI正面硬刚Claude Code | Codex 功能更新 |
 | 2026-04-18 | Claude Opus 4.7来了：1934赞HN刷屏，但你该升级吗 | 模型升级 |
 | 2026-04-18 | "Tokenmaxxing"：TechCrunch造了个新词，说AI编程正在让开发者变傻 | 行业批评 |

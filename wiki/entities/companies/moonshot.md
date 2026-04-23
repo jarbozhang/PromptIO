@@ -18,7 +18,7 @@ Moonshot AI（月之暗面）是国内头部大模型公司之一，Kimi 智能�
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
-| 2026-04-22 | [[moonshot-kimi-k26-zhengshiban-cli-tongbu-fabu\|Kimi K2.6 正式版今天凌晨偷跑，顺手装了官方 kimi-cli 发现几个反常识点]] | 9 |
+| 2026-04-22 | [[kimi-k26正式版偷跑-官方kimi-cli几个反常识发现\|Kimi K2.6 正式版今天凌晨偷跑，顺手装了官方 kimi-cli 发现几个反常识点]] | 9 |
 | 2026-04-21 | [[kimi-k26-code-preview上线openrouter-国产编码新王牌\|Kimi K2.6-code-preview 登陆 OpenRouter，能打 Claude 吗]] | 9 |
 
 ## 相关主题

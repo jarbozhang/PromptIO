@@ -30,8 +30,8 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
-| 2026-04-22 | [[anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike\|Anthropic 一周四连炸，Mythos 48 小时从神坛滚到阴沟]] | 8 |
-| 2026-04-22 | [[spacex-600yi-shougou-cursor-mask-de-ai-biancheng-tu\|SpaceX 600 亿美元收 Cursor，Claude Code 护城河被挑战]] | 9 |
+| 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic 的 Mythos 48 小时内出了四件事，从 NSA 偷用到 Altman 公开嘲讽]] | 8 |
+| 2026-04-22 | [[马斯克600亿买cursor-不是ai编程的胜利\|SpaceX 600 亿美元收 Cursor，Claude Code 护城河被挑战]] | 9 |
 | 2026-04-21 | [[notebooklm-白嫖google算力-claude省17倍token\|为什么我不再往 Claude 里塞资料，NotebookLM 才是你没用起来的 RAG]] | 9 |
 | 2026-04-21 | [[tradingagents-5wan-xing-kai-yuan-dui-chong-ji-jin\|TradingAgents 5 万星对冲基金架构（Claude 作为后端）]] | 8 |
 | 2026-04-18 | Claude Opus 4.7来了：1934赞HN刷屏，但你该升级吗 | 9 |

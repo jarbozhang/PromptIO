@@ -18,7 +18,7 @@ RAG-Anything 的差异点是面向"真实公司/团队的混合资料场景"—�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
-| 2026-04-22 | [[rag-anything-gangda-hkuds-quan-neng-duomotai-kuangjia\|港大又开源了个全能 RAG：把公司那堆混合 PDF 扔进去后彻底不想碰 LlamaIndex 了]] | 上手体验+对比 LlamaIndex |
+| 2026-04-22 | [[港大开源全能rag-anything-把llamaindex扔了\|港大又开源了个全能 RAG：把公司那堆混合 PDF 扔进去后彻底不想碰 LlamaIndex 了]] | 上手体验+对比 LlamaIndex |
 
 ## 相关实体
 

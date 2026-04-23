@@ -27,9 +27,9 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
-| 2026-04-22 | [[chatgpt-images-2-hui-dazi-lian-wang-souturcai-huatu\|ChatGPT 画画终于会打字还会联网搜图了]] | 8 |
-| 2026-04-22 | [[anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike\|Anthropic Mythos 四连炸，Altman 嘲讽 fear-based marketing]] | 8 |
-| 2026-04-22 | [[spacex-600yi-shougou-cursor-mask-de-ai-biancheng-tu\|SpaceX 600 亿收 Cursor，OpenAI 编程护城河被提及]] | 9 |
+| 2026-04-22 | [[chatgpt-images-2会打字还联网搜图-国产真的落后了\|ChatGPT 画画终于会打字还会联网搜图了]] | 8 |
+| 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic Mythos 四连炸，Altman 嘲讽 fear-based marketing]] | 8 |
+| 2026-04-22 | [[马斯克600亿买cursor-不是ai编程的胜利\|SpaceX 600 亿收 Cursor，OpenAI 编程护城河被提及]] | 9 |
 | 2026-04-21 | [[llm-api-yongjiu-mianfei-qingdan-15jia\|15 家永久免费 LLM API 清单（GPT 系列入选）]] | 9 |
 | 2026-04-21 | [[openai-gpt-rosalind-yi-liao-ai-xia-zhu\|OpenAI 发了个专门搞药的 GPT-Rosalind]] | 8 |
 | 2026-04-21 | [[tradingagents-5wan-xing-kai-yuan-dui-chong-ji-jin\|TradingAgents 对冲基金架构开源（依赖 GPT 调用）]] | 8 |

@@ -1,4 +1,4 @@
-# Anthropic 这一周炸了四次，Mythos 从神坛滚到阴沟只用了 48 小时
+# Anthropic 的 Mythos 48 小时内出了四件事，从 NSA 偷用到 Altman 公开嘲讽
 
 周一早上我还在看 Anthropic 把 Mythos 包装成"网络安全领域的核武器"的融资稿。
 
