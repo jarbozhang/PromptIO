@@ -1,0 +1,22 @@
+title: Last30Days 这个 AI Agent，把 200 美元的 ChatGPT Deep Research 干到了几行命令
+status: draft
+date: 2026-04-23
+reach: 7
+sources:
+  - github-trending-abe94a3f
+tags:
+  - Last30Days
+  - AI Agent
+  - 信息聚合
+  - Deep Research
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l1_replacements: 0
+  issues: []
+  error: ""

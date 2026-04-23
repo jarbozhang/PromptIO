@@ -2,6 +2,15 @@
 
 追加式记录，最新在前。
 
+## [2026-04-23] generate | 8 drafts, REACH>=7
+
+- 新增文章：小米 MiMo-V2.5、Microsoft 12 课 Agent 教程、Pixelle-Video 国产短视频、百度千帆 OCR 免费、Google TPU 挑战 NVIDIA、Raschka 拆 RLVR、Chrome AI Mode、Last30Days Skill
+- 涉及实体：小米/雷军/MiMo（新建）、Microsoft（新建）、百度/千帆（新建）、AIDC-AI/Pixelle-Video（新建）、Sebastian Raschka（新建）、Last30Days Skill（新建）、Chrome（新建产品页）；Google/OpenAI 追加
+- 主题饱和变化：多模态 5→7、Agent 框架 10→12、国产 AI 5→7、AI+教育 1→2、AI 硬件 3→4、AI 研究 1→2；首次覆盖 AI 视频 / OCR / AI 搜索
+- 新建页面：entities/companies/xiaomi.md, microsoft.md, baidu.md, aidc-ai.md; entities/people/lei-jun.md, sebastian-raschka.md; entities/products/mimo.md, qianfan.md, pixelle-video.md, last30days-skill.md, chrome.md; topics/ai-video.md, ocr.md, ai-hardware.md, ai-research.md, ai-search.md
+- 更新 wiki: article-registry（4/23 8 篇节 + 总篇数 126）、topic-saturation、log、index、google/openai 实体页、multimodal/agent-frameworks/ai-pricing/ai-education 主题页
+- X 抓取跳过（cookies 失效）
+
 ## [2026-04-22] generate | 9 drafts, REACH>=7
 
 - 新增文章：Kimi K2.6+CLI、SpaceX 600亿 Cursor、Meta 录键鼠、Deezer 44% AI 歌、ChatGPT Images 2.0、Mythos 四连炸、Noetik 癌症、FinceptTerminal、RAG-Anything

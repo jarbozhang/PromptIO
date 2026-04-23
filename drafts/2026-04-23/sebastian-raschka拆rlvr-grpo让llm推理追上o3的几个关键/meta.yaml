@@ -1,0 +1,23 @@
+title: Sebastian Raschka 拆 RLVR + GRPO，让 LLM 推理追上 o3 的几个关键拼图
+status: draft
+date: 2026-04-23
+reach: 8
+sources:
+  - sebastian-raschka-c3a7bc05
+tags:
+  - Sebastian Raschka
+  - GRPO
+  - 强化学习
+  - 推理模型
+  - AI研究
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l1_replacements: 0
+  issues: []
+  error: ""

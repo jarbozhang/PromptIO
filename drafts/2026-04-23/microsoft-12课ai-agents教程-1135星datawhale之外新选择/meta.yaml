@@ -1,0 +1,22 @@
+title: Microsoft 这套 12 课 AI Agents 教程一天涨 1135 星，国内 Datawhale 之外又多一个选择
+status: draft
+date: 2026-04-23
+reach: 9
+sources:
+  - github-trending-5f93b287
+tags:
+  - Microsoft
+  - AI Agent
+  - 开源教程
+  - AI+教育
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

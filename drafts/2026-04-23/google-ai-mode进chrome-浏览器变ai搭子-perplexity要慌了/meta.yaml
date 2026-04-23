@@ -1,0 +1,22 @@
+title: Google 把 AI Mode 塞进 Chrome 了，Perplexity 这次真的该慌
+status: draft
+date: 2026-04-23
+reach: 8
+sources:
+  - google-ai-blog-35335b85
+tags:
+  - Google
+  - Chrome
+  - AI搜索
+  - 浏览器AI
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

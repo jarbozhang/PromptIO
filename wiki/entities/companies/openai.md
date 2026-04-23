@@ -11,6 +11,7 @@
 
 ## 近期动态
 
+- **Deep Research 200 美元订阅被开源 Skill 平替** (2026-04-23) — [[last30days-skill|Last30Days Skill]] 几行命令完成跨 Reddit/X/HN 研报，对 ChatGPT Deep Research 的付费心智构成挑战
 - **ChatGPT Images 2.0 新增打字+联网搜图** (2026-04-22) — ChatGPT 画画支持准确渲染文字与实时联网取图素材，GPT Image 2 同步登陆 OpenRouter
 - **Sam Altman 嘲讽 Anthropic Mythos 为 fear-based marketing** (2026-04-22) — Mythos 一周四连炸期间，Altman 公开发声唱反调
 - **GPT-Rosalind 医疗 AI 模型发布** (2026-04-21) — 专用于药物发现/医疗推理的 GPT 变体，对标百图生科/晶泰/英矽智能
@@ -27,6 +28,7 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-23 | [[last30days-skill-跨reddit-x-hn自动出研报-200美元deep-research平替\|Last30Days Skill 平替 200 美元 Deep Research]] | 7 |
 | 2026-04-22 | [[chatgpt-images-2会打字还联网搜图-国产真的落后了\|ChatGPT 画画终于会打字还会联网搜图了]] | 8 |
 | 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic Mythos 四连炸，Altman 嘲讽 fear-based marketing]] | 8 |
 | 2026-04-22 | [[马斯克600亿买cursor-不是ai编程的胜利\|SpaceX 600 亿收 Cursor，OpenAI 编程护城河被提及]] | 9 |
@@ -48,4 +50,4 @@
 
 ## 注意
 
-OpenAI 是覆盖最频繁的实体（18 篇/15 天）。2026-04-22 新增 3 个直接/间接角度（ChatGPT Images 2.0、Mythos 四连炸中 Altman 嘲讽、SpaceX/Cursor 并购涉及）。短期内 OpenAI 选题必须严格降权，除非出现 Codex 范式级更新或 OpenAI 自己的重大并购/融资动作。
+OpenAI 是覆盖最频繁的实体（19 篇/16 天）。2026-04-23 间接 +1（Last30Days Skill 把 Deep Research 200 美元订阅打成开源平替）。短期内 OpenAI 选题必须严格降权，除非出现 Codex 范式级更新或 OpenAI 自己的重大并购/融资动作。

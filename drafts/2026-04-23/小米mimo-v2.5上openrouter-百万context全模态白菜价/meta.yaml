@@ -1,0 +1,23 @@
+title: 小米 MiMo-V2.5 偷偷上了 OpenRouter，1M context 全模态，输入 0.4 美元每百万 token
+status: draft
+date: 2026-04-23
+reach: 9
+sources:
+  - openrouter-new-model-7e78382f
+  - openrouter-new-model-7dd22aa1
+tags:
+  - 小米
+  - MiMo
+  - 国产AI
+  - 多模态
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""

@@ -17,6 +17,7 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-23 | [[百度千帆ocr-fast免费上openrouter-发票合同截图白嫖\|百度千帆 OCR 居然免费扔到 OpenRouter 上了]] | 免费 OCR 白嫖 |
 | 2026-04-21 | [[notebooklm-白嫖google算力-claude省17倍token\|NotebookLM 代替 Claude 做 RAG，省 17 倍 Token]] | RAG 架构省钱 |
 | 2026-04-21 | [[llm-api-yongjiu-mianfei-qingdan-15jia\|15 家"永久免费"LLM API 清单，只有 6 家真能长期当饭吃]] | 免费 API 盘点 |
 | 2026-04-18 | 有人测了Claude 4.7新tokenizer的真实成本，545赞HN炸了 | tokenizer 成本分析 |
@@ -27,4 +28,4 @@
 
 ## 饱和度评估
 
-**严重高饱和** — 7 篇/14 天。4/21 第二轮 +2 篇（NotebookLM 省 Token、免费 API 清单），角度是"架构省钱"和"盘点免费资源"，算新角度但主题整体已超阈值。暂停此主题至少 5 天。
+**严重高饱和** — 10 篇/16 天。4/23 +1 篇（百度 Qianfan-OCR-Fast 免费上 OpenRouter，归入免费 AI 角度）。本主题已多次提示需暂停，但当国产厂商主动放免费/打骨折仍可酌情纳入。下一轮选题应严格避开纯订阅/折扣类盘点。

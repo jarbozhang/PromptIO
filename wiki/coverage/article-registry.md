@@ -2,6 +2,19 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-23（8 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| [[小米mimo-v2.5上openrouter-百万context全模态白菜价\|小米 MiMo-V2.5 偷偷上了 OpenRouter，1M context 全模态]] | 9 | [[xiaomi\|小米]], [[lei-jun\|雷军]], [[mimo\|MiMo]], OpenRouter | 国产AI生态 / [[multimodal\|多模态]] / [[ai-pricing\|AI 定价]] |
+| [[microsoft-12课ai-agents教程-1135星datawhale之外新选择\|Microsoft 12 课 AI Agents 教程一天涨 1135 星]] | 9 | [[microsoft\|Microsoft]], Datawhale, HuggingFace | [[agent-frameworks\|Agent 框架]] / [[ai-education\|AI+教育]] / 开源教程 |
+| [[pixelle-video国产ai短视频引擎-一夜308星\|Pixelle-Video 一夜涨 308 星，国产 AI 全自动短视频引擎]] | 8 | [[aidc-ai\|AIDC-AI]], [[pixelle-video\|Pixelle-Video]], HeyGen, 剪映 | [[ai-video\|AI 视频]] / 国产AI生态 / 创作者经济 |
+| [[百度千帆ocr-fast免费上openrouter-发票合同截图白嫖\|百度千帆 OCR 居然免费扔到 OpenRouter 上了]] | 8 | [[baidu\|百度]], [[qianfan\|千帆]], OpenRouter | 国产AI生态 / [[ocr\|OCR]] / 免费 AI / [[multimodal\|多模态]] |
+| [[google两款tpu挑战nvidia-gemini不用付英伟达税了\|Google 一口气甩出两款 TPU，3 倍速度 80% 性价比]] | 8 | [[google\|Google]], NVIDIA, Google Cloud, 华为昇腾 | [[ai-hardware\|AI 硬件]] / 行业格局 |
+| [[sebastian-raschka拆rlvr-grpo让llm推理追上o3的几个关键\|Sebastian Raschka 拆 RLVR + GRPO]] | 8 | [[sebastian-raschka\|Sebastian Raschka]], [[deepseek\|DeepSeek]], [[openai\|OpenAI]] | [[ai-research\|AI 研究]] / 强化学习 / 推理模型 |
+| [[google-ai-mode进chrome-浏览器变ai搭子-perplexity要慌了\|Google 把 AI Mode 塞进 Chrome 了，Perplexity 这次真的该慌]] | 8 | [[google\|Google]], [[chrome\|Chrome]], Perplexity, 夸克 | [[ai-search\|AI 搜索]] / 浏览器 AI |
+| [[last30days-skill-跨reddit-x-hn自动出研报-200美元deep-research平替\|Last30Days 这个 AI Agent 把 200 美元 Deep Research 干到了几行命令]] | 7 | [[last30days-skill\|Last30Days Skill]], Perplexity, [[openai\|OpenAI]]/[[chatgpt\|ChatGPT]], TrendRadar | [[agent-frameworks\|Agent 框架]] / 信息聚合 / 自动化研报 |
+
 ## 2026-04-22（9 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |

@@ -1,0 +1,22 @@
+title: Google一口气甩出两款TPU，3倍速度80%性价比，Gemini越用越便宜不是没道理
+status: draft
+date: 2026-04-23
+reach: 8
+sources:
+  - techcrunch-ai-8c84cde7
+tags:
+  - Google
+  - NVIDIA
+  - TPU
+  - AI芯片
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ""

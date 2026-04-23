@@ -1,5 +1,13 @@
 {
   "models": {
+    "xiaomi/mimo-v2.5-pro": {
+      "name": "Xiaomi: MiMo-V2.5-Pro",
+      "context_length": 1048576
+    },
+    "xiaomi/mimo-v2.5": {
+      "name": "Xiaomi: MiMo-V2.5",
+      "context_length": 1048576
+    },
     "openai/gpt-5.4-image-2": {
       "name": "OpenAI: GPT-5.4 Image 2",
       "context_length": 272000
@@ -15,6 +23,10 @@
     "openrouter/pareto-code": {
       "name": "Pareto Code Router",
       "context_length": 200000
+    },
+    "baidu/qianfan-ocr-fast:free": {
+      "name": "Baidu: Qianfan-OCR-Fast (free)",
+      "context_length": 65536
     },
     "moonshotai/kimi-k2.6": {
       "name": "MoonshotAI: Kimi K2.6",
@@ -236,8 +248,8 @@
       "name": "StepFun: Step 3.5 Flash",
       "context_length": 262144
     },
-    "arcee-ai/trinity-large-preview:free": {
-      "name": "Arcee AI: Trinity Large Preview (free)",
+    "arcee-ai/trinity-large-preview": {
+      "name": "Arcee AI: Trinity Large Preview",
       "context_length": 131000
     },
     "moonshotai/kimi-k2.5": {
@@ -411,10 +423,6 @@
     "x-ai/grok-4.1-fast": {
       "name": "xAI: Grok 4.1 Fast",
       "context_length": 2000000
-    },
-    "deepcogito/cogito-v2.1-671b": {
-      "name": "Deep Cogito: Cogito v2.1 671B",
-      "context_length": 128000
     },
     "openai/gpt-5.1": {
       "name": "OpenAI: GPT-5.1",
@@ -722,7 +730,7 @@
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "context_length": 262144
+      "context_length": 131072
     },
     "z-ai/glm-4-32b": {
       "name": "Z.ai: GLM 4 32B ",
@@ -1385,5 +1393,5 @@
       "context_length": 16385
     }
   },
-  "updated_at": "2026-04-22T08:16:44.560Z"
+  "updated_at": "2026-04-23T02:32:02.299Z"
 }

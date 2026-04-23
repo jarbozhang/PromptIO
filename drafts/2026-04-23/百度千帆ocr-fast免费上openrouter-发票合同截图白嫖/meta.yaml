@@ -1,0 +1,23 @@
+title: 百度千帆 OCR 居然免费扔到 OpenRouter 上了，我拿一张皱巴巴的报销发票试了试
+status: draft
+date: 2026-04-23
+reach: 8
+sources:
+  - openrouter-new-model-996ca60c
+tags:
+  - 百度
+  - 千帆
+  - OCR
+  - 国产AI
+  - 免费AI
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ""
