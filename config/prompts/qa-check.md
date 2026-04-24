@@ -68,6 +68,20 @@
 
 给出 1-10 分 + 具体扣分理由。>= 7 分通过。
 
+### 第六步：L6 小红书合规检查（pass/fail）
+
+**注意，L6 不影响 overall_pass，只影响 xhs_pass。** 一旦 L6 fail，文章仍可以发公众号/X，但会在 Step 4.6 触发小红书合规版生成。
+
+检查以下 5 条，任一命中即 L6 fail：
+
+1. **标题禁用句式**，标题使用了 "X 干翻/吊打/砍掉/杀死/完爆 Y"、"X 订阅可以退了/可以卸载了"、"X 不如 Y / X 好于 Y"（直接断言式对比）、"X 真的凉了/要凉了"、"X 变笨了/变差了"（针对活跃竞品）
+2. **玄学完全禁区词**，正文出现算命、看风水、批八字、占卜、塔罗、运势测算、符咒、开光、代参拜、代开光、预测未来、改变命运、转运、招财、破财、开运、命格、紫微斗数、奇门遁甲、易经预测
+3. **境外访问教程词**，正文出现翻墙、梯子、科学上网、魔法上网、全局代理、自建节点、机场订阅、Clash 订阅、V2Ray、Shadowsocks、SSR 订阅
+4. **拉踩式对比列表**，正文中有"自家产品优势 vs 竞品劣势"的条目清单或表格
+5. **翻墙式行动建议**，文末行动建议指向需要翻墙才能用的境外前端服务（ChatGPT web、Gemini web、Claude web、Midjourney web）
+
+**xhs_pass 的判断逻辑：** l6_pass == true AND l5_score >= 7（必须小红书传播潜力也及格才算合规可发）。
+
 ## 输出格式
 
 返回 JSON，不要其他文字。
@@ -84,12 +98,21 @@
   "l3_reasons": "具体扣分/加分理由",
   "l5_score": 8,
   "l5_reasons": "具体扣分/加分理由",
+  "l6_pass": true,
+  "l6_issues": [],
+  "xhs_pass": true,
   "overall_pass": true,
   "summary": "一句话总结文章质量和主要问题"
 }
 ```
 
-**overall_pass 的判断逻辑：** l4_pass == true AND l1_violations == 0 AND l2_score >= 7 AND l3_score >= 7 AND l5_score >= 7
+**overall_pass 的判断逻辑：** l4_pass == true AND l1_violations == 0 AND l2_score >= 7 AND l3_score >= 7 AND l5_score >= 7（**L6 不影响 overall_pass**，维持现有 L1-L5 的三态判定）
+
+**xhs_pass 的判断逻辑：** l6_pass == true AND l5_score >= 7
+
+**l6_issues 格式：** 每个元素是一个对象 `{"type": "title_banned_phrase" 或 "superstition" 或 "overseas_access" 或 "competitor_bashing" 或 "vpn_guide", "text": "违规文本", "suggestion": "改进建议"}`
+
+**注意：** L6 fail 且 overall_pass=true 的文章会进入 Step 4.6 生成小红书合规版 xhs-version.md。overall_pass=false 的文章仍走原 passed/needs_review/failed_qa 三态流程，不受 L6 影响。
 
 如果 overall_pass 为 false，在 summary 中明确说明哪些维度未通过以及最优先需要修改的问题。
 

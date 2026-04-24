@@ -9,7 +9,7 @@ Your core value proposition: surface **practical, hands-on content** that Chines
 1. **AI 工具实测/省钱攻略** — 免费 Key、白嫖方案、国产模型横评、工具对比
 2. **AI 变现/赚钱实操** — 闲鱼/小红书/淘宝自动化、独立开发者案例、月入过万路径
 3. **国产 AI 生态深度** — DeepSeek/豆包/Kimi/元宝的功能发现、隐藏技巧、版本解读
-4. **AI+中国特色场景** — 微信生态 AI 集成、AI 玄学、AI+电商、AI+教育
+4. **AI+中国特色场景** — 微信生态 AI 集成、AI+电商、AI+教育
 
 ## Scoring Dimensions (1-10 scale)
 
@@ -49,6 +49,27 @@ REACH 分数基于以下三要素评估：
 - 深度技术对比/论文拆解，标题用技术术语（"p95 延迟""754B 参数"）
 - 纯融资新闻/人事变动
 
+## Hard Exclusions（强制排除，直接跳过）
+
+以下任一条命中即**不要**把这个选题放进输出 JSON。不要打分、不要降权、直接排除：
+
+1. **封建迷信类**，标题或源摘要中出现算命、看风水、批八字、占卜、塔罗、运势测算、符咒、开光、代参拜、代开光、预测未来、改变命运、转运、招财、破财、开运、紫微斗数、奇门遁甲、易经预测、命格
+2. **境外软件访问教程类**，主旨是"如何翻墙使用 X""境外软件国内怎么登录""梯子/机场/科学上网/Clash/V2Ray/Shadowsocks 配置"等
+3. **标题纯拉踩类**，句式是"X 干翻/吊打/砍掉/杀死/完爆 Y""X 订阅可以退了/可以卸载了""X 真的凉了""X 变笨了"（针对活跃在运营的竞品品牌）
+4. **境外工具操作教程类**，主旨是教读者注册/登录/使用 ChatGPT web、Gemini web、Claude web、Midjourney web 等国内无法直接访问的前端服务（API 通过 OpenRouter/镜像可讲）
+
+实现提示，Node 端可先调用 `scripts/lib/l1-replace.js` 的 `checkCompliance(title + source_摘要)`，如果返回 `skip=true` 直接排除。
+
+## REACH Penalties（降权 -2）
+
+以下情况不强制排除，但 REACH 分要在正常计算基础上 -2：
+
+1. **评测对比类**，同一篇文章涉及 2 个或以上在运营竞品的优劣对比（如 "X 和 Y 哪个更好"）
+2. **"X 是 Y 平替"句式**，即使 Y 已经过气
+3. **贬损竞品服务的标题**，如 "X 订阅可以退了""X 可以卸载了""X 真的没必要买"
+
+降权后若 REACH < 7，按正常门槛排除。
+
 ## 源材料厚度门槛
 
 - 每个选题至少需要 2-3 个互相印证的源，或一个信息量充足的长文/博客/论文作为主源
@@ -83,6 +104,8 @@ Return a JSON array:
 
 ## Selection rules
 
+- **Before scoring**, run Hard Exclusions check on every candidate. If any rule matches the title or source summary, skip this topic entirely (do not include in output JSON).
+- **After scoring**, apply REACH Penalties before the REACH >= 7 gate.
 - Only include articles with REACH >= 7 (at least 2 of 3 REACH elements satisfied)
 - **TOP PRIORITY**: free tools/APIs, cost-saving hacks, step-by-step tutorials, "how I built X" stories, side-project monetization cases
 - **GOOD**: open-source tools with working code, developer experience reports, benchmark comparisons, Chinese-native AI tool deep dives

@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { l1Replace } from '../scripts/lib/l1-replace.js';
+import { l1Replace, checkCompliance, applyCompliance } from '../scripts/lib/l1-replace.js';
 
 describe('l1Replace — forbidden words (L1-1)', () => {
   it('replaces "说白了" with "坦率讲"', () => {
@@ -108,5 +108,135 @@ describe('l1Replace — code block protection', () => {
     assert.ok(text.startsWith('正文，'));
     // code block colon preserved
     assert.ok(text.includes('标题：测试'));
+  });
+});
+
+describe('checkCompliance — SKIP_PATTERNS (Layer 1)', () => {
+  it('flags "算命" as skip', () => {
+    const { skip, reasons } = checkCompliance('今天聊聊赛博算命 Skill');
+    assert.equal(skip, true);
+    assert.ok(reasons.some(r => r.layer === 'skip' && r.pattern === '算命'));
+  });
+
+  it('flags "批八字" as skip', () => {
+    const { skip, reasons } = checkCompliance('7 个 AI 玄学 Skills 批八字');
+    assert.equal(skip, true);
+    assert.ok(reasons.some(r => r.pattern === '批八字'));
+  });
+
+  it('returns skip=false for clean title', () => {
+    const { skip, reasons } = checkCompliance('DeepSeek V4 今天发布，1.6T MoE 模型上线');
+    assert.equal(skip, false);
+    assert.equal(reasons.length, 0);
+  });
+});
+
+describe('checkCompliance — COMPLIANCE_DELETE reporting', () => {
+  it('reports "翻墙" without setting skip', () => {
+    const { skip, reasons } = checkCompliance('需要翻墙才能访问');
+    assert.equal(skip, false);
+    assert.ok(reasons.some(r => r.layer === 'compliance_delete' && r.pattern === '翻墙'));
+  });
+
+  it('reports "Clash 订阅" without setting skip', () => {
+    const { skip, reasons } = checkCompliance('配置 Clash 订阅就能用');
+    assert.equal(skip, false);
+    assert.ok(reasons.some(r => r.pattern === 'Clash 订阅'));
+  });
+});
+
+describe('checkCompliance — RHETORIC_SOFTEN reporting', () => {
+  it('reports "干翻" without setting skip', () => {
+    const { skip, reasons } = checkCompliance('这玩意干翻了 Claude');
+    assert.equal(skip, false);
+    assert.ok(reasons.some(r => r.layer === 'rhetoric_soften' && r.pattern === '干翻'));
+  });
+
+  it('reports "订阅可以退了" without setting skip', () => {
+    const { skip, reasons } = checkCompliance('Midjourney 订阅可以退了');
+    assert.equal(skip, false);
+    assert.ok(reasons.some(r => r.pattern === '订阅可以退了'));
+  });
+});
+
+describe('checkCompliance — code block protection', () => {
+  it('does not flag SKIP_PATTERNS inside fenced code blocks', () => {
+    const input = '```\n算命\n```';
+    const { skip, reasons } = checkCompliance(input);
+    assert.equal(skip, false);
+    assert.equal(reasons.length, 0);
+  });
+
+  it('handles empty input', () => {
+    const { skip, reasons } = checkCompliance('');
+    assert.equal(skip, false);
+    assert.equal(reasons.length, 0);
+  });
+});
+
+describe('applyCompliance — COMPLIANCE_DELETE (Layer 2)', () => {
+  it('deletes "翻墙" from text', () => {
+    const { text, replacements } = applyCompliance('教你翻墙访问');
+    assert.ok(!text.includes('翻墙'));
+    assert.ok(replacements.some(r => r.from === '翻墙' && r.to === '(deleted)'));
+  });
+
+  it('deletes "Clash 订阅"', () => {
+    const { text } = applyCompliance('用 Clash 订阅就好');
+    assert.ok(!text.includes('Clash 订阅'));
+  });
+});
+
+describe('applyCompliance — RHETORIC_SOFTEN (Layer 3)', () => {
+  it('softens "干翻" to "追上"', () => {
+    const { text, replacements } = applyCompliance('这玩意干翻了 Claude');
+    assert.ok(!text.includes('干翻'));
+    assert.ok(text.includes('追上'));
+    assert.ok(replacements.some(r => r.from === '干翻' && r.to === '追上'));
+  });
+
+  it('softens "订阅可以退了" to "开源方案来了"', () => {
+    const { text } = applyCompliance('Midjourney 订阅可以退了');
+    assert.ok(!text.includes('订阅可以退了'));
+    assert.ok(text.includes('开源方案来了'));
+  });
+
+  it('softens "变笨了" to "有用户反馈变化"', () => {
+    const { text } = applyCompliance('Claude Code 变笨了');
+    assert.ok(!text.includes('变笨了'));
+    assert.ok(text.includes('有用户反馈变化'));
+  });
+});
+
+describe('applyCompliance — code block protection', () => {
+  it('does not modify content inside fenced code blocks', () => {
+    const input = '正文变笨了\n\n```\n变笨了 inside code\n```';
+    const { text } = applyCompliance(input);
+    assert.ok(text.includes('```\n变笨了 inside code\n```'));
+    assert.ok(!text.startsWith('变笨了'));
+  });
+
+  it('returns empty result for empty input', () => {
+    const { text, replacements } = applyCompliance('');
+    assert.equal(text, '');
+    assert.equal(replacements.length, 0);
+  });
+});
+
+describe('backward compatibility (R9)', () => {
+  it('l1Replace does not touch Layer 2/3 compliance words', () => {
+    // Compliance words should pass through l1Replace untouched
+    // (l1Replace only handles L1-1 writing style words)
+    const { text } = l1Replace('这玩意干翻了 Claude，需要翻墙');
+    assert.ok(text.includes('干翻'));
+    assert.ok(text.includes('翻墙'));
+  });
+
+  it('l1Replace still handles L1-1 words when mixed with compliance words', () => {
+    const { text } = l1Replace('说白了这玩意干翻了 Claude');
+    assert.ok(!text.includes('说白了'));
+    assert.ok(text.includes('坦率讲'));
+    // 干翻 stays (compliance layer not in l1Replace scope)
+    assert.ok(text.includes('干翻'));
   });
 });

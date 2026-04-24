@@ -66,7 +66,7 @@ npm test            # 运行测试
 - AI 工具实测/省钱攻略（免费 Key、白嫖方案、横评对比）
 - AI 变现/赚钱实操（闲鱼/小红书/淘宝自动化、独立开发者案例）
 - 国产 AI 生态深度（DeepSeek/豆包/Kimi/元宝的功能发现）
-- AI+中国特色场景（微信生态 AI、AI 玄学、AI+电商）
+- AI+中国特色场景（微信生态 AI、AI+电商、AI+教育）
 
 文章结构：
 1. 为什么你应该关注这件事（hook）
@@ -77,6 +77,16 @@ npm test            # 运行测试
 
 选题评分：actionability 35% + novelty 25% + reach 25% + depth_potential 15%
 选题门槛：REACH >= 7（品牌认知 + 利益点 + 可操作，至少满足 2 个）
+
+### 平台合规底线
+
+3 次违规已导致小红书账号警告。三类高风险品类必须在**选题阶段**拦截，不能等写作完再治理：
+
+- **封建迷信**（算命/风水/八字/占卜/运势）→ 选题门 `checkCompliance()` 自动 skip
+- **境外软件访问教程**（翻墙/梯子/Clash/ChatGPT web 注册）→ 选题门 skip，写作层禁用词
+- **纯拉踩标题**（X 干翻/吊打/订阅可以退了/变笨了）→ 选题门 skip，写作层禁用句式
+
+QA 新增 L6 小红书合规维度（不影响 overall_pass，只影响 xhs_pass）。高 REACH 或 L6 fail 的文章在 Step 4.6 自动生成 `xhs-version.md` 合规版本。详见 `docs/brainstorms/2026-04-24-xhs-compliance-requirements.md` 和 `config/prompts/scoring.md` 的 Hard Exclusions。
 
 ## Skill routing
 

@@ -144,11 +144,24 @@ bird home --following -n 50 --json  # Following 关注流
 
 **公式：** `score = actionability * 0.35 + novelty * 0.25 + reach * 0.25 + depth_potential * 0.15`
 
+**合规前置检查（强制）：** 对每个候选选题，用 Bash 调用 `scripts/lib/l1-replace.js` 的 `checkCompliance(title + source 摘要)`：
+
+```bash
+node -e "
+import { checkCompliance } from './scripts/lib/l1-replace.js';
+const input = '候选标题 + source 摘要前 200 字';
+const { skip, reasons } = checkCompliance(input);
+console.log(JSON.stringify({ skip, reasons }));
+"
+```
+
+`skip=true` 的直接排除不评分；`skip=false` 但 `reasons` 有 `compliance_delete` 或 `rhetoric_soften` 命中的，正常评分但要在评分理由里标出"REACH -2"。详见 `config/prompts/scoring.md` 的 Hard Exclusions 和 REACH Penalties。
+
 **内容方向（四个方向，无固定配比）：**
 - AI 工具实测/省钱攻略（免费 Key、白嫖方案、横评对比）
 - AI 变现/赚钱实操（闲鱼/小红书/淘宝自动化、独立开发者案例）
 - 国产 AI 生态深度（DeepSeek/豆包/Kimi/元宝的功能发现）
-- AI+中国特色场景（微信生态 AI、AI 玄学、AI+电商）
+- AI+中国特色场景（微信生态 AI、AI+电商、AI+教育）
 
 **选题数量：不固定，质量优先。** 只选 REACH >= 7 的选题，目标 10-20 篇。
 
@@ -321,16 +334,83 @@ qa:
   l3_score: 7
   l4_pass: true
   l5_score: 8
+  l6_pass: true           # L6 小红书合规（不影响 overall_pass）
+  l6_issues: []           # L6 fail 时记录违规类型和建议
+  xhs_pass: true          # l6_pass && l5_score >= 7
   l1_replacements: 3      # Step 4.5a 的机械替换次数
   issues: []              # needs_review 时填写
   error: ""               # failed_qa 时填写
+platforms:
+  wechat: primary         # primary | blocked
+  xhs: primary            # primary | compliant | blocked（缺失时按 blocked 处理）
+  x: primary              # primary | blocked
+xhs_blocked_reason: ""    # 可选，仅 platforms.xhs=blocked 时填写
 ```
+
+**platforms 字段语义和默认值：**
+- `wechat.primary` 主版本（主 slug.md）直接发公众号
+- `xhs.primary` 主版本直接发小红书（低风险文章）
+- `xhs.compliant` 主版本不发小红书，派生版 `xhs-version.md` 发（触发 Step 4.6）
+- `xhs.blocked` 不发小红书（含玄学或其它强制排除情况）
+- **向后兼容**：读取 meta.yaml 时，如 `platforms` 或 `platforms.xhs` 字段不存在，按 `xhs: blocked` 处理（保守兜底，历史 drafts 不会被误发）
 
 **所有文章质检完成后，汇报质检结果：**
 - 通过的文章数 / 总数
 - 需要人工审核的文章列表（如有）
 - 平均质修轮次
 - L1 机械替换总次数
+- L6 fail 的文章列表（将进入 Step 4.6）
+
+然后继续 Step 4.6（小红书合规版生成）。
+
+### Step 4.6: 小红书合规版生成（条件触发）
+
+**触发条件（对每篇 QA 通过的文章判断）：**
+
+```
+generate_xhs = (qa.overall_pass === true) AND (qa.l6_pass === false OR reach >= 8)
+```
+
+- L6 fail 的必须生成（正文有平台违规）
+- REACH >= 8 的高价值文章主动生成合规版（扩大小红书分发）
+- 两个条件都不满足的文章，主版本可以直接发小红书，写 `platforms.xhs: primary`
+
+**生成流程：**
+
+对每篇符合条件的文章启动 xhs-compliant 子代理（Agent tool, mode: bypassPermissions），传入：
+
+1. **System prompt**：读取 `config/prompts/xhs-compliant.md` 的完整内容
+2. **原文 markdown**：读 `drafts/{date}/{slug}/{slug}.md`（L1 替换后的主版本）
+3. **l6_issues**：从 meta.yaml.qa.l6_issues 里取出，作为明确的违规点清单
+
+**子代理返回判断：**
+
+- 返回以 `cannot_comply:` 开头的字符串 → 文章含玄学禁区词，无法合规
+  - `meta.yaml.platforms.xhs = 'blocked'`
+  - `meta.yaml.xhs_blocked_reason = cannot_comply 后面的原因`
+  - 不生成 xhs-version.md
+- 返回完整合规 markdown → 正常转写
+  - 写入 `drafts/{date}/{slug}/xhs-version.md`
+  - `meta.yaml.platforms.xhs = 'compliant'`
+- 子代理异常超时或 JSON 不可解析 → soft-fail
+  - `meta.yaml.platforms.xhs = 'blocked'`
+  - `meta.yaml.xhs_blocked_reason = 'xhs_generation_error'`
+  - 记日志，不阻塞后续 Step 5
+
+**对不触发条件的文章，也要写入 platforms 字段：**
+
+```yaml
+platforms:
+  wechat: primary
+  xhs: primary    # 低 REACH 且 L6 pass，主版本可直接发小红书
+  x: primary
+```
+
+**所有文章处理完成后，汇报：**
+- xhs.primary 数量（低风险直接发）
+- xhs.compliant 数量（生成了合规版）
+- xhs.blocked 数量（玄学/合规生成失败）
+- 生成的 xhs-version.md 文件列表
 
 然后继续 Step 5（Wiki 更新）。
 
