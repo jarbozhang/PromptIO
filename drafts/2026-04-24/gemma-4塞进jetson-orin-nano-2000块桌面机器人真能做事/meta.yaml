@@ -26,3 +26,10 @@ qa:
   l1_replacements: 0
   issues: []
   error: ''
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

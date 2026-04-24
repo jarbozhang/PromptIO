@@ -22,3 +22,16 @@ qa:
   l1_replacements: 0
   issues: []
   error: ''
+  l6_pass: false
+  l6_issues:
+    - type: title_banned_phrase
+      text: 变笨了
+      suggestion: 改为中性描述
+    - type: competitor_bashing
+      text: 用户都在骂 Claude Code 变笨了
+      suggestion: 去掉拉踩情绪
+  xhs_pass: false
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

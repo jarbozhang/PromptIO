@@ -21,3 +21,16 @@ qa:
   l1_replacements: 0
   issues: []
   error: ''
+  l6_pass: false
+  l6_issues:
+    - type: title_banned_phrase
+      text: 订阅可以退了
+      suggestion: 改为中性描述
+    - type: competitor_bashing
+      text: Midjourney 订阅可以退了
+      suggestion: 去掉拉踩情绪
+  xhs_pass: false
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
