@@ -1,0 +1,10 @@
+---
+title: GPT-5.5 System Card
+url: 'https://openai.com/index/gpt-5-5-system-card'
+source: OpenAI Blog
+source_type: rss
+language: en
+published: '2026-04-23T11:00:00.000Z'
+fetched_at: '2026-04-24T02:59:54.881Z'
+---
+

@@ -1,0 +1,25 @@
+---
+title: >-
+  A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with
+  Diffusion Models
+url: 'https://arxiv.org/abs/2604.21903v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Max Defez
+  - Filippo Quarenghi
+  - Mathieu Vrac
+  - Stephan Mandt
+  - Tom Beucler
+categories:
+  - cs.LG
+  - cs.AI
+  - cs.LG
+published: '2026-04-23T17:49:16Z'
+fetched_at: '2026-04-24T03:00:18.073Z'
+---
+Deep-learning video super-resolution has progressed rapidly, but climate applications typically super-resolve (increase resolution) either space or time, and joint spatiotemporal models are often designed for a single pair of super-resolution (SR) factors (upscaling spatial and temporal ratio between the low-resolution sequence and the high-resolution sequence), limiting transfer across spatial resolutions and temporal cadences (frame rates). We present a scale-adaptive framework that reuses the same architecture across factors by decomposing spatiotemporal SR into a deterministic prediction of the conditional mean, with attention, and a residual conditional diffusion model, with an optional mass-conservation (same precipitation amount in inputs and outputs) transform to preserve aggregated totals. Assuming that larger SR factors primarily increase underdetermination (hence required context and residual uncertainty) rather than changing the conditional-mean structure, scale adaptivity is achieved by retuning three factor-dependent hyperparameters before retraining: the diffusion noise schedule amplitude beta (larger for larger factors to increase diversity), the temporal context length L (set to maintain comparable attention horizons across cadences) and optionally a third, the mass-conservation function f (tapered to limit the amplification of extremes for large factors). Demonstrated on reanalysis precipitation over France (Comephore), the same architecture spans super-reso
+
+Authors: Max Defez, Filippo Quarenghi, Mathieu Vrac, Stephan Mandt, Tom Beucler
+Categories: cs.LG, cs.AI, cs.LG
