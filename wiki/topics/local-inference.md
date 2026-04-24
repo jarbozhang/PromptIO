@@ -17,6 +17,9 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 | 日期 | 文章 | 具体角度 |
 |------|------|---------|
+| 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 Pro/Flash 双发（Flash 本地可跑）]] | 国产 MoE 低成本本地 |
+| 2026-04-24 | [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano]] | 端侧 VLA / 具身智能 |
+| 2026-04-24 | [[qwen3-6-27b编程模型发布-27b-dense旗舰本地可跑\|Qwen3.6-27B 27B Dense 本地编程旗舰]] | 国产 Dense 编程 |
 | 2026-04-18 | Qwen3.6-35B在笔记本上画的图比Claude Opus 4.7好——Simon Willison亲测 | 本地图片生成 |
 | 2026-04-16 | [[gemma4跑在iphone上了-完全离线不联网|Gemma 4 iPhone离线]] | 移动端 |
 | 2026-04-14 | [[mac-mini变身24小时ai编程站-三件套让你随时随地给ai派活|Mac mini变身24小时AI编程站]] | 远程访问方案 |
@@ -26,10 +29,11 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 ## 饱和度评估
 
-**高饱和** — 6 篇/11 天。Qwen 本地图片生成是新角度（从文本推理扩展到图片生成），但总量已高。建议暂停 1-2 周。
+**高饱和** — 9 篇/17 天。4/24 +3 篇（DeepSeek V4 Flash 国产 MoE 本地 / Gemma 4 Jetson VLA 端侧 / Qwen3.6-27B Dense 本地编程）把硬件门槛继续下移。Gemma 4 / Qwen / DeepSeek 三线基线稳固，下一轮只跟非这三家的本地推理路线。
 
 ## 潜在下一个角度
 
 - 手机端本地推理（MLC LLM / MediaPipe）
 - Windows/Linux 平台对比（不只是 Mac）
 - 多模态本地推理（视觉+语音）
+- 国产端侧芯片（昇腾 / 寒武纪 / 地平线）上的 LLM 实测

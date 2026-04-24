@@ -1,0 +1,23 @@
+title: Qwen3.6-27B 今天出了，27B Dense 干出旗舰级编程能力，本地显卡党有福了
+status: draft
+date: 2026-04-24
+reach: 8
+sources:
+  - simon-willison-10585bb1
+tags:
+  - Qwen
+  - 国产AI
+  - 本地推理
+  - AI编程工具
+  - 阿里
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ''

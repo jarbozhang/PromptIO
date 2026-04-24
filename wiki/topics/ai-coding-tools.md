@@ -21,6 +21,8 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-24 | [[claude-code变笨了-anthropic-retro-opus4-7-system-prompt拆解\|用户骂 Claude Code 变笨，Anthropic 发 retro + Simon 扒 Opus system prompt]] | 质量 retro + prompt 拆解 |
+| 2026-04-24 | [[qwen3-6-27b编程模型发布-27b-dense旗舰本地可跑\|Qwen3.6-27B 27B Dense 本地编程旗舰]] | 国产本地编程模型 |
 | 2026-04-22 | [[马斯克600亿买cursor-不是ai编程的胜利\|SpaceX 600 亿美元收购 Cursor]] | [[ai-mergers\|并购]]（非工具评测） |
 | 2026-04-18 | Codex大更新：桌面控制+图片生成+记忆，OpenAI正面硬刚Claude Code | Codex 功能更新 |
 | 2026-04-18 | Claude Opus 4.7来了：1934赞HN刷屏，但你该升级吗 | 模型升级 |
@@ -39,8 +41,8 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 ## 饱和度评估
 
-**严重过饱和** — 16 篇/15 天（14%）。4/22 +1 篇（SpaceX 600 亿收购 Cursor），角度归并购而非工具评测。
+**严重过饱和** — 18 篇/17 天（13%）。4/24 +2 篇（Claude Code 变笨 retro + Opus 4.7 system prompt 拆解 / Qwen3.6-27B Dense 本地编程旗舰），一篇归工具质量事件，一篇归国产本地编程模型——均不属于纯工具评测。
 
 ## 建议
 
-**工具评测类继续暂停至 4/25。** 并购/定价/安全类如出现大新闻可归入 [[ai-mergers|AI 行业并购]]、[[ai-pricing|AI 定价]]、[[supply-chain-security|供应链安全]]等独立主题，而非挂在"AI 编程工具"主题下。
+**纯工具评测类继续暂停。** 并购/定价/安全/模型质量 retro / 国产本地编程等有独立叙事角度的话题仍可纳入，继续归入 [[ai-mergers|AI 行业并购]]、[[ai-pricing|AI 定价]]、[[supply-chain-security|供应链安全]]、[[local-inference|本地推理]] 等独立主题的交叉视角。

@@ -1,0 +1,22 @@
+title: Chip Huyen 新书配套 repo 一天冲榜，AI 工程师该读什么她写了 600 页答案
+status: draft
+date: 2026-04-24
+reach: 7
+sources:
+  - github-trending-bd378b86
+tags:
+  - AI工程
+  - ChipHuyen
+  - 开源教程
+  - AI+教育
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ''

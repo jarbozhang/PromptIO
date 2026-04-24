@@ -1,0 +1,24 @@
+title: GPT-5.5 昨天深夜悄悄上线了，OpenAI 同步开了个 2.5 万美元的生物病毒越狱赏金
+status: draft
+date: 2026-04-24
+reach: 9
+sources:
+  - openai-blog-3aa15380
+  - openai-blog-915b6ff1
+  - openai-blog-1e29a367
+tags:
+  - OpenAI
+  - GPT-5.5
+  - AI安全
+  - 生物安全
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ''

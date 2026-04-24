@@ -1,0 +1,24 @@
+title: 腾讯 Hy3 和蚂蚁 Ling-2.6-1T 今天同日免费上 OpenRouter，国产万亿模型白嫖时代到了
+status: draft
+date: 2026-04-24
+reach: 8
+sources:
+  - openrouter-new-model-72b58ed7
+  - openrouter-new-model-7afc2691
+tags:
+  - 腾讯
+  - 蚂蚁集团
+  - 国产AI
+  - AI定价
+  - OpenRouter
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ''

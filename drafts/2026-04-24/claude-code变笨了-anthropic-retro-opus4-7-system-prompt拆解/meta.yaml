@@ -1,0 +1,24 @@
+title: 用户都在骂 Claude Code 变笨了，Anthropic 发了篇 retro，Simon 把 Opus 的 system prompt 也扒出来了
+status: draft
+date: 2026-04-24
+reach: 7
+sources:
+  - simon-willison-7811dd0a
+  - simon-willison-1d174141
+  - simon-willison-7907aab2
+tags:
+  - Anthropic
+  - ClaudeCode
+  - SystemPrompt
+  - Simon-Willison
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ''

@@ -1,0 +1,28 @@
+title: Gemma 4 塞进 NVIDIA Jetson Orin Nano，2000 块钱桌面机器人真的能做事了
+status: draft
+date: 2026-04-24
+reach: 8
+sources:
+  - hugging-face-blog-705f1985
+  - hugging-face-blog-a38a6a43
+  - interconnects-nathan-lambert-d6220783
+  - latent-space-c5a02ecf
+  - deepmind-blog-c64eb2c5
+tags:
+  - Gemma
+  - NVIDIA
+  - 本地推理
+  - AI硬件
+  - 端侧AI
+  - 多模态
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ''

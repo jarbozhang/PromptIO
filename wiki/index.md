@@ -4,6 +4,7 @@
 
 ## 最近更新
 
+- 2026-04-24 — 8 篇新文章（DeepSeek V4 Pro/Flash 双发、GPT-5.5 + Bio Bug Bounty、腾讯 Hy3 + 蚂蚁 Ling-2.6-1T 万亿免费、Gemma 4 Jetson VLA 桌面机器人、Claude Code 变笨 retro + Opus 4.7 system prompt、Chip Huyen AI Engineering 新书、Qwen3.6-27B Dense 编程旗舰、Open-Generative-AI 200 模型 MIT 开源）。首次落地覆盖 **具身智能** 主题；本地推理 6→9、AI 定价 10→13、国产 AI 7→10 三条高饱和线继续上抬。新增 腾讯/蚂蚁/NVIDIA/阿里/DeepSeek 5 个公司页，Chip Huyen 1 个人物页，DeepSeek V4/GPT-5.5/Gemma 4/Qwen3.6-27B/OpenRouter 5 个产品页
 - 2026-04-23 — 8 篇新文章（小米 MiMo-V2.5、Microsoft 12 课 Agent 教程、Pixelle-Video 国产短视频、百度千帆 OCR 免费、Google 双 TPU 挑战 NVIDIA、Raschka 拆 RLVR、Chrome AI Mode、Last30Days Skill），首次覆盖 AI 视频 / OCR / AI 搜索 3 个主题。新增 小米/Microsoft/百度/AIDC-AI 4 个公司页，雷军/Sebastian Raschka 2 个人物页，MiMo/Qianfan/Pixelle-Video/Last30Days Skill/Chrome 5 个产品页
 - 2026-04-22 — 9 篇新文章（Kimi K2.6+CLI、SpaceX 600亿收 Cursor、Meta 录键鼠、Deezer 44% AI 歌、ChatGPT Images 2.0、Mythos 一周四连炸、Noetik 癌症 AI、FinceptTerminal 彭博平替、RAG-Anything 港大多模态 RAG），首次覆盖 AI 音乐/AI 训练数据/AI 行业并购 3 个主题，AI 安全独立成主题线头。新增 Moonshot/Meta（更新）/Deezer/kimi-cli/Mythos/Noetik/FinceptTerminal/RAG-Anything/Sam Altman/Elon Musk 10 个实体/产品页
 - 2026-04-21 第二轮 — 6 篇追加（NotebookLM 省 Token、15 家免费 LLM API、TradingAgents 金融 AI、GPT-Rosalind 医疗、42k 星 AI 学英语、NotebookLM 麦肯锡顾问），新开 AI+医疗/AI 金融/AI+教育 3 个主题赛道，新增 NotebookLM/GPT-Rosalind/TradingAgents 3 个产品实体页
@@ -25,18 +26,24 @@
 - [[elon-musk|Elon Musk]] — SpaceX / xAI / Tesla 创始人
 - [[lei-jun|雷军]] — 小米创始人 / CEO
 - [[sebastian-raschka|Sebastian Raschka]] — LLM 研究者 / 教育者，RLVR/GRPO 拆解
+- [[chip-huyen|Chip Huyen]] — AI Engineering 作者，600 页方法论新书 + 配套 repo
 
 ### 公司
-- [[openai|OpenAI]] — ChatGPT / Codex / GPT 系列
+- [[openai|OpenAI]] — ChatGPT / Codex / GPT 系列 / GPT-5.5
 - [[anthropic|Anthropic]] — Claude / Claude Code / Glasswing / Mythos
 - [[google|Google DeepMind]] — Gemini / Gemma / Veo / NotebookLM / TPU
 - [[meta|Meta]] — Muse Spark / Llama / 员工键鼠训练数据
+- [[deepseek|DeepSeek]] — V4 Pro 1.6T + V4 Flash 284B MoE 双发
 - [[moonshot|Moonshot / Kimi]] — Kimi K 系列 / kimi-cli
 - [[deezer|Deezer]] — 法国流媒体，AI 音乐占比披露者
 - [[microsoft|Microsoft]] — Azure / Copilot / AI Agents for Beginners 教程
 - [[xiaomi|小米]] — MiMo 自研开源大模型
 - [[baidu|百度]] — 文心 / 千帆大模型平台
 - [[aidc-ai|AIDC-AI]] — Pixelle-Video 国产 AI 视频开源
+- [[tencent|腾讯 Tencent]] — Hy3 agentic 万亿模型免费上 OpenRouter
+- [[ant-group|蚂蚁集团 Ant Group]] — Ling-2.6-1T 万亿模型免费上 OpenRouter
+- [[nvidia|NVIDIA]] — Jetson Orin Nano 端侧 AI 算力 / Lyra / 免费 API Key
+- [[alibaba|阿里 Alibaba]] — 通义千问 Qwen 系列 / Qwen3.6-27B Dense 本地编程旗舰
 
 ### 产品
 - [[claude-code|Claude Code]] — Anthropic 的 CLI 编程工具
@@ -56,6 +63,11 @@
 - [[pixelle-video|Pixelle-Video]] — AIDC-AI 国产 AI 全自动短视频引擎
 - [[last30days-skill|Last30Days Skill]] — 跨 Reddit/X/HN 自动出研报 Skill
 - [[chrome|Chrome]] — Google 浏览器 / AI Mode / Skills 商店
+- [[deepseek-v4|DeepSeek V4]] — Pro 1.6T + Flash 284B MoE 双发，1M context，4/24 上 OpenRouter
+- [[gpt-5-5|GPT-5.5]] — 2026-04-23 深夜发布，附 Bio Bug Bounty 最高 2.5 万美元
+- [[gemma-4|Gemma 4]] — Google 开源端侧模型，4/22 上 NVIDIA Jetson Orin Nano VLA 演示
+- [[qwen-3-6-27b|Qwen3.6-27B]] — 阿里通义千问 27B Dense 本地可跑的编程旗舰
+- [[openrouter|OpenRouter]] — 模型路由聚合平台，国产万亿模型免费出海首选渠道
 
 ## 主题 (Topics)
 
@@ -75,8 +87,9 @@
 - [[ai-video|AI 视频]] — Pixelle-Video / 国产开源短视频引擎
 - [[ocr|OCR]] — 百度 Qianfan-OCR-Fast / 免费国产 OCR
 - [[ai-hardware|AI 硬件]] — Google TPU / NVIDIA / 华为昇腾
-- [[ai-research|AI 研究/论文]] — Raschka RLVR / 强化学习 / 推理模型
+- [[ai-research|AI 研究/论文]] — Raschka RLVR / 强化学习 / 推理模型 / GPT-5.5 System Card
 - [[ai-search|AI 搜索]] — Chrome AI Mode / Perplexity / 夸克
+- [[embodied-ai|具身智能]] — Gemma 4 on Jetson Orin Nano / VLA / 桌面机器人
 
 ## 源质量 (Sources)
 
@@ -86,5 +99,5 @@
 
 ## 覆盖追踪 (Coverage)
 
-- [[article-registry|文章注册表]] — 全部 126 篇文章索引
+- [[article-registry|文章注册表]] — 全部 134 篇文章索引
 - [[topic-saturation|主题饱和度]] — 哪些写多了，哪些是空白

@@ -1,0 +1,23 @@
+title: 200 多个 AI 生图生视频模型打包成 MIT 开源项目，Midjourney 订阅可以退了
+status: draft
+date: 2026-04-24
+reach: 7
+sources:
+  - github-trending-6221b4c2
+tags:
+  - 开源工具
+  - AI生图
+  - AI视频
+  - AI定价
+  - Midjourney
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l1_replacements: 0
+  issues: []
+  error: ''

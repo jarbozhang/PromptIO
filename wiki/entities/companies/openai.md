@@ -6,11 +6,13 @@
 
 - **[[chatgpt|ChatGPT]]** — 消费端产品，Plus $20/月、Pro $100/月（新）、Pro $200/月
 - **[[codex|Codex]]** — 异步编程 Agent，Pro 层核心卖点
-- **API** — GPT-5.4 系列模型
+- **API** — GPT-5.4 系列模型；[[gpt-5-5|GPT-5.5]]（2026-04-23 深夜发布）
+- **Bio Bug Bounty** — 2026-04-23 开启，单漏洞最高 2.5 万美元
 - **CarPlay** — 2026-04-02 上线 iOS 26.4+
 
 ## 近期动态
 
+- **[[gpt-5-5|GPT-5.5]] 发布 + Bio Bug Bounty 开启** (2026-04-23 深夜 / 4/24 入题) — GPT-5.5 悄悄上线，同步开放 2.5 万美元生物病毒越狱赏金计划，把 AI 生物安全红队写入模型发布流程
 - **Deep Research 200 美元订阅被开源 Skill 平替** (2026-04-23) — [[last30days-skill|Last30Days Skill]] 几行命令完成跨 Reddit/X/HN 研报，对 ChatGPT Deep Research 的付费心智构成挑战
 - **ChatGPT Images 2.0 新增打字+联网搜图** (2026-04-22) — ChatGPT 画画支持准确渲染文字与实时联网取图素材，GPT Image 2 同步登陆 OpenRouter
 - **Sam Altman 嘲讽 Anthropic Mythos 为 fear-based marketing** (2026-04-22) — Mythos 一周四连炸期间，Altman 公开发声唱反调
@@ -28,6 +30,8 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-24 | [[gpt-5-5发布-openai生物红队赏金25000美元\|GPT-5.5 + Bio Bug Bounty 2.5 万美元]] | 9 |
+| 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 双发（OpenAI 作为价格对照方）]] | 10 |
 | 2026-04-23 | [[last30days-skill-跨reddit-x-hn自动出研报-200美元deep-research平替\|Last30Days Skill 平替 200 美元 Deep Research]] | 7 |
 | 2026-04-22 | [[chatgpt-images-2会打字还联网搜图-国产真的落后了\|ChatGPT 画画终于会打字还会联网搜图了]] | 8 |
 | 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic Mythos 四连炸，Altman 嘲讽 fear-based marketing]] | 8 |
@@ -50,4 +54,4 @@
 
 ## 注意
 
-OpenAI 是覆盖最频繁的实体（19 篇/16 天）。2026-04-23 间接 +1（Last30Days Skill 把 Deep Research 200 美元订阅打成开源平替）。短期内 OpenAI 选题必须严格降权，除非出现 Codex 范式级更新或 OpenAI 自己的重大并购/融资动作。
+OpenAI 是覆盖最频繁的实体（21 篇/17 天）。2026-04-24 +2 篇（GPT-5.5 + Bio Bug Bounty 直接主角 / DeepSeek V4 双发对照方）。短期内 OpenAI 选题继续严格降权，除非出现 Codex 范式级更新或 OpenAI 自己的重大并购/融资动作。

@@ -2,6 +2,14 @@
 
 追加式记录，最新在前。
 
+## [2026-04-24] generate | 8 drafts, REACH>=7
+
+- 新增文章：DeepSeek V4 Pro/Flash 双发 OpenRouter、GPT-5.5 + Bio Bug Bounty、腾讯 Hy3 + 蚂蚁 Ling-2.6-1T 免费万亿、Gemma 4 塞 Jetson Orin Nano VLA、Claude Code 变笨 retro + Opus 4.7 system prompt、Chip Huyen AI Engineering 配套 repo + 600 页、Qwen3.6-27B Dense 编程旗舰、Open-Generative-AI 200 模型 MIT 开源
+- 涉及实体：DeepSeek（新建公司页）、OpenRouter（新建产品页）、腾讯/Tencent（新建）、蚂蚁集团/Ant Group（新建）、NVIDIA（新建）、阿里/Alibaba（新建）、Chip Huyen（新建人物页）；DeepSeek V4 / GPT-5.5 / Gemma 4 / Qwen3.6-27B（新建产品页）；OpenAI/Anthropic/Google/Simon Willison 追加
+- 主题饱和变化：AI 编程工具 16→18、AI 定价 10→13、国产 AI 7→10、Agent 框架 12→13、本地推理 6→9、多模态 7→8、AI 安全 2→3、AI 研究 2→3、AI 硬件 4→5、AI+教育 2→3、AI 设计 1→2、AI 视频 1→2；首次落地覆盖**具身智能**（Gemma 4 VLA Jetson）
+- 新建页面：entities/companies/tencent.md, ant-group.md, nvidia.md, alibaba.md, deepseek.md; entities/people/chip-huyen.md; entities/products/deepseek-v4.md, gpt-5-5.md, gemma-4.md, qwen-3-6-27b.md, openrouter.md; topics/embodied-ai.md
+- 更新 wiki: article-registry（4/24 8 篇节 + 总篇数 134）、topic-saturation、log、index、openai/anthropic/google 实体页、simon-willison 人物页、ai-pricing/local-inference/ai-coding-tools/ai-security/ai-research/multimodal/ai-hardware/ai-education/agent-frameworks 主题页
+
 ## [2026-04-23] generate | 8 drafts, REACH>=7
 
 - 新增文章：小米 MiMo-V2.5、Microsoft 12 课 Agent 教程、Pixelle-Video 国产短视频、百度千帆 OCR 免费、Google TPU 挑战 NVIDIA、Raschka 拆 RLVR、Chrome AI Mode、Last30Days Skill

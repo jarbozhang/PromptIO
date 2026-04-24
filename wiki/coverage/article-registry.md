@@ -2,6 +2,19 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-24（8 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 今天凌晨发了，Pro 1.6T 参数 Flash 贱到每 M 一毛钱]] | 10 | [[deepseek\|DeepSeek]], [[openrouter\|OpenRouter]], [[anthropic\|Anthropic]], [[openai\|OpenAI]] | [[ai-pricing\|AI 定价]] / 国产AI / [[local-inference\|本地推理]] |
+| [[gpt-5-5发布-openai生物红队赏金25000美元\|GPT-5.5 昨天深夜悄悄上线了，OpenAI 同步开了个 2.5 万美元的生物病毒越狱赏金]] | 9 | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], [[sam-altman\|Sam Altman]] | [[ai-security\|AI 安全]] / [[ai-research\|AI 研究]] |
+| [[腾讯hy3-蚂蚁ling-2-6-1t免费上openrouter-国产万亿白嫖\|腾讯 Hy3 和蚂蚁 Ling-2.6-1T 今天同日免费上 OpenRouter，国产万亿模型白嫖时代到了]] | 8 | [[tencent\|腾讯]], [[ant-group\|蚂蚁集团]], [[openrouter\|OpenRouter]] | 国产AI / [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] |
+| [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano，2000 块钱桌面机器人真的能做事了]] | 8 | [[google\|Google DeepMind]], [[nvidia\|NVIDIA]], [[gemma-4\|Gemma 4]] | [[local-inference\|本地推理]] / [[ai-hardware\|AI 硬件]] / [[multimodal\|多模态]] / [[embodied-ai\|具身智能]] |
+| [[claude-code变笨了-anthropic-retro-opus4-7-system-prompt拆解\|用户都在骂 Claude Code 变笨了，Anthropic 发了篇 retro，Simon 把 Opus 的 system prompt 也扒出来了]] | 7 | [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[simon-willison\|Simon Willison]] | [[ai-coding-tools\|AI 编程工具]] |
+| [[chip-huyen-ai-engineering配套repo冲榜-600页答案\|Chip Huyen 新书配套 repo 一天冲榜，AI 工程师该读什么她写了 600 页答案]] | 7 | [[chip-huyen\|Chip Huyen]] | [[ai-education\|AI+教育]] |
+| [[qwen3-6-27b编程模型发布-27b-dense旗舰本地可跑\|Qwen3.6-27B 今天出了，27B Dense 干出旗舰级编程能力，本地显卡党有福了]] | 8 | [[alibaba\|阿里]], [[qwen-3-6-27b\|通义千问 Qwen]], [[deepseek\|DeepSeek]] | [[local-inference\|本地推理]] / [[ai-coding-tools\|AI 编程工具]] |
+| [[open-generative-ai-200模型mit开源-midjourney订阅可以退了\|200 多个 AI 生图生视频模型打包成 MIT 开源项目，Midjourney 订阅可以退了]] | 7 | Anil-matcha, Midjourney, Freepik | [[ai-pricing\|AI 定价]] / AI设计 / AI生图 / [[ai-video\|AI 视频]] |
+
 ## 2026-04-23（8 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |
@@ -205,6 +218,6 @@
 
 ## 统计
 
-- 总计：118 篇（2026-04-08 至 2026-04-22，15 天）
+- 总计：134 篇（2026-04-08 至 2026-04-24，17 天）
 - 日均：7.9 篇
-- REACH 分布：9分×22篇 / 8分×55篇 / 7分×31篇 / N/A×10篇
+- REACH 分布：10分×1篇 / 9分×23篇 / 8分×59篇 / 7分×35篇 / N/A×10篇

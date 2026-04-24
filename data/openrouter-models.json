@@ -1,5 +1,21 @@
 {
   "models": {
+    "deepseek/deepseek-v4-pro": {
+      "name": "DeepSeek: DeepSeek V4 Pro",
+      "context_length": 1048576
+    },
+    "deepseek/deepseek-v4-flash": {
+      "name": "DeepSeek: DeepSeek V4 Flash",
+      "context_length": 1048576
+    },
+    "inclusionai/ling-2.6-1t:free": {
+      "name": "inclusionAI: Ling-2.6-1T (free)",
+      "context_length": 262144
+    },
+    "tencent/hy3-preview:free": {
+      "name": "Tencent: Hy3 preview (free)",
+      "context_length": 262144
+    },
     "xiaomi/mimo-v2.5-pro": {
       "name": "Xiaomi: MiMo-V2.5-Pro",
       "context_length": 1048576
@@ -30,7 +46,7 @@
     },
     "moonshotai/kimi-k2.6": {
       "name": "MoonshotAI: Kimi K2.6",
-      "context_length": 262144
+      "context_length": 256000
     },
     "anthropic/claude-opus-4.7": {
       "name": "Anthropic: Claude Opus 4.7",
@@ -423,6 +439,10 @@
     "x-ai/grok-4.1-fast": {
       "name": "xAI: Grok 4.1 Fast",
       "context_length": 2000000
+    },
+    "deepcogito/cogito-v2.1-671b": {
+      "name": "Deep Cogito: Cogito v2.1 671B",
+      "context_length": 128000
     },
     "openai/gpt-5.1": {
       "name": "OpenAI: GPT-5.1",
@@ -1200,12 +1220,12 @@
       "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
       "context_length": 131072
     },
-    "inflection/inflection-3-productivity": {
-      "name": "Inflection: Inflection 3 Productivity",
-      "context_length": 8000
-    },
     "inflection/inflection-3-pi": {
       "name": "Inflection: Inflection 3 Pi",
+      "context_length": 8000
+    },
+    "inflection/inflection-3-productivity": {
+      "name": "Inflection: Inflection 3 Productivity",
       "context_length": 8000
     },
     "thedrummer/rocinante-12b": {
@@ -1264,13 +1284,13 @@
       "name": "OpenAI: GPT-4o (2024-08-06)",
       "context_length": 128000
     },
-    "meta-llama/llama-3.1-8b-instruct": {
-      "name": "Meta: Llama 3.1 8B Instruct",
-      "context_length": 16384
-    },
     "meta-llama/llama-3.1-70b-instruct": {
       "name": "Meta: Llama 3.1 70B Instruct",
       "context_length": 131072
+    },
+    "meta-llama/llama-3.1-8b-instruct": {
+      "name": "Meta: Llama 3.1 8B Instruct",
+      "context_length": 16384
     },
     "mistralai/mistral-nemo": {
       "name": "Mistral: Mistral Nemo",
@@ -1332,13 +1352,13 @@
       "name": "Mistral Large",
       "context_length": 128000
     },
-    "openai/gpt-4-turbo-preview": {
-      "name": "OpenAI: GPT-4 Turbo Preview",
-      "context_length": 128000
-    },
     "openai/gpt-3.5-turbo-0613": {
       "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
       "context_length": 4095
+    },
+    "openai/gpt-4-turbo-preview": {
+      "name": "OpenAI: GPT-4 Turbo Preview",
+      "context_length": 128000
     },
     "mistralai/mixtral-8x7b-instruct": {
       "name": "Mistral: Mixtral 8x7B Instruct",
@@ -1356,13 +1376,13 @@
       "name": "OpenAI: GPT-4 Turbo (older v1106)",
       "context_length": 128000
     },
-    "openai/gpt-3.5-turbo-instruct": {
-      "name": "OpenAI: GPT-3.5 Turbo Instruct",
-      "context_length": 4095
-    },
     "mistralai/mistral-7b-instruct-v0.1": {
       "name": "Mistral: Mistral 7B Instruct v0.1",
       "context_length": 2824
+    },
+    "openai/gpt-3.5-turbo-instruct": {
+      "name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "context_length": 4095
     },
     "openai/gpt-3.5-turbo-16k": {
       "name": "OpenAI: GPT-3.5 Turbo 16k",
@@ -1380,10 +1400,6 @@
       "name": "MythoMax 13B",
       "context_length": 4096
     },
-    "openai/gpt-4-0314": {
-      "name": "OpenAI: GPT-4 (older v0314)",
-      "context_length": 8191
-    },
     "openai/gpt-4": {
       "name": "OpenAI: GPT-4",
       "context_length": 8191
@@ -1391,7 +1407,11 @@
     "openai/gpt-3.5-turbo": {
       "name": "OpenAI: GPT-3.5 Turbo",
       "context_length": 16385
+    },
+    "openai/gpt-4-0314": {
+      "name": "OpenAI: GPT-4 (older v0314)",
+      "context_length": 8191
     }
   },
-  "updated_at": "2026-04-23T02:32:02.299Z"
+  "updated_at": "2026-04-24T05:00:03.864Z"
 }

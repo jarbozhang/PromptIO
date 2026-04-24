@@ -4,7 +4,7 @@ Gemini / Gemma / Veo 系列的开发商。
 
 ## 关键产品线
 
-- **Gemma 4** — 开源模型，Apache 2.0，26B A4B，首周 10M+ 下载
+- **[[gemma-4|Gemma 4]]** — 开源模型，Apache 2.0，26B A4B，首周 10M+ 下载；4/22 跑通 [[nvidia|NVIDIA]] Jetson Orin Nano 上的 VLA 桌面机器人 demo
 - **Gemini 3.1** — Flash Live 改善音频 AI
 - **Veo 3.1 Lite** — 最低成本视频生成模型
 - **Lyria 3** — 音乐生成
@@ -13,6 +13,7 @@ Gemini / Gemma / Veo 系列的开发商。
 
 ## 近期动态
 
+- **Gemma 4 塞进 NVIDIA Jetson Orin Nano 做 VLA 桌面机器人** (2026-04-22 demo / 4/24 入题) — Gemma 4 + Jetson Orin Nano 做出 2000 元级可复现 VLA 桌面机器人，Google 端侧模型首次正式进入具身智能视野
 - **AI Mode 集成进 [[chrome|Chrome]]** (2026-04-23) — Gemini AI Mode 直接进 Chrome 主体验，搜索/对话/页面理解融合一体，Perplexity 入口压力骤增
 - **Google Cloud Next 双款 TPU 发布** (2026-04-23) — TPU 8t / 8i 两款新芯片，3 倍速度 / 80% 性价比，挑战 NVIDIA 行业格局，"不用付英伟达税"
 - **NotebookLM 作为 RAG/顾问替代方案** (2026-04-21) — 中文社区 NotebookLM 玩法升温，既做省 Token 的 RAG 平替，也被用来"捏麦肯锡顾问"做知识方法论咨询
@@ -29,6 +30,7 @@ Gemini / Gemma / Veo 系列的开发商。
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-24 | [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano，2000 块钱桌面机器人真的能做事了]] | 8 |
 | 2026-04-23 | [[google-ai-mode进chrome-浏览器变ai搭子-perplexity要慌了\|Google 把 AI Mode 塞进 Chrome 了，Perplexity 这次真的该慌]] | 8 |
 | 2026-04-23 | [[google两款tpu挑战nvidia-gemini不用付英伟达税了\|Google 一口气甩出两款 TPU，3 倍速度 80% 性价比]] | 8 |
 | 2026-04-21 | [[notebooklm-白嫖google算力-claude省17倍token\|为什么我不再往 Claude 里塞资料，NotebookLM 才是你没用起来的 RAG]] | 9 |
@@ -45,4 +47,4 @@ Gemini / Gemma / Veo 系列的开发商。
 
 ## 选题建议
 
-Google 覆盖已升至 13 篇。4/23 单日 +2 篇（Chrome AI Mode + 双 TPU 发布），Google 在浏览器 AI 化与 AI 硬件供应链双线持续输出。后续选题需严格降权，Veo / Project Genie / Android CLI / Gemini 系新版本仍有空间但角度必须明显差异化。
+Google 覆盖已升至 14 篇。4/24 +1 篇（Gemma 4 Jetson VLA 桌面机器人，端侧 + 具身智能双主题交叉）。后续选题需严格降权，Veo / Project Genie / Android CLI / Gemini 系新版本仍有空间但角度必须明显差异化。

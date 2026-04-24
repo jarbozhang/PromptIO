@@ -11,6 +11,7 @@ LLM / 强化学习 / 推理模型 / 多模态领域的论文拆解与方法论�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-24 | [[gpt-5-5发布-openai生物红队赏金25000美元\|GPT-5.5 System Card + Bio Bug Bounty]] | 模型安全评估方法论 |
 | 2026-04-23 | [[sebastian-raschka拆rlvr-grpo让llm推理追上o3的几个关键\|Sebastian Raschka 拆 RLVR + GRPO]] | 强化学习 / 推理模型方法论 |
 | 2026-04-16 | Anthropic Nature 论文 | 研究综述 |
 
@@ -29,4 +30,4 @@ LLM / 强化学习 / 推理模型 / 多模态领域的论文拆解与方法论�
 
 ## 饱和度评估
 
-**低饱和** — 2 篇/15 天。AI 研究/论文方向选题门槛较高（要拆解到位且对中文读者有可操作性），但留出空间持续追：1) DeepSeek / Qwen 等国产模型的官方技术报告；2) Hugging Face / EleutherAI 类开源训练复现；3) Karpathy / Raschka 等 KOL 长文。
+**低饱和** — 3 篇/17 天。4/24 +1 篇（GPT-5.5 System Card / Bio Bug Bounty）。AI 研究/论文方向选题门槛较高（要拆解到位且对中文读者有可操作性），留出空间持续追：1) DeepSeek V4 / Qwen3.6-27B 等国产模型的官方技术报告；2) Hugging Face / EleutherAI 类开源训练复现；3) Karpathy / Raschka / Chip Huyen 等 KOL 长文；4) OpenAI / Anthropic 官方 System Card 的拆解。

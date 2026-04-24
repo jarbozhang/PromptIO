@@ -1,0 +1,23 @@
+title: DeepSeek V4 今天凌晨发了，Pro 1.6T 参数 Flash 贱到每 M 一毛钱
+status: draft
+date: 2026-04-24
+reach: 10
+sources:
+  - openrouter-new-model-0a76ad06
+  - openrouter-new-model-657e78c4
+tags:
+  - deepseek
+  - 国产AI
+  - AI定价
+  - OpenRouter
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l1_replacements: 0
+  issues: []
+  error: ''
