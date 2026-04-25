@@ -1,0 +1,30 @@
+title: Tracer-Cloud 把 OpenSRE 开源了，AI Agent 终于杀进 SRE 运维这条赛道
+status: draft
+date: 2026-04-25
+reach: 7
+sources:
+  - github-trending-79efbcd5
+tags:
+  - OpenSRE
+  - AI-Agent
+  - SRE
+  - DevOps
+  - 开源工具
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

@@ -1,0 +1,31 @@
+title: Simon Willison 把 DeepSeek V4 跑了一遍，结论是"接近前沿但价格只是零头"
+status: draft
+date: 2026-04-25
+reach: 8
+sources:
+  - openrouter-new-model-0a76ad06
+  - openrouter-new-model-657e78c4
+tags:
+  - DeepSeek
+  - Simon-Willison
+  - 国产AI
+  - AI定价
+  - OpenRouter
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

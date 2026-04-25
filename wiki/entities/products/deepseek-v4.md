@@ -24,7 +24,12 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-25 | [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 实测 DeepSeek V4，"接近前沿但价格只是零头"]] | 海外 KOL 实测 + 价格 vs 能力 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 Pro 1.6T + Flash 每 M 一毛钱 双发 OpenRouter]] | 价格新底部 + 国产万亿 + 本地可跑 |
+
+## 关键外部引用
+
+- **Simon Willison 实测**（2026-04-25） — Simon 把 DeepSeek V4 跑了一遍，结论是"接近前沿但价格只是零头"，是 V4 发布后第一篇有分量的英文 KOL 实测。给国产 V4 在英文社区的可信度打了背书。
 
 ## 相关主题
 

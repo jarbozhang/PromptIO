@@ -2,6 +2,14 @@
 
 追加式记录，最新在前。
 
+## [2026-04-25] generate | 6 drafts, REACH>=7
+
+- 新增文章：GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南、Simon 实测 DeepSeek V4、HuggingFace ml-intern 自动读 paper 训模型、Unsloth WebUI 本地训练 Gemma 4/Qwen3.5/DeepSeek、ZhuLinsen daily_stock_analysis A/H/美股自动分析、Tracer-Cloud OpenSRE 杀进 SRE 运维
+- 涉及实体：HuggingFace（新建公司页）、Unsloth/ml-intern/OpenSRE/daily-stock-analysis（新建产品页）；OpenAI/DeepSeek/GPT-5.5/DeepSeek V4/Simon Willison 追加
+- 主题饱和变化：AI 编程工具 18→19、AI 定价 13→15、Agent 框架 13→16、本地推理 9→11、AI 研究 3→6、AI 金融 3→4、国产AI 10→11；首次覆盖 **DevOps/SRE 运维**（OpenSRE）
+- 新建页面：entities/companies/huggingface.md, entities/products/ml-intern.md, entities/products/unsloth.md, entities/products/opensre.md, entities/products/daily-stock-analysis.md
+- 更新 wiki: article-registry（4/25 6 篇节 + 总篇数 134→140）、topic-saturation、log、index、deepseek-v4/gpt-5-5 产品页、simon-willison 人物页、openai/deepseek 公司页、ai-pricing/ai-research/agent-frameworks/local-inference/ai-finance 主题页
+
 ## [2026-04-24] generate | 8 drafts, REACH>=7
 
 - 新增文章：DeepSeek V4 Pro/Flash 双发 OpenRouter、GPT-5.5 + Bio Bug Bounty、腾讯 Hy3 + 蚂蚁 Ling-2.6-1T 免费万亿、Gemma 4 塞 Jetson Orin Nano VLA、Claude Code 变笨 retro + Opus 4.7 system prompt、Chip Huyen AI Engineering 配套 repo + 600 页、Qwen3.6-27B Dense 编程旗舰、Open-Generative-AI 200 模型 MIT 开源

@@ -1,0 +1,33 @@
+title: 一个国产开发者用 LLM 做了 A/H/美股 自动分析仪表盘，整套架构白嫖跑
+status: draft
+date: 2026-04-25
+reach: 8
+sources:
+  - github-trending-c2ab5f03
+tags:
+  - AI金融
+  - 国产AI
+  - LLM应用
+  - 开源工具
+  - 量化分析
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: false
+  l6_issues:
+    - type: title_banned_phrase
+      text: 白嫖
+      suggestion: 小红书灰色词，建议改为"零成本/免费/月费 0 元"
+  xhs_pass: false
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

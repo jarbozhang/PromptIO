@@ -8,6 +8,7 @@ Simon 是英文 AI 社区里最高产的"工具试用者"，他的博客是工�
 
 ## 近期关键动态
 
+- **GPT-5.5 提示词指南 + DeepSeek V4 实测** (2026-04-25) — 与 GPT-5.5 上 OpenRouter 同日发布 GPT-5.5 提示词写法指南；同日跑完 DeepSeek V4 给出"接近前沿但价格只是零头"的对比结论，一天双更两条主流模型笔记
 - **Claude Opus 4.7 system prompt 扒开对比** (2026-04-24) — 用户社区骂 Claude Code 变笨后，Simon 把 Opus 4.7 的 system prompt 完整扒出来做 diff 分析，给 Anthropic 的 retro 博客提供外部参照
 - **[[chatgpt|ChatGPT]] 语音模式分析** (2026-04-10) — 指出 Voice Mode 跑的是老旧弱模型，1574 likes
 - **Qwen3.6-35B 本地图片生成测试** (2026-04-18) — 笔记本上跑 Qwen 画图效果超 Claude Opus 4.7
@@ -18,6 +19,8 @@ Simon 是英文 AI 社区里最高产的"工具试用者"，他的博客是工�
 
 | 日期 | 文章 | 角色 |
 |------|------|------|
+| 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南]] | 主角（GPT-5.5 提示词指南作者） |
+| 2026-04-25 | [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 实测 DeepSeek V4，"接近前沿但价格只是零头"]] | 主角（V4 海外 KOL 实测者） |
 | 2026-04-24 | [[claude-code变笨了-anthropic-retro-opus4-7-system-prompt拆解\|用户都在骂 Claude Code 变笨，Anthropic 发 retro + Simon 扒 Opus system prompt]] | 主角（外部 system prompt diff 来源） |
 | 2026-04-13 | [[chatgpt上车了-但simon-willison说语音模式跑的是弱模型|ChatGPT上车了，但Simon Willison说语音模式跑的是弱模型]] | 主角 |
 | 2026-04-18 | Qwen3.6-35B在笔记本上画的图比Claude Opus 4.7好——Simon Willison亲测 | 主角 |
@@ -25,4 +28,4 @@ Simon 是英文 AI 社区里最高产的"工具试用者"，他的博客是工�
 
 ## 选题建议
 
-Simon 的博客适合做"工具实测型"文章的主源。覆盖 4 次，频率适中。4/24 通过扒 Opus 4.7 system prompt 首次以"system prompt 考古学家"身份进入我们的选题线索。
+Simon 的博客适合做"工具实测型"文章的主源。覆盖 6 次，频率较高。4/25 同日提供 GPT-5.5 提示词指南 + DeepSeek V4 实测两条主流模型笔记，巩固"主流模型上线第一时间出独立观点"的占位。短期内继续观察 Simon 的发文节奏，但避免连续两天同时把 Simon 作为主角。

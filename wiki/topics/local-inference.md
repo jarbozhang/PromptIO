@@ -17,6 +17,8 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 | 日期 | 文章 | 具体角度 |
 |------|------|---------|
+| 2026-04-25 | [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 实测 DeepSeek V4 本地]] | 海外 KOL 本地实测 |
+| 2026-04-25 | [[unsloth-webui开源-本地跑gemma4-qwen3-5-deepseek图形界面\|Unsloth WebUI 本地训练 Gemma 4 / Qwen3.5 / DeepSeek]] | 本地训练图形化 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 Pro/Flash 双发（Flash 本地可跑）]] | 国产 MoE 低成本本地 |
 | 2026-04-24 | [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano]] | 端侧 VLA / 具身智能 |
 | 2026-04-24 | [[qwen3-6-27b编程模型发布-27b-dense旗舰本地可跑\|Qwen3.6-27B 27B Dense 本地编程旗舰]] | 国产 Dense 编程 |
@@ -29,7 +31,7 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 ## 饱和度评估
 
-**高饱和** — 9 篇/17 天。4/24 +3 篇（DeepSeek V4 Flash 国产 MoE 本地 / Gemma 4 Jetson VLA 端侧 / Qwen3.6-27B Dense 本地编程）把硬件门槛继续下移。Gemma 4 / Qwen / DeepSeek 三线基线稳固，下一轮只跟非这三家的本地推理路线。
+**高饱和** — 11 篇/18 天。4/25 +2 篇（Simon 海外实测 V4 本地 + Unsloth WebUI 本地训练图形化），4/24 +3 篇基础上把"本地训练门槛"也一同下移。Gemma 4 / Qwen / DeepSeek 三线基线稳固，下一轮只跟"非这三家的本地推理路线"或"本地训练/微调实操"角度。
 
 ## 潜在下一个角度
 

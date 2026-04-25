@@ -14,6 +14,9 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-25 | [[huggingface-ml-intern开源-自动读paper训模型一条龙\|HuggingFace ml-intern 自动读 paper 训模型一条龙]] | 自动化 ML 研究 Agent |
+| 2026-04-25 | [[zhulinsen-daily-stock-analysis-llm驱动a股美股自动分析白嫖\|国产开发者 LLM 驱动 A/H/美股 自动分析仪表盘]] | 国产 AI 金融 Agent + 白嫖架构 |
+| 2026-04-25 | [[tracer-cloud-opensre开源-ai-agent进军sre运维\|Tracer-Cloud OpenSRE 开源 AI Agent 进军 SRE 运维]] | DevOps / SRE 运维首次落地 |
 | 2026-04-24 | [[腾讯hy3-蚂蚁ling-2-6-1t免费上openrouter-国产万亿白嫖\|腾讯 Hy3 + 蚂蚁 Ling-2.6-1T 双万亿免费]] | 国产 agentic 万亿 + 免费 |
 | 2026-04-23 | [[microsoft-12课ai-agents教程-1135星datawhale之外新选择\|Microsoft 12 课 AI Agents 教程一天涨 1135 星]] | 官方教程 + AI+教育 |
 | 2026-04-23 | [[last30days-skill-跨reddit-x-hn自动出研报-200美元deep-research平替\|Last30Days Skill 跨 Reddit/X/HN 自动出研报]] | Skill 形态 + 信息聚合 |
@@ -29,7 +32,7 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 ## 饱和度评估
 
-**中等偏上** — 13 篇/17 天。4/24 +1 篇（腾讯 Hy3 + 蚂蚁 Ling-2.6-1T 双万亿免费，agentic 路线国产首发）。Agent 框架议题进入"教程 + Skill 化 + 国产 agentic 万亿免费"三线阶段。后续选题必须聚焦"跑通实操"或"实盘/生产评测"，不再做工具盘点。
+**高饱和** — 16 篇/18 天。4/25 +3 篇（HuggingFace ml-intern 自动 ML 研究、ZhuLinsen daily_stock_analysis 国产 AI 金融、Tracer-Cloud OpenSRE 杀进 SRE 运维），Agent 框架议题进入"自动化研究 + 垂类落地（金融/运维）+ 国产 agentic 万亿免费"三线并发阶段。后续选题严格聚焦"跑通实操"或"实盘/生产评测"，不再做工具盘点；新垂类（医疗/法律/教育 Agent）保留入口。
 
 ## 潜在下一个角度
 

@@ -12,6 +12,7 @@
 
 ## 近期动态
 
+- **[[gpt-5-5|GPT-5.5]] 上 OpenRouter，Pro 版 $30 / 百万 token + Simon 提示词指南** (2026-04-25) — GPT-5.5 正式上线 OpenRouter，Pro 版定价 $30 / 百万 token，[[simon-willison|Simon Willison]] 同日发布 GPT-5.5 提示词写法指南
 - **[[gpt-5-5|GPT-5.5]] 发布 + Bio Bug Bounty 开启** (2026-04-23 深夜 / 4/24 入题) — GPT-5.5 悄悄上线，同步开放 2.5 万美元生物病毒越狱赏金计划，把 AI 生物安全红队写入模型发布流程
 - **Deep Research 200 美元订阅被开源 Skill 平替** (2026-04-23) — [[last30days-skill|Last30Days Skill]] 几行命令完成跨 Reddit/X/HN 研报，对 ChatGPT Deep Research 的付费心智构成挑战
 - **ChatGPT Images 2.0 新增打字+联网搜图** (2026-04-22) — ChatGPT 画画支持准确渲染文字与实时联网取图素材，GPT Image 2 同步登陆 OpenRouter
@@ -30,6 +31,7 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南]] | 9 |
 | 2026-04-24 | [[gpt-5-5发布-openai生物红队赏金25000美元\|GPT-5.5 + Bio Bug Bounty 2.5 万美元]] | 9 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 双发（OpenAI 作为价格对照方）]] | 10 |
 | 2026-04-23 | [[last30days-skill-跨reddit-x-hn自动出研报-200美元deep-research平替\|Last30Days Skill 平替 200 美元 Deep Research]] | 7 |
@@ -54,4 +56,4 @@
 
 ## 注意
 
-OpenAI 是覆盖最频繁的实体（21 篇/17 天）。2026-04-24 +2 篇（GPT-5.5 + Bio Bug Bounty 直接主角 / DeepSeek V4 双发对照方）。短期内 OpenAI 选题继续严格降权，除非出现 Codex 范式级更新或 OpenAI 自己的重大并购/融资动作。
+OpenAI 是覆盖最频繁的实体（22 篇/18 天）。2026-04-25 +1 篇（GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南），4/24 +2 篇（GPT-5.5 + Bio Bug Bounty 直接主角 / DeepSeek V4 双发对照方）。短期内 OpenAI 选题继续严格降权，除非出现 Codex 范式级更新或 OpenAI 自己的重大并购/融资动作。

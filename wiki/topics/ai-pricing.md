@@ -17,6 +17,8 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter，Pro 版 $30 / 百万 token]] | OpenAI Pro 档新价格 |
+| 2026-04-25 | [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 实测 DeepSeek V4 "接近前沿但价格只是零头"]] | 海外 KOL 验证国产价格优势 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 Pro 1.6T + Flash 每 M 一毛钱 双发 OpenRouter]] | 国产价格新底部 |
 | 2026-04-24 | [[腾讯hy3-蚂蚁ling-2-6-1t免费上openrouter-国产万亿白嫖\|腾讯 Hy3 + 蚂蚁 Ling-2.6-1T 双万亿免费上 OpenRouter]] | 国产万亿免费 |
 | 2026-04-24 | [[open-generative-ai-200模型mit开源-midjourney订阅可以退了\|Open-Generative-AI 200 多个模型 MIT 开源，Midjourney 订阅可以退]] | 开源替代订阅 |
@@ -31,4 +33,4 @@
 
 ## 饱和度评估
 
-**严重高饱和** — 13 篇/17 天。4/24 +3 篇（DeepSeek V4 双发把价格打到每 M 一毛钱、腾讯 Hy3 + 蚂蚁 Ling 万亿免费、Open-Generative-AI 用 MIT 开源替 Midjourney 订阅），国产同日在"降价 + 免费 + 开源替代"三线齐发。本主题已进入"只收重大价格断档事件"状态，下一轮严格避开纯订阅/折扣类盘点。
+**严重高饱和** — 15 篇/18 天。4/25 +2 篇（GPT-5.5 上 OpenRouter Pro $30 / 百万 token、Simon Willison 海外实测 DeepSeek V4 价格 vs 前沿能力），4/24 +3 篇基础上继续抬升。本主题进入"只收重大价格断档事件"状态。下一轮严格避开纯订阅/折扣类盘点，仅在出现新模型直接拉开价格档差时入题。

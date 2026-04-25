@@ -13,6 +13,7 @@
 - **2026-04-23 深夜** — GPT-5.5 悄悄上线
 - **2026-04-23 同日** — Bio Bug Bounty 开启，单漏洞最高 2.5 万美元
 - **2026-04-24** — 社区消化 + 我们选题入库
+- **2026-04-25** — GPT-5.5 上线 OpenRouter，Pro 版定价 $30 / 一百万 token；[[simon-willison\|Simon Willison]] 同步发布 GPT-5.5 提示词指南
 
 ## 首次覆盖
 
@@ -22,7 +23,12 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter，Pro 版 $30 一百万 token，Simon 顺手发了套提示词指南]] | OpenRouter 上线 + Pro 定价 + Simon 提示词指南 |
 | 2026-04-24 | [[gpt-5-5发布-openai生物红队赏金25000美元\|GPT-5.5 深夜上线 + OpenAI 开 2.5 万美元生物病毒越狱赏金]] | 模型发布 + AI 生物安全红队 |
+
+## 关键外部资源
+
+- **Simon Willison GPT-5.5 提示词指南**（2026-04-25） — 与 OpenRouter 上线同日发布，是英文社区第一份系统性的 GPT-5.5 提示词写法指南，为我们后续选题提供长期可引用的方法论锚点
 
 ## 相关主题
 
@@ -35,6 +41,8 @@
 - [[openai|OpenAI]] — 开发方
 - [[chatgpt|ChatGPT]] — 消费端承载产品
 - [[sam-altman|Sam Altman]] — CEO
+- [[openrouter|OpenRouter]] — 4/25 上线渠道
+- [[simon-willison|Simon Willison]] — GPT-5.5 提示词指南作者
 - Anthropic Mythos — AI 安全独立产品线对照
 
 ## 注意

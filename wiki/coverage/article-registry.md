@@ -2,6 +2,17 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-25（6 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 终于上 OpenRouter 了，Pro 版 $30 一百万 token，Simon 顺手发了套提示词指南]] | 9 | [[openai\|OpenAI]], [[gpt-5-5\|GPT-5.5]], [[chatgpt\|ChatGPT]], [[simon-willison\|Simon Willison]] | [[ai-pricing\|AI 定价]] / [[ai-research\|AI 研究]] |
+| [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 把 DeepSeek V4 跑了一遍，结论是"接近前沿但价格只是零头"]] | 8 | [[deepseek\|DeepSeek]], [[simon-willison\|Simon Willison]] | [[ai-pricing\|AI 定价]] / [[local-inference\|本地推理]] / [[ai-research\|AI 研究]] |
+| [[huggingface-ml-intern开源-自动读paper训模型一条龙\|HuggingFace 把 ml-intern 开源了，连读 paper 带训模型一条龙]] | 8 | [[huggingface\|HuggingFace]] | [[agent-frameworks\|Agent 框架]] / [[ai-research\|AI 研究]] |
+| [[unsloth-webui开源-本地跑gemma4-qwen3-5-deepseek图形界面\|Unsloth 出 WebUI 了，本地跑 Gemma 4、Qwen3.5、DeepSeek 一个图形界面搞定]] | 7 | [[unsloth\|Unsloth]], [[huggingface\|HuggingFace]] | [[local-inference\|本地推理]] / [[ai-coding-tools\|AI 编程工具]] |
+| [[zhulinsen-daily-stock-analysis-llm驱动a股美股自动分析白嫖\|一个国产开发者用 LLM 做了 A/H/美股 自动分析仪表盘，整套架构白嫖跑]] | 8 | [[daily-stock-analysis\|Daily Stock Analysis]], ZhuLinsen | [[ai-finance\|AI 金融]] / [[agent-frameworks\|Agent 框架]] / 国产AI |
+| [[tracer-cloud-opensre开源-ai-agent进军sre运维\|Tracer-Cloud 把 OpenSRE 开源了，AI Agent 终于杀进 SRE 运维这条赛道]] | 7 | [[opensre\|OpenSRE]], Tracer-Cloud | [[agent-frameworks\|Agent 框架]] / DevOps |
+
 ## 2026-04-24（8 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |

@@ -1,0 +1,31 @@
+title: GPT-5.5 终于上 OpenRouter 了，Pro 版 $30 一百万 token，Simon 顺手发了套提示词指南
+status: draft
+date: 2026-04-25
+reach: 9
+sources:
+  - openrouter-new-model-0d94f6f3
+  - openrouter-new-model-147e127b
+tags:
+  - OpenAI
+  - GPT-5.5
+  - OpenRouter
+  - 提示词工程
+  - Simon-Willison
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

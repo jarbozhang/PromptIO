@@ -4,6 +4,7 @@
 
 ## 最近更新
 
+- 2026-04-25 — 6 篇新文章（GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南、Simon 实测 DeepSeek V4 接近前沿价格零头、HuggingFace ml-intern 自动读 paper 训模型一条龙、Unsloth WebUI 本地训练 Gemma 4/Qwen3.5/DeepSeek 图形化、ZhuLinsen daily_stock_analysis A/H/美股 LLM 自动分析仪表盘、Tracer-Cloud OpenSRE 把 AI Agent 杀进 SRE 运维）。首次覆盖 **DevOps/SRE 运维** 主题；Agent 框架 13→16、AI 定价 13→15、本地推理 9→11、AI 研究 3→6 同步抬升。新增 HuggingFace 公司页 1 个，ml-intern/Unsloth/OpenSRE/daily-stock-analysis 4 个产品页
 - 2026-04-24 — 8 篇新文章（DeepSeek V4 Pro/Flash 双发、GPT-5.5 + Bio Bug Bounty、腾讯 Hy3 + 蚂蚁 Ling-2.6-1T 万亿免费、Gemma 4 Jetson VLA 桌面机器人、Claude Code 变笨 retro + Opus 4.7 system prompt、Chip Huyen AI Engineering 新书、Qwen3.6-27B Dense 编程旗舰、Open-Generative-AI 200 模型 MIT 开源）。首次落地覆盖 **具身智能** 主题；本地推理 6→9、AI 定价 10→13、国产 AI 7→10 三条高饱和线继续上抬。新增 腾讯/蚂蚁/NVIDIA/阿里/DeepSeek 5 个公司页，Chip Huyen 1 个人物页，DeepSeek V4/GPT-5.5/Gemma 4/Qwen3.6-27B/OpenRouter 5 个产品页
 - 2026-04-23 — 8 篇新文章（小米 MiMo-V2.5、Microsoft 12 课 Agent 教程、Pixelle-Video 国产短视频、百度千帆 OCR 免费、Google 双 TPU 挑战 NVIDIA、Raschka 拆 RLVR、Chrome AI Mode、Last30Days Skill），首次覆盖 AI 视频 / OCR / AI 搜索 3 个主题。新增 小米/Microsoft/百度/AIDC-AI 4 个公司页，雷军/Sebastian Raschka 2 个人物页，MiMo/Qianfan/Pixelle-Video/Last30Days Skill/Chrome 5 个产品页
 - 2026-04-22 — 9 篇新文章（Kimi K2.6+CLI、SpaceX 600亿收 Cursor、Meta 录键鼠、Deezer 44% AI 歌、ChatGPT Images 2.0、Mythos 一周四连炸、Noetik 癌症 AI、FinceptTerminal 彭博平替、RAG-Anything 港大多模态 RAG），首次覆盖 AI 音乐/AI 训练数据/AI 行业并购 3 个主题，AI 安全独立成主题线头。新增 Moonshot/Meta（更新）/Deezer/kimi-cli/Mythos/Noetik/FinceptTerminal/RAG-Anything/Sam Altman/Elon Musk 10 个实体/产品页
@@ -44,6 +45,7 @@
 - [[ant-group|蚂蚁集团 Ant Group]] — Ling-2.6-1T 万亿模型免费上 OpenRouter
 - [[nvidia|NVIDIA]] — Jetson Orin Nano 端侧 AI 算力 / Lyra / 免费 API Key
 - [[alibaba|阿里 Alibaba]] — 通义千问 Qwen 系列 / Qwen3.6-27B Dense 本地编程旗舰
+- [[huggingface|HuggingFace]] — 全球最大开源 AI 模型社区 / ml-intern 自动读 paper 训模型 / Unsloth WebUI 上游托管
 
 ### 产品
 - [[claude-code|Claude Code]] — Anthropic 的 CLI 编程工具
@@ -68,6 +70,10 @@
 - [[gemma-4|Gemma 4]] — Google 开源端侧模型，4/22 上 NVIDIA Jetson Orin Nano VLA 演示
 - [[qwen-3-6-27b|Qwen3.6-27B]] — 阿里通义千问 27B Dense 本地可跑的编程旗舰
 - [[openrouter|OpenRouter]] — 模型路由聚合平台，国产万亿模型免费出海首选渠道
+- [[ml-intern|ml-intern]] — HuggingFace 开源的自动读 paper 训模型一条龙 Agent
+- [[unsloth|Unsloth]] — 本地训练加速框架，4/25 推出 WebUI 图形化本地训练 Gemma 4/Qwen3.5/DeepSeek
+- [[opensre|OpenSRE]] — Tracer-Cloud 开源的 AI Agent for SRE 运维框架
+- [[daily-stock-analysis|Daily Stock Analysis]] — ZhuLinsen 国产开发者 LLM 驱动的 A/H/美股自动分析仪表盘（白嫖架构）
 
 ## 主题 (Topics)
 
@@ -99,5 +105,5 @@
 
 ## 覆盖追踪 (Coverage)
 
-- [[article-registry|文章注册表]] — 全部 134 篇文章索引
+- [[article-registry|文章注册表]] — 全部 140 篇文章索引
 - [[topic-saturation|主题饱和度]] — 哪些写多了，哪些是空白

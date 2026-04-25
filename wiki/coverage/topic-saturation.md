@@ -1,18 +1,18 @@
 # 主题饱和度分析
 
-基于 134 篇文章（2026-04-08 至 2026-04-24）的主题分布。
+基于 140 篇文章（2026-04-08 至 2026-04-25）的主题分布。
 
 ## 高饱和（需要降权或暂停）
 
 | 主题 | 篇数 | 占比 | 建议 |
 |------|------|------|------|
-| [[ai-coding-tools\|AI 编程工具]]生态 | **18** | **13%** | **4/24 +2 篇（Claude Code 变笨 retro + Qwen3.6-27B 编程模型），继续严格差异化** |
-| [[agent-frameworks\|Agent 框架]]/落地 | **13** | **10%** | **4/24 +1 篇（Hy3 agentic 万亿）。保持暂停新盘点类** |
-| [[ai-pricing\|AI 定价]]/省钱 | **13** | **10%** | **4/24 +3 篇（DeepSeek V4 价格战、Hy3/Ling 免费、Open-Generative-AI 替 Midjourney），国产同日双杀 + 开源替代海外订阅** |
-| 开源生态 | 10 | 7% | 4/24 无新增 |
-| 安全/[[supply-chain-security\|供应链]]/隐私 | 10 | 7% | 4/24 无新增 |
-| 国产AI生态 | **10** | **7%** | **4/24 +3 篇（DeepSeek V4、Hy3/Ling 免费、Qwen3.6-27B 本地旗舰），进入"国产万亿 + 价格底 + 本地 Dense 旗舰"三线并发** |
-| [[local-inference\|本地推理]] | **9** | **7%** | **4/24 +3 篇（DeepSeek V4 Flash 本地、Gemma 4 on Jetson、Qwen3.6-27B Dense 本地）。硬件门槛显著下移** |
+| [[ai-coding-tools\|AI 编程工具]]生态 | **19** | **14%** | **4/25 +1 篇（Unsloth WebUI 本地训练界面化），4/24 +2 篇基础上继续抬升，严格差异化** |
+| [[agent-frameworks\|Agent 框架]]/落地 | **16** | **11%** | **4/25 +3 篇（HuggingFace ml-intern 自动读 paper、daily_stock_analysis 国产金融 Agent、Tracer-Cloud OpenSRE 运维 Agent），首次进入 SRE 运维和自动化研究两条新赛道** |
+| [[ai-pricing\|AI 定价]]/省钱 | **15** | **11%** | **4/25 +2 篇（GPT-5.5 上 OpenRouter Pro $30 一百万 token + Simon 实测 DeepSeek V4 接近前沿价格零头），价格新底部 + 国产 vs OpenAI Pro 价格档双向对照** |
+| 开源生态 | 10 | 7% | 4/25 无新增 |
+| 安全/[[supply-chain-security\|供应链]]/隐私 | 10 | 7% | 4/25 无新增 |
+| 国产AI生态 | **11** | **8%** | **4/25 +1 篇（daily_stock_analysis 国产开发者 LLM 驱动 A/H/美股自动分析仪表盘）** |
+| [[local-inference\|本地推理]] | **11** | **8%** | **4/25 +2 篇（Simon 实测 DeepSeek V4 本地 + Unsloth WebUI 本地训练图形化）。硬件门槛 + 训练门槛同步下移** |
 | [[karpathy\|Karpathy]] 相关 | 4 | 3% | 降权 |
 
 ## 中等饱和（可以继续但注意角度）
@@ -29,7 +29,7 @@
 | AI 变现 | 3 | 2% | 4/24 无新增 |
 | 内容创作工具 | 3 | 2% | 4/24 无新增 |
 | [[ai-security\|AI 安全/Mythos]] | **3** | **2%** | **4/24 +1 篇（GPT-5.5 + Bio Bug Bounty 2.5 万美元），从 Mythos 单线扩展到 OpenAI/Bio 双线** |
-| [[ai-research\|AI 研究/论文]] | **3** | **2%** | **4/24 +1 篇（GPT-5.5 System Card），拆解 + 官方技术文档开始积累** |
+| [[ai-research\|AI 研究/论文]] | **6** | **4%** | **4/25 +3 篇（GPT-5.5 上 OpenRouter + Simon 提示词指南、Simon 实测 DeepSeek V4、HuggingFace ml-intern 自动读 paper），从 3 跃升到 6，研究/方法论侧形成稳定供给** |
 | [[ai-education\|AI+教育]] | **3** | **2%** | **4/24 +1 篇（Chip Huyen 配套 repo + 600 页新书）。方法论级 AI 工程师指南首次** |
 | TTS/语音 | 2 | 1% | 等新产品 |
 
@@ -42,7 +42,7 @@
 | AI 设计 | **2** | **1%** | **4/24 +1 篇（Open-Generative-AI 把 Midjourney 订阅打成 MIT 开源）** |
 | AI 移动开发 | 1 | 1% | Android CLI 首篇后仍有空间 |
 | [[ai-medical\|AI+医疗/科研]] | 2 | 1% | 4/24 无新增。仍待继续开拓 |
-| [[ai-finance\|AI 金融]] | 2 | 1% | 4/24 无新增。仍有空间 |
+| [[ai-finance\|AI 金融]] | **4** | **3%** | **4/25 +1 篇（daily_stock_analysis 国产 LLM 驱动 A/H/美股自动分析仪表盘），从架构/终端扩展到完整分析仪表盘（前值 3 → 4）** |
 | RAG | 2 | 1% | 4/24 无新增 |
 | [[ai-music\|AI 音乐]] | 1 | 1% | 创作者经济视角仍空白 |
 | [[ai-training-data\|AI 训练数据]] | 1 | 1% | 数据收集 vs 隐私冲突仍有空间 |
@@ -58,6 +58,19 @@
 | 主题 | 潜力 | 备注 |
 |------|------|------|
 | AI 影视 | 中 | 爱奇艺首次（4/21）后仍可追 |
+
+## 新增覆盖（4/25，6 篇）
+
+| 主题 | 篇数 | 备注 |
+|------|------|------|
+| [[ai-pricing\|AI 定价]] | 2 | GPT-5.5 上 OpenRouter Pro $30 一百万 token / Simon 实测 DeepSeek V4 接近前沿价格零头 |
+| [[ai-research\|AI 研究]] | 3 | GPT-5.5 + Simon 提示词指南 / Simon 实测 DeepSeek V4 / HuggingFace ml-intern 自动读 paper 训模型 |
+| [[agent-frameworks\|Agent 框架]] | 3 | HuggingFace ml-intern 自动读 paper 训模型一条龙 / daily_stock_analysis 国产金融 Agent 仪表盘 / Tracer-Cloud OpenSRE 杀进 SRE 运维 |
+| [[local-inference\|本地推理]] | 2 | Simon 实测 DeepSeek V4 本地 / Unsloth WebUI 本地训练 Gemma 4 / Qwen3.5 / DeepSeek 图形界面 |
+| [[ai-coding-tools\|AI 编程工具]] | 1 | Unsloth WebUI 本地训练界面化 |
+| [[ai-finance\|AI 金融]] | 1 | daily_stock_analysis 国产 LLM 驱动 A/H/美股 自动分析仪表盘（白嫖架构） |
+| 国产AI生态 | 1 | daily_stock_analysis 国产开发者 LLM 金融 Agent |
+| DevOps | 1 | **首次覆盖**，Tracer-Cloud OpenSRE 把 AI Agent 杀进 SRE 运维赛道 |
 
 ## 新增覆盖（4/24，8 篇）
 
@@ -144,4 +157,4 @@
 
 ## 最后更新
 
-2026-04-24
+2026-04-25
