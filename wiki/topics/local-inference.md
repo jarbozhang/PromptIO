@@ -17,6 +17,7 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 | 日期 | 文章 | 具体角度 |
 |------|------|---------|
+| 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶 5 模型上 OpenRouter，含 27B Dense 本地档]] | 全家桶含本地档 + 云端档对照 |
 | 2026-04-25 | [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 实测 DeepSeek V4 本地]] | 海外 KOL 本地实测 |
 | 2026-04-25 | [[unsloth-webui开源-本地跑gemma4-qwen3-5-deepseek图形界面\|Unsloth WebUI 本地训练 Gemma 4 / Qwen3.5 / DeepSeek]] | 本地训练图形化 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 Pro/Flash 双发（Flash 本地可跑）]] | 国产 MoE 低成本本地 |
@@ -31,7 +32,7 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 ## 饱和度评估
 
-**高饱和** — 11 篇/18 天。4/25 +2 篇（Simon 海外实测 V4 本地 + Unsloth WebUI 本地训练图形化），4/24 +3 篇基础上把"本地训练门槛"也一同下移。Gemma 4 / Qwen / DeepSeek 三线基线稳固，下一轮只跟"非这三家的本地推理路线"或"本地训练/微调实操"角度。
+**高饱和** — 12 篇/20 天。4/27 +1 篇（Qwen3.6 全家桶含 27B Dense 本地档），4/25 +2、4/24 +3 基础上继续抬升。Gemma 4 / Qwen / DeepSeek 三线基线稳固，下一轮只跟"非这三家的本地推理路线"或"本地训练/微调实操"角度。
 
 ## 潜在下一个角度
 

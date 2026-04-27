@@ -2,6 +2,16 @@
 
 追加式记录，最新在前。
 
+## [2026-04-27] generate | 4 drafts, REACH>=7
+
+- 注：4/26 跳天未生成
+- 新增文章：阿里 Qwen3.6 全家桶 5 个模型上 OpenRouter（27B Dense 到 1T Max Preview）、trycua 开源 Computer Use Agent 基础设施（macOS/Linux/Windows）、GitNexus 把 Graph RAG 塞进浏览器（客户端代码知识图谱）、Matt Pocock 公开 Claude Skills 目录（一天 2519 星）
+- 涉及实体：trycua（新建产品页）、GitNexus（新建产品页）、Matt Pocock（新建人物页）、mattpocock-skills（新建产品页）、Qwen 全家桶（qwen-family 新建覆盖全系产品页）；阿里/Anthropic/Claude Code/OpenRouter/DeepSeek 追加
+- 主题饱和变化：AI 定价 15→16、Agent 框架 16→18、本地推理 11→12、多模态 8→9、国产AI 11→12、AI 编程工具 19→20；首次覆盖 **Computer Use Agent**（trycua）、**客户端 RAG**（GitNexus）
+- 新建页面：entities/products/qwen-family.md, entities/products/trycua.md, entities/products/gitnexus.md, entities/products/mattpocock-skills.md, entities/people/matt-pocock.md, topics/computer-use-agent.md
+- 更新 wiki: article-registry（4/27 4 篇节 + 总篇数 140→144）、topic-saturation、log、index、entities/companies/alibaba.md、agent-frameworks/ai-pricing/local-inference/multimodal/ai-coding-tools 主题页
+- 合规：4/4 篇均通过 L6（2 篇 compliant + 2 篇 primary 直发）
+
 ## [2026-04-25] generate | 6 drafts, REACH>=7
 
 - 新增文章：GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南、Simon 实测 DeepSeek V4、HuggingFace ml-intern 自动读 paper 训模型、Unsloth WebUI 本地训练 Gemma 4/Qwen3.5/DeepSeek、ZhuLinsen daily_stock_analysis A/H/美股自动分析、Tracer-Cloud OpenSRE 杀进 SRE 运维

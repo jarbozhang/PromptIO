@@ -4,6 +4,7 @@
 
 ## 最近更新
 
+- 2026-04-27 — 4 篇新文章（阿里 Qwen3.6 全家桶 5 个模型上 OpenRouter 从 27B Dense 到 1T Max Preview、trycua 开源 Computer Use Agent 跨平台基础设施、GitNexus 把 Graph RAG 塞进浏览器做客户端代码知识图谱、Matt Pocock 公开 Claude Skills 目录一天 2519 星）。首次覆盖 **Computer Use Agent** 和 **客户端 RAG** 两个主题；Agent 框架 16→18、AI 定价 15→16、本地推理 11→12、多模态 8→9、AI 编程工具 19→20、国产 AI 11→12 全线抬升。新增 trycua/GitNexus/qwen-family/mattpocock-skills 4 个产品页，Matt Pocock 1 个人物页（注：4/26 跳天未生成）
 - 2026-04-25 — 6 篇新文章（GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南、Simon 实测 DeepSeek V4 接近前沿价格零头、HuggingFace ml-intern 自动读 paper 训模型一条龙、Unsloth WebUI 本地训练 Gemma 4/Qwen3.5/DeepSeek 图形化、ZhuLinsen daily_stock_analysis A/H/美股 LLM 自动分析仪表盘、Tracer-Cloud OpenSRE 把 AI Agent 杀进 SRE 运维）。首次覆盖 **DevOps/SRE 运维** 主题；Agent 框架 13→16、AI 定价 13→15、本地推理 9→11、AI 研究 3→6 同步抬升。新增 HuggingFace 公司页 1 个，ml-intern/Unsloth/OpenSRE/daily-stock-analysis 4 个产品页
 - 2026-04-24 — 8 篇新文章（DeepSeek V4 Pro/Flash 双发、GPT-5.5 + Bio Bug Bounty、腾讯 Hy3 + 蚂蚁 Ling-2.6-1T 万亿免费、Gemma 4 Jetson VLA 桌面机器人、Claude Code 变笨 retro + Opus 4.7 system prompt、Chip Huyen AI Engineering 新书、Qwen3.6-27B Dense 编程旗舰、Open-Generative-AI 200 模型 MIT 开源）。首次落地覆盖 **具身智能** 主题；本地推理 6→9、AI 定价 10→13、国产 AI 7→10 三条高饱和线继续上抬。新增 腾讯/蚂蚁/NVIDIA/阿里/DeepSeek 5 个公司页，Chip Huyen 1 个人物页，DeepSeek V4/GPT-5.5/Gemma 4/Qwen3.6-27B/OpenRouter 5 个产品页
 - 2026-04-23 — 8 篇新文章（小米 MiMo-V2.5、Microsoft 12 课 Agent 教程、Pixelle-Video 国产短视频、百度千帆 OCR 免费、Google 双 TPU 挑战 NVIDIA、Raschka 拆 RLVR、Chrome AI Mode、Last30Days Skill），首次覆盖 AI 视频 / OCR / AI 搜索 3 个主题。新增 小米/Microsoft/百度/AIDC-AI 4 个公司页，雷军/Sebastian Raschka 2 个人物页，MiMo/Qianfan/Pixelle-Video/Last30Days Skill/Chrome 5 个产品页
@@ -28,6 +29,7 @@
 - [[lei-jun|雷军]] — 小米创始人 / CEO
 - [[sebastian-raschka|Sebastian Raschka]] — LLM 研究者 / 教育者，RLVR/GRPO 拆解
 - [[chip-huyen|Chip Huyen]] — AI Engineering 作者，600 页方法论新书 + 配套 repo
+- [[matt-pocock|Matt Pocock]] — TypeScript 社区头部 KOL / 公开个人 Claude Skills 目录
 
 ### 公司
 - [[openai|OpenAI]] — ChatGPT / Codex / GPT 系列 / GPT-5.5
@@ -74,6 +76,10 @@
 - [[unsloth|Unsloth]] — 本地训练加速框架，4/25 推出 WebUI 图形化本地训练 Gemma 4/Qwen3.5/DeepSeek
 - [[opensre|OpenSRE]] — Tracer-Cloud 开源的 AI Agent for SRE 运维框架
 - [[daily-stock-analysis|Daily Stock Analysis]] — ZhuLinsen 国产开发者 LLM 驱动的 A/H/美股自动分析仪表盘（白嫖架构）
+- [[qwen-family|Qwen 全家桶]] — 阿里通义千问全系列（27B Dense / Pro / Coder / Vision / 1T Max Preview），4/27 一口气 5 个模型上 OpenRouter
+- [[trycua|trycua]] — Computer Use Agent 跨平台开源基础设施（macOS/Linux/Windows）
+- [[gitnexus|GitNexus]] — 浏览器内客户端 Graph RAG，本地化代码知识图谱聊代码
+- [[mattpocock-skills|Matt Pocock Claude Skills]] — Matt Pocock 公开的个人日常 Claude Skills 目录
 
 ## 主题 (Topics)
 
@@ -96,6 +102,7 @@
 - [[ai-research|AI 研究/论文]] — Raschka RLVR / 强化学习 / 推理模型 / GPT-5.5 System Card
 - [[ai-search|AI 搜索]] — Chrome AI Mode / Perplexity / 夸克
 - [[embodied-ai|具身智能]] — Gemma 4 on Jetson Orin Nano / VLA / 桌面机器人
+- [[computer-use-agent|Computer Use Agent]] — Anthropic Claude Computer Use / trycua 跨平台开源基础设施
 
 ## 源质量 (Sources)
 
@@ -105,6 +112,6 @@
 
 ## 覆盖追踪 (Coverage)
 
-- [[article-registry|文章注册表]] — 全部 140 篇文章索引
+- [[article-registry|文章注册表]] — 全部 144 篇文章索引
 - [[topic-saturation|主题饱和度]] — 哪些写多了，哪些是空白
 - [[compliance-log|合规事件日志]] — 小红书违规历史 + L6 触发验证案例

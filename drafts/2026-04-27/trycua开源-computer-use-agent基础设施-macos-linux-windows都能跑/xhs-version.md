@@ -1,0 +1,75 @@
+# trycua 把 Computer Use Agent 的整套基础设施开源了 mac Linux Windows 都能跑
+
+我盯了两天 GitHub Trending，今天最让我坐不住的是 trycua/cua 这个项目，单日 +182 星，累计 14.6k。它干的事很直白，把"让 AI 操作整台桌面电脑"所需要的基础设施，全开源了。
+
+不是 demo，不是 wrapper，是 sandbox + driver + benchmark + 多端 SDK，一整套。而且跨平台，macOS、Linux、Windows 都能跑，连 Android 都在路上。
+
+## 为什么值得看一眼
+
+过去一年，做"AI 操作电脑"这件事的口子越开越大。但你真要落地一个项目，会发现几乎绕不开两条路，要么调远程服务，要么自己用 pyautogui + 截图 + 多模态模型硬撸。前者贵且不灵活，后者跑三天会被各种边界情况搞疯。
+
+trycua 想做的是中间那层基础设施，VM 管理、桌面流式传输、鼠标键盘事件、轨迹录制、benchmark 评估，全都封装好。你只管写 agent 逻辑。
+
+这种项目对中国开发者尤其重要。做自动化、数据采集、RPA 替代品，都需要一个"电脑能被代码精准控制"的底座。以前要么是 RPA 厂商几十万的产品，要么自己拼 selenium + adb + autoit 拼到崩溃。现在多了一个 MIT 协议的开源选项。
+
+## 它到底封装了什么
+
+我把 README 翻了一遍，核心是四块。
+
+**Cua Sandbox**，统一的 VM 和容器 API。一行 Python 起一个 Linux 沙箱，跑命令、截图、点鼠标、敲键盘，全程异步。
+
+```python
+from cua import Sandbox, Image
+
+async with Sandbox.ephemeral(Image.linux()) as sb:
+    result = await sb.shell.run("echo hello")
+    shot = await sb.screenshot()
+    await sb.mouse.click(100, 200)
+    await sb.keyboard.type("Hello from Cua!")
+```
+
+这段代码我看了三遍，因为它把过去要写两百行胶水代码的活，压成了八行。`ephemeral` 这个词用得很妙，agent 跑完任务沙箱就销毁，不会污染宿主。
+
+**Cua Driver**，macOS 上的后台自动化。这是我觉得最有技术含量的一块。它不抢你的鼠标焦点，agent 在后台跑，你在前台正常用电脑。而且支持 Chromium、Figma、Blender 这种不走系统辅助功能的应用。我自己用 pyautogui 跑 Figma 的时候，鼠标会被夺走，根本没法边跑边盯结果。
+
+**CuaBot**，多 agent 的命令行沙箱，原生窗口渲染加 H.265 流。多 agent 同时跑桌面任务，传屏带宽是真问题，压一下码率才能在一台机器上同时看十个 agent 干活。
+
+**Cua-Bench**，跑 OSWorld、ScreenSpot 这些 benchmark 的评估框架，自动导出轨迹。做 agent 训练的同学是刚需。
+
+## 一个让我"卧槽"的设计
+
+它有个细节，所有 agent 操作的轨迹都自动录制，可以重放，也可以直接当强化学习环境的训练数据。
+
+平时我们调 agent 失败了，回头复现 bug 要么靠日志要么靠截图，能拿到的信号非常稀疏。trycua 直接把每一帧的画面 + 每一次点击 + shell 输出全打包，相当于给 agent 装了行车记录仪。这种"录制即数据集"的能力，开源世界里以前几乎没有。
+
+## 它的取向
+
+市面上做 Computer Use 的方案大致两条路。一条是云端托管服务，你把任务交出去，平台替你跑；另一条是把基础设施给你，agent 跑在自己机器上，模型用什么由你决定。trycua 走的是后一条。
+
+文档里明确写了它"agent framework agnostic"，你想接 Claude SDK 就接 Claude，想接 DeepSeek、Qwen-VL 也行，OpenRouter 中转一道也行。
+
+我自己的判断是，这两条路并不冲突。落地一个客户场景，大概率会先用现成服务做原型，验证完再迁到自托管降成本和保数据。trycua 给的就是后半段的路。
+
+## 我会怎么用
+
+我接下来打算做的事，是用它跑一个本地的内容采集 + 自动整理 pipeline。以前用 selenium 做这种事，被各种风控搞得焦头烂额。换成真实桌面环境 + 真实鼠标轨迹，理论上稳定性会好很多。
+
+如果你是独立开发者，建议先 `pip install cua` 跑通官方 hello world。Linux sandbox 起得最快，五分钟能看到第一个 agent 在沙箱里点鼠标。
+
+如果你是做 agent 评估的，直接看 cua-bench 的接入方式，比自己拼 OSWorld 省一周时间。
+
+如果你是做企业 RPA 替代方案的，认真看一下 driver 的后台运行能力，这是相对于商业 RPA 方案的一个差异点。
+
+## 收尾
+
+回到开头那个数字，单日 +182 星。这种增长曲线背后通常只说明一件事，社区憋了很久，等的就是这个。
+
+我对 2026 年 agent 工具链的判断是，开源基础设施会让真正想动手的人能动手。trycua 是目前完整度最高的一个。
+
+剩下的问题留给你。你做 agent 这一年踩过最大的坑是什么，是模型幻觉，是工具调用不稳，还是没有一个像样的运行环境？评论区聊聊。
+
+---
+
+本文不涉及境外软件访问教程，所有实操步骤均基于国内可合法访问的服务。
+
+<!-- REACH (xhs): 8/10 | 品牌✓ 利益点✓ 可操作✓ -->

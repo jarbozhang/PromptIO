@@ -32,4 +32,4 @@
 
 ## 注意
 
-首次入库。Qwen3.6-27B 的关键价值在于"Dense + 本地可跑 + 编程旗舰"三件套，是国产本地推理路线的新基线。后续跟踪点：实测 HumanEval / SWE-bench 分数、量化版 GGUF 出现速度、是否被 VSCode / Cursor 默认集成。
+首次入库 2026-04-24。Qwen3.6-27B 的关键价值在于"Dense + 本地可跑 + 编程旗舰"三件套，是国产本地推理路线的新基线。2026-04-27 阿里把它和 Coder/Vision/Video/1T Max Preview 一起作为 [[qwen-family|Qwen 全家桶]] 整批上了 OpenRouter，本地档不再单点存在，而是和云端旗舰形成端到端档位互补。后续跟踪点：实测 HumanEval / SWE-bench 分数、量化版 GGUF 出现速度、是否被 VSCode / Cursor 默认集成。

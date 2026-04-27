@@ -21,6 +21,7 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-27 | [[gitnexus-graph-rag塞进浏览器-客户端代码知识图谱聊代码\|GitNexus 把 Graph RAG 塞进浏览器，客户端跑代码知识图谱]] | 客户端 Graph RAG / 代码理解新形态 |
 | 2026-04-24 | [[claude-code变笨了-anthropic-retro-opus4-7-system-prompt拆解\|用户骂 Claude Code 变笨，Anthropic 发 retro + Simon 扒 Opus system prompt]] | 质量 retro + prompt 拆解 |
 | 2026-04-24 | [[qwen3-6-27b编程模型发布-27b-dense旗舰本地可跑\|Qwen3.6-27B 27B Dense 本地编程旗舰]] | 国产本地编程模型 |
 | 2026-04-22 | [[马斯克600亿买cursor-不是ai编程的胜利\|SpaceX 600 亿美元收购 Cursor]] | [[ai-mergers\|并购]]（非工具评测） |
@@ -41,7 +42,7 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 ## 饱和度评估
 
-**严重过饱和** — 18 篇/17 天（13%）。4/24 +2 篇（Claude Code 变笨 retro + Opus 4.7 system prompt 拆解 / Qwen3.6-27B Dense 本地编程旗舰），一篇归工具质量事件，一篇归国产本地编程模型——均不属于纯工具评测。
+**严重过饱和** — 20 篇/20 天（14%）。4/27 +1 篇（GitNexus 把 Graph RAG 塞进浏览器，客户端代码知识图谱），4/25 +1（Unsloth WebUI），4/24 +2（Claude Code retro + Qwen3.6-27B 本地编程）继续抬升。GitNexus 归"代码理解新形态/客户端 RAG"，不属于纯工具评测。
 
 ## 建议
 

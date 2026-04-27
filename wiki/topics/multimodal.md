@@ -17,6 +17,7 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶含 Vision/Video 多模态档]] | 国产多模态全档位上 OpenRouter |
 | 2026-04-24 | [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano]] | VLA 端侧视觉语言动作 |
 | 2026-04-23 | [[小米mimo-v2.5上openrouter-百万context全模态白菜价\|小米 MiMo-V2.5 偷偷上了 OpenRouter，1M context 全模态]] | 国产全模态价格底牌 |
 | 2026-04-23 | [[百度千帆ocr-fast免费上openrouter-发票合同截图白嫖\|百度千帆 OCR 居然免费扔到 OpenRouter 上了]] | 多模态 OCR 免费 |
@@ -43,4 +44,4 @@
 
 ## 饱和度评估
 
-**中等饱和** — 8 篇/17 天。4/24 +1 篇（Gemma 4 VLA Jetson 端侧）。多模态主题的边界正在向 VLA（视觉语言动作）+ 端侧具身扩张，后续与 [[embodied-ai|具身智能]] 主题交叉点显著增多。
+**中等饱和** — 9 篇/20 天。4/27 +1 篇（Qwen3.6 全家桶含 Vision/Video 双多模态档）。多模态主题的边界一边向 VLA（视觉语言动作）+ 端侧具身扩张（Gemma 4 Jetson），一边向"国产全档位铺出海"扩张（Qwen 全家桶），后续与 [[embodied-ai|具身智能]] 和 [[ai-pricing|AI 定价]] 主题交叉点同步增多。

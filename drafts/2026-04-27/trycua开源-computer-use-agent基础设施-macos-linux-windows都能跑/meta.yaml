@@ -1,0 +1,30 @@
+title: trycua 把 Computer Use Agent 的整套基础设施开源了，跨 macOS Linux Windows 都能跑
+status: draft
+date: 2026-04-27
+reach: 8
+sources:
+  - github-trending-442c7ff4
+tags:
+  - trycua
+  - Computer-Use-Agent
+  - Agent框架
+  - 开源工具
+  - 桌面自动化
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

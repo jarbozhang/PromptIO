@@ -1,0 +1,31 @@
+title: 阿里 Qwen3.6 全家桶今天一口气上了 5 个模型，从 27B Dense 到 1T Max Preview 全有
+status: draft
+date: 2026-04-27
+reach: 10
+sources:
+  - openrouter-new-model
+tags:
+  - Qwen
+  - 阿里
+  - 国产AI
+  - 多模态
+  - OpenRouter
+  - AI定价
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

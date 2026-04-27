@@ -1,25 +1,25 @@
 # 主题饱和度分析
 
-基于 140 篇文章（2026-04-08 至 2026-04-25）的主题分布。
+基于 144 篇文章（2026-04-08 至 2026-04-27）的主题分布。
 
 ## 高饱和（需要降权或暂停）
 
 | 主题 | 篇数 | 占比 | 建议 |
 |------|------|------|------|
-| [[ai-coding-tools\|AI 编程工具]]生态 | **19** | **14%** | **4/25 +1 篇（Unsloth WebUI 本地训练界面化），4/24 +2 篇基础上继续抬升，严格差异化** |
-| [[agent-frameworks\|Agent 框架]]/落地 | **16** | **11%** | **4/25 +3 篇（HuggingFace ml-intern 自动读 paper、daily_stock_analysis 国产金融 Agent、Tracer-Cloud OpenSRE 运维 Agent），首次进入 SRE 运维和自动化研究两条新赛道** |
-| [[ai-pricing\|AI 定价]]/省钱 | **15** | **11%** | **4/25 +2 篇（GPT-5.5 上 OpenRouter Pro $30 一百万 token + Simon 实测 DeepSeek V4 接近前沿价格零头），价格新底部 + 国产 vs OpenAI Pro 价格档双向对照** |
-| 开源生态 | 10 | 7% | 4/25 无新增 |
-| 安全/[[supply-chain-security\|供应链]]/隐私 | 10 | 7% | 4/25 无新增 |
-| 国产AI生态 | **11** | **8%** | **4/25 +1 篇（daily_stock_analysis 国产开发者 LLM 驱动 A/H/美股自动分析仪表盘）** |
-| [[local-inference\|本地推理]] | **11** | **8%** | **4/25 +2 篇（Simon 实测 DeepSeek V4 本地 + Unsloth WebUI 本地训练图形化）。硬件门槛 + 训练门槛同步下移** |
+| [[ai-coding-tools\|AI 编程工具]]生态 | **20** | **14%** | **4/27 +1 篇（GitNexus 客户端 Graph RAG 代码知识图谱），4/25 +1、4/24 +2 基础上继续抬升，严格差异化** |
+| [[agent-frameworks\|Agent 框架]]/落地 | **18** | **13%** | **4/27 +3 篇（trycua Computer Use Agent 跨平台基础设施 + Matt Pocock 公开个人 Claude Skills 目录 + Qwen 全家桶上 OpenRouter 的 agentic 万亿档），首次进入 Computer Use Agent 和 Skills 工作流公开两条新赛道** |
+| [[ai-pricing\|AI 定价]]/省钱 | **16** | **11%** | **4/27 +1 篇（Qwen3.6 全家桶 5 个模型一口气上 OpenRouter，1T Max Preview 进入价格大档），4/25 +2 基础上继续抬升** |
+| 开源生态 | 10 | 7% | 4/27 无新增 |
+| 安全/[[supply-chain-security\|供应链]]/隐私 | 10 | 7% | 4/27 无新增 |
+| 国产AI生态 | **12** | **8%** | **4/27 +1 篇（Qwen3.6 全家桶 5 个模型上 OpenRouter，从 27B Dense 到 1T Max Preview 全档位铺出海）** |
+| [[local-inference\|本地推理]] | **12** | **8%** | **4/27 +1 篇（Qwen3.6 全家桶含 27B Dense 本地档），4/25 +2 基础上继续。本地档继续以 Qwen 为主线** |
 | [[karpathy\|Karpathy]] 相关 | 4 | 3% | 降权 |
 
 ## 中等饱和（可以继续但注意角度）
 
 | 主题 | 篇数 | 占比 | 建议 |
 |------|------|------|------|
-| [[multimodal\|多模态]] | **8** | **6%** | **4/24 +1 篇（Gemma 4 VLA Jetson 多模态）。继续保留** |
+| [[multimodal\|多模态]] | **9** | **6%** | **4/27 +1 篇（Qwen3.6 全家桶含 Vision/Video，多模态档全线铺开）。继续保留** |
 | AI+中国特色场景 | 7 | 5% | 4/24 无新增 |
 | [[ai-hardware\|AI 硬件]] | **5** | **4%** | **4/24 +1 篇（Gemma 4 Jetson Orin Nano，端侧 VLA 算力入门机）** |
 | AI 商业落地 | 4 | 3% | 4/24 无新增 |
@@ -58,6 +58,22 @@
 | 主题 | 潜力 | 备注 |
 |------|------|------|
 | AI 影视 | 中 | 爱奇艺首次（4/21）后仍可追 |
+
+## 新增覆盖（4/27，4 篇）
+
+注：4/26 跳天未生成。
+
+| 主题 | 篇数 | 备注 |
+|------|------|------|
+| [[ai-pricing\|AI 定价]] | 1 | Qwen3.6 全家桶 5 个模型上 OpenRouter，1T Max Preview 进入新档位 |
+| [[agent-frameworks\|Agent 框架]] | 3 | trycua Computer Use Agent 基础设施 / Matt Pocock 公开个人 Claude Skills 目录 / Qwen 全家桶含 agentic 档 |
+| [[local-inference\|本地推理]] | 1 | Qwen3.6 全家桶含 27B Dense 本地可跑 |
+| [[multimodal\|多模态]] | 1 | Qwen3.6 全家桶含 Vision/Video |
+| 国产AI生态 | 1 | Qwen3.6 全家桶 5 个模型一口气上 OpenRouter |
+| [[ai-coding-tools\|AI 编程工具]] | 1 | GitNexus 把 Graph RAG 塞进浏览器，客户端代码知识图谱 |
+| **[[computer-use-agent\|Computer Use Agent]]** | 1 | **首次覆盖**，trycua 把 Computer Use Agent 整套基础设施开源（macOS/Linux/Windows 跨平台） |
+| **客户端 RAG** | 1 | **首次覆盖**，GitNexus 在浏览器里跑 Graph RAG，代码知识图谱客户端化 |
+| 工作流 | 1 | Matt Pocock 公开自己每天用的 Claude Skills 目录，TypeScript 社区头部影响力 |
 
 ## 新增覆盖（4/25，6 篇）
 
@@ -157,4 +173,4 @@
 
 ## 最后更新
 
-2026-04-25
+2026-04-27

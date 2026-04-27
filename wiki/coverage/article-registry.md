@@ -2,6 +2,17 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-27（4 篇）
+
+注：4/26 跳天未生成。
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|阿里 Qwen3.6 全家桶今天一口气上了 5 个模型，从 27B Dense 到 1T Max Preview 全有]] | 10 | [[alibaba\|阿里]], [[qwen-family\|Qwen]], [[openrouter\|OpenRouter]], [[deepseek\|DeepSeek]] | [[ai-pricing\|AI 定价]] / [[multimodal\|多模态]] / [[local-inference\|本地推理]] / [[agent-frameworks\|Agent 框架]] |
+| [[trycua开源-computer-use-agent基础设施-macos-linux-windows都能跑\|trycua 把 Computer Use Agent 的整套基础设施开源了]] | 8 | [[trycua\|trycua]], [[anthropic\|Anthropic]] | [[agent-frameworks\|Agent 框架]] / [[computer-use-agent\|Computer Use Agent]] |
+| [[gitnexus-graph-rag塞进浏览器-客户端代码知识图谱聊代码\|GitNexus 把 Graph RAG 塞进浏览器，客户端跑代码知识图谱]] | 7 | [[gitnexus\|GitNexus]] | RAG / [[ai-coding-tools\|AI 编程工具]] |
+| [[matt-pocock公开claude-skills目录-一天2519星-typescript社区头部\|Matt Pocock 把自己每天用的 Claude Skills 全公开了，一天 2519 星]] | 7 | [[matt-pocock\|Matt Pocock]], [[claude-code\|Claude Code]] | [[agent-frameworks\|Agent 框架]] / 工作流 |
+
 ## 2026-04-25（6 篇）
 
 | 标题 | REACH | 主要实体 | 主题 |

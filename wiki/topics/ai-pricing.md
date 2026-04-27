@@ -17,6 +17,7 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶 5 模型上 OpenRouter，从 27B Dense 到 1T Max Preview]] | 国产全档位铺设 / 万亿档进入新档位 |
 | 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter，Pro 版 $30 / 百万 token]] | OpenAI Pro 档新价格 |
 | 2026-04-25 | [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 实测 DeepSeek V4 "接近前沿但价格只是零头"]] | 海外 KOL 验证国产价格优势 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 Pro 1.6T + Flash 每 M 一毛钱 双发 OpenRouter]] | 国产价格新底部 |
@@ -33,4 +34,4 @@
 
 ## 饱和度评估
 
-**严重高饱和** — 15 篇/18 天。4/25 +2 篇（GPT-5.5 上 OpenRouter Pro $30 / 百万 token、Simon Willison 海外实测 DeepSeek V4 价格 vs 前沿能力），4/24 +3 篇基础上继续抬升。本主题进入"只收重大价格断档事件"状态。下一轮严格避开纯订阅/折扣类盘点，仅在出现新模型直接拉开价格档差时入题。
+**严重高饱和** — 16 篇/20 天。4/27 +1 篇（Qwen3.6 全家桶 5 模型一次性上 OpenRouter，1T Max Preview 进入新档位），4/25 +2、4/24 +3 基础上继续抬升。本主题进入"只收重大价格断档事件"状态。下一轮严格避开纯订阅/折扣类盘点，仅在出现新模型直接拉开价格档差时入题。
