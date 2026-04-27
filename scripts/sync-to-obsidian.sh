@@ -1,6 +1,6 @@
 #!/bin/bash
 # Sync drafts and wiki/topics to Obsidian vault
-SRC="/Users/jiabozhang/shared_workspace/jiabo/openclaw/PromptIO"
+SRC="/Users/jiabozhang/Documents/CA001/openclaw/PromptIO"
 DST="/Users/jiabozhang/Library/Mobile Documents/iCloud~md~obsidian/Documents/PromptIO"
 
 rsync -a --delete "$SRC/drafts/" "$DST/drafts/"
