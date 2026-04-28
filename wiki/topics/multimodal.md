@@ -17,6 +17,8 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-28 | [[microsoft-vibevoice开源-frontier-voice-ai一天757星\|Microsoft 把 VibeVoice 开源标榜 Frontier Voice AI]] | TTS / 语音 AI 主线 / Microsoft 首次进 |
+| 2026-04-28 | [[meta-ai4animationpy开源-神经网络驱动角色动画-python框架\|Meta 开源 ai4animationpy 神经网络驱动角色动画 Python 框架]] | AI 动画 / AI 游戏首次覆盖 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶含 Vision/Video 多模态档]] | 国产多模态全档位上 OpenRouter |
 | 2026-04-24 | [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano]] | VLA 端侧视觉语言动作 |
 | 2026-04-23 | [[小米mimo-v2.5上openrouter-百万context全模态白菜价\|小米 MiMo-V2.5 偷偷上了 OpenRouter，1M context 全模态]] | 国产全模态价格底牌 |
@@ -33,6 +35,8 @@
 - [[google|Google DeepMind]] — Gemini / Veo / Lyria
 - [[xiaomi|小米]] / [[mimo|MiMo]] — 国产全模态新入局
 - [[baidu|百度]] / [[qianfan|千帆]] — 国产多模态 OCR
+- [[microsoft\|Microsoft]] / [[vibevoice\|VibeVoice]] — TTS / 语音 AI Frontier 自标
+- [[meta\|Meta]] / [[ai4animationpy\|ai4animationpy]] — AI 动画 Python 框架
 - NVIDIA — Lyra
 - VoxCPM / AutoClip — 国产开源
 
@@ -44,4 +48,4 @@
 
 ## 饱和度评估
 
-**中等饱和** — 9 篇/20 天。4/27 +1 篇（Qwen3.6 全家桶含 Vision/Video 双多模态档）。多模态主题的边界一边向 VLA（视觉语言动作）+ 端侧具身扩张（Gemma 4 Jetson），一边向"国产全档位铺出海"扩张（Qwen 全家桶），后续与 [[embodied-ai|具身智能]] 和 [[ai-pricing|AI 定价]] 主题交叉点同步增多。
+**中等饱和** — 10 篇/21 天。4/28 +2 篇（Microsoft VibeVoice Frontier Voice AI 进入 TTS 主线 + Meta ai4animationpy 神经网络驱动角色动画进入 AI 动画 / AI 游戏方向），4/27 +1 基础上继续抬升。多模态主题的边界向四方向扩张：VLA + 端侧具身（Gemma 4 Jetson）、国产全档位铺出海（Qwen 全家桶）、TTS / 语音 AI（VibeVoice）、AI 动画 / AI 游戏（ai4animationpy）。后续与 [[embodied-ai|具身智能]]、[[ai-pricing|AI 定价]]、[[ai-video|AI 视频]] 主题交叉点同步增多。

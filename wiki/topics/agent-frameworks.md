@@ -14,6 +14,7 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-04-28 | [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter Latest 别名机制覆盖 7 个主流模型]] | Agent 调用层自动跟版 / 平台机制 |
 | 2026-04-27 | [[trycua开源-computer-use-agent基础设施-macos-linux-windows都能跑\|trycua 把 Computer Use Agent 整套基础设施开源]] | [[computer-use-agent\|Computer Use Agent]] 跨平台基础设施首次落地 |
 | 2026-04-27 | [[matt-pocock公开claude-skills目录-一天2519星-typescript社区头部\|Matt Pocock 公开个人 Claude Skills 目录]] | KOL 工作流公开化 / Skills 生态扩散 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶 5 模型上 OpenRouter，含 agentic 万亿档]] | 国产全档位 agentic 出海 |
@@ -35,7 +36,7 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 ## 饱和度评估
 
-**高饱和** — 18 篇/20 天。4/27 +3 篇（trycua Computer Use Agent 基础设施、Matt Pocock 公开 Claude Skills 目录、Qwen 全家桶含 agentic 档），4/25 +3 基础上继续抬升。Agent 框架议题进入"自动化研究 + 垂类落地（金融/运维）+ 国产 agentic 全档位 + 个人工作流公开化 + Computer Use Agent"五线并发阶段。后续选题严格聚焦"跑通实操"或"实盘/生产评测"，不再做工具盘点；新垂类（医疗/法律/教育 Agent）保留入口。
+**高饱和** — 19 篇/21 天。4/28 +1 篇（OpenRouter Latest 别名机制让 Agent 调用层自动跟随最新版本），4/27 +3 基础上继续抬升。Agent 框架议题进入"自动化研究 + 垂类落地（金融/运维）+ 国产 agentic 全档位 + 个人工作流公开化 + Computer Use Agent + 平台调用层机制"六线并发阶段。后续选题严格聚焦"跑通实操"或"实盘/生产评测"，不再做工具盘点；新垂类（医疗/法律/教育 Agent）保留入口。
 
 ## 潜在下一个角度
 

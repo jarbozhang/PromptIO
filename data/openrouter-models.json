@@ -1,5 +1,33 @@
 {
   "models": {
+    "~anthropic/claude-haiku-latest": {
+      "name": "Anthropic Claude Haiku Latest",
+      "context_length": 200000
+    },
+    "~openai/gpt-mini-latest": {
+      "name": "OpenAI GPT Mini Latest",
+      "context_length": 400000
+    },
+    "~google/gemini-pro-latest": {
+      "name": "Google Gemini Pro Latest",
+      "context_length": 1048576
+    },
+    "~moonshotai/kimi-latest": {
+      "name": "MoonshotAI Kimi Latest",
+      "context_length": 256000
+    },
+    "~google/gemini-flash-latest": {
+      "name": "Google Gemini Flash Latest",
+      "context_length": 1048576
+    },
+    "~anthropic/claude-sonnet-latest": {
+      "name": "Anthropic Claude Sonnet Latest",
+      "context_length": 1000000
+    },
+    "~openai/gpt-latest": {
+      "name": "OpenAI GPT Latest",
+      "context_length": 1050000
+    },
     "qwen/qwen3.5-plus-20260420": {
       "name": "Qwen: Qwen3.5 Plus 2026-04-20",
       "context_length": 1000000
@@ -1441,5 +1469,5 @@
       "context_length": 16385
     }
   },
-  "updated_at": "2026-04-27T08:04:20.686Z"
+  "updated_at": "2026-04-28T02:11:33.120Z"
 }

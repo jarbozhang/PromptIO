@@ -1,14 +1,14 @@
 # 主题饱和度分析
 
-基于 144 篇文章（2026-04-08 至 2026-04-27）的主题分布。
+基于 148 篇文章（2026-04-08 至 2026-04-28）的主题分布。
 
 ## 高饱和（需要降权或暂停）
 
 | 主题 | 篇数 | 占比 | 建议 |
 |------|------|------|------|
-| [[ai-coding-tools\|AI 编程工具]]生态 | **20** | **14%** | **4/27 +1 篇（GitNexus 客户端 Graph RAG 代码知识图谱），4/25 +1、4/24 +2 基础上继续抬升，严格差异化** |
-| [[agent-frameworks\|Agent 框架]]/落地 | **18** | **13%** | **4/27 +3 篇（trycua Computer Use Agent 跨平台基础设施 + Matt Pocock 公开个人 Claude Skills 目录 + Qwen 全家桶上 OpenRouter 的 agentic 万亿档），首次进入 Computer Use Agent 和 Skills 工作流公开两条新赛道** |
-| [[ai-pricing\|AI 定价]]/省钱 | **16** | **11%** | **4/27 +1 篇（Qwen3.6 全家桶 5 个模型一口气上 OpenRouter，1T Max Preview 进入价格大档），4/25 +2 基础上继续抬升** |
+| [[ai-coding-tools\|AI 编程工具]]生态 | 20 | 14% | 4/28 无新增 |
+| [[agent-frameworks\|Agent 框架]]/落地 | **19** | **13%** | **4/28 +1 篇（OpenRouter Latest 别名机制让 Agent 调用层自动跟版），4/27 +3 基础上继续抬升** |
+| [[ai-pricing\|AI 定价]]/省钱 | **17** | **11%** | **4/28 +1 篇（OpenRouter Latest 别名机制覆盖 7 个主流模型，省去手动改 model id 维护成本），4/27 +1 基础上继续抬升** |
 | 开源生态 | 10 | 7% | 4/27 无新增 |
 | 安全/[[supply-chain-security\|供应链]]/隐私 | 10 | 7% | 4/27 无新增 |
 | 国产AI生态 | **12** | **8%** | **4/27 +1 篇（Qwen3.6 全家桶 5 个模型上 OpenRouter，从 27B Dense 到 1T Max Preview 全档位铺出海）** |
@@ -19,7 +19,7 @@
 
 | 主题 | 篇数 | 占比 | 建议 |
 |------|------|------|------|
-| [[multimodal\|多模态]] | **9** | **6%** | **4/27 +1 篇（Qwen3.6 全家桶含 Vision/Video，多模态档全线铺开）。继续保留** |
+| [[multimodal\|多模态]] | **10** | **7%** | **4/28 +1 篇（Microsoft VibeVoice Frontier Voice AI + Meta ai4animationpy 神经网络驱动角色动画，多模态向 TTS 与 AI 动画两条新边界扩张）** |
 | AI+中国特色场景 | 7 | 5% | 4/24 无新增 |
 | [[ai-hardware\|AI 硬件]] | **5** | **4%** | **4/24 +1 篇（Gemma 4 Jetson Orin Nano，端侧 VLA 算力入门机）** |
 | AI 商业落地 | 4 | 3% | 4/24 无新增 |
@@ -31,7 +31,7 @@
 | [[ai-security\|AI 安全/Mythos]] | **3** | **2%** | **4/24 +1 篇（GPT-5.5 + Bio Bug Bounty 2.5 万美元），从 Mythos 单线扩展到 OpenAI/Bio 双线** |
 | [[ai-research\|AI 研究/论文]] | **6** | **4%** | **4/25 +3 篇（GPT-5.5 上 OpenRouter + Simon 提示词指南、Simon 实测 DeepSeek V4、HuggingFace ml-intern 自动读 paper），从 3 跃升到 6，研究/方法论侧形成稳定供给** |
 | [[ai-education\|AI+教育]] | **3** | **2%** | **4/24 +1 篇（Chip Huyen 配套 repo + 600 页新书）。方法论级 AI 工程师指南首次** |
-| TTS/语音 | 2 | 1% | 等新产品 |
+| TTS/语音 | **3** | **2%** | **4/28 +1 篇（Microsoft VibeVoice 开源标榜 Frontier Voice AI，一天 757 星，Microsoft 第一次进入 TTS 主线）** |
 
 ## 低饱和（有选题空间）
 
@@ -58,6 +58,19 @@
 | 主题 | 潜力 | 备注 |
 |------|------|------|
 | AI 影视 | 中 | 爱奇艺首次（4/21）后仍可追 |
+
+## 新增覆盖（4/28，4 篇）
+
+| 主题 | 篇数 | 备注 |
+|------|------|------|
+| [[ai-pricing\|AI 定价]] | 1 | OpenRouter Latest 别名机制覆盖 7 个主流模型，省去手动改 model id 维护成本 |
+| [[agent-frameworks\|Agent 框架]] | 1 | OpenRouter Latest 别名让 Agent 调用层自动跟最新版本 |
+| [[multimodal\|多模态]] | 2 | Microsoft VibeVoice Frontier Voice AI + Meta ai4animationpy 神经网络驱动角色动画 |
+| TTS/语音 | 1 | Microsoft VibeVoice 开源标榜 Frontier Voice AI，一天 757 星 |
+| **翻译工具** | 1 | **首次覆盖**，hydropix translate 用 LLM 翻译整本书，断点续传不限大小，国内可接 Ollama |
+| 本地推理 | 1 | hydropix translate 接 Ollama 本地推理路线 |
+| **AI 动画** | 1 | **首次覆盖**，Meta 开源 ai4animationpy，神经网络驱动角色动画 Python 框架（与 [[ai-video\|AI 视频]] 交叉） |
+| AI 游戏 | 1 | Meta ai4animationpy 把动画做成 Python 框架，游戏/虚拟人开发可直接接 |
 
 ## 新增覆盖（4/27，4 篇）
 
@@ -173,4 +186,4 @@
 
 ## 最后更新
 
-2026-04-27
+2026-04-28

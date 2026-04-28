@@ -1,0 +1,30 @@
+title: 一个开源工具用 LLM 翻译整本书，断点续传不限大小，国内可接 Ollama
+status: draft
+date: 2026-04-28
+reach: 7
+sources:
+  - github-trending-795ee315
+tags:
+  - 翻译工具
+  - LLM应用
+  - Ollama
+  - OpenRouter
+  - 开源工具
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

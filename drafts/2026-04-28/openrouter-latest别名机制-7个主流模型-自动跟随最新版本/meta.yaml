@@ -1,0 +1,30 @@
+title: OpenRouter 给 7 个主流模型一口气加了 Latest 别名，再也不用追模型版本号了
+status: draft
+date: 2026-04-28
+reach: 8
+sources:
+  - openrouter-new-model
+tags:
+  - OpenRouter
+  - Latest别名
+  - 模型路由
+  - 多模型
+  - AI定价
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

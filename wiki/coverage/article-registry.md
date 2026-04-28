@@ -2,6 +2,15 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-28（4 篇）
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| [[microsoft-vibevoice开源-frontier-voice-ai一天757星\|Microsoft 把 VibeVoice 开源了，标榜 Frontier Voice AI 一天涨 757 颗星]] | 8 | [[microsoft\|Microsoft]], [[vibevoice\|VibeVoice]] | TTS / [[multimodal\|多模态]] |
+| [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter 给 7 个主流模型一口气加了 Latest 别名]] | 8 | [[openrouter\|OpenRouter]], [[openai\|OpenAI]], [[anthropic\|Anthropic]], [[google\|Google]], [[moonshot\|Moonshot]] | [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] |
+| [[hydropix-translate-llm整本书翻译-断点续传-ollama本地可接\|一个开源工具用 LLM 翻译整本书，断点续传不限大小，国内可接 Ollama]] | 7 | hydropix, [[openrouter\|OpenRouter]], Ollama | 翻译工具 / 本地推理 |
+| [[meta-ai4animationpy开源-神经网络驱动角色动画-python框架\|Meta 开源 ai4animationpy，把神经网络驱动的角色动画做成 Python 框架]] | 7 | [[meta\|Meta]] | AI 游戏 / AI 动画 / [[multimodal\|多模态]] |
+
 ## 2026-04-27（4 篇）
 
 注：4/26 跳天未生成。

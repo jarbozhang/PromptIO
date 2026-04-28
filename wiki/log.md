@@ -2,6 +2,15 @@
 
 追加式记录，最新在前。
 
+## [2026-04-28] generate | 4 drafts, REACH>=7
+
+- 新增文章：Microsoft 把 VibeVoice 开源（Frontier Voice AI 一天 757 星）、OpenRouter 给 7 个主流模型加 Latest 别名（自动跟随最新版本）、hydropix translate 用 LLM 翻译整本书（断点续传，国内可接 Ollama）、Meta 开源 ai4animationpy（神经网络驱动角色动画 Python 框架）
+- 涉及实体：VibeVoice（新建产品页）、translatebooks-llm/hydropix（新建产品页）、ai4animationpy（新建产品页）；Microsoft/Meta/OpenRouter 追加动态
+- 主题饱和变化：Agent 框架 18→19、AI 定价 16→17、多模态 9→10、TTS/语音 2→3；首次覆盖 **翻译工具**（hydropix）、**AI 动画**（Meta ai4animationpy）
+- 新建页面：entities/products/vibevoice.md, entities/products/translatebooks-llm.md, entities/products/ai4animationpy.md
+- 更新 wiki: article-registry（4/28 4 篇节 + 总篇数 144→148）、topic-saturation、log、index、entities/companies/microsoft.md、entities/companies/meta.md、entities/products/openrouter.md、ai-pricing/agent-frameworks/multimodal 主题页
+- 合规：2 篇 compliant + 2 篇 primary 直发
+
 ## [2026-04-27] generate | 4 drafts, REACH>=7
 
 - 注：4/26 跳天未生成
