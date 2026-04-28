@@ -1,16 +1,16 @@
 # 主题饱和度分析
 
-基于 148 篇文章（2026-04-08 至 2026-04-28）的主题分布。
+基于 150 篇文章（2026-04-08 至 2026-04-28）的主题分布。
 
 ## 高饱和（需要降权或暂停）
 
 | 主题 | 篇数 | 占比 | 建议 |
 |------|------|------|------|
 | [[ai-coding-tools\|AI 编程工具]]生态 | 20 | 14% | 4/28 无新增 |
-| [[agent-frameworks\|Agent 框架]]/落地 | **19** | **13%** | **4/28 +1 篇（OpenRouter Latest 别名机制让 Agent 调用层自动跟版），4/27 +3 基础上继续抬升** |
+| [[agent-frameworks\|Agent 框架]]/落地 | **21** | **14%** | **4/28 补 +2 篇（openclaw 365k 星 TypeScript 圈最大个人 AI 助手 + Hermes Agent 12 万星 NousResearch 持久成长 agent），加上当日早先 +1（OpenRouter Latest 别名机制），4/28 累计 +3** |
 | [[ai-pricing\|AI 定价]]/省钱 | **17** | **11%** | **4/28 +1 篇（OpenRouter Latest 别名机制覆盖 7 个主流模型，省去手动改 model id 维护成本），4/27 +1 基础上继续抬升** |
 | 开源生态 | 10 | 7% | 4/27 无新增 |
-| 安全/[[supply-chain-security\|供应链]]/隐私 | 10 | 7% | 4/27 无新增 |
+| 安全/[[supply-chain-security\|供应链]]/隐私 | **11** | **7%** | **4/28 补 +1 篇（openclaw 365k 星 4 月安全事件，TypeScript 圈最大个人 AI 助手的供应链/扩展面风险）** |
 | 国产AI生态 | **12** | **8%** | **4/27 +1 篇（Qwen3.6 全家桶 5 个模型上 OpenRouter，从 27B Dense 到 1T Max Preview 全档位铺出海）** |
 | [[local-inference\|本地推理]] | **12** | **8%** | **4/27 +1 篇（Qwen3.6 全家桶含 27B Dense 本地档），4/25 +2 基础上继续。本地档继续以 Qwen 为主线** |
 | [[karpathy\|Karpathy]] 相关 | 4 | 3% | 降权 |
@@ -59,18 +59,21 @@
 |------|------|------|
 | AI 影视 | 中 | 爱奇艺首次（4/21）后仍可追 |
 
-## 新增覆盖（4/28，4 篇）
+## 新增覆盖（4/28，6 篇，含 openclaw 生态补 2）
 
 | 主题 | 篇数 | 备注 |
 |------|------|------|
 | [[ai-pricing\|AI 定价]] | 1 | OpenRouter Latest 别名机制覆盖 7 个主流模型，省去手动改 model id 维护成本 |
-| [[agent-frameworks\|Agent 框架]] | 1 | OpenRouter Latest 别名让 Agent 调用层自动跟最新版本 |
+| [[agent-frameworks\|Agent 框架]] | 3 | OpenRouter Latest 别名让 Agent 调用层自动跟最新版本 / openclaw 365k 星跨平台个人 AI 助手 / Hermes Agent 12 万星 NousResearch 持久成长 agent |
 | [[multimodal\|多模态]] | 2 | Microsoft VibeVoice Frontier Voice AI + Meta ai4animationpy 神经网络驱动角色动画 |
 | TTS/语音 | 1 | Microsoft VibeVoice 开源标榜 Frontier Voice AI，一天 757 星 |
 | **翻译工具** | 1 | **首次覆盖**，hydropix translate 用 LLM 翻译整本书，断点续传不限大小，国内可接 Ollama |
 | 本地推理 | 1 | hydropix translate 接 Ollama 本地推理路线 |
 | **AI 动画** | 1 | **首次覆盖**，Meta 开源 ai4animationpy，神经网络驱动角色动画 Python 框架（与 [[ai-video\|AI 视频]] 交叉） |
 | AI 游戏 | 1 | Meta ai4animationpy 把动画做成 Python 框架，游戏/虚拟人开发可直接接 |
+| [[supply-chain-security\|供应链安全]] | 1 | openclaw 365k 星 TypeScript 圈最大个人 AI 助手 4 月安全事件，扩展面/供应链风险首次落到个人 AI 助手品类 |
+| **[[openclaw-ecosystem\|openclaw 生态]]** | 2 | **首次正式覆盖**（之前 4/23 last30days-skill 提过 clawhub 但没单独立主题），openclaw 主体 + Hermes Agent 接入 openclaw 生态共同形成 openclaw/clawhub/clawdbot/moltbot 体系入口 |
+| Agent 记忆 | 1 | Hermes Agent 持久成长 agent，长期记忆 / agent 自演化路线首次单独覆盖 |
 
 ## 新增覆盖（4/27，4 篇）
 

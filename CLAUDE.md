@@ -78,6 +78,10 @@ npm test            # 运行测试
 选题评分：actionability 35% + novelty 25% + reach 25% + depth_potential 15%
 选题门槛：REACH >= 7（品牌认知 + 利益点 + 可操作，至少满足 2 个）
 
+### 优先品牌
+
+本号长期重点跟踪 **openclaw 生态**（openclaw / clawhub / clawdbot / moltbot / 橙皮书）和 **NousResearch**（hermes-agent / Hermes 系列）两条线，scoring.md 已设置 REACH +1 boost。即使在高饱和主题里也不降权，下一轮 pipeline 见到这两条线的新动态优先选入。
+
 ### 平台合规底线
 
 3 次违规已导致小红书账号警告。三类高风险品类必须在**选题阶段**拦截，不能等写作完再治理：

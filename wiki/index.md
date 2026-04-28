@@ -4,7 +4,7 @@
 
 ## 最近更新
 
-- 2026-04-28 — 4 篇新文章（Microsoft 把 VibeVoice 开源标榜 Frontier Voice AI 一天 757 星、OpenRouter 给 7 个主流模型加 Latest 别名自动跟版、hydropix translate 用 LLM 翻译整本书断点续传国内可接 Ollama、Meta 开源 ai4animationpy 神经网络驱动角色动画 Python 框架）。首次覆盖 **翻译工具** 和 **AI 动画** 两个主题；Agent 框架 18→19、AI 定价 16→17、多模态 9→10、TTS/语音 2→3 同步抬升。新增 vibevoice/translatebooks-llm/ai4animationpy 3 个产品页
+- 2026-04-28 — 6 篇新文章（Microsoft 把 VibeVoice 开源标榜 Frontier Voice AI 一天 757 星、OpenRouter 给 7 个主流模型加 Latest 别名自动跟版、hydropix translate 用 LLM 翻译整本书断点续传国内可接 Ollama、Meta 开源 ai4animationpy 神经网络驱动角色动画 Python 框架、openclaw 365k 星 TypeScript 圈最大个人 AI 助手并复盘 4 月安全事件、Hermes Agent 12 万星 NousResearch 持久成长 agent 接入 openclaw 生态）。首次覆盖 **翻译工具**、**AI 动画** 和 **openclaw 生态** 三个主题；Agent 框架 18→21、AI 定价 16→17、多模态 9→10、TTS/语音 2→3、供应链安全 10→11 同步抬升。新增 vibevoice/translatebooks-llm/ai4animationpy/openclaw/hermes-agent 5 个产品页 + openclaw-org/nousresearch 2 个公司页 + openclaw-ecosystem 1 个主题页
 - 2026-04-27 — 4 篇新文章（阿里 Qwen3.6 全家桶 5 个模型上 OpenRouter 从 27B Dense 到 1T Max Preview、trycua 开源 Computer Use Agent 跨平台基础设施、GitNexus 把 Graph RAG 塞进浏览器做客户端代码知识图谱、Matt Pocock 公开 Claude Skills 目录一天 2519 星）。首次覆盖 **Computer Use Agent** 和 **客户端 RAG** 两个主题；Agent 框架 16→18、AI 定价 15→16、本地推理 11→12、多模态 8→9、AI 编程工具 19→20、国产 AI 11→12 全线抬升。新增 trycua/GitNexus/qwen-family/mattpocock-skills 4 个产品页，Matt Pocock 1 个人物页（注：4/26 跳天未生成）
 - 2026-04-25 — 6 篇新文章（GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南、Simon 实测 DeepSeek V4 接近前沿价格零头、HuggingFace ml-intern 自动读 paper 训模型一条龙、Unsloth WebUI 本地训练 Gemma 4/Qwen3.5/DeepSeek 图形化、ZhuLinsen daily_stock_analysis A/H/美股 LLM 自动分析仪表盘、Tracer-Cloud OpenSRE 把 AI Agent 杀进 SRE 运维）。首次覆盖 **DevOps/SRE 运维** 主题；Agent 框架 13→16、AI 定价 13→15、本地推理 9→11、AI 研究 3→6 同步抬升。新增 HuggingFace 公司页 1 个，ml-intern/Unsloth/OpenSRE/daily-stock-analysis 4 个产品页
 - 2026-04-24 — 8 篇新文章（DeepSeek V4 Pro/Flash 双发、GPT-5.5 + Bio Bug Bounty、腾讯 Hy3 + 蚂蚁 Ling-2.6-1T 万亿免费、Gemma 4 Jetson VLA 桌面机器人、Claude Code 变笨 retro + Opus 4.7 system prompt、Chip Huyen AI Engineering 新书、Qwen3.6-27B Dense 编程旗舰、Open-Generative-AI 200 模型 MIT 开源）。首次落地覆盖 **具身智能** 主题；本地推理 6→9、AI 定价 10→13、国产 AI 7→10 三条高饱和线继续上抬。新增 腾讯/蚂蚁/NVIDIA/阿里/DeepSeek 5 个公司页，Chip Huyen 1 个人物页，DeepSeek V4/GPT-5.5/Gemma 4/Qwen3.6-27B/OpenRouter 5 个产品页
@@ -49,6 +49,8 @@
 - [[nvidia|NVIDIA]] — Jetson Orin Nano 端侧 AI 算力 / Lyra / 免费 API Key
 - [[alibaba|阿里 Alibaba]] — 通义千问 Qwen 系列 / Qwen3.6-27B Dense 本地编程旗舰
 - [[huggingface|HuggingFace]] — 全球最大开源 AI 模型社区 / ml-intern 自动读 paper 训模型 / Unsloth WebUI 上游托管
+- [[openclaw-org|openclaw]] — openclaw 项目方/组织，openclaw/clawhub/clawdbot/moltbot 体系维护者
+- [[nousresearch|NousResearch]] — 独立 AI 研究实验室 / Hermes Agent 持久成长 agent 团队
 
 ### 产品
 - [[claude-code|Claude Code]] — Anthropic 的 CLI 编程工具
@@ -84,6 +86,8 @@
 - [[vibevoice|VibeVoice]] — Microsoft 开源 Frontier Voice AI，TTS 方向，一天 757 星
 - [[translatebooks-llm|hydropix translate]] — 用 LLM 翻译整本书，断点续传不限大小，国内可接 Ollama
 - [[ai4animationpy|ai4animationpy]] — Meta 开源神经网络驱动角色动画 Python 框架
+- [[openclaw|openclaw]] — TypeScript 圈最大跨平台个人 AI 助手 / 365k 星 / 4 月安全事件
+- [[hermes-agent|Hermes Agent]] — NousResearch 持久成长 agent / 12 万星 / 接入 openclaw 生态
 
 ## 主题 (Topics)
 
@@ -107,6 +111,7 @@
 - [[ai-search|AI 搜索]] — Chrome AI Mode / Perplexity / 夸克
 - [[embodied-ai|具身智能]] — Gemma 4 on Jetson Orin Nano / VLA / 桌面机器人
 - [[computer-use-agent|Computer Use Agent]] — Anthropic Claude Computer Use / trycua 跨平台开源基础设施
+- [[openclaw-ecosystem|openclaw 生态]] — openclaw / clawhub / clawdbot / moltbot 体系 / TypeScript 圈个人 AI 助手生态
 
 ## 源质量 (Sources)
 
@@ -116,6 +121,6 @@
 
 ## 覆盖追踪 (Coverage)
 
-- [[article-registry|文章注册表]] — 全部 148 篇文章索引
+- [[article-registry|文章注册表]] — 全部 150 篇文章索引
 - [[topic-saturation|主题饱和度]] — 哪些写多了，哪些是空白
 - [[compliance-log|合规事件日志]] — 小红书违规历史 + L6 触发验证案例

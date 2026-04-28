@@ -1,0 +1,33 @@
+title: openclaw 365k 星已经是 TypeScript 圈最大个人 AI 助手了，但 4 月那个安全事件你不能不知道
+status: draft
+date: 2026-04-28
+reach: 9
+sources:
+  - github-trending-0bd21c2c
+  - arstechnica-ai-03aa16cb
+  - latent-space-a65aa85c
+  - last-week-in-ai-5a91f296
+tags:
+  - openclaw
+  - 个人AI助手
+  - Agent框架
+  - 安全事件
+  - 跨平台
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

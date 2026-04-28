@@ -36,6 +36,16 @@ REACH 分数基于以下三要素评估：
 
 **选题门槛：REACH >= 7（至少满足 2 个要素）**
 
+## 优先品牌（REACH +1 boost）
+
+以下品牌/项目是本号长期重点跟踪对象，候选选题命中任一品牌时 REACH 自动 +1（最高封顶 10），并优先选入：
+
+- **openclaw 生态**：openclaw、clawhub、clawdbot、moltbot、Molty、橙皮书相关
+- **NousResearch**：hermes-agent、Hermes 系列、NousResearch 出品的开源 agent / 模型 / 数据集
+
+理由：openclaw 是本号定位的核心生态（项目目录在 openclaw/PromptIO 下），Hermes Agent 与 openclaw 共享 topics（clawdbot/moltbot），属同一生态线。这两条线的覆盖度即使在高饱和主题里也不降权，鼓励持续报道。
+
+
 ## REACH >= 7 的典型特征（必须至少满足 2 个要素）
 
 - 品牌 + 可操作：DeepSeek 出了新功能，读者能直接试

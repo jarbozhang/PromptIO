@@ -2,10 +2,12 @@
 
 全部已生成文章索引，按日期倒序。
 
-## 2026-04-28（4 篇）
+## 2026-04-28（6 篇，含 openclaw 生态补 2）
 
 | 标题 | REACH | 主要实体 | 主题 |
 |------|-------|---------|------|
+| [[openclaw-365k星跨平台个人ai助手-4月安全事件你不能不知道\|openclaw 365k 星已经是 TypeScript 圈最大个人 AI 助手了，但 4 月那个安全事件你不能不知道]] | 9 | [[openclaw-org\|openclaw]], [[openclaw\|openclaw]] | [[agent-frameworks\|Agent 框架]] / [[supply-chain-security\|供应链安全]] / [[openclaw-ecosystem\|openclaw 生态]] |
+| [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 已经 12 万星了，NousResearch 这个 agent 真的会和你一起长大]] | 8 | [[nousresearch\|NousResearch]], [[hermes-agent\|hermes-agent]], [[openclaw-org\|openclaw]] | [[agent-frameworks\|Agent 框架]] / Agent 记忆 / [[openclaw-ecosystem\|openclaw 生态]] |
 | [[microsoft-vibevoice开源-frontier-voice-ai一天757星\|Microsoft 把 VibeVoice 开源了，标榜 Frontier Voice AI 一天涨 757 颗星]] | 8 | [[microsoft\|Microsoft]], [[vibevoice\|VibeVoice]] | TTS / [[multimodal\|多模态]] |
 | [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter 给 7 个主流模型一口气加了 Latest 别名]] | 8 | [[openrouter\|OpenRouter]], [[openai\|OpenAI]], [[anthropic\|Anthropic]], [[google\|Google]], [[moonshot\|Moonshot]] | [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] |
 | [[hydropix-translate-llm整本书翻译-断点续传-ollama本地可接\|一个开源工具用 LLM 翻译整本书，断点续传不限大小，国内可接 Ollama]] | 7 | hydropix, [[openrouter\|OpenRouter]], Ollama | 翻译工具 / 本地推理 |

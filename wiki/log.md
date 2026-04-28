@@ -10,6 +10,7 @@
 - 新建页面：entities/products/vibevoice.md, entities/products/translatebooks-llm.md, entities/products/ai4animationpy.md
 - 更新 wiki: article-registry（4/28 4 篇节 + 总篇数 144→148）、topic-saturation、log、index、entities/companies/microsoft.md、entities/companies/meta.md、entities/products/openrouter.md、ai-pricing/agent-frameworks/multimodal 主题页
 - 合规：2 篇 compliant + 2 篇 primary 直发
+- **追加（同日补 2 篇 openclaw 生态）**：openclaw 365k 星跨平台个人 AI 助手（含 4 月安全事件）+ Hermes Agent 12 万星 NousResearch 持久成长 agent。Agent 框架 19→21、供应链安全 10→11；**首次正式覆盖 openclaw 生态主题**（之前 4/23 last30days-skill 提过 clawhub 未单独立主题）。新建 entities/companies/openclaw-org.md、entities/companies/nousresearch.md、entities/products/openclaw.md、entities/products/hermes-agent.md、topics/openclaw-ecosystem.md；更新 article-registry（4/28 4→6 篇 + 总篇数 148→150）、topic-saturation、index、agent-frameworks/supply-chain-security 主题页。两篇均 L6 通过（compliant）
 
 ## [2026-04-27] generate | 4 drafts, REACH>=7
 
