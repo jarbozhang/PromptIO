@@ -1,0 +1,34 @@
+title: "Chrome 加了 Skills，把你最好用的 prompt 变成一键工具"
+status: draft
+date: 2026-04-28
+reach: 7
+sources:
+  - google-ai-blog-a7d98974
+  - google-ai-blog-35335b85
+tags:
+  - google
+  - chrome
+  - skills
+  - prompts
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 7
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: false
+  l6_issues:
+    - type: overseas_access
+      text: "访问 Google 账号 + Gemini"
+      suggestion: "去掉启用步骤，改写为国产浏览器交互预演"
+  xhs_pass: false
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

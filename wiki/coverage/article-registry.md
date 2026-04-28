@@ -2,16 +2,24 @@
 
 全部已生成文章索引，按日期倒序。
 
-## 2026-04-28（6 篇，含 openclaw 生态补 2）
+## 2026-04-28（14 篇，含 openclaw 生态补 2 + 增量补 8）
 
 | 标题 | REACH | 主要实体 | 主题 |
 |------|-------|---------|------|
 | [[openclaw-365k星跨平台个人ai助手-4月安全事件你不能不知道\|openclaw 365k 星已经是 TypeScript 圈最大个人 AI 助手了，但 4 月那个安全事件你不能不知道]] | 9 | [[openclaw-org\|openclaw]], [[openclaw\|openclaw]] | [[agent-frameworks\|Agent 框架]] / [[supply-chain-security\|供应链安全]] / [[openclaw-ecosystem\|openclaw 生态]] |
+| [[openai要造手机-ai-agent替代app-mediatek-qualcomm\|OpenAI 真的要造手机了，AI agent 直接干掉 App]] | 9 | [[openai\|OpenAI]], MediaTek, Qualcomm, Luxshare | [[ai-hardware\|AI 硬件]] / AI 产品体验 / [[agent-frameworks\|Agent 框架]] |
+| [[apple换ceo-ternus上任-musk想600亿买cursor\|Apple 换 CEO 第一周，Musk 就要 600 亿买 Cursor]] | 9 | Apple, [[claude-code\|Cursor]], [[elon-musk\|Musk]], xAI | [[ai-coding-tools\|AI 编程工具]] / [[ai-mergers\|AI 行业并购]] / [[ai-pricing\|AI 定价]] |
 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 已经 12 万星了，NousResearch 这个 agent 真的会和你一起长大]] | 8 | [[nousresearch\|NousResearch]], [[hermes-agent\|hermes-agent]], [[openclaw-org\|openclaw]] | [[agent-frameworks\|Agent 框架]] / Agent 记忆 / [[openclaw-ecosystem\|openclaw 生态]] |
 | [[microsoft-vibevoice开源-frontier-voice-ai一天757星\|Microsoft 把 VibeVoice 开源了，标榜 Frontier Voice AI 一天涨 757 颗星]] | 8 | [[microsoft\|Microsoft]], [[vibevoice\|VibeVoice]] | TTS / [[multimodal\|多模态]] |
 | [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter 给 7 个主流模型一口气加了 Latest 别名]] | 8 | [[openrouter\|OpenRouter]], [[openai\|OpenAI]], [[anthropic\|Anthropic]], [[google\|Google]], [[moonshot\|Moonshot]] | [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] |
+| [[google-kaggle-5天ai-agent速成课-免费回炉\|Google + Kaggle 又开了 5 天 AI Agent 速成课，免费，6 月开课]] | 8 | [[google\|Google]], Kaggle | [[ai-education\|AI+教育]] / [[agent-frameworks\|Agent 框架]] / [[ai-coding-tools\|AI 编程工具]] |
+| [[ai-agent删了生产数据库-confession全文\|一个 AI agent 把生产数据库删了，开发者把 confession 贴出来了]] | 8 | [[claude-code\|Claude Code]], HN社区 | [[ai-coding-tools\|AI 编程工具]] / [[supply-chain-security\|供应链安全]] / [[agent-frameworks\|Agent 框架]] |
+| [[google-veo-3.1-lite-最便宜视频生成模型\|Google Veo 3.1 Lite 来了，全家桶里最便宜的视频生成模型]] | 8 | [[google\|Google]], Veo, Replicate | [[ai-video\|AI 视频]] / [[ai-pricing\|AI 定价]] / [[multimodal\|多模态]] |
 | [[hydropix-translate-llm整本书翻译-断点续传-ollama本地可接\|一个开源工具用 LLM 翻译整本书，断点续传不限大小，国内可接 Ollama]] | 7 | hydropix, [[openrouter\|OpenRouter]], Ollama | 翻译工具 / 本地推理 |
 | [[meta-ai4animationpy开源-神经网络驱动角色动画-python框架\|Meta 开源 ai4animationpy，把神经网络驱动的角色动画做成 Python 框架]] | 7 | [[meta\|Meta]] | AI 游戏 / AI 动画 / [[multimodal\|多模态]] |
+| [[replicate被cloudflare收了-模型api推理新格局\|Replicate 被 Cloudflare 收编了，模型 API 推理价格还会便宜吗]] | 7 | Replicate, Cloudflare | [[ai-pricing\|AI 定价]] / [[ai-mergers\|AI 行业并购]] / [[agent-frameworks\|Agent 框架]] |
+| [[chrome-skills-把prompt变一键工具\|Chrome 加了 Skills，把你最好用的 prompt 变成一键工具]] | 7 | [[google\|Google]], [[chrome\|Chrome]] | [[ai-search\|AI 搜索]] / [[ai-coding-tools\|AI 工具]] |
+| [[openai-privacy-filter开源-pii隐私过滤模型\|OpenAI 开源了一个 PII 隐私过滤模型，state-of-the-art 又免费用]] | 7 | [[openai\|OpenAI]], [[huggingface\|HuggingFace]] | [[supply-chain-security\|隐私安全]] / 开源生态 / [[ai-training-data\|AI 训练数据]] |
 
 ## 2026-04-27（4 篇）
 

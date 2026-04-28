@@ -1,13 +1,40 @@
 # 主题饱和度分析
 
-基于 150 篇文章（2026-04-08 至 2026-04-28）的主题分布。
+基于 158 篇文章（2026-04-08 至 2026-04-28）的主题分布。**4/28 增量补 8 篇后总计 158 篇。**
+
+## 4/28 增量补 8 篇主题分布
+
+| 文章 | REACH | 主题 |
+|------|-------|------|
+| OpenAI 真要造手机（Kuo 爆料 + 联发科/高通/立讯供应链） | 9 | AI 硬件 / Agent 框架 / AI 产品体验 |
+| Apple 换 CEO + Musk 想 600 亿买 Cursor | 9 | AI 编程工具 / AI 行业并购 / AI 定价 |
+| Google + Kaggle 5 天 AI Agent 速成课 | 8 | AI+教育 / Agent 框架 / AI 编程工具 |
+| AI agent 删生产数据库 confession | 8 | AI 编程工具 / 供应链安全 / Agent 框架 |
+| Google Veo 3.1 Lite 最便宜视频生成模型 | 8 | AI 视频 / AI 定价 / 多模态 |
+| Replicate 被 Cloudflare 收编 | 7 | AI 定价 / AI 行业并购 / Agent 框架 |
+| Chrome Skills 把 prompt 变一键工具 | 7 | AI 搜索 / AI 编程工具 |
+| OpenAI Privacy Filter 开源 PII 检测 | 7 | 隐私安全 / 开源生态 / AI 训练数据 |
+
+**增量批次后主题计数变化**（覆盖 + 推动饱和）：
+
+- agent-frameworks: 21 → **25**（+4：OpenAI phone, Kaggle, agent del DB, Replicate）
+- ai-coding-tools: 20 → **24**（+4：Apple/Cursor, Kaggle, agent del DB, Chrome Skills）
+- ai-pricing: 17 → **20**（+3：Apple/Cursor, Veo Lite, Replicate）
+- supply-chain-security: 11 → **13**（+2：agent del DB, Privacy Filter）
+- ai-mergers: 1 → **3**（+2：Apple/Cursor, Replicate）— 跃进，4/28 一天 +2
+- ai-hardware: 5 → **6**（+1：OpenAI phone，AI 硬件主线从 Jetson Orin Nano 扩展到 OpenAI 整机）
+- ai-video: 2 → **3**（+1：Veo Lite）
+- ai-search: 1 → **2**（+1：Chrome Skills）
+- ai-education: 3 → **4**（+1：Kaggle）
+- ai-training-data: 1 → **2**（+1：Privacy Filter）
+- AI 产品体验: 3 → **4**（+1：OpenAI phone）
 
 ## 高饱和（需要降权或暂停）
 
 | 主题 | 篇数 | 占比 | 建议 |
 |------|------|------|------|
-| [[ai-coding-tools\|AI 编程工具]]生态 | 20 | 14% | 4/28 无新增 |
-| [[agent-frameworks\|Agent 框架]]/落地 | **21** | **14%** | **4/28 补 +2 篇（openclaw 365k 星 TypeScript 圈最大个人 AI 助手 + Hermes Agent 12 万星 NousResearch 持久成长 agent），加上当日早先 +1（OpenRouter Latest 别名机制），4/28 累计 +3** |
+| [[ai-coding-tools\|AI 编程工具]]生态 | **24** | **15%** | **4/28 增量批 +4 篇（Apple+Cursor 600 亿、Kaggle 5 天速成课、agent 删 DB confession、Chrome Skills），从 20 跃升到 24，建议暂停 1-2 天再选** |
+| [[agent-frameworks\|Agent 框架]]/落地 | **25** | **16%** | **4/28 早先 +3 + 增量 +4 篇（OpenAI phone、Kaggle、agent del DB、Replicate）= 当日累计 +7，建议暂停** |
 | [[ai-pricing\|AI 定价]]/省钱 | **17** | **11%** | **4/28 +1 篇（OpenRouter Latest 别名机制覆盖 7 个主流模型，省去手动改 model id 维护成本），4/27 +1 基础上继续抬升** |
 | 开源生态 | 10 | 7% | 4/27 无新增 |
 | 安全/[[supply-chain-security\|供应链]]/隐私 | **11** | **7%** | **4/28 补 +1 篇（openclaw 365k 星 4 月安全事件，TypeScript 圈最大个人 AI 助手的供应链/扩展面风险）** |

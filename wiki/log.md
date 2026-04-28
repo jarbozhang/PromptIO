@@ -2,6 +2,22 @@
 
 追加式记录，最新在前。
 
+## [2026-04-28] generate 增量补 8 篇 | drafts，REACH>=7
+
+- 增量批次（在已有 6 篇 4/28 drafts 基础上，从剩余 sources 中再选 8 个新主题）：
+  - **OpenAI 真要造手机**（TC + Ming-Chi Kuo 爆料 + 联发科/高通/立讯供应链链，REACH 9，AI 硬件主线扩展）
+  - **Apple 换 CEO Ternus + Musk 想 600 亿买 Cursor**（TC，REACH 9，AI 编程工具+并购双 hook）
+  - **Google + Kaggle 5 天 AI Agent 速成课**（Google AI 4/27，REACH 8，AI 教育低饱和首次以 Google 大牌课程入选）
+  - **AI agent 把生产数据库删了 confession 全文**（HN 821 赞 977 评论，REACH 8，agent 安全警示反面教材）
+  - **Google Veo 3.1 Lite**（Google AI 3/31，REACH 8，AI 视频低饱和 +1）
+  - **Replicate 被 Cloudflare 收编**（Replicate 2025/11，REACH 7，AI 行业并购低饱和 +1）
+  - **Chrome Skills 把 prompt 变一键工具**（Google AI 4/14，REACH 7，AI 搜索/浏览器 AI +1）
+  - **OpenAI Privacy Filter 开源 PII 检测**（OpenAI 4/22，REACH 7，开源生态/隐私 +1）
+- 主题饱和变化：agent-frameworks 21→25、ai-coding-tools 20→24、ai-pricing 17→20、supply-chain-security 11→13、ai-mergers 1→3（跃进）、ai-hardware 5→6、ai-video 2→3、ai-search 1→2、ai-education 3→4、ai-training-data 1→2、AI 产品体验 3→4
+- 合规：3 篇 L6 fail（OpenAI phone 标题"干掉"拉踩、Kaggle Colab/ai.google.dev 境外暗示、Chrome Skills Google 账号路径），全部生成 xhs-version.md；3 篇 REACH>=8 主动生成 xhs（Apple+Cursor、agent del DB、Veo Lite）；2 篇 REACH 7 + L6 pass（Replicate、Privacy Filter）xhs primary 直发
+- 8 篇均 overall_pass，无修复循环（QA 一次过）。L4 活人感全 pass，L1 机械替换共 15 处（最多 Veo Lite 4 处）
+- 更新 wiki: article-registry（4/28 6→14 篇）、topic-saturation（增量批次主题分布块 + 高饱和数字更新）、log
+
 ## [2026-04-28] generate | 4 drafts, REACH>=7
 
 - 新增文章：Microsoft 把 VibeVoice 开源（Frontier Voice AI 一天 757 星）、OpenRouter 给 7 个主流模型加 Latest 别名（自动跟随最新版本）、hydropix translate 用 LLM 翻译整本书（断点续传，国内可接 Ollama）、Meta 开源 ai4animationpy（神经网络驱动角色动画 Python 框架）

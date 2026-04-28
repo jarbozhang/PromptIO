@@ -1,0 +1,34 @@
+title: "OpenAI 真的要造手机了，AI agent 直接干掉 App"
+status: draft
+date: 2026-04-28
+reach: 9
+sources:
+  - techcrunch-ai-d26cae5c
+tags:
+  - openai
+  - ai-hardware
+  - mediatek
+  - qualcomm
+  - agent
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: false
+  l6_issues:
+    - type: title_banned_phrase
+      text: "干掉 App"
+      suggestion: "改为'替代 App'或'接管 App 入口'"
+  xhs_pass: false
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

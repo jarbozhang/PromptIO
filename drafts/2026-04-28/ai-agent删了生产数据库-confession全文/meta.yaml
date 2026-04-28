@@ -1,0 +1,30 @@
+title: "一个 AI agent 把生产数据库删了，开发者把 confession 贴出来了"
+status: draft
+date: 2026-04-28
+reach: 8
+sources:
+  - hacker-news-algolia-ai-filter-f6f35946
+tags:
+  - agent
+  - ai-coding-tools
+  - safety
+  - claude-code
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

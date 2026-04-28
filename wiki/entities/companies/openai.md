@@ -12,6 +12,8 @@
 
 ## 近期动态
 
+- **OpenAI 真要造手机：Kuo 爆料联手联发科/高通/立讯** (2026-04-27 TC / 4/28 入题) — 分析师 Ming-Chi Kuo 指 OpenAI 与 MediaTek、Qualcomm、Luxshare 合作开发 AI 手机，与 io（Jony Ive 主导硬件子公司）耳机线并行，AI agent 接管 App 入口的范式
+- **OpenAI Privacy Filter 开源 PII 检测模型** (2026-04-22 / 4/28 入题) — open-weight 1.5B total/50M activated 稀疏 MoE PII 检测模型 Apache 2.0 上 HuggingFace，128K context + Token Classification + BIOES 解码，对标 Microsoft Presidio
 - **[[gpt-5-5|GPT-5.5]] 上 OpenRouter，Pro 版 $30 / 百万 token + Simon 提示词指南** (2026-04-25) — GPT-5.5 正式上线 OpenRouter，Pro 版定价 $30 / 百万 token，[[simon-willison|Simon Willison]] 同日发布 GPT-5.5 提示词写法指南
 - **[[gpt-5-5|GPT-5.5]] 发布 + Bio Bug Bounty 开启** (2026-04-23 深夜 / 4/24 入题) — GPT-5.5 悄悄上线，同步开放 2.5 万美元生物病毒越狱赏金计划，把 AI 生物安全红队写入模型发布流程
 - **Deep Research 200 美元订阅被开源 Skill 平替** (2026-04-23) — [[last30days-skill|Last30Days Skill]] 几行命令完成跨 Reddit/X/HN 研报，对 ChatGPT Deep Research 的付费心智构成挑战
@@ -31,6 +33,8 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-28 | [[openai要造手机-ai-agent替代app-mediatek-qualcomm\|OpenAI 真要造手机，AI agent 直接干掉 App]] | 9 |
+| 2026-04-28 | [[openai-privacy-filter开源-pii隐私过滤模型\|OpenAI 开源了 PII 隐私过滤模型 SOTA]] | 7 |
 | 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南]] | 9 |
 | 2026-04-24 | [[gpt-5-5发布-openai生物红队赏金25000美元\|GPT-5.5 + Bio Bug Bounty 2.5 万美元]] | 9 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 双发（OpenAI 作为价格对照方）]] | 10 |

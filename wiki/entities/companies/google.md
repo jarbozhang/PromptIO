@@ -13,6 +13,9 @@ Gemini / Gemma / Veo 系列的开发商。
 
 ## 近期动态
 
+- **Google + Kaggle 5 天 AI Agent 速成课回炉** (2026-04-27 / 4/28 入题) — Kaggle GenAI Intensive 重启，2026/6 开课，主题 Vibe Coding + AI Agents，免费 + 证书，AI 教育低饱和首次以 Google 大牌课程入选
+- **Veo 3.1 Lite paid preview 上线 Gemini API/AI Studio** (2026-03-31 / 4/28 入题) — Google AI Studio + Gemini API 推出最便宜视频生成档，与即梦/可灵/Sora-2 在性价比层正面对比
+- **Chrome Skills 把 prompt 变一键工具** (2026-04-14 / 4/28 入题) — Chrome 内置 Skills 让用户保存/分享/复用 AI prompt workflow，预演国产浏览器交互范式
 - **Gemma 4 塞进 NVIDIA Jetson Orin Nano 做 VLA 桌面机器人** (2026-04-22 demo / 4/24 入题) — Gemma 4 + Jetson Orin Nano 做出 2000 元级可复现 VLA 桌面机器人，Google 端侧模型首次正式进入具身智能视野
 - **AI Mode 集成进 [[chrome|Chrome]]** (2026-04-23) — Gemini AI Mode 直接进 Chrome 主体验，搜索/对话/页面理解融合一体，Perplexity 入口压力骤增
 - **Google Cloud Next 双款 TPU 发布** (2026-04-23) — TPU 8t / 8i 两款新芯片，3 倍速度 / 80% 性价比，挑战 NVIDIA 行业格局，"不用付英伟达税"
@@ -30,6 +33,9 @@ Gemini / Gemma / Veo 系列的开发商。
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-04-28 | [[google-kaggle-5天ai-agent速成课-免费回炉\|Google + Kaggle 5 天 AI Agent 速成课回炉]] | 8 |
+| 2026-04-28 | [[google-veo-3.1-lite-最便宜视频生成模型\|Google Veo 3.1 Lite 最便宜视频生成模型]] | 8 |
+| 2026-04-28 | [[chrome-skills-把prompt变一键工具\|Chrome Skills 把 prompt 变一键工具]] | 7 |
 | 2026-04-24 | [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano，2000 块钱桌面机器人真的能做事了]] | 8 |
 | 2026-04-23 | [[google-ai-mode进chrome-浏览器变ai搭子-perplexity要慌了\|Google 把 AI Mode 塞进 Chrome 了，Perplexity 这次真的该慌]] | 8 |
 | 2026-04-23 | [[google两款tpu挑战nvidia-gemini不用付英伟达税了\|Google 一口气甩出两款 TPU，3 倍速度 80% 性价比]] | 8 |
