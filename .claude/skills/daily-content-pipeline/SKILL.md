@@ -190,6 +190,50 @@ console.log(JSON.stringify({ skip, reasons }));
 
 以表格形式展示给用户，等待确认后进入下一步。如果用户说"直接开始"或类似表达，跳过确认。
 
+### Step 3.5: last30days 社区反馈拉取（REACH>=7 选题确认后）
+
+选题确认后、Step 4 启动写作子代理之前，对**每个选题**跑一次 last30days 拉真实社区反馈，作为写作时的"多平台真实反馈"素材源。
+
+**为什么做：** X 数据源因 Chrome cookies 失效一直挂，导致文章里的"社区声音"段落偏单薄；last30days 用 Reddit/HN/GitHub 三条公开免费源，能补上这个洞。
+
+**调用：**
+
+对每个选题，用 Bash 调用 last30days：
+
+```bash
+TOPIC="选题主关键词"  # 如 "DeepSeek V4" / "Qwen3.6" / "openclaw security"
+SLUG="选题对应的 slug"
+OUT_DIR="drafts/{date}/${SLUG}"
+mkdir -p "$OUT_DIR"
+
+cd ~/.claude/skills/last30days && \
+  uv run python skills/last30days/scripts/last30days.py "$TOPIC" \
+    --search reddit,hn,github \
+    --quick \
+    --emit md \
+    --days 30 \
+  > "$OLDPWD/$OUT_DIR/community-research.md" 2>&1
+```
+
+输出落地到 `drafts/{date}/{slug}/community-research.md`，文件含：
+- Reddit thread 列表（标题/upvote/comment/链接）
+- HN story 列表
+- GitHub issue/PR 信号
+- Top voices（活跃 subreddit / 用户）
+
+**注意：** last30days 的输出有"PASS-THROUGH FOOTER"和"EVIDENCE FOR SYNTHESIS"两块，写作子代理读时只用 EVIDENCE 块作为素材，不要把 footer 的"emoji-tree stats"塞进文章正文。
+
+**失败处理：**
+- last30days 返回非零或超时（>120s）→ soft-fail，写一行 `# last30days unavailable` 到 community-research.md，写作子代理仍然能跑（fallback 到现有 source 材料）
+- 选题主关键词太抽象（如"AI 安全"）→ last30days 会输出"keyword-search fallback"提示，仍可用，但社区声音质量会偏低
+
+**成本：** 全免费（Reddit/HN/GitHub 公开 API），不需要 SCRAPECREATORS_API_KEY 或 LLM API key。X/YouTube/TikTok/Polymarket 这些线需要付费 API key，本管线暂不接入。
+
+**Step 4 子代理 prompt 改动：**
+
+每个写作子代理的"源材料"清单里，除原 source 文件外，新增一行：
+- `community-research`: `drafts/{date}/{slug}/community-research.md`（last30days 拉的真实社区反馈，**优先**用作"多平台真实反馈"段的素材源）
+
 ### Step 4: 文章并行生成
 
 对每个选题启动一个子代理（Agent tool, mode: bypassPermissions, run_in_background: true），所有代理同时启动。
