@@ -1,0 +1,30 @@
+title: "ChatGPT 卸载量同比涨 132%，国产 AI 抢用户的窗口期到了吗"
+status: draft
+date: 2026-04-30
+reach: 8
+sources:
+  - the-verge-ai-bb02d6f0
+tags:
+  - AI产品
+  - ChatGPT
+  - 国产AI
+  - 行业分析
+  - DAU
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

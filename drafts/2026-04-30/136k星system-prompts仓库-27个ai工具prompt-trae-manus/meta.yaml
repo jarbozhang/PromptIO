@@ -1,0 +1,31 @@
+title: "一个 136k 星仓库扒了 27 个 AI 工具的 system prompt，Trae / Manus / Z.ai Code 都在里面"
+status: draft
+date: 2026-04-30
+reach: 8
+sources:
+  - github-trending-58c322f5
+tags:
+  - AI编程工具
+  - prompt工程
+  - 开源
+  - Cursor
+  - Trae
+  - Manus
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

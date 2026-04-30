@@ -1,6 +1,35 @@
 # 主题饱和度分析
 
-基于 158 篇文章（2026-04-08 至 2026-04-28）的主题分布。**4/28 增量补 8 篇后总计 158 篇。**
+基于 168 篇文章（2026-04-08 至 2026-04-30）的主题分布。**4/30 国产专题 10 篇后总计 168 篇。**
+
+## 4/30 国产专题 10 篇主题分布（注，4/29 跳天未生成）
+
+| 文章 | REACH | 主题 |
+|------|-------|------|
+| 闲鱼 AI 客服 agent 7×24 自动议价 | 9 | AI 变现 / Agent 框架 / AI+电商 |
+| ollama 默默接住国产全家桶（Kimi/GLM/MiniMax/DeepSeek） | 9 | 本地推理 / 国产 AI |
+| AirLLM 70B 塞进单 4GB 显卡 | 8 | 本地推理 / AI 定价 |
+| ds2api DeepSeek 协议中间件一夜 465 星 | 8 | AI 定价 / Agent 框架 |
+| 华为昇腾 Triton 语言开源 | 8 | AI 硬件 / 国产硬件 / 本地推理 |
+| 蚂蚁 Ling-2.6-flash 上 OpenRouter | 8 | 国产 AI / AI 定价 / Agent 框架 |
+| 智谱 z.ai GLM-5 大规模部署 retro | 8 | 国产 AI / Agent 框架 / AI 研究 / DevOps |
+| 136k 星 system-prompts 仓库收 27 个 AI 工具 | 8 | AI 编程工具 / 工作流 |
+| ChatGPT 卸载量飙 132% + 国产 AI 窗口 | 8 | AI 产品 / 国产 AI |
+| NVIDIA Nemotron 30B Omni 四模态免费 | 7 | 多模态 / AI 定价 / Agent 框架 |
+
+**4/30 主题计数变化**：
+
+- **AI 变现**: 3 → **4**（首次以纯实操工具切入 AI 变现品类，闲鱼 AI 客服补低饱和）
+- **国产 AI 生态**: 12 → **17**（闲鱼/AirLLM/ds2api/ollama-CN/Ling-flash/GLM-5 retro/ChatGPT-vs-CN 7 篇命中，跃进）
+- **本地推理**: 12 → **15**（AirLLM/ollama/华为昇腾 Triton 三篇，从"非 Gemma 非 Qwen 非 DeepSeek"路线扩展，Triton-Ascend 是国产 GPU 软件栈首次进入本地推理主题）
+- agent-frameworks: 25 → **30**（连续高饱和，尽管"暂停 1-2 天"建议，本期 5 篇命中，主要是 ds2api/Ling-flash/GLM-5 retro/Nemotron/system-prompts 5 个不同角度）
+- ai-pricing: 20 → **25**（AirLLM/ds2api/Ling-flash/Nemotron/ChatGPT-vs-CN 5 篇高密度，警告越线）
+- ai-coding-tools: 24 → **25**（27 个 AI 工具 prompts 入选，单点）
+- AI 硬件: 6 → **7**（华为昇腾 Triton 首次以"国产 GPU 软件栈"入选）
+- 多模态: 10 → **11**（Nemotron Omni 四模态切入）
+- ai-research: 6 → **8**（ChatGPT-vs-CN 行业分析、GLM-5 retro 工程论文级双计入）
+
+## 4/28 增量补 8 篇主题分布
 
 ## 4/28 增量补 8 篇主题分布
 
@@ -216,4 +245,4 @@
 
 ## 最后更新
 
-2026-04-28
+2026-04-30

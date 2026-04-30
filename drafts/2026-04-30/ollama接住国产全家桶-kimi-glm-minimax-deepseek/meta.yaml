@@ -1,0 +1,32 @@
+title: "ollama 默默接住国产全家桶，Kimi-K2.5 / GLM-5 / MiniMax / DeepSeek 一条命令本地跑"
+status: draft
+date: 2026-04-30
+reach: 9
+sources:
+  - github-trending-6eec8646
+tags:
+  - 本地推理
+  - 国产AI
+  - ollama
+  - DeepSeek
+  - Kimi
+  - GLM
+  - MiniMax
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

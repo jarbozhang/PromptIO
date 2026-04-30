@@ -2,6 +2,27 @@
 
 追加式记录，最新在前。
 
+## [2026-04-30] generate 国产专题 10 篇 | drafts，REACH>=7（注，4/29 跳天未生成）
+
+- 全部国产/中国向选题（用户反馈"前一轮选题离中国社区太远"后重选）：
+  - **闲鱼 AI 客服 agent 7×24 自动议价**（XianyuAutoAgent +48 stars，REACH 9，AI 变现首次以纯工具切入，黄金选题）
+  - **ollama 默默接住国产全家桶**（Kimi-K2.5/GLM-5/MiniMax/DeepSeek，REACH 9，揭示 :cloud tag 不是真本地的反预设）
+  - **AirLLM 单 4GB 显卡跑 70B**（lyogavin 国产开发者，REACH 8，本地推理省钱极限）
+  - **ds2api 一夜 465 星 DeepSeek 协议中间件**（CJackHwang，REACH 8，逆向客户端协议中间件，灰区合规重写）
+  - **华为昇腾 Triton 语言开源**（triton-ascend，REACH 8，国产 GPU 软件栈首次进入 PyTorch 圈通用底座）
+  - **蚂蚁 Ling-2.6-flash 上 OpenRouter**（104B/7.4B 激活 MoE，REACH 8，蚂蚁全档位出海）
+  - **智谱 z.ai GLM-5 大规模部署 retro**（PD 分离 / HiCache / LayerSplit 三个事故现象，REACH 8，国内大模型公司首次主动透明化生产事故）
+  - **136k 星 system-prompts 仓库**（含 Trae/Manus/Z.ai Code/Qoder/CodeBuddy 中国工具，REACH 8，prompt 工程壁垒 vs 产品形态壁垒）
+  - **ChatGPT 卸载量飙 132%**（Sensor Tower 数据 + Pentagon deal 影响 + 国产 AI 窗口期分析，REACH 8）
+  - **NVIDIA Nemotron 30B Omni 四模态免费**（OpenRouter free，REACH 7，唯一非主动 xhs 合规版的 primary 直发）
+- **last30days 全部 soft-fail**（Reddit/HN/GitHub Skill 失败），fallback 到现有 source + WebFetch。9 个写作 agent 都靠 README/官方页 WebFetch 补充事实
+- **QA 结果 10/10 overall_pass，无质修循环（一次过）**。L4 活人感全 pass、L1 机械替换 10 处（AirLLM 6 + 华为昇腾 4）
+- **Step 4.6 触发 9 篇生成 xhs-version.md**（1 篇 L6 fail：ds2api 因白嫖/逆向协议；8 篇 REACH>=8 主动生成扩大分发；NVIDIA Nemotron REACH 7 + L6 pass 直发主版本）
+- 主题饱和变化：国产 AI 生态 12→17（跃进）、本地推理 12→15、ai-pricing 20→25（警告越线）、agent-frameworks 25→30（连续高饱和但角度多样）、AI 变现 3→4 首次实操化、AI 硬件 6→7（昇腾 Triton 切入国产软件栈视角）
+- 合规处理总结：1 篇 L6 fail（ds2api）走深度软化，标题去"白嫖"，正文删除"逆向客户端协议""规避官方风控""多账号轮转"等灰产话术，加"友情提醒优先用官方付费 API"
+- 无 X 推文采集（bird auth 在 Chrome/Safari/Firefox 全失败）
+- 更新 wiki：article-registry 4/30 段、topic-saturation 主题分布块 + 高饱和警告、log
+
 ## [2026-04-28] generate 增量补 8 篇 | drafts，REACH>=7
 
 - 增量批次（在已有 6 篇 4/28 drafts 基础上，从剩余 sources 中再选 8 个新主题）：

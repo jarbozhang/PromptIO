@@ -1,0 +1,30 @@
+title: "华为昇腾的 Triton 语言开源了，国产 GPU 软件栈第一次对齐 PyTorch 圈通用底座"
+status: draft
+date: 2026-04-30
+reach: 8
+sources:
+  - lobsters-ai-1884ffa0
+tags:
+  - 国产硬件
+  - 华为
+  - 昇腾
+  - Triton
+  - GPU软件栈
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 4
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

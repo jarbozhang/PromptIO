@@ -1,0 +1,30 @@
+title: "ds2api 一夜涨 465 星：把 DeepSeek 客户端协议变 OpenAI/Claude 通用 API 中间件"
+status: draft
+date: 2026-04-30
+reach: 8
+sources:
+  - github-trending-3140975f
+tags:
+  - 国产AI
+  - DeepSeek
+  - API兼容
+  - 中间件
+  - 开源工具
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: false
+  l6_issues: [{"type":"competitor_bashing","text":"标题含\"白嫖\"+正文\"逆向客户端协议、规避官方风控、白嫖账号\"","suggestion":"标题去白嫖改省 token，正文软化，不引导部署"}]
+  xhs_pass: false
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -16,9 +16,9 @@
       "last_month": 258570513
     },
     "anthropic": {
-      "last_day": 4488488,
-      "last_week": 28848398,
-      "last_month": 103817751
+      "last_day": 4461116,
+      "last_week": 30001515,
+      "last_month": 107742656
     },
     "vllm": {
       "last_day": 212444,
@@ -26,19 +26,19 @@
       "last_month": 10395602
     },
     "llama-cpp-python": {
-      "last_day": 23033,
-      "last_week": 147365,
-      "last_month": 656599
+      "last_day": 21318,
+      "last_week": 148636,
+      "last_month": 669358
     },
     "ollama": {
-      "last_day": 391308,
-      "last_week": 2680909,
-      "last_month": 11577115
+      "last_day": 404339,
+      "last_week": 2635016,
+      "last_month": 11622603
     },
     "crewai": {
-      "last_day": 243355,
-      "last_week": 1808794,
-      "last_month": 6720821
+      "last_day": 259572,
+      "last_week": 1746556,
+      "last_month": 6872020
     },
     "autogen": {
       "last_day": 5029,
@@ -51,5 +51,5 @@
       "last_month": 1398742
     }
   },
-  "updated_at": "2026-04-28T02:11:36.592Z"
+  "updated_at": "2026-04-30T09:01:31.952Z"
 }

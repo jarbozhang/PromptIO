@@ -2,6 +2,23 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-04-30（10 篇，全部国产/中国向）
+
+注：4/29 跳天未生成。
+
+| 标题 | REACH | 主要实体 | 主题 |
+|------|-------|---------|------|
+| [[闲鱼ai客服agent-7x24自动议价-xianyuauto\|一个开源的闲鱼 AI 客服 agent 一夜涨星，7×24 自动议价上下文记忆，副业党要薅羊毛了]] | 9 | [[xianyu-auto-agent\|XianyuAutoAgent]], [[shaxiu\|shaxiu]] | [[ai-monetization\|AI 变现]] / [[agent-frameworks\|Agent 框架]] / AI+电商 |
+| [[ollama接住国产全家桶-kimi-glm-minimax-deepseek\|ollama 默默接住国产全家桶，Kimi-K2.5 / GLM-5 / MiniMax / DeepSeek 一条命令本地跑]] | 9 | [[ollama\|ollama]], [[deepseek\|DeepSeek]], [[moonshot\|Moonshot/Kimi]], [[zhipu\|智谱/GLM]], [[minimax\|MiniMax]] | [[local-inference\|本地推理]] / 国产AI生态 |
+| [[airllm国产开发者-70b塞进4gb显卡-本地推理省钱\|AirLLM 把 70B 模型塞进单 4GB 显卡，国产开发者把本地推理省钱方案推到极限]] | 8 | [[airllm\|AirLLM]], [[lyogavin\|lyogavin]] | [[local-inference\|本地推理]] / [[ai-pricing\|AI 定价]] |
+| [[ds2api国产中间件-deepseek多账号轮转白嫖\|ds2api 一夜涨 465 星：把 DeepSeek 客户端协议变 OpenAI/Claude 通用 API 中间件]] | 8 | [[ds2api\|ds2api]], [[deepseek\|DeepSeek]], [[CJackHwang\|CJackHwang]] | [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] |
+| [[华为昇腾triton语言开源-国产gpu软件栈\|华为昇腾的 Triton 语言开源了，国产 GPU 软件栈第一次对齐 PyTorch 圈通用底座]] | 8 | [[huawei\|华为]], [[ascend\|昇腾]], [[triton\|Triton]] | [[ai-hardware\|AI 硬件]] / 国产硬件 / [[local-inference\|本地推理]] |
+| [[蚂蚁ling-2-6-flash上openrouter-agent实时档\|蚂蚁 Ling-2.6-flash 偷上 OpenRouter，104B 总参数 7.4B 激活，agent 实时响应新档]] | 8 | [[ant-group\|蚂蚁集团]], [[inclusionai\|inclusionAI]], [[ling\|Ling 系列]], [[openrouter\|OpenRouter]] | 国产AI生态 / [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] |
+| [[智谱z-ai公开glm-5大规模部署retro\|智谱 z.ai 公开 GLM-5 大规模部署 retro，coding agent serving 翻车的几个具体瞬间]] | 8 | [[zhipu\|智谱]], [[glm-5\|GLM-5]], [[z-ai\|z.ai]] | 国产AI生态 / [[agent-frameworks\|Agent 框架]] / [[ai-research\|AI 研究]] / DevOps |
+| [[136k星system-prompts仓库-27个ai工具prompt-trae-manus\|一个 136k 星仓库扒了 27 个 AI 工具的 system prompt，Trae / Manus / Z.ai Code 都在里面]] | 8 | [[cursor\|Cursor]], [[claude-code\|Claude Code]], [[trae\|Trae]], [[manus\|Manus]], [[zhipu\|Z.ai Code]] | [[ai-coding-tools\|AI 编程工具]] / 工作流 / prompt工程 |
+| [[chatgpt卸载量飙132-国产ai抢用户窗口期\|ChatGPT 卸载量同比涨 132%，国产 AI 抢用户的窗口期到了吗]] | 8 | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], [[doubao\|豆包]], [[kimi\|Kimi]], [[deepseek\|DeepSeek]] | AI 产品 / 国产AI生态 / [[ai-research\|AI 研究]] |
+| [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费，文图视频音频四模态全收]] | 7 | [[nvidia\|NVIDIA]], [[nemotron\|Nemotron]], [[openrouter\|OpenRouter]] | [[multimodal\|多模态]] / [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] |
+
 ## 2026-04-28（14 篇，含 openclaw 生态补 2 + 增量补 8）
 
 | 标题 | REACH | 主要实体 | 主题 |
