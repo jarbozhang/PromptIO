@@ -1,0 +1,23 @@
+---
+title: 'Sequential Inference for Gaussian Processes: A Signal Processing Perspective'
+url: 'https://arxiv.org/abs/2604.28163v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Daniel Waxman
+  - Fernando Llorente
+  - Petar M. Djurić
+categories:
+  - eess.SP
+  - cs.LG
+  - stat.CO
+  - stat.ML
+  - eess.SP
+published: '2026-04-30T17:48:09Z'
+fetched_at: '2026-05-01T02:24:44.540Z'
+---
+The proliferation of capable and efficient machine learning (ML) models marks one of the strongest methodological shifts in signal processing (SP) in its nearly 100-year history. ML models support the development of SP systems that represent complex, nonlinear relationships with high predictive accuracy. Adapting these models often requires sequential inference, which differs both theoretically and methodologically from the usual paradigm of ML, where data are often assumed independent and identically distributed. Gaussian processes (GPs) are a flexible yet principled framework for modeling random functions, and they have become increasingly relevant to SP as statistical and ML methods assume a more prominent role. We provide a self-contained, tutorial-style overview of GPs, with a particular focus on recent methodological advances in sequential, incremental, or streaming inference. We introduce these techniques from a signal-processing perspective while bridging them to recent advances in ML. Many of the developments we survey have direct applications to state-space modeling, sequential regression and forecasting, anomaly detection in time series, sequential Bayesian optimization, adaptive and active sensing, and sequential detection and decision-making. By organizing these advances from a signal-processing perspective, we intend to equip practitioners with practical tools and a coherent roadmap for deploying sequential GP models in real-world systems.
+
+Authors: Daniel Waxman, Fernando Llorente, Petar M. Djurić
+Categories: eess.SP, cs.LG, stat.CO, stat.ML, eess.SP
