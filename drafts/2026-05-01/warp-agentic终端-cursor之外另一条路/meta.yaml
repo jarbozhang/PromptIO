@@ -1,0 +1,37 @@
+title: Warp 一夜冲上 trending +3401 星，agentic 终端是 Cursor 之外的另一条路
+slug: warp-agentic终端-cursor之外另一条路
+date: 2026-05-01
+status: draft
+voice: first-person
+tags:
+  - Warp
+  - AI 编程工具
+  - 终端
+  - Cursor
+  - Claude Code
+sources:
+  - sources/2026-05-01/github-trending-742db591.md
+  - https://github.com/warpdotdev/warp
+  - https://www.warp.dev/
+  - https://www.warp.dev/pricing
+  - https://docs.warp.dev/agent-platform/capabilities/model-choice
+reach: 8
+qa:
+  status: passed
+  voice: first-person
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

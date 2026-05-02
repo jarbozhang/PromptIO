@@ -1,0 +1,34 @@
+title: "OpenAI 解释为什么 GPT-5 一直说 goblin，被 Wired 翻出来后官方写了个回应"
+status: draft
+date: 2026-05-01
+reach: 7
+voice: narrative
+sources:
+  - the-verge-ai-3b4aec1d
+  - openai-blog-5425e3ec
+  - lobsters-ai-d47dd911
+tags:
+  - OpenAI
+  - GPT-5
+  - RLHF
+  - AI训练
+  - reward-hacking
+qa:
+  status: passed
+  voice: narrative
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

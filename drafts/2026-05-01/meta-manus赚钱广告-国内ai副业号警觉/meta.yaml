@@ -1,0 +1,35 @@
+title: Meta 花 20 亿买的 Manus 在跑 get-rich-quick 广告，国内 AI 副业号该警觉了
+slug: meta-manus赚钱广告-国内ai副业号警觉
+date: 2026-05-01
+status: draft
+voice: narrative
+reach: 8
+sources:
+  - sources/2026-05-01/the-verge-ai-c287fda5.md
+entities:
+  - meta
+  - manus
+  - tiktok
+topics:
+  - AI 变现
+  - AI+电商
+  - AI 行业现象
+qa:
+  status: passed
+  voice: narrative
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -1,0 +1,45 @@
+title: PyTorch Lightning 被 Shai-Hulud 主题恶意包污染，国内 ML 团队该跑一遍 audit
+slug: pytorch-lightning供应链攻击-shai-hulud-恶意包
+date: 2026-05-01
+status: draft
+voice: retro
+reach: 8
+brand_recognition: true
+benefit: true
+actionable: true
+xhs_pass: true
+tags:
+  - 供应链安全
+  - PyTorch Lightning
+  - Shai-Hulud
+  - ML 工程
+  - PyPI
+related_entities:
+  - pytorch-lightning
+  - semgrep
+related_topics:
+  - supply-chain-security
+  - AI 训练基础设施
+  - ML 工程
+sources:
+  - https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/
+  - https://news.ycombinator.com/item?id=47964617
+qa:
+  status: passed
+  voice: retro
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 9
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 7
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

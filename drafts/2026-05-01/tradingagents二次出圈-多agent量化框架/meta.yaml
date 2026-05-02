@@ -1,0 +1,32 @@
+title: "TradingAgents 一夜涨 2112 星，二次出圈背后是 v0.2.4 接入了 DeepSeek 和 Qwen"
+status: draft
+date: 2026-05-01
+reach: 8
+voice: narrative
+sources:
+  - github-trending-11bf8af5
+tags:
+  - TradingAgents
+  - AI金融
+  - Agent框架
+  - DeepSeek
+  - Qwen
+qa:
+  status: passed
+  voice: narrative
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

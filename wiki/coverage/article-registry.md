@@ -2,6 +2,21 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-01（10 篇，首次 voice 分流：first-person 2 / narrative 4 / analytical 2 / retro 2）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[musk当庭承认xai蒸馏grok-国产模型蒸馏边界\|Musk 当庭承认 xAI 用 OpenAI 模型蒸馏 Grok，国产模型蒸馏的边界又被推了一下]] | 9 | narrative | [[elon-musk\|Elon Musk]], [[xai\|xAI]], [[openai\|OpenAI]], [[deepseek\|DeepSeek]] | [[ai-mergers\|AI 行业事件]] / [[ai-research\|AI 研究]] / 国产AI生态 / 法律 |
+| [[ppt-master-ai生成原生pptx-hugo-he\|Hugo He 的 ppt-master 一夜涨 370 星，AI 生成的 PPTX 是真能改的]] | 8 | first-person | [[ppt-master\|ppt-master]], [[hugo-he\|Hugo He]] | AI+办公 / [[ai-coding-tools\|AI 工具]] / 国产开发者 |
+| [[tradingagents二次出圈-多agent量化框架\|TauricResearch 的 TradingAgents 一夜涨 2112 星，多 agent 量化框架二次出圈]] | 8 | narrative | [[tradingagents\|TradingAgents]], [[tauric-research\|TauricResearch]] | [[ai-finance\|AI 金融]] / [[agent-frameworks\|Agent 框架]] / 国产AI |
+| [[xai-grok-4-3上openrouter-1m-context\|xAI Grok 4.3 悄悄上 OpenRouter，1M context 想接住国内 agent 开发者]] | 8 | analytical | [[xai\|xAI]], [[grok\|Grok]], [[openrouter\|OpenRouter]] | [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] / 模型评测 |
+| [[microsoft-openai离婚-国产ai出海azure路线\|Microsoft 和 OpenAI 把婚离了，国产 AI 出海要重看一遍 Azure 这条路]] | 8 | analytical | [[microsoft\|Microsoft]], [[openai\|OpenAI]], [[satya-nadella\|Nadella]] | [[ai-mergers\|AI 行业并购]] / AI 政治 / 国产AI生态 |
+| [[meta-manus赚钱广告-国内ai副业号警觉\|Meta 花 20 亿买的 Manus 在跑 get-rich-quick 广告，国内 AI 副业号该警觉了]] | 8 | narrative | [[meta\|Meta]], [[manus\|Manus]], [[tiktok\|TikTok]] | AI 变现 / AI+电商 / AI 行业现象 |
+| [[pytorch-lightning供应链攻击-shai-hulud-恶意包\|PyTorch Lightning 被 Shai-Hulud 主题恶意包污染，国内 ML 团队该跑一遍 audit]] | 8 | retro | [[pytorch-lightning\|PyTorch Lightning]], [[semgrep\|Semgrep]] | [[supply-chain-security\|供应链安全]] / AI 训练基础设施 / ML 工程 |
+| [[warp-agentic终端-cursor之外另一条路\|Warp 上 trending 一夜 3401 星，agentic 终端是 Cursor 之外的另一条路]] | 8 | first-person | [[warp\|Warp]], [[cursor\|Cursor]], [[claude-code\|Claude Code]] | [[ai-coding-tools\|AI 编程工具]] / 终端 / 工作流 |
+| [[ai4finance-finrl-国内量化团队-rl框架\|AI4Finance FinRL 又上 trending，国内量化团队为啥还在啃这套老 RL 框架]] | 7 | retro | [[ai4finance\|AI4Finance]], [[finrl\|FinRL]], [[tradingagents\|TradingAgents]] | [[ai-finance\|AI 金融]] / 强化学习 / 国产开发者 |
+| [[openai-goblins后续-rlhf训练副作用\|OpenAI 解释为什么 GPT-5 一直说 goblin，被 Wired 翻出来后官方写了个回应]] | 7 | narrative | [[openai\|OpenAI]], [[gpt-5\|GPT-5]] | [[ai-research\|AI 研究]] / RLHF / AI 训练副作用 |
+
 ## 2026-04-30（10 篇，全部国产/中国向）
 
 注：4/29 跳天未生成。

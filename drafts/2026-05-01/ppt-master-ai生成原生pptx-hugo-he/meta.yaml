@@ -1,0 +1,33 @@
+title: "Hugo He 的 ppt-master 一夜涨 370 星，AI 生成的 PPTX 是真能改的"
+slug: "ppt-master-ai生成原生pptx-hugo-he"
+status: draft
+date: 2026-05-01
+voice: first-person
+reach: 8
+sources:
+  - github-trending-a2590f50
+tags:
+  - ppt-master
+  - hugo-he
+  - ai+办公
+  - 国产开发者
+  - github-trending
+qa:
+  status: passed
+  voice: first-person
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -2,6 +2,25 @@
 
 追加式记录，最新在前。
 
+## [2026-05-01] generate voice 分流试点 10 篇 | drafts，REACH>=7
+
+- **背景**：4/30 后用户反馈"10 篇文章读起来像同一个 AI 拿不同主题套出来的兄弟篇"，反思后承认根因是 wechat.md / qa-check.md 把"活人感"指标化（"我占比 ≥40%""必须有得罪人的判断""五段式""多平台真实反馈"等硬指标）导致同质化。
+- **本轮 prompt 系统改动**（在生成前）：
+  - **wechat.md**：第一步加 voice 分流（first-person / narrative / analytical / retro 四种）；第二步五段式从硬要求改为按需骨架；删除"我占比 ≥40%"硬指标改为 first-person 才强调；删除"必须有得罪人的判断"改为按 voice 决定；多平台反馈段从硬要求改为"有一手数据才写"；L4 改成整体二元判断
+  - **qa-check.md**：L4 改成整体二元（"这篇跟最近 30 篇里有没有读起来像 AI 兄弟篇"yes/no），不再列具体维度防反向污染；L2 简化删除"单句成段 ≥3 次""推荐口语词组"等具体信号
+- **新增 Step 4.7 跨文章扫描**：所有篇生成后跑一遍 grep 扫开头第一段、段落小标题、收尾段、套路化短语，看是否同质化
+- **10 篇主题**（首次每篇标 voice）：
+  - **first-person (2)**: Hugo He ppt-master / Warp agentic 终端
+  - **narrative (4)**: TradingAgents 二次出圈 / Musk 当庭承认蒸馏 / Meta+Manus 赚钱广告 / Goblins RLHF 后续
+  - **analytical (2)**: Grok 4.3 上 OR / Microsoft+OpenAI 离婚
+  - **retro (2)**: PyTorch Lightning 供应链攻击 / FinRL 老 RL 框架
+- **结果**：QA 10/10 一次通过，0 L6 fail，0 质修循环。L2 平均 8.4（4/30 是 8.0），L3 平均 8.3。**Step 4.7 扫描显示开头/收尾/段落骨架完全分散**，仅 1 处 explicit "## 我的判断" 标签命中（Grok 4.3，已手工修）
+- **voice 分流验证**：first-person 2 篇"我"占比 30-40%，analytical 2 篇"我"占比 < 1%，retro 2 篇"我" 0 次。每种 voice 按自己的姿态写，不再像 4/30 全部削成同一个调子
+- **Step 4.6**：8 篇 REACH≥8 主动生成 xhs 合规版，2 篇 REACH 7 + L6 pass 直发主版本
+- **采集**：546 sources（含 47 GH trending + 3 OpenRouter 新模型 + PyPI 趋势）。bird auth 仍在 Chrome/Safari/Firefox 全失败，无 X 推文采集
+- **关键 take**：把"活人感"做成可量化指标本身就是 AI 味的根源。指标越具体，agent 越凑信号，差异性消失。改成 voice 分流后，每篇 voice 内部仍按需写，但不同 voice 之间故意不同骨架，整体差异性恢复
+- 更新 wiki：article-registry 5/1 段、topic-saturation voice 分流首次实验结果块、log
+
 ## [2026-04-30] generate 国产专题 10 篇 | drafts，REACH>=7（注，4/29 跳天未生成）
 
 - 全部国产/中国向选题（用户反馈"前一轮选题离中国社区太远"后重选）：

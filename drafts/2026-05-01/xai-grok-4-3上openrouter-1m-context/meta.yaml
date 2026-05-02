@@ -1,0 +1,44 @@
+title: xAI Grok 4.3 悄悄上 OpenRouter，1M context 想接住国内 agent 开发者
+slug: xai-grok-4-3上openrouter-1m-context
+date: 2026-05-01
+status: draft
+voice: analytical
+reach: 8
+direction: 国产 AI 生态深度
+tags:
+  - xAI
+  - Grok
+  - OpenRouter
+  - Agent
+  - 模型评测
+sources:
+  - sources/2026-05-01/openrouter-new-model-20bd5c3f.md
+  - sources/2026-05-01/the-verge-ai-e45a8dae.md
+  - https://openrouter.ai/models/x-ai/grok-4.3
+entities:
+  - xai
+  - grok
+  - openrouter
+topics:
+  - ai-pricing
+  - agent-frameworks
+  - 模型评测
+qa:
+  status: passed
+  voice: analytical
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -1,6 +1,49 @@
 # 主题饱和度分析
 
-基于 168 篇文章（2026-04-08 至 2026-04-30）的主题分布。**4/30 国产专题 10 篇后总计 168 篇。**
+基于 178 篇文章（2026-04-08 至 2026-05-01）的主题分布。**5/1 voice 分流试点 10 篇后总计 178 篇。**
+
+## 5/1 voice 分流试点 10 篇主题分布
+
+首次按 voice 分流（first-person 2 / narrative 4 / analytical 2 / retro 2）。同步删除 wechat.md / qa-check.md 里的"我占比 ≥40%""必须有得罪人的判断""五段式""多平台真实反馈"等硬指标，改成 voice 分流。L4 改成整体二元判断。
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| Musk 当庭承认 xAI 蒸馏 Grok | 9 | narrative | AI 行业事件 / AI 研究 / 国产AI / 法律 |
+| ppt-master AI 原生 PPTX | 8 | first-person | AI+办公 / AI 工具 / 国产开发者 |
+| TradingAgents 二次出圈 | 8 | narrative | AI 金融 / Agent 框架 / 国产AI |
+| Grok 4.3 上 OpenRouter | 8 | analytical | AI 定价 / Agent 框架 / 模型评测 |
+| Microsoft 和 OpenAI 离婚 | 8 | analytical | AI 行业并购 / AI 政治 / 国产AI |
+| Meta+Manus 跑赚钱广告 | 8 | narrative | AI 变现 / AI+电商 / AI 行业现象 |
+| PyTorch Lightning 供应链攻击 | 8 | retro | 供应链安全 / AI 训练 / ML 工程 |
+| Warp agentic 终端 | 8 | first-person | AI 编程工具 / 终端 / 工作流 |
+| FinRL 老 RL 框架 | 7 | retro | AI 金融 / 强化学习 |
+| OpenAI Goblins RLHF 副作用 | 7 | narrative | AI 研究 / RLHF |
+
+**5/1 主题计数变化**：
+
+- ai-mergers: 3 → **5**（Musk 蒸馏庭审 + Microsoft/OpenAI 离婚 双计入）
+- AI 金融: 4 → **6**（TradingAgents 二次出圈 + FinRL，国产量化主题供给稳定）
+- ai-research: 8 → **10**（Musk 蒸馏 + Goblins + Microsoft deal 部分计入）
+- ai-coding-tools: 25 → **27**（ppt-master + Warp，但都不是 Cursor 同类，是新角度）
+- agent-frameworks: 30 → **32**（TradingAgents + Grok 4.3）
+- ai-pricing: 25 → **27**（Grok 4.3 + Microsoft deal 部分计入）
+- supply-chain-security: 13 → **14**（PyTorch Lightning Shai-Hulud）
+- AI 变现: 4 → **5**（Meta+Manus 是反面案例视角，与 4/30 闲鱼正面案例形成对照）
+- AI 政治: 新增（Microsoft+OpenAI deal、Musk 庭审，本月开始独立成线）
+- RLHF / AI 训练副作用: 新增（OpenAI Goblins 是首次以"RLHF 训练副作用"角度切入）
+- AI+办公: 新增（ppt-master 首次以"原生 PPTX 生成"为主线）
+- 终端 AI: 新增（Warp 首次以"agentic 终端"为独立主题）
+
+## voice 分流首次实验结果（5/1）
+
+- 10 篇 QA 全过，0 L6 fail（4/30 是 1 L6 fail），0 质修循环
+- L2 平均 8.4（4/30 是 8.0），L3 平均 8.3（4/30 是 8.1）
+- L4 整体二元判断生效，无 AI 综述体兄弟篇
+- 跨文章扫描：开头第一段 10 篇句式各异，段落小标题完全不同（无统一五段式），收尾 10 篇全不同。**仅 1 处 explicit label 命中（Grok 4.3 "## 我的判断"），手工修为 "## 一点收尾观察"**
+- first-person 2 篇"我"占比正常（30-40%）；analytical 2 篇"我"占比 < 1%；retro 2 篇"我" 0 次
+- voice 分流明显有效避免了 4/30 那种"形不同神同"的问题
+
+## 4/30 国产专题 10 篇主题分布
 
 ## 4/30 国产专题 10 篇主题分布（注，4/29 跳天未生成）
 
@@ -245,4 +288,4 @@
 
 ## 最后更新
 
-2026-04-30
+2026-05-01
