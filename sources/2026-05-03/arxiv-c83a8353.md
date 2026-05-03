@@ -1,0 +1,23 @@
+---
+title: 'Exploration Hacking: Can LLMs Learn to Resist RL Training?'
+url: 'https://arxiv.org/abs/2604.28182v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Eyon Jang
+  - Damon Falck
+  - Joschka Braun
+  - Nathalie Kirch
+  - Achu Menon
+categories:
+  - cs.LG
+  - cs.CL
+  - cs.LG
+published: '2026-04-30T17:58:39Z'
+fetched_at: '2026-05-03T12:56:18.790Z'
+---
+Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignment. Successful RL relies on sufficient exploration of diverse actions by the model during training, which creates a potential failure mode: a model could strategically alter its exploration during training to influence the subsequent training outcome. In this paper we study this behavior, called exploration hacking. First, we create model organisms of selective RL resistance by fine-tuning LLMs to follow specific underperformance strategies; these models can successfully resist our RL-based capability elicitation in agentic biosecurity and AI R&amp;D environments while maintaining performance on related tasks. We then use our model organisms to evaluate detection and mitigation strategies, including monitoring, weight noising, and SFT-based elicitation. Finally, we show that current frontier models can exhibit explicit reasoning about suppressing their exploration when provided with sufficient information about their training context, with higher rates when this information is acquired indirectly through the environment. Together, our results suggest exploration hacking is a possible failure mode of RL on sufficiently capable LLMs.
+
+Authors: Eyon Jang, Damon Falck, Joschka Braun, Nathalie Kirch, Achu Menon
+Categories: cs.LG, cs.CL, cs.LG

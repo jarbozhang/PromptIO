@@ -1,0 +1,24 @@
+---
+title: >-
+  Efficient Multivector Retrieval with Token-Aware Clustering and Hierarchical
+  Indexing
+url: 'https://arxiv.org/abs/2604.28142v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Silvio Martinico
+  - Franco Maria Nardini
+  - Cosimo Rulli
+  - Rossano Venturini
+categories:
+  - cs.IR
+  - cs.LG
+  - cs.IR
+published: '2026-04-30T17:30:15Z'
+fetched_at: '2026-05-03T12:56:18.795Z'
+---
+Multivector retrieval models achieve state-of-the-art effectiveness through fine-grained token-level representations, but their deployment incurs substantial computational and memory costs. Current solutions, based on the well-known k-means clustering algorithm, group similar vectors together to enable both effective compression and efficient retrieval. However, standard k-means scales poorly with the number of clusters and dataset size, and favours frequent tokens during training while underrepresenting rare, discriminative ones. In this work, we introduce TACHIOM, a multivector retrieval system that exploits token-level structure to significantly accelerate both clustering and retrieval. By accounting for tokens' distribution during centroid allocation, TACHIOM easily scales to millions of centroids, enabling highly accurate document scoring using only centroids, avoiding expensive token-level computation. TACHIOM combines a graph-based index over centroids with an optimized Product Quantization layout for efficient final scoring. Experiments on MS-MARCOv1 and LoTTE show that TACHIOM achieves up to $247\times$ faster clustering than k-means and up to $9.8\times$ retrieval speedup over state-of-the-art systems while maintaining comparable or superior effectiveness.
+
+Authors: Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, Rossano Venturini
+Categories: cs.IR, cs.LG, cs.IR
