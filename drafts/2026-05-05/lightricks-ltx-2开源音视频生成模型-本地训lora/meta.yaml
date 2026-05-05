@@ -1,0 +1,33 @@
+title: "Lightricks 把 LTX-2 开源了，19B 音画联合还能本地训自己的 LoRA"
+status: draft
+date: 2026-05-05
+reach: 7
+voice: first-person
+sources:
+  - github-trending-eb231a91
+  - github-lightricks-ltx-2
+  - last30days-research
+tags:
+  - ai-video
+  - multimodal
+  - creator-economy
+  - lora-training
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

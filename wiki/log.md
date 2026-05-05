@@ -2,6 +2,24 @@
 
 追加式记录，最新在前。
 
+## [2026-05-05] generate 10 篇 | drafts，REACH>=7
+
+- **采集**：518 RSS/GitHub/arXiv items via pipeline.js + 34 GitHub Trending AI repos + 1 OpenRouter new model（Mistral Medium 3.5）+ PyPI 1 spike（autogen +21.8%）。fetch:trendradar 失败（Docker 目录不存在），soft-fail 不阻塞。bird auth 仍 Chrome/Safari/Firefox 全失败，无 X 推文，社区反馈靠 Step 3.5 last30days（10/10 全部生成 community-research.md）
+- **选题评分**：从 sources 中筛出 10 篇 REACH >= 7。voice 分布 first-person 4 / narrative 2 / analytical 2 / retro 1（first-person 比重提升，实操工具篇多）
+- **新空间打开**：
+  - **AI 隐私**（#1 Chrome 偷塞 4GB Gemini Nano），本号首次以"浏览器层 AI 静默安装"切入隐私主题
+  - **方法论**（#6 Specsmaxxing YAML spec），反 AI psychosis 角度首次单独立线
+  - **工作流自动化**（#5 n8n-MCP），从单 agent / RPA 延伸到"LLM 写自动化流程"路线
+- **10 篇主题**：
+  - **first-person (4)**：DeepClaude 接 Claude Code / ace-step-ui 4090 跑 ACE-Step / n8n-MCP / dexter / LTX-2（共 5 篇 first-person，是该 voice 自试点以来单日最高）
+  - **narrative (2)**：Chrome 偷塞 Gemini Nano / Roomba 创始人 AI 宠物
+  - **analytical (2)**：Rapid-MLX M 系引擎 / 视觉 AI app 6.5x 下载窗口
+  - **retro (1)**：Specsmaxxing YAML spec
+- **L1 机械替换**：共 10 处。最多 ace-step-ui / Rapid-MLX / dexter 各 2 处，多数仅 0-1 处，写作子代理已较好遵守禁用词/标点规则
+- **QA 结果**：10/10 全过 overall_pass。L2 平均 8.3，L3 平均 8.3，L5 平均 7.9（与 5/3 持平，质量稳定）
+  - **#1 Chrome L6 fail**：正文一句"让 Chrome 的 update 通道工作"被 QA 判为 overseas_access 暗示。xhs 版改为中性"网络环境拉不到 Google 服务，模型不会落盘"
+- **Step 4.6**：5 篇生成 xhs-version.md（Chrome L6 fail 必须 1 + reach>=8 主动 4 篇：DeepClaude / ace-step-ui / Rapid-MLX / n8n-MCP）；5 篇 xhs:primary 直发主版本（Specsmaxxing / Roomba / 视觉 AI / dexter / LTX-2）
+
 ## [2026-05-03] generate 12 篇 | drafts，REACH>=7
 
 - **采集**：544 sources，含 RSS 478 + GitHub Trending 27 AI repos（fetch:trending）+ arxiv 20 + PyPI trends 检测（无 spike）+ OpenRouter 0 新模型。bird auth 仍 Chrome/Safari/Firefox 全失败（macOS Keychain exit 36），无 X 推文采集。fetch:trendradar 失败（Docker 目录不存在 /tmp/TrendRadar/docker），soft-fail 不阻塞

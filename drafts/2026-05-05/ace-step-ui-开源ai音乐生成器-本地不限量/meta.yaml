@@ -1,0 +1,33 @@
+title: "我用一张 4090 跑了一晚 ACE-Step UI，做 B 站 BGM 比 Suno 订阅划算太多"
+status: draft
+date: 2026-05-05
+reach: 9
+voice: first-person
+sources:
+  - github-trending-ed027bd3
+  - github-fspecii-ace-step-ui
+  - last30days-research
+tags:
+  - ai-music
+  - open-source
+  - local-inference
+  - creator-economy
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

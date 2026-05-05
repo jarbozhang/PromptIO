@@ -1,6 +1,49 @@
 # 主题饱和度分析
 
-基于 190 篇文章（2026-04-08 至 2026-05-03）的主题分布。**5/3 12 篇后总计 190 篇。**
+基于 200 篇文章（2026-04-08 至 2026-05-05）的主题分布。**5/5 10 篇后总计 200 篇。**
+
+## 5/5 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| Chrome 偷塞 4GB Gemini Nano | 9 | narrative | AI 隐私 / 浏览器 / AI 产品体验 |
+| DeepClaude DeepSeek V4 Pro 接 Claude Code | 9 | first-person | AI 编程工具 / AI 定价 / Agent 框架 |
+| ace-step-ui 4090 跑 ACE-Step | 9 | first-person | AI 音乐 / 本地推理 / 创作者经济 |
+| Rapid-MLX M 系 Mac 引擎层 | 8 | analytical | 本地推理 / AI 定价 / AI 编程工具 |
+| n8n-MCP Claude 写自动化工作流 | 8 | first-person | 工作流自动化 / AI 变现 / Agent 框架 |
+| Specsmaxxing YAML 反 AI psychosis | 7 | retro | 方法论 / AI 编程工具 / spec-driven |
+| Roomba 创始人 AI 宠物 vs 国产 | 7 | narrative | 具身智能 / AI 产品体验 / 消费机器人 |
+| 视觉 AI 模型 6.5x 下载 vs 即梦小红书 | 7 | analytical | AI 变现 / AI 产品体验 / 多模态 |
+| dexter 开源自主金融研究 agent | 7 | first-person | AI 金融 / Agent 框架 / AI 研究 |
+| Lightricks LTX-2 音画联合 + LoRA | 7 | first-person | AI 视频 / 多模态 / 创作者经济 |
+
+**5/5 主题计数变化**：
+
+- **ai-coding-tools**: 32 → **34**（+#2 DeepClaude wrapper、#4 Rapid-MLX 接 Claude Code/Cursor/Aider、#6 Specsmaxxing 方法论；连续 5/3 +5 篇暂停建议未严格执行，但本期角度都偏"周边"非工具盘点）
+- **agent-frameworks**: 34 → **36**（+#2 DeepClaude agent loop、#5 n8n-MCP、#9 dexter；高饱和峰区警告依然有效）
+- **ai-pricing**: 28 → **30**（+#2 DeepClaude 省 75%、#4 Rapid-MLX 本地省 OpenRouter 钱）
+- **本地推理**: 15 → **17**（+#3 ace-step-ui 4090 本地、#4 Rapid-MLX M 系；非 Gemma/Qwen/DeepSeek 路线达成）
+- **AI 音乐**: 2 → **3**（+#3 ace-step-ui，5/3 Spotify Verified 之后第三次覆盖，本期切"创作者实测+本地路线"角度）
+- **AI 视频**: 3 → **4**（+#10 LTX-2，从 Veo Lite 价格档延伸到"开源音画联合 + LoRA"档位）
+- **多模态**: 11 → **13**（+#8 视觉 AI app 增长、#10 LTX-2 音画联合）
+- **AI 变现**: 5 → **7**（+#5 n8n-MCP 副业自动化、#8 视觉 AI app 流量打法；窗口期视角首次纳入）
+- **AI 金融**: 6 → **7**（+#9 dexter，从 TradingAgents/FinRL 量化交易延伸到"研究 agent"路线）
+- **方法论**: 新增（#6 Specsmaxxing YAML spec，反 AI psychosis 角度首次单独立线）
+- **AI 隐私**: 新增（#1 Chrome 偷塞 4GB Gemini Nano，本号首次以"浏览器层 AI 静默安装"切入隐私主题）
+- **具身智能**: 1 → **2**（+#7 Roomba 创始人 Familiar 消费宠物，从 Gemma 4 + Jetson Orin 工程 demo 延伸到"AI 消费陪伴"边界）
+- **创作者经济**: 新增明确主题线（+#3 ace-step-ui、#10 LTX-2 创作者实操路线）
+- **工作流自动化**: 新增（+#5 n8n-MCP，从单 agent / RPA 延伸到"LLM 写自动化流程"路线）
+
+**警告/降权说明**：
+
+- AI 编程工具 34 篇连续高饱和，5/3 暂停未达成，5/5 +3 但角度偏外围（wrapper 桥接、引擎层、方法论），下一轮严格只跟"国产 Claude Code 平替二次出圈"或"重大技术栈变化"
+- Agent 框架 36 篇连续高饱和，下一轮严格降权
+- AI 定价 30 篇仅"重大价格断档/账单事件"才纳入
+- 本地推理 17 篇高饱和，下一轮只跟"非 Gemma/Qwen/DeepSeek/MLX/Ollama"主线的新引擎或新硬件路线
+
+**新空间打开**：方法论（#6）、AI 隐私（#1）、工作流自动化（#5）三条新主题首次落地。AI 音乐 / AI 视频两条低饱和线 +1 篇维持稳定供给。
+
+
 
 ## 5/3 12 篇主题分布
 

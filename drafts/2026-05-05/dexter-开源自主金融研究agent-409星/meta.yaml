@@ -1,0 +1,33 @@
+title: "散户每天看不完几十份研报，我让 dexter 帮我跑了一天"
+status: draft
+date: 2026-05-05
+reach: 7
+voice: first-person
+sources:
+  - github-trending-f3196fce
+  - github-virattt-dexter
+  - last30days-research
+tags:
+  - ai-finance
+  - agent-frameworks
+  - ai-research
+  - open-source
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

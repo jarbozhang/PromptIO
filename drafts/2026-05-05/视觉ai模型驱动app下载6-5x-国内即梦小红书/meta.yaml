@@ -1,0 +1,33 @@
+title: "图像模型一发布下载量飙 6.5 倍，即梦小红书的窗口期到底有多窄"
+status: draft
+date: 2026-05-05
+reach: 7
+voice: analytical
+sources:
+  - techcrunch-ai-a168596f
+  - appfigures-image-ai-report
+  - last30days-research
+tags:
+  - ai-monetization
+  - multimodal
+  - ai-product-experience
+  - chinese-ai
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

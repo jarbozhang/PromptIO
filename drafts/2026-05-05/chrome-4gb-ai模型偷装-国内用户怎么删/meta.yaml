@@ -1,0 +1,32 @@
+title: "Chrome 在你硬盘上偷塞了 4GB 的 Gemini Nano，国内用户怎么查、怎么删"
+status: draft
+date: 2026-05-05
+reach: 9
+voice: narrative
+sources:
+  - hacker-news-algolia-ai-filter-c5eab5ba
+  - thatprivacyguy-blog-chrome-silent-nano
+  - last30days-research
+tags:
+  - ai-privacy
+  - chrome
+  - google
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l6_pass: false
+  l6_issues: [{"type":"overseas_access","text":"国内用户其中一部分会因为网络问题没拉下来，但相当多一部分人本来就有各种方式让 Chrome 的 update 通道工作","suggestion":"改成中性表述：国内一部分用户网络环境拉不到 Google 服务，模型不会落盘"}]
+  xhs_pass: false
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

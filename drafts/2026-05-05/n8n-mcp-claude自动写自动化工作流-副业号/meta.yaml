@@ -1,0 +1,33 @@
+title: "本来要写 50 行 JSON，现在我用一句中文让 Claude 把 n8n workflow 拼好了"
+status: draft
+date: 2026-05-05
+reach: 8
+voice: first-person
+sources:
+  - github-trending-d5b5dcd2
+  - github-czlonkowski-n8n-mcp
+  - last30days-research
+tags:
+  - workflow-automation
+  - ai-monetization
+  - mcp
+  - n8n
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -8,6 +8,10 @@
       "name": "IBM: Granite 4.1 8B",
       "context_length": 131072
     },
+    "mistralai/mistral-medium-3-5": {
+      "name": "Mistral: Mistral Medium 3.5",
+      "context_length": 262144
+    },
     "openrouter/owl-alpha": {
       "name": "Owl Alpha",
       "context_length": 1048756
@@ -1485,5 +1489,5 @@
       "context_length": 16385
     }
   },
-  "updated_at": "2026-05-03T13:02:11.378Z"
+  "updated_at": "2026-05-05T09:57:29.999Z"
 }

@@ -1,0 +1,33 @@
+title: "DeepClaude 一夜 657 HN 热度，我把 Claude Code 的脑子换成了 DeepSeek V4 Pro"
+status: draft
+date: 2026-05-05
+reach: 9
+voice: first-person
+sources:
+  - hacker-news-algolia-ai-filter-d1718254
+  - github-aattaran-deepclaude
+  - last30days-research
+tags:
+  - ai-coding-tools
+  - deepseek
+  - claude-code
+  - ai-pricing
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

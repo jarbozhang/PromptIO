@@ -2,6 +2,27 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-05（10 篇，voice 分布 first-person 4 / narrative 2 / analytical 2 / retro 1，加 1 narrative+操作型）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[chrome-4gb-ai模型偷装-国内用户怎么删\|Chrome 在你硬盘上偷塞了 4GB 的 Gemini Nano，国内用户怎么查、怎么删]] | 9 | narrative | [[google\|Google]], [[chrome\|Chrome]], [[gemini-nano\|Gemini Nano]] | [[ai-privacy\|AI 隐私]] / 浏览器 / [[ai-product-experience\|AI 产品体验]] |
+| [[deepclaude-deepseek-v4-pro接claude-code-agent-loop\|DeepClaude 一夜 657 HN 热度，我把 Claude Code 的脑子换成了 DeepSeek V4 Pro]] | 9 | first-person | [[deepseek\|DeepSeek]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[deepclaude\|DeepClaude]] | [[ai-coding-tools\|AI 编程工具]] / [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] |
+| [[ace-step-ui-开源ai音乐生成器-本地不限量\|我用一张 4090 跑了一晚 ACE-Step UI，做 B 站 BGM 比 Suno 订阅划算太多]] | 9 | first-person | [[ace-step-ui\|ace-step-ui]], [[ace-step\|ACE-Step]], [[suno\|Suno]] | [[ai-music\|AI 音乐]] / [[local-inference\|本地推理]] / [[creator-economy\|创作者经济]] |
+| [[rapid-mlx-比ollama快4-2倍-mac本地ai推理引擎\|M 系 Mac 上跑本地模型，引擎层正在被换掉]] | 8 | analytical | [[apple\|Apple]], [[ollama\|ollama]], [[rapid-mlx\|Rapid-MLX]], [[mlx\|MLX]] | [[local-inference\|本地推理]] / [[ai-pricing\|AI 定价]] / [[ai-coding-tools\|AI 编程工具]] |
+| [[n8n-mcp-claude自动写自动化工作流-副业号\|本来要写 50 行 JSON，现在我用一句中文让 Claude 把 n8n workflow 拼好了]] | 8 | first-person | [[n8n\|n8n]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[cursor\|Cursor]] | [[workflow-automation\|工作流自动化]] / [[ai-monetization\|AI 变现]] / [[agent-frameworks\|Agent 框架]] |
+| [[specsmaxxing-yaml写spec反ai-psychosis\|一个工程师写了 1.5 小时无人值守的 AI 工厂，然后把它全删了]] | 7 | retro | [[specsmaxxing\|Specsmaxxing]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | 方法论 / [[ai-coding-tools\|AI 编程工具]] / spec-driven |
+| [[roomba创始人ai机器宠物-国产猫狗机器人怎么追\|Roomba 创始人不做扫地机了，回来做 AI 宠物，国产怎么接]] | 7 | narrative | [[roomba\|Roomba]], [[colin-angle\|Colin Angle]], [[familiar-machines\|Familiar Machines]], [[unitree\|宇树]], [[xiaomi\|小米]] | [[embodied-ai\|具身智能]] / [[ai-product-experience\|AI 产品体验]] / 消费机器人 |
+| [[视觉ai模型驱动app下载6-5x-国内即梦小红书\|图像模型一发布下载量飙 6.5 倍，即梦小红书的窗口期到底有多窄]] | 7 | analytical | [[appfigures\|Appfigures]], [[bytedance\|字节跳动]], [[xiaohongshu\|小红书]], [[meitu\|美图]] | [[ai-monetization\|AI 变现]] / [[ai-product-experience\|AI 产品体验]] / [[multimodal\|多模态]] |
+| [[dexter-开源自主金融研究agent-409星\|散户每天看不完几十份研报，我让 dexter 帮我跑了一天]] | 7 | first-person | [[dexter\|dexter]], [[virattt\|virattt]], [[anthropic\|Anthropic]] | [[ai-finance\|AI 金融]] / [[agent-frameworks\|Agent 框架]] / [[ai-research\|AI 研究]] |
+| [[lightricks-ltx-2开源音视频生成模型-本地训lora\|Lightricks 把 LTX-2 开源了，19B 音画联合还能本地训自己的 LoRA]] | 7 | first-person | [[lightricks\|Lightricks]], [[ltx-2\|LTX-2]], [[wan-video\|Wan]], [[hunyuan-video\|HunyuanVideo]] | [[ai-video\|AI 视频]] / [[multimodal\|多模态]] / [[creator-economy\|创作者经济]] / LoRA 训练 |
+
+**5/5 voice 分布**：first-person 4 / narrative 2 / analytical 2 / retro 1，与 5/3 相比 first-person 比重提升（实操工具篇多）。
+
+**5/5 QA 结果**：10/10 全过 overall_pass；L1 机械替换共 10 处；L6 fail 1 篇（#1 Chrome 4GB AI 因正文一句"让 Chrome 的 update 通道工作"被 QA 判为 overseas_access 暗示，已生成合规版改为中性"网络环境拉不到 Google 服务"）。L2 平均 8.3，L3 平均 8.3，L5 平均 7.9。
+
+**5/5 Step 4.6**：5 篇生成 xhs-version.md（Chrome L6 fail 必须 1 篇 + reach≥8 主动 4 篇：DeepClaude / ace-step-ui / Rapid-MLX / n8n-MCP）；5 篇 xhs:primary 直发主版本（Specsmaxxing / Roomba / 视觉 AI app / dexter / LTX-2）。
+
 ## 2026-05-03（12 篇，voice 分布 first-person 2 / narrative 5 / analytical 3 / retro 2）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |
