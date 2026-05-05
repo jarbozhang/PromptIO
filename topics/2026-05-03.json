@@ -1,0 +1,235 @@
+[
+  {
+    "index": 1,
+    "title": "openclaw 367k 星了，又一篇 arxiv 用 ClawHub Top-500 把 13 个前沿模型卡在 66.7% 过不去",
+    "slug": "openclaw-367k星-claw-eval-live-13个前沿模型最高66-7",
+    "score": 8.65,
+    "actionability": 8,
+    "novelty": 9,
+    "reach": 9,
+    "depth_potential": 9,
+    "angle": "openclaw 主仓库今天 367k 星，同日 arxiv 出 Claw-Eval-Live 论文，用 ClawHub Top-500 skills 当任务集，跑 13 个前沿模型最高 66.7% 通过率，没有一个能过 70%。读者可以拿 ClawHub 上的 skill 自己跑同样的 evaluation，看自己的 AI 工作流卡在哪。",
+    "prototype": "论文拆解",
+    "voice": "analytical",
+    "tags": ["openclaw", "agent-evaluation", "openclaw 生态", "Claw-Eval-Live", "ClawHub"],
+    "sources": [
+      "sources/2026-05-03/github-trending-0bd21c2c.md",
+      "sources/2026-05-03/arxiv-caf0c791.md"
+    ],
+    "reason": "openclaw 优先品牌 +1 boost，且这次 arxiv 论文直接把 ClawHub Top-500 skills 当 benchmark，把 openclaw 生态从'TypeScript 圈最大个人 AI 助手'升级到'agent eval 标准基准'。中国读者拿自己常用的 skill 跑一遍就有数据可看。",
+    "reach_note": "品牌认知（openclaw 已有覆盖 + 中国读者通过本号熟悉）+ 可操作（ClawHub skill 直接装）+ 利益点（眼前最权威 benchmark 自己跑）三要素全满 + 优先品牌 +1 boost"
+  },
+  {
+    "index": 2,
+    "title": "Apple 自家 Apple Support 应用里被人扒出 Claude.md 文件，国内开发者赶紧 grep 自家 app",
+    "slug": "apple-support-app泄露claude-md文件-国内开发者grep自家应用",
+    "score": 8.55,
+    "actionability": 9,
+    "novelty": 10,
+    "reach": 9,
+    "depth_potential": 7,
+    "angle": "Apple 把 Claude.md 文件随 Apple Support app 一起发给了用户，HN 380 分 319 评论。文章给读者一条命令：cd 到自己开发的 macOS/iOS app 目录跑 grep -r 'CLAUDE.md\\|claude.md' 看自己有没有把 prompt 暴露出去。",
+    "prototype": "社区事件",
+    "voice": "narrative",
+    "tags": ["Apple", "Claude Code", "supply-chain-security", "AI 开发安全", "信息泄露"],
+    "sources": [
+      "sources/2026-05-03/hacker-news-algolia-ai-filter-0567d9ec.md"
+    ],
+    "reason": "Apple 都翻车的事件，国内大厂 AI app 一定也有同样风险。给读者一个 grep 模板就能立即扫自己的工程仓，是典型可操作选题。",
+    "reach_note": "品牌认知（Apple）+ 可操作（grep 命令直接跑）+ 利益点（避免自家 prompt 泄露）三要素全满"
+  },
+  {
+    "index": 3,
+    "title": "Uber 4 个月把 2026 全年的 AI 预算烧光在 Claude Code 上，国内大厂该怎么管这笔账",
+    "slug": "uber-4个月烧光2026年ai预算-claude-code账单国内大厂启示",
+    "score": 8.45,
+    "actionability": 7,
+    "novelty": 9,
+    "reach": 9,
+    "depth_potential": 8,
+    "angle": "Uber 把整个 2026 年 AI 预算花在 Claude Code 上 4 个月就用完了，HN 398 分 469 评论。文章拆 Uber 的用法（开发者人均 $X / 月）、对比国内字节/阿里/腾讯类似规模团队，给出'团队 50 人以下用 OpenRouter 自己计费'、'50-500 人用企业版 Claude Code 加预算闸门'两条预算曲线。",
+    "prototype": "现象解读",
+    "voice": "analytical",
+    "tags": ["Claude Code", "AI 定价", "AI 编程工具", "企业 AI 落地"],
+    "sources": [
+      "sources/2026-05-03/hacker-news-algolia-ai-filter-de13a4b3.md"
+    ],
+    "reason": "国内大厂内部 AI 编程工具刚开始铺，Uber 把账单跑爆这个事件是反面教材。给读者一个'怎么不重蹈覆辙'的 sizing 参考。",
+    "reach_note": "品牌认知（Uber + Claude Code）+ 利益点（避免预算翻车）两要素满，REACH 8 + ai-pricing 高饱和但属'重大账单事件'符合警告条款"
+  },
+  {
+    "index": 4,
+    "title": "Kimi K2.6 编程对决又赢了 Claude / GPT-5.5 / Gemini，国产开源权重又拔一个旗",
+    "slug": "kimi-k2-6编程对决击败claude-gpt-5-5-gemini-国产开源权重",
+    "score": 8.35,
+    "actionability": 8,
+    "novelty": 8,
+    "reach": 9,
+    "depth_potential": 8,
+    "angle": "HN 316 分文章，开源权重 Kimi K2.6 在编程 challenge 上击败 Claude / GPT-5.5 / Gemini。给读者两套用法：OpenRouter 调 Kimi K2.6 接 Claude Code（替 Sonnet），Moonshot 官方 kimi-cli 接本地（4/22 已写过 cli，本次重点是 K2.6 编程版的具体 benchmark 数据）。",
+    "prototype": "工具实测",
+    "voice": "narrative",
+    "tags": ["Kimi", "Moonshot", "国产 AI", "AI 编程工具", "开源权重"],
+    "sources": [
+      "sources/2026-05-03/hacker-news-algolia-ai-filter-355ff2f2.md",
+      "sources/2026-05-03/last-week-in-ai-e1e400db.md"
+    ],
+    "reason": "中国品牌 + 编程实测，又一次开源权重赢闭源。中国读者直接能在 OpenRouter / kimi-cli 上跑出同样结果。",
+    "reach_note": "品牌认知（Kimi/Moonshot）+ 可操作（OpenRouter 直接调）+ 利益点（开源权重免费跑）三要素全满"
+  },
+  {
+    "index": 5,
+    "title": "NousResearch hermes-agent 130k 星了，topics 里写满了 openclaw / clawdbot / moltbot",
+    "slug": "hermes-agent-130k星-nousresearch和openclaw生态深度绑定-topics拆解",
+    "score": 8.30,
+    "actionability": 7,
+    "novelty": 8,
+    "reach": 9,
+    "depth_potential": 9,
+    "angle": "hermes-agent 一周从 12 万星涨到 13 万星，仓库 topics 直接列着 openclaw / clawdbot / moltbot / hermes / claude-code / codex 七连击，明确把 NousResearch 与 openclaw 绑成同一条 agent 路线。给读者一篇'怎么把 hermes-agent 的长期记忆和 openclaw 主仓库的 skill 系统串起来用'的实测。",
+    "prototype": "工具实测",
+    "voice": "retro",
+    "tags": ["NousResearch", "hermes-agent", "openclaw 生态", "agent 记忆", "Agent 框架"],
+    "sources": [
+      "sources/2026-05-03/github-trending-978e35c6.md",
+      "sources/2026-05-03/github-trending-0bd21c2c.md"
+    ],
+    "reason": "NousResearch 是优先品牌 +1 boost，hermes-agent 又是 4/28 单独立的 openclaw 生态线第二支柱，130k 星节点值得跟。中国读者本就在用 openclaw，可以串 hermes 上长期记忆。",
+    "reach_note": "品牌认知（NousResearch + Hermes + openclaw）+ 可操作（一台机器同时跑两个）三要素满 + 优先品牌 +1 boost"
+  },
+  {
+    "index": 6,
+    "title": "Spotify 给真人歌手发 Verified 徽章了，QQ 音乐网易云该不该跟",
+    "slug": "spotify-verified徽章区分真人ai-qq音乐网易云怎么办",
+    "score": 7.95,
+    "actionability": 6,
+    "novelty": 9,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "Spotify 加了 Verified 徽章把真人艺术家与 AI 区分开（HN 273 分 300 评论）。给读者一个对比矩阵：Spotify Verified vs QQ 音乐 / 网易云 / 抖音如何标记 AI 生成。读者要做 AI 音乐变现的，知道哪些平台还能挂 AI 作品，哪些已经打标。",
+    "prototype": "现象解读",
+    "voice": "narrative",
+    "tags": ["Spotify", "AI 音乐", "AI+娱乐", "创作者经济", "国产平台对比"],
+    "sources": [
+      "sources/2026-05-03/hacker-news-algolia-ai-filter-9aa5e638.md",
+      "sources/2026-05-03/the-verge-ai-3800b607.md"
+    ],
+    "reason": "AI 音乐 4/22 Deezer 写过 44%，本篇切'平台标记机制'新角度。AI 音乐变现读者特别需要知道哪些平台开始打标，否则发出去白发。",
+    "reach_note": "品牌认知（Spotify + 网易云 / QQ 音乐对照）+ 利益点（避免选错平台）两要素满"
+  },
+  {
+    "index": 7,
+    "title": "AI 演员剧本被奥斯卡踢出局，国内剧组的 AI 流水线还能上电影节吗",
+    "slug": "ai生成演员剧本-奥斯卡禁用-tilly-norwood案-国产剧组ai流水线",
+    "score": 7.95,
+    "actionability": 6,
+    "novelty": 9,
+    "reach": 8,
+    "depth_potential": 9,
+    "angle": "奥斯卡 5/2 正式宣布 AI 生成演员和剧本不再合资格，Tilly Norwood 这个 AI 演员被点名。给读者两条线：1）爱奇艺 AI 艺人库（4/21 已写）会怎么应对国际电影节资格，2）国产 AI 短视频/短剧流水线（Pixelle-Video 等）今年金鸡奖/平遥还能不能用。",
+    "prototype": "现象解读",
+    "voice": "narrative",
+    "tags": ["AI 影视", "奥斯卡", "AI+娱乐", "AI 演员", "中国电影"],
+    "sources": [
+      "sources/2026-05-03/techcrunch-ai-4ce3b826.md"
+    ],
+    "reason": "AI 影视主题在饱和度表里只有'爱奇艺 1 篇'，是低饱和方向。奥斯卡这种顶级电影节定规则后，国产电影节大概率跟，做内容的人需要早知道。",
+    "reach_note": "品牌认知（奥斯卡 + 爱奇艺）+ 利益点（提前知道行业规则避免白做）两要素满"
+  },
+  {
+    "index": 8,
+    "title": "Google 的 Gemini 进了几百万辆汽车，国产车的 AI 助手为什么还差一截",
+    "slug": "google-gemini-进数百万辆车-国产车ai助手对比",
+    "score": 7.75,
+    "actionability": 5,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 9,
+    "angle": "Google 宣布 Gemini AI assistant 进入数百万辆车（4/30 TechCrunch）。文章拆三种'终端 AI'路线：Gemini 进车 vs 小米 SU7 用豆包 vs 蔚来用通义。读者要买车的，知道哪家 AI 助手是真能用、哪家是噱头。",
+    "prototype": "现象解读",
+    "voice": "analytical",
+    "tags": ["Google", "Gemini", "终端 AI", "AI+汽车", "AI 产品体验"],
+    "sources": [
+      "sources/2026-05-03/techcrunch-ai-fdf0c2cf.md"
+    ],
+    "reason": "5/1 引入'终端 AI'主题（Warp），AI+汽车是这条线的延伸。中国读者关心买车，给一个 Gemini vs 国产 AI 车机的横向对比。",
+    "reach_note": "品牌认知（Google + 国产车）+ 利益点（避免买到噱头 AI 车机）两要素满"
+  },
+  {
+    "index": 9,
+    "title": "Microsoft Word 把法律 Agent 塞进来了，国内律师事务所还能等多久",
+    "slug": "microsoft-word法律agent-国内律所合同审查ai-office场景",
+    "score": 7.65,
+    "actionability": 7,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 7,
+    "angle": "Microsoft 在 Word 里上线 Legal Agent，专门跑合同条款审查、negotiation history、法律 playbook。给读者两条对比：海外律师能直接在 Word 用 vs 国内律师只能用 WPS AI / 腾讯文档（精度差距）。读者要做合规审查的，可以临时挂 Office 365 海外账号试用。",
+    "prototype": "工具实测",
+    "voice": "narrative",
+    "tags": ["Microsoft", "Microsoft Word", "AI+办公", "AI 法律", "agent 框架"],
+    "sources": [
+      "sources/2026-05-03/the-verge-ai-a28baaad.md"
+    ],
+    "reason": "AI+办公 5/1 才首次立线（ppt-master），Word Legal Agent 是新一笔 +1。AI+法律饱和度 1 篇极低。律师 / 法务这个用户群对 AI 集成需求强烈。",
+    "reach_note": "品牌认知（Microsoft Word）+ 可操作（合同审查能立刻试）两要素满"
+  },
+  {
+    "index": 10,
+    "title": "Show HN 那个 agent-desktop 用 53 个命令把 macOS 应用全打通，比截屏点击的 Claude Code 快得多",
+    "slug": "agent-desktop-53命令-本地桌面自动化-不用截图操控native-apps",
+    "score": 7.65,
+    "actionability": 9,
+    "novelty": 7,
+    "reach": 7,
+    "depth_potential": 8,
+    "angle": "Show HN 122 星 Rust 项目，绕开 Claude Code/Codex 那种'截图 → 模型预测像素 → 点击 x,y'的低效循环，直接读 macOS Accessibility API / Windows UI Automation 的 accessibility tree，用 53 个 JSON CLI 命令操作 native app。1 个 Rust 二进制 15MB 装一下就跑。给读者一份'本地 desktop 自动化 替代 computer-use agent'的现成工具。",
+    "prototype": "工具实测",
+    "voice": "first-person",
+    "tags": ["agent-desktop", "Computer Use Agent", "终端 AI", "本地自动化", "Claude Code 替代"],
+    "sources": [
+      "sources/2026-05-03/hacker-news-algolia-ai-filter-28655781.md"
+    ],
+    "reason": "computer-use 主题 4/27 trycua 是首次覆盖，agent-desktop 是更轻的替代方案，没有 ML 推理只有 accessibility tree，国内开发者 macOS 上跑现成可用，比 trycua 那种 sandbox 重型方案快得多。",
+    "reach_note": "品牌认知（macOS Accessibility / Claude Code / Codex 都被读者熟知）+ 可操作（一个 Rust binary 装即用）+ 利益点（替代 token 烧爆的 computer-use agent）三要素全满"
+  },
+  {
+    "index": 11,
+    "title": "Sebastian Raschka 把 coding agent 拆成 5 块 — 看完知道国产 Claude Code 平替差在哪",
+    "slug": "sebastian-raschka拆coding-agent五大组件-国产claude-code平替差距",
+    "score": 7.55,
+    "actionability": 7,
+    "novelty": 7,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "Raschka 在 magazine 里把 coding agent 拆成工具、记忆、repo 上下文三大轴。文章用这套 framework 横扫国产 Claude Code 平替（Trae、ds2api、Z.ai Code、Kimi-cli），看哪一项还没补齐。读者选编程工具时，知道每家差在哪个组件。",
+    "prototype": "方法论",
+    "voice": "retro",
+    "tags": ["Sebastian Raschka", "AI 编程工具", "coding agent", "国产 AI", "方法论"],
+    "sources": [
+      "sources/2026-05-03/sebastian-raschka-9025f0fa.md",
+      "sources/2026-05-03/sebastian-raschka-80b979b7.md"
+    ],
+    "reason": "Raschka 是中国 AI 圈熟悉的方法论作者（4/23 GRPO 文章已写过）。这篇 components of a coding agent 是给国内开发者一把分析刀，对照 4/30 那篇 136k 星 system-prompts 仓库，能解释为什么国产 Claude Code 平替'感觉差点'到底差在哪。",
+    "reach_note": "品牌认知（Sebastian Raschka）+ 可操作（拿 framework 套自家工具链）两要素满"
+  },
+  {
+    "index": 12,
+    "title": "DeepSeek-TUI 一夜 564 星，给 DeepSeek 配了个 Rust 终端版的 Claude Code",
+    "slug": "deepseek-tui-564星-deepseek终端coding-agent-rust",
+    "score": 7.55,
+    "actionability": 8,
+    "novelty": 7,
+    "reach": 8,
+    "depth_potential": 7,
+    "angle": "Hmbown/DeepSeek-TUI 一天涨 564 星 Rust 项目，给 DeepSeek 模型做了一个跑在终端里的 coding agent，跟 Claude Code / kimi-cli 一个赛道。给读者三步上手：cargo install / 配 DeepSeek API key / 一条命令把它接到 git 仓库里跑。同时对比 4/30 ds2api（DeepSeek 协议中间件）做选择指南：要 GUI 还是 CLI、要走中间件还是直连。",
+    "prototype": "工具实测",
+    "voice": "first-person",
+    "tags": ["DeepSeek", "DeepSeek-TUI", "AI 编程工具", "国产 AI", "终端 AI"],
+    "sources": [
+      "sources/2026-05-03/github-trending-e8595ca9.md"
+    ],
+    "reason": "DeepSeek 国产顶流 + 终端工具 + Rust 实现，中国开发者一条 cargo install 就能跑。配合 4/30 ds2api 已经写过的 DeepSeek 协议中间件，形成 DeepSeek 工具链拼图。",
+    "reach_note": "品牌认知（DeepSeek + Claude Code / kimi-cli 类比）+ 可操作（cargo install 一行装上）三要素全满"
+  }
+]

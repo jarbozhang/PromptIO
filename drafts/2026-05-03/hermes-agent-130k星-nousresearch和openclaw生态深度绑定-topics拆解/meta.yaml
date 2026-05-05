@@ -1,0 +1,33 @@
+title: "NousResearch hermes-agent 130k 星了，topics 里写满了 openclaw / clawdbot / moltbot"
+status: draft
+date: "2026-05-03"
+reach: 9
+voice: retro
+sources:
+  - github-trending-978e35c6.md
+  - github-trending-0bd21c2c.md
+tags:
+  - NousResearch
+  - hermes-agent
+  - openclaw 生态
+  - agent 记忆
+  - Agent 框架
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 0
+  l2_score: 8
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

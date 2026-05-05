@@ -1,0 +1,36 @@
+title: "Kimi K2.6 编程对决又赢了 Claude / GPT-5.5 / Gemini，国产开源权重又拔一个旗"
+status: draft
+date: "2026-05-03"
+reach: 9
+voice: narrative
+sources:
+  - hacker-news-algolia-ai-filter-355ff2f2.md
+  - last-week-in-ai-e1e400db.md
+tags:
+  - Kimi
+  - Moonshot
+  - 国产 AI
+  - AI 编程工具
+  - 开源权重
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 1
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: false
+  l6_issues: 
+    - type: title_banned_phrase
+      text: "标题'又赢了'断言式对比"
+      suggestion: "改为正向描述"
+  xhs_pass: false
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -1,0 +1,31 @@
+title: "Uber 4 个月把 2026 全年的 AI 预算烧光在 Claude Code 上，国内大厂该怎么管这笔账"
+status: draft
+date: "2026-05-03"
+reach: 9
+voice: analytical
+sources:
+  - hacker-news-algolia-ai-filter-de13a4b3.md
+tags:
+  - Claude Code
+  - AI 定价
+  - AI 编程工具
+  - 企业 AI 落地
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -1,0 +1,33 @@
+title: "Sebastian Raschka 把 coding agent 拆成 5 块 — 看完知道国产 Claude Code 平替差在哪"
+status: draft
+date: "2026-05-03"
+reach: 8
+voice: retro
+sources:
+  - sebastian-raschka-9025f0fa.md
+  - sebastian-raschka-80b979b7.md
+tags:
+  - Sebastian Raschka
+  - AI 编程工具
+  - coding agent
+  - 国产 AI
+  - 方法论
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

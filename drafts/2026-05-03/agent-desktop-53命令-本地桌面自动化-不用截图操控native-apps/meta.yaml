@@ -1,0 +1,32 @@
+title: "Show HN 那个 agent-desktop 用 53 个命令把 macOS 应用全打通，比截屏点击的 Claude Code 快得多"
+status: draft
+date: "2026-05-03"
+reach: 7
+voice: first-person
+sources:
+  - hacker-news-algolia-ai-filter-28655781.md
+tags:
+  - agent-desktop
+  - Computer Use Agent
+  - 终端 AI
+  - 本地自动化
+  - Claude Code 替代
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

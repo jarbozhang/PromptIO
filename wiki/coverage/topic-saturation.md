@@ -1,6 +1,49 @@
 # 主题饱和度分析
 
-基于 178 篇文章（2026-04-08 至 2026-05-01）的主题分布。**5/1 voice 分流试点 10 篇后总计 178 篇。**
+基于 190 篇文章（2026-04-08 至 2026-05-03）的主题分布。**5/3 12 篇后总计 190 篇。**
+
+## 5/3 12 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| openclaw 367k + Claw-Eval-Live arxiv | 9 | analytical | openclaw 生态 / agent-evaluation / AI 研究 |
+| Apple Support 应用扒出 Claude.md | 9 | narrative | 供应链安全 / AI 编程工具 / 信息泄露 |
+| Uber 4 个月烧光 2026 全年 AI 预算 | 9 | analytical | AI 定价 / AI 编程工具 / 企业 AI 落地 |
+| Kimi K2.6 编程对决赢闭源前沿 | 9 | narrative | AI 编程工具 / 国产 AI / 开源权重 |
+| hermes-agent 130k 星 topics 绑 openclaw | 9 | retro | openclaw 生态 / Agent 框架 / Agent 记忆 |
+| Spotify Verified 徽章区分真人 AI | 8 | narrative | AI 音乐 / 创作者经济 / AI 变现 |
+| 奥斯卡禁 AI 演员剧本 Tilly Norwood 案 | 8 | narrative | AI 影视 / AI 演员 / 中国电影 |
+| Gemini 进百万辆车 vs 国产车机 AI | 8 | analytical | AI+汽车 / 终端 AI / AI 产品体验 |
+| Microsoft Word 法律 Agent | 8 | narrative | AI+法律 / AI+办公 / Agent 框架 |
+| agent-desktop 53 命令 a11y 替 trycua | 7 | first-person | Computer Use Agent / 终端 AI / 本地自动化 |
+| Raschka 拆 coding agent 五大组件 | 8 | retro | AI 编程工具 / Agent 框架 / 方法论 |
+| DeepSeek-TUI 564 星 Rust 终端 | 8 | first-person | AI 编程工具 / 国产 AI / 终端 AI |
+
+**5/3 主题计数变化**：
+
+- **ai-coding-tools**: 27 → **32**（+5 篇高密度，#2 Apple/Claude Code、#3 Uber/Claude Code、#4 Kimi 编程、#11 Raschka 拆 coding agent、#12 DeepSeek-TUI；新角度是企业账单、横评方法论、Rust 终端，避开了纯工具盘点）
+- **agent-frameworks**: 32 → **34**（+#5 hermes 接 openclaw、#9 Word 法律 Agent，已是高饱和峰区）
+- **ai-pricing**: 27 → **28**（+#3 Uber 烧光预算属"重大账单事件"符合饱和警告例外条款）
+- **ai-research**: 10 → **12**（+#1 论文拆解、#11 方法论 retro）
+- **supply-chain-security**: 14 → **15**（+#2 Apple Claude.md 泄露）
+- **国产 AI 生态**: 17 → **19**（+#4 Kimi、#12 DeepSeek-TUI 国产开源延伸）
+- **openclaw 生态**: 4/28 后第三次覆盖（+#1 #5），从单仓库扩展到 "openclaw 主仓库 + hermes-agent + Claw-Eval-Live benchmark" 三角
+- **AI 音乐**: 1 → **2**（+#6 Spotify Verified，4/22 Deezer 后切'平台标记机制'新角度）
+- **AI 影视**: 1 → **2**（+#7 奥斯卡 + Tilly Norwood，从爱奇艺 AI 艺人库扩展到国际电影节资格规则）
+- **终端 AI**: 1 → **3**（+#10 agent-desktop、#12 DeepSeek-TUI，5/1 Warp 后形成"native 自动化 / Rust CLI agent"双线）
+- **agent-evaluation**: 新增（#1 Claw-Eval-Live 用 ClawHub Top-500 当 benchmark，本号首次单独立此主题）
+- **AI+汽车**: 新增（#8 Gemini 进百万辆车 vs 国产车机，本号首次正式覆盖）
+- **AI+法律**: 新增（#9 Microsoft Word Legal Agent，AI+办公线扩展到法律垂直）
+- **Computer Use Agent**: 1 → **2**（+#10 agent-desktop，4/27 trycua 之后首次替代方案，a11y tree 路线 vs sandbox 重型路线）
+
+**警告/降权说明**：
+
+- AI 编程工具单日 +5 跃升到 32 篇，是历史最高密度，**下一轮硬性暂停 1-2 天**
+- Agent 框架 34 篇连续高饱和峰区（4/27 18 → 4/30 30 → 5/1 32 → 5/3 34），下一轮严格降权
+- AI 定价 28 篇仅"重大价格断档"才纳入，本期 #3 Uber 属企业账单事件特例
+- 国产 AI 19 篇高饱和，下一轮选题国产线只跟"非 Kimi/DeepSeek/Qwen"的新增项目
+
+**新空间打开**：AI+汽车（#8）、AI+法律（#9）、agent-evaluation（#1）三条新主题首次落地，AI 影视/AI 音乐两条低饱和线各 +1 篇形成稳定供给。
 
 ## 5/1 voice 分流试点 10 篇主题分布
 

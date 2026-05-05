@@ -1,0 +1,33 @@
+title: "Spotify 给真人歌手发 Verified 徽章了，QQ 音乐网易云该不该跟"
+status: draft
+date: "2026-05-03"
+reach: 8
+voice: narrative
+sources:
+  - hacker-news-algolia-ai-filter-9aa5e638.md
+  - the-verge-ai-3800b607.md
+tags:
+  - Spotify
+  - AI 音乐
+  - AI+娱乐
+  - 创作者经济
+  - 国产平台对比
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 13
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -1,0 +1,32 @@
+title: "Microsoft Word 把法律 Agent 塞进来了，国内律师事务所还能等多久"
+status: draft
+date: "2026-05-03"
+reach: 8
+voice: narrative
+sources:
+  - the-verge-ai-a28baaad.md
+tags:
+  - Microsoft
+  - Microsoft Word
+  - AI+办公
+  - AI 法律
+  - agent 框架
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 1
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

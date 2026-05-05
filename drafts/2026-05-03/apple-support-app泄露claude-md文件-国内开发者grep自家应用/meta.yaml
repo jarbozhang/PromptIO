@@ -1,0 +1,32 @@
+title: "Apple 自家 Apple Support 应用里被人扒出 Claude.md 文件，国内开发者赶紧 grep 自家 app"
+status: draft
+date: "2026-05-03"
+reach: 9
+voice: narrative
+sources:
+  - hacker-news-algolia-ai-filter-0567d9ec.md
+tags:
+  - Apple
+  - Claude Code
+  - supply-chain-security
+  - AI 开发安全
+  - 信息泄露
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 4
+  l2_score: 8
+  l3_score: 9
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

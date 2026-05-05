@@ -1,0 +1,32 @@
+title: "Google 的 Gemini 进了几百万辆汽车，国产车的 AI 助手为什么还差一截"
+status: draft
+date: "2026-05-03"
+reach: 8
+voice: analytical
+sources:
+  - techcrunch-ai-fdf0c2cf.md
+tags:
+  - Google
+  - Gemini
+  - 终端 AI
+  - AI+汽车
+  - AI 产品体验
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

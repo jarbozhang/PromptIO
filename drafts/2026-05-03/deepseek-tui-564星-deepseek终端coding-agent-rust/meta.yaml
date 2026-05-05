@@ -1,0 +1,35 @@
+title: "DeepSeek-TUI 一夜 564 星，给 DeepSeek 配了个 Rust 终端版的 Claude Code"
+status: draft
+date: "2026-05-03"
+reach: 8
+voice: first-person
+sources:
+  - github-trending-e8595ca9.md
+tags:
+  - DeepSeek
+  - DeepSeek-TUI
+  - AI 编程工具
+  - 国产 AI
+  - 终端 AI
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 1
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: false
+  l6_issues: 
+    - type: vpn_guide
+      text: "ds2api 灰色中间件引用"
+      suggestion: "删除该段或改写为合规 API 配置"
+  xhs_pass: false
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

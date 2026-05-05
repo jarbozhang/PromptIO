@@ -1,0 +1,32 @@
+title: "AI 演员剧本被奥斯卡踢出局，国内剧组的 AI 流水线还能上电影节吗"
+status: draft
+date: "2026-05-03"
+reach: 8
+voice: narrative
+sources:
+  - techcrunch-ai-4ce3b826.md
+tags:
+  - AI 影视
+  - 奥斯卡
+  - AI+娱乐
+  - AI 演员
+  - 中国电影
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

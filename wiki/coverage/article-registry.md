@@ -2,6 +2,31 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-03（12 篇，voice 分布 first-person 2 / narrative 5 / analytical 3 / retro 2）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[openclaw-367k星-claw-eval-live-13个前沿模型最高66-7\|openclaw 367k 星了，又一篇 arxiv 用 ClawHub Top-500 把 13 个前沿模型卡在 66.7% 过不去]] | 9 | analytical | [[openclaw-org\|openclaw]], [[claw-eval-live\|Claw-Eval-Live]], [[claw-hub\|ClawHub]] | [[openclaw-ecosystem\|openclaw 生态]] / [[agent-evaluation\|agent-evaluation]] / [[ai-research\|AI 研究]] |
+| [[apple-support-app泄露claude-md文件-国内开发者grep自家应用\|Apple 自家 Apple Support 应用里被人扒出 Claude.md 文件，国内开发者赶紧 grep 自家 app]] | 9 | narrative | [[apple\|Apple]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | [[supply-chain-security\|供应链安全]] / [[ai-coding-tools\|AI 编程工具]] / 信息泄露 |
+| [[uber-4个月烧光2026年ai预算-claude-code账单国内大厂启示\|Uber 4 个月把 2026 全年的 AI 预算烧光在 Claude Code 上，国内大厂该怎么管这笔账]] | 9 | analytical | [[uber\|Uber]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | [[ai-pricing\|AI 定价]] / [[ai-coding-tools\|AI 编程工具]] / 企业 AI 落地 |
+| [[kimi-k2-6编程对决击败claude-gpt-5-5-gemini-国产开源权重\|Kimi K2.6 编程对决又赢了 Claude / GPT-5.5 / Gemini，国产开源权重又拔一个旗]] | 9 | narrative | [[moonshot\|Moonshot]], [[kimi\|Kimi]], [[anthropic\|Anthropic]], [[openai\|OpenAI]], [[google\|Google]] | [[ai-coding-tools\|AI 编程工具]] / 国产 AI / 开源权重 |
+| [[hermes-agent-130k星-nousresearch和openclaw生态深度绑定-topics拆解\|NousResearch hermes-agent 130k 星了，topics 里写满了 openclaw / clawdbot / moltbot]] | 9 | retro | [[nousresearch\|NousResearch]], [[hermes-agent\|hermes-agent]], [[openclaw-org\|openclaw]] | [[openclaw-ecosystem\|openclaw 生态]] / [[agent-frameworks\|Agent 框架]] / Agent 记忆 |
+| [[spotify-verified徽章区分真人ai-qq音乐网易云怎么办\|Spotify 给真人歌手发 Verified 徽章了，QQ 音乐网易云该不该跟]] | 8 | narrative | [[spotify\|Spotify]], [[qq-music\|QQ 音乐]], [[netease-music\|网易云]] | [[ai-music\|AI 音乐]] / 创作者经济 / [[ai-monetization\|AI 变现]] |
+| [[ai生成演员剧本-奥斯卡禁用-tilly-norwood案-国产剧组ai流水线\|AI 演员剧本被奥斯卡踢出局，国内剧组的 AI 流水线还能上电影节吗]] | 8 | narrative | [[oscars\|奥斯卡]], [[tilly-norwood\|Tilly Norwood]], [[iqiyi\|爱奇艺]] | AI 影视 / AI 演员 / 中国电影 |
+| [[google-gemini-进数百万辆车-国产车ai助手对比\|Google 的 Gemini 进了几百万辆汽车，国产车的 AI 助手为什么还差一截]] | 8 | analytical | [[google\|Google]], [[gemini\|Gemini]], [[xiaomi\|小米]], [[doubao\|豆包]], [[nio\|蔚来]] | AI+汽车 / 终端 AI / AI 产品体验 |
+| [[microsoft-word法律agent-国内律所合同审查ai-office场景\|Microsoft Word 把法律 Agent 塞进来了，国内律师事务所还能等多久]] | 8 | narrative | [[microsoft\|Microsoft]], [[microsoft-word\|Microsoft Word]], [[wps\|WPS]] | AI+法律 / AI+办公 / [[agent-frameworks\|Agent 框架]] |
+| [[agent-desktop-53命令-本地桌面自动化-不用截图操控native-apps\|Show HN 那个 agent-desktop 用 53 个命令把 macOS 应用全打通，比截屏点击的 Claude Code 快得多]] | 7 | first-person | [[agent-desktop\|agent-desktop]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[trycua\|trycua]] | [[computer-use-agent\|Computer Use Agent]] / 终端 AI / 本地自动化 |
+| [[sebastian-raschka拆coding-agent五大组件-国产claude-code平替差距\|Sebastian Raschka 把 coding agent 拆成 5 块 — 看完知道国产 Claude Code 平替差在哪]] | 8 | retro | [[sebastian-raschka\|Sebastian Raschka]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[moonshot\|Moonshot]], [[zhipu\|智谱]] | [[ai-coding-tools\|AI 编程工具]] / [[agent-frameworks\|Agent 框架]] / 方法论 |
+| [[deepseek-tui-564星-deepseek终端coding-agent-rust\|DeepSeek-TUI 一夜 564 星，给 DeepSeek 配了个 Rust 终端版的 Claude Code]] | 8 | first-person | [[deepseek\|DeepSeek]], [[deepseek-tui\|DeepSeek-TUI]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | [[ai-coding-tools\|AI 编程工具]] / 国产 AI / 终端 AI |
+
+**5/3 voice 分布**：first-person 2 / narrative 5 / analytical 3 / retro 2，与 5/1 的 2/4/2/2 接近。
+
+**5/3 优先品牌双线收**：openclaw（#1 主仓库 367k 星 + Claw-Eval-Live arxiv 论文）+ NousResearch hermes-agent（#5 一周从 12 万星涨到 13 万星，topics 字段绑死 openclaw / clawdbot / moltbot）。openclaw 生态 4/28 后第三次正式覆盖。
+
+**5/3 QA 结果**：12/12 全过 overall_pass。L1 机械替换共 31 处（最多 #6 Spotify 13 处、#1 openclaw 11 处）；#1 第一轮 L1-3 残留"所以呢"已修；#4 Kimi 标题 L6 fail（"又赢了"断言式对比，xhs 版改 "Kimi K2.6 在编程基准上拿下多项第一"）；#12 DeepSeek-TUI L6 fail（ds2api 灰色中间件引用，xhs 版整段删除）。L2 平均 8.1，L3 平均 8.0，L5 平均 7.8。
+
+**5/3 Step 4.6**：11 篇生成 xhs-version.md（reach≥8 主动 9 篇 + L6 fail 必须 2 篇）；1 篇（#10 agent-desktop reach=7）xhs:primary 直发主版本。
+
 ## 2026-05-01（10 篇，首次 voice 分流：first-person 2 / narrative 4 / analytical 2 / retro 2）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

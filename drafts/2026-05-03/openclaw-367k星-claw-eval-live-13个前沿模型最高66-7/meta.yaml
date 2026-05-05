@@ -1,0 +1,33 @@
+title: "openclaw 367k 星了，又一篇 arxiv 用 ClawHub Top-500 把 13 个前沿模型卡在 66.7% 过不去"
+status: draft
+date: "2026-05-03"
+reach: 9
+voice: analytical
+sources:
+  - github-trending-0bd21c2c.md
+  - arxiv-caf0c791.md
+tags:
+  - openclaw
+  - agent-evaluation
+  - openclaw 生态
+  - Claw-Eval-Live
+  - ClawHub
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l1_replacements: 11
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
