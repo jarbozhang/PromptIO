@@ -1,4 +1,4 @@
-title: "Show HN 那个 agent-desktop 用 53 个命令把 macOS 应用全打通，比截屏点击的 Claude Code 快得多"
+title: "不让 AI 看截图猜坐标了，agent-desktop 让它直接读 Mac 的 UI 结构"
 status: draft
 date: "2026-05-03"
 reach: 7
@@ -28,5 +28,5 @@ qa:
   error: ""
 platforms:
   wechat: primary
-  xhs: primary
+  xhs: compliant
   x: primary

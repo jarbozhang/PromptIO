@@ -1,4 +1,4 @@
-# Show HN 那个 agent-desktop 用 53 个命令把 macOS 应用全打通，比截屏点击的 Claude Code 快得多
+# 不让 AI 看截图猜坐标了，agent-desktop 让它直接读 Mac 的 UI 结构
 
 我用 Claude Code 跑 computer-use 的时候，总有种说不出的别扭。
 
