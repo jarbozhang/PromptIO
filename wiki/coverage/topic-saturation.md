@@ -1,6 +1,44 @@
 # 主题饱和度分析
 
-基于 210 篇文章（2026-04-08 至 2026-05-06）的主题分布。**5/6 10 篇后总计 210 篇。**
+基于 220 篇文章（2026-04-08 至 2026-05-06）的主题分布。**5/6 双批次 20 篇后总计 220 篇。**
+
+## 5/6 第二批 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| SAP 11.6 亿砸 NemoClaw 18 个月独角兽 | 8 | narrative | AI 行业并购 / 企业 AI / 国内 ERP |
+| Character.AI 被宾州起诉 chatbot 假装 doctor | 7 | narrative | AI 安全 / AI 法律 / AI 伴侣 |
+| 书商集体诉 Meta AI 抄书 word-for-word | 7 | analytical | AI 法律 / AI 训练数据 / 版权 |
+| Cerebras IPO + 国产 AI 芯片股怎么挑 | 7 | analytical | AI 硬件 / AI 行业并购 / 国产 AI |
+| OpenAI ChatGPT 手机供应链细节 | 8 | narrative | AI 硬件 / AI 产品体验 / 国产 AI |
+| Sierra 9.5 亿企业 AI agent 决赛圈 | 7 | analytical | 企业 AI / AI Agent / 国产 AI |
+| Marc Lore AI 让人开餐厅 + QuTwo 3.8 亿 | 7 | analytical | AI+餐饮 / AI 变现 |
+| AI 设计的汽车长什么样 The Verge | 7 | narrative | AI+汽车 / 生成式设计 / AI 产品体验 |
+| OpenAI 物理学家 Lupsasca Vibe Physics | 7 | retro | AI 研究 / 方法论 / vibe coding |
+| LearningCircuit 95% SimpleQA 3090 本地 | 7 | first-person | 本地推理 / AI 研究 / 深度研究 |
+
+**5/6 第二批主题计数变化**：
+
+- **AI 行业并购**: 5 → **7**（+#1 SAP NemoClaw、#4 Cerebras IPO；连续两轮高密度）
+- **AI 硬件**: 7 → **9**（+#4 Cerebras、#5 OpenAI 手机；从国产昇腾 → wafer-scale → 整机持续抬升）
+- **AI 法律**: 1 → **3**（+#2 Character.AI 起诉、#3 Meta 抄书；首次形成稳定供给）
+- **AI 安全**: 3 → **4**（+#2 Character.AI 假装 doctor，从 Mythos / Bio Bug Bounty 延伸到平台合规）
+- **AI 产品体验**: 8 → **10**（+#5 OpenAI 手机、#8 AI 设计汽车；连续高饱和峰区）
+- **企业 AI**: 新增（+#1 SAP、#6 Sierra；首次形成独立子线）
+- **国产 AI**: 21 → **24**（+#1 国内 ERP、#4 国产 AI 芯片、#5 国产 AI 硬件、#6 国内 enterprise agent）
+- **AI+汽车**: 1 → **2**（+#8 AI 设计汽车，从 Gemini 进车机延伸到生成式设计阶段）
+- **AI+餐饮**: 新增（+#7 Marc Lore QuTwo，本号首次切入 AI+餐饮）
+- **AI 研究**: 12 → **14**（+#9 Vibe Physics、#10 LearningCircuit；vibe coding 概念延伸到物理 + 本地深度研究）
+- **方法论**: 2 → **3**（+#9 Vibe Physics）
+- **本地推理**: 17 → **18**（+#10 LearningCircuit Qwen3.6-27B + 私有文档加密路线）
+- **生成式设计**: 新增（+#8 AI 设计汽车）
+- **AI Agent / 企业 agent**: 子线（+#6 Sierra）
+
+**新空间打开**：企业 AI（SAP + Sierra 双触发）、AI+餐饮（Marc Lore）、生成式设计（AI 汽车）、AI 法律（Character.AI + Meta 双触发首次稳定供给）四条新主题/子线。
+
+**警告**：AI 行业并购 7 篇、AI 硬件 9 篇、AI 产品体验 10 篇连续高饱和峰区。下一轮严格只跟"重大事件级"的并购/硬件/产品发布，不跟概念性新闻。
+
+
 
 ## 5/6 10 篇主题分布
 

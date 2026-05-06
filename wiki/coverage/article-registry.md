@@ -2,7 +2,30 @@
 
 全部已生成文章索引，按日期倒序。
 
-## 2026-05-06（10 篇，voice 分布 first-person 3 / narrative 2 / analytical 4 / retro 1）
+## 2026-05-06（20 篇双批次，voice 分布 first-person 4 / narrative 5 / analytical 9 / retro 2）
+
+### 第二批（10 篇，5/6 晚间追加，行业事件 + 法律 + 投融资为主）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[sap-1-16亿砸德国ai-lab-nemoclaw-18个月独角兽\|SAP 11.6 亿砸 18 个月德国 AI lab，新独角兽 NemoClaw 是什么来头]] | 8 | narrative | [[sap\|SAP]], [[nemoclaw\|NemoClaw]], [[yongyou\|用友]], [[kingdee\|金蝶]] | [[ai-mergers\|AI 行业并购]] / 企业 AI / 国内 ERP |
+| [[character-ai被宾州起诉-chatbot假装doctor-国内ai伴侣警钟\|Character.AI 被宾州起诉，chatbot 假装医生开处方，国内 AI 伴侣类警钟]] | 7 | narrative | [[character-ai\|Character.AI]], [[glow\|Glow]], [[loka\|星野]], [[minimax\|MiniMax]] | [[ai-safety\|AI 安全]] / AI 法律 / AI 伴侣 |
+| [[book-publishers诉meta-ai训练抄书-word-for-word\|书商集体起诉 Meta 训练 AI 时一字不差地抄了书]] | 7 | analytical | [[meta\|Meta]], [[ai-training-data\|AI 训练数据]] | AI 法律 / [[ai-safety\|AI 安全]] / 版权 |
+| [[cerebras-ipo-openai主合作伙伴-ai硬件公司上市\|OpenAI 主算力商 Cerebras 要 IPO 了，国产 AI 芯片股该怎么挑]] | 7 | analytical | [[cerebras\|Cerebras]], [[openai\|OpenAI]], [[huawei\|华为]], [[cambricon\|寒武纪]], [[kunlunchip\|昆仑芯]] | [[ai-hardware\|AI 硬件]] / [[ai-mergers\|AI 行业并购]] / 国产 AI |
+| [[openai-chatgpt手机进展-供应链细节-国产ai硬件对照\|OpenAI 真的在做 ChatGPT 手机，硬件供应链细节又流出]] | 8 | narrative | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], [[jony-ive\|Jony Ive]], [[xiaomi\|小米]], [[bytedance\|字节跳动]] | [[ai-hardware\|AI 硬件]] / [[ai-product-experience\|AI 产品体验]] / 国产 AI |
+| [[sierra-9-5亿企业ai巨头-agent赛道开局\|Sierra 一轮砸 9.5 亿融资，企业 AI agent 赛道决赛圈]] | 7 | analytical | [[sierra\|Sierra]], [[bret-taylor\|Bret Taylor]], [[zhipu\|智谱]], [[bytedance\|字节跳动]] | 企业 AI / AI Agent / 国产 AI |
+| [[marc-lore-ai让人开餐厅-qutwo-3-8亿天使轮\|Marc Lore 说 AI 让任何人都能开餐厅了，QuTwo 3.8 亿天使估值是不是噱头]] | 7 | analytical | [[marc-lore\|Marc Lore]], [[qutwo\|QuTwo]], [[meituan\|美团]], [[eleme\|饿了么]], [[haidilao\|海底捞]] | AI+餐饮 / [[ai-monetization\|AI 变现]] / 国内餐饮 |
+| [[ai设计的汽车长什么样-the-verge\|AI 设计的汽车长什么样，第一辆量产车展给了 The Verge]] | 7 | narrative | [[the-verge\|The Verge]], [[xiaomi\|小米]], [[nio\|蔚来]], [[xpeng\|小鹏]], [[byd\|比亚迪]] | AI+汽车 / 生成式设计 / [[ai-product-experience\|AI 产品体验]] |
+| [[openai物理学家lupsasca谈vibe-physics\|OpenAI 物理学家 Lupsasca 谈 Vibe Physics，AI 是不是要写论文了]] | 7 | retro | [[openai\|OpenAI]], [[lupsasca\|Alex Lupsasca]], [[karpathy\|Karpathy]], [[deepseek\|DeepSeek]], [[qwen-family\|Qwen]] | [[ai-research\|AI 研究]] / 方法论 / vibe coding |
+| [[learningcircuit-95-simpleqa-qwen3-6-27b-3090本地深度研究\|LearningCircuit 用一张 3090 跑 Qwen3.6-27B 拿了 95% SimpleQA，本地深度研究 agent 新档位]] | 7 | first-person | [[learningcircuit\|LearningCircuit]], [[qwen-family\|Qwen]], [[ollama\|Ollama]], [[llama-cpp\|llama.cpp]] | [[local-inference\|本地推理]] / [[ai-research\|AI 研究]] / 深度研究 |
+
+**第二批 voice 分布**：first-person 1 / narrative 3 / analytical 4 / retro 1（行业事件类多导致 analytical 占比高）。
+
+**第二批 QA 结果**：10/10 全过 overall_pass（其中 #4 Cerebras 第一轮 L5=6 不达门槛，质修 1 轮加 checklist + 标题改进后通过）。L1 共 4 处机械替换。L6 fail 2 篇（#9 Vibe Physics overseas_access "OpenRouter 上 GPT-5.x" 引导、#10 LearningCircuit 标题"干到"边缘命中禁用句式），均触发 xhs-compliant 生成。
+
+**第二批 Step 4.6**：4 篇生成 xhs-version.md（reach≥8 主动 2 + L6 fail 必须 2）；6 篇 xhs:primary 直发主版本。
+
+### 第一批（10 篇，5/6 早间，国产 AI + 行业事件 + 工具实测为主）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |
 |------|-------|-------|---------|------|
@@ -17,13 +40,15 @@
 | [[ai编程agent-context爆炸-sandbox让tool输出减98\|Claude Code 跑半天 200k context 烧光？我把 tool 输出关进沙盒，token 砍了 98%]] | 7 | first-person | [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[cursor\|Cursor]] | [[ai-coding-tools\|AI 编程工具]] / 工程实践 / Context 工程 |
 | [[paypal自称重新成为技术公司-全面押注ai该信吗\|PayPal 自称重新成为技术公司，全面押注 AI 该信吗]] | 7 | analytical | [[paypal\|PayPal]], [[alipay\|支付宝]], [[wechat-pay\|微信支付]], [[openai\|OpenAI]] | [[ai-finance\|AI 金融]] / fintech / [[ai-product-experience\|AI 产品体验]] |
 
-**5/6 voice 分布**：first-person 3 / narrative 2 / analytical 4 / retro 1（analytical 占 4 篇是因为今天有大量行业事件类选题）。
+**第一批 voice 分布**：first-person 3 / narrative 2 / analytical 4 / retro 1。
 
 **5/6 优先品牌**：Karpathy（#4 LLM coding 教训，是 4 篇 → 5 篇覆盖，break 之前的"降权"判断因 +2409 星热度突破）。openclaw 在 deer-flow 文中作横向对照。
 
-**5/6 QA 结果**：10/10 全过 overall_pass。L1 机械替换共 8 处（最多 #8 Daemon Tools 3 处、#4 Karpathy 2 处）。L6 全部 pass，无合规违规。L2 平均 8.2、L3 平均 8.0、L5 平均 8.0。
+**第一批 QA 结果**：10/10 全过 overall_pass。L1 机械替换共 8 处（最多 #8 Daemon Tools 3 处、#4 Karpathy 2 处）。L6 全部 pass，无合规违规。L2 平均 8.2、L3 平均 8.0、L5 平均 8.0。
 
-**5/6 Step 4.6**：6 篇生成 xhs-version.md（reach≥8 主动 6 篇全部触发）；4 篇 xhs:primary 直发主版本（Microsoft Xbox / Daemon Tools / context optimization / PayPal）。
+**第一批 Step 4.6**：6 篇生成 xhs-version.md（reach≥8 主动 6 篇全部触发）；4 篇 xhs:primary 直发主版本（Microsoft Xbox / Daemon Tools / context optimization / PayPal）。
+
+**5/6 双批次合计**：20 篇全部 overall_pass=true。L1 共 12 处。L6 fail 2 篇（均第二批：Vibe Physics overseas_access、LearningCircuit 标题禁用句式边缘命中）。质修循环触发 1 次（Cerebras L5=6 → 加 checklist 后 7 分通过）。L2 平均 8.2、L3 平均 8.0、L5 平均 7.7（第二批含 L5=7 的多篇分析向选题，平均略低）。**Step 4.6 合计**：10 篇生成 xhs-version.md（reach≥8 主动 8 + L6 fail 必须 2）；10 篇 xhs:primary 直发。
 
 ## 2026-05-05（10 篇，voice 分布 first-person 4 / narrative 2 / analytical 2 / retro 1，加 1 narrative+操作型）
 

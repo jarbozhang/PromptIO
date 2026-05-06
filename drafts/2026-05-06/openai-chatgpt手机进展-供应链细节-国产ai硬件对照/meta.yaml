@@ -1,0 +1,32 @@
+title: "OpenAI 手机被加速到 2027 量产，新爆料里藏着三个变量"
+status: draft
+date: 2026-05-06
+reach: 8
+voice: narrative
+sources:
+  - the-verge-ai-8ee7d398
+  - last30days-research
+tags:
+  - openai
+  - ai-hardware
+  - chatgpt-phone
+  - chinese-ai
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

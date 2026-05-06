@@ -2,7 +2,26 @@
 
 追加式记录，最新在前。
 
-## [2026-05-06] generate 10 篇 | drafts，REACH>=7
+## [2026-05-06] generate 第二批 10 篇 | drafts，REACH>=7（双批次 20 篇）
+
+- **背景**：5/6 早间已生成 10 篇，用户要求"再写 10 篇"，从今日 sources 挖第二批 REACH≥7 选题
+- **第二批选题**：行业事件 + 法律诉讼 + 投融资为主（SAP/NemoClaw、Character.AI 起诉、Meta 抄书诉讼、Cerebras IPO、OpenAI 手机、Sierra、Marc Lore AI 餐厅、AI 设计汽车、Vibe Physics、LearningCircuit 本地深度研究）
+- **第二批 voice 分布**：first-person 1 / narrative 3 / analytical 4 / retro 1（行业事件密集导致 analytical 占比高）
+- **新空间打开**：
+  - **企业 AI**（#1 SAP + #6 Sierra 双触发，首次形成独立子线）
+  - **AI+餐饮**（#7 Marc Lore QuTwo，本号首次切入）
+  - **生成式设计**（#8 AI 设计汽车，AI+汽车主题从车机扩展到造型阶段）
+  - **AI 法律**（#2 Character.AI + #3 Meta 双案子首次稳定供给）
+- **优先品牌**：NemoClaw 命名经查证与 openclaw 生态无关（巧合），按普通选题处理
+- **L1 机械替换**：共 4 处。最多 #1 SAP 2 处、#4 Cerebras 2 处
+- **QA 结果**：10/10 全过 overall_pass。L2 平均 8.0、L3 平均 8.0、L5 平均 7.4（含 Cerebras 修订后 7 分）
+  - **#4 Cerebras 第一轮 L5=6 fail**：QA 判定纯行业分析+零可操作性。质修 1 轮加判断 checklist + 4 条标准对照寒武纪/昆仑芯/燧原/摩尔线程 + 改标题"国产 AI 芯片股该怎么挑"，第二轮 L5=7 通过（rounds=2）
+  - **#9 Vibe Physics L6 fail**：文末 "OpenRouter 上 GPT-5.x 现在就能跑"被判 overseas_access 引导。xhs 版替换为"国内可直接用的 DeepSeek-R1 / Qwen-Max / Kimi K2.6"
+  - **#10 LearningCircuit L6 fail**：标题"干到 95.7% SimpleQA"边缘命中"X 干翻 Y"句式。xhs 版改为"打到"
+- **第二批 Step 4.6**：4 篇生成 xhs-version.md（reach≥8 主动 2 + L6 fail 必须 2）；6 篇 xhs:primary 直发
+- **5/6 双批次合计**：20 篇 / 12 处 L1 / 1 次质修循环 / L6 fail 2 篇 / xhs-version 10 篇
+
+## [2026-05-06] generate 第一批 10 篇 | drafts，REACH>=7
 
 - **采集**：498 RSS/GitHub/arXiv items via pipeline.js + 30 GitHub Trending AI repos + 3 OpenRouter 新模型（baidu/cobuddy:free / microsoft/phi-4-mini-instruct / openai/gpt-chat-latest）+ PyPI 0 spike。fetch:trendradar 失败（容器目录缺失），soft-fail。bird auth 仍 fail，无 X 推文。社区反馈靠 Step 3.5 last30days（10/10 全部生成）
 - **选题评分**：从 sources 中筛出 10 篇 REACH >= 7。voice 分布 first-person 3 / narrative 2 / analytical 4 / retro 1（analytical 占 4 篇是因为今天行业事件类选题密集：GPT-5.5 默认替换 / Apple 集体诉讼 + iOS 27 / Microsoft Xbox / Etsy ChatGPT / PayPal）

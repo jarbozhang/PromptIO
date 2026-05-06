@@ -1,0 +1,32 @@
+title: "一张 3090 跑 Qwen3.6-27B，本地深度研究 agent 干到 95.7% SimpleQA"
+status: draft
+date: 2026-05-06
+reach: 7
+voice: first-person
+sources:
+  - github-trending-805fceec
+  - last30days-research
+tags:
+  - learningcircuit
+  - local-inference
+  - qwen
+  - deep-research
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l6_pass: false
+  l6_issues: [{"type":"title_banned_phrase","text":"干到 95.7% SimpleQA","suggestion":"改为打到/冲到/拿下"}]
+  xhs_pass: false
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

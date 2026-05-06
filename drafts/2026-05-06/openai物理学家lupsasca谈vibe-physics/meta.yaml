@@ -1,0 +1,33 @@
+title: "OpenAI 物理学家 Lupsasca 谈 Vibe Physics，AI 这次写的不是代码是论文"
+status: draft
+date: 2026-05-06
+reach: 7
+voice: retro
+sources:
+  - latent-space-3e058a6c
+  - last30days-research
+tags:
+  - openai
+  - lupsasca
+  - methodology
+  - vibe-coding
+  - ai-research
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: false
+  l6_issues: [{"type":"overseas_access","text":"OpenRouter 上 GPT-5.x 现在就能跑","suggestion":"改为国内可访问的 DeepSeek-R1/Qwen-Max 推理路径"}]
+  xhs_pass: false
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -1,0 +1,32 @@
+title: "SAP 11.6 亿砸 18 个月的德国 AI lab，顺手把 openclaw 关在了 ERP 门外"
+status: draft
+date: 2026-05-06
+reach: 8
+voice: narrative
+sources:
+  - techcrunch-ai-412ad8a3
+  - last30days-research
+tags:
+  - sap
+  - ai-mergers
+  - enterprise-ai
+  - chinese-enterprise
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

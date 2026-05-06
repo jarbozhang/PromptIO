@@ -1,0 +1,32 @@
+title: "AI 设计的车长什么样，The Verge 把第一辆量产车样板拎出来了"
+status: draft
+date: 2026-05-06
+reach: 7
+voice: narrative
+sources:
+  - the-verge-ai-9cd30184
+  - last30days-research
+tags:
+  - ai-automotive
+  - generative-design
+  - ai-product-experience
+  - chinese-automotive
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

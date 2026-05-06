@@ -1,0 +1,32 @@
+title: "Marc Lore 说 AI 让人人都能开餐厅，这话听完应该兴奋还是该怀疑"
+status: draft
+date: 2026-05-06
+reach: 7
+voice: analytical
+sources:
+  - techcrunch-ai-18521d41
+  - last30days-research
+tags:
+  - marc-lore
+  - ai-restaurant
+  - ai-monetization
+  - chinese-restaurant
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
