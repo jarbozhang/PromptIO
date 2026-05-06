@@ -1,6 +1,47 @@
 # 主题饱和度分析
 
-基于 200 篇文章（2026-04-08 至 2026-05-05）的主题分布。**5/5 10 篇后总计 200 篇。**
+基于 210 篇文章（2026-04-08 至 2026-05-06）的主题分布。**5/6 10 篇后总计 210 篇。**
+
+## 5/6 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| 百度 CoBuddy 免费上 OpenRouter 131k | 9 | first-person | 国产 AI / AI 编程工具 / AI 定价 |
+| GPT-5.5 Instant 替换 ChatGPT 默认幻觉砍半 | 9 | analytical | OpenAI 行业事件 / AI 研究 / 国产 AI 对照 |
+| Apple 赔 2.5 亿 + iOS 27 选 AI 模型 | 9 | narrative | Apple 战略 / AI 产品体验 / 国产 AI |
+| Karpathy LLM coding 教训 CLAUDE.md +2409 | 9 | first-person | Karpathy / Claude Code / 方法论 |
+| 字节 deer-flow 开源 SuperAgent harness | 8 | retro | 国产 AI / Agent 框架 / 开源 |
+| Etsy + ChatGPT Ads 电商入口转移 | 8 | analytical | AI 电商 / AI 变现 |
+| Microsoft 关 Xbox Copilot AI | 7 | analytical | AI+游戏 / Microsoft |
+| Daemon Tools 27 天供应链后门 | 7 | narrative | 供应链安全 |
+| Sandbox tool 输出减 98% context | 7 | first-person | AI 编程工具 / 工程实践 |
+| PayPal "重新成为技术公司" 押注 AI | 7 | analytical | AI 金融 / fintech |
+
+**5/6 主题计数变化**：
+
+- **国产 AI**: 19 → **21**（+#1 CoBuddy 百度第二个免费模型、#5 字节 deer-flow agent harness；连续高饱和但优先品牌+开源新动作不降权）
+- **ai-coding-tools**: 34 → **37**（+#1 CoBuddy、#4 Karpathy CLAUDE.md、#9 Sandbox context；5/3 +5 / 5/5 +3 暂停建议第三天仍未达成，下一轮严格只跟"重大模型/工具迭代或国产 Claude Code 二次出圈"）
+- **agent-frameworks**: 36 → **37**（+#5 字节 deer-flow，仅 +1 是因为字节 SuperAgent 路线属"国产差异化"非"框架横评"）
+- **AI 产品体验**: 4 → **8**（+#2 GPT-5.5 默认替换、#3 Apple iOS 27、#6 Etsy ChatGPT、#7 Xbox Copilot；行业事件密集导致单日跳 4 篇）
+- **OpenAI 行业事件**: 新增独立子线（+#2 GPT-5.5 Instant、#6 Etsy ChatGPT/Ads，5/6 OpenAI 同日 3 件大事）
+- **Apple 战略**: 新增（+#3 集体诉讼 + iOS 27 模型选择，本号首次以 Apple 战略转向单独立线）
+- **AI 电商**: 新增（+#6 Etsy + ChatGPT Ads，从 AI 变现衍生独立赛道）
+- **方法论**: 1 → **2**（+#4 Karpathy CLAUDE.md，5/5 Specsmaxxing YAML spec 之后的第二篇方法论）
+- **供应链安全**: 15 → **16**（+#8 Daemon Tools，5/3 Apple Claude.md / 5/1 PyTorch Lightning / 4/28 openclaw 365k 之后第四起供应链事件）
+- **AI+游戏**: 新增（+#7 Microsoft Xbox Copilot 退出，本号首次正式覆盖 AI+游戏）
+- **AI 金融**: 7 → **8**（+#10 PayPal "技术公司"押注 AI，从 dexter / TradingAgents / FinRL 量化研究延伸到"金融基建 + AI agent 入口"角度）
+- **Karpathy 相关**: 4 → **5**（+#4 LLM coding 教训，4/24 之后再次出现，但今天是中文开发者整理 + GitHub trending +2409，REACH 高，破例升级）
+
+**警告/降权说明**：
+
+- AI 编程工具 37 篇连续高饱和，5/6 +3 仍未严格暂停。下一轮硬性规则：除非"国产 Claude Code 平替二次出圈 / Anthropic/OpenAI 重大编程模型迭代 / Karpathy/Raschka 等 KOL 新方法论"才纳入
+- Agent 框架 37 篇连续高饱和，下一轮严格降权
+- 国产 AI 21 篇高饱和，下一轮国产线只跟"非 Kimi/DeepSeek/Qwen/字节"的新增项目
+- AI 产品体验 8 篇单日跳 4 篇创历史最高密度，下一轮暂停 1-2 天
+
+**新空间打开**：Apple 战略（#3）、AI 电商（#6）、AI+游戏（#7）三条新主题首次落地。OpenAI 行业事件子线（#2 + #6）开始独立成线。
+
+
 
 ## 5/5 10 篇主题分布
 

@@ -1,0 +1,33 @@
+title: "字节 deer-flow 开源 SuperAgent harness，国产 agent 又一条路"
+status: draft
+date: 2026-05-06
+reach: 8
+voice: retro
+sources:
+  - github-trending-050a1b15
+  - github-bytedance-deer-flow
+  - last30days-research
+tags:
+  - bytedance
+  - agent-frameworks
+  - chinese-ai
+  - open-source
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

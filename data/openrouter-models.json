@@ -1,5 +1,13 @@
 {
   "models": {
+    "baidu/cobuddy:free": {
+      "name": "Baidu Qianfan: CoBuddy (free)",
+      "context_length": 131072
+    },
+    "openai/gpt-chat-latest": {
+      "name": "OpenAI: GPT Chat Latest",
+      "context_length": 400000
+    },
     "x-ai/grok-4.3": {
       "name": "xAI: Grok 4.3",
       "context_length": 1000000
@@ -42,7 +50,7 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI Kimi Latest",
-      "context_length": 262142
+      "context_length": 262144
     },
     "~google/gemini-flash-latest": {
       "name": "Google Gemini Flash Latest",
@@ -130,7 +138,7 @@
     },
     "moonshotai/kimi-k2.6": {
       "name": "MoonshotAI: Kimi K2.6",
-      "context_length": 262142
+      "context_length": 262144
     },
     "anthropic/claude-opus-4.7": {
       "name": "Anthropic: Claude Opus 4.7",
@@ -580,6 +588,10 @@
       "name": "IBM: Granite 4.0 Micro",
       "context_length": 131000
     },
+    "microsoft/phi-4-mini-instruct": {
+      "name": "Microsoft: Phi 4 Mini Instruct",
+      "context_length": 128000
+    },
     "openai/gpt-5-image-mini": {
       "name": "OpenAI: GPT-5 Image Mini",
       "context_length": 400000
@@ -880,10 +892,6 @@
       "name": "xAI: Grok 4",
       "context_length": 256000
     },
-    "google/gemma-3n-e2b-it:free": {
-      "name": "Google: Gemma 3n 2B (free)",
-      "context_length": 8192
-    },
     "tencent/hunyuan-a13b-instruct": {
       "name": "Tencent: Hunyuan A13B Instruct",
       "context_length": 131072
@@ -951,10 +959,6 @@
     "anthropic/claude-sonnet-4": {
       "name": "Anthropic: Claude Sonnet 4",
       "context_length": 1000000
-    },
-    "google/gemma-3n-e4b-it:free": {
-      "name": "Google: Gemma 3n 4B (free)",
-      "context_length": 8192
     },
     "google/gemma-3n-e4b-it": {
       "name": "Google: Gemma 3n 4B",
@@ -1064,17 +1068,9 @@
       "name": "Mistral: Mistral Small 3.1 24B",
       "context_length": 128000
     },
-    "google/gemma-3-4b-it:free": {
-      "name": "Google: Gemma 3 4B (free)",
-      "context_length": 32768
-    },
     "google/gemma-3-4b-it": {
       "name": "Google: Gemma 3 4B",
       "context_length": 131072
-    },
-    "google/gemma-3-12b-it:free": {
-      "name": "Google: Gemma 3 12B (free)",
-      "context_length": 32768
     },
     "google/gemma-3-12b-it": {
       "name": "Google: Gemma 3 12B",
@@ -1095,10 +1091,6 @@
     "rekaai/reka-flash-3": {
       "name": "Reka Flash 3",
       "context_length": 65536
-    },
-    "google/gemma-3-27b-it:free": {
-      "name": "Google: Gemma 3 27B (free)",
-      "context_length": 131072
     },
     "google/gemma-3-27b-it": {
       "name": "Google: Gemma 3 27B",
@@ -1146,7 +1138,7 @@
     },
     "google/gemini-2.0-flash-001": {
       "name": "Google: Gemini 2.0 Flash",
-      "context_length": 1000000
+      "context_length": 1048576
     },
     "qwen/qwen-vl-plus": {
       "name": "Qwen: Qwen VL Plus",
@@ -1308,6 +1300,14 @@
       "name": "TheDrummer: Rocinante 12B",
       "context_length": 32768
     },
+    "meta-llama/llama-3.2-11b-vision-instruct": {
+      "name": "Meta: Llama 3.2 11B Vision Instruct",
+      "context_length": 131072
+    },
+    "meta-llama/llama-3.2-1b-instruct": {
+      "name": "Meta: Llama 3.2 1B Instruct",
+      "context_length": 60000
+    },
     "meta-llama/llama-3.2-3b-instruct:free": {
       "name": "Meta: Llama 3.2 3B Instruct (free)",
       "context_length": 131072
@@ -1316,24 +1316,16 @@
       "name": "Meta: Llama 3.2 3B Instruct",
       "context_length": 80000
     },
-    "meta-llama/llama-3.2-1b-instruct": {
-      "name": "Meta: Llama 3.2 1B Instruct",
-      "context_length": 60000
-    },
-    "meta-llama/llama-3.2-11b-vision-instruct": {
-      "name": "Meta: Llama 3.2 11B Vision Instruct",
-      "context_length": 131072
-    },
     "qwen/qwen-2.5-72b-instruct": {
       "name": "Qwen2.5 72B Instruct",
       "context_length": 32768
     },
-    "cohere/command-r-plus-08-2024": {
-      "name": "Cohere: Command R+ (08-2024)",
-      "context_length": 128000
-    },
     "cohere/command-r-08-2024": {
       "name": "Cohere: Command R (08-2024)",
+      "context_length": 128000
+    },
+    "cohere/command-r-plus-08-2024": {
+      "name": "Cohere: Command R+ (08-2024)",
       "context_length": 128000
     },
     "sao10k/l3.1-euryale-70b": {
@@ -1360,24 +1352,24 @@
       "name": "OpenAI: GPT-4o (2024-08-06)",
       "context_length": 128000
     },
-    "meta-llama/llama-3.1-8b-instruct": {
-      "name": "Meta: Llama 3.1 8B Instruct",
-      "context_length": 16384
-    },
     "meta-llama/llama-3.1-70b-instruct": {
       "name": "Meta: Llama 3.1 70B Instruct",
       "context_length": 131072
+    },
+    "meta-llama/llama-3.1-8b-instruct": {
+      "name": "Meta: Llama 3.1 8B Instruct",
+      "context_length": 16384
     },
     "mistralai/mistral-nemo": {
       "name": "Mistral: Mistral Nemo",
       "context_length": 131072
     },
-    "openai/gpt-4o-mini-2024-07-18": {
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
-      "context_length": 128000
-    },
     "openai/gpt-4o-mini": {
       "name": "OpenAI: GPT-4o-mini",
+      "context_length": 128000
+    },
+    "openai/gpt-4o-mini-2024-07-18": {
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "context_length": 128000
     },
     "google/gemma-2-27b-it": {
@@ -1400,12 +1392,12 @@
       "name": "OpenAI: GPT-4o",
       "context_length": 128000
     },
-    "meta-llama/llama-3-8b-instruct": {
-      "name": "Meta: Llama 3 8B Instruct",
-      "context_length": 8192
-    },
     "meta-llama/llama-3-70b-instruct": {
       "name": "Meta: Llama 3 70B Instruct",
+      "context_length": 8192
+    },
+    "meta-llama/llama-3-8b-instruct": {
+      "name": "Meta: Llama 3 8B Instruct",
       "context_length": 8192
     },
     "mistralai/mixtral-8x22b-instruct": {
@@ -1476,18 +1468,18 @@
       "name": "MythoMax 13B",
       "context_length": 4096
     },
-    "openai/gpt-4-0314": {
-      "name": "OpenAI: GPT-4 (older v0314)",
-      "context_length": 8191
+    "openai/gpt-3.5-turbo": {
+      "name": "OpenAI: GPT-3.5 Turbo",
+      "context_length": 16385
     },
     "openai/gpt-4": {
       "name": "OpenAI: GPT-4",
       "context_length": 8191
     },
-    "openai/gpt-3.5-turbo": {
-      "name": "OpenAI: GPT-3.5 Turbo",
-      "context_length": 16385
+    "openai/gpt-4-0314": {
+      "name": "OpenAI: GPT-4 (older v0314)",
+      "context_length": 8191
     }
   },
-  "updated_at": "2026-05-05T09:57:29.999Z"
+  "updated_at": "2026-05-06T09:16:31.036Z"
 }

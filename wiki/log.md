@@ -2,6 +2,21 @@
 
 追加式记录，最新在前。
 
+## [2026-05-06] generate 10 篇 | drafts，REACH>=7
+
+- **采集**：498 RSS/GitHub/arXiv items via pipeline.js + 30 GitHub Trending AI repos + 3 OpenRouter 新模型（baidu/cobuddy:free / microsoft/phi-4-mini-instruct / openai/gpt-chat-latest）+ PyPI 0 spike。fetch:trendradar 失败（容器目录缺失），soft-fail。bird auth 仍 fail，无 X 推文。社区反馈靠 Step 3.5 last30days（10/10 全部生成）
+- **选题评分**：从 sources 中筛出 10 篇 REACH >= 7。voice 分布 first-person 3 / narrative 2 / analytical 4 / retro 1（analytical 占 4 篇是因为今天行业事件类选题密集：GPT-5.5 默认替换 / Apple 集体诉讼 + iOS 27 / Microsoft Xbox / Etsy ChatGPT / PayPal）
+- **新空间打开**：
+  - **Apple 战略**（#3 赔 2.5 亿 + iOS 27 让用户挑 AI 模型），本号首次以 Apple 战略转向单独立线
+  - **AI 电商**（#6 Etsy + ChatGPT Ads 流量入口），从 AI 变现衍生独立赛道
+  - **AI+游戏**（#7 Microsoft 关 Xbox Copilot），本号首次正式覆盖
+  - **OpenAI 行业事件**子线（#2 GPT-5.5 + #6 Etsy/Ads，OpenAI 同日 3 件大事）
+- **优先品牌**：Karpathy（#4 LLM coding 教训 CLAUDE.md +2409 星），4 → 5 篇覆盖，破"降权"判断（Karpathy 相关原标 3% 占比降权，今天因 trending 单日热度爆发破例）。openclaw 仅在 deer-flow 横评中作对照，未单独出篇
+- **L1 机械替换**：共 8 处。最多 #8 Daemon Tools 3 处、#4 Karpathy 2 处。其余多数 0-1 处
+- **QA 结果**：10/10 全过 overall_pass。L2 平均 8.2、L3 平均 8.0、L5 平均 8.0。**L6 全部 pass，无任何小红书合规违规**（5/5 Chrome L6 fail 之后罕见的 0 fail 一天）
+- **Step 4.6**：6 篇生成 xhs-version.md（reach≥8 主动 6 篇全部触发：CoBuddy / GPT-5.5 / Apple / Karpathy / deer-flow / Etsy）；4 篇 xhs:primary 直发主版本（Microsoft Xbox / Daemon Tools / context optimization / PayPal）
+- **警告**：AI 编程工具 37 篇 + Agent 框架 37 篇 + 国产 AI 21 篇 + AI 产品体验 8 篇连续高饱和峰区，下一轮严格降权
+
 ## [2026-05-05] generate 10 篇 | drafts，REACH>=7
 
 - **采集**：518 RSS/GitHub/arXiv items via pipeline.js + 34 GitHub Trending AI repos + 1 OpenRouter new model（Mistral Medium 3.5）+ PyPI 1 spike（autogen +21.8%）。fetch:trendradar 失败（Docker 目录不存在），soft-fail 不阻塞。bird auth 仍 Chrome/Safari/Firefox 全失败，无 X 推文，社区反馈靠 Step 3.5 last30days（10/10 全部生成 community-research.md）

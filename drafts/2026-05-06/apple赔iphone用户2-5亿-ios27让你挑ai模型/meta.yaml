@@ -1,0 +1,33 @@
+title: "Apple 一边赔 2.5 亿，一边把 iOS 27 改成 AI 模型自助餐"
+status: draft
+date: 2026-05-06
+reach: 9
+voice: narrative
+sources:
+  - the-verge-ai-apple-siri-settlement
+  - techcrunch-ai-apple-ios-27-ai-picker
+  - last30days-research
+tags:
+  - apple
+  - ai-product-experience
+  - chinese-ai
+  - apple-strategy
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

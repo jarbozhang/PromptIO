@@ -1,0 +1,33 @@
+title: "Karpathy 的 LLM 编程踩坑教训被写成一个 CLAUDE.md，一夜涨了 2409 颗星"
+status: draft
+date: 2026-05-06
+reach: 9
+voice: first-person
+sources:
+  - github-trending-75205e2e
+  - github-forrestchang-andrej-karpathy-skills
+  - last30days-research
+tags:
+  - karpathy
+  - claude-code
+  - methodology
+  - ai-coding-tools
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -2,6 +2,29 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-06（10 篇，voice 分布 first-person 3 / narrative 2 / analytical 4 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[百度cobuddy免费上openrouter-国产编程模型白嫖131k-context\|百度第二个免费模型上 OpenRouter，这次是编程模型 CoBuddy，131k 上下文白嫖]] | 9 | first-person | [[baidu\|百度]], [[qianfan\|千帆]], [[cobuddy\|CoBuddy]], [[openrouter\|OpenRouter]] | [[chinese-ai\|国产 AI]] / [[ai-coding-tools\|AI 编程工具]] / [[ai-pricing\|AI 定价]] |
+| [[gpt-5-5-instant替换chatgpt默认模型-幻觉率降了\|ChatGPT 默认模型悄悄换了，OpenAI 把幻觉砍掉一半]] | 9 | analytical | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], [[gpt-5-5\|GPT-5.5]], [[deepseek\|DeepSeek]], [[kimi\|Kimi]], [[doubao\|豆包]] | [[ai-research\|AI 研究]] / [[ai-product-experience\|AI 产品体验]] / 国产 AI |
+| [[apple赔iphone用户2-5亿-ios27让你挑ai模型\|Apple 一边赔 2.5 亿，一边把 iOS 27 改成 AI 模型自助餐]] | 9 | narrative | [[apple\|Apple]], [[siri\|Siri]], [[google\|Google]], [[anthropic\|Anthropic]], [[bytedance\|字节跳动]], [[xiaomi\|小米]] | Apple 战略 / [[ai-product-experience\|AI 产品体验]] / 国产 AI |
+| [[karpathy-llm-coding教训被写成claude-md一夜2409星\|Karpathy 的 LLM 编程踩坑教训被写成一个 CLAUDE.md，一夜涨了 2409 颗星]] | 9 | first-person | [[karpathy\|Karpathy]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[forrestchang\|forrestchang]] | [[ai-coding-tools\|AI 编程工具]] / 方法论 / AI 工作流 |
+| [[字节deer-flow开源superagent-harness-国产agent又一条路\|字节 deer-flow 开源 SuperAgent harness，国产 agent 又一条路]] | 8 | retro | [[bytedance\|字节跳动]], [[deer-flow\|deer-flow]], [[doubao\|豆包]], [[openclaw\|openclaw]], [[hermes-agent\|hermes-agent]] | [[agent-frameworks\|Agent 框架]] / 国产 AI / [[open-source\|开源生态]] |
+| [[etsy把app塞进chatgpt-ai电商把流量入口换了\|Etsy 把 app 塞进 ChatGPT，AI 电商把流量入口换了，淘宝小红书会跟吗]] | 8 | analytical | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], [[etsy\|Etsy]], [[taobao\|淘宝]], [[xiaohongshu\|小红书]], [[doubao\|豆包]] | AI 电商 / [[ai-monetization\|AI 变现]] / [[ai-product-experience\|AI 产品体验]] |
+| [[microsoft关掉xbox-copilot-ai-国内ai游戏窗口\|Xbox Copilot AI 一年就被砍，国内 AI+游戏的窗口还剩多大]] | 7 | analytical | [[microsoft\|Microsoft]], [[xbox\|Xbox]], [[netease\|网易]], [[mihoyo\|米哈游]], [[tencent\|腾讯]] | AI+游戏 / [[ai-product-experience\|AI 产品体验]] / 国产游戏 |
+| [[daemon-tools月度供应链攻击-国内装机党自查清单\|Daemon Tools 装了 27 天的后门，国内装机党今晚自查这几个文件]] | 7 | narrative | [[daemon-tools\|Daemon Tools]] | [[supply-chain-security\|供应链安全]] / [[ai-security\|AI 安全]] |
+| [[ai编程agent-context爆炸-sandbox让tool输出减98\|Claude Code 跑半天 200k context 烧光？我把 tool 输出关进沙盒，token 砍了 98%]] | 7 | first-person | [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[cursor\|Cursor]] | [[ai-coding-tools\|AI 编程工具]] / 工程实践 / Context 工程 |
+| [[paypal自称重新成为技术公司-全面押注ai该信吗\|PayPal 自称重新成为技术公司，全面押注 AI 该信吗]] | 7 | analytical | [[paypal\|PayPal]], [[alipay\|支付宝]], [[wechat-pay\|微信支付]], [[openai\|OpenAI]] | [[ai-finance\|AI 金融]] / fintech / [[ai-product-experience\|AI 产品体验]] |
+
+**5/6 voice 分布**：first-person 3 / narrative 2 / analytical 4 / retro 1（analytical 占 4 篇是因为今天有大量行业事件类选题）。
+
+**5/6 优先品牌**：Karpathy（#4 LLM coding 教训，是 4 篇 → 5 篇覆盖，break 之前的"降权"判断因 +2409 星热度突破）。openclaw 在 deer-flow 文中作横向对照。
+
+**5/6 QA 结果**：10/10 全过 overall_pass。L1 机械替换共 8 处（最多 #8 Daemon Tools 3 处、#4 Karpathy 2 处）。L6 全部 pass，无合规违规。L2 平均 8.2、L3 平均 8.0、L5 平均 8.0。
+
+**5/6 Step 4.6**：6 篇生成 xhs-version.md（reach≥8 主动 6 篇全部触发）；4 篇 xhs:primary 直发主版本（Microsoft Xbox / Daemon Tools / context optimization / PayPal）。
+
 ## 2026-05-05（10 篇，voice 分布 first-person 4 / narrative 2 / analytical 2 / retro 1，加 1 narrative+操作型）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

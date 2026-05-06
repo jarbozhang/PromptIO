@@ -1,0 +1,31 @@
+title: "Daemon Tools 装了 27 天的后门，国内装机党今晚自查这几个文件"
+status: draft
+date: 2026-05-06
+reach: 7
+voice: narrative
+sources:
+  - arstechnica-ai-daemon-tools-backdoor
+  - last30days-research
+tags:
+  - supply-chain-security
+  - daemon-tools
+  - windows-security
+
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
