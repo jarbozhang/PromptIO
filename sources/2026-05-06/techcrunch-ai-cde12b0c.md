@@ -1,0 +1,11 @@
+---
+title: Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race
+url: >-
+  https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/
+source: TechCrunch AI
+source_type: rss
+language: en
+published: '2026-05-04T16:57:47.000Z'
+fetched_at: '2026-05-06T09:11:06.815Z'
+---
+Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs.
