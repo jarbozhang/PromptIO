@@ -1,6 +1,57 @@
 # 主题饱和度分析
 
-基于 220 篇文章（2026-04-08 至 2026-05-06）的主题分布。**5/6 双批次 20 篇后总计 220 篇。**
+基于 230 篇文章（2026-04-08 至 2026-05-07）的主题分布。**5/7 单批 10 篇后总计 230 篇。**
+
+## 5/7 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| NousResearch NousCoder-14B 4 天 48xB200 训成 | 9 | first-person | AI 编程工具 / 开源生态 / openclaw 生态（hermes-agent 绑定） |
+| 9router 一夜 130 星 40 后端切免费 | 10 | first-person | AI 编程工具 / AI 定价 / 国产 AI |
+| Anthropic Cowork 1.5 周做完给非技术用户 | 8 | narrative | Agent 框架 / AI 产品体验 / 国产 AI 桌面助手 |
+| DeepSeek V4 Pro/Flash 跑华为昇腾 | 9 | analytical | 国产 AI / AI 硬件 / 本地推理 / AI 定价 |
+| GB10 Atlas Pure Rust+CUDA 推理引擎 100tok/s | 8 | first-person | 本地推理 / AI 编程工具 / 推理引擎层 |
+| Genesis AI GENE-26.5 + Khosla 1.05 亿种子轮 | 7 | narrative | 具身智能 / AI 行业并购 / 国产 AI |
+| Gemini Robotics-ER 1.6 多视角空间推理 | 7 | analytical | 具身智能 / 多模态 / 国产 AI |
+| DeepSeek 首轮融资 $45B 估值 | 8 | analytical | 国产 AI / AI 行业并购 / AI 定价 |
+| OpenAI Symphony Codex orchestration spec | 7 | retro | AI 编程工具 / Agent 框架 / 方法论 |
+| Replicate Remote MCP server | 7 | first-person | Agent 框架 / 多模态 / AI 编程工具 |
+
+**5/7 主题计数变化**：
+
+- **AI 编程工具**: 37 → **41**（+#1 NousCoder、#2 9router、#5 GB10 Atlas、#9 Symphony、#10 Replicate MCP；连续高饱和峰区，每条都符合"重大模型/工具迭代或国产 Claude Code 二次出圈"例外条款，下一轮更严）
+- **Agent 框架**: 37 → **40**（+#3 Cowork、#9 Symphony、#10 Replicate MCP；高饱和警告依然有效）
+- **国产 AI**: 24 → **26**（+#4 DeepSeek+昇腾、#8 DeepSeek $45B；DeepSeek 双触发，符合"重大事件级"例外）
+- **AI 定价**: 30 → **32**（+#2 9router 切免费后端、#4 DeepSeek $1.74/M token、#8 DeepSeek 估值 vs 价格的张力）
+- **本地推理**: 18 → **20**（+#4 DeepSeek 1.6T 跑昇腾、#5 GB10 Atlas 100tok/s 新引擎；非 Gemma/Qwen/DeepSeek 主线的"新引擎层"角度首次形成）
+- **具身智能**: 2 → **4**（+#6 Genesis AI 全栈、#7 Gemini Robotics-ER 1.6；同日双发，低饱和主题鼓励，且"VC 押注创业公司路线 vs 大厂多模态基座路线"形成对比）
+- **AI 行业并购**: 7 → **9**（+#6 Genesis AI 1.05 亿种子轮、#8 DeepSeek $45B 首轮融资；连续高密度峰区警告，下一轮严格只跟"重大事件级"）
+- **AI 硬件**: 9 → **10**（+#4 DeepSeek 跑昇腾，"国产硬件接住开源前沿"角度首次形成）
+- **多模态**: 13 → **14**（+#7 Gemini Robotics-ER 多视角空间推理、#10 Replicate MCP 跨模型交互）
+- **AI 产品体验**: 10 → **11**（+#3 Cowork 桌面 agent 给办公人群）
+- **方法论**: 3 → **4**（+#9 Symphony orchestration spec，5/6 Vibe Physics / 5/5 Specsmaxxing / 5/3 Raschka 之后第四篇方法论）
+- **NousResearch 实体**: 4/28 Hermes Agent 后第二次单独立线（本期是 NousCoder 而非 Hermes，优先品牌 +1 boost 命中）
+
+**新空间打开**：
+- **NousResearch 出品的开源编程模型**子线（之前一直绑在 Hermes Agent 里，本期 NousCoder 单独成线）
+- **Replicate** 实体首次覆盖（MCP 路线）
+- **Genesis AI** 实体首次覆盖（具身智能创业公司视角，与 5/5 Familiar Machines AI 宠物路线区分开）
+- **推理引擎层** 子线（GB10 Atlas Pure Rust + CUDA 替换 PyTorch，是 vLLM / SGLang 之后第三种引擎层路线）
+
+**警告/降权说明**：
+
+- AI 编程工具 41 篇连续 4 日高饱和（5/3 +5 / 5/5 +3 / 5/6 第一批 +3 / 5/7 +5），下一轮硬性规则继续生效：除非"国产 Claude Code 平替二次出圈 / Anthropic/OpenAI 重大编程模型迭代 / Karpathy/Raschka 等 KOL 新方法论"才纳入
+- Agent 框架 40 篇连续高饱和峰区（4/27 18 → 4/30 30 → 5/1 32 → 5/3 34 → 5/5 36 → 5/6 37 → 5/7 40），下一轮严格降权
+- 国产 AI 26 篇高饱和，下一轮国产线只跟"非 Kimi/DeepSeek/Qwen/字节"的新增项目，DeepSeek 主线本期已两条命中需要降权 1-2 天
+- 具身智能 5/5 + 5/7 双批+3，主题上扬期，下一轮可保持 1-2 篇供给
+
+**下一轮选题方向（结合 4/30-5/7 趋势）**：
+1. AI 影视/娱乐（爱奇艺、Deezer 后仍可追，国产短剧 AI 化）
+2. AI+医疗（4 月 2 篇后无新增，国产案例仍待开拓）
+3. 具身智能国产对照（5/7 双发后下一轮可单独覆盖宇树/小鹏 IRON/智元/银河通用）
+4. AI+移动开发 / Android CLI 后续
+5. 创作者经济（5/5 ace-step-ui / LTX-2 后仍有空间）
+6. AI 训练数据/隐私边界（Meta 录键鼠后国内平台）
 
 ## 5/6 第二批 10 篇主题分布
 

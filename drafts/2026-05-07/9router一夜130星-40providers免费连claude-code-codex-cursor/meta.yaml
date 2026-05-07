@@ -1,0 +1,31 @@
+title: 一夜 130 星的 9router，把 Claude Code 切到 40 多家免费后端我跑了一晚上
+status: draft
+date: 2026-05-07T00:00:00.000Z
+reach: 10
+voice: first-person
+sources:
+  - github-trending-a35ce560
+tags:
+  - AI编程工具
+  - 省钱攻略
+  - Claude Code
+  - 9router
+  - 国产AI
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 10
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

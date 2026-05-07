@@ -2,6 +2,29 @@
 
 追加式记录，最新在前。
 
+## [2026-05-07] generate 10 篇 | drafts，REACH>=7（编程工具 + 国产 AI + 具身智能）
+
+- **采集**：RSS/GitHub/arXiv 507 items + GitHub Trending 31 AI repos + OpenRouter 0 new + PyPI 趋势 ok（2 个 429 失败）+ TrendRadar fail（容器路径不存在）；X 抓取因 bird cookies 失效再次 skip
+- **选题**：539 个 source 关键词初筛 → 12 个候选合规预检 → wiki 饱和度对照 → 最近 3 天 drafts 去重 → 最终 10 篇
+- **voice 分布**：first-person 4 / narrative 2 / analytical 3 / retro 1
+- **优先品牌**：NousResearch（NousCoder-14B 实测+Hermes Agent 生态绑定 openclaw）+1 boost 命中
+- **新空间打开**：
+  - **NousResearch 实体首次单独立线**（之前一直绑在 Hermes Agent 里）
+  - **Replicate 实体首次覆盖**（MCP server）
+  - **Genesis AI 实体首次覆盖**（具身智能创业）
+- **高饱和处理**：
+  - AI 编程工具 37 → 41（NousCoder/9router/GB10/Symphony 4 篇命中，每条都符合"重大模型/工具迭代或国产 Claude Code 二次出圈"例外条款）
+  - 国产 AI 24 → 26（DeepSeek+Ascend、DeepSeek $45B 是国产 AI 重大事件级，符合例外）
+  - 具身智能 2 → 4（Genesis AI + Gemini Robotics-ER 同日双发，低饱和主题鼓励）
+- **L1 机械替换**：共 0 处（10 篇写作子代理自检全部清理干净）
+- **QA 结果**：10/10 全过 overall_pass。L2 平均 8.1、L3 平均 8.2、L5 平均 7.9
+  - **2 篇 L5=6 第一轮 fail**：Cowork（境外产品+订阅价+无可操作）、Gemini Robotics（纯技术解读+无可操作）。质修 1 轮加"国产工具复刻最小路径"段后第二轮均到 L5=8 通过（rounds=2）
+- **L6 全过**：0 篇 L6 fail，无标题禁用句式 / 玄学词 / 翻墙词命中
+- **Step 4.6**：6 篇生成 xhs-version.md（reach≥8 主动 6 篇）；4 篇 xhs:primary 直发主版本（Genesis AI / Gemini Robotics / Symphony / Replicate MCP，均 reach=7）
+- **5/7 主题计数变化**（详见 topic-saturation.md）
+- **新增实体页待补**：[[nous-research]]、[[replicate]]、[[genesis-ai]]、[[avarok]]、[[nouscoder]]
+- **新增主题页待补**：暂无（沿用 ai-coding-tools / agent-frameworks / chinese-ai / embodied-ai / local-inference / ai-mergers / ai-pricing / multimodal）
+
 ## [2026-05-06] generate 第二批 10 篇 | drafts，REACH>=7（双批次 20 篇）
 
 - **背景**：5/6 早间已生成 10 篇，用户要求"再写 10 篇"，从今日 sources 挖第二批 REACH≥7 选题

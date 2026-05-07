@@ -1,0 +1,31 @@
+title: DGX Spark 单卡跑 Qwen3.6-35B 100+ tok/s，这个 Rust 推理引擎把 PyTorch 整条栈丢出去了
+status: draft
+date: 2026-05-07T00:00:00.000Z
+reach: 8
+voice: first-person
+sources:
+  - reddit-r-localllama-3604e4c1
+tags:
+  - 本地推理
+  - Qwen
+  - 推理引擎
+  - Claude Code
+  - DGX Spark
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

@@ -2,6 +2,29 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-07（10 篇，voice 分布 first-person 4 / narrative 2 / analytical 3 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | 9 | first-person | [[nous-research\|Nous Research]], [[nouscoder\|NousCoder]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[hermes-agent\|Hermes Agent]], [[qwen-family\|Qwen]] | [[ai-coding-tools\|AI 编程工具]] / [[open-source\|开源生态]] / [[openclaw-ecosystem\|openclaw 生态]] |
+| [[9router一夜130星-40providers免费连claude-code-codex-cursor\|一夜 130 星的 9router，把 Claude Code 切到 40 多家免费后端我跑了一晚上]] | 10 | first-person | [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[cursor\|Cursor]], [[openai\|OpenAI]], [[deepseek\|DeepSeek]], [[openrouter\|OpenRouter]] | [[ai-coding-tools\|AI 编程工具]] / [[ai-pricing\|AI 定价]] / [[chinese-ai\|国产 AI]] |
+| [[anthropic-cowork发布-claude-desktop-agent给非技术用户\|一周半把 Claude Code 改成会计 HR 能用的 Cowork，国产工具今晚就能复刻]] | 8 | narrative | [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[claude\|Claude]], [[microsoft\|Microsoft]], [[bytedance\|字节跳动]], [[doubao\|豆包]], [[kimi\|Kimi]] | [[agent-frameworks\|Agent 框架]] / [[ai-product-experience\|AI 产品体验]] / [[chinese-ai\|国产 AI]] |
+| [[deepseek-v4-pro-flash双发-华为昇腾跑国产开源前沿\|DeepSeek V4 Pro 不再是 benchmark 第一名，但它把 1.6T 模型直接放到了昇腾上]] | 9 | analytical | [[deepseek\|DeepSeek]], [[huawei\|华为]], [[nvidia\|NVIDIA]], [[cambricon\|寒武纪]], [[kunlunchip\|昆仑芯]], [[alibaba-cloud\|阿里云]] | [[chinese-ai\|国产 AI]] / [[ai-hardware\|AI 硬件]] / [[local-inference\|本地推理]] / [[ai-pricing\|AI 定价]] |
+| [[gb10-solution-atlas开源-rust-cuda让qwen3-6-35b单卡100tok每秒\|DGX Spark 单卡跑 Qwen3.6-35B 100+ tok/s，这个 Rust 推理引擎把 PyTorch 整条栈丢出去了]] | 8 | first-person | [[qwen-family\|Qwen]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[vllm\|vLLM]], [[nvidia\|NVIDIA]], [[avarok\|avarok]] | [[local-inference\|本地推理]] / [[ai-coding-tools\|AI 编程工具]] / [[chinese-ai\|国产 AI]] |
+| [[genesis-ai-gene-26-5全栈具身智能-1-05亿种子-国产宇树怎么追\|Khosla 押 1.05 亿种子轮，Genesis AI 用机械手切番茄弹钢琴，国产宇树小鹏怎么追]] | 7 | narrative | [[genesis-ai\|Genesis AI]], [[khosla-ventures\|Khosla Ventures]], [[unitree\|宇树]], [[xpeng\|小鹏]], [[xiaomi\|小米]], [[boston-dynamics\|Boston Dynamics]] | [[embodied-ai\|具身智能]] / [[ai-mergers\|AI 行业并购]] / [[chinese-ai\|国产 AI]] |
+| [[gemini-robotics-er-1-6发布-deepmind把空间推理塞给现实机器人\|Gemini Robotics-ER 1.6 发布，DeepMind 把多视角空间推理塞给现实机器人]] | 7 | analytical | [[google\|Google]], [[deepmind\|DeepMind]], [[gemini\|Gemini]], [[unitree\|宇树]], [[xpeng\|小鹏]], [[xiaomi\|小米]], [[zhipu\|智谱]] | [[embodied-ai\|具身智能]] / [[multimodal\|多模态]] / [[chinese-ai\|国产 AI]] |
+| [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 8 | analytical | [[deepseek\|DeepSeek]], [[openai\|OpenAI]], [[anthropic\|Anthropic]], [[xai\|xAI]], [[zhipu\|智谱]], [[moonshot\|Moonshot]], [[bytedance\|字节跳动]] | [[chinese-ai\|国产 AI]] / [[ai-mergers\|AI 行业并购]] / [[ai-pricing\|AI 定价]] |
+| [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | 7 | retro | [[openai\|OpenAI]], [[codex\|Codex]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[github\|GitHub]], [[bytedance\|字节跳动]] | [[ai-coding-tools\|AI 编程工具]] / [[agent-frameworks\|Agent 框架]] / 方法论 |
+| [[replicate上线remote-mcp-server-claude-cursor-vs-code一行接1000模型\|Replicate 把整个模型仓库做成了 MCP，Claude Code 一句话挑模型跑模型]] | 7 | first-person | [[replicate\|Replicate]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[cursor\|Cursor]], [[bytedance\|字节跳动]], [[lobechat\|LobeChat]] | [[agent-frameworks\|Agent 框架]] / [[multimodal\|多模态]] / [[ai-coding-tools\|AI 编程工具]] |
+
+**5/7 优先品牌**：NousResearch（#1 NousCoder-14B + Hermes Agent 实体绑 openclaw 生态），首次以"NousResearch 出品的开源编程模型"切入。
+
+**5/7 QA 结果**：10/10 全过 overall_pass。L2 平均 8.1、L3 平均 8.2、L5 平均 7.9。L1 机械替换 0 处（写作子代理已自检干净）。L6 全过，0 篇违规。
+
+**5/7 质修循环**：2 篇第一轮 L5=6 fail（Cowork、Gemini Robotics，均因 analytical/narrative 偏分析无可操作建议），第二轮加"国产工具复刻最小路径"段后均到 L5=8 通过（rounds=2）。
+
+**5/7 Step 4.6**：6 篇生成 xhs-version.md（reach≥8 主动 6 篇全部触发）；4 篇 xhs:primary 直发主版本（Genesis AI / Gemini Robotics / Symphony / Replicate MCP，均 reach=7 + L6 pass）；0 篇 xhs:blocked。
+
 ## 2026-05-06（20 篇双批次，voice 分布 first-person 4 / narrative 5 / analytical 9 / retro 2）
 
 ### 第二批（10 篇，5/6 晚间追加，行业事件 + 法律 + 投融资为主）
