@@ -31,6 +31,8 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-08 | [[anthropic-code-w-claude-2026大会-mythos-preview发布\|Anthropic Code w/ Claude 2026 大会 + Mythos Preview 给 Firefox 找漏洞]] | 8 |
+| 2026-05-08 | [[claude-mythos-preview加固firefox-ai找浏览器漏洞\|Mozilla 让 Claude Mythos 给 Firefox 找了 31 天漏洞]] | 8 |
 | 2026-04-24 | [[claude-code变笨了-anthropic-retro-opus4-7-system-prompt拆解\|用户都在骂 Claude Code 变笨了，Anthropic 发 retro + Simon 扒 Opus system prompt]] | 7 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 双发（Anthropic 作为价格对照方）]] | 10 |
 | 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic 的 Mythos 48 小时内出了四件事，从 NSA 偷用到 Altman 公开嘲讽]] | 8 |

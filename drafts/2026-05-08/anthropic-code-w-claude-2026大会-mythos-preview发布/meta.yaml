@@ -1,0 +1,36 @@
+title: "Anthropic 开了个 Code w/ Claude 2026 大会，把 Claude Mythos 拉出来给 Firefox 找漏洞了"
+status: draft
+date: 2026-05-08
+reach: 8
+voice: narrative
+sources:
+  - simon-willison-055b6a16
+  - simon-willison-7d5ece52
+  - simon-willison-9d6f9f29
+tags:
+  - Anthropic
+  - Claude
+  - Claude Code
+  - Mythos
+  - Firefox
+  - AI编程工具
+  - AI安全
+  - 大会现场
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

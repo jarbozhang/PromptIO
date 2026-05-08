@@ -2,6 +2,43 @@
 
 追加式记录，最新在前。
 
+## [2026-05-08] generate | 10 drafts, REACH>=7, RSS+signals
+
+- **采集**：RSS/GitHub/arXiv 478 items + GitHub Trending 30+ AI repos；bird CLI cookies 仍缺，X 抓取本期跳过（Step 3.5 last30days 补社区反馈）；Reddit RSS 部分 403；TrendRadar Docker 目录缺失；pypi 1 个 429
+- **新增 10 篇文章**：
+  - #1 openclaw Save to Spotify CLI（Claude/Codex 一键发播客，REACH 10 first-person）
+  - #2 蚂蚁 Ling-2.6-1T 旗舰上 OpenRouter $0.30/M 比 DeepSeek 便宜（REACH 8 first-person）
+  - #3 Gemini 3.1 Flash Lite 1M 多模态 $0.25/M（REACH 9 analytical）
+  - #4 Anthropic Code w/ Claude 2026 大会 + Mythos Preview（REACH 8 narrative）
+  - #5 Mythos x Firefox 31 天漏洞挖掘（REACH 8 retro）
+  - #6 PageIndex 943 星 vectorless RAG（REACH 7 first-person）
+  - #7 GPT-5.5-Cyber 网络安全垂直模型（REACH 7 analytical）
+  - #8 Raschka 开源 Coding LLMs From the Ground Up 课程（REACH 8 retro）
+  - #9 Block Goose 26k 星本地 agent（REACH 7 first-person）
+  - #10 Gemini 3.1 Flash TTS 表达性语音 + 国产 TTS 对照（REACH 7 analytical）
+- **voice 分布**：first-person 4 / narrative 1 / analytical 3 / retro 2
+- **优先品牌**：openclaw（#1 Save to Spotify CLI，5/3 #1 #5、5/7 #1 之后第 4 次出篇，把 openclaw 生态扩到"内容生产工作流"新子线）+ Mythos（#4 #5 双触发，从"封印模型"扩到"实战漏洞挖掘平台"）
+- **新空间打开**：
+  - **openclaw 生态延伸到内容生产工作流**子线（#1 是 openclaw 第三条子线，前两条是宿主主体 + 持久成长 agent）
+  - **inclusionAI（蚂蚁 AI lab）首次单独立实体**（之前一直在 ant-group 总名下）
+  - **vectorless RAG 范式**（PageIndex 是 RAG-Anything 多模态、LangChain/LlamaIndex 经典向量 RAG 之后的第三种范式）
+  - **TTS 厂商对照线**（Gemini Flash TTS / 火山 / 通义晓声 / Microsoft Edge / VibeVoice 五厂横评首次成形）
+  - **AI 安全垂直模型分支**（GPT-5.5-Cyber 是 Mythos 之后第二条"垂类安全模型"路线）
+- **主题饱和变化**（详见 topic-saturation.md）：
+  - AI 编程工具 41 → **46**（+5：#3 / #4 / #6 / #8 / #9）连续 5 日峰区
+  - Agent 框架 40 → **43**（+3：#1 / #4 / #6）
+  - AI 定价 32 → **35**（+3：#2 / #3 / #9）
+  - AI 安全 4 → **7**（+3：#4 / #5 / #7）跳过中等饱和直接到高饱和警戒线
+  - 多模态 14 → **15**、本地推理 20 → **21**、国产 AI 26 → **27**、方法论 4 → **6**
+- **L1 机械替换**：共 26 处（10 篇分摊，平均 2.6 处/篇）
+- **QA 结果**：10/10 全过 overall_pass。L2 平均 8.4、L3 平均 8.3、L5 平均 8.3。0 篇质修
+  - **L6 fail 1 篇**：#10 Gemini TTS 触发 overseas_access。其余 9 篇 L6 pass
+- **Step 4.6**：7 篇生成 xhs-version.md（reach≥8 主动 6 + L6 fail 必须 1）；3 篇 xhs:primary 直发主版本（PageIndex / GPT-5.5-Cyber / Goose，均 reach=7 + L6 pass）；0 篇 xhs:blocked
+- **更新实体页**：
+  - 已存在更新：[[openclaw-org]] / [[ant-group]] / [[google]] / [[anthropic]] / [[openai]] / [[mythos]] / [[openrouter]] / [[sebastian-raschka]]
+  - 新建（9 个）：[[block]] / [[inclusion-ai]] / [[mozilla]] / [[goose]] / [[pageindex]] / [[gpt-5-5-cyber]] / [[ling-2-6-1t]] / [[gemini-3-1-flash-lite]] / [[gemini-3-1-flash-tts]]
+- **更新主题页**：[[ai-coding-tools]] / [[agent-frameworks]] / [[ai-pricing]] / [[ai-security]] / [[openclaw-ecosystem]] / [[multimodal]] / [[local-inference]] / [[ai-research]]
+
 ## [2026-05-07] generate 10 篇 | drafts，REACH>=7（编程工具 + 国产 AI + 具身智能）
 
 - **采集**：RSS/GitHub/arXiv 507 items + GitHub Trending 31 AI repos + OpenRouter 0 new + PyPI 趋势 ok（2 个 429 失败）+ TrendRadar fail（容器路径不存在）；X 抓取因 bird cookies 失效再次 skip

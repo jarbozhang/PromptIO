@@ -33,6 +33,8 @@ Gemini / Gemma / Veo 系列的开发商。
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-08 | [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Gemini 3.1 Flash Lite 上 OpenRouter $0.25/M token 1M 多模态]] | 9 |
+| 2026-05-08 | [[gemini-3-1-flash-tts-表达性语音-国产tts怎么对照\|Gemini 3.1 Flash TTS 推到所有产品，国产 TTS 该怎么对照]] | 7 |
 | 2026-04-28 | [[google-kaggle-5天ai-agent速成课-免费回炉\|Google + Kaggle 5 天 AI Agent 速成课回炉]] | 8 |
 | 2026-04-28 | [[google-veo-3.1-lite-最便宜视频生成模型\|Google Veo 3.1 Lite 最便宜视频生成模型]] | 8 |
 | 2026-04-28 | [[chrome-skills-把prompt变一键工具\|Chrome Skills 把 prompt 变一键工具]] | 7 |

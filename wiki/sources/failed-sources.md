@@ -26,3 +26,9 @@
 ## 最后更新
 
 2026-04-14 — 基于 15 天（2026-03-31 至 2026-04-14）运行日志分析
+
+## 单日记录
+
+- **2026-05-08**：bird CLI（X 抓取）继续 cookies 缺失，Reddit RSS 部分 403，TrendRadar Docker 目录缺失（/tmp/TrendRadar/docker），pypi 1 个 429。**Step 2 X 抓取本期跳过，由 Step 3.5 last30days 补社区反馈。**
+- **2026-05-07**：bird cookies 失效再次 skip；TrendRadar 容器路径不存在；pypi 2 个 429
+- **2026-05-06**：bird auth fail；fetch:trendradar 失败；pypi 0 spike

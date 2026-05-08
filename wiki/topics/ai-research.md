@@ -11,6 +11,7 @@ LLM / 强化学习 / 推理模型 / 多模态领域的论文拆解与方法论�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-08 | [[raschka开源coding-llms-from-ground-up-从零搭claude-code\|Raschka 开源 Coding LLM From the Ground Up 完整课程]] | KOL 教程开源 / AI 教育 / 从零搭 Claude Code |
 | 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter + Simon 提示词指南]] | KOL 写法指南/方法论 |
 | 2026-04-25 | [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 实测 DeepSeek V4]] | KOL 实测 + 前沿能力评估 |
 | 2026-04-25 | [[huggingface-ml-intern开源-自动读paper训模型一条龙\|HuggingFace ml-intern 自动读 paper 训模型]] | AI 自动化研究 / Agent 化 ML 研究 |

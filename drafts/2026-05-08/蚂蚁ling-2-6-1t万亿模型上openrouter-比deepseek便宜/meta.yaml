@@ -1,0 +1,45 @@
+title: 蚂蚁 Ling-2.6-1T 万亿参数旗舰悄悄上 OpenRouter，1M token 三毛钱比 DeepSeek 还便宜
+slug: 蚂蚁ling-2-6-1t万亿模型上openrouter-比deepseek便宜
+date: 2026-05-08
+status: draft
+voice: first-person
+prototype: 工具实测
+reach: 8
+sources:
+  - openrouter-new-model-163fef12
+  - openrouter-new-model-2f09e1d0
+tags:
+  - 国产 AI
+  - AI 定价
+  - 蚂蚁
+  - OpenRouter
+  - 本地推理
+related_entities:
+  - ant-group
+  - inclusion-ai
+  - openrouter
+  - deepseek
+  - moonshot
+  - qwen-family
+related_topics:
+  - chinese-ai
+  - ai-pricing
+  - local-inference
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

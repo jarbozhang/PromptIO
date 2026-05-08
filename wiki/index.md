@@ -4,6 +4,7 @@
 
 ## 最近更新
 
+- 2026-05-08 — 10 篇文章（voice 分布 first-person 4 / narrative 1 / analytical 3 / retro 2）。**优先品牌 openclaw + Mythos 双线收**：#1 openclaw Save to Spotify CLI（Claude/Codex 一键发播客，5/3+5/7 之后第 4 次出篇，openclaw 生态扩到"内容生产工作流"新子线）+ #4 Code w/ Claude 2026 大会 Mythos Preview + #5 Mythos x Firefox 31 天漏洞挖掘双触发（Mythos 从"封印模型"扩到"实战漏洞挖掘平台"）。**新空间打开**：inclusionAI（蚂蚁 AI lab）首次单独立实体（#2 Ling-2.6-1T 旗舰 $0.30/M 比 DeepSeek 便宜）、vectorless RAG 范式（#6 PageIndex 943 星不用向量数据库）、TTS 厂商对照线（#10 Gemini Flash TTS / 火山 / 通义晓声 / Edge / VibeVoice 五厂横评成形）、AI 安全垂直模型分支（#7 GPT-5.5-Cyber 是 Mythos 之后第二条垂类安全模型路线）。其他主题：#3 Gemini 3.1 Flash Lite $0.25/M 1M 多模态（海外定价新底部）、#8 Raschka 开源 Coding LLM From the Ground Up 课程（KOL 教程开源 + AI 教育）、#9 Block Goose 26k 星本地 agent（绕开 Claude $200 订阅）。**QA 10/10 全过**，L2 平均 8.4、L3 平均 8.3、L5 平均 8.3，L1 共 26 处。**L6 fail 1 篇**（#10 Gemini TTS overseas_access）。**Step 4.6**：7 篇生成 xhs-version.md（reach≥8 主动 6 + L6 fail 必须 1），3 篇 xhs:primary 直发主版本（PageIndex / GPT-5.5-Cyber / Goose，均 reach=7）。**警告**：AI 编程工具 46 + Agent 框架 43 + AI 定价 35 + AI 安全 7 篇连续高饱和峰区，下一轮编程工具 / agent 框架 / AI 安全继续严格降权
 - 2026-05-07 — 10 篇文章（voice 分布 first-person 4 / narrative 2 / analytical 3 / retro 1）。**优先品牌 NousResearch +1 boost** 命中（#1 NousCoder-14B 4 天 48xB200 训成 + Hermes Agent 生态绑定 openclaw）。**新空间打开**：NousResearch 实体首次以"开源编程模型"单独立线（之前一直绑在 Hermes Agent 里）、**Replicate 实体首次覆盖**（remote MCP server）、**Genesis AI 实体首次覆盖**（具身智能创业公司）。其他主题：9router 一夜 130 星把 Claude Code/Cursor 切到 40+ 后端（#2 REACH 10/10）、Anthropic Cowork 1.5 周做完给非技术用户的桌面 agent（#3）、DeepSeek V4 Pro/Flash 双发跑华为昇腾（#4 国产 AI infra 第一个参考实现）、GB10 Atlas Pure Rust+CUDA 推理引擎 100tok/s（#5 推理引擎层子线首立）、Genesis AI GENE-26.5 + Khosla 1.05 亿种子（#6）、Gemini Robotics-ER 1.6 多视角空间推理（#7）、DeepSeek $45B 首轮融资（#8）、OpenAI Symphony orchestration spec（#9 方法论 +1）、Replicate Remote MCP（#10）。**QA 10/10 全过**，2 篇 L5=6 第一轮 fail（Cowork、Gemini Robotics）质修加"国产工具复刻最小路径"段后均到 L5=8 通过。**L1 机械替换 0 处，L6 全过 0 篇违规**（5/6 之后第二天零 L6 fail）。**Step 4.6**：6 篇生成 xhs-version.md（reach≥8 主动 6 篇全部触发），4 篇 xhs:primary 直发主版本（Genesis AI / Gemini Robotics / Symphony / Replicate MCP，均 reach=7）。**警告**：AI 编程工具 41 + Agent 框架 40 + 国产 AI 26 + AI 行业并购 9 篇连续高饱和峰区，下一轮编程工具/agent 框架降权
 - 2026-05-06 — **双批次 20 篇**（用户当日追加第二批，首批 10 + 二批 10）。**首批**（早间，国产 AI + 工具实测为主）：百度 CoBuddy 免费 OpenRouter / GPT-5.5 默认替换 / Apple iOS 27 + 2.5 亿赔款 / Karpathy LLM coding CLAUDE.md +2409 / 字节 deer-flow / Microsoft Xbox Copilot 退出 / Daemon Tools 27 天后门 / Etsy + ChatGPT Ads / Sandbox 98% context / PayPal 押注 AI。**二批**（晚间，行业事件 + 法律 + 投融资）：SAP 11.6 亿砸 NemoClaw / Character.AI 被宾州起诉假装 doctor / 书商诉 Meta 抄书 / Cerebras IPO 国产芯片股 / OpenAI 手机供应链 / Sierra 9.5 亿企业 agent / Marc Lore AI 餐厅 / AI 设计汽车 / Vibe Physics / LearningCircuit Qwen3.6-27B 95% SimpleQA。**新空间打开 7 条**：Apple 战略 / AI 电商 / AI+游戏（首批）+ 企业 AI / AI+餐饮 / 生成式设计 / AI 法律（二批）。**QA 20/20 全过**（Cerebras 修 1 轮通过），L1 共 12 处，L6 fail 2 篇（Vibe Physics overseas_access、LearningCircuit 标题边缘）。**Step 4.6**：10 篇生成 xhs-version.md，10 篇 xhs:primary 直发。**警告**：AI 编程 37 + Agent 框架 37 + 国产 AI 24 + AI 产品体验 10 + AI 硬件 9 篇连续高饱和
 - 2026-05-06 (早间首批) — 10 篇文章（voice 分布 first-person 3 / narrative 2 / analytical 4 / retro 1，行业事件密集导致 analytical 居多）。新空间打开三条：**Apple 战略**（#3 赔 2.5 亿 + iOS 27 让用户挑 AI 模型，本号首次单独立线）、**AI 电商**（#6 Etsy + ChatGPT Ads 流量入口）、**AI+游戏**（#7 Microsoft 关 Xbox Copilot 本号首次覆盖）。OpenAI 行业事件子线开始独立成线（GPT-5.5 默认替换 + Etsy/Ads，OpenAI 同日 3 件大事）。优先品牌 Karpathy 破降权选入（#4 LLM coding 教训 CLAUDE.md 单日 +2409 星，4→5 篇）。其他主题：百度 CoBuddy 免费上 OpenRouter 131k 编程模型（#1 国产+免费）、字节 deer-flow 开源 SuperAgent harness（#5 国产 agent 又一条路）、Daemon Tools 27 天供应链后门（#8 4 月以来第 4 起供应链事件）、Sandbox tool 输出减 98% context（#9 Claude Code 实操痛点）、PayPal 押注 AI（#10 fintech 转 AI agent 入口）。**QA 10/10 全过，L6 全部 pass 无合规违规**（5/5 Chrome L6 fail 之后罕见的零 fail 一天）。**Step 4.6**：6 篇生成 xhs-version.md（reach≥8 主动 6 篇全部触发），4 篇 xhs:primary 直发。**警告**：AI 编程工具 37 + Agent 框架 37 + 国产 AI 21 + AI 产品体验 8 篇连续高饱和峰区
@@ -58,6 +59,9 @@
 - [[huggingface|HuggingFace]] — 全球最大开源 AI 模型社区 / ml-intern 自动读 paper 训模型 / Unsloth WebUI 上游托管
 - [[openclaw-org|openclaw]] — openclaw 项目方/组织，openclaw/clawhub/clawdbot/moltbot 体系维护者
 - [[nousresearch|NousResearch]] — 独立 AI 研究实验室 / Hermes Agent 持久成长 agent 团队
+- [[block|Block]] — Square / Cash App 母公司，开源 Goose 本地 AI 编程 agent
+- [[inclusion-ai|inclusionAI]] — 蚂蚁集团内部 AI lab，Ling 系列大模型发布主体
+- [[mozilla|Mozilla]] — Firefox 母体，2026-05 与 Anthropic Mythos 合作浏览器漏洞挖掘
 
 ### 产品
 - [[claude-code|Claude Code]] — Anthropic 的 CLI 编程工具
@@ -95,6 +99,12 @@
 - [[ai4animationpy|ai4animationpy]] — Meta 开源神经网络驱动角色动画 Python 框架
 - [[openclaw|openclaw]] — TypeScript 圈最大跨平台个人 AI 助手 / 365k 星 / 4 月安全事件
 - [[hermes-agent|Hermes Agent]] — NousResearch 持久成长 agent / 12 万星 / 接入 openclaw 生态
+- [[goose|Goose]] — Block 开源本地 AI 编程 agent / 26k 星 / 绕开 Claude Code $200 订阅
+- [[pageindex|PageIndex]] — VectifyAI vectorless RAG 框架 / 943 星 / 不用 embedding 不用向量数据库
+- [[gpt-5-5-cyber|GPT-5.5-Cyber]] — OpenAI 网络安全垂直模型 / Mythos 路线对照
+- [[ling-2-6-1t|Ling-2.6-1T]] — inclusionAI 万亿旗舰 / OpenRouter $0.30/M
+- [[gemini-3-1-flash-lite|Gemini 3.1 Flash Lite]] — Google 多模态轻量 / OpenRouter $0.25/M / 1M context 视频塞进 prompt
+- [[gemini-3-1-flash-tts|Gemini 3.1 Flash TTS]] — Google 表达性 TTS / 集成全 Gemini 产品 / 国产 TTS 五厂横评对照
 
 ## 主题 (Topics)
 
@@ -128,6 +138,6 @@
 
 ## 覆盖追踪 (Coverage)
 
-- [[article-registry|文章注册表]] — 全部 150 篇文章索引
+- [[article-registry|文章注册表]] — 全部 240 篇文章索引
 - [[topic-saturation|主题饱和度]] — 哪些写多了，哪些是空白
 - [[compliance-log|合规事件日志]] — 小红书违规历史 + L6 触发验证案例

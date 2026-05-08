@@ -14,6 +14,9 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-08 | [[openclaw-claude-codex-把ai播客一键发spotify\|openclaw Save to Spotify CLI 给 Claude/Codex 一键发播客]] | openclaw 生态 + 内容生产工作流 |
+| 2026-05-08 | [[anthropic-code-w-claude-2026大会-mythos-preview发布\|Anthropic Code w/ Claude 2026 大会 + Mythos Preview]] | Anthropic 大会发布 / agent 框架行业事件 |
+| 2026-05-08 | [[pageindex一夜943星-vectorless-rag不用向量数据库\|PageIndex vectorless RAG 943 星]] | RAG 新范式给 agent 框架 |
 | 2026-04-28 | [[openclaw-365k星跨平台个人ai助手-4月安全事件你不能不知道\|openclaw 365k 星 TypeScript 圈最大个人 AI 助手 + 4 月安全事件]] | 个人 AI 助手品类宿主 + 安全事件 / [[openclaw-ecosystem\|openclaw 生态]] 首次正式覆盖 |
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 12 万星 NousResearch 持久成长 agent]] | 持久成长 agent / Agent 记忆 / 接入 [[openclaw-ecosystem\|openclaw 生态]] |
 | 2026-04-28 | [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter Latest 别名机制覆盖 7 个主流模型]] | Agent 调用层自动跟版 / 平台机制 |

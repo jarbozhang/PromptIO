@@ -17,6 +17,8 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-08 | [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Gemini 3.1 Flash Lite $0.25/M 1M 多模态]] | 海外多模态新底部 / 视频塞进 prompt |
+| 2026-05-08 | [[gemini-3-1-flash-tts-表达性语音-国产tts怎么对照\|Gemini 3.1 Flash TTS + 国产 TTS 对照]] | TTS 主线 / 国产五厂横评 |
 | 2026-04-28 | [[microsoft-vibevoice开源-frontier-voice-ai一天757星\|Microsoft 把 VibeVoice 开源标榜 Frontier Voice AI]] | TTS / 语音 AI 主线 / Microsoft 首次进 |
 | 2026-04-28 | [[meta-ai4animationpy开源-神经网络驱动角色动画-python框架\|Meta 开源 ai4animationpy 神经网络驱动角色动画 Python 框架]] | AI 动画 / AI 游戏首次覆盖 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶含 Vision/Video 多模态档]] | 国产多模态全档位上 OpenRouter |

@@ -1,0 +1,33 @@
+title: "Block 团队开源的 Goose 一年攒到 26k 星，本地跑 AI 编程 agent 不用付 Claude 200 美金"
+status: draft
+date: 2026-05-08
+reach: 7
+voice: first-person
+sources:
+  - venturebeat-ai-1bd5d5f6
+tags:
+  - Goose
+  - Block
+  - Claude Code
+  - OpenRouter
+  - Ollama
+  - 开源 AI Agent
+  - AI 编程工具
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

@@ -1,0 +1,33 @@
+title: "openclaw 给 Claude 和 Codex 装了个一键发 Spotify 的口子，AI 写完播客直接进我的 feed"
+status: draft
+date: 2026-05-08
+reach: 10
+voice: first-person
+sources:
+  - the-verge-ai-bb0d80cf
+  - github-trending-0bd21c2c
+  - github-trending-978e35c6
+tags:
+  - openclaw 生态
+  - 工作流自动化
+  - Claude Code
+  - Codex
+  - 播客
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 10
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

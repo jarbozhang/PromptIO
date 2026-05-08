@@ -16,6 +16,7 @@ openclaw 生态进入"宿主 + agent + 扩展面"三层结构：
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-08 | [[openclaw-claude-codex-把ai播客一键发spotify\|openclaw 给 Claude 和 Codex 装了个一键发 Spotify 的口子]] | 内容生产工作流 / openclaw 第三条子线 |
 | 2026-04-28 | [[openclaw-365k星跨平台个人ai助手-4月安全事件你不能不知道\|openclaw 365k 星 + 4 月安全事件复盘]] | 宿主主体 + 安全事件首次落地 |
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 12 万星接入 openclaw 生态]] | 外部持久成长 agent 接入 / 生态扩展 |
 | 2026-04-23 | [[last30days-skill-跨reddit-x-hn自动出研报-200美元deep-research平替\|Last30Days Skill 跨平台研报]] | 文中提及 clawhub，但当时未单独立主题 |

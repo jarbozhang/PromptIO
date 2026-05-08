@@ -1,0 +1,35 @@
+title: PageIndex 一夜 943 星：不用 embedding 不用向量数据库的 RAG，国内 RAG 项目要重写一半
+status: draft
+date: 2026-05-08T00:00:00.000Z
+reach: 7
+voice: first-person
+sources:
+  - github-trending-4c59de62
+tags:
+  - RAG
+  - PageIndex
+  - VectifyAI
+  - 范式演进
+  - 工具实测
+platforms:
+  wechat: primary
+  xhs: pending
+  x: primary
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

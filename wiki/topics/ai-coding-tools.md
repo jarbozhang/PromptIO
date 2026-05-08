@@ -21,6 +21,11 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-08 | [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Gemini 3.1 Flash Lite $0.25/M 1M 多模态上 OpenRouter]] | 多模态 + 编程辅助新底部价格 |
+| 2026-05-08 | [[anthropic-code-w-claude-2026大会-mythos-preview发布\|Anthropic Code w/ Claude 2026 大会 + Mythos Preview]] | 大会发布 / 编程模型行业事件 |
+| 2026-05-08 | [[pageindex一夜943星-vectorless-rag不用向量数据库\|PageIndex vectorless RAG 给编程辅助]] | RAG 新范式给编程辅助 |
+| 2026-05-08 | [[raschka开源coding-llms-from-ground-up-从零搭claude-code\|Raschka 开源 Coding LLM From the Ground Up 完整课程]] | KOL 方法论 + AI 教育 |
+| 2026-05-08 | [[goose-26k星-block本地agent-绕开claude-code-200美金\|Block Goose 26k 星本地 AI 编程 agent]] | 本地 agent / 绕开订阅 |
 | 2026-04-27 | [[gitnexus-graph-rag塞进浏览器-客户端代码知识图谱聊代码\|GitNexus 把 Graph RAG 塞进浏览器，客户端跑代码知识图谱]] | 客户端 Graph RAG / 代码理解新形态 |
 | 2026-04-24 | [[claude-code变笨了-anthropic-retro-opus4-7-system-prompt拆解\|用户骂 Claude Code 变笨，Anthropic 发 retro + Simon 扒 Opus system prompt]] | 质量 retro + prompt 拆解 |
 | 2026-04-24 | [[qwen3-6-27b编程模型发布-27b-dense旗舰本地可跑\|Qwen3.6-27B 27B Dense 本地编程旗舰]] | 国产本地编程模型 |
@@ -42,7 +47,7 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 ## 饱和度评估
 
-**严重过饱和** — 20 篇/20 天（14%）。4/27 +1 篇（GitNexus 把 Graph RAG 塞进浏览器，客户端代码知识图谱），4/25 +1（Unsloth WebUI），4/24 +2（Claude Code retro + Qwen3.6-27B 本地编程）继续抬升。GitNexus 归"代码理解新形态/客户端 RAG"，不属于纯工具评测。
+**严重过饱和** — 46 篇累计。5/8 +5 篇（Gemini Flash Lite 编程价格档、Anthropic Code 大会、PageIndex RAG、Raschka 课程、Goose 本地 agent）连续 5 日峰区。每条都符合"重大模型/工具迭代或国产 Claude Code 二次出圈或方法论 KOL"例外条款。
 
 ## 建议
 

@@ -9,11 +9,13 @@ Raschka 的拆解风格更偏"从头构建 + 工程可复现"，与中文 AI 读
 ## 近期关键动态
 
 - **拆 RLVR + GRPO 关键拼图** (2026-04-23) — 系统性梳理让 LLM 推理追上 o3 的几个关键点：RLVR 规则化奖励、GRPO 组内相对优势、训练数据/模型规模配比
+- **开源 Coding LLMs From the Ground Up 完整课程** (2026-05-08) — 把 Coding LLM 从零教到部署的完整课程开源，国内程序员可以照着复刻 Claude Code，从"工程可复现"派研究者扩成"教程开源"派教育者
 
 ## 我们的覆盖
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-08 | [[raschka开源coding-llms-from-ground-up-从零搭claude-code\|Raschka 把 Coding LLM 从零教到部署的完整课程开源了]] | 8 |
 | 2026-04-23 | [[sebastian-raschka拆rlvr-grpo让llm推理追上o3的几个关键\|Sebastian Raschka 拆 RLVR + GRPO，让 LLM 推理追上 o3 的几个关键拼图]] | 8 |
 
 ## 相关主题

@@ -11,6 +11,7 @@
 
 ## 近期入驻事件
 
+- **2026-05-08** — 蚂蚁 [[ling-2-6-1t|Ling-2.6-1T]] 旗舰付费版上线 $0.30/M、Google [[gemini-3-1-flash-lite|Gemini 3.1 Flash Lite]] $0.25/M 1M 多模态、Block [[goose|Goose]] 通过 OpenRouter 接 [[deepseek|DeepSeek]] 跑本地编程 agent（三件接连，价格断档新低）
 - **2026-04-28** — 给 7 个主流模型一口气加 Latest 别名（覆盖 OpenAI / Anthropic / Google / Moonshot 等），Agent 调用层从此自动跟随最新版本，省去手动改 model id
 - **2026-04-27** — 阿里 Qwen3.6 全家桶 5 个模型一口气上 OpenRouter（27B Dense 到 1T Max Preview 全档位）
 - **2026-04-24** — DeepSeek V4 Pro + Flash 双发、腾讯 Hy3 免费、蚂蚁 Ling-2.6-1T 免费
@@ -26,6 +27,9 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-08 | [[蚂蚁ling-2-6-1t万亿模型上openrouter-比deepseek便宜\|蚂蚁 Ling-2.6-1T 旗舰上 OpenRouter $0.30/M 比 DeepSeek 便宜]] | 国产万亿付费档新底部 |
+| 2026-05-08 | [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Gemini 3.1 Flash Lite $0.25/M token 1M 多模态]] | 海外定价新底部 / 视频塞进 prompt |
+| 2026-05-08 | [[goose-26k星-block本地agent-绕开claude-code-200美金\|Block Goose 通过 OpenRouter 接 DeepSeek 本地跑 AI 编程 agent]] | 本地 agent / OpenRouter 作为后端 |
 | 2026-04-28 | [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter 给 7 个主流模型一口气加了 Latest 别名]] | 平台机制 / Agent 自动跟版 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶 5 个模型上 OpenRouter]] | 国产全档位铺出海 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 双发 OpenRouter]] | 聚合平台首发 |

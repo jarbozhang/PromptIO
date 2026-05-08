@@ -2,6 +2,29 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-08（10 篇，voice 分布 first-person 4 / narrative 1 / analytical 3 / retro 2）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[openclaw-claude-codex-把ai播客一键发spotify\|openclaw 给 Claude 和 Codex 装了个一键发 Spotify 的口子，AI 写完播客直接进我的 feed]] | 10 | first-person | [[openclaw-org\|openclaw]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[openai\|OpenAI]], [[codex\|Codex]], Spotify | [[openclaw-ecosystem\|openclaw 生态]] / [[workflow-automation\|工作流自动化]] / [[agent-frameworks\|Agent 框架]] |
+| [[蚂蚁ling-2-6-1t万亿模型上openrouter-比deepseek便宜\|蚂蚁 Ling-2.6-1T 万亿参数旗舰悄悄上 OpenRouter，1M token 三毛钱比 DeepSeek 还便宜]] | 8 | first-person | [[ant-group\|蚂蚁集团]], [[inclusion-ai\|inclusionAI]], [[openrouter\|OpenRouter]], [[deepseek\|DeepSeek]], [[moonshot\|Moonshot]], [[qwen-family\|Qwen]] | [[chinese-ai\|国产 AI]] / [[ai-pricing\|AI 定价]] / [[local-inference\|本地推理]] |
+| [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Google Gemini 3.1 Flash Lite 静悄悄上 OpenRouter：1M 多模态白嫖 $0.25/M token 把视频也算进 prompt]] | 9 | analytical | [[google\|Google]], [[gemini-3-1-flash-lite\|Gemini 3.1 Flash Lite]], [[openrouter\|OpenRouter]], [[deepseek\|DeepSeek]], [[anthropic\|Anthropic]], [[openai\|OpenAI]] | [[ai-pricing\|AI 定价]] / [[multimodal\|多模态]] / [[ai-coding-tools\|AI 编程工具]] |
+| [[anthropic-code-w-claude-2026大会-mythos-preview发布\|Anthropic 开了个 Code w/ Claude 2026 大会，把 Claude Mythos 拉出来给 Firefox 找漏洞了]] | 8 | narrative | [[anthropic\|Anthropic]], [[claude\|Claude]], [[claude-code\|Claude Code]], [[mythos\|Mythos]], [[mozilla\|Mozilla]], [[zhipu\|智谱]], [[bytedance\|字节跳动]] | [[ai-coding-tools\|AI 编程工具]] / [[agent-frameworks\|Agent 框架]] / [[ai-security\|AI 安全]] |
+| [[claude-mythos-preview加固firefox-ai找浏览器漏洞\|Mozilla 让 Claude Mythos 给 Firefox 找了 31 天漏洞，这是国产浏览器安全团队该抄的作业]] | 8 | retro | [[anthropic\|Anthropic]], [[claude\|Claude]], [[mythos\|Mythos]], [[mozilla\|Mozilla]], [[baidu\|百度]], 360, 奇安信 | [[ai-security\|AI 安全]] / [[supply-chain-security\|供应链安全]] / 方法论 |
+| [[pageindex一夜943星-vectorless-rag不用向量数据库\|PageIndex 一夜 943 星：不用 embedding 不用向量数据库的 RAG 国内 RAG 项目要重写一半]] | 7 | first-person | VectifyAI, [[pageindex\|PageIndex]], LangChain, LlamaIndex, Dify, FastGPT | RAG / [[agent-frameworks\|Agent 框架]] / [[ai-coding-tools\|AI 编程工具]] |
+| [[gpt-5-5-cyber网络安全垂直模型-国内安全团队怎么用\|OpenAI 把 GPT-5.5 切了一份给网络安全研究员，国内甲方安全团队该怎么对照]] | 7 | analytical | [[openai\|OpenAI]], [[gpt-5-5-cyber\|GPT-5.5-Cyber]], [[anthropic\|Anthropic]], 深信服, 奇安信, 360, 知道创宇 | [[ai-security\|AI 安全]] / [[ai-product-experience\|AI 产品体验]] / OpenAI 行业事件 |
+| [[raschka开源coding-llms-from-ground-up-从零搭claude-code\|Raschka 把 Coding LLM 从零教到部署的完整课程开源了，国内程序员可以照着复刻 Claude Code]] | 8 | retro | [[sebastian-raschka\|Sebastian Raschka]], [[karpathy\|Karpathy]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[bytedance\|字节跳动]], deer-flow, [[nousresearch\|Nous Research]] | [[ai-coding-tools\|AI 编程工具]] / 方法论 / [[ai-research\|AI 研究/教育]] |
+| [[goose-26k星-block本地agent-绕开claude-code-200美金\|Block 团队开源的 Goose 一年攒到 26k 星，本地跑 AI 编程 agent 不用付 Claude 200 美金]] | 7 | first-person | [[block\|Block]], [[goose\|Goose]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[openrouter\|OpenRouter]], [[deepseek\|DeepSeek]], Ollama | [[ai-coding-tools\|AI 编程工具]] / [[ai-pricing\|AI 定价]] / [[local-inference\|本地推理]] |
+| [[gemini-3-1-flash-tts-表达性语音-国产tts怎么对照\|Google 把 Gemini 3.1 Flash TTS 推到所有产品里，国产 TTS（火山 / 微软 Edge / 通义晓声）该怎么对照]] | 7 | analytical | [[google\|Google]], [[gemini-3-1-flash-tts\|Gemini 3.1 Flash TTS]], [[bytedance\|字节跳动]], [[alibaba\|阿里]], [[tencent\|腾讯]], [[microsoft\|Microsoft]], [[openai\|OpenAI]] | TTS / [[multimodal\|多模态]] / 创作者经济 |
+
+**5/8 voice 分布**：first-person 4 / narrative 1 / analytical 3 / retro 2，retro 比例略升（Mythos x Firefox + Raschka 课程都是事件复盘+方法论提炼）。
+
+**5/8 优先品牌**：openclaw（#1 Save to Spotify CLI，5/3 #1 #5、5/7 #1 之后第 4 次出篇，本期把 openclaw 生态从"个人 AI 助手宿主"扩到"内容生产工作流"新子线）+ Mythos（#4 #5 双触发，从"封印模型"扩到"实战漏洞挖掘平台"）。
+
+**5/8 QA 结果**：10/10 全过 overall_pass。L2 平均 8.4、L3 平均 8.3、L5 平均 8.3。L1 共 26 处机械替换。L6 fail 1 篇（#10 gemini tts，overseas_access 触发），其余 9 篇 L6 pass。
+
+**5/8 Step 4.6**：7 篇生成 xhs-version.md（reach≥8 主动 6 篇全部触发：openclaw Spotify / 蚂蚁 Ling / Gemini Flash Lite / Anthropic Code 大会 / Mythos Firefox / Raschka 课程 + L6 fail 必须 1 篇 Gemini TTS）；3 篇 xhs:primary 直发主版本（PageIndex / GPT-5.5-Cyber / Goose，均 reach=7 + L6 pass）；0 篇 xhs:blocked。
+
 ## 2026-05-07（10 篇，voice 分布 first-person 4 / narrative 2 / analytical 3 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

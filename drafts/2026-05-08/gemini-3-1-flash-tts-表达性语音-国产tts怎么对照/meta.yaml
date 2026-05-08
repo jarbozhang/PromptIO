@@ -1,0 +1,37 @@
+title: Google 把 Gemini 3.1 Flash TTS 推到所有产品里，国产 TTS（火山 / 微软 Edge / 通义晓声）该怎么对照
+status: draft
+date: 2026-05-08T00:00:00.000Z
+reach: 7
+voice: analytical
+sources:
+  - google-ai-blog-08d7a646
+tags:
+  - TTS
+  - 多模态
+  - Gemini
+  - Google
+  - 国产AI
+  - 创作者经济
+  - 行业对照
+platforms:
+  wechat: primary
+  xhs: review
+  x: secondary
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: false
+  l6_issues: [{"type":"overseas_access","text":"OpenRouter / 企业代理国内合规调用 Gemini API 路径","suggestion":"小红书版只保留火山 / 通义晓声 / Azure 国内版"},{"type":"overseas_access","text":"aistudio.google.com 直接访问指引","suggestion":"小红书版改为\"有海外业务的团队走企业 Vertex 通道\""}]
+  xhs_pass: false
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

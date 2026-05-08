@@ -33,6 +33,7 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-08 | [[gpt-5-5-cyber网络安全垂直模型-国内安全团队怎么用\|GPT-5.5-Cyber 网络安全垂直模型 + 国内甲方安全团队对照]] | 7 |
 | 2026-04-28 | [[openai要造手机-ai-agent替代app-mediatek-qualcomm\|OpenAI 真要造手机，AI agent 直接干掉 App]] | 9 |
 | 2026-04-28 | [[openai-privacy-filter开源-pii隐私过滤模型\|OpenAI 开源了 PII 隐私过滤模型 SOTA]] | 7 |
 | 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南]] | 9 |

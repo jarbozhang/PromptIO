@@ -1,0 +1,51 @@
+slug: raschka开源coding-llms-from-ground-up-从零搭claude-code
+title: Raschka 把 Coding LLM 从零教到部署的完整课程开源了，国内程序员可以照着复刻 Claude Code
+date: 2026-05-08
+status: draft
+voice: retro
+reach: 8
+prototype: 方法论 / AI 教育
+sources:
+  - sources/2026-05-08/sebastian-raschka-56cc90a8.md
+  - sources/2026-05-08/sebastian-raschka-fe70f637.md
+  - https://magazine.sebastianraschka.com/p/coding-llms-from-the-ground-up
+  - https://github.com/rasbt/LLMs-from-scratch
+entities:
+  - sebastian-raschka
+  - karpathy
+  - anthropic
+  - claude-code
+  - bytedance
+  - deer-flow
+  - nous-research
+topics:
+  - ai-coding-tools
+  - 方法论
+  - ai-education
+reach_breakdown:
+  brand: true
+  benefit: true
+  actionable: true
+notes: |
+  本文是 5/3 已写过的 "Raschka 拆 coding agent 5 大组件" 的姊妹篇。
+  那篇是 retro 拆解（外层工程），本文是 hands-on 课程（内层模型机理），
+  二者构成"从 token 到 Claude Code"完整学习链。
+  AI 编程工具主题已 41 篇，本文走 Karpathy/Raschka 方法论例外条款。
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

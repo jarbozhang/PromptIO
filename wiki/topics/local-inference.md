@@ -17,6 +17,7 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 | 日期 | 文章 | 具体角度 |
 |------|------|---------|
+| 2026-05-08 | [[goose-26k星-block本地agent-绕开claude-code-200美金\|Block Goose 26k 星本地 AI 编程 agent]] | 本地 agent 路线 / 绕开订阅 / Ollama 路线 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶 5 模型上 OpenRouter，含 27B Dense 本地档]] | 全家桶含本地档 + 云端档对照 |
 | 2026-04-25 | [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 实测 DeepSeek V4 本地]] | 海外 KOL 本地实测 |
 | 2026-04-25 | [[unsloth-webui开源-本地跑gemma4-qwen3-5-deepseek图形界面\|Unsloth WebUI 本地训练 Gemma 4 / Qwen3.5 / DeepSeek]] | 本地训练图形化 |

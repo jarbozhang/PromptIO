@@ -17,6 +17,9 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-08 | [[蚂蚁ling-2-6-1t万亿模型上openrouter-比deepseek便宜\|蚂蚁 Ling-2.6-1T 旗舰 $0.30/M 比 DeepSeek 便宜]] | 国产万亿付费档新底部 |
+| 2026-05-08 | [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Gemini 3.1 Flash Lite $0.25/M 1M 多模态]] | 海外多模态价格新底部 |
+| 2026-05-08 | [[goose-26k星-block本地agent-绕开claude-code-200美金\|Block Goose 绕开 Claude Code $200 订阅]] | 本地 agent / 绕开订阅 |
 | 2026-04-28 | [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter Latest 别名机制覆盖 7 个主流模型]] | 平台机制 / 维护成本省钱 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶 5 模型上 OpenRouter，从 27B Dense 到 1T Max Preview]] | 国产全档位铺设 / 万亿档进入新档位 |
 | 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter，Pro 版 $30 / 百万 token]] | OpenAI Pro 档新价格 |

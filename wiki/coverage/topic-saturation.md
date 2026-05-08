@@ -1,6 +1,62 @@
 # 主题饱和度分析
 
-基于 230 篇文章（2026-04-08 至 2026-05-07）的主题分布。**5/7 单批 10 篇后总计 230 篇。**
+基于 240 篇文章（2026-04-08 至 2026-05-08）的主题分布。**5/8 单批 10 篇后总计 240 篇。**
+
+## 5/8 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| openclaw Save to Spotify CLI（Claude/Codex 一键发播客） | 10 | first-person | openclaw 生态 / 工作流自动化 / Agent 框架 |
+| 蚂蚁 Ling-2.6-1T 上 OpenRouter 三毛钱比 DeepSeek 便宜 | 8 | first-person | 国产 AI / AI 定价 / 本地推理对照 |
+| Gemini 3.1 Flash Lite 1M 多模态 $0.25/M | 9 | analytical | AI 定价 / 多模态 / AI 编程工具 |
+| Anthropic Code w/ Claude 2026 大会 + Mythos Preview | 8 | narrative | AI 编程工具 / Agent 框架 / AI 安全 |
+| Mythos x Firefox 31 天漏洞挖掘 | 8 | retro | AI 安全 / 供应链安全 / 方法论 |
+| PageIndex 943 星 vectorless RAG | 7 | first-person | RAG / Agent 框架 / AI 编程工具 |
+| GPT-5.5-Cyber 网络安全垂直模型 | 7 | analytical | AI 安全 / AI 产品体验 / OpenAI 行业事件 |
+| Raschka 开源 Coding LLM From the Ground Up 课程 | 8 | retro | AI 编程工具 / 方法论 / AI 教育 |
+| Block Goose 26k 星本地 AI 编程 agent | 7 | first-person | AI 编程工具 / AI 定价 / 本地推理 |
+| Gemini 3.1 Flash TTS 推到所有产品 | 7 | analytical | TTS / 多模态 / 创作者经济 |
+
+**5/8 主题计数变化**：
+
+- **AI 编程工具**: 41 → **46**（+#3 Gemini Flash Lite 编程价格档、#4 Anthropic Code 大会、#6 PageIndex RAG 给编程辅助、#8 Raschka 课程、#9 Goose 本地 agent；连续 5 日高饱和峰区，每条都符合"重大模型/工具迭代或国产 Claude Code 二次出圈或方法论 KOL"例外条款，下一轮硬性继续严格）
+- **Agent 框架**: 40 → **43**（+#1 openclaw Save to Spotify CLI、#4 Anthropic Code 大会、#6 PageIndex；高饱和警告依然有效）
+- **国产 AI**: 26 → **27**（+#2 蚂蚁 Ling-2.6-1T，inclusionAI 万亿档新里程碑；DeepSeek 主线本期未触发，主动避开）
+- **AI 定价**: 32 → **35**（+#2 Ling-1T $0.30/M、#3 Gemini Flash Lite $0.25/M、#9 Goose 绕开 Claude $200；本期价格断档事件密集）
+- **本地推理**: 20 → **21**（+#9 Goose 本地 agent，绕开订阅路线；Ling-1T #2 是云端对照不计入）
+- **多模态**: 14 → **15**（+#3 Gemini Flash Lite 视频塞进 prompt；#10 TTS 归 TTS 主线不重复计）
+- **AI 安全**: 4 → **7**（+#4 Anthropic Code 大会安全议题、#5 Mythos x Firefox、#7 GPT-5.5-Cyber；Mythos 与 Glasswing 之后单期密度最高）
+- **方法论**: 4 → **6**（+#5 Mozilla 漏洞挖掘工作流、#8 Raschka 课程；累计 6 篇形成稳定主题供给）
+- **openclaw 生态**: 5/3 #1 #5、5/7 #1 之后第 4 次出篇（#1 Save to Spotify CLI），从"个人 AI 助手宿主"扩到"内容生产工作流"新子线
+- **OpenAI 行业事件**: +#7 GPT-5.5-Cyber（5/6 GPT-5.5 Instant 之后第 2 次单独立线，垂直模型分支首次正式覆盖）
+- **TTS / 语音 AI**: 3 → **4**（+#10 Gemini 3.1 Flash TTS；4/28 VibeVoice、4/16 Gemini Flash TTS 之后第 4 次形成主线）
+- **AI 教育**: +#8 Raschka 课程（4/23 Microsoft 12 课、4/27 Datawhale self-llm 之后第 3 次）
+- **创作者经济**: +#10 Gemini TTS / #1 openclaw Save to Spotify（内容生产工具链双触发）
+- **RAG**: +#6 PageIndex（vectorless 路线，2026-04 RAG-Anything 之后第 2 次）
+
+**新空间打开**：
+- **openclaw 生态延伸到内容生产工作流**子线（#1 Save to Spotify CLI 把 openclaw 从"个人 AI 助手宿主"扩到"内容生产管道"，与 4/28 hermes-agent 持久成长 agent、5/7 NousCoder 开源编程模型形成第三条子线）
+- **inclusionAI（蚂蚁 AI lab）首次单独立实体**（之前一直在 ant-group 总名下，本期 Ling-2.6-1T 万亿档以独立 lab 名义入库）
+- **vectorless RAG 范式**（PageIndex 不用 embedding 不用向量数据库，是 RAG-Anything 多模态、LangChain/LlamaIndex 之后第三种范式）
+- **TTS 厂商对照线**（Gemini Flash TTS / 火山 / 通义晓声 / Microsoft Edge / VibeVoice 五厂横评首次成形）
+- **AI 安全垂直模型分支**（GPT-5.5-Cyber 是 Mythos 之后第二条"垂类安全模型"路线，OpenAI / Anthropic 双家形成对照）
+
+**警告/降权说明**：
+
+- AI 编程工具 46 篇连续 5 日高饱和（5/3 +5 / 5/5 +3 / 5/6 第一批 +3 / 5/7 +5 / 5/8 +5），下一轮硬性规则继续：除非"国产 Claude Code 平替二次出圈 / Anthropic/OpenAI 重大编程模型迭代 / Karpathy/Raschka 等 KOL 新方法论"才纳入
+- Agent 框架 43 篇连续高饱和峰区（5/1 32 → 5/3 34 → 5/5 36 → 5/6 37 → 5/7 40 → 5/8 43），下一轮严格降权
+- AI 定价 35 篇连续 4 日新增（5/5 +1 / 5/6 第一批 +1 / 5/7 +3 / 5/8 +3），主题进入"只收平台机制 / 价格断档事件"状态
+- AI 安全 5/8 +3 跳到 7 篇，从"中等饱和"升到"高饱和警戒线"，下一轮只跟政府监管 / 重大事件 / 国内首次类信号
+- openclaw 生态本期单线，符合优先品牌 +1 boost；下一轮可继续保持 1 篇供给
+
+**下一轮选题方向（结合 5/1-5/8 趋势）**：
+1. AI 影视/娱乐（爱奇艺、Deezer 后仍可追，国产短剧 AI 化）
+2. AI+医疗（4 月 2 篇后无新增）
+3. 具身智能国产对照（5/7 双发后下一轮可单独覆盖宇树/小鹏 IRON/智元/银河通用）
+4. 创作者经济（5/5 ace-step-ui / LTX-2 + 5/8 #1 #10 后仍有空间）
+5. AI 训练数据/隐私边界（Meta 录键鼠后国内平台）
+6. RAG 国产对照（5/8 PageIndex 后可追 Dify / FastGPT 国产 vectorless 落地）
+7. AI 法律 / 监管（5/6 Character.AI + Meta 抄书后空白）
 
 ## 5/7 10 篇主题分布
 

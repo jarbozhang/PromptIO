@@ -1,0 +1,50 @@
+slug: gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token
+title: "Google Gemini 3.1 Flash Lite 静悄悄上 OpenRouter：1M 多模态白嫖，$0.25/M token 把视频也算进 prompt"
+date: 2026-05-08
+status: draft
+voice: analytical
+reach: 9
+archetype: "工具实测 / 价格档位"
+entities:
+  - google
+  - gemini
+  - openrouter
+  - deepseek
+  - anthropic
+  - openai
+topics:
+  - ai-pricing
+  - multimodal
+  - ai-coding-tools
+sources:
+  - sources/2026-05-08/openrouter-new-model-2f09e1d0.md
+  - sources/2026-05-08/openrouter-new-model-163fef12.md
+  - https://openrouter.ai/models/google/gemini-3.1-flash-lite
+  - https://www.reddit.com/r/GeminiAI/comments/1t6jz94/the_gemini_31_flash_lite_ga_version_has_just_been/
+reach_breakdown:
+  brand: true       # Google + Gemini + OpenRouter 三个高识别品牌
+  benefit: true     # $0.25/M 多模态 1M context, 价格档位重定义
+  actionable: true  # OpenRouter 注册 + 一行 model id 切换 + 三个 ROI 场景
+notes: |
+  - voice = analytical：聚焦价格档位拆解, 不写"我跑了一下"的实测口吻
+  - 与 5/3 (百万辆车) / 5/7 (Robotics-ER 1.6) 角度区分: 本文是 OpenRouter 价格档位
+  - AI 定价饱和但本文属"重大价格断档"例外: GA 多模态 1M context 进入 sub-$0.5/M
+  - 合规: 无封建迷信 / 无翻墙教程 / 无拉踩句式
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 5
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

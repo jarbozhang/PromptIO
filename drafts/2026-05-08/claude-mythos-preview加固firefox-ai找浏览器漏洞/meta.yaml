@@ -1,0 +1,48 @@
+slug: claude-mythos-preview加固firefox-ai找浏览器漏洞
+title: "Mozilla 让 Claude Mythos 给 Firefox 找了几个月漏洞，这是国产浏览器安全团队该抄的作业"
+date: 2026-05-08
+status: draft
+voice: retro
+reach: 8
+prototype: 方法论 / AI 安全 / 实战复盘
+entities:
+  - anthropic
+  - claude
+  - mythos
+  - mozilla
+  - firefox
+  - baidu
+  - 360
+  - qihoo
+topics:
+  - ai-safety
+  - supply-chain-security
+  - methodology
+sources:
+  - sources/2026-05-08/simon-willison-7d5ece52.md
+  - sources/2026-05-08/simon-willison-055b6a16.md
+  - https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
+  - https://simonwillison.net/2026/May/7/firefox-claude-mythos/
+reach_breakdown:
+  brand: true
+  benefit: true
+  actionable: true
+  note: "Anthropic + Mozilla 双品牌；方法论可立即复刻；六步 pipeline 可执行"
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
