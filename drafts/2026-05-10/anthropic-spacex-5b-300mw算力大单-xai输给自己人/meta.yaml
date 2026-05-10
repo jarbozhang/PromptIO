@@ -1,0 +1,30 @@
+title: "Anthropic 跟 SpaceX 签 50 亿美元 / 年算力大单 300MW Colossus I，xAI 输给自己人"
+status: draft
+date: 2026-05-10
+reach: 9
+sources:
+  - latent-space-b02e6f64
+  - hacker-news-algolia-ai-filter-4f2390c7
+tags:
+  - AI行业并购
+  - AI硬件
+  - Anthropic
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

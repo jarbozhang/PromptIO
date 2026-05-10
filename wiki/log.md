@@ -2,6 +2,44 @@
 
 追加式记录，最新在前。
 
+## [2026-05-10] generate | 10 drafts, REACH>=8, RSS+signals (X 跳过)
+
+- **采集**：RSS/GitHub/arXiv 518 items + GitHub Trending 31 AI repos + OpenRouter 2 new models (Tencent Hy3 preview / inclusionAI Ring-2.6-1T free) + PyPI 10 packages (无 trending spike) + TrendRadar Docker 目录缺失（soft-fail）
+- **X 抓取本期跳过**：bird CLI Chrome Safe Storage exit 36 + 无 SWEETISTICS_API_KEY，社区反馈用 last30days（Reddit/HN/GitHub 三源）替代
+- **新增 10 篇文章**：
+  - #1 蚂蚁 Ring-2.6-1T + 腾讯 Hy3 双双上 OpenRouter（万亿模型免费档双子线，REACH 9 first-person）
+  - #2 Claude Code CVE-2026-39861 sandbox 逃逸（GHSA 主流 coding agent 第一次 CVE，REACH 9 narrative）
+  - #3 Anthropic+SpaceX 5B/yr 300MW Colossus I 算力大单（xAI 输给自己人，REACH 9 analytical）
+  - #4 DeepMind AlphaEvolve Gemini 编程 agent 解实际问题（REACH 8 retro）
+  - #5 Datawhale hello-agents 1197 星 / 天 国产从零教 agent（REACH 8 first-person）
+  - #6 HKUDS AI-Trader 646 星 100% 全自动 agent 交易（REACH 8 analytical）
+  - #7 字节 UI-TARS-desktop 552 星 多模态 agent 桌面栈（REACH 8 first-person）
+  - #8 GPT-5.5 OpenRouter 价格曲线（输入降 / 输出涨 / 缓存命中率，REACH 8 analytical）
+  - #9 Nathan Lambert China AI labs Western 视角访谈（REACH 8 retro）
+  - #10 addyosmani agent-skills 3009 星 production engineering（REACH 8 first-person）
+- **voice 分布**：first-person 4 / narrative 1 / analytical 3 / retro 2，跟 5/8 完全一致
+- **优先品牌**：openclaw 主仓库 stars 增量小（370k）+ 5/8 刚出过，本期未出篇；Hermes Agent 同样跳过（141k 但近 7 天三次覆盖）。本期没有命中优先品牌 boost
+- **新空间打开**：
+  - **算力分配 vs 算力供给** 子线（#3 SpaceX Colossus I，AI 硬件从"国产昇腾 / Cerebras IPO"延伸到"美方算力分配"）
+  - **CVE 级 AI 编程工具安全事件** 首次落地（#2 是 Claude Code 主版本第一次 GHSA 公开 CVE）
+  - **agent-native trading 全自动** 子线（#6 跟 dexter / TradingAgents / daily_stock_analysis 三条路线区分开）
+  - **Western 研究者实地观察国产 AI** 子线（#9 Nathan Lambert）
+- **主题饱和变化**（详见 topic-saturation.md）：
+  - AI 编程工具 46 → **49**（+#2 CVE / #4 AlphaEvolve / #10 agent-skills，全部符合 3 条例外条款）
+  - Agent 框架 43 → **47**（+#4 #5 #6 #7 四角度）连续 7 日峰区
+  - 国产 AI 27 → **30**（+#1 蚂蚁/腾讯 / #7 字节 / #9 Nathan）
+  - AI 定价 35 → **37**（+#1 / #8）
+  - AI 行业并购 9 → **10**（+#3 算力分配子线）
+  - AI 安全 7 → **8**（+#2 CVE）
+  - AI 研究 14 → **16**（+#4 / #9）
+  - 方法论 6 → **8**（+#4 / #10）
+  - AI+教育 4 → **5**（+#5 Datawhale）
+  - AI 金融 8 → **9**（+#6 HKUDS）
+  - Computer Use Agent 2 → **3**（+#7 UI-TARS）
+- **QA 结果**：10/10 全过 overall_pass。L2 平均 8.1、L3 平均 8.1、L5 平均 8.0。L1 共 8 处机械替换。L6 全过 0 篇违规
+- **Step 4.6**：10 篇全部生成 xhs-version.md（reach≥8 主动 10 篇全触发）；0 篇 xhs:primary；0 篇 xhs:blocked
+- **5/3-5/10 趋势警告**：AI 编程工具 49 + Agent 框架 47 + 国产 AI 30 + AI 定价 37 + AI 行业并购 10 + AI 安全 8 篇连续高饱和峰区，下一轮编程工具/agent 框架/AI 安全/并购继续严格降权
+
 ## [2026-05-08] generate | 10 drafts, REACH>=7, RSS+signals
 
 - **采集**：RSS/GitHub/arXiv 478 items + GitHub Trending 30+ AI repos；bird CLI cookies 仍缺，X 抓取本期跳过（Step 3.5 last30days 补社区反馈）；Reddit RSS 部分 403；TrendRadar Docker 目录缺失；pypi 1 个 429

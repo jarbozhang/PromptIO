@@ -1,6 +1,65 @@
 # 主题饱和度分析
 
-基于 240 篇文章（2026-04-08 至 2026-05-08）的主题分布。**5/8 单批 10 篇后总计 240 篇。**
+基于 250 篇文章（2026-04-08 至 2026-05-10）的主题分布。**5/10 单批 10 篇后总计 250 篇。**
+
+## 5/10 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| 蚂蚁 Ring-2.6-1T + 腾讯 Hy3 双双上 OpenRouter | 9 | first-person | 国产 AI / AI 定价 / 推理模型 / 本地推理对照 |
+| Claude Code CVE-2026-39861 sandbox 逃逸 | 9 | narrative | AI 编程工具 / 供应链安全 / AI 安全 |
+| Anthropic+SpaceX 5B/yr 300MW Colossus I 算力大单 | 9 | analytical | AI 行业并购 / AI 硬件 / Anthropic |
+| DeepMind AlphaEvolve Gemini 编程 agent 解实际问题 | 8 | retro | AI 编程工具 / AI 研究 / Agent 框架 / 方法论 |
+| Datawhale hello-agents 1197 星 / 天 国产从零教 agent | 8 | first-person | AI+教育 / Agent 框架 / 国产开源 |
+| HKUDS AI-Trader 646 星 100% 全自动 agent 交易 | 8 | analytical | AI 金融 / Agent 框架 / 港大开源 |
+| 字节 UI-TARS-desktop 552 星 多模态 agent 桌面栈 | 8 | first-person | 国产 AI / Agent 框架 / 多模态 / Computer Use Agent |
+| GPT-5.5 OpenRouter 价格拆解 输入降 / 输出涨 | 8 | analytical | AI 定价 / OpenAI 行业事件 / OpenRouter |
+| Nathan Lambert China AI labs Western 视角访谈 | 8 | retro | 国产 AI / AI 研究 / 跨文化观察 |
+| addyosmani agent-skills 3009 星 production engineering | 8 | first-person | AI 编程工具 / 方法论 / Claude Code |
+
+**5/10 主题计数变化**：
+
+- **AI 编程工具**: 46 → **49**（+#2 CVE-2026-39861、#4 AlphaEvolve、#10 agent-skills；连续 6 日高饱和峰区，#2 是供应链安全例外、#4 是 DeepMind 重大编程模型迭代例外、#10 是 Addy KOL 方法论例外，全部符合"严格降权"的 3 条例外条款）
+- **Agent 框架**: 43 → **47**（+#4 AlphaEvolve evolutionary search、#5 Datawhale hello-agents 教程角度、#6 AI-Trader 100% 全自动、#7 UI-TARS 多模态桌面栈；连续 7 日峰区，国产 / 教育 / 金融 / 桌面四个新角度）
+- **国产 AI**: 27 → **30**（+#1 蚂蚁 Ring + 腾讯 Hy3 双发、#7 字节 UI-TARS、#9 Nathan Lambert 实地访谈；本期国产线四篇命中，跨"模型上 OpenRouter / 多模态桌面 agent / Western 视角观察"三条新角度）
+- **AI 定价**: 35 → **37**（+#1 Ring/Hy3 free 档、#8 GPT-5.5 价格曲线；本期价格断档/账单事件继续命中）
+- **AI 行业并购**: 9 → **10**（+#3 Anthropic+SpaceX 5B/yr 算力大单，从估值 / IPO 角度延伸到"算力分配"角度）
+- **AI 硬件**: 10 → **11**（+#3 SpaceX Terafab + Colossus I，从国产昇腾 / Cerebras IPO 延伸到"美方 AI 算力分配"角度）
+- **AI 安全**: 7 → **8**（+#2 CVE-2026-39861，从 Mythos / GPT-5.5-Cyber 延伸到"主流 coding agent CVE"角度）
+- **供应链安全**: 16 → **17**（+#2 Claude Code CVE，从 PyTorch Lightning / Daemon Tools / Apple Claude.md 延伸到"主流 coding agent CVE"）
+- **AI 研究**: 14 → **16**（+#4 AlphaEvolve evolutionary search、#9 Nathan Lambert 实地观察；研究类 +2 篇）
+- **多模态**: 15 → **16**（+#7 UI-TARS-desktop 多模态 agent stack）
+- **方法论**: 6 → **8**（+#4 AlphaEvolve pipeline、#10 agent-skills production engineering；累计 8 篇形成稳定主题供给）
+- **AI+教育**: 4 → **5**（+#5 Datawhale hello-agents，4/23 Microsoft 12 课、4/27 self-llm、4/28 hello-agents 同 Datawhale 系列、5/8 Raschka 课程之后第 5 次）
+- **AI 金融**: 8 → **9**（+#6 HKUDS AI-Trader，从 dexter / TradingAgents / daily_stock_analysis 延伸到"100% 全自动 agent-native"角度）
+- **Computer Use Agent**: 2 → **3**（+#7 UI-TARS-desktop，从 trycua / agent-desktop 之后第 3 条路线）
+- **OpenAI 行业事件**: 第 3 次单独立线（5/6 GPT-5.5 默认 + 5/8 GPT-5.5-Cyber + 本期 GPT-5.5 价格曲线，OpenAI 价格 / 模型 / 安全三个角度）
+
+**新空间打开**：
+- **算力分配 vs 算力供给** 子线（#3 Anthropic+SpaceX 是国内云厂商接 Anthropic 模型分发的关键背景，AI 硬件主题从"国产昇腾 / Cerebras IPO"延伸到"美方算力分配"角度）
+- **CVE 级 AI 编程工具安全事件** 首次落地（#2 是 Claude Code 主版本第一次 GHSA 公开 CVE，跟 5/3 Apple Claude.md / 5/8 Mythos x Firefox 不同——前两者是泄露 / 漏洞挖掘，本期是工具自身 CVE）
+- **agent-native trading 全自动** 子线（#6 跟 dexter 单 agent 研报、TradingAgents 多 agent 协作、daily_stock_analysis 仪表盘三种路线区分开）
+- **Western 研究者实地观察国产 AI** 子线（#9 Nathan Lambert 是 Western 视角第一次系统访谈中国 AI lab，跟"国内观察 + 国内 lab"或"Western 远程观察"都不同）
+
+**警告/降权说明**：
+
+- AI 编程工具 49 篇连续 6 日高饱和（5/3 +5 / 5/5 +3 / 5/6 +3 / 5/7 +5 / 5/8 +5 / 5/10 +3），下一轮硬性继续严格：仅"国产 Claude Code 平替二次出圈 / Anthropic/OpenAI 重大编程模型迭代 / KOL 新方法论"才纳入
+- Agent 框架 47 篇连续 7 日峰区（5/3 34 → 5/5 36 → 5/6 37 → 5/7 40 → 5/8 43 → 5/10 47），下一轮严格降权
+- AI 定价 37 篇连续 5 日新增（5/5 +1 / 5/6 +1 / 5/7 +3 / 5/8 +3 / 5/10 +2），主题进入"只收平台机制 / 价格断档事件"状态
+- 国产 AI 30 篇高饱和，下一轮国产线只跟"非 Kimi/DeepSeek/Qwen/字节"的新增项目
+- 方法论 8 篇形成稳定供给，下一轮只跟新方法论事件
+- AI 行业并购 10 篇连续 3 日高密度峰区（5/6 +1 / 5/7 +1 / 5/10 +1），下一轮严格只跟重大事件级
+- AI 安全 8 篇维持高饱和，下一轮只跟政府监管 / 重大事件
+- 优先品牌 openclaw 5/10 单线，本期未出篇；下一轮见到新动态优先选入
+
+**下一轮选题方向（结合 5/3-5/10 趋势）**：
+1. AI 影视/娱乐（爱奇艺、Deezer、Pixelle-Video 后仍可追，国产短剧 AI 化透明度）
+2. AI+医疗（4 月 2 篇后无新增，国产百图生科/晶泰实盘案例仍待深挖）
+3. 具身智能国产对照（5/7 Genesis AI / Gemini Robotics 双发后下一轮可单独覆盖宇树/小鹏 IRON/智元/银河通用）
+4. 创作者经济（5/5 ace-step-ui / LTX-2 + 5/8 #1 #10 + 5/10 #5 教程后仍有空间）
+5. AI 训练数据/隐私边界（Meta 录键鼠 + 5/6 书商诉 Meta 抄书后国内平台跟进）
+6. RAG 国产对照（5/8 PageIndex 后可追 Dify / FastGPT 国产 vectorless 落地）
+7. AI 法律 / 监管（5/6 Character.AI + Meta 抄书 + 5/10 CVE 之后可追"AI agent 漏洞披露规范"）
 
 ## 5/8 10 篇主题分布
 

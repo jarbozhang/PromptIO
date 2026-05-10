@@ -1,0 +1,30 @@
+title: "字节 UI-TARS-desktop 一夜 552 星，国产多模态 agent 桌面栈把 Computer Use 跑给你看"
+status: draft
+date: 2026-05-10
+reach: 8
+sources:
+  - github-trending-fe49044b
+tags:
+  - 国产AI
+  - Agent框架
+  - 多模态
+  - 字节
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

@@ -2,6 +2,31 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-10（10 篇，voice 分布 first-person 4 / narrative 1 / analytical 3 / retro 2）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[蚂蚁ring-腾讯hy3-双双上openrouter-万亿模型免费\|蚂蚁 Ring-2.6-1T 万亿推理模型 + 腾讯 Hy3 preview 同天免费上 OpenRouter，国产万亿双子线]] | 9 | first-person | [[ant-group\|蚂蚁集团]], [[inclusion-ai\|inclusionAI]], [[tencent\|腾讯]], [[openrouter\|OpenRouter]], [[deepseek\|DeepSeek]] | [[chinese-ai\|国产 AI]] / [[ai-pricing\|AI 定价]] / 推理模型 |
+| [[claude-code-cve-39861-sandbox逃逸-国内开发者升级\|Claude Code 爆 CVE-2026-39861 sandbox 逃逸漏洞，国内开发者今晚把这一个版本删掉]] | 9 | narrative | [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | [[ai-coding-tools\|AI 编程工具]] / [[supply-chain-security\|供应链安全]] / [[ai-security\|AI 安全]] |
+| [[anthropic-spacex-5b-300mw算力大单-xai输给自己人\|Anthropic 跟 SpaceX 签 50 亿美元 / 年算力大单 300MW Colossus I，xAI 输给自己人]] | 9 | analytical | [[anthropic\|Anthropic]], [[spacex\|SpaceX]], [[xai\|xAI]], [[elon-musk\|Elon Musk]], [[alibaba-cloud\|阿里云]], [[volcano-engine\|火山引擎]] | [[ai-mergers\|AI 行业并购]] / [[ai-hardware\|AI 硬件]] |
+| [[deepmind-alphaevolve-gemini编程agent解实际问题\|DeepMind AlphaEvolve 把 Gemini 编程 agent 推到真实问题，国产 coding agent 该看的是这套思路]] | 8 | retro | [[deepmind\|DeepMind]], [[google\|Google]], [[gemini\|Gemini]], [[bytedance\|字节跳动]], [[zhipu\|智谱]], [[alibaba\|阿里]] | [[ai-coding-tools\|AI 编程工具]] / [[ai-research\|AI 研究]] / [[agent-frameworks\|Agent 框架]] |
+| [[datawhale-hello-agents-1197星-从零教agent\|Datawhale hello-agents 一夜涨 1197 星，国产《从零开始构建智能体》教程把 agent 拆给普通人]] | 8 | first-person | [[datawhale\|Datawhale]], [[microsoft\|Microsoft]], [[langchain\|LangChain]] | [[ai-education\|AI+教育]] / [[agent-frameworks\|Agent 框架]] / [[open-source\|开源生态]] |
+| [[hkuds-ai-trader-646星-100全自动agent交易\|港大 HKUDS AI-Trader 一夜 646 星，100% 全自动 agent-native 交易系统国内散户能用吗]] | 8 | analytical | [[hkuds\|HKUDS]], [[dexter\|dexter]], [[trading-agents\|TradingAgents]] | [[ai-finance\|AI 金融]] / [[agent-frameworks\|Agent 框架]] |
+| [[字节ui-tars-desktop-552星-多模态agent桌面栈\|字节 UI-TARS-desktop 一夜 552 星，国产多模态 agent 桌面栈把 Computer Use 跑给你看]] | 8 | first-person | [[bytedance\|字节跳动]], [[volcano-engine\|火山引擎]], [[trycua\|trycua]], [[agent-desktop\|agent-desktop]] | [[chinese-ai\|国产 AI]] / [[agent-frameworks\|Agent 框架]] / [[multimodal\|多模态]] / [[computer-use-agent\|Computer Use Agent]] |
+| [[gpt-5-5-openrouter成本拆解-输入降输出涨\|OpenRouter 拆 GPT-5.5 价格曲线，输入降价 / 输出涨价 / 缓存命中率成关键]] | 8 | analytical | [[openai\|OpenAI]], [[gpt-5-5\|GPT-5.5]], [[openrouter\|OpenRouter]], [[deepseek\|DeepSeek]], [[kimi\|Kimi]], [[ant-group\|蚂蚁集团]] | [[ai-pricing\|AI 定价]] / [[ai-product-experience\|AI 产品体验]] |
+| [[nathan-lambert-china-ai-labs-western视角访谈\|Nathan Lambert 跑了一圈中国 AI lab，写了一份 Western 视角内部观察]] | 8 | retro | [[nathan-lambert\|Nathan Lambert]], [[interconnects\|Interconnects]], [[deepseek\|DeepSeek]], [[qwen-family\|Qwen]], [[moonshot\|Moonshot]], [[zhipu\|智谱]] | [[chinese-ai\|国产 AI]] / [[ai-research\|AI 研究]] |
+| [[addyosmani-agent-skills-3009星-production-engineering-skills\|Google Chrome 大佬 Addy Osmani 把 production engineering skills 开源给 AI agent，3009 星 / 天]] | 8 | first-person | [[addy-osmani\|Addy Osmani]], [[google\|Google]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[matt-pocock\|Matt Pocock]] | [[ai-coding-tools\|AI 编程工具]] / [[agent-frameworks\|Agent 框架]] / 方法论 |
+
+**5/10 voice 分布**：first-person 4 / narrative 1 / analytical 3 / retro 2，跟 5/8 完全一致。
+
+**5/10 优先品牌**：openclaw 主仓库 stars 增量小（370k）+ 5/8 刚出过，本期未出篇；Hermes Agent 同样跳过（141k 但近 7 天已三次覆盖）。本期没有命中优先品牌 boost。
+
+**5/10 QA 结果**：10/10 全过 overall_pass。L2 平均 8.1、L3 平均 8.1、L5 平均 8.0。L1 共 8 处机械替换（蚂蚁ring 2、claude-cve 1、anthropic-spacex 1、alphaevolve 2、ui-tars 1、nathan-lambert 1）。L6 全过，0 篇违规。
+
+**5/10 Step 4.6**：10 篇全部生成 xhs-version.md（reach≥8 主动 10 篇全触发，0 篇 L6 fail）；0 篇 xhs:primary；0 篇 xhs:blocked。
+
+**5/10 X 抓取**：跳过（Chrome Safe Storage exit 36，无 cookies + 无 SWEETISTICS_API_KEY）。社区反馈用 last30days 拉的 Reddit/HN/GitHub 替代。
+
 ## 2026-05-08（10 篇，voice 分布 first-person 4 / narrative 1 / analytical 3 / retro 2）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

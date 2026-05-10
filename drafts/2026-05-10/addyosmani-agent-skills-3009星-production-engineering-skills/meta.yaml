@@ -1,0 +1,29 @@
+title: "Google Chrome 大佬 Addy Osmani 把 production engineering 经验开源给 AI agent，一夜涨 3009 星"
+status: draft
+date: 2026-05-10
+reach: 8
+sources:
+  - github-trending-528d5061
+tags:
+  - AI编程工具
+  - 方法论
+  - Claude Code
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

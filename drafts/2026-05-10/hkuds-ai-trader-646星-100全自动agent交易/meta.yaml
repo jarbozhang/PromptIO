@@ -1,0 +1,29 @@
+title: "港大 HKUDS AI-Trader 一夜 646 星，100% 全自动 agent-native 交易系统国内散户能用吗"
+status: draft
+date: 2026-05-10
+reach: 8
+sources:
+  - github-trending-12880c9a
+tags:
+  - AI金融
+  - Agent框架
+  - 港大开源
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""
