@@ -1,0 +1,30 @@
+title: "AirLLM 一夜回归 trending，单张 4GB 游戏卡跑 70B 模型，国内本地推理玩家又有新工具了"
+status: draft
+date: 2026-05-11
+reach: 8
+sources:
+  - github-trending-0492d2a1
+tags:
+  - 本地推理
+  - 国产 AI 工具
+  - AirLLM
+  - 开源
+  - GPU 优化
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

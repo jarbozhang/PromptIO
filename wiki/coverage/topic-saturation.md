@@ -1,6 +1,63 @@
 # 主题饱和度分析
 
-基于 250 篇文章（2026-04-08 至 2026-05-10）的主题分布。**5/10 单批 10 篇后总计 250 篇。**
+基于 258 篇文章（2026-04-08 至 2026-05-11）的主题分布。**5/11 单批 8 篇后总计 258 篇。**
+
+## 5/11 8 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| Mythos 在 Mozilla 之后又找到 curl 漏洞 | 9 | retro | AI 安全 / 供应链安全 / 方法论 |
+| OpenAI 在 ChatGPT 里测广告 + CPC 自助管理器 | 8 | analytical | OpenAI 行业事件 / AI 变现 / AI 产品体验 |
+| AirLLM 单 4GB GPU 跑 70B trending 回归 | 8 | first-person | 本地推理 / 国产 AI / 开源生态 |
+| Anthropic SDK v0.100 Managed Agents SDK 化 | 7 | first-person | Agent 框架 / AI 编程工具 / 国产 AI |
+| Apple AirPods 摄像头给 Siri 用 | 7 | analytical | AI 硬件 / 国产 AI / 多模态 |
+| OpenAI realtime 2 API 新语音模型 | 7 | analytical | 语音 AI / 多模态 / 国产 AI |
+| 智谱开源 GLM-OCR | 7 | first-person | 国产 AI / 多模态 / 开源生态 |
+| Anthropic 三仓库（skills/financial/courses）官方开源 | 7 | first-person | AI 编程工具 / Agent 框架 / AI+教育 / 方法论 |
+
+**5/11 主题计数变化**：
+
+- **AI 安全**: 8 → **9**（+#1 Mythos curl，从"Mozilla Firefox 单案例"延伸到"第二个开源大项目验证 + Daniel Stenberg 站台"，符合"政府监管 / 重大事件 / 国内首次类信号"中的"重大事件级"例外条款）
+- **供应链安全**: 17 → **18**（+#1，Mozilla 271 漏洞官方背书 + Stenberg curl 漏洞案例，从"CVE 披露"扩到"AI 漏洞挖掘工作流"角度）
+- **本地推理**: 21 → **22**（+#3 AirLLM 老项目回归 trending，从"vLLM 高端卡 / llama.cpp 中端卡 / 9router 云端"四条路线延伸到"破卡 4GB 兜底"第四象限）
+- **Agent 框架**: 47 → **49**（+#4 Anthropic SDK Managed Agents 多 agent SDK 化 + #8 anthropics/skills 官方 + claude-cookbooks + courses 四仓库联发，符合"重大 SDK 事件 + 官方行业 cookbook"例外条款，下一轮硬性继续严格）
+- **AI 编程工具**: 49 → **50**（+#4 SDK v0.100 + #8 Anthropic 官方 skills 仓库，KOL 方法论/重大 SDK 事件例外纳入，下一轮继续严格）
+- **国产 AI**: 30 → **32**（+#3 AirLLM 中国作者 lyogavin + #7 智谱 GLM-OCR；本期国产线两篇均"非 Kimi/DeepSeek/Qwen/字节"的新增项目，符合 5/10 警告条款）
+- **OpenAI 行业事件**: 第 4 次单独立线（5/6 GPT-5.5 Instant、5/8 GPT-5.5-Cyber、5/10 GPT-5.5 价格曲线之后，本期 +#2 ChatGPT 广告 + #6 realtime 2，OpenAI 行业事件本期单日双触发，密度异常）
+- **AI 变现 / 商业模式**: 首次专题（之前散落"AI 副业""企业 AI"，#2 把 OpenAI 进军广告业务作为新分支独立成线）
+- **AI 硬件**: 11 → **12**（+#5 Apple AirPods 摄像头，从"国产昇腾 / Cerebras IPO / Anthropic+SpaceX"延伸到"消费端 AI 耳塞首次"）
+- **语音 AI / TTS**: 4 → **5**（+#6 OpenAI realtime 2，从"4/16 Gemini Flash TTS / 4/28 VibeVoice / 5/8 Gemini 3.1 Flash TTS / 5/8 Microsoft VibeVoice"延伸到"OpenAI 实时语音第二代"分支首次成形）
+- **多模态**: 16 → **18**（+#5 AirPods 视觉感知 + #6 realtime 2 多模态 voice + #7 GLM-OCR 端到端 OCR）
+- **方法论**: 8 → **9**（+#1 Mythos 漏洞挖掘工作流 + #8 Anthropic skills cookbook 体系，但只计 1 篇主主题）
+
+**新空间打开**：
+- **AI 搜索广告化** 子线（#2 OpenAI 进军广告业务首篇，自助 CPC + 答案独立性"政策默认值"首次披露）
+- **苹果 AI 耳塞** 首次落地（#5 Apple AirPods 摄像头给 Siri，design validation 阶段，国产 AI 眼镜节奏对照）
+- **OpenAI realtime 2 实时语音** 第二代（#6 reason / translate / transcribe + RealtimeReasoningEffort 五档 + parallel_tool_calls 出来）
+- **Mythos 多开源大项目验证** 子线（#1 从 Firefox 单案例延伸到 curl 第二个证据点，Daniel Stenberg 站台是关键转折）
+- **Anthropic 行业 cookbook 官方开源** 子线（#8 financial-services 11 个垂直 agent + courses 5 门课 + claude-cookbooks 四仓库联发，从社区版 addyosmani agent-skills 升级到官方版）
+- **Anthropic SDK Managed Agents 出库** 关键事件（#4 v0.100 multiagents / outcomes / webhooks / vault_validation 四类 SDK 化，比 5/7 Cowork 桌面端 + 5/8 Code 大会更基础设施层）
+
+**警告/降权说明**：
+
+- AI 编程工具 50 篇连续 7 日高饱和（5/3 +5 / 5/5 +3 / 5/6 +3 / 5/7 +5 / 5/8 +5 / 5/10 +3 / 5/11 +1，本期 +1 是因 #4 #8 都符合"SDK 重大事件 + 官方 cookbook"例外），下一轮硬性继续严格：仅"国产 Claude Code 平替二次出圈 / Anthropic/OpenAI 重大编程模型迭代 / KOL 新方法论"才纳入
+- Agent 框架 49 篇连续 8 日峰区（5/3 34 → 5/5 36 → 5/6 37 → 5/7 40 → 5/8 43 → 5/10 47 → 5/11 49），下一轮严格降权
+- 国产 AI 32 篇高饱和，下一轮国产线只跟"非 Kimi/DeepSeek/Qwen/字节"的新增项目（本期已严格遵循此条款）
+- OpenAI 行业事件单日双触发（#2 ChatGPT 广告 + #6 realtime 2），主题进入"只收重大平台机制 / 价格断档 / 重大产品事件"状态
+- 方法论 9 篇形成稳定供给，下一轮只跟新方法论事件
+- AI 安全 9 篇维持高饱和，下一轮只跟政府监管 / 重大事件
+- 优先品牌 openclaw 5/10 5/11 连续两轮未出篇；下一轮见到新动态优先选入；NousResearch hermes-agent 同样跳过两轮
+- **AI 变现** 首次独立成线（#2），下一轮可继续跟"国产 AI 平台广告位 / AI agent 商业模式"主题
+
+**下一轮选题方向（结合 5/3-5/11 趋势）**：
+1. AI 影视/娱乐（仍无覆盖，下一轮强切入：爱奇艺 AI 艺人库 4/21、Deezer 44% AI 4/22、奥斯卡禁 AI 演员 5/3 后无新增）
+2. AI+医疗（4 月 2 篇后无新增，国产百图生科 / 晶泰实盘 + Noetik 癌症 AI 4/22 后空白）
+3. 具身智能国产对照（5/7 Genesis AI / Gemini Robotics 双发后下一轮可单独覆盖宇树 / 小鹏 IRON / 智元 / 银河通用）
+4. 创作者经济（5/5 ace-step-ui / LTX-2 + 5/8 #1 #10 + 5/10 #5 教程 + 5/11 #6 realtime 2 实时语音后仍有空间）
+5. AI 训练数据/隐私边界（Meta 录键鼠 + 5/6 书商诉 Meta 抄书后国内平台跟进）
+6. RAG 国产对照（5/8 PageIndex 后可追 Dify / FastGPT 国产 vectorless 落地）
+7. AI 法律 / 监管（5/6 Character.AI + Meta 抄书 + 5/10 CVE 之后可追"AI agent 漏洞披露规范"）
+8. **AI 变现深化**（5/11 #2 后追"小红书 AI 搜索广告位 / 字节豆包广告 / 百度文心广告"具体平台动态）
 
 ## 5/10 10 篇主题分布
 

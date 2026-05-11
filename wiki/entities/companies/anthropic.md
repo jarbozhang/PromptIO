@@ -31,6 +31,9 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-11 | [[mythos-curl-mozilla271-anthropic-ai安全\|Mythos 在 Mozilla 之后又找到 curl 漏洞，Daniel Stenberg 一句话救了国内开发者]] | 9 |
+| 2026-05-11 | [[anthropic-sdk-v0-100-managed-agents-multiagents\|Anthropic SDK 跳到 v0.100，Managed Agents 多 agent / webhooks / vault 进了官方 Python 库]] | 7 |
+| 2026-05-11 | [[anthropic-skills-financial-services-courses官方三仓库\|Anthropic 把官方 skills / 金融行业 cookbook / 教育课程三仓库一起开源]] | 7 |
 | 2026-05-08 | [[anthropic-code-w-claude-2026大会-mythos-preview发布\|Anthropic Code w/ Claude 2026 大会 + Mythos Preview 给 Firefox 找漏洞]] | 8 |
 | 2026-05-08 | [[claude-mythos-preview加固firefox-ai找浏览器漏洞\|Mozilla 让 Claude Mythos 给 Firefox 找了 31 天漏洞]] | 8 |
 | 2026-04-24 | [[claude-code变笨了-anthropic-retro-opus4-7-system-prompt拆解\|用户都在骂 Claude Code 变笨了，Anthropic 发 retro + Simon 扒 Opus system prompt]] | 7 |

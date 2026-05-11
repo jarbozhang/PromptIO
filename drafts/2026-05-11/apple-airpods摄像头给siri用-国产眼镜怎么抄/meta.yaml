@@ -1,0 +1,30 @@
+title: "Apple AirPods 给 Siri 装摄像头，进入设计验证阶段，国产 AI 眼镜该抄哪一步"
+status: draft
+date: 2026-05-11
+reach: 7
+sources:
+  - the-verge-ai-408a70be
+tags:
+  - Apple
+  - AirPods
+  - AI 硬件
+  - 国产 AI 眼镜
+  - 多模态
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

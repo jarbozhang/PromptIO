@@ -2,6 +2,29 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-11（8 篇，voice 分布 first-person 4 / narrative 0 / analytical 3 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[mythos-curl-mozilla271-anthropic-ai安全\|Anthropic Mythos 在 Mozilla 之后又找到 curl 漏洞，Daniel Stenberg 一句话救了国内开发者]] | 9 | retro | [[anthropic\|Anthropic]], [[mythos\|Mythos]], [[mozilla\|Mozilla]], [[daniel-stenberg\|Daniel Stenberg]], [[claude\|Claude]], [[zhipu\|智谱]], [[alibaba\|阿里]] | [[ai-security\|AI 安全]] / [[supply-chain-security\|供应链安全]] / 方法论 |
+| [[openai-chatgpt广告-cpc自助管理器-geo团队\|OpenAI 开始在 ChatGPT 里测广告，国内做 GEO / 小红书 AI 搜索的人该提前抄什么]] | 8 | analytical | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], [[baidu\|百度]], [[xiaohongshu\|小红书]], [[bytedance\|字节跳动]], [[doubao\|豆包]] | OpenAI 行业事件 / AI 变现 / [[ai-product-experience\|AI 产品体验]] |
+| [[airllm-4gb-gpu跑70b-本地推理白嫖\|AirLLM 一夜回归 trending，单张 4GB 游戏卡跑 70B 模型，国内本地推理玩家又有新工具了]] | 8 | first-person | [[lyogavin\|lyogavin]], [[airllm\|AirLLM]], [[llama-cpp\|llama.cpp]], [[ollama\|Ollama]], [[vllm\|vLLM]] | [[local-inference\|本地推理]] / [[chinese-ai\|国产 AI]] / [[open-source\|开源生态]] |
+| [[anthropic-sdk-v0-100-managed-agents-multiagents\|Anthropic SDK 跳到 v0.100，Managed Agents 多 agent / webhooks / vault 进了官方 Python 库，国内 agent 平台该怎么对照]] | 7 | first-person | [[anthropic\|Anthropic]], [[claude\|Claude]], [[dify\|Dify]], [[bytedance\|字节跳动]], [[baidu\|百度]], [[alibaba\|阿里]], [[zhipu\|智谱]] | [[agent-frameworks\|Agent 框架]] / [[ai-coding-tools\|AI 编程工具]] / [[chinese-ai\|国产 AI]] |
+| [[apple-airpods摄像头给siri用-国产眼镜怎么抄\|Apple AirPods 给 Siri 装摄像头，进入设计验证阶段，国产 AI 眼镜该抄哪一步]] | 7 | analytical | [[apple\|Apple]], [[airpods\|AirPods]], [[siri\|Siri]], [[xreal\|雷鸟创新]], [[xiaomi\|小米]], [[bytedance\|字节跳动]], [[huawei\|华为]], [[rokid\|Rokid]] | [[ai-hardware\|AI 硬件]] / [[chinese-ai\|国产 AI]] / [[multimodal\|多模态]] |
+| [[openai-realtime-2新语音模型-国产实时语音对照\|OpenAI realtime 2 API 推新语音模型，国产实时语音（火山/通义/智谱）该怎么对照]] | 7 | analytical | [[openai\|OpenAI]], [[volcano-engine\|火山引擎]], [[alibaba\|阿里]], [[zhipu\|智谱]], [[kimi\|Kimi]], [[tencent\|腾讯]], [[bytedance\|字节跳动]] | 语音 AI / [[multimodal\|多模态]] / [[chinese-ai\|国产 AI]] |
+| [[智谱glm-ocr开源-国产ocr工具选哪个\|智谱悄悄放出 GLM-OCR，国产 OCR 工具该选哪个，PaddleOCR 还守得住吗]] | 7 | first-person | [[zhipu\|智谱]], [[glm-ocr\|GLM-OCR]], [[baidu\|百度]], [[paddleocr\|PaddleOCR]], [[opendatalab\|OpenDataLab]], [[alibaba\|阿里]] | [[chinese-ai\|国产 AI]] / [[multimodal\|多模态]] / [[open-source\|开源生态]] |
+| [[anthropic-skills-financial-services-courses官方三仓库\|Anthropic 把官方 skills / 金融行业 cookbook / 教育课程三仓库一起开源，国产 Agent 平台该抄哪个]] | 7 | first-person | [[anthropic\|Anthropic]], [[claude\|Claude]], [[claude-code\|Claude Code]], [[bytedance\|字节跳动]], [[baidu\|百度]], [[zhipu\|智谱]], [[alibaba\|阿里]] | [[ai-coding-tools\|AI 编程工具]] / [[agent-frameworks\|Agent 框架]] / [[ai-education\|AI+教育]] / 方法论 |
+
+**5/11 voice 分布**：first-person 4 / narrative 0 / analytical 3 / retro 1。narrative 缺位是因为本期没有强叙事人物事件（5/8 Anthropic Code 大会、5/10 Claude Code CVE 那种）。
+
+**5/11 优先品牌**：openclaw 主仓库 370k 在 trending 但无新事件；NousResearch hermes-agent 143k 在 trending 但无新发布。本期没有命中优先品牌 +1 boost。但 #1 mythos-curl 间接延伸 Mythos 实体覆盖（5/8 #4 #5 之后第 3 次），Mythos 已绑定 NousResearch 生态线。
+
+**5/11 QA 结果**：8/8 全过 overall_pass。L2 平均 8.0、L3 平均 8.0、L5 平均 7.875（高分 #3 AirLLM L5=9，低分 #4 SDK / #5 AirPods L5=7 但仍 pass）。L1 共 1 处机械替换（#7 GLM-OCR 一个全角冒号）。L6 全过 0 篇违规。
+
+**5/11 Step 4.6**：3 篇生成 xhs-version.md（#1 Mythos curl / #2 ChatGPT 广告 / #3 AirLLM，reach≥8 主动触发）；5 篇 xhs:primary 直发主版本（#4 Anthropic SDK / #5 Apple AirPods / #6 OpenAI realtime / #7 GLM-OCR / #8 Anthropic 三仓库，均 reach=7 + L6 pass）；0 篇 xhs:blocked。
+
+**5/11 X 抓取**：跳过（Chrome Safe Storage exit 36，无 cookies + 无 SWEETISTICS_API_KEY，与 5/10 同因）。社区反馈用 last30days 拉的 Reddit/HN/GitHub 替代，8 个选题平均 7-10k bytes 返回，质量稳定。
+
 ## 2026-05-10（10 篇，voice 分布 first-person 4 / narrative 1 / analytical 3 / retro 2）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

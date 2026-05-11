@@ -2,6 +2,50 @@
 
 追加式记录，最新在前。
 
+## [2026-05-11] generate | 8 drafts, REACH>=7, RSS+signals (X 跳过)
+
+- **采集**：RSS/GitHub/arXiv 518 items + GitHub Trending 31 AI repos + OpenRouter 0 new + PyPI 10 packages（无 spike）+ TrendRadar Docker 目录缺失（soft-fail）
+- **X 抓取本期跳过**：bird CLI Chrome Safe Storage exit 36 + 无 SWEETISTICS_API_KEY，社区反馈用 last30days（Reddit/HN/GitHub 三源）替代
+- **新增 8 篇文章**：
+  - #1 Mythos 在 Mozilla 之后又找到 curl 漏洞，Daniel Stenberg 一句话救了国内开发者（REACH 9 retro）
+  - #2 OpenAI 开始在 ChatGPT 里测广告，国内 GEO/小红书 AI 搜索该怎么准备（REACH 8 analytical）
+  - #3 AirLLM 一夜回归 trending，单张 4GB 游戏卡跑 70B 模型（REACH 8 first-person）
+  - #4 Anthropic SDK 跳到 v0.100，Managed Agents 多 agent / webhooks / vault SDK 化（REACH 7 first-person）
+  - #5 Apple AirPods 给 Siri 装摄像头，国产 AI 眼镜该抄哪一步（REACH 7 analytical）
+  - #6 OpenAI realtime 2 API 推新语音模型，国产实时语音怎么对照（REACH 7 analytical）
+  - #7 智谱悄悄放出 GLM-OCR，国产 OCR 工具该选哪个（REACH 7 first-person）
+  - #8 Anthropic 把官方 skills / 金融 cookbook / 教育课程三仓库一起开源（REACH 7 first-person）
+- **voice 分布**：first-person 4 / narrative 0 / analytical 3 / retro 1，跟 5/8 / 5/10 基本一致（narrative 缺位是因为本期没有强叙事人物事件）
+- **优先品牌**：openclaw 主仓库 370k stars trending 但无新事件；NousResearch hermes-agent 143k stars trending 但无新发布。本期没有命中优先品牌 +1 boost。但 #1 Mythos curl 间接延伸 NousResearch 生态线（Mythos 已绑定 NousResearch 实体）
+- **新空间打开 5 条**：
+  - **AI 搜索广告化** 子线（#2 OpenAI 进军广告业务，自助 CPC + 答案独立性首次披露）
+  - **苹果 AI 耳塞** 首次落地（#5 Apple AirPods 摄像头给 Siri，design validation 阶段）
+  - **OpenAI realtime 2** 实时语音第二代（#6 reason/translate/transcribe + RealtimeReasoningEffort 五档）
+  - **Mythos 多开源大项目验证** 子线（#1 从 Firefox 单案例延伸到 curl 第二个证据点，Daniel Stenberg 站台）
+  - **Anthropic 行业 cookbook 开源** 子线（#8 financial-services 11 个垂直 agent + courses 5 门课首次官方开源）
+- **主题饱和变化**（详见 topic-saturation.md）：
+  - AI 安全 8 → **9**（+#1 Mythos curl，Mythos 第二个开源大项目验证例外纳入）
+  - 供应链安全 17 → **18**（+#1）
+  - OpenAI 行业事件 第 4 次单独立线（5/6 GPT-5.5 Instant、5/8 GPT-5.5-Cyber、5/10 GPT-5.5 价格曲线之后，+#2 ChatGPT 广告 + #6 realtime 2）
+  - 本地推理 21 → **22**（+#3 AirLLM）
+  - Agent 框架 47 → **49**（+#4 Managed Agents SDK + #8 Anthropic skills 官方，均符合"重大 SDK 事件 + 官方行业 cookbook"例外条款）
+  - AI 硬件 11 → **12**（+#5 Apple AirPods 进 AI 耳塞）
+  - 语音 AI / TTS 4 → **5**（+#6 OpenAI realtime 2）
+  - 多模态 16 → **18**（+#5 AirPods 视觉 + #6 realtime 2 + #7 GLM-OCR）
+  - 国产 AI 30 → **32**（+#3 AirLLM 中国作者 + #7 智谱 GLM-OCR；非 Kimi/DeepSeek/Qwen/字节 的新增项目，符合"非这四家"门槛）
+  - AI 编程工具 49 → **50**（+#4 Anthropic SDK + #8 anthropics/skills cookbooks，均符合"重大 SDK 事件 + KOL 方法论"例外条款）
+- **QA 8/8 全过 overall_pass**。L2 平均 8.0、L3 平均 8.0、L5 平均 7.875。L1 共 **1 处机械替换**（#7 GLM-OCR 一个全角冒号）。L6 全过 0 篇违规
+- **Step 4.6**：3 篇生成 xhs-version.md（#1 Mythos / #2 OpenAI 广告 / #3 AirLLM，reach≥8 主动触发）；5 篇 xhs:primary 直发主版本（#4 / #5 / #6 / #7 / #8，均 reach=7 + L6 pass）；0 篇 xhs:blocked
+- **下一轮选题方向**：
+  - AI 影视/娱乐（仍无覆盖）
+  - AI+医疗（4 月 2 篇后无新增）
+  - 具身智能国产对照（5/7 Genesis AI / Gemini Robotics 之后下一轮可单独覆盖宇树/小鹏 IRON/智元/银河通用）
+  - 创作者经济（5/8 Gemini TTS / 5/10 后仍有空间）
+  - RAG 国产对照（5/8 PageIndex 之后可追 Dify / FastGPT）
+  - AI 法律 / 监管（5/6 Character.AI + Meta 抄书后空白）
+  - AI 训练数据/隐私边界
+  - openclaw 生态有新动态优先选入（5/8 之后 5/10 5/11 已连续两轮跳过）
+
 ## [2026-05-10] generate | 10 drafts, REACH>=8, RSS+signals (X 跳过)
 
 - **采集**：RSS/GitHub/arXiv 518 items + GitHub Trending 31 AI repos + OpenRouter 2 new models (Tencent Hy3 preview / inclusionAI Ring-2.6-1T free) + PyPI 10 packages (无 trending spike) + TrendRadar Docker 目录缺失（soft-fail）

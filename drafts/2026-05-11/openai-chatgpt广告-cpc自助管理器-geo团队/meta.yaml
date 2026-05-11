@@ -1,0 +1,31 @@
+title: "OpenAI 开始在 ChatGPT 里测广告，国内做 GEO / 小红书 AI 搜索的人该提前抄什么"
+status: draft
+date: 2026-05-11
+reach: 8
+sources:
+  - openai-blog-16251d7b
+  - openai-blog-3938b1e2
+tags:
+  - OpenAI 行业事件
+  - AI 变现
+  - ChatGPT
+  - 广告
+  - GEO
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

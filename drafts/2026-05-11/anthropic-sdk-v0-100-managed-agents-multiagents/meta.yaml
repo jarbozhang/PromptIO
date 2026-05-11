@@ -1,0 +1,32 @@
+title: "Anthropic SDK 跳到 v0.100，Managed Agents 多 agent / webhooks / vault 进了官方 Python 库，国内 agent 平台该怎么对照"
+status: draft
+date: 2026-05-11
+reach: 7
+sources:
+  - anthropic-python-sdk-releases-3fa454e2
+  - anthropic-python-sdk-releases-4c5928e3
+  - anthropic-python-sdk-releases-eb2560b9
+tags:
+  - Anthropic
+  - Agent 框架
+  - SDK
+  - Managed Agents
+  - 开发者
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
