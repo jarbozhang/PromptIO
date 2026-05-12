@@ -1,0 +1,46 @@
+title: Mira Murati 的 Thinking Machines 发了 "interaction models"，AI 边听边说要怎么用
+slug: thinking-machines-interaction-models-mira-murati-边听边说
+date: 2026-05-12
+status: draft
+voice: analytical
+archetype: 现象解读
+reach: 8
+topics:
+  - 多模态
+  - 语音 AI
+  - 创作者经济
+entities:
+  - thinking-machines
+  - mira-murati
+  - openai
+sources:
+  - sources/2026-05-12/the-verge-ai-3c84adbc.md
+  - sources/2026-05-12/techcrunch-ai-d3b5b5ad.md
+  - sources/2026-05-12/latent-space-c8347a24.md
+  - https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model
+  - https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/
+  - https://www.latent.space/p/ainews-thinking-machines-native-interaction
+community_research: community-research.md
+reach_breakdown:
+  brand: true
+  benefit: false
+  actionable: false
+  note: 行业事件预告 + 给中国实时语音 agent 团队的中期判断
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

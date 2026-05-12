@@ -23,6 +23,8 @@ openclaw 生态进入"宿主 + agent + 扩展面"三层结构：
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 12 万星接入 openclaw 生态]] | 外部持久成长 agent 接入 / 生态扩展 |
 | 2026-04-23 | [[last30days-skill-跨reddit-x-hn自动出研报-200美元deep-research平替\|Last30Days Skill 跨平台研报]] | 文中提及 clawhub，但当时未单独立主题 |
 | 2026-05-07 | [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | NousResearch 编程模型 / openclaw 生态间接关联 |
+| 2026-05-12 | [[openclaw-371k-clawhub-moltbot-生态全景\|openclaw 371k 星生态全景：clawhub / clawdbot / moltbot 三条子线一次说清]] | 10 |
+| 2026-05-12 | [[hermes-agent-146k-一天涨2000星-nous-research-持久成长\|NousResearch hermes-agent 一天涨 2000 星，146k 总星 / 持久成长接住 openclaw 生态]] | 10 |
 
 ## 饱和度评估
 

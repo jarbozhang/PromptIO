@@ -12,6 +12,7 @@ AI 模型本身作为网络攻击工具 / 被攻击目标 / 安全研究对象�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-12 | [[openai-daybreak-claude-mythos-ai漏洞挖掘工作流对照\|OpenAI Daybreak vs Claude Mythos vs Google GTIG：三家 AI 漏洞挖掘工作流对照]] | 9 |
 | 2026-05-11 | [[mythos-curl-mozilla271-anthropic-ai安全\|Anthropic Mythos 在 Mozilla 之后又找到 curl 漏洞，Daniel Stenberg 一句话救了国内开发者]] | 第二个开源大项目验证 / curl 作者站台 |
 | 2026-05-10 | [[claude-code-cve-39861-sandbox逃逸-国内开发者升级\|Claude Code 爆 CVE-2026-39861 sandbox 逃逸漏洞，国内开发者今晚把这一个版本删掉]] | AI 编码 agent 自身 CVE / prompt injection 风险 |
 | 2026-05-08 | [[anthropic-code-w-claude-2026大会-mythos-preview发布\|Anthropic Code w/ Claude 2026 大会 + Mythos Preview]] | Mythos 公开化 / 大会安全议题 |

@@ -14,6 +14,8 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-12 | [[openclaw-371k-clawhub-moltbot-生态全景\|openclaw 371k 星生态全景：clawhub / clawdbot / moltbot 三条子线一次说清]] | 10 |
+| 2026-05-12 | [[hermes-agent-146k-一天涨2000星-nous-research-持久成长\|NousResearch hermes-agent 一天涨 2000 星，146k 总星 / 持久成长接住 openclaw 生态]] | 10 |
 | 2026-05-11 | [[anthropic-sdk-v0-100-managed-agents-multiagents\|Anthropic SDK 跳到 v0.100，Managed Agents 多 agent / webhooks / vault 进了官方 Python 库]] | SDK 大版本 / Managed Agents 多 agent / 国产平台对照 |
 | 2026-05-10 | [[datawhale-hello-agents-1197星-从零教agent\|Datawhale hello-agents 1197 星 / 从零教 agent]] | 国产开源 agent 教程 / 框架横评 |
 | 2026-05-10 | [[hkuds-ai-trader-646星-100全自动agent交易\|港大 HKUDS AI-Trader 646 星 / 100% 全自动 agent-native 交易系统]] | agent-native 交易平台 / SKILL.md 协议 |

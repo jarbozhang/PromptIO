@@ -1,0 +1,26 @@
+title: "Matt Pocock 把自己 .claude/skills 目录开源了，一天涨 3886 星，能直接拿来抄"
+status: draft
+date: 2026-05-12
+reach: 9
+voice: first-person
+prototype: tool-review-kol-methodology
+sources:
+  - github-trending-008062f4
+  - mattpocock/skills README
+  - reddit r/ClaudeAI 1sw6rss
+  - reddit r/hermesagent 1sz4px1
+tags:
+  - AI编程工具
+  - 方法论
+  - Claude Code
+  - KOL
+related_entities:
+  - mattpocock-skills
+  - matt-pocock
+  - claude-code
+related_topics:
+  - ai-coding-tools
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

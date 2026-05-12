@@ -1,0 +1,30 @@
+title: "从零学大模型，国内中文教程已经卷出四条路，今天上 trending 的《动手学大模型》该排第几"
+status: draft
+date: 2026-05-12
+reach: 8
+sources:
+  - github-trending-35bedfa4
+tags:
+  - AI+教育
+  - 国产开源
+  - 大模型教程
+  - Dive into LLMs
+  - Datawhale
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

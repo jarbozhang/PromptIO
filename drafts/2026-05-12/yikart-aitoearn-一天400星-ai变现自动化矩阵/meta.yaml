@@ -1,0 +1,36 @@
+title: "AiToEarn 单日 +427 星，一个国产开源 AI 多账号矩阵营销项目突然冒出来"
+status: draft
+date: 2026-05-12
+reach: 9
+sources:
+  - github-trending-464b3c64
+tags:
+  - AI 变现
+  - 创作者经济
+  - 国产开源
+  - 多平台分发
+  - MCP
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 7
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues:
+    - type: xhs_sensitive_keyword
+      text: "标题里的'多账号矩阵营销'与正文 2 处'批量起号'词面（即便是否定式划线）"
+      suggestion: "标题改为'AiToEarn 单日+427 星，国产开源 AI 创作者全链路工具'；正文将'批量起号工具'改为'多账号分发工具'，保留作者反对该用法的立场。建议在 xhs-version.md 里执行。"
+    - type: xhs_sensitive_keyword
+      text: "'一百个号同时发同质内容的玩法'在描述风险场景"
+      suggestion: "xhs-version 改为'同质化高频发布的玩法'，避免数字+号的具体描述。"
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

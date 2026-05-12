@@ -1,0 +1,28 @@
+title: "openclaw 371k 星了，clawhub/clawdbot/moltbot 这条线现在长什么样"
+status: draft
+date: 2026-05-12
+reach: 10
+sources:
+  - github-trending-0bd21c2c
+tags:
+  - openclaw
+  - openclaw 生态
+  - Agent 框架
+  - clawhub
+  - moltbot
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  xhs: compliant

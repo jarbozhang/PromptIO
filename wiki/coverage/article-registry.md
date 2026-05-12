@@ -2,6 +2,31 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-12（10 篇，voice 分布 first-person 6 / narrative 0 / analytical 3 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[openclaw-371k-clawhub-moltbot-生态全景\|openclaw 371k 星了，clawhub/clawdbot/moltbot 这条线现在长什么样]] | 10 | first-person | [[openclaw-org\|openclaw]], [[clawhub\|ClawHub]], [[clawdbot\|clawdbot]], [[moltbot\|moltbot]], [[nousresearch\|NousResearch]], [[hermes-agent\|Hermes Agent]] | [[openclaw-ecosystem\|openclaw 生态]] / [[agent-frameworks\|Agent 框架]] / 方法论 |
+| [[hermes-agent-146k-一天涨2000星-nous-research-持久成长\|NousResearch hermes-agent 146k 星了，一天涨 2065 星到底在涨什么]] | 10 | analytical | [[nousresearch\|NousResearch]], [[hermes-agent\|Hermes Agent]], [[openclaw-org\|openclaw]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | [[agent-frameworks\|Agent 框架]] / [[openclaw-ecosystem\|openclaw 生态]] |
+| [[mattpocock-claude-skills-单日4000星\|Matt Pocock 把自己 .claude/skills 目录开源了，一天涨 3886 星，能直接拿来抄]] | 9 | first-person | [[matt-pocock\|Matt Pocock]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[mattpocock-skills\|mattpocock-skills]] | [[ai-coding-tools\|AI 编程工具]] / 方法论 |
+| [[yikart-aitoearn-一天400星-ai变现自动化矩阵\|AiToEarn 单日 +427 星，一个国产开源 AI 多账号矩阵营销项目突然冒出来]] | 9 | first-person | [[yikart\|yikart]], [[aitoearn\|AiToEarn]], [[xiaohongshu\|小红书]], [[douyin\|抖音]], [[wechat\|微信视频号]], [[bilibili\|B 站]] | ai-monetization / creator-economy / [[chinese-ai\|国产 AI]] |
+| [[jundot-omlx-apple-silicon-llm服务器\|jundot/omlx 把 Mac mini 变成 LLM 推理服务器了，菜单栏一点就能跑]] | 9 | first-person | [[jundot\|jundot]], [[omlx\|omlx]], [[apple\|Apple]], [[ollama\|Ollama]], [[llama-cpp\|llama.cpp]], [[mlx\|MLX]] | [[local-inference\|本地推理]] / Apple Silicon |
+| [[openai-daybreak-claude-mythos-ai漏洞挖掘工作流对照\|OpenAI Daybreak 杀来了，Mythos 第三个对手登场，AI 漏洞挖掘工作流到底怎么用]] | 9 | analytical | [[openai\|OpenAI]], [[daybreak\|Daybreak]], [[anthropic\|Anthropic]], [[mythos\|Mythos]], [[google\|Google]], [[gtig\|GTIG]] | [[ai-security\|AI 安全]] / [[supply-chain-security\|供应链安全]] |
+| [[z-ai-glm-5-coding-agent-serving-工程踩坑实录\|智谱 GLM-5 Coding Agent 大规模 serving 的工程踩坑，他们写出来了]] | 9 | retro | [[zhipu\|智谱]], [[z-ai\|z.ai]], [[glm-5\|GLM-5]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | [[chinese-ai\|国产 AI]] / [[ai-research\|AI 研究]] / 方法论 |
+| [[affaan-m-everything-claude-code-18万星-agent-harness优化\|everything-claude-code 18 万星了，agent harness 性能优化系统第一次有人系统做]] | 8 | first-person | [[affaan-m\|Affaan M]], [[everything-claude-code\|everything-claude-code]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | [[ai-coding-tools\|AI 编程工具]] / 方法论 |
+| [[dive-into-llms-动手学大模型-从零教程\|《动手学大模型 Dive into LLMs》单日 +422 星，国产从零教大模型实战教程]] | 8 | first-person | [[datawhale\|Datawhale]], [[dive-into-llms\|Dive into LLMs]], [[karpathy\|Karpathy]], [[sebastian-raschka\|Sebastian Raschka]] | [[ai-education\|AI+教育]] / [[chinese-ai\|国产 AI]] |
+| [[thinking-machines-interaction-models-mira-murati-边听边说\|Mira Murati 的 Thinking Machines 发了"interaction models"，AI 边听边说要怎么用]] | 8 | analytical | [[thinking-machines\|Thinking Machines]], [[mira-murati\|Mira Murati]], [[openai\|OpenAI]], [[anthropic\|Anthropic]], [[google\|Google]] | [[multimodal\|多模态]] / 语音 AI |
+
+**5/12 voice 分布**：first-person 6 / narrative 0 / analytical 3 / retro 1。first-person 主导（工具实测 + KOL 方法论 + 国产开源教程类组合发力），narrative 缺位是因为本期没有强叙事人物事件。
+
+**5/12 优先品牌**：**openclaw + NousResearch 双线收**——#1 openclaw 主仓库 371k 生态全景（连续 3 轮 5/10/5/11 跳过后本期硬性入选，第一次把 clawhub/clawdbot/moltbot/molty 5 组件完整画图）+ #2 NousResearch hermes-agent 一天涨 2065 星到 146k（NousResearch 实体单独立线，第一次以"持久成长 agent 单日跳点"切入）。优先品牌 +1 boost 双触发，REACH 均到 10。
+
+**5/12 QA 结果**：10/10 全过 overall_pass。L2 平均 8.1、L3 平均 8.0、L4 全 pass、L5 平均 7.6、L6 全过 0 篇违规。L1 共 14 处机械替换。rounds 平均 1.0（一次过）。
+
+**5/12 Step 4.6**：10 篇全部生成 xhs-version.md（reach ≥ 8 + L6 pass 全 10 篇主动触发）；0 篇 xhs:primary；0 篇 xhs:blocked。
+
+**5/12 X 抓取**：跳过（Chrome Safe Storage exit 36，无 cookies + 无 SWEETISTICS_API_KEY，与 5/10 / 5/11 同因）。社区反馈用 last30days 拉的 Reddit/HN/GitHub 替代。
+
 ## 2026-05-11（8 篇，voice 分布 first-person 4 / narrative 0 / analytical 3 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

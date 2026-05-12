@@ -1,6 +1,69 @@
 # 主题饱和度分析
 
-基于 258 篇文章（2026-04-08 至 2026-05-11）的主题分布。**5/11 单批 8 篇后总计 258 篇。**
+基于 268 篇文章（2026-04-08 至 2026-05-12）的主题分布。**5/12 单批 10 篇后总计 268 篇。**
+
+## 5/12 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| openclaw 371k 星生态全景（clawhub/clawdbot/moltbot/molty） | 10 | first-person | openclaw 生态 / Agent 框架 / 方法论 |
+| NousResearch hermes-agent 146k 一天涨 2065 星 | 10 | analytical | Agent 框架 / openclaw 生态 |
+| Matt Pocock .claude/skills 单日 +3886 星 | 9 | first-person | AI 编程工具 / 方法论 |
+| AiToEarn 单日 +427 星 国产开源 AI 多账号矩阵营销 | 9 | first-person | AI 变现 / 创作者经济 / 国产 AI |
+| jundot/omlx 把 Mac mini 变 LLM 推理服务器 | 9 | first-person | 本地推理 / Apple Silicon |
+| OpenAI Daybreak 入场 Mythos 第三个对手 | 9 | analytical | AI 安全 / 供应链安全 |
+| 智谱 GLM-5 Coding Agent serving 工程踩坑 | 9 | retro | 国产 AI / AI 研究 / 方法论 |
+| everything-claude-code 18 万星 agent harness 优化 | 8 | first-person | AI 编程工具 / 方法论 |
+| 《动手学大模型 Dive into LLMs》单日 +422 星 | 8 | first-person | AI+教育 / 国产 AI |
+| Thinking Machines interaction models Mira Murati 边听边说 | 8 | analytical | 多模态 / 语音 AI |
+
+**5/12 主题计数变化**：
+
+- **openclaw 生态**: 7 → **9**（+#1 openclaw 371k 5 组件全景 + #2 hermes-agent 146k 一天涨 2065 星，优先品牌双线收，连续 3 轮跳过后硬性入选）
+- **Agent 框架**: 49 → **51**（+#1 #2，优先品牌 +1 boost 例外纳入，下一轮硬性继续严格）
+- **AI 编程工具**: 50 → **52**（+#3 Matt Pocock KOL 方法论 + #8 everything-claude-code 18 万星 KOL 例外，连续 8 日高饱和，下一轮继续严格）
+- **AI 变现**: 0 → **1**（+#4 AiToEarn 新主题首次单独出篇，提示新建 topic 页 ai-monetization）
+- **创作者经济**: 0 → **1**（+#4 同上新主题首次出篇）
+- **本地推理**: 22 → **23**（+#5 omlx，从"vLLM / llama.cpp / 9router / AirLLM 4GB 兜底"四条路线延伸到"Apple Silicon Mac mini + 菜单栏 + SSD 缓存"第五条）
+- **AI 安全**: 9 → **10**（+#6 OpenAI Daybreak，从"Mythos 双案例"扩到"OpenAI/Anthropic/Google GTIG 三方混战"，重大事件级例外纳入）
+- **供应链安全**: 18 → **19**（+#6）
+- **国产 AI**: 32 → **34**（+#7 智谱 GLM-5 工程透明化 + #9 Datawhale Dive into LLMs，均非 Kimi/DeepSeek/Qwen/字节 项目，符合 5/10 警告条款）
+- **AI 研究**: 16 → **17**（+#7 智谱 serving 工程踩坑实录）
+- **AI+教育**: 5 → **6**（+#9 Dive into LLMs 国产从零教大模型实战）
+- **多模态**: 18 → **19**（+#10 TML interaction models 边听边说）
+- **语音 AI**: 5 → **6**（+#10 Thinking Machines interaction models，提示新建 voice-ai 主题页可能）
+- **方法论**: 9 → **11**（+#3 Matt Pocock KOL skills + #8 everything-claude-code agent harness 优化系统）
+
+**新空间打开**：
+- **openclaw 生态横向梳理** 子线（#1 第一次把 5 组件 clawhub/clawdbot/moltbot/molty 完整画图，之前只有零散单实体覆盖）
+- **AI 变现工具实操** 首次落地（#4 AiToEarn 国产开源多平台分发，把 AI 变现从"OpenAI 广告业务行业事件"升级到"国产开源工具实操"）
+- **Apple Silicon LLM 服务器** 第五条本地推理路线（#5 omlx 菜单栏 + SSD 缓存，跟 vLLM / llama.cpp / 9router / AirLLM 四条路线区分开）
+- **AI 安全三方混战** 子线（#6 OpenAI Daybreak 入场，从 Anthropic Mythos 双案例 + Google GTIG 演变为 OpenAI/Anthropic/Google 三方对照）
+- **国产 AI 工程透明化** 子线（#7 智谱主动公开 GLM-5 serving 踩坑实录，国产 AI 第一次工程透明化）
+- **AI agent harness 工具产品化** 子线（#8 everything-claude-code 18 万星，从 5/10 addyosmani 社区版 + 5/12 #3 mattpocock KOL 版升级到平台版）
+- **实时语音第三家** 子线（#10 TML interaction models 加入 OpenAI realtime 2 / Anthropic voice 之外的第三家，边听边说范式）
+
+**警告/降权说明**：
+
+- AI 编程工具 52 篇连续 8 日高饱和（5/3 +5 / 5/5 +3 / 5/6 +3 / 5/7 +5 / 5/8 +5 / 5/10 +3 / 5/11 +1 / 5/12 +2，本期 +2 是 KOL 方法论例外），下一轮硬性继续严格：仅"国产 Claude Code 平替二次出圈 / Anthropic/OpenAI 重大编程模型迭代 / KOL 新方法论"才纳入
+- Agent 框架 51 篇连续 9 日峰区（5/3 34 → 5/5 36 → 5/6 37 → 5/7 40 → 5/8 43 → 5/10 47 → 5/11 49 → 5/12 51），下一轮严格降权
+- 国产 AI 34 篇高饱和，下一轮国产线只跟"非 Kimi/DeepSeek/Qwen/字节"的新增项目（本期已严格遵循此条款）
+- AI 安全 10 篇维持高饱和，下一轮只跟政府监管 / 重大事件
+- 多模态 19 篇连续 3 日新增，下一轮严格只跟新模态首次落地
+- 方法论 11 篇形成稳定供给，下一轮只跟新方法论事件
+- **优先品牌 openclaw + NousResearch 双线收**（连续 3 轮跳过后硬性入选），下一轮重置：openclaw 生态再有新动态依然优先选入；NousResearch hermes-agent 等下一次重大节点
+- **AI 变现 + 创作者经济** 双新主题首次成线（#4 AiToEarn），下一轮可继续追"小红书 AI 搜索广告位 / 字节豆包广告 / 百度文心广告 / AI agent 商业模式"
+- **语音 AI** 6 篇接近成熟主题线，可建独立 voice-ai 主题页
+
+**下一轮选题方向（结合 5/3-5/12 趋势，保留 5/11 8 条，标记已部分覆盖）**：
+1. AI 影视/娱乐（仍无覆盖，下一轮强切入：爱奇艺 AI 艺人库 4/21、Deezer 44% AI 4/22、奥斯卡禁 AI 演员 5/3 后无新增）
+2. AI+医疗（4 月 2 篇后无新增，国产百图生科 / 晶泰实盘 + Noetik 癌症 AI 4/22 后空白）
+3. 具身智能国产对照（5/7 Genesis AI / Gemini Robotics 双发后下一轮可单独覆盖宇树 / 小鹏 IRON / 智元 / 银河通用）
+4. 创作者经济（5/12 #4 AiToEarn 已**部分覆盖**，可继续追平台分发工具 / 国产 AIGC 视频/音频管线）
+5. AI 训练数据/隐私边界（Meta 录键鼠 + 5/6 书商诉 Meta 抄书后国内平台跟进）
+6. RAG 国产对照（5/8 PageIndex 后可追 Dify / FastGPT 国产 vectorless 落地）
+7. AI 法律 / 监管（5/6 Character.AI + Meta 抄书 + 5/10 CVE 之后可追"AI agent 漏洞披露规范"）
+8. AI 变现深化（5/12 #4 AiToEarn 已**首次切入国产开源工具线**，下一轮可追"小红书 AI 搜索广告位 / 字节豆包广告 / 百度文心广告"具体平台动态）
 
 ## 5/11 8 篇主题分布
 

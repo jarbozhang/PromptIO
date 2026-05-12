@@ -17,6 +17,7 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 | 日期 | 文章 | 具体角度 |
 |------|------|---------|
+| 2026-05-12 | [[jundot-omlx-apple-silicon-llm服务器\|jundot omlx：Apple Silicon LLM 服务器，Mac 跑 LLM 的新引擎]] | 9 |
 | 2026-05-11 | [[airllm-4gb-gpu跑70b-本地推理白嫖\|AirLLM 一夜回归 trending，单张 4GB 游戏卡跑 70B 模型]] | 分层加载 / 速度换显存 / 70B 极低门槛 |
 | 2026-05-10 | [[蚂蚁ring-腾讯hy3-双双上openrouter-万亿模型免费\|蚂蚁 Ring-2.6-1T + 腾讯 Hy3 preview 同天免费上 OpenRouter，国产万亿双子线]] | 国产万亿云端基线 / 本地路径对照 |
 | 2026-05-05 | [[ace-step-ui-开源ai音乐生成器-本地不限量\|ACE-Step UI 4090 本地跑音乐生成]] | 本地音乐生成 / 创作者经济 |

@@ -18,6 +18,7 @@
 |------|------|------|
 | 2026-05-10 | [[addyosmani-agent-skills-3009星-production-engineering-skills\|Addy Osmani 把 production engineering 经验开源给 AI agent，3009 星]] | 同类 Skills 包 / production-grade 工程直觉 |
 | 2026-04-27 | [[matt-pocock公开claude-skills目录-一天2519星-typescript社区头部\|Matt Pocock 把自己每天用的 Claude Skills 全公开了]] | KOL 工作流公开化 + Skills 生态扩散 |
+| 2026-05-12 | [[mattpocock-claude-skills-单日4000星\|Matt Pocock 把自己 .claude/skills 目录开源了，一天涨 3886 星，能直接拿来抄]] | 单日 3886 星热度二刷 / 可抄底 Skills 包 |
 
 ## 相关主题
 

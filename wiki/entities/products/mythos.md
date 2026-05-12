@@ -25,6 +25,7 @@ Mythos 的核心矛盾是"最强模型封印"——Anthropic 声称出于 AI 安
 | 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic 的 Mythos 48 小时内出了四件事，从 NSA 偷用到 Altman 公开嘲讽]] | 事件复盘+行业解读 |
 | 2026-04-20 | [[22岁创业者扒开claude-mythos黑箱-全开源了\|22 岁创业者扒开 Claude Mythos 黑箱，全开源了]] | 开源逆向 |
 | 2026-04-08 | [[claude-mythos-754b-anthropic为什么把最强模型只给安全研究员\|754B 参数的 Claude Mythos]] | 封印策略分析 |
+| 2026-05-12 | [[openai-daybreak-claude-mythos-ai漏洞挖掘工作流对照\|OpenAI Daybreak 杀来了，Mythos 第三个对手登场，AI 漏洞挖掘工作流到底怎么用]] | OpenAI Daybreak 对照 / 工作流对照 |
 
 ## 相关实体
 

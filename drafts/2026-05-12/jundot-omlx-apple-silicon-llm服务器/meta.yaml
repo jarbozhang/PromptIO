@@ -1,0 +1,41 @@
+title: "jundot/omlx 把 Mac mini 变成 LLM 推理服务器了，菜单栏一点就能跑"
+status: draft
+date: 2026-05-12
+reach: 9
+voice: first-person
+prototype: tool-review
+sources:
+  - github-trending-6325a73c
+  - https://github.com/jundot/omlx
+tags:
+  - 本地推理
+  - Apple Silicon
+  - omlx
+  - MLX
+  - Mac mini
+  - 开源
+entities:
+  - omlx
+  - ollama
+  - airllm
+topics:
+  - local-inference
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  overall_pass: true
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

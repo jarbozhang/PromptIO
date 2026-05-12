@@ -1,0 +1,37 @@
+title: NousResearch hermes-agent 146k 星了，一天涨 2065 星到底在涨什么
+status: draft
+date: 2026-05-12
+slug: hermes-agent-146k-一天涨2000星-nous-research-持久成长
+reach: 10
+voice: analytical
+archetype: 现象解读
+sources:
+  - sources/2026-05-12/github-trending-978e35c6.md
+  - sources/2026-05-12/github-trending-c7d2d8f2.md
+  - https://github.com/NousResearch/hermes-agent
+  - https://www.reddit.com/r/hermesagent/comments/1t9gz2f/the_cron_job_every_serious_hermes_agent_user/
+  - https://www.reddit.com/r/hermesagent/comments/1t7qqlx/hermes_agent_is_now_1_on_the_global_uopenrouter/
+  - https://www.reddit.com/r/hermesagent/comments/1t5ifvg/nous_research_just_dropped_hermes_agent/
+  - https://www.reddit.com/r/hermesagent/comments/1t66lhy/my_simplest_yet_effective_hermes_agent_profile/
+tags:
+  - hermes-agent
+  - nousresearch
+  - openclaw
+  - agent-frameworks
+  - persistent-memory
+  - self-evolution
+qa:
+  l1_replacements: 2
+  rounds: 1
+  l4_pass: true
+  l1_violations: 0
+  l2_score: 8
+  l3_score: 7
+  l5_score: 7
+  l6_pass: true
+  overall_pass: true
+  xhs_pass: true
+  status: passed
+platforms:
+  xhs: compliant
+  summary: 现象解读骨架完整，具体数据/命令/帖子点赞密度高，analytical voice 稳定；对立面承认略薄但不影响通过。

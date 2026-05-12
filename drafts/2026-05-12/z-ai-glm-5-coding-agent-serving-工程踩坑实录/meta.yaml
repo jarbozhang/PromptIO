@@ -1,0 +1,35 @@
+title: "智谱 GLM-5 Coding Agent 大规模 serving 的工程踩坑，他们居然写出来了"
+status: draft
+date: 2026-05-12
+reach: 9
+voice: retro
+sources:
+  - lobsters-ai-66d17476
+  - https://z.ai/blog/scaling-pain
+tags:
+  - 智谱
+  - z.ai
+  - GLM-5
+  - 推理工程
+  - PD 分离
+  - KV Cache
+  - SGLang
+  - 国产 AI
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 9
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""

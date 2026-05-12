@@ -1,0 +1,43 @@
+title: "我用 Claude Code 三个月烧了 800 美元，直到看见这个 18 万星的 agent harness 优化系统"
+slug: affaan-m-everything-claude-code-18万星-agent-harness优化
+status: draft
+date: 2026-05-12
+reach: 8
+voice: first-person
+prototype: tool-review-kol-methodology
+sources:
+  - github-trending-b2b81d49
+  - https://github.com/affaan-m/everything-claude-code
+related_entities:
+  - claude-code
+  - mattpocock-skills
+  - addy-osmani
+  - affaan-m
+related_topics:
+  - ai-coding-tools
+  - agent-harness
+  - 方法论
+tags:
+  - AI编程工具
+  - Claude Code
+  - agent-harness
+  - 方法论
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

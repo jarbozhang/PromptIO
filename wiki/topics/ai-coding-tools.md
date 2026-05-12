@@ -21,6 +21,8 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-12 | [[mattpocock-claude-skills-单日4000星\|Matt Pocock 把自己的 .claude/skills 全开源，一夜涨 4000 星]] | 9 |
+| 2026-05-12 | [[affaan-m-everything-claude-code-18万星-agent-harness优化\|everything-claude-code 18 万星 / agent harness 优化方法论]] | 8 |
 | 2026-05-10 | [[claude-code-cve-39861-sandbox逃逸-国内开发者升级\|Claude Code 爆 CVE-2026-39861 sandbox 逃逸漏洞，国内开发者今晚把这一个版本删掉]] | 编码 agent 安全模型 / 供应链漏洞 |
 | 2026-05-10 | [[addyosmani-agent-skills-3009星-production-engineering-skills\|Addy Osmani 把 production engineering 经验开源给 AI agent，3009 星]] | KOL Skills 包 / production-grade 工程直觉 |
 | 2026-05-10 | [[deepmind-alphaevolve-gemini编程agent解实际问题\|DeepMind AlphaEvolve 把 Gemini 编程 agent 推到真实问题]] | evaluator-loop 范式 / 编码 agent 路线分化 |

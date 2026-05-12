@@ -51,6 +51,8 @@ Claude Code 在中文 AI 社区（X/小红书）是当前最热的工具话题�
 | 2026-05-07 | [[gb10-solution-atlas开源-rust-cuda让qwen3-6-35b单卡100tok每秒\|DGX Spark 单卡跑 Qwen3.6-35B 100+ tok/s，这个 Rust 推理引擎把 PyTorch 整条栈丢出去了]] | 本地推理后端 |
 | 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | spec 编排 |
 | 2026-05-07 | [[replicate上线remote-mcp-server-claude-cursor-vs-code一行接1000模型\|Replicate 把整个模型仓库做成了 MCP，Claude Code 一句话挑模型跑模型]] | MCP 工具接入 |
+| 2026-05-12 | [[mattpocock-claude-skills-单日4000星\|Matt Pocock 把自己 .claude/skills 目录开源了，一天涨 3886 星，能直接拿来抄]] | KOL Skills 包公开 / 工作流抄底 |
+| 2026-05-12 | [[affaan-m-everything-claude-code-18万星-agent-harness优化\|我用 Claude Code 三个月烧了 800 美元，直到看见这个 18 万星的 agent harness 优化系统]] | agent harness 性能优化系统 |
 
 ## 注意
 

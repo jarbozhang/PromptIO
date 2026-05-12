@@ -2,6 +2,58 @@
 
 追加式记录，最新在前。
 
+## [2026-05-12] generate | 10 drafts, REACH>=8, RSS+signals (X 跳过)
+
+- **采集**：RSS/GitHub/arXiv 530 items + GitHub Trending AI repos + OpenRouter 0 new + PyPI 10 packages（无 trending spike）+ TrendRadar Docker 目录缺失（soft-fail）
+- **X 抓取本期跳过**：bird CLI Chrome Safe Storage exit 36 + 无 SWEETISTICS_API_KEY，社区反馈用 last30days（Reddit/HN/GitHub 三源）替代，与 5/10 / 5/11 同因
+- **新增 10 篇文章**：
+  - #1 openclaw 371k 星了，clawhub/clawdbot/moltbot 这条线现在长什么样（REACH 10 first-person）
+  - #2 NousResearch hermes-agent 146k 星了，一天涨 2065 星到底在涨什么（REACH 10 analytical）
+  - #3 Matt Pocock 把自己 .claude/skills 目录开源了，一天涨 3886 星（REACH 9 first-person）
+  - #4 AiToEarn 单日 +427 星，国产开源 AI 多账号矩阵营销项目突然冒出来（REACH 9 first-person）
+  - #5 jundot/omlx 把 Mac mini 变 LLM 推理服务器，菜单栏一点就能跑（REACH 9 first-person）
+  - #6 OpenAI Daybreak 杀来了，Mythos 第三个对手登场，AI 漏洞挖掘工作流到底怎么用（REACH 9 analytical）
+  - #7 智谱 GLM-5 Coding Agent 大规模 serving 的工程踩坑（REACH 9 retro）
+  - #8 everything-claude-code 18 万星，agent harness 性能优化系统第一次有人系统做（REACH 8 first-person）
+  - #9 《动手学大模型 Dive into LLMs》单日 +422 星，国产从零教大模型实战教程（REACH 8 first-person）
+  - #10 Mira Murati 的 Thinking Machines 发了 "interaction models"，AI 边听边说要怎么用（REACH 8 analytical）
+- **voice 分布**：first-person 6 / narrative 0 / analytical 3 / retro 1。first-person 主导（工具实测 + KOL 方法论 + 国产开源教程组合发力），narrative 缺位是因本期没有强叙事人物事件
+- **优先品牌**：**openclaw + NousResearch 双线收**（连续 3 轮跳过后硬性入选）——#1 openclaw 主仓库 371k 5 组件生态全景（第一次把 clawhub/clawdbot/moltbot/molty 完整画图）+ #2 NousResearch hermes-agent 146k 一天涨 2065 星（NousResearch 实体首次以"持久成长 agent 单日跳点"切入）。优先品牌 +1 boost 双触发，REACH 均到 10
+- **新空间打开 7 条**：
+  - **openclaw 生态横向梳理** 子线（#1 第一次把 5 组件 clawhub/clawdbot/moltbot/molty 完整画图）
+  - **AI 变现工具实操** 首次落地（#4 AiToEarn 国产开源多平台分发，AI 变现从行业事件升级到工具实操）
+  - **Apple Silicon LLM 服务器** 第五条本地推理路线（#5 omlx 菜单栏 + SSD 缓存）
+  - **AI 安全三方混战** 子线（#6 OpenAI Daybreak 入场，Anthropic Mythos / Google GTIG 三方对照）
+  - **国产 AI 工程透明化** 子线（#7 智谱主动公开 GLM-5 serving 踩坑实录）
+  - **AI agent harness 工具产品化** 子线（#8 everything-claude-code 18 万星，从社区版/KOL 版/官方版升级到平台版）
+  - **实时语音第三家** 子线（#10 TML interaction models 加入 OpenAI/Anthropic 之外）
+- **主题饱和变化**（详见 topic-saturation.md，5/11 末态 258 篇 → 5/12 268 篇）：
+  - openclaw 生态 7 → **9**（+#1 #2，优先品牌双线收）
+  - Agent 框架 49 → **51**（+#1 #2，优先品牌 +1 boost 例外）
+  - AI 编程工具 50 → **52**（+#3 mattpocock + #8 everything-claude-code，KOL 方法论例外）
+  - AI 变现 0 → **1**（+#4 AiToEarn 新主题首次单独出篇）
+  - 创作者经济 0 → **1**（+#4 同上）
+  - 本地推理 22 → **23**（+#5 omlx Apple Silicon 路线）
+  - AI 安全 9 → **10**（+#6 Daybreak 重大事件级例外）
+  - 供应链安全 18 → **19**（+#6）
+  - 国产 AI 32 → **34**（+#7 智谱 GLM-5 + #9 Datawhale，均非 Kimi/DeepSeek/Qwen/字节）
+  - AI 研究 16 → **17**（+#7 工程透明化）
+  - AI+教育 5 → **6**（+#9 Dive into LLMs）
+  - 多模态 18 → **19**（+#10）
+  - 语音 AI 5 → **6**（+#10 TML interaction models）
+  - 方法论 9 → **11**（+#3 #8）
+- **QA 10/10 全过 overall_pass**。L2 平均 8.1、L3 平均 8.0、L4 全 pass、L5 平均 7.6、L6 全过 0 篇违规。L1 共 **14 处机械替换**。rounds 平均 1.0（一次过）
+- **Step 4.6**：**10 篇全部生成 xhs-version.md**（reach ≥ 8 + L6 pass 全 10 篇主动触发）；0 篇 xhs:primary；0 篇 xhs:blocked
+- **下一轮选题方向**（沿用 5/11 8 条，标注已部分覆盖）：
+  - AI 影视/娱乐（仍无覆盖）
+  - AI+医疗（4 月 2 篇后无新增）
+  - 具身智能国产对照（5/7 后下一轮可单独覆盖宇树/小鹏 IRON/智元/银河通用）
+  - 创作者经济（5/12 #4 AiToEarn 已部分覆盖，下一轮追平台分发工具）
+  - AI 训练数据/隐私边界
+  - RAG 国产对照（5/8 PageIndex 后可追 Dify / FastGPT）
+  - AI 法律 / 监管（5/6 Character.AI + Meta 抄书后空白）
+  - AI 变现深化（5/12 #4 已首次切入国产开源工具线，下一轮追小红书/字节/百度具体平台动态）
+
 ## [2026-05-11] generate | 8 drafts, REACH>=7, RSS+signals (X 跳过)
 
 - **采集**：RSS/GitHub/arXiv 518 items + GitHub Trending 31 AI repos + OpenRouter 0 new + PyPI 10 packages（无 spike）+ TrendRadar Docker 目录缺失（soft-fail）

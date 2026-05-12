@@ -76,6 +76,7 @@
 | 2026-04-15 | [[openai内部备忘录泄露-cro说必须锁住用户防止跳船到anthropic\|OpenAI 内部备忘录泄露，CRO 说必须锁住用户防止跳船到 Anthropic]] | 8 |
 | 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 8 |
 | 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | 7 |
+| 2026-05-12 | [[openai-daybreak-claude-mythos-ai漏洞挖掘工作流对照\|OpenAI Daybreak 杀来了，Mythos 第三个对手登场，AI 漏洞挖掘工作流到底怎么用]] | 9 |
 
 ## 注意
 

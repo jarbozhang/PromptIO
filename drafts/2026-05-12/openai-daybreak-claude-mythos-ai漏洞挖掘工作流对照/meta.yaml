@@ -1,0 +1,38 @@
+title: "OpenAI Daybreak 杀来了，Mythos 第三个对手登场，AI 漏洞挖掘工作流到底怎么用"
+status: draft
+date: 2026-05-12
+reach: 9
+voice: analytical
+archetype: 现象解读
+sources:
+  - the-verge-ai-671766d9
+  - the-verge-ai-5b6afa76
+  - wiki-mythos-entity
+  - drafts-2026-05-11-mythos-curl-mozilla271
+tags:
+  - AI 安全
+  - 供应链安全
+  - OpenAI
+  - Daybreak
+  - Anthropic
+  - Mythos
+  - Google
+  - GTIG
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""

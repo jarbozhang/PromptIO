@@ -11,6 +11,7 @@ LLM / 强化学习 / 推理模型 / 多模态领域的论文拆解与方法论�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-12 | [[z-ai-glm-5-coding-agent-serving-工程踩坑实录\|智谱 z.ai GLM-5 coding agent serving 工程踩坑实录]] | 9 |
 | 2026-05-10 | [[deepmind-alphaevolve-gemini编程agent解实际问题\|DeepMind AlphaEvolve 把 Gemini 编程 agent 推到真实问题，国产 coding agent 该看的是这套思路]] | evaluator-loop / 工业搜索任务 / 国产路径建议 |
 | 2026-05-10 | [[nathan-lambert-china-ai-labs-western视角访谈\|Nathan Lambert 跑了一圈中国 AI lab，写了一份 Western 视角内部观察]] | Western KOL 内部观察 / 国产 lab 文化 |
 | 2026-05-08 | [[raschka开源coding-llms-from-ground-up-从零搭claude-code\|Raschka 开源 Coding LLM From the Ground Up 完整课程]] | KOL 教程开源 / AI 教育 / 从零搭 Claude Code |

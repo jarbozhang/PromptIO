@@ -1,0 +1,18 @@
+qa_date: 2026-05-12
+l1_replacements: 1
+qa_rounds: 1
+l4_pass: true
+l4_issues: []
+l1_violations: 0
+l1_details: []
+l2_score: 8
+l2_reasons: "开头 'GitHub Trending 又看到 Matt Pocock' 具体场景切入；first-person voice 节奏到位（'盯着这句话愣了一会儿''看到时直接笑了''我赌不出半年'）；避开 AI 综述体，三套对照有立场。"
+l3_score: 8
+l3_reasons: "每个观点有具体支撑：skill 名字举 diagnose/grill-me/handoff/zoom-out/caveman 五个具体例子；Reddit 引用具体帖子+评论数；场景推荐每条对应具体 skill。工具实测/KOL 方法论原型符合——有'已写过三篇 skills'的对照叙事、对自己 'claude-code-debug-helper' 命名失败的承认。"
+l5_score: 9
+l5_reasons: "标题三要素齐：品牌（Matt Pocock）+ 利益点（一天涨 3886 星、能直接拿来抄）+ 暗示'你也能做'（拿来抄）。结尾给 git clone 命令 + 三份 SKILL.md 阅读顺序，可操作性强。"
+l6_pass: true
+l6_issues: []
+xhs_pass: true
+overall_pass: true
+summary: "三套 skills 对照 + KOL 方法论拆解 + 场景化抄作业建议，立场清晰、可操作性强；L1-L5 全通过，L6 无合规风险。"
