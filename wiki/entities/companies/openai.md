@@ -33,7 +33,20 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-11 | [[openai-chatgpt广告-cpc自助管理器-geo团队\|OpenAI 开始在 ChatGPT 里测广告，国内做 GEO / 小红书 AI 搜索的人该提前抄什么]] | 8 |
+| 2026-05-11 | [[openai-realtime-2新语音模型-国产实时语音对照\|OpenAI realtime 2 API 推新语音模型，国产实时语音（火山/通义/智谱）该怎么对照]] | 7 |
+| 2026-05-10 | [[gpt-5-5-openrouter成本拆解-输入降输出涨\|OpenRouter 拆 GPT-5.5 价格曲线，输入翻倍 / 输出翻倍 / 长 prompt 反而省钱]] | 8 |
 | 2026-05-08 | [[gpt-5-5-cyber网络安全垂直模型-国内安全团队怎么用\|GPT-5.5-Cyber 网络安全垂直模型 + 国内甲方安全团队对照]] | 7 |
+| 2026-05-06 | [[gpt-5-5-instant替换chatgpt默认模型-幻觉率降了\|ChatGPT 默认模型悄悄换了，OpenAI 把幻觉砍掉一半]] | 9 |
+| 2026-05-06 | [[etsy把app塞进chatgpt-ai电商把流量入口换了\|Etsy 把 app 塞进 ChatGPT，AI 电商把流量入口换了，淘宝小红书会跟吗]] | 8 |
+| 2026-05-06 | [[openai-chatgpt手机进展-供应链细节-国产ai硬件对照\|OpenAI 手机被加速到 2027 量产，新爆料里藏着三个变量]] | 8 |
+| 2026-05-06 | [[cerebras-ipo-openai主合作伙伴-ai硬件公司上市\|OpenAI 主算力商 Cerebras 要 IPO 了，国产 AI 芯片股该怎么挑]] | 7 |
+| 2026-05-06 | [[openai物理学家lupsasca谈vibe-physics\|OpenAI 物理学家 Lupsasca 谈 Vibe Physics，AI 这次写的不是代码是论文]] | 7 |
+| 2026-05-06 | [[paypal自称重新成为技术公司-全面押注ai该信吗\|PayPal 自称重新成为技术公司，全面押注 AI 该信吗]] | 7 |
+| 2026-05-03 | [[kimi-k2-6编程对决击败claude-gpt-5-5-gemini-国产开源权重\|Kimi K2.6 编程对决又赢了 Claude / GPT-5.5 / Gemini，国产开源权重又拔一个旗]] | 9 |
+| 2026-05-01 | [[musk当庭承认xai蒸馏grok-国产模型蒸馏边界\|Musk 当庭承认 xAI 用 OpenAI 模型蒸馏 Grok，国产模型蒸馏的边界又被推了一下]] | 9 |
+| 2026-05-01 | [[microsoft-openai离婚-国产ai出海azure路线\|Microsoft 和 OpenAI 把婚离了，国产 AI 出海要重看一遍 Azure 这条路]] | 8 |
+| 2026-05-01 | [[openai-goblins后续-rlhf训练副作用\|OpenAI 解释为什么 GPT-5 一直说 goblin，被 Wired 翻出来后官方写了个回应]] | 7 |
 | 2026-04-28 | [[openai要造手机-ai-agent替代app-mediatek-qualcomm\|OpenAI 真要造手机，AI agent 直接干掉 App]] | 9 |
 | 2026-04-28 | [[openai-privacy-filter开源-pii隐私过滤模型\|OpenAI 开源了 PII 隐私过滤模型 SOTA]] | 7 |
 | 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter Pro $30/M + Simon 提示词指南]] | 9 |
@@ -58,6 +71,11 @@
 | 2026-04-08 | [[openai说传统代码扫描过时了-codex-security的逻辑|OpenAI说传统代码扫描过时了]] | N/A |
 | 2026-04-08 | [[openai悬赏让你黑ai-safety-bug-bounty|OpenAI悬赏让你黑AI]] | N/A |
 | 2026-04-08 | [[openai收购astral-python工具链要变天|OpenAI收购Astral]] | N/A |
+| 2026-04-30 | [[chatgpt卸载量飙132-国产ai抢用户窗口期\|ChatGPT 卸载量同比涨 132%，国产 AI 抢用户的窗口期到了吗]] | 8 |
+| 2026-04-30 | [[华为昇腾triton语言开源-国产gpu软件栈\|华为昇腾的 Triton 语言开源（OpenAI Triton 作为对照）]] | 8 |
+| 2026-04-15 | [[openai内部备忘录泄露-cro说必须锁住用户防止跳船到anthropic\|OpenAI 内部备忘录泄露，CRO 说必须锁住用户防止跳船到 Anthropic]] | 8 |
+| 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 8 |
+| 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | 7 |
 
 ## 注意
 

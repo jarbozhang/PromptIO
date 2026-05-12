@@ -468,15 +468,49 @@ platforms:
 **5b. 更新主题饱和度：**
 读取 `wiki/coverage/topic-saturation.md`，根据今天的选题调整各主题的篇数和饱和度评估。如果某主题从"中等"升到"高饱和"，更新建议。
 
-**5c. 更新实体页（按需）：**
-对今天文章涉及的主要实体，更新对应的 wiki 实体页：
-- 在"我们的覆盖"表格中追加新条目
-- 如果出现新的关键动态，更新"近期关键动态"
-- 如果覆盖次数已过多，在"注意"中标注需要降权
-- 如果涉及的实体没有 wiki 页面，创建新页面
+**5c. 并行子代理补全实体页和主题页（强制，不再"按需"）：**
 
-**5d. 更新主题页（按需）：**
-如果今天的文章引入了新的主题角度，更新 `wiki/topics/` 下对应页面的覆盖记录和饱和度评估。
+**为什么强制：** 历史上 5c/5d 留作"按需"，导致实体页/主题页系统性落后于 `article-registry.md`，需要周期性回填。从本步起改为并行子代理强制同步，每篇文章涉及的每个实体和主题都必须在对应 wiki 页面有条目。
+
+**5c-1. 生成补全任务清单：**
+
+对今天每篇 drafts 文章，读 `drafts/{date}/{slug}/meta.yaml` 和文章末尾的 Obsidian 关联区块（`相关实体::` 和 `相关主题::` 行）。聚合得到两份清单：
+
+- `entity_targets`：每项 `{slug, kind: companies|people|products, articles: [{date, slug, title, reach, voice, 该篇切入角度一句话, is_protagonist: bool}]}`
+- `topic_targets`：每项 `{slug, articles: [{date, slug, title, reach, voice, 该篇切入角度一句话, is_protagonist: bool}]}`
+
+实体页落地路径根据 kind：`wiki/entities/companies/{slug}.md` / `wiki/entities/people/{slug}.md` / `wiki/entities/products/{slug}.md`。主题页统一在 `wiki/topics/{slug}.md`。
+
+**主角过滤（强制）：** 文章作者写作时倾向把"国产对照方"也列进 `相关实体::`（如 anthropic 文章把 alibaba/baidu/xiaomi/tencent 都加进去），导致中国公司实体页被国外公司文章污染。在 5c-2 追加前**必须判断 is_protagonist**：
+
+- `is_protagonist = true` 当：
+  - 实体名或其主力产品名出现在文章 `title` 里（如"阿里 Qwen"对 alibaba、"百度 CoBuddy"对 baidu、"小米 MiMo"对 xiaomi、"腾讯 Hy3"对 tencent），或
+  - 文章 frontmatter `tags` 列表里含该实体名/产品名，或
+  - 文章 hook 段（H1 后首段）直接讨论该实体（非对照）
+- `is_protagonist = false` 当：实体仅在文章中以"国产对照方/降权对照/国内同类"角色出现，标题里没有该实体的品牌词
+
+**只追加 `is_protagonist == true` 的文章。** 主题页的判断同理：主题在标题或 tags 出现 = 主角。
+
+**5c-2. 并行启动子代理（每个 target 一个）：**
+
+每个 entity_target 和 topic_target 各起一个独立子代理（Agent tool, mode: bypassPermissions, run_in_background: true），所有子代理同时启动。每个子代理的 prompt 含：
+
+1. 目标文件路径
+2. 该 target 关联的文章清单（articles 数组）
+3. 任务规则：
+   - 若文件存在 → 在"我们的覆盖"表格末尾追加日期 + 文章 wikilink + REACH + 切入角度；如有重大动态，在"近期关键动态"段顶部新增 1-2 行
+   - 若文件不存在 → 参考同类页面模板新建，包含基础元数据 + 覆盖表格 + 该日期条目
+   - 仅追加/新建，不重写其他段落
+   - 不修改 frontmatter 之外的统计字段（"总覆盖次数"等由 wiki lint 周期性重算）
+4. 输出：修改行数 / 是否新建
+
+**5c-3. 等待全部完成：**
+
+子代理写不同文件互不冲突。等所有完成后才进入 5f，避免 log/index 写完但实体页未补。
+
+**子代理失败处理：** 单个子代理 soft-fail（超时、写入错误）不阻塞整体；记录在 5f 操作日志的"实体/主题页补全异常"段。下次运行时由 5h 回填扫描器自动追补。
+
+**5d. 回填扫描（已废弃，合并到 5c）：** 不再单独"按需"维护，全部由 5c 子代理并行覆盖。
 
 **5e. 更新源质量（如有新信息）：**
 如果今天采集阶段有新的源失败/恢复模式，更新 `wiki/sources/` 下对应页面。
@@ -492,6 +526,16 @@ platforms:
 
 **5g. 更新 index.md：**
 更新 `wiki/index.md` 的"最近更新"段落。如果有新的实体或主题页面被创建，追加到对应列表中。
+
+**5h. 历史缺漏回填扫描（用户触发，非每日）：**
+
+当用户说"补全 wiki 历史" / "wiki 回填" / "扫描 wiki 缺漏"时，执行：
+
+1. **诊断**：起一个 Explore 子代理读 `wiki/coverage/article-registry.md`，对每个日期段提到的每个实体和主题，用 grep 检查对应 `wiki/entities/**/*.md` 和 `wiki/topics/*.md` 是否包含该日期。输出报告：最早缺漏日期 + 每天缺哪些页面。
+2. **分批并行补全**：按日期段分组，每组起一个补全子代理（每个子代理负责若干个日期段的实体/主题页追加），所有子代理并行 run_in_background。子代理任务格式同 5c-2，但 articles 数组来自 article-registry 的历史条目而非当天 drafts。
+3. **汇总**：所有子代理完成后，汇报新建页面数、追加行数、失败 target 列表。
+
+回填后，下次 daily 运行的 5c 只需处理当天，不会再积累历史缺漏。
 
 ### Step 6: Commit
 
@@ -522,6 +566,7 @@ Co-Authored-By: Happy <yesreply@happy.engineering>"
 - "只评分" / "选题" → 只执行 Step 3（假设 sources 已存在）
 - "只生成" / "生成文章" → 只执行 Step 4（假设选题已确认）
 - "更新wiki" / "wiki update" / "wiki lint" → 只执行 Step 5
+- "补全 wiki 历史" / "wiki 回填" / "扫描 wiki 缺漏" → 只执行 Step 5h
 - "commit" → 只执行 Step 6
 - "fetch:trending" / "fetch:openrouter" / "fetch:pypi" → 只执行对应的脚本信号源
 

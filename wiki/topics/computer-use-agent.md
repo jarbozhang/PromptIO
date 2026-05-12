@@ -15,6 +15,8 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-10 | [[字节ui-tars-desktop-552星-多模态agent桌面栈\|字节 UI-TARS-desktop 一夜 552 星，国产多模态 agent 桌面栈把 Computer Use 跑给你看]] | 国产多模态视觉 agent 桌面栈 / 自带模型 |
+| 2026-05-03 | [[agent-desktop-53命令-本地桌面自动化-不用截图操控native-apps\|不让 AI 看截图猜坐标了，agent-desktop 让它直接读 Mac 的 UI 结构]] | OS a11y CLI 工具 / 替代截图猜坐标 |
 | 2026-04-27 | [[trycua开源-computer-use-agent基础设施-macos-linux-windows都能跑\|trycua 把 Computer Use Agent 的整套基础设施开源了]] | 跨平台基础设施首次落地 |
 
 ## 相关实体

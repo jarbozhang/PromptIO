@@ -16,6 +16,11 @@ Axios 供应链攻击是 2026 年 Q2 最大的安全事件之一。社会工程�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-11 | [[mythos-curl-mozilla271-anthropic-ai安全\|Anthropic Mythos 在 Mozilla 之后又找到 curl 漏洞，Daniel Stenberg 一句话救了国内开发者]] | AI 找上游基础包漏洞 / curl 作者站台 |
+| 2026-05-10 | [[claude-code-cve-39861-sandbox逃逸-国内开发者升级\|Claude Code 爆 CVE-2026-39861 sandbox 逃逸漏洞，国内开发者今晚把这一个版本删掉]] | AI 工具自身 CVE / 国内更新链路被动 |
+| 2026-05-03 | [[apple-support-app泄露claude-md文件-国内开发者grep自家应用\|Apple 自家 Apple Support 应用里被人扒出 Claude.md 文件，国内开发者赶紧 grep 自家 app]] | AI coding 附属文件泄露 / 构建管线漏过 |
+| 2026-05-06 | [[daemon-tools月度供应链攻击-国内装机党自查清单\|Daemon Tools 装了 27 天的后门，国内装机党今晚自查这几个文件]] | 桌面工具投毒 / 国内装机党自查 |
+| 2026-05-01 | [[pytorch-lightning供应链攻击-shai-hulud-恶意包\|PyTorch Lightning 被 Shai-Hulud 主题恶意包污染，国内 ML 团队该跑一遍 audit]] | PyPI 投毒 / ML 工程师 audit |
 | 2026-04-28 | [[openclaw-365k星跨平台个人ai助手-4月安全事件你不能不知道\|openclaw 365k 星 4 月安全事件复盘]] | 个人 AI 助手品类宿主 + 扩展面 / 供应链安全首次落地 |
 | 2026-04-18 | Firebase密钥泄露13小时烧掉54000欧——Gemini API安全踩坑实录 | API Key 泄露/成本风险 |
 | 2026-04-14 | [[openai紧急通知macos用户必须更新-axios供应链安全事件波及全行业|OpenAI紧急通知macOS用户更新，Axios供应链安全]] | 事件报道+行动建议 |

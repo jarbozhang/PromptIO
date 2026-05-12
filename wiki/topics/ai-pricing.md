@@ -17,9 +17,16 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-10 | [[蚂蚁ring-腾讯hy3-双双上openrouter-万亿模型免费\|蚂蚁 Ring-2.6-1T + 腾讯 Hy3 preview 同天免费上 OpenRouter，国产万亿双子线]] | 国产万亿免费档同台 / 推理 vs chat 双产品哲学 |
+| 2026-05-10 | [[gpt-5-5-openrouter成本拆解-输入降输出涨\|OpenRouter 拆 GPT-5.5 价格曲线，输入翻倍 / 输出翻倍 / 长 prompt 反而省钱]] | OpenAI 涨价曲线 / 缓存红利 / 国产路由临界点 |
 | 2026-05-08 | [[蚂蚁ling-2-6-1t万亿模型上openrouter-比deepseek便宜\|蚂蚁 Ling-2.6-1T 旗舰 $0.30/M 比 DeepSeek 便宜]] | 国产万亿付费档新底部 |
 | 2026-05-08 | [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Gemini 3.1 Flash Lite $0.25/M 1M 多模态]] | 海外多模态价格新底部 |
 | 2026-05-08 | [[goose-26k星-block本地agent-绕开claude-code-200美金\|Block Goose 绕开 Claude Code $200 订阅]] | 本地 agent / 绕开订阅 |
+| 2026-05-06 | [[百度cobuddy免费上openrouter-国产编程模型白嫖131k-context\|百度第二个免费模型上 OpenRouter，这次是编程模型 CoBuddy，131k 上下文白嫖]] | 国产免费编程模型 / 131k context 白嫖 |
+| 2026-05-05 | [[deepclaude-deepseek-v4-pro接claude-code-agent-loop\|DeepClaude 一夜 657 HN 热度，把 Claude Code 的脑子换成了 DeepSeek V4 Pro]] | 国产模型替 Claude API / 1/17 价 |
+| 2026-05-05 | [[rapid-mlx-比ollama快4-2倍-mac本地ai推理引擎\|M 系 Mac 上跑本地模型，引擎层正在被换掉]] | 本地推理替 API / Apple Silicon |
+| 2026-05-03 | [[uber-4个月烧光2026年ai预算-claude-code账单国内大厂启示\|Uber 4 个月把 2026 全年的 AI 预算烧光在 Claude Code 上，国内大厂该怎么管这笔账]] | 企业账单失控 / token 计费撞席位预算 |
+| 2026-05-01 | [[xai-grok-4-3上openrouter-1m-context\|xAI Grok 4.3 悄悄上 OpenRouter，1M context 想接住国内 agent 开发者]] | xAI 长上下文价格 / agent 开发者 |
 | 2026-04-28 | [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter Latest 别名机制覆盖 7 个主流模型]] | 平台机制 / 维护成本省钱 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶 5 模型上 OpenRouter，从 27B Dense 到 1T Max Preview]] | 国产全档位铺设 / 万亿档进入新档位 |
 | 2026-04-25 | [[gpt-5-5上openrouter-pro定价30美元百万token-simon提示词指南\|GPT-5.5 上 OpenRouter，Pro 版 $30 / 百万 token]] | OpenAI Pro 档新价格 |
@@ -35,6 +42,13 @@
 | 2026-04-11 | [[claude尼日利亚区订阅pro只要88元|Claude尼日利亚区订阅88元]] | 省钱攻略 |
 | 2026-04-10 | [[chatgpt出了100美元月新档-claude用户该不该跳船|ChatGPT出了100美元新档]] | 跳船分析 |
 | 2026-04-10 | [[claude-code换zed加openrouter省了70percent|Zed+OpenRouter省70%]] | 替代方案 |
+| 2026-04-15 | [[openai内部备忘录泄露-cro说必须锁住用户防止跳船到anthropic\|OpenAI 内部备忘录泄露，CRO 说必须锁住用户防止跳船到 Anthropic]] | 跳船 / 锁定与开放策略 |
+| 2026-04-30 | [[airllm国产开发者-70b塞进4gb显卡-本地推理省钱\|AirLLM 把 70B 模型塞进单 4GB 显卡]] | 显存优化 / 替代云端 API |
+| 2026-04-30 | [[ds2api国产中间件-deepseek多账号轮转白嫖\|ds2api 把 DeepSeek 客户端协议变 OpenAI/Claude 通用 API 中间件]] | 多账号轮转 / API 白嫖中间件 |
+| 2026-04-30 | [[蚂蚁ling-2-6-flash上openrouter-agent实时档\|蚂蚁 Ling-2.6-flash 偷上 OpenRouter，agent 实时档新档位]] | 国产实时档新价位 |
+| 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费四模态]] | 海外四模态免费档 |
+| 2026-05-07 | [[deepseek-v4-pro-flash双发-华为昇腾跑国产开源前沿\|DeepSeek V4 Pro 不再是 benchmark 第一名，但它把 1.6T 模型直接放到了昇腾上]] | 国产开源旗舰持续压价 / 昇腾绑定 |
+| 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 开源低价策略与估值锚 |
 
 ## 饱和度评估
 

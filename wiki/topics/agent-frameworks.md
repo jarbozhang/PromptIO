@@ -14,9 +14,23 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-11 | [[anthropic-sdk-v0-100-managed-agents-multiagents\|Anthropic SDK 跳到 v0.100，Managed Agents 多 agent / webhooks / vault 进了官方 Python 库]] | SDK 大版本 / Managed Agents 多 agent / 国产平台对照 |
+| 2026-05-10 | [[datawhale-hello-agents-1197星-从零教agent\|Datawhale hello-agents 1197 星 / 从零教 agent]] | 国产开源 agent 教程 / 框架横评 |
+| 2026-05-10 | [[hkuds-ai-trader-646星-100全自动agent交易\|港大 HKUDS AI-Trader 646 星 / 100% 全自动 agent-native 交易系统]] | agent-native 交易平台 / SKILL.md 协议 |
+| 2026-05-10 | [[字节ui-tars-desktop-552星-多模态agent桌面栈\|字节 UI-TARS-desktop 552 星 / 多模态 agent 桌面栈]] | 国产桌面 agent 全栈 |
+| 2026-05-11 | [[anthropic-skills-financial-services-courses官方三仓库\|Anthropic 把官方 skills / 金融行业 cookbook / 教育课程三仓库一起开源]] | 官方 Skills + 行业 cookbook 一起放出 |
 | 2026-05-08 | [[openclaw-claude-codex-把ai播客一键发spotify\|openclaw Save to Spotify CLI 给 Claude/Codex 一键发播客]] | openclaw 生态 + 内容生产工作流 |
 | 2026-05-08 | [[anthropic-code-w-claude-2026大会-mythos-preview发布\|Anthropic Code w/ Claude 2026 大会 + Mythos Preview]] | Anthropic 大会发布 / agent 框架行业事件 |
 | 2026-05-08 | [[pageindex一夜943星-vectorless-rag不用向量数据库\|PageIndex vectorless RAG 943 星]] | RAG 新范式给 agent 框架 |
+| 2026-05-06 | [[字节deer-flow开源superagent-harness-国产agent又一条路\|字节 deer-flow 开源 SuperAgent harness，国产 agent 又一条路]] | 国产 agent harness 路线 / 字节开源 |
+| 2026-05-05 | [[deepclaude-deepseek-v4-pro接claude-code-agent-loop\|DeepClaude 一夜 657 HN 热度，把 Claude Code 的脑子换成了 DeepSeek V4 Pro]] | agent loop 换 backend / model routing |
+| 2026-05-05 | [[n8n-mcp-claude自动写自动化工作流-副业号\|本来要写 50 行 JSON，现在我用一句中文让 Claude 把 n8n workflow 拼好了]] | MCP / 工作流自动化 / 副业号 |
+| 2026-05-05 | [[dexter-开源自主金融研究agent-409星\|散户每天看不完几十份研报，我让 dexter 帮我跑了一天]] | 金融研究 agent / Claude Agent SDK |
+| 2026-05-03 | [[hermes-agent-130k星-nousresearch和openclaw生态深度绑定-topics拆解\|NousResearch hermes-agent 130k 星了，topics 里写满了 openclaw / clawdbot / moltbot]] | 持久成长 agent + openclaw 生态深度绑定 |
+| 2026-05-03 | [[microsoft-word法律agent-国内律所合同审查ai-office场景\|Microsoft Word 把法律 Agent 塞进来了，国内律师事务所还能等多久]] | 垂直行业 agent 嵌入文档流 |
+| 2026-05-03 | [[sebastian-raschka拆coding-agent五大组件-国产claude-code平替差距\|Sebastian Raschka 把 coding agent 拆成 5 块 — 看完知道国产 Claude Code 平替差在哪]] | coding agent 五大组件方法论 |
+| 2026-05-01 | [[tradingagents二次出圈-多agent量化框架\|TradingAgents 一夜涨 2112 星，二次出圈背后是 v0.2.4 接入了 DeepSeek 和 Qwen]] | 多 Agent 量化框架 / 接入国产模型 |
+| 2026-05-01 | [[xai-grok-4-3上openrouter-1m-context\|xAI Grok 4.3 悄悄上 OpenRouter，1M context 想接住国内 agent 开发者]] | xAI 抢 agent 开发者 / 1M context |
 | 2026-04-28 | [[openclaw-365k星跨平台个人ai助手-4月安全事件你不能不知道\|openclaw 365k 星 TypeScript 圈最大个人 AI 助手 + 4 月安全事件]] | 个人 AI 助手品类宿主 + 安全事件 / [[openclaw-ecosystem\|openclaw 生态]] 首次正式覆盖 |
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 12 万星 NousResearch 持久成长 agent]] | 持久成长 agent / Agent 记忆 / 接入 [[openclaw-ecosystem\|openclaw 生态]] |
 | 2026-04-28 | [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter Latest 别名机制覆盖 7 个主流模型]] | Agent 调用层自动跟版 / 平台机制 |
@@ -38,6 +52,13 @@ Harness / Skills / MCP / Multi-Agent 架构。
 | 2026-04-13 | [[shopify把整个后台开放给ai-agent-每个店主等于有了五人团队\|Shopify 把后台开放给 AI Agent]] | 企业落地 |
 | 2026-04-13 | [[anthropic托管agent来了-你的ai员工可以连续干活几小时不断线\|Anthropic 托管 Agent 来了]] | 平台服务 |
 | 2026-04-12 | [[harness是什么-claude-code和codex高手都在聊这个词\|Harness 是什么]] | 概念解读 |
+| 2026-04-30 | [[闲鱼ai客服agent-7x24自动议价-xianyuauto\|闲鱼 AI 客服 agent 一夜涨星，7×24 自动议价上下文记忆]] | 电商场景 agent / 自动议价 |
+| 2026-04-30 | [[ds2api国产中间件-deepseek多账号轮转白嫖\|ds2api 一夜 465 星，DeepSeek 协议变 OpenAI/Claude 通用 API 中间件]] | Agent 调用层中间件 |
+| 2026-04-30 | [[蚂蚁ling-2-6-flash上openrouter-agent实时档\|蚂蚁 Ling-2.6-flash 104B 总参 7.4B 激活 agent 实时档]] | agent 实时响应新档位 |
+| 2026-04-30 | [[智谱z-ai公开glm-5大规模部署retro\|智谱 z.ai 公开 GLM-5 大规模部署 retro，coding agent serving 翻车几个瞬间]] | coding agent 生产侧 SRE / retro |
+| 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 四模态免费上 OpenRouter]] | 多模态 agent 调用底座 |
+| 2026-05-07 | [[anthropic-cowork发布-claude-desktop-agent给非技术用户\|Anthropic 用一周半时间，把 Claude Code 改成给会计 HR 用的 Cowork]] | 桌面 agent / 非技术用户场景 |
+| 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | spec 编排 / agent 调度协议 |
 
 ## 饱和度评估
 

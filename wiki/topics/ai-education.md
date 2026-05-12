@@ -10,6 +10,8 @@ AI 与教培/学习场景结合。面向学习者的工具（单词 / 语言 / �
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-11 | [[anthropic-skills-financial-services-courses官方三仓库\|Anthropic 把官方 skills / 金融行业 cookbook / 教育课程三仓库一起开源]] | 官方教育课程仓库 / AI Agent 教学 |
+| 2026-05-10 | [[datawhale-hello-agents-1197星-从零教agent\|Datawhale hello-agents 一夜涨 1197 星，国产《从零开始构建智能体》教程把 agent 拆给普通人]] | 国产开源教程 / 系统性 agent 学习路径 |
 | 2026-04-24 | [[chip-huyen-ai-engineering配套repo冲榜-600页答案\|Chip Huyen AI Engineering 配套 repo 一天冲榜，600 页方法论新书]] | 工程方法论读物 |
 | 2026-04-23 | [[microsoft-12课ai-agents教程-1135星datawhale之外新选择\|Microsoft 12 课 AI Agents 教程一天涨 1135 星]] | 官方教程 + Agent 学习路径 |
 | 2026-04-21 | [[github-42k-star-ai-english-guide\|我跟着 GitHub 42k 星的中文指南用 Gemini 学英语]] | 开源学习方法论 |

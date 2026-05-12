@@ -14,6 +14,8 @@ SpaceX / Tesla / xAI / X 创始人。2026-04 通过 SpaceX 对 Cursor 的收购�
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-10 | [[anthropic-spacex-5b-300mw算力大单-xai输给自己人\|Anthropic 跟 SpaceX 签 50 亿美元 / 年算力大单 300MW Colossus I，xAI 输给自己人]] | 9 |
+| 2026-05-01 | [[musk当庭承认xai蒸馏grok-国产模型蒸馏边界\|Musk 当庭承认 xAI 用 OpenAI 模型蒸馏 Grok，国产模型蒸馏的边界又被推了一下]] | 9 |
 | 2026-04-22 | [[马斯克600亿买cursor-不是ai编程的胜利\|SpaceX 600 亿收 Cursor，马斯克把 Cursor 买回家]] | 9 |
 
 ## 相关实体

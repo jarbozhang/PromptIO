@@ -21,10 +21,14 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-06 | [[sap-1-16亿砸德国ai-lab-nemoclaw-18个月独角兽\|SAP 11.6 亿砸 18 个月的德国 AI lab（NVIDIA 作为投资合伙方）]] | 8 |
 | 2026-04-24 | [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano，2000 块钱桌面机器人真的能做事了]] | 8 |
 | 2026-04-23 | [[google两款tpu挑战nvidia-gemini不用付英伟达税了\|Google 双 TPU 挑战 NVIDIA（NVIDIA 作为被挑战对照方）]] | 8 |
 | 2026-04-20 | NVIDIA 免费送一年 API Key，MiniMax、Kimi、DeepSeek 全能用 | 9 |
 | 2026-04-19 | NVIDIA Lyra 2.0：AI 生成可探索的 3D 世界 | 7 |
+| 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费，文图视频音频四模态全收]] | 7 |
+| 2026-05-07 | [[deepseek-v4-pro-flash双发-华为昇腾跑国产开源前沿\|DeepSeek V4 Pro 不再是 benchmark 第一名，但它把 1.6T 模型直接放到了昇腾上]] | 9 |
+| 2026-05-07 | [[gb10-solution-atlas开源-rust-cuda让qwen3-6-35b单卡100tok每秒\|DGX Spark 单卡跑 Qwen3.6-35B 100+ tok/s，这个 Rust 推理引擎把 PyTorch 整条栈丢出去了]] | 8 |
 
 ## 相关主题
 

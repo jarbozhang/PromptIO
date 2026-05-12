@@ -17,9 +17,12 @@ openclaw 生态进入"宿主 + agent + 扩展面"三层结构：
 | 日期 | 文章 | 角度 |
 |------|------|------|
 | 2026-05-08 | [[openclaw-claude-codex-把ai播客一键发spotify\|openclaw 给 Claude 和 Codex 装了个一键发 Spotify 的口子]] | 内容生产工作流 / openclaw 第三条子线 |
+| 2026-05-03 | [[hermes-agent-130k星-nousresearch和openclaw生态深度绑定-topics拆解\|NousResearch hermes-agent 130k 星了，topics 里写满了 openclaw / clawdbot / moltbot]] | NousResearch 主动靠拢 / topics 体系正式绑定 |
+| 2026-05-03 | [[openclaw-367k星-claw-eval-live-13个前沿模型最高66-7\|openclaw 367k 星了，又一篇 arxiv 用 ClawHub Top-500 把 13 个前沿模型卡在 66.7% 过不去]] | Claw-Eval-Live 评测 / ClawHub Top-500 |
 | 2026-04-28 | [[openclaw-365k星跨平台个人ai助手-4月安全事件你不能不知道\|openclaw 365k 星 + 4 月安全事件复盘]] | 宿主主体 + 安全事件首次落地 |
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 12 万星接入 openclaw 生态]] | 外部持久成长 agent 接入 / 生态扩展 |
 | 2026-04-23 | [[last30days-skill-跨reddit-x-hn自动出研报-200美元deep-research平替\|Last30Days Skill 跨平台研报]] | 文中提及 clawhub，但当时未单独立主题 |
+| 2026-05-07 | [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | NousResearch 编程模型 / openclaw 生态间接关联 |
 
 ## 饱和度评估
 

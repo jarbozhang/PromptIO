@@ -28,8 +28,13 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-10 | [[nathan-lambert-china-ai-labs-western视角访谈\|Nathan Lambert 跑了一圈中国 AI lab，写了一份 Western 视角内部观察]] | Western KOL 内部观察 / Qwen 作为头部 lab |
+| 2026-05-06 | [[learningcircuit-95-simpleqa-qwen3-6-27b-3090本地深度研究\|一张 3090 跑 Qwen3.6-27B，本地深度研究 agent 干到 95.7% SimpleQA]] | 27B Dense 本地深度研究实战 |
+| 2026-05-06 | [[openai物理学家lupsasca谈vibe-physics\|OpenAI 物理学家 Lupsasca 谈 Vibe Physics（Qwen 作为开源对照）]] | KOL 引用 / 开源模型对照 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|阿里 Qwen3.6 全家桶今天一口气上了 5 个模型，从 27B Dense 到 1T Max Preview 全有]] | 全家桶出海 / 国产全档位铺设 |
 | 2026-04-24 | [[qwen3-6-27b编程模型发布-27b-dense旗舰本地可跑\|Qwen3.6-27B Dense 旗舰本地可跑]] | 单品 Dense 编程档 |
+| 2026-05-07 | [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | base 模型 / 海外微调引用 |
+| 2026-05-07 | [[gb10-solution-atlas开源-rust-cuda让qwen3-6-35b单卡100tok每秒\|DGX Spark 单卡跑 Qwen3.6-35B 100+ tok/s，这个 Rust 推理引擎把 PyTorch 整条栈丢出去了]] | 本地推理性能 / Qwen3.6 落地 |
 
 ## 相关主题
 

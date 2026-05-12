@@ -18,8 +18,14 @@ Moonshot AI（月之暗面）是国内头部大模型公司之一，Kimi 智能�
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-10 | [[nathan-lambert-china-ai-labs-western视角访谈\|Nathan Lambert 跑了一圈中国 AI lab，写了一份 Western 视角内部观察]] | 8 |
+| 2026-05-03 | [[kimi-k2-6编程对决击败claude-gpt-5-5-gemini-国产开源权重\|Kimi K2.6 编程对决又赢了 Claude / GPT-5.5 / Gemini，国产开源权重又拔一个旗]] | 9 |
+| 2026-05-03 | [[deepseek-tui-564星-deepseek终端coding-agent-rust\|DeepSeek-TUI 一夜 564 星，给 DeepSeek 配了个 Rust 终端版的 Claude Code]] | 8 |
+| 2026-05-03 | [[sebastian-raschka拆coding-agent五大组件-国产claude-code平替差距\|Sebastian Raschka 把 coding agent 拆成 5 块 — 看完知道国产 Claude Code 平替差在哪]] | 8 |
 | 2026-04-22 | [[kimi-k26正式版偷跑-官方kimi-cli几个反常识发现\|Kimi K2.6 正式版今天凌晨偷跑，顺手装了官方 kimi-cli 发现几个反常识点]] | 9 |
 | 2026-04-21 | [[kimi-k26-code-preview上线openrouter-国产编码新王牌\|Kimi K2.6-code-preview 登陆 OpenRouter，能打 Claude 吗]] | 9 |
+| 2026-04-30 | [[ollama接住国产全家桶-kimi-glm-minimax-deepseek\|ollama 默默接住国产全家桶，Kimi-K2.5 / GLM-5 / MiniMax / DeepSeek 一条命令本地跑]] | 9 |
+| 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 8 |
 
 ## 相关主题
 

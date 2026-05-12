@@ -17,8 +17,14 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-11 | [[apple-airpods摄像头给siri用-国产眼镜怎么抄\|Apple AirPods 给 Siri 装摄像头，进入设计验证阶段]] | 可穿戴多模态 / 摄像头入耳 |
+| 2026-05-10 | [[字节ui-tars-desktop-552星-多模态agent桌面栈\|字节 UI-TARS-desktop 552 星 / 多模态 agent 桌面栈]] | 多模态视觉理解 / 桌面 GUI agent |
+| 2026-05-11 | [[openai-realtime-2新语音模型-国产实时语音对照\|OpenAI realtime 2 API 推新语音模型，国产实时语音对照]] | 实时语音 / 国产对照 |
+| 2026-05-11 | [[智谱glm-ocr开源-国产ocr工具选哪个\|智谱悄悄放出 GLM-OCR，国产 OCR 工具该选哪个]] | 国产 OCR 横评 / PaddleOCR 对照 |
 | 2026-05-08 | [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Gemini 3.1 Flash Lite $0.25/M 1M 多模态]] | 海外多模态新底部 / 视频塞进 prompt |
 | 2026-05-08 | [[gemini-3-1-flash-tts-表达性语音-国产tts怎么对照\|Gemini 3.1 Flash TTS + 国产 TTS 对照]] | TTS 主线 / 国产五厂横评 |
+| 2026-05-05 | [[视觉ai模型驱动app下载6-5x-国内即梦小红书\|图像模型一发布下载量飙 6.5 倍，即梦小红书的窗口期到底有多窄]] | 视觉模型驱动下载 / 即梦/小红书窗口期 |
+| 2026-05-05 | [[lightricks-ltx-2开源音视频生成模型-本地训lora\|Lightricks 把 LTX-2 开源了，19B 音画联合还能本地训自己的 LoRA]] | 开源音视频联合 / 本地 LoRA |
 | 2026-04-28 | [[microsoft-vibevoice开源-frontier-voice-ai一天757星\|Microsoft 把 VibeVoice 开源标榜 Frontier Voice AI]] | TTS / 语音 AI 主线 / Microsoft 首次进 |
 | 2026-04-28 | [[meta-ai4animationpy开源-神经网络驱动角色动画-python框架\|Meta 开源 ai4animationpy 神经网络驱动角色动画 Python 框架]] | AI 动画 / AI 游戏首次覆盖 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶含 Vision/Video 多模态档]] | 国产多模态全档位上 OpenRouter |
@@ -30,6 +36,9 @@
 | 2026-04-20 | Google Veo 3.1 Lite，最便宜的 AI 视频生成 API | 视频生成 |
 | 2026-04-19 | NVIDIA Lyra 2.0：AI 生成可探索的 3D 世界 | 3D 生成 |
 | 2026-04-16 | [[google-gemini-flash-tts来了-用文字标签就能控制语音风格\|Gemini Flash TTS]] | TTS |
+| 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费，文图视频音频四模态全收]] | 海外四模态免费 / 全模态 |
+| 2026-05-07 | [[gemini-robotics-er-1-6发布-deepmind把空间推理塞给现实机器人\|Gemini Robotics-ER 1.6 发布，DeepMind 把多视角空间推理塞给现实机器人]] | 多视角空间推理 / VLM 工业仪表 |
+| 2026-05-07 | [[replicate上线remote-mcp-server-claude-cursor-vs-code一行接1000模型\|Replicate 把整个模型仓库做成了 MCP，Claude Code 一句话挑模型跑模型]] | 多模态模型仓库 / MCP 工具接入 |
 
 ## 相关实体
 

@@ -21,6 +21,8 @@ openclaw 项目方/组织，TypeScript 圈最大跨平台个人 AI 助手 [[open
 | 日期 | 文章 | REACH |
 |------|------|-------|
 | 2026-05-08 | [[openclaw-claude-codex-把ai播客一键发spotify\|openclaw 给 Claude 和 Codex 装了个一键发 Spotify 的口子]] | 10 |
+| 2026-05-03 | [[hermes-agent-130k星-nousresearch和openclaw生态深度绑定-topics拆解\|NousResearch hermes-agent 130k 星了，topics 里写满了 openclaw / clawdbot / moltbot]] | 9 |
+| 2026-05-03 | [[openclaw-367k星-claw-eval-live-13个前沿模型最高66-7\|openclaw 367k 星了，又一篇 arxiv 用 ClawHub Top-500 把 13 个前沿模型卡在 66.7% 过不去]] | 9 |
 | 2026-04-28 | [[openclaw-365k星跨平台个人ai助手-4月安全事件你不能不知道\|openclaw 365k 星已经是 TypeScript 圈最大个人 AI 助手了，但 4 月那个安全事件你不能不知道]] | 9 |
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 已经 12 万星了，NousResearch 这个 agent 真的会和你一起长大]] | 8 |
 

@@ -33,8 +33,13 @@ Gemini / Gemma / Veo 系列的开发商。
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-10 | [[deepmind-alphaevolve-gemini编程agent解实际问题\|DeepMind AlphaEvolve 把 Gemini 编程 agent 推到真实问题，国产 coding agent 该看的是这套思路]] | 8 |
+| 2026-05-05 | [[chrome-4gb-ai模型偷装-国内用户怎么删\|Chrome 在你硬盘上偷塞了 4GB 的 Gemini Nano，国内用户怎么查、怎么删]] | 9 |
 | 2026-05-08 | [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Gemini 3.1 Flash Lite 上 OpenRouter $0.25/M token 1M 多模态]] | 9 |
 | 2026-05-08 | [[gemini-3-1-flash-tts-表达性语音-国产tts怎么对照\|Gemini 3.1 Flash TTS 推到所有产品，国产 TTS 该怎么对照]] | 7 |
+| 2026-05-06 | [[apple赔iphone用户2-5亿-ios27让你挑ai模型\|Apple 一边赔 2.5 亿，一边把 iOS 27 改成 AI 模型自助餐（Google 作为可选模型方）]] | 9 |
+| 2026-05-03 | [[kimi-k2-6编程对决击败claude-gpt-5-5-gemini-国产开源权重\|Kimi K2.6 编程对决又赢了 Claude / GPT-5.5 / Gemini，国产开源权重又拔一个旗]] | 9 |
+| 2026-05-03 | [[google-gemini-进数百万辆车-国产车ai助手对比\|Google 的 Gemini 进了几百万辆汽车，国产车的 AI 助手为什么还差一截]] | 8 |
 | 2026-04-28 | [[google-kaggle-5天ai-agent速成课-免费回炉\|Google + Kaggle 5 天 AI Agent 速成课回炉]] | 8 |
 | 2026-04-28 | [[google-veo-3.1-lite-最便宜视频生成模型\|Google Veo 3.1 Lite 最便宜视频生成模型]] | 8 |
 | 2026-04-28 | [[chrome-skills-把prompt变一键工具\|Chrome Skills 把 prompt 变一键工具]] | 7 |
@@ -52,6 +57,7 @@ Gemini / Gemma / Veo 系列的开发商。
 | 2026-04-16 | [[gemma4跑在iphone上了-完全离线不联网|Gemma 4 iPhone离线]] | 8 |
 | 2026-04-09 | [[google耳机秒变同声传译-ios免费用|Google耳机秒变同声传译]] | 8 |
 | 2026-04-19 | Google发布Android CLI：让AI Agent三分钟开发App | 8 |
+| 2026-05-07 | [[gemini-robotics-er-1-6发布-deepmind把空间推理塞给现实机器人\|Gemini Robotics-ER 1.6 发布，DeepMind 把多视角空间推理塞给现实机器人]] | 7 |
 
 ## 选题建议
 

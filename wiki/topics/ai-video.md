@@ -11,6 +11,7 @@ AI 视频生成 / 自动剪辑 / 全自动短视频引擎。重点关注创作�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-05 | [[lightricks-ltx-2开源音视频生成模型-本地训lora\|Lightricks 把 LTX-2 开源了，19B 音画联合还能本地训自己的 LoRA]] | 开源音视频联合 / 本地 LoRA 训练 |
 | 2026-04-24 | [[open-generative-ai-200模型mit开源-midjourney订阅可以退了\|Open-Generative-AI 200 多个模型 MIT 开源（含视频）]] | AI 生图/视频 MIT 开源 |
 | 2026-04-23 | [[pixelle-video国产ai短视频引擎-一夜308星\|Pixelle-Video 一夜涨 308 星，国产 AI 全自动短视频引擎]] | 国产开源短视频引擎首次 |
 

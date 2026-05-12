@@ -15,6 +15,7 @@ Firefox 浏览器母体。2026-05-08 与 [[anthropic|Anthropic]] 合作让 [[myt
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-11 | [[mythos-curl-mozilla271-anthropic-ai安全\|Anthropic Mythos 在 Mozilla 之后又找到 curl 漏洞，Daniel Stenberg 一句话救了国内开发者]] | 9 |
 | 2026-05-08 | [[claude-mythos-preview加固firefox-ai找浏览器漏洞\|Mozilla 让 Claude Mythos 给 Firefox 找了 31 天漏洞]] | 8 |
 
 ## 相关实体

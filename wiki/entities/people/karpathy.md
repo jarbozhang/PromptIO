@@ -17,6 +17,8 @@ Karpathy 是中文 AI 读者最熟悉的英文圈 KOL 之一，他的推文自�
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-06 | [[karpathy-llm-coding教训被写成claude-md一夜2409星\|Karpathy 的 LLM 编程踩坑教训被写成一个 CLAUDE.md，一夜涨了 2409 颗星]] | 9 |
+| 2026-05-06 | [[openai物理学家lupsasca谈vibe-physics\|OpenAI 物理学家 Lupsasca 谈 Vibe Physics（Karpathy 提出 vibe coding 对照）]] | 7 |
 | 2026-04-14 | [[karpathy说ai时代不用分享代码了-只分享想法文件就够|Karpathy说AI时代不用分享代码了，只分享"想法文件"就够]] | 9 |
 | 2026-04-11 | [[karpathy说ai能力出现认知鸿沟-免费版付费版不是同一物种|Karpathy说AI能力出现了认知鸿沟]] | 9 |
 | 2026-04-10 | [[karpathy说以后分享idea不用分享代码了|Karpathy说以后不用分享代码了]] | 8 |

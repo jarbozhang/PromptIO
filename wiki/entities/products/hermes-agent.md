@@ -18,7 +18,10 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-06 | [[字节deer-flow开源superagent-harness-国产agent又一条路\|字节 deer-flow 开源 SuperAgent harness，国产 agent 又一条路（Hermes Agent 作为持久成长 agent 对照）]] | 8 |
+| 2026-05-03 | [[hermes-agent-130k星-nousresearch和openclaw生态深度绑定-topics拆解\|NousResearch hermes-agent 130k 星了，topics 里写满了 openclaw / clawdbot / moltbot]] | 9 |
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 已经 12 万星了，NousResearch 这个 agent 真的会和你一起长大]] | 8 |
+| 2026-05-07 | [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | 9 |
 
 ## 相关主题
 

@@ -19,6 +19,7 @@ Chrome 在中文 AI 读者眼中正在从"浏览器"变成"AI 搭子容器"：
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-05 | [[chrome-4gb-ai模型偷装-国内用户怎么删\|Chrome 在你硬盘上偷塞了 4GB 的 Gemini Nano，国内用户怎么查、怎么删]] | 隐私 / 静默装包 |
 | 2026-04-23 | [[google-ai-mode进chrome-浏览器变ai搭子-perplexity要慌了\|Google 把 AI Mode 塞进 Chrome 了，Perplexity 这次真的该慌]] | AI 搜索竞争格局 |
 | 2026-04-20 | Chrome 解锁"上帝模式"，Gemini+技能商店+垂直标签 | 上帝模式 |
 | 2026-04-16 | [[chrome现在能把你的ai提示词变成一键按钮了\|Chrome 现在能把 AI 提示词变成一键按钮]] | Skills 商店 |

@@ -27,9 +27,13 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-10 | [[蚂蚁ring-腾讯hy3-双双上openrouter-万亿模型免费\|蚂蚁 Ring-2.6-1T + 腾讯 Hy3 preview 同天免费上 OpenRouter，国产万亿双子线]] | 国产万亿免费档同台 |
+| 2026-05-10 | [[gpt-5-5-openrouter成本拆解-输入降输出涨\|OpenRouter 拆 GPT-5.5 价格曲线，输入翻倍 / 输出翻倍 / 长 prompt 反而省钱]] | 平台一手价格分析 / 缓存红利 |
 | 2026-05-08 | [[蚂蚁ling-2-6-1t万亿模型上openrouter-比deepseek便宜\|蚂蚁 Ling-2.6-1T 旗舰上 OpenRouter $0.30/M 比 DeepSeek 便宜]] | 国产万亿付费档新底部 |
 | 2026-05-08 | [[gemini-3-1-flash-lite-1m多模态白嫖-0-25美元每m-token\|Gemini 3.1 Flash Lite $0.25/M token 1M 多模态]] | 海外定价新底部 / 视频塞进 prompt |
 | 2026-05-08 | [[goose-26k星-block本地agent-绕开claude-code-200美金\|Block Goose 通过 OpenRouter 接 DeepSeek 本地跑 AI 编程 agent]] | 本地 agent / OpenRouter 作为后端 |
+| 2026-05-06 | [[百度cobuddy免费上openrouter-国产编程模型白嫖131k-context\|百度第二个免费模型上 OpenRouter，这次是编程模型 CoBuddy，131k 上下文白嫖]] | 国产免费编程模型入驻 |
+| 2026-05-01 | [[xai-grok-4-3上openrouter-1m-context\|xAI Grok 4.3 悄悄上 OpenRouter，1M context 想接住国内 agent 开发者]] | xAI 模型上 OpenRouter / 1M context |
 | 2026-04-28 | [[openrouter-latest别名机制-7个主流模型-自动跟随最新版本\|OpenRouter 给 7 个主流模型一口气加了 Latest 别名]] | 平台机制 / Agent 自动跟版 |
 | 2026-04-27 | [[qwen3-6全家桶5个模型上openrouter-27b-dense到1t-max-preview\|Qwen3.6 全家桶 5 个模型上 OpenRouter]] | 国产全档位铺出海 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 双发 OpenRouter]] | 聚合平台首发 |
@@ -38,6 +42,8 @@
 | 2026-04-23 | [[百度千帆ocr-fast免费上openrouter-发票合同截图白嫖\|百度千帆 OCR 免费扔到 OpenRouter]] | 免费 OCR |
 | 2026-04-21 | [[kimi-k26-code-preview上线openrouter-国产编码新王牌\|Kimi K2.6-code-preview 登陆 OpenRouter]] | 国产编码模型 |
 | 2026-04-10 | [[claude-code换zed加openrouter省了70percent\|Zed+OpenRouter 省 70%]] | 编程工具省钱 |
+| 2026-04-30 | [[蚂蚁ling-2-6-flash上openrouter-agent实时档\|蚂蚁 Ling-2.6-flash 偷上 OpenRouter，104B 总参数 7.4B 激活]] | 国产 MoE agent 实时档 |
+| 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费，四模态全收]] | 海外四模态免费白嫖 |
 
 ## 相关主题
 

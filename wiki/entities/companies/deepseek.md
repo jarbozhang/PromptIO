@@ -19,12 +19,24 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-10 | [[蚂蚁ring-腾讯hy3-双双上openrouter-万亿模型免费\|蚂蚁 Ring-2.6-1T + 腾讯 Hy3 preview 同天免费上 OpenRouter（DeepSeek 作为对照方）]] | 9 |
+| 2026-05-10 | [[nathan-lambert-china-ai-labs-western视角访谈\|Nathan Lambert 跑了一圈中国 AI lab，写了一份 Western 视角内部观察]] | 8 |
+| 2026-05-06 | [[gpt-5-5-instant替换chatgpt默认模型-幻觉率降了\|ChatGPT 默认模型悄悄换了，OpenAI 把幻觉砍掉一半]] | 9 |
+| 2026-05-06 | [[openai物理学家lupsasca谈vibe-physics\|OpenAI 物理学家 Lupsasca 谈 Vibe Physics，AI 这次写的不是代码是论文]] | 7 |
+| 2026-05-05 | [[deepclaude-deepseek-v4-pro接claude-code-agent-loop\|DeepClaude 一夜 657 HN 热度，把 Claude Code 的脑子换成了 DeepSeek V4 Pro]] | 9 |
+| 2026-05-03 | [[deepseek-tui-564星-deepseek终端coding-agent-rust\|DeepSeek-TUI 一夜 564 星，给 DeepSeek 配了个 Rust 终端版的 Claude Code]] | 8 |
+| 2026-05-01 | [[musk当庭承认xai蒸馏grok-国产模型蒸馏边界\|Musk 当庭承认 xAI 用 OpenAI 模型蒸馏 Grok，国产模型蒸馏的边界又被推了一下]] | 9 |
 | 2026-04-25 | [[simon-willison实测deepseek-v4-接近前沿价格零头\|Simon Willison 实测 DeepSeek V4，"接近前沿但价格只是零头"]] | 8 |
 | 2026-04-24 | [[deepseek-v4-pro-flash双发-openrouter-价格战新底部\|DeepSeek V4 Pro 1.6T + Flash 每 M 一毛钱 双发 OpenRouter]] | 10 |
 | 2026-04-24 | [[qwen3-6-27b编程模型发布-27b-dense旗舰本地可跑\|Qwen3.6-27B Dense 本地编程旗舰（DeepSeek 作为对照实体）]] | 8 |
 | 2026-04-23 | [[sebastian-raschka拆rlvr-grpo让llm推理追上o3的几个关键\|Sebastian Raschka 拆 RLVR + GRPO（DeepSeek R1 国产代表）]] | 8 |
 | 2026-04-21 | [[self-llm国产教程-零门槛微调deepseek-qwen\|self-llm 3 万星 50 模型全中文教程（含 DeepSeek）]] | 8 |
 | 2026-04-20 | DeepSeek V4要来了，万亿参数、GPT-4成本1/70 | 9 |
+| 2026-04-30 | [[ollama接住国产全家桶-kimi-glm-minimax-deepseek\|ollama 默默接住国产全家桶，Kimi-K2.5 / GLM-5 / MiniMax / DeepSeek 一条命令本地跑]] | 9 |
+| 2026-04-30 | [[chatgpt卸载量飙132-国产ai抢用户窗口期\|ChatGPT 卸载量同比涨 132%（DeepSeek 作为国产抢用户代表）]] | 8 |
+| 2026-04-30 | [[ds2api国产中间件-deepseek多账号轮转白嫖\|ds2api 一夜涨 465 星：把 DeepSeek 客户端协议变 OpenAI/Claude 通用 API 中间件]] | 8 |
+| 2026-05-07 | [[deepseek-v4-pro-flash双发-华为昇腾跑国产开源前沿\|DeepSeek V4 Pro 不再是 benchmark 第一名，但它把 1.6T 模型直接放到了昇腾上]] | 9 |
+| 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 8 |
 
 ## 相关主题
 

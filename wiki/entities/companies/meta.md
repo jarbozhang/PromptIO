@@ -19,6 +19,8 @@ Muse Spark / Llama 系列的开发商。同时是 AI 训练数据收集领域的
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-06 | [[book-publishers诉meta-ai训练抄书-word-for-word\|Meta 被告了，这次诉状里写着大模型 word-for-word 抄了书]] | 7 |
+| 2026-05-01 | [[meta-manus赚钱广告-国内ai副业号警觉\|Meta 花 20 亿买的 Manus 在跑 get-rich-quick 广告，国内 AI 副业号该警觉了]] | 8 |
 | 2026-04-28 | [[meta-ai4animationpy开源-神经网络驱动角色动画-python框架\|Meta 开源 ai4animationpy，把神经网络驱动的角色动画做成 Python 框架]] | 7 |
 | 2026-04-22 | [[meta录员工鼠标键盘-ai训练数据下一块肉\|Meta 开始录员工的鼠标和键盘了，AI 训练数据的下一块肉是你的每一次点击]] | 9 |
 | 2026-04-13 | [[meta-muse-spark首秀-app-store冲到第5但chollet说benchmark注水了\|Meta Muse Spark首秀，Chollet说benchmark注水]] | 7 |

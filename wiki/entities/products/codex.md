@@ -20,6 +20,9 @@
 | 2026-04-18 | Codex大更新：桌面控制+图片生成+记忆，OpenAI正面硬刚Claude Code | 功能更新 |
 | 2026-04-14 | [[openai新增100美元pro层-codex用量翻5倍但最高档不变|OpenAI新增$100 Pro层]] | 定价分析 |
 | 2026-04-10 | [[chatgpt出了100美元月新档-claude用户该不该跳船|ChatGPT出了100美元新档]] | 定价对比 |
+| 2026-04-15 | [[openai内部备忘录泄露-cro说必须锁住用户防止跳船到anthropic\|OpenAI内部备忘录泄露]] | 竞争策略 |
+| 2026-04-15 | [[ai让10x工程师的身体先崩了-hn-70条评论全是真话\|AI 让 10x 工程师身体崩了]] | 健康代价 |
+| 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | spec 编排 / agent 调度 |
 
 ## 注意
 

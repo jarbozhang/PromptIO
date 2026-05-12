@@ -16,8 +16,10 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-10 | [[蚂蚁ring-腾讯hy3-双双上openrouter-万亿模型免费\|蚂蚁 Ring-2.6-1T 万亿推理模型 + 腾讯 Hy3 preview 同天免费上 OpenRouter，国产万亿双子线]] | 9 |
 | 2026-05-08 | [[蚂蚁ling-2-6-1t万亿模型上openrouter-比deepseek便宜\|蚂蚁 Ling-2.6-1T 万亿参数旗舰悄悄上 OpenRouter，1M token 三毛钱比 DeepSeek 还便宜]] | 8 |
 | 2026-04-24 | [[腾讯hy3-蚂蚁ling-2-6-1t免费上openrouter-国产万亿白嫖\|腾讯 Hy3 和蚂蚁 Ling-2.6-1T 同日免费上 OpenRouter]] | 8 |
+| 2026-04-30 | [[蚂蚁ling-2-6-flash上openrouter-agent实时档\|蚂蚁 Ling-2.6-flash 偷上 OpenRouter，104B 总参数 7.4B 激活，agent 实时响应新档]] | 8 |
 
 ## 相关主题
 

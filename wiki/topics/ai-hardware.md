@@ -12,11 +12,17 @@ AI 推理 / 训练芯片、数据中心、消费端 AI 硬件。重点关注 NVI
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-10 | [[anthropic-spacex-5b-300mw算力大单-xai输给自己人\|Anthropic 跟 SpaceX 签 50 亿美元 / 年算力大单 300MW Colossus I]] | 算力供应链 / 大模型公司算力瓶颈 |
+| 2026-05-11 | [[apple-airpods摄像头给siri用-国产眼镜怎么抄\|Apple AirPods 给 Siri 装摄像头，进入设计验证阶段，国产 AI 眼镜该抄哪一步]] | 消费级 AI 硬件 / 国产眼镜对照 |
+| 2026-05-06 | [[openai-chatgpt手机进展-供应链细节-国产ai硬件对照\|OpenAI 手机被加速到 2027 量产，新爆料里藏着三个变量]] | AI 手机 / 供应链 / 国产对照 |
+| 2026-05-06 | [[cerebras-ipo-openai主合作伙伴-ai硬件公司上市\|OpenAI 主算力商 Cerebras 要 IPO 了，国产 AI 芯片股该怎么挑]] | AI 芯片 IPO / 国产芯片股对照 |
 | 2026-04-24 | [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano]] | 端侧 AI 算力入门机 |
 | 2026-04-23 | [[google两款tpu挑战nvidia-gemini不用付英伟达税了\|Google 一口气甩出两款 TPU，3 倍速度 80% 性价比]] | 行业格局 / 不付英伟达税 |
 | 2026-04-21 | [[华为鸿蒙ai眼镜2499元起售-余承东说成本涨1500\|华为鸿蒙 AI 眼镜 2499 元起售]] | 国产消费级 AI 硬件 |
 | 2026-04-20 | NVIDIA 免费送一年 API Key | NVIDIA 渠道补贴 |
 | 2026-04-19 | NVIDIA Lyra 2.0：AI 生成可探索的 3D 世界 | 多模态硬件 |
+| 2026-04-30 | [[华为昇腾triton语言开源-国产gpu软件栈\|华为昇腾的 Triton 语言开源了，国产 GPU 软件栈第一次对齐 PyTorch 圈通用底座]] | 国产 GPU 软件栈 / 昇腾 |
+| 2026-05-07 | [[deepseek-v4-pro-flash双发-华为昇腾跑国产开源前沿\|DeepSeek V4 Pro 不再是 benchmark 第一名，但它把 1.6T 模型直接放到了昇腾上]] | 国产 GPU + 开源旗舰首次同框 |
 
 ## 相关实体
 

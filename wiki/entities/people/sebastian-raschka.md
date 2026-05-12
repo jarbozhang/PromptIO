@@ -16,6 +16,7 @@ Raschka 的拆解风格更偏"从头构建 + 工程可复现"，与中文 AI 读
 | 日期 | 文章 | REACH |
 |------|------|-------|
 | 2026-05-08 | [[raschka开源coding-llms-from-ground-up-从零搭claude-code\|Raschka 把 Coding LLM 从零教到部署的完整课程开源了]] | 8 |
+| 2026-05-03 | [[sebastian-raschka拆coding-agent五大组件-国产claude-code平替差距\|Sebastian Raschka 把 coding agent 拆成 5 块 — 看完知道国产 Claude Code 平替差在哪]] | 8 |
 | 2026-04-23 | [[sebastian-raschka拆rlvr-grpo让llm推理追上o3的几个关键\|Sebastian Raschka 拆 RLVR + GRPO，让 LLM 推理追上 o3 的几个关键拼图]] | 8 |
 
 ## 相关主题
