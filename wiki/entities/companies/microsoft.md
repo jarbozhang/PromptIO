@@ -23,7 +23,6 @@
 | 2026-05-01 | [[microsoft-openai离婚-国产ai出海azure路线\|Microsoft 和 OpenAI 把婚离了，国产 AI 出海要重看一遍 Azure 这条路]] | 8 |
 | 2026-04-28 | [[microsoft-vibevoice开源-frontier-voice-ai一天757星\|Microsoft 把 VibeVoice 开源了，标榜 Frontier Voice AI 一天涨 757 颗星]] | 8 |
 | 2026-04-23 | [[microsoft-12课ai-agents教程-1135星datawhale之外新选择\|Microsoft 12 课 AI Agents 教程一天涨 1135 星，Datawhale 之外又多一个选择]] | 9 |
-| 2026-05-07 | [[anthropic-cowork发布-claude-desktop-agent给非技术用户\|Anthropic 用一周半时间，把 Claude Code 改成给会计 HR 用的 Cowork]] | 8 |
 
 ## 相关主题
 

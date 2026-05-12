@@ -6,7 +6,9 @@ Django 联合创始人，Datasette 作者。个人博客（simonwillison.net）�
 
 Simon 是英文 AI 社区里最高产的"工具试用者"，他的博客是工具实测型文章的顶级源材料。他的观点务实、有代码、有踩坑，非常适合我们的内容定位。
 
-## 近期关键动态
+## 近期关键动态（已归档，最近 16 天无覆盖）
+
+> 近期关键动态截至 2026-04-25，2026-05-11 lint 检查时已超 14 天无新覆盖，整段视为归档供参考。
 
 - **GPT-5.5 提示词指南 + DeepSeek V4 实测** (2026-04-25) — 与 GPT-5.5 上 OpenRouter 同日发布 GPT-5.5 提示词写法指南；同日跑完 DeepSeek V4 给出"接近前沿但价格只是零头"的对比结论，一天双更两条主流模型笔记
 - **Claude Opus 4.7 system prompt 扒开对比** (2026-04-24) — 用户社区骂 Claude Code 变笨后，Simon 把 Opus 4.7 的 system prompt 完整扒出来做 diff 分析，给 Anthropic 的 retro 博客提供外部参照

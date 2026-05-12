@@ -9,6 +9,7 @@ Raschka 的拆解风格更偏"从头构建 + 工程可复现"，与中文 AI 读
 ## 近期关键动态
 
 - **拆 RLVR + GRPO 关键拼图** (2026-04-23) — 系统性梳理让 LLM 推理追上 o3 的几个关键点：RLVR 规则化奖励、GRPO 组内相对优势、训练数据/模型规模配比
+- **《Components of A Coding Agent》把 coding agent 拆成 5 块** (2026-05-03) — 用工具/记忆/仓库上下文三轴拆解 coding agent，五个可独立评估的组件正好对照国产 Claude Code 平替差距
 - **开源 Coding LLMs From the Ground Up 完整课程** (2026-05-08) — 把 Coding LLM 从零教到部署的完整课程开源，国内程序员可以照着复刻 Claude Code，从"工程可复现"派研究者扩成"教程开源"派教育者
 
 ## 我们的覆盖

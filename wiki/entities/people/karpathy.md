@@ -8,6 +8,7 @@ Karpathy 是中文 AI 读者最熟悉的英文圈 KOL 之一，他的推文自�
 
 ## 近期关键动态
 
+- **CLAUDE.md 编程教训出圈** (2026-05-06) — Karpathy 在 X 零散吐槽的"LLM 写代码翻车点"被 forrestchang 归纳成 4 条原则（Think Before Coding / Simplicity First / Surgical Changes / 第 4 条），仓库 `forrestchang/andrej-karpathy-skills` 单日 +2409 stars 登顶 GitHub Trending
 - **Idea File 概念** (2026-04-04) — 提出"不分享代码，只分享想法文件"的范式。LLM Wiki 项目 48 小时 5000 stars，v2 进化为活的记忆系统（可信度评分、记忆分层、知识图谱、遗忘曲线）
 - **AI 能力认知鸿沟** (2026-04-09) — 25K+ likes，指出免费用户和 $200 Pro 用户看到的是完全不同的 AI。[[codex|Codex]]/[[claude-code|Claude Code]] 在编程领域的能力"staggering"
 - **NPM 安全事件** (2026-04-09前) — 差点被 npm [[supply-chain-security|供应链安全]]攻击影响

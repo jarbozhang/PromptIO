@@ -6,7 +6,9 @@ Keras 作者（现在 [[google|Google]]），ARC-AGI 基准测试创始人。AI 
 
 Chollet 是 benchmark 注水和 AI 过度宣传的最主要批评者。当一个新模型发布时，Chollet 的评价往往是最有价值的平衡声音。他的推文互动量稳定在 500-2000 likes。
 
-## 近期关键动态
+## 近期关键动态（已归档，最近 28 天无覆盖）
+
+> 近期关键动态截至 2026-04-08，2026-05-11 lint 检查时已超 14 天无新覆盖（drafts 中无相关讨论），整段视为归档供参考。
 
 - **[[meta|Meta]] Muse Spark 批评** (2026-04-08) — "overoptimized for public benchmark numbers at the detriment of everything else"，2151 likes
 - **Keras Kinetic 发布** (2026-04-05) — 一行装饰器把 Python 函数扔到 TPU 上跑

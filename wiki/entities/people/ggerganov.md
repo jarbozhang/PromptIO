@@ -6,7 +6,9 @@
 
 ggerganov 是"本地推理"话题的第一信号源。每次有重要开源模型发布（Gemma、Llama），他的 llama.cpp 支持和性能数据是最有价值的实测参考。
 
-## 近期关键动态
+## 近期关键动态（已归档，最近 14 天无覆盖）
+
+> 近期关键动态截至 2026-04-04，2026-05-11 lint 检查时已超 14 天无新覆盖（近期 drafts 仅作 llama.cpp 生态背景提及，非主角），整段视为归档供参考。
 
 - **Gemma 4 Day-0 支持** (2026-04-02) — Mac Studio M2 Ultra 跑出 300 t/s，3321 likes
 - **Tailscale 手机远程推理** (2026-04-02) — 用 Tailscale 把 Mac 推理串流到 iPhone，1855 likes
