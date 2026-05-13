@@ -11,6 +11,19 @@ description: >
 
 自动化 AI 内容管线，7 步完成从采集到生成（含 wiki 维护）。
 
+## 执行模式
+
+**全程无人值守。** 触发本 skill 后，所有步骤连续执行直到 Step 6 commit 完成，**任何中间步骤都不停下等用户确认**：
+- Step 3 选题输出后**直接进入** Step 3.5，不展示候选给用户审核
+- Step 4 写作子代理直接并行启动
+- Step 4.5 QA 即使有 needs_review 也不暂停，只在 meta.yaml 标记，Step 6 commit 仍照常
+- Step 4.6 xhs 合规版按规则自动生成 / 标记 blocked
+- Step 5 wiki 三类子代理并行后直接 commit
+
+质量保证依赖：Step 3 合规预检 + Step 4.5 QA 三轮质修循环 + Step 4.6 L6 合规闸 + Step 5c 主角过滤。这四道关之外不再设人工把关。
+
+例外：单步触发（如"只评分"/"只生成"）按用户单步指令执行，不进入连续模式。
+
 ## 前置条件
 
 - `npm` 可用（pipeline.js 依赖 node）
@@ -188,11 +201,11 @@ console.log(JSON.stringify({ skip, reasons }));
 
 输出选题列表，每题包含：标题、角度、原型、关联 source 文件、score、reach。
 
-以表格形式展示给用户，等待确认后进入下一步。如果用户说"直接开始"或类似表达，跳过确认。
+**自动直通：** 选题输出后直接进入 Step 3.5，**不等待用户确认**。用户已明确管线是无人值守跑完整流程；Step 4.5 QA 循环 + Step 4.6 xhs 合规生成 + Step 5 wiki 子代理已经覆盖了内容质量、合规、覆盖度三道关，不需要选题阶段的人工把关。如果选题需要回退，由 Step 4.5 needs_review 或 commit 前自检兜底。
 
-### Step 3.5: last30days 社区反馈拉取（REACH>=7 选题确认后）
+### Step 3.5: last30days 社区反馈拉取（每个 REACH>=7 选题）
 
-选题确认后、Step 4 启动写作子代理之前，对**每个选题**跑一次 last30days 拉真实社区反馈，作为写作时的"多平台真实反馈"素材源。
+Step 4 启动写作子代理之前，对**每个选题**跑一次 last30days 拉真实社区反馈，作为写作时的"多平台真实反馈"素材源。
 
 **为什么做：** X 数据源因 Chrome cookies 失效一直挂，导致文章里的"社区声音"段落偏单薄；last30days 用 Reddit/HN/GitHub 三条公开免费源，能补上这个洞。
 
