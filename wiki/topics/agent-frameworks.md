@@ -14,6 +14,8 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-13 | [[claude-platform-aws-bedrock-切换-国内云厂商怎么抄\|Claude Platform 登陆 AWS，SDK v0.101 对接 Bedrock，国内云厂商抄哪几步]] | 8 |
+| 2026-05-13 | [[needle-26m-蒸馏-gemini-tool-calling-手机能跑\|Cactus 把 Gemini tool calling 蒸馏成 26M 模型，6000 tok/s 手机跑]] | 9 |
 | 2026-05-12 | [[openclaw-371k-clawhub-moltbot-生态全景\|openclaw 371k 星生态全景：clawhub / clawdbot / moltbot 三条子线一次说清]] | 10 |
 | 2026-05-12 | [[hermes-agent-146k-一天涨2000星-nous-research-持久成长\|NousResearch hermes-agent 一天涨 2000 星，146k 总星 / 持久成长接住 openclaw 生态]] | 10 |
 | 2026-05-11 | [[anthropic-sdk-v0-100-managed-agents-multiagents\|Anthropic SDK 跳到 v0.100，Managed Agents 多 agent / webhooks / vault 进了官方 Python 库]] | SDK 大版本 / Managed Agents 多 agent / 国产平台对照 |

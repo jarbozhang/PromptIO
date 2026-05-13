@@ -1,0 +1,47 @@
+title: "Cactus 把 Gemini 的 tool calling 蒸馏成 26M 模型，6000 tok/s 在手机上跑出来"
+slug: "needle-26m-蒸馏-gemini-tool-calling-手机能跑"
+status: draft
+date: 2026-05-13
+reach: 9
+voice: first-person
+prototype: tool-review
+sources:
+  - hacker-news-algolia-ai-filter-88adb36d
+  - https://github.com/cactus-compute/needle
+  - https://www.reddit.com/r/LocalLLaMA/comments/1tb9b0r/
+tags:
+  - 本地推理
+  - Agent 框架
+  - 端侧 AI
+  - Cactus
+  - Needle
+  - 工具调用
+  - 模型蒸馏
+  - 开源
+entities:
+  - needle
+  - cactus
+  - ollama
+  - airllm
+  - omlx
+topics:
+  - local-inference
+  - agent-frameworks
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

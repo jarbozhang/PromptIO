@@ -1,6 +1,71 @@
 # 主题饱和度分析
 
-基于 268 篇文章（2026-04-08 至 2026-05-12）的主题分布。**5/12 单批 10 篇后总计 268 篇。**
+基于 278 篇文章（2026-04-08 至 2026-05-13）的主题分布。**5/13 单批 10 篇后总计 278 篇。**
+
+## 5/13 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| Claude Opus 4.7 Fast 上 OpenRouter 6x 价格换速度 1M | 9 | first-person | AI 编程工具 / AI 定价 |
+| Claude Platform on AWS Bedrock SDK v0.101 | 8 | analytical | AI 编程工具 / Agent 框架 |
+| Cactus Needle 26M 蒸馏 Gemini tool calling 手机跑 | 9 | first-person | 本地推理 / Agent 框架 |
+| HN 1848 票 Local AI must be the norm 本地推理潮 | 8 | analytical | 本地推理 |
+| OpenAI DeployCo 企业落地公司 国内乙方机会 | 7 | analytical | AI 变现 / OpenAI 行业事件 |
+| Android 17 agentic AI + vibe-widgets 小米 OPPO 怎么跟 | 8 | first-person | AI 硬件 / 多模态 |
+| Hollywood 失业编剧给 AI 标剧本 国内横店网文对照 | 7 | analytical | AI 训练数据 / 创作者经济 / AI 影视 |
+| Nathan Lambert "Finetuning 时代结束了" 1M context+RAG | 7 | retro | AI 研究 / 方法论 |
+| AI 数据中心吃光美国农村电网 马里兰 20 亿账单 | 7 | analytical | AI 硬件 / AI 基础设施 |
+| Imbad0202 academic-research-skills 学术流水线 | 8 | first-person | AI 编程工具 / AI+教育 |
+
+**5/13 主题计数变化**：
+
+- **AI 编程工具**: 52 → **55**（+#1 Claude Opus 4.7 Fast 重大模型迭代 + #2 Claude Platform on AWS 重大 SDK 事件 + #10 academic-research-skills KOL 方法论例外，连续 9 日高饱和但本期 3 篇均符合"SDK 重大事件/重大模型迭代/KOL 新方法论"例外条款）
+- **AI 定价**: 37 → **38**（+#1 Opus 4.7 Fast 6 倍价格档位首次披露）
+- **Agent 框架**: 51 → **52**（+#2 Claude Platform on AWS 主题为主 + #3 Cactus tool calling 边缘，主主题计 1，下一轮硬性继续严格降权）
+- **本地推理**: 23 → **25**（+#3 Cactus Needle 26M 端侧 agent 蒸馏 + #4 HN 1848 票"必须主流"叙事整合，从"Apple Silicon Mac mini 第五条"扩到"手机/手表端侧 agent + 主流化叙事"第六条/第七条）
+- **AI 变现**: 1 → **2**（+#5 OpenAI DeployCo 把企业 AI 落地角色化，从 5/12 #4 AiToEarn 工具实操扩到"乙方角色官方化"）
+- **OpenAI 行业事件**: +1（+#5 DeployCo 首次把"乙方"角色官方化，5/11 ChatGPT 广告 / realtime 2 之后第 5 次单独立线）
+- **AI 硬件**: 12 → **14**（+#6 Android 17 agentic AI 端侧 + #9 马里兰 20 亿账单 AI 基础设施监管首次单独成线）
+- **多模态**: 19 → **20**（+#6 Android 17 vibe-widgets 端侧多模态）
+- **AI 训练数据**: +1（+#7 Hollywood 失业编剧反向标剧本，AI 训练数据 + 创作者经济双线交叉）
+- **创作者经济**: 1 → **2**（+#7 Hollywood 反向利用，5/12 #4 AiToEarn 之后第 2 篇）
+- **AI 影视**: 新主题首次（+#7，提示新建 wiki/topics/ai-film.md，5/3 奥斯卡禁 AI 演员之后首次单独立线）
+- **AI 研究**: 17 → **18**（+#8 Nathan Lambert "Finetuning 时代结束了"大叙事判断）
+- **方法论**: 11 → **12**（+#8 Nathan Lambert RAG vs 长上下文方法论 + 边缘 #10 academic-research-skills，主主题计 1）
+- **AI+教育**: 6 → **7**（+#10 academic-research-skills 学术研究全自动）
+
+**新空间打开**：
+- **Anthropic 行业事件密集** 子线（#1 Opus 4.7 Fast 6 倍价格换速度 + #2 Claude Platform on AWS SDK v0.101 对接 Bedrock，单日双重大 SDK/模型事件，本号首次单日双 Anthropic 重大事件）
+- **小模型蒸馏 + tool calling 端侧** 子线（#3 Cactus Needle 26M 把 agent 推到手机/手表，从"本地推理跑大模型"扩到"小模型 + tool calling 蒸馏 + 6000 tok/s"新范式）
+- **本地推理潮叙事整合** 关键节点（#4 HN 1848 票把本地推理拉升到"必须主流"叙事，从工具/路线升级到行业共识）
+- **企业 AI 落地角色化** 子线（#5 OpenAI DeployCo 首次把"乙方"角色官方化，AI 变现从工具实操扩到行业组织结构）
+- **AI 训练数据 + 创作者经济双线** 首次交叉（#7 Hollywood 反向利用失业编剧，AI+影视首次成线，提示新建 ai-film 主题页）
+- **Finetuning 时代结束** 大叙事判断（#8 Nathan Lambert 1M context + RAG 取代 finetuning，方法论判断点，可能成为 5 月最重要的范式论断之一）
+- **AI 基础设施监管警报** 子线（#9 马里兰 20 亿账单，AI+监管首次单独成线，从"算力分配"扩到"基础设施成本社会化"）
+- **学术 skills 第四派** 子线（#10 academic-research-skills，5/11 Anthropic 官方 / 5/12 mattpocock KOL / 5/12 everything-claude-code 平台 / 5/13 学术 四派成熟，skills 生态完整）
+
+**警告/降权说明**：
+
+- AI 编程工具 55 篇连续 9 日高饱和（5/3 +5 / 5/5 +3 / 5/6 +3 / 5/7 +5 / 5/8 +5 / 5/10 +3 / 5/11 +1 / 5/12 +2 / 5/13 +3 是重大模型/SDK + KOL 例外），下一轮硬性继续严格：仅"国产 Claude Code 平替二次出圈 / Anthropic/OpenAI 重大编程模型迭代 / KOL 新方法论"才纳入
+- Agent 框架 52 篇连续 10 日峰区（5/3 34 → 5/12 51 → 5/13 52），下一轮严格降权，本期 +1 主题为主
+- AI 硬件 14 篇连续上抬（5/10 9 → 5/12 12 → 5/13 14），本期 #6 Android 17 + #9 AI 基础设施账单两条新分支，下一轮只跟"重大终端首次落地 / 监管事件"
+- 本地推理 25 篇高饱和，下一轮严格只跟"新硬件路线首次 / 重大蒸馏范式"
+- 多模态 20 篇连续 4 日新增，下一轮严格只跟新模态首次落地
+- 方法论 12 篇稳定供给，下一轮只跟新方法论事件
+- **优先品牌 openclaw + NousResearch** 5/13 跳过（5/12 刚双线收，无新事件），下一轮见到新动态依然优先选入
+- **AI 变现 2 篇 + 创作者经济 2 篇** 双线进入主题供给，可继续追"国产 AIGC 平台分发工具 / AI agent 商业模式"
+- **AI 影视 1 篇首次** 提示新建 wiki/topics/ai-film.md，下一轮可追"国产横店 AI 编剧 / B 站 AI 视频 / 爱奇艺 AI 艺人库"
+- **AI 基础设施 1 篇首次** 与 AI 硬件交叉，下一轮可追"国内贵州/宁夏数据中心 / 国产芯片产能 / 电网+AI"
+
+**下一轮选题方向（结合 5/3-5/13 趋势，保留 5/12 8 条，标记已部分覆盖）**：
+1. AI 影视/娱乐（5/13 #7 已**首次切入**，下一轮可追爱奇艺 AI 艺人库 4/21 后续 / 国产横店 AI 编剧 / B 站 AI 视频）
+2. AI+医疗（4 月 2 篇后无新增，国产百图生科 / 晶泰实盘 + Noetik 癌症 AI 4/22 后空白）
+3. 具身智能国产对照（5/7 Genesis AI / Gemini Robotics 双发后下一轮可单独覆盖宇树 / 小鹏 IRON / 智元 / 银河通用）
+4. 创作者经济（5/12 #4 AiToEarn + 5/13 #7 Hollywood 反向标剧本，本期已**深化**，可继续追平台分发工具）
+5. AI 训练数据/隐私边界（5/13 #7 已**首次切入**反向利用，下一轮可追 Meta 录键鼠后续 / 国内平台跟进）
+6. RAG 国产对照（5/8 PageIndex 后可追 Dify / FastGPT，5/13 #8 Nathan Lambert "Finetuning 结束 = RAG 接棒"叙事可对照）
+7. AI 法律 / 监管（5/13 #9 马里兰 20 亿账单已**首次切入**基础设施监管，下一轮可追算力税 / 国内贵州能耗考核）
+8. AI 变现深化（5/13 #5 OpenAI DeployCo 已**新增乙方角色化** 子线，下一轮追国产 AI 乙方公司 / 阿里云/火山 DeployCo 对照）
 
 ## 5/12 10 篇主题分布
 

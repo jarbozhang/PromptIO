@@ -44,6 +44,7 @@
 | 2026-04-10 | [[claude-code换zed加openrouter省了70percent\|Zed+OpenRouter 省 70%]] | 编程工具省钱 |
 | 2026-04-30 | [[蚂蚁ling-2-6-flash上openrouter-agent实时档\|蚂蚁 Ling-2.6-flash 偷上 OpenRouter，104B 总参数 7.4B 激活]] | 国产 MoE agent 实时档 |
 | 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费，四模态全收]] | 海外四模态免费白嫖 |
+| 2026-05-13 | [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter 1M context 6×]] | Opus 新档位首发 / 1M context |
 
 ## 相关主题
 

@@ -21,6 +21,9 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-13 | [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter，6 倍价格换速度，1M 上下文跑全栈]] | 9 |
+| 2026-05-13 | [[claude-platform-aws-bedrock-切换-国内云厂商怎么抄\|Claude Platform 登陆 AWS，SDK v0.101 对接 Bedrock，国内云厂商抄哪几步]] | 8 |
+| 2026-05-13 | [[imbad0202-academic-research-skills-claude-code-学术研究全自动\|Imbad0202 academic-research-skills 把 Claude Code 改造成学术研究流水线]] | 8 |
 | 2026-05-12 | [[mattpocock-claude-skills-单日4000星\|Matt Pocock 把自己的 .claude/skills 全开源，一夜涨 4000 星]] | 9 |
 | 2026-05-12 | [[affaan-m-everything-claude-code-18万星-agent-harness优化\|everything-claude-code 18 万星 / agent harness 优化方法论]] | 8 |
 | 2026-05-10 | [[claude-code-cve-39861-sandbox逃逸-国内开发者升级\|Claude Code 爆 CVE-2026-39861 sandbox 逃逸漏洞，国内开发者今晚把这一个版本删掉]] | 编码 agent 安全模型 / 供应链漏洞 |

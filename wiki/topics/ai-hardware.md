@@ -12,6 +12,8 @@ AI 推理 / 训练芯片、数据中心、消费端 AI 硬件。重点关注 NVI
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-13 | [[google-android-17-agentic-ai-vibe-widgets-小米oppo怎么跟\|Google 把 agentic AI 和 vibe-coded widgets 塞进 Android 17，小米/OPPO/vivo 怎么跟]] | 8 |
+| 2026-05-13 | [[ai-data-center-rural-america-马里兰20亿账单-国内贵州对照\|AI 数据中心吃光美国农村电网，马里兰居民被甩 20 亿账单，对照国内贵州/内蒙路径]] | 7 |
 | 2026-05-10 | [[anthropic-spacex-5b-300mw算力大单-xai输给自己人\|Anthropic 跟 SpaceX 签 50 亿美元 / 年算力大单 300MW Colossus I]] | 算力供应链 / 大模型公司算力瓶颈 |
 | 2026-05-11 | [[apple-airpods摄像头给siri用-国产眼镜怎么抄\|Apple AirPods 给 Siri 装摄像头，进入设计验证阶段，国产 AI 眼镜该抄哪一步]] | 消费级 AI 硬件 / 国产眼镜对照 |
 | 2026-05-06 | [[openai-chatgpt手机进展-供应链细节-国产ai硬件对照\|OpenAI 手机被加速到 2027 量产，新爆料里藏着三个变量]] | AI 手机 / 供应链 / 国产对照 |

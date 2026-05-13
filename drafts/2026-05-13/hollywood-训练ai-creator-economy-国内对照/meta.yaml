@@ -1,0 +1,51 @@
+title: Hollywood 失业编剧在给 AI 标剧本，横店编剧和网文编辑会是下一个吗
+status: draft
+date: 2026-05-13
+slug: hollywood-训练ai-creator-economy-国内对照
+reach: 7
+voice: analytical
+archetype: 现象解读
+sources:
+  - sources/2026-05-13/hacker-news-algolia-ai-filter-716de648.md
+  - sources/2026-05-13/the-verge-ai-89b4b580.md
+  - https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/
+  - https://news.ycombinator.com/item?id=48093446
+  - https://www.reddit.com/r/FilmIndustryLA/comments/1tb1bky/i_work_in_hollywood_everyone_who_used_to_make_tv/
+  - https://www.reddit.com/r/Fauxmoi/comments/1tbewa5/i_work_in_hollywood_everyone_who_used_to_make_tv/
+  - https://www.reddit.com/r/artificial/comments/1sx7sjl/a_comedians_strategy_for_poisoning_ai_training/
+  - https://www.theverge.com/ai-artificial-intelligence/928534/rsl-media-human-consent-standard
+tags:
+  - ai-training-data
+  - creator-economy
+  - hollywood
+  - 网文
+  - 横店
+  - 配音
+  - rsl
+  - human-consent-standard
+compliance:
+  reach_components:
+    brand: false
+    benefit: false
+    actionable: true
+  hard_exclusions_check: pass
+  notes: 避免渲染失业焦虑，定位行业转型路径；含明确行动建议三条。
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""

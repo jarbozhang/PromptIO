@@ -10,6 +10,7 @@ AI 与教培/学习场景结合。面向学习者的工具（单词 / 语言 / �
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-13 | [[imbad0202-academic-research-skills-claude-code-学术研究全自动\|Imbad0202 academic-research-skills 把 Claude Code 改造成学术研究流水线]] | 8 |
 | 2026-05-12 | [[dive-into-llms-动手学大模型-从零教程\|Dive into LLMs 动手学大模型从零教程 / Datawhale 系列]] | 8 |
 | 2026-05-11 | [[anthropic-skills-financial-services-courses官方三仓库\|Anthropic 把官方 skills / 金融行业 cookbook / 教育课程三仓库一起开源]] | 官方教育课程仓库 / AI Agent 教学 |
 | 2026-05-10 | [[datawhale-hello-agents-1197星-从零教agent\|Datawhale hello-agents 一夜涨 1197 星，国产《从零开始构建智能体》教程把 agent 拆给普通人]] | 国产开源教程 / 系统性 agent 学习路径 |

@@ -1,0 +1,39 @@
+title: "Claude Platform 正式登陆 AWS，Anthropic SDK v0.101 直接对接 Bedrock，国内云厂商可以抄哪几步"
+status: draft
+date: 2026-05-13
+reach: 8
+voice: analytical
+archetype: 现象解读
+sources:
+  - anthropic-news-claude-platform-on-aws-2026-05-11
+  - anthropic-python-sdk-releases-v0-101-0
+  - reddit-claudeai-1ta7p4n
+  - reddit-claudecode-1tbqg1b
+  - reddit-llmdevs-1sy3ook
+  - reddit-tldrai-1tb36ca
+tags:
+  - Anthropic
+  - Claude
+  - AWS
+  - Bedrock
+  - 云基础设施
+  - 国产云
+  - SDK
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

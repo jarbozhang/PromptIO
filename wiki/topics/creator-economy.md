@@ -13,6 +13,7 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-13 | [[hollywood-训练ai-creator-economy-国内对照\|Hollywood 失业编剧在给 AI 标剧本，横店编剧和网文编辑会是下一个吗]] | 7 |
 | 2026-05-12 | [[yikart-aitoearn-一天400星-ai变现自动化矩阵\|yikart aitoearn 一天 400 星，AI 变现自动化矩阵首次单独成线]] | 9 |
 | 2026-05-11 | [[openai-realtime-2新语音模型-国产实时语音对照\|OpenAI realtime 2 新语音模型，国产实时语音对照]] | 8 |
 | 2026-05-10 | [[datawhale-hello-agents-1197星-从零教agent\|Datawhale hello-agents 1197 星，从零教 agent]] | 7 |

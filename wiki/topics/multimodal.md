@@ -17,6 +17,7 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-13 | [[google-android-17-agentic-ai-vibe-widgets-小米oppo怎么跟\|Google 把 agentic AI 和 vibe-coded widgets 塞进 Android 17，小米/OPPO/vivo 怎么跟]] | 8 |
 | 2026-05-12 | [[thinking-machines-interaction-models-mira-murati-边听边说\|Thinking Machines / Mira Murati 谈 interaction models：边听边说的下一代语音多模态]] | 8 |
 | 2026-05-11 | [[apple-airpods摄像头给siri用-国产眼镜怎么抄\|Apple AirPods 给 Siri 装摄像头，进入设计验证阶段]] | 可穿戴多模态 / 摄像头入耳 |
 | 2026-05-10 | [[字节ui-tars-desktop-552星-多模态agent桌面栈\|字节 UI-TARS-desktop 552 星 / 多模态 agent 桌面栈]] | 多模态视觉理解 / 桌面 GUI agent |

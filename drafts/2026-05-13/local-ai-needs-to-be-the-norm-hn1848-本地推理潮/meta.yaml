@@ -1,0 +1,50 @@
+title: "HN 1848 票顶上来的\"Local AI 必须成为主流\"，国内本地推理玩家该走哪三档路线"
+slug: local-ai-needs-to-be-the-norm-hn1848-本地推理潮
+status: draft
+date: 2026-05-13
+reach: 8
+voice: analytical
+prototype: phenomenon-analysis
+sources:
+  - hacker-news-algolia-ai-filter-dc647b36
+  - https://unix.foo/posts/local-ai-needs-to-be-norm/
+  - https://news.ycombinator.com/item?id=48085821
+  - https://github.com/cactus-compute/needle
+  - https://replicate.com/blog/2025-10-02-ibm-granite-4-models
+related_drafts:
+  - 2026-05-11/airllm-4gb-gpu跑70b-本地推理白嫖
+  - 2026-05-12/jundot-omlx-apple-silicon-llm服务器
+tags:
+  - 本地推理
+  - Apple Silicon
+  - AirLLM
+  - omlx
+  - Ollama
+  - Cactus Needle
+  - 端侧 AI
+  - 国产 AI 对照
+entities:
+  - airllm
+  - omlx
+  - ollama
+  - cactus-needle
+topics:
+  - local-inference
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 4
+  issues: []
+  error: ""

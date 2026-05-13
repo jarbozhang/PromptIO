@@ -53,6 +53,9 @@ Claude Code 在中文 AI 社区（X/小红书）是当前最热的工具话题�
 | 2026-05-07 | [[replicate上线remote-mcp-server-claude-cursor-vs-code一行接1000模型\|Replicate 把整个模型仓库做成了 MCP，Claude Code 一句话挑模型跑模型]] | MCP 工具接入 |
 | 2026-05-12 | [[mattpocock-claude-skills-单日4000星\|Matt Pocock 把自己 .claude/skills 目录开源了，一天涨 3886 星，能直接拿来抄]] | KOL Skills 包公开 / 工作流抄底 |
 | 2026-05-12 | [[affaan-m-everything-claude-code-18万星-agent-harness优化\|我用 Claude Code 三个月烧了 800 美元，直到看见这个 18 万星的 agent harness 优化系统]] | agent harness 性能优化系统 |
+| 2026-05-13 | [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter 1M context 6×]] | 模型新档位 / OpenRouter 接入 |
+| 2026-05-13 | [[claude-platform-aws-bedrock-切换-国内云厂商怎么抄\|Claude Platform on AWS / SDK v0.101 切换国内云厂商怎么抄]] | 云基础设施 / SDK 切换路径 |
+| 2026-05-13 | [[imbad0202-academic-research-skills-claude-code-学术研究全自动\|academic-research-skills 把 Claude Code 变成学术研究全自动流水线]] | Skill 生态 / 学术研究工作流 |
 
 ## 注意
 

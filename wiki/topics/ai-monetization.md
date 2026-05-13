@@ -13,6 +13,7 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-13 | [[openai-deployco-企业落地公司-国内乙方机会\|OpenAI 成立 DeployCo 把"企业 AI 落地"做成独立公司，国内乙方现在还来得及]] | 7 |
 | 2026-05-12 | [[yikart-aitoearn-一天400星-ai变现自动化矩阵\|yikart aitoearn 一天 400 星，AI 变现自动化矩阵首次单独成线]] | 9 |
 | 2026-05-11 | [[openai-chatgpt广告-cpc自助管理器-geo团队\|OpenAI ChatGPT 推 CPC 自助广告管理器，GEO 团队组队抢入口]] | 9 |
 | 2026-05-08 | [[openclaw-claude-codex-把ai播客一键发spotify\|openclaw 给 Claude / Codex 装了个一键发 Spotify 的口子]] | 8 |

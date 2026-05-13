@@ -2,6 +2,59 @@
 
 追加式记录，最新在前。
 
+## [2026-05-13] generate | 10 drafts, REACH>=7, RSS+signals (X 跳过)
+
+- **采集**：RSS/GitHub/arXiv 552 items + GitHub Trending AI repos + OpenRouter 0 new + PyPI 0 new spike + TrendRadar Docker 目录缺失（soft-fail）
+- **X 抓取本期跳过**：bird CLI Chrome Safe Storage exit 36 + 无 SWEETISTICS_API_KEY，社区反馈用 last30days（Reddit/HN/GitHub 三源）替代，与 5/10 / 5/11 / 5/12 同因
+- **新增 10 篇文章**：
+  - #1 Claude Opus 4.7 Fast 上 OpenRouter，6 倍价格换速度，1M 上下文（REACH 9 first-person）
+  - #2 Claude Platform 登陆 AWS，SDK v0.101 对接 Bedrock，国内云厂商怎么抄（REACH 8 analytical）
+  - #3 Cactus 把 Gemini tool calling 蒸馏成 26M，6000 tok/s 手机跑（REACH 9 first-person）
+  - #4 HN 1848 票"Local AI 必须主流"，国内本地推理三档路线（REACH 8 analytical）
+  - #5 OpenAI DeployCo 把企业 AI 落地做成独立公司，国内乙方机会（REACH 7 analytical）
+  - #6 Android 17 agentic AI + vibe-widgets，小米 OPPO 怎么跟（REACH 8 first-person）
+  - #7 Hollywood 失业编剧给 AI 标剧本，国内横店网文会不会下一个（REACH 7 analytical）
+  - #8 Nathan Lambert "Finetuning 时代结束了"，1M context + RAG 取代（REACH 7 retro）
+  - #9 AI 数据中心吃光美国农村电网，马里兰 20 亿账单，对照贵州（REACH 7 analytical）
+  - #10 Imbad0202 academic-research-skills 把 Claude Code 改造成学术流水线（REACH 8 first-person）
+- **voice 分布**：first-person 4 / narrative 0 / analytical 5 / retro 1。analytical 占主导（行业事件密集 + 现象解读 #2 #4 #5 #7 #9 五篇组合），first-person 工具实测 4 篇（#1 #3 #6 #10），retro 方法论 1 篇（#8 Nathan Lambert）
+- **优先品牌**：openclaw 371k stars 持续涨但无新事件 → 跳过本期（5/12 #1 刚出过 371k 5 组件全景）；NousResearch hermes-agent 147k stars 同样持续涨但无新事件 → 跳过。本期没有命中 +1 boost。下一轮见到新动态依然优先选入
+- **新空间打开 8 条**：
+  - **Anthropic 行业事件密集**（#1 Opus 4.7 Fast + #2 Claude Platform on AWS 单日双重大 SDK/模型事件，本号首次）
+  - **小模型蒸馏 + tool calling 端侧**（#3 Cactus Needle 26M 把 agent 推到手机/手表，新范式）
+  - **本地推理潮叙事整合**（#4 HN 1848 票把本地推理拉升到"必须主流"叙事，行业共识级节点）
+  - **企业 AI 落地角色化**（#5 OpenAI DeployCo 首次把"乙方"角色官方化）
+  - **AI 训练数据 + 创作者经济双线**（#7 Hollywood 反向利用，AI+影视首次成线）
+  - **Finetuning 时代结束**（#8 Nathan Lambert 大叙事，方法论判断点）
+  - **AI 基础设施监管警报**（#9 马里兰 20 亿账单，AI+监管首次单独成线）
+  - **学术 skills 第四派**（#10 academic-research-skills，官方/KOL/平台/学术四派成熟）
+- **主题饱和变化**（详见 topic-saturation.md，5/12 末态 268 篇 → 5/13 278 篇）：
+  - AI 编程工具 52 → **55**（+#1 #2 #10，全部 SDK 重大事件/重大模型迭代/KOL 例外）
+  - AI 定价 37 → **38**（+#1 Opus 4.7 Fast 6 倍价格档位）
+  - Agent 框架 51 → **52**（+#2 主题为主 + #3 边缘，主主题计 1）
+  - 本地推理 23 → **25**（+#3 Cactus + #4 HN 叙事整合）
+  - AI 变现 1 → **2**（+#5 DeployCo 乙方角色官方化）
+  - OpenAI 行业事件 +1（+#5 DeployCo 第 5 次单独立线）
+  - AI 硬件 12 → **14**（+#6 Android 17 + #9 基础设施账单）
+  - 多模态 19 → **20**（+#6 Android 17 vibe-widgets）
+  - AI 训练数据 +1（+#7 Hollywood 反向标剧本）
+  - 创作者经济 1 → **2**（+#7）
+  - AI 影视 新主题首次（+#7，提示新建 wiki/topics/ai-film.md）
+  - AI 研究 17 → **18**（+#8 Nathan Lambert）
+  - 方法论 11 → **12**（+#8 主主题 + #10 边缘）
+  - AI+教育 6 → **7**（+#10 academic-research-skills）
+- **QA 10/10 全过 overall_pass**。L2 平均 ~8.0、L3 平均 ~7.8、L4 全 pass、L5 平均 ~7.6、L6 9 pass / 1 fail（#6 Android 17 "干翻"字面词，xhs 版已修复）。L1 共 **~17 处机械替换**。rounds 平均 0.6（多数一次过）
+- **Step 4.6**：**6 篇生成 xhs-version.md**（#1 #2 #3 #4 #6 #10，reach ≥ 8 主动触发 + #6 L6 fail 必修）；4 篇 xhs:primary 直发主版本（#5 #7 #8 #9，均 reach=7 + L6 pass）；0 篇 xhs:blocked
+- **下一轮选题方向**（沿用 5/12 8 条，标注已部分覆盖）：
+  - AI 影视/娱乐（5/13 #7 已**首次切入**，下一轮追爱奇艺 AI 艺人库 / 国产横店 AI 编剧 / B 站 AI 视频）
+  - AI+医疗（4 月 2 篇后无新增）
+  - 具身智能国产对照（5/7 后下一轮可单独覆盖宇树/小鹏 IRON/智元/银河通用）
+  - 创作者经济（5/12 #4 AiToEarn + 5/13 #7 Hollywood，已深化，可继续追平台分发工具）
+  - AI 训练数据/隐私边界（5/13 #7 已首次切入反向利用，下一轮追 Meta 录键鼠后续 / 国内平台跟进）
+  - RAG 国产对照（5/13 #8 Nathan Lambert "Finetuning 结束 = RAG 接棒"叙事可对照 Dify / FastGPT）
+  - AI 法律 / 监管（5/13 #9 已首次切入基础设施监管，下一轮追算力税 / 国内贵州能耗考核）
+  - AI 变现深化（5/13 #5 DeployCo 已新增乙方角色化子线，下一轮追国产 AI 乙方公司 / 阿里云/火山 DeployCo 对照）
+
 ## [2026-05-12] generate | 10 drafts, REACH>=8, RSS+signals (X 跳过)
 
 - **采集**：RSS/GitHub/arXiv 530 items + GitHub Trending AI repos + OpenRouter 0 new + PyPI 10 packages（无 trending spike）+ TrendRadar Docker 目录缺失（soft-fail）

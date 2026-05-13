@@ -1,0 +1,38 @@
+title: "AI 数据中心吃光美国农村电网，马里兰居民被甩 20 亿账单，对照国内贵州/内蒙路径"
+status: draft
+date: 2026-05-13
+reach: 7
+voice: analytical
+prototype: 现象解读
+sources:
+  - the-verge-ai-b5b703a3
+tags:
+  - AI 基础设施
+  - 算力供给
+  - AI 监管
+  - 数据中心
+  - 东数西算
+community_research:
+  reddit_threads: 6
+  reddit_upvotes: 113648
+  reddit_comments: 5824
+  top_voices:
+    - r/technology
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 7
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary

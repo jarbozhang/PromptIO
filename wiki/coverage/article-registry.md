@@ -2,6 +2,31 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-13（10 篇，voice 分布 first-person 4 / narrative 0 / analytical 5 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter，6 倍价格换速度，1M 上下文]] | 9 | first-person | [[anthropic\|Anthropic]], [[claude\|Claude]], [[openrouter\|OpenRouter]], [[deepseek\|DeepSeek]] | [[ai-coding-tools\|AI 编程工具]] / [[ai-pricing\|AI 定价]] |
+| [[claude-platform-aws-bedrock-切换-国内云厂商怎么抄\|Claude Platform 登陆 AWS，SDK v0.101 对接 Bedrock，国内云厂商怎么抄]] | 8 | analytical | [[anthropic\|Anthropic]], [[claude\|Claude]], [[aws\|AWS]], [[alibaba-cloud\|阿里云]], [[volcano-engine\|火山引擎]] | [[ai-coding-tools\|AI 编程工具]] / [[agent-frameworks\|Agent 框架]] |
+| [[needle-26m-蒸馏-gemini-tool-calling-手机能跑\|Cactus 把 Gemini tool calling 蒸馏成 26M，6000 tok/s 手机跑]] | 9 | first-person | [[cactus\|Cactus]], [[google\|Google]], [[gemini\|Gemini]], [[needle\|Needle]] | [[local-inference\|本地推理]] / [[agent-frameworks\|Agent 框架]] |
+| [[local-ai-needs-to-be-the-norm-hn1848-本地推理潮\|HN 1848 票"Local AI 必须主流"，国内本地推理三档路线]] | 8 | analytical | [[ollama\|Ollama]], [[llama-cpp\|llama.cpp]], [[deepseek\|DeepSeek]], [[mlx\|MLX]] | [[local-inference\|本地推理]] |
+| [[openai-deployco-企业落地公司-国内乙方机会\|OpenAI DeployCo 把企业 AI 落地做成独立公司，国内乙方机会]] | 7 | analytical | [[openai\|OpenAI]], [[deployco\|DeployCo]], [[anthropic\|Anthropic]] | ai-monetization / OpenAI 行业事件 |
+| [[google-android-17-agentic-ai-vibe-widgets-小米oppo怎么跟\|Android 17 agentic AI + vibe-widgets，小米 OPPO 怎么跟]] | 8 | first-person | [[google\|Google]], [[android\|Android]], [[xiaomi\|小米]], oppo | [[ai-hardware\|AI 硬件]] / [[multimodal\|多模态]] |
+| [[hollywood-训练ai-creator-economy-国内对照\|Hollywood 失业编剧给 AI 标剧本，国内横店网文会不会下一个]] | 7 | analytical | hollywood-writers, [[openai\|OpenAI]] | [[ai-training-data\|AI 训练数据]] / [[creator-economy\|创作者经济]] / [[ai-film\|AI 影视]] |
+| [[nathan-lambert-end-of-finetuning-rag-vs-长上下文\|Nathan Lambert "Finetuning 时代结束了"，1M context + RAG 取代]] | 7 | retro | [[nathan-lambert\|Nathan Lambert]], [[interconnects\|Interconnects]], [[anthropic\|Anthropic]], [[google\|Google]] | [[ai-research\|AI 研究]] / 方法论 |
+| [[ai-data-center-rural-america-马里兰20亿账单-国内贵州对照\|AI 数据中心吃光美国农村电网，马里兰 20 亿账单，对照贵州]] | 7 | analytical | aws, [[microsoft\|Microsoft]], [[google\|Google]] | [[ai-hardware\|AI 硬件]] / AI 基础设施 |
+| [[imbad0202-academic-research-skills-claude-code-学术研究全自动\|Imbad0202 academic-research-skills 把 Claude Code 改造成学术流水线]] | 8 | first-person | imbad0202, [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | [[ai-coding-tools\|AI 编程工具]] / [[ai-education\|AI+教育]] |
+
+**5/13 voice 分布**：first-person 4 / narrative 0 / analytical 5 / retro 1。analytical 占主导（行业事件密集 + 现象解读型 #2 #4 #5 #7 #9 五篇组合），first-person 工具实测 4 篇（#1 #3 #6 #10），retro 方法论 1 篇（#8 Nathan Lambert）。
+
+**5/13 优先品牌**：openclaw 371k stars 持续涨但无新事件 → 跳过本期（5/12 #1 刚出过 371k 5 组件全景）；NousResearch hermes-agent 147k stars 同样持续涨但无新事件 → 跳过。本期没有命中优先品牌 +1 boost。下一轮见到新动态依然优先选入。
+
+**5/13 QA 结果**：10/10 全过 overall_pass。L2 平均 8.0、L3 平均 7.8、L4 全 pass、L5 平均 7.6、L6 9 pass / 1 fail（#6 Android 17 "干翻"字面词，xhs 版已修复）。L1 共 ~17 处机械替换。rounds 平均 0.6（多数一次过）。
+
+**5/13 Step 4.6**：6 篇生成 xhs-version.md（#1 #2 #3 #4 #6 #10，reach ≥ 8 主动触发 + #6 L6 fail 必修）；4 篇 xhs:primary 直发主版本（#5 #7 #8 #9，均 reach=7 + L6 pass）；0 篇 xhs:blocked。
+
+**5/13 X 抓取**：跳过（Chrome Safe Storage exit 36，无 cookies + 无 SWEETISTICS_API_KEY，与 5/10 / 5/11 / 5/12 同因）。社区反馈用 last30days 拉的 Reddit/HN/GitHub 替代。
+
 ## 2026-05-12（10 篇，voice 分布 first-person 6 / narrative 0 / analytical 3 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

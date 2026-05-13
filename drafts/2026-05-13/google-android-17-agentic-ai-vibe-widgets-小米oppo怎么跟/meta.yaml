@@ -1,0 +1,71 @@
+title: Google 把 agentic AI 和 vibe-coded widgets 塞进 Android 17，小米/OPPO/vivo 怎么跟
+slug: google-android-17-agentic-ai-vibe-widgets-小米oppo怎么跟
+date: 2026-05-13
+status: draft
+prototype: 现象解读
+voice: first-person
+reach: 8
+reach_components:
+  brand_recognition: true   # Google / Android / 小米 / OPPO / vivo / 华为
+  benefit: true             # 国产厂商接下来怎么跟 + 创作者窗口期 + 用户升级建议
+  actionable: true          # 三类人群（创作者/用户/开发者）具体行动清单
+topics:
+  - ai-hardware
+  - multimodal
+  - 国产-ai-对照
+entities:
+  - google
+  - xiaomi
+  - oppo
+  - vivo
+  - huawei
+sources:
+  - path: sources/2026-05-13/the-verge-ai-a35f27f1.md
+    note: Android 17 9 biggest new features
+  - path: sources/2026-05-13/techcrunch-ai-c650de7a.md
+    note: Create My Widget vibe-code 自然语言生成桌面组件
+  - path: sources/2026-05-13/techcrunch-ai-a7d4706b.md
+    note: Gemini Intelligence + Gboard dictation/autofill
+  - path: sources/2026-05-13/the-verge-ai-382a6257.md
+    note: Gemini Intelligence 控制手机 / 跨 app 调用
+community_research:
+  path: drafts/2026-05-13/google-android-17-agentic-ai-vibe-widgets-小米oppo怎么跟/community-research.md
+  reddit_threads: 4
+  top_voices:
+    - r/google (122pts) Android 17 ecosystem shift
+    - r/Android (46cmt) Gemini Intelligence AMA
+    - r/StableDiffusion (363pts) Local AI Android Termux
+    - r/hermesagent (209pts) cheap Android agent
+compliance:
+  feudal_superstition: pass
+  vpn_or_overseas_access: pass
+  pure_taunt: pass
+  notes: 主动避开"Gemini 干翻小爱同学"类拉踩选题（文中明确点出不写）
+position:
+  stance: Google 用 Android 17 锁死 agent OS 定义权；国产厂商被动接招
+  bets:
+    - HyperOS 2.x 在 7-8 月对标 Create My Widget
+    - ColorOS 16 / OriginOS 6 走"端侧隐私"差异化
+    - 华为 HarmonyOS NEXT 是唯一可能走出不同路线的变量
+    - ZUI/努比亚 等"App 层 AI 助手"路径会被边缘化
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: false
+  l6_issues:
+    - type: title_banned_phrase
+      text: 别去争"Gemini 是不是干翻了小爱同学"这种拉踩选题
+      suggestion: 即使是元层级讨论，"干翻"二字小红书机审不区分语境；改为"别去争 Gemini 和小爱同学谁更强这种拉踩选题"
+  xhs_pass: false
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary

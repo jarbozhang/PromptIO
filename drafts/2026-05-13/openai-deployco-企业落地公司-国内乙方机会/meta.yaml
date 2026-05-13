@@ -1,0 +1,47 @@
+title: "OpenAI 成立 DeployCo 把\"企业 AI 落地\"做成独立公司，国内乙方现在还来得及"
+slug: openai-deployco-企业落地公司-国内乙方机会
+status: draft
+date: 2026-05-13
+reach: 7
+voice: analytical
+prototype: industry-event-analysis
+sources:
+  - openai-blog-c86720c8
+  - openai-blog-49359060
+  - last-week-in-ai-138
+related_entities:
+  - openai
+  - deployco
+  - palantir
+  - volcengine-ark
+  - aliyun-bailian
+  - modelscope
+related_topics:
+  - ai-monetization
+  - 企业AI
+  - AI落地
+tags:
+  - OpenAI
+  - DeployCo
+  - 企业AI
+  - AI变现
+  - 乙方
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""
