@@ -78,6 +78,9 @@
 | 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | 7 |
 | 2026-05-12 | [[openai-daybreak-claude-mythos-ai漏洞挖掘工作流对照\|OpenAI Daybreak 杀来了，Mythos 第三个对手登场，AI 漏洞挖掘工作流到底怎么用]] | 9 |
 | 2026-05-13 | [[openai-deployco-企业落地公司-国内乙方机会\|OpenAI DeployCo 企业落地公司，国内乙方机会]] | 7 |
+| 2026-05-14 | [[openai-codex-windows沙箱-国产ai编程ide怎么跟\|OpenAI Codex on Windows 沙箱实现，国产 AI 编程 IDE 怎么跟]] | 8 |
+| 2026-05-14 | [[anthropic业务客户超openai-国内中小老板claude路线\|Anthropic 业务客户超过 OpenAI，国内中小老板 Claude 路线（OpenAI 作为对照方）]] | 7 |
+| 2026-05-14 | [[openai-chatgpt-trusted-contact紧急联系人-国内豆包元宝对照\|OpenAI ChatGPT Trusted Contact 紧急联系人，国内豆包元宝对照]] | 7 |
 
 ## 注意
 

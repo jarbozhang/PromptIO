@@ -25,6 +25,11 @@
 | 2026-05-07 | [[deepseek-v4-pro-flash双发-华为昇腾跑国产开源前沿\|DeepSeek V4 Pro 不再是 benchmark 第一名，但 1.6T 直接放到昇腾上]] | 9 |
 | 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 首轮融资估值 450 亿，国产 AI 估值新里程碑]] | 9 |
 | 2026-05-06 | [[百度cobuddy免费上openrouter-国产编程模型白嫖131k-context\|百度 CoBuddy 免费上 OpenRouter，131k context 白嫖]] | 8 |
+| 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 5/14 上 OpenRouter 免费 256K，顶级国产模型]] | 10 |
+| 2026-05-14 | [[openai-codex-windows沙箱-国产ai编程ide怎么跟\|OpenAI Codex on Windows 沙箱，国产 IDE 对照]] | 8 |
+| 2026-05-14 | [[google-gemma-4字节级最强开源-国产qwen-deepseek怎么追\|Gemma 4 最强开源，国产 Qwen / DeepSeek 怎么追]] | 8 |
+| 2026-05-14 | [[deepseek-v3-v4架构演进-sparse-attention-rl三步跳\|Raschka 拆 DeepSeek V3 → V4 架构演进透明化]] | 7 |
+| 2026-05-14 | [[the-verge-vibe-coding革命-个人软件平民化-国产路线\|The Verge vibe coding 革命，Trae / 通义灵码国产 vibe coding 路线]] | 7 |
 
 ## 关键子线
 

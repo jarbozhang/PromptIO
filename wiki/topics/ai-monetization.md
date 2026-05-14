@@ -19,6 +19,7 @@
 | 2026-05-08 | [[openclaw-claude-codex-把ai播客一键发spotify\|openclaw 给 Claude / Codex 装了个一键发 Spotify 的口子]] | 8 |
 | 2026-05-06 | [[marc-lore-ai让人开餐厅-qutwo-3-8亿天使轮\|Marc Lore 用 AI 帮人开餐厅，Qutwo 3.8 亿美元天使轮]] | 7 |
 | 2026-05-01 | [[meta-manus赚钱广告-国内ai副业号警觉\|Meta 用 Manus 打"AI 帮你赚钱"广告，国内副业号该警觉]] | 7 |
+| 2026-05-14 | [[anthropic业务客户超openai-国内中小老板claude路线\|Anthropic 业务客户首次超过 OpenAI，国内中小老板 Claude 路线]] | 7 |
 
 ## 关键子线
 

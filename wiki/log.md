@@ -2,6 +2,34 @@
 
 追加式记录，最新在前。
 
+## [2026-05-14] generate | 10 drafts, REACH>=7, RSS+signals (X 跳过)
+
+- **采集**：RSS/GitHub/arXiv 498 items + GitHub Trending 31 AI repos + OpenRouter 1 new (DeepSeek V4 Flash free 上线) + PyPI 大量 429（rate limit）+ TrendRadar Docker 目录缺失（soft-fail）
+- **X 抓取本期跳过**：bird CLI Chrome cookies 失效，与近 5 日同因。社区反馈全程依赖 last30days（Reddit/HN/GitHub 三源），10 个选题全部成功拉到
+- **新增 10 篇文章**：
+  - #1 DeepSeek V4 Flash 今天上 OpenRouter 免费白嫖 256K 上下文 + 百万 token agent 实测（REACH 10 first-person）
+  - #2 Goose 26100 stars 完全免费 Claude Code 替代 一年省 2400 美元（REACH 9 first-person）
+  - #3 OpenAI Codex on Windows 沙箱来了 国产 AI 编程 IDE 怎么跟（REACH 8 analytical）
+  - #4 Notion Developer Platform 把工作区变 AI agent 中心 飞书钉钉语雀怎么抄（REACH 8 analytical）
+  - #5 Simon Willison Claude Code + HTML 不合理有效性 一份 prompt 出可发布原型（REACH 8 first-person）
+  - #6 Google Gemma 4 字节级最强开源模型 国产 Qwen DeepSeek 怎么追（REACH 8 analytical）
+  - #7 Anthropic 业务客户首次超过 OpenAI 国内中小老板的 Claude 路线（REACH 7 analytical）
+  - #8 OpenAI 上线 ChatGPT Trusted Contact 紧急联系人 国内豆包元宝心理健康对照（REACH 7 analytical）
+  - #9 DeepSeek V3 → V4 架构演进 sparse attention RL 三步跳（REACH 7 retro）
+  - #10 The Verge: vibe coding 革命 个人软件平民化 国产路线对照（REACH 7 analytical）
+- **voice 分布**：first-person 3 / narrative 0 / analytical 6 / retro 1。analytical 主导（行业事件密集），first-person 工具实测 3 篇（#1 #2 #5），retro 论文拆解 1 篇（#9）
+- **优先品牌**：openclaw 371k + Hermes 149k stars GitHub Trending 持续在榜但无新事件 → 跳过。下一轮见到新动态依然优先选入
+- **新空间打开 6 条**：
+  - **DeepSeek V4 当日双事件**（#1 V4 Flash OpenRouter 免费 256K + #9 Raschka 架构演进 sparse attention，工具实测+论文拆解同日双切）
+  - **AI 编程工具平替+省钱叙事**（#2 Goose 26100 stars 一年省 2400 美元，明确"免费替代闭源订阅"路线）
+  - **Vibe Coding 范式独立成主题**（#5 Simon Willison HTML + #10 Verge 长篇叙事，从 5/13 工具讨论升级到独立主题，新建 wiki/topics/vibe-coding.md）
+  - **AI 办公协同首次单独立线**（#4 Notion Developer Platform AI agent hub，国内飞书钉钉语雀对照路径，新建 wiki/topics/ai-productivity.md）
+  - **AI 安全用户保护分支**（#8 ChatGPT Trusted Contact，AI 安全从供应链/漏洞扩到"用户心理健康保护"）
+  - **企业 AI 客户结构变化**（#7 Anthropic 业务客户首次超 OpenAI，5/13 DeployCo 之后第 2 个企业商业化叙事）
+- **QA 结果**：10/10 全过 overall_pass。L2 平均 8.3 / L3 平均 8.3 / L4 全 pass / L5 平均 7.8 / L6 全过 0 fail。L1 共 7 处机械替换。rounds 平均 0.5（前 5 篇首轮过、后 5 篇 1 轮微调）
+- **Step 4.6**：6 篇生成 xhs-version.md（#1 #2 #3 #4 #5 #6，reach >= 8 主动触发）；4 篇 xhs:primary 直发主版本（#7 #8 #9 #10，reach=7 + L6 pass）；0 篇 xhs:blocked
+- **实体/主题页同步**：deepseek / openrouter / block / anthropic / openai / notion / google / simon-willison / sebastian-raschka / codex / claude-code / chatgpt + ai-pricing / ai-coding-tools / chinese-ai / agent-frameworks / ai-monetization / ai-safety 追加 5/14 条目；新建 ai-productivity / vibe-coding / open-models / llm-architecture / ai-life / ai-democratization 六个新主题页
+
 ## [2026-05-13] generate | 10 drafts, REACH>=7, RSS+signals (X 跳过)
 
 - **采集**：RSS/GitHub/arXiv 552 items + GitHub Trending AI repos + OpenRouter 0 new + PyPI 0 new spike + TrendRadar Docker 目录缺失（soft-fail）

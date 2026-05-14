@@ -112,6 +112,10 @@
       "name": "DeepSeek: DeepSeek V4 Pro",
       "context_length": 1048576
     },
+    "deepseek/deepseek-v4-flash:free": {
+      "name": "DeepSeek: DeepSeek V4 Flash (free)",
+      "context_length": 256000
+    },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash",
       "context_length": 1048576
@@ -658,7 +662,7 @@
     },
     "z-ai/glm-4.6": {
       "name": "Z.ai: GLM 4.6",
-      "context_length": 204800
+      "context_length": 202752
     },
     "anthropic/claude-sonnet-4.5": {
       "name": "Anthropic: Claude Sonnet 4.5",
@@ -1453,5 +1457,5 @@
       "context_length": 16385
     }
   },
-  "updated_at": "2026-05-13T10:19:07.431Z"
+  "updated_at": "2026-05-14T12:25:54.408Z"
 }

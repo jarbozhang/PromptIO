@@ -1,0 +1,31 @@
+title: "The Verge: vibe coding 革命 个人软件平民化 国产路线对照"
+status: draft
+date: 2026-05-14
+reach: 7
+sources:
+  - the-verge-ai-49eea13d
+tags:
+  - Vibe Coding
+  - The Verge
+  - 个人软件
+  - 国产 IDE
+  - AI 民主化
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""

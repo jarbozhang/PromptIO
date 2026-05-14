@@ -63,6 +63,7 @@ Harness / Skills / MCP / Multi-Agent 架构。
 | 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 四模态免费上 OpenRouter]] | 多模态 agent 调用底座 |
 | 2026-05-07 | [[anthropic-cowork发布-claude-desktop-agent给非技术用户\|Anthropic 用一周半时间，把 Claude Code 改成给会计 HR 用的 Cowork]] | 桌面 agent / 非技术用户场景 |
 | 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | spec 编排 / agent 调度协议 |
+| 2026-05-14 | [[notion-developer-platform-ai-agent中心-飞书钉钉怎么抄\|Notion Developer Platform 把 workspace 变 AI agent hub，飞书钉钉怎么抄]] | 8 |
 
 ## 饱和度评估
 

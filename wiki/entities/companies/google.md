@@ -60,6 +60,7 @@ Gemini / Gemma / Veo 系列的开发商。
 | 2026-05-07 | [[gemini-robotics-er-1-6发布-deepmind把空间推理塞给现实机器人\|Gemini Robotics-ER 1.6 发布，DeepMind 把多视角空间推理塞给现实机器人]] | 7 |
 | 2026-05-12 | [[openai-daybreak-claude-mythos-ai漏洞挖掘工作流对照\|OpenAI Daybreak 杀来了，Mythos 第三个对手登场，AI 漏洞挖掘工作流到底怎么用]] | 9 |
 | 2026-05-13 | [[google-android-17-agentic-ai-vibe-widgets-小米oppo怎么跟\|Google Android 17 agentic AI + vibe widgets，小米 OPPO 怎么跟]] | 8 |
+| 2026-05-14 | [[google-gemma-4字节级最强开源-国产qwen-deepseek怎么追\|DeepMind Gemma 4 byte-for-byte 最强开源，国产 Qwen / DeepSeek 怎么追]] | 8 |
 
 ## 选题建议
 

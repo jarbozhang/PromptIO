@@ -1,0 +1,32 @@
+title: "OpenAI Codex on Windows 沙箱来了 国产 AI 编程 IDE 怎么跟"
+status: draft
+date: 2026-05-14
+reach: 8
+sources:
+  - openai-blog-49a108cb
+  - openai-blog-09a84312
+tags:
+  - OpenAI Codex
+  - Windows
+  - 沙箱
+  - AI 编程
+  - 国产 IDE
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

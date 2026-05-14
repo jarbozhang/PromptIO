@@ -1,6 +1,67 @@
 # 主题饱和度分析
 
-基于 278 篇文章（2026-04-08 至 2026-05-13）的主题分布。**5/13 单批 10 篇后总计 278 篇。**
+基于 288 篇文章（2026-04-08 至 2026-05-14）的主题分布。**5/14 单批 10 篇后总计 288 篇。**
+
+## 5/14 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| DeepSeek V4 Flash 上 OpenRouter 免费 256K + 百万 token agent | 10 | first-person | AI 定价 / AI 编程工具 / 国产 AI / 长上下文 |
+| Goose 26100 stars 完全免费 Claude Code 替代 一年省 2400 美元 | 9 | first-person | AI 编程工具 / AI 定价 |
+| OpenAI Codex on Windows 沙箱 国产 IDE 怎么跟 | 8 | analytical | AI 编程工具 / 国产 AI |
+| Notion Developer Platform AI agent hub 飞书钉钉怎么抄 | 8 | analytical | Agent 框架 / AI 办公协同 |
+| Simon Willison: Claude Code + HTML 不合理有效性 | 8 | first-person | AI 编程工具 / Vibe Coding / 方法论 |
+| Gemma 4 字节级最强开源 国产 Qwen DeepSeek 怎么追 | 8 | analytical | 开源模型 / 国产 AI |
+| Anthropic 业务客户超 OpenAI 国内中小老板 Claude 路线 | 7 | analytical | AI 商业化 / 中小企业 AI |
+| ChatGPT Trusted Contact 紧急联系人 国内豆包元宝对照 | 7 | analytical | AI 安全 / AI+生活 |
+| DeepSeek V3 → V4 架构演进 sparse attention RL | 7 | retro | LLM 架构 / 国产 AI |
+| The Verge: vibe coding 革命 个人软件平民化 国产路线 | 7 | analytical | Vibe Coding / 国产 AI / AI 民主化 |
+
+**5/14 主题计数变化**：
+
+- **AI 编程工具**: 55 → **58**（+#1 DeepSeek V4 Flash 接入 + #2 Goose 平替二次出圈 + #3 Codex Windows 重大 IDE 事件 + #5 Simon Willison KOL 方法论，本期 +4，连续 10 日高饱和，本批 4 篇均符合"国产 Claude Code 平替二次出圈/Anthropic-OpenAI 重大编程事件/KOL 新方法论"例外条款）
+- **AI 定价**: 38 → **40**（+#1 DeepSeek V4 Flash 免费 256K + #2 Goose 一年省 2400 美元，连续 2 篇切"省钱白嫖"主题）
+- **国产 AI**: 34 → **38**（+#1 DeepSeek V4 国产顶级 + #3 国产 IDE 对照 + #6 Qwen DeepSeek 对照 + #9 DeepSeek 架构透明 + #10 Trae 通义灵码对照，本期 +4，国产 AI 主线在多个角度交叉）
+- **Vibe Coding**: 新主题首次单独立线（+#5 Simon Willison HTML + #10 Verge 革命叙事，提示新建 wiki/topics/vibe-coding.md）
+- **Agent 框架**: 52 → **53**（+#4 Notion Developer Platform 重大平台事件，严格降权策略下严格遵守"重大 SDK/平台事件"例外）
+- **AI 办公协同**: 新主题首次单独立线（+#4，提示新建 wiki/topics/ai-productivity.md）
+- **开源模型**: 新主题首次单独立线（+#6 Gemma 4，提示新建 wiki/topics/open-models.md）
+- **AI 商业化**: 1 → **2**（+#7 Anthropic 业务客户超 OpenAI，5/13 #5 DeployCo 后第 2 篇）
+- **AI 安全**: 10 → **11**（+#8 Trusted Contact 心理健康场景，AI 安全从供应链 / 漏洞挖掘扩到"用户安全"分支）
+- **AI+生活**: 新主题首次单独立线（+#8，提示新建 wiki/topics/ai-life.md）
+- **LLM 架构**: 新主题首次单独立线（+#9 DeepSeek V3 → V4 架构透明化）
+- **AI 民主化**: 新主题首次单独立线（+#10 Verge 个人软件平民化）
+
+**新空间打开**：
+
+- **DeepSeek V4 当日双事件** 子线（#1 OpenRouter 免费上线 256K + #9 Raschka 架构演进 V3→V4 sparse attention，工具实测 + 论文拆解同日双切，本号首次单日双 DeepSeek 事件）
+- **AI 编程工具平替+省钱叙事** 子线（#2 Goose 26100 stars 一年省 2400 美元，明确"免费替代闭源订阅"路线，5/11 AirLLM 4GB / 5/13 academic-research-skills 之后第 3 个"省钱实操"切入）
+- **Vibe Coding 范式独立成主题** 关键节点（#5 Simon Willison KOL + #10 Verge 长篇叙事，从 5/13 个别工具讨论升级到独立主题，建议新建 wiki/topics/vibe-coding.md）
+- **AI 办公协同首次单独立线** 子线（#4 Notion Developer Platform 把 workspace 变 agent hub，国内飞书/钉钉/语雀对照路径，从 5/12 各家 AI 助手扩到"平台级 agent hub"）
+- **AI 安全用户保护分支** 子线（#8 ChatGPT Trusted Contact，AI 安全从供应链/漏洞挖掘扩到"用户心理健康保护"，国内豆包/元宝/Kimi 对照）
+- **企业 AI 客户结构变化** 关键事件（#7 Anthropic 业务客户首次超过 OpenAI，5/13 #5 DeployCo 之后第 2 个企业商业化叙事）
+
+**警告/降权说明**：
+
+- AI 编程工具 58 篇连续 10 日高饱和（5/3 +5 / 5/5 +3 / 5/6 +3 / 5/7 +5 / 5/8 +5 / 5/10 +3 / 5/11 +1 / 5/12 +2 / 5/13 +3 / 5/14 +4 均符合例外条款），下一轮硬性继续严格：仅"国产 Claude Code 平替二次出圈 / Anthropic-OpenAI 重大编程事件 / KOL 新方法论"才纳入
+- Agent 框架 53 篇连续 11 日峰区，下一轮严格只跟"重大 SDK/平台事件 / 优先品牌新动态"
+- 国产 AI 38 篇高饱和，下一轮国产线只跟"非 Kimi/DeepSeek/Qwen/字节"的新增项目 + DeepSeek 重大节点
+- AI 定价 40 篇饱和，下一轮只跟"重大降价 / 免费白嫖新方案"
+- **优先品牌 openclaw + NousResearch** 本期仍跳过（GitHub Trending 持续涨但无新事件），下一轮见到新动态依然优先选入
+- **新主题 5 个首次成线**：Vibe Coding / AI 办公协同 / 开源模型 / AI+生活 / LLM 架构 / AI 民主化，提示新建对应 wiki/topics/ 页面
+
+**下一轮选题方向（结合 5/3-5/14 趋势）**：
+
+1. AI 影视/娱乐（5/13 #7 Hollywood 首次切入后，下一轮可追爱奇艺 AI 艺人库 / B 站 AI 视频 / 国产横店 AI 编剧）
+2. AI+医疗（4 月 2 篇后无新增，国产百图生科 / 晶泰实盘 + Noetik 癌症 AI 后空白）
+3. 具身智能国产对照（5/7 Genesis AI / Gemini Robotics 双发后可追宇树 / 小鹏 IRON / 智元 / 银河通用）
+4. 创作者经济（5/12 #4 AiToEarn + 5/13 #7 Hollywood 后可继续追平台分发工具）
+5. AI 训练数据/隐私边界（5/13 #7 已切入反向利用，可追 Meta 录键鼠后续）
+6. RAG 国产对照（5/8 PageIndex 后可追 Dify / FastGPT）
+7. AI 法律/监管（5/13 #9 已切入基础设施监管，可追算力税）
+8. AI 变现深化（5/13 #5 DeployCo + 5/14 #7 Anthropic 企业线，下一轮追国产 AI 乙方公司）
+9. **Vibe Coding 主题深化**（5/14 #5 #10 已开篇，下一轮可追国产 Trae / 通义灵码 vibe 模式 / Cursor 中国版 / Tongyi Code 横评）
+10. **AI 办公协同主题深化**（5/14 #4 已开篇，下一轮可追飞书 AI / 钉钉智能助理 / 语雀 / 企业微信 AI 集成）
 
 ## 5/13 10 篇主题分布
 

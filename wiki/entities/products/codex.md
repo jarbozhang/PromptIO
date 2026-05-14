@@ -23,6 +23,7 @@
 | 2026-04-15 | [[openai内部备忘录泄露-cro说必须锁住用户防止跳船到anthropic\|OpenAI内部备忘录泄露]] | 竞争策略 |
 | 2026-04-15 | [[ai让10x工程师的身体先崩了-hn-70条评论全是真话\|AI 让 10x 工程师身体崩了]] | 健康代价 |
 | 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | spec 编排 / agent 调度 |
+| 2026-05-14 | [[openai-codex-windows沙箱-国产ai编程ide怎么跟\|OpenAI Codex on Windows 沙箱机制，国产 AI 编程 IDE 怎么跟]] | Windows 沙箱实现 / 国产 IDE 对照 |
 
 ## 注意
 

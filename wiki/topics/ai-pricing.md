@@ -50,6 +50,8 @@
 | 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费四模态]] | 海外四模态免费档 |
 | 2026-05-07 | [[deepseek-v4-pro-flash双发-华为昇腾跑国产开源前沿\|DeepSeek V4 Pro 不再是 benchmark 第一名，但它把 1.6T 模型直接放到了昇腾上]] | 国产开源旗舰持续压价 / 昇腾绑定 |
 | 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 开源低价策略与估值锚 |
+| 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 在 OpenRouter 免费上线 256K + 百万 token 实测]] | 10 |
+| 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Block Goose 26100 stars 完全免费 Claude Code 替代，一年省 2400 美元]] | 9 |
 
 ## 饱和度评估
 

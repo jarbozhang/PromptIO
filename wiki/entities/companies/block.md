@@ -11,6 +11,7 @@ Square / Cash App 母公司，Jack Dorsey 创立。AI 方向上以开源 [[goose
 | 日期 | 文章 | REACH |
 |------|------|-------|
 | 2026-05-08 | [[goose-26k星-block本地agent-绕开claude-code-200美金\|Block 团队开源的 Goose 一年攒到 26k 星]] | 7 |
+| 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Block 开源 Goose 26100 stars 完全免费 Claude Code 替代，一年省 2400 美元]] | 9 |
 
 ## 相关主题
 

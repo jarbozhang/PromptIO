@@ -10,6 +10,7 @@
 
 ## 近期动态
 
+- **V4 Flash 上 OpenRouter 免费 256K + Raschka 拆 V3→V4 架构** (2026-05-14) — DeepSeek V4 Flash 在 OpenRouter 免费上线 256K context 跑百万 token agent loop；同日 Sebastian Raschka 拆 V3 → V3.2 → V4 的 sparse attention + RL 三步跳，把 DeepSeek 架构演进路线讲透
 - **Simon Willison 实测 V4** (2026-04-25) — 发布次日，Simon 跑完 V4 给出"接近前沿但价格只是零头"的英文社区第一份有分量实测报告，给国产 V4 在英文社区的可信度打了背书
 - **V4 Pro + V4 Flash 双发上 OpenRouter** (2026-04-24) — V4 Pro 1.6T 参数走高端，V4 Flash 284B MoE 把每 M token 打到一毛钱级别，4/20 预告的"万亿参数 + GPT-4 成本 1/70"如期兑现
 - **Raschka 拆 RLVR / GRPO 推理方法论** (2026-04-23) — Sebastian Raschka 系统性梳理让 LLM 推理追上 o3 的几个关键拼图，DeepSeek R1 是国产方 RLVR 代表
@@ -37,6 +38,8 @@
 | 2026-04-30 | [[ds2api国产中间件-deepseek多账号轮转白嫖\|ds2api 一夜涨 465 星：把 DeepSeek 客户端协议变 OpenAI/Claude 通用 API 中间件]] | 8 |
 | 2026-05-07 | [[deepseek-v4-pro-flash双发-华为昇腾跑国产开源前沿\|DeepSeek V4 Pro 不再是 benchmark 第一名，但它把 1.6T 模型直接放到了昇腾上]] | 9 |
 | 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 8 |
+| 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 5/14 上 OpenRouter 免费 256K + 百万 token agent 实测]] | 10 |
+| 2026-05-14 | [[deepseek-v3-v4架构演进-sparse-attention-rl三步跳\|Raschka 拆 DeepSeek V3 → V3.2 → V4 sparse attention + RL 三步跳]] | 7 |
 
 ## 相关主题
 

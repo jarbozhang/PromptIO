@@ -76,6 +76,8 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 | 2026-05-12 | [[openai-daybreak-claude-mythos-ai漏洞挖掘工作流对照\|OpenAI Daybreak 杀来了，Mythos 第三个对手登场，AI 漏洞挖掘工作流到底怎么用]] | 9 |
 | 2026-05-13 | [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter 1M context 6×]] | 9 |
 | 2026-05-13 | [[claude-platform-aws-bedrock-切换-国内云厂商怎么抄\|Claude Platform on AWS / SDK v0.101 切换国内云厂商怎么抄]] | 8 |
+| 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Goose 免费 Claude Code 替代，Block 26100 stars 一年省 2400 美元]] | 9 |
+| 2026-05-14 | [[anthropic业务客户超openai-国内中小老板claude路线\|Anthropic 业务客户首次超过 OpenAI，国内中小老板 Claude 路线该怎么抄]] | 7 |
 
 ## 注意
 

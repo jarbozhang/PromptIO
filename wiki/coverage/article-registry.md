@@ -2,6 +2,31 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-14（10 篇，voice 分布 first-person 3 / narrative 0 / analytical 6 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 今天上 OpenRouter 免费白嫖 256K 上下文 + 百万 token agent 实测]] | 10 | first-person | [[deepseek\|DeepSeek]], [[openrouter\|OpenRouter]] | [[ai-pricing\|AI 定价]] / [[ai-coding-tools\|AI 编程工具]] / [[chinese-ai\|国产 AI]] |
+| [[goose-免费claude-code替代-一年省2400美元\|Goose 26100 stars 完全免费 Claude Code 替代 一年省 2400 美元]] | 9 | first-person | [[block\|Block]], [[anthropic\|Anthropic]] | [[ai-coding-tools\|AI 编程工具]] / [[ai-pricing\|AI 定价]] |
+| [[openai-codex-windows沙箱-国产ai编程ide怎么跟\|OpenAI Codex on Windows 沙箱来了 国产 AI 编程 IDE 怎么跟]] | 8 | analytical | [[openai\|OpenAI]], [[codex\|Codex]] | [[ai-coding-tools\|AI 编程工具]] / [[chinese-ai\|国产 AI]] |
+| [[notion-developer-platform-ai-agent中心-飞书钉钉怎么抄\|Notion Developer Platform 把工作区变 AI agent 中心 飞书钉钉语雀怎么抄]] | 8 | analytical | [[notion\|Notion]], [[feishu\|飞书]], [[dingtalk\|钉钉]] | [[agent-frameworks\|Agent 框架]] / [[ai-productivity\|AI 办公协同]] |
+| [[simon-willison-claude-code-html不合理有效性\|Simon Willison: Claude Code + HTML 的不合理有效性 一份 prompt 出可发布原型]] | 8 | first-person | [[simon-willison\|Simon Willison]], [[claude-code\|Claude Code]] | [[ai-coding-tools\|AI 编程工具]] / [[vibe-coding\|Vibe Coding]] / 方法论 |
+| [[google-gemma-4字节级最强开源-国产qwen-deepseek怎么追\|Google Gemma 4 字节级最强开源模型 国产 Qwen DeepSeek 怎么追]] | 8 | analytical | [[google\|Google]], [[deepmind\|DeepMind]] | [[open-models\|开源模型]] / [[chinese-ai\|国产 AI]] |
+| [[anthropic业务客户超openai-国内中小老板claude路线\|Anthropic 业务客户首次超过 OpenAI 国内中小老板的 Claude 路线]] | 7 | analytical | [[anthropic\|Anthropic]], [[openai\|OpenAI]] | ai-monetization / 中小企业 AI |
+| [[openai-chatgpt-trusted-contact紧急联系人-国内豆包元宝对照\|OpenAI 上线 ChatGPT Trusted Contact 紧急联系人 国内豆包元宝心理健康对照]] | 7 | analytical | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], [[doubao\|豆包]] | [[ai-safety\|AI 安全]] / AI+生活 |
+| [[deepseek-v3-v4架构演进-sparse-attention-rl三步跳\|DeepSeek V3 → V4 架构演进 sparse attention RL 三步跳]] | 7 | retro | [[deepseek\|DeepSeek]], [[sebastian-raschka\|Sebastian Raschka]] | LLM 架构 / [[chinese-ai\|国产 AI]] |
+| [[the-verge-vibe-coding革命-个人软件平民化-国产路线\|The Verge: vibe coding 革命 个人软件平民化 国产路线对照]] | 7 | analytical | [[the-verge\|The Verge]], [[trae\|Trae]], [[tongyi-coder\|通义灵码]] | [[vibe-coding\|Vibe Coding]] / [[chinese-ai\|国产 AI]] / AI 民主化 |
+
+**5/14 voice 分布**：first-person 3 / narrative 0 / analytical 6 / retro 1。analytical 占主导（#3 #4 #6 #7 #8 #10 六篇行业事件 + 现象解读组合），first-person 工具实测 3 篇（#1 #2 #5），retro 论文拆解 1 篇（#9 DeepSeek 架构）。
+
+**5/14 优先品牌**：openclaw 371k stars 持续在 GitHub Trending 但无新事件 → 跳过（5/12 #1 刚出过生态全景）；NousResearch hermes-agent 149k stars 同样持续涨但无新事件 → 跳过。本期没有命中优先品牌 +1 boost。下一轮见到新动态依然优先选入。
+
+**5/14 QA 结果**：10/10 全过 overall_pass。L2 平均 8.3、L3 平均 8.3、L4 全 pass、L5 平均 7.8、L6 10 pass / 0 fail。L1 共 7 处机械替换。rounds 平均 0.5（前 5 篇首轮过、后 5 篇 1 轮微调）。
+
+**5/14 Step 4.6**：6 篇生成 xhs-version.md（#1 #2 #3 #4 #5 #6，reach ≥ 8 主动触发）；4 篇 xhs:primary 直发主版本（#7 #8 #9 #10，均 reach=7 + L6 pass）；0 篇 xhs:blocked。
+
+**5/14 X 抓取**：跳过（Chrome cookies 失效，与近 5 日同因）。社区反馈用 last30days 拉的 Reddit/HN/GitHub 替代，10 个选题全部成功拉到。
+
 ## 2026-05-13（10 篇，voice 分布 first-person 4 / narrative 0 / analytical 5 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

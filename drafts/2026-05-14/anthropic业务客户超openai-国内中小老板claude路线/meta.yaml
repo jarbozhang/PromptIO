@@ -1,0 +1,32 @@
+title: "Anthropic 业务客户首次超过 OpenAI 国内中小老板的 Claude 路线"
+status: draft
+date: 2026-05-14
+reach: 7
+sources:
+  - techcrunch-ai-a1cf4478
+  - techcrunch-ai-33994bb3
+tags:
+  - Anthropic
+  - Claude
+  - OpenAI
+  - 中小企业
+  - AI 商业化
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""

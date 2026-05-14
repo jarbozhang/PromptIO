@@ -11,6 +11,7 @@
 
 ## 近期入驻事件
 
+- **2026-05-14** — DeepSeek [[deepseek-v4|V4 Flash]] 在 OpenRouter 免费上线，256K context + 百万 token agent loop 实测，把国产前沿模型免费首发新底部继续往下打
 - **2026-05-08** — 蚂蚁 [[ling-2-6-1t|Ling-2.6-1T]] 旗舰付费版上线 $0.30/M、Google [[gemini-3-1-flash-lite|Gemini 3.1 Flash Lite]] $0.25/M 1M 多模态、Block [[goose|Goose]] 通过 OpenRouter 接 [[deepseek|DeepSeek]] 跑本地编程 agent（三件接连，价格断档新低）
 - **2026-04-28** — 给 7 个主流模型一口气加 Latest 别名（覆盖 OpenAI / Anthropic / Google / Moonshot 等），Agent 调用层从此自动跟随最新版本，省去手动改 model id
 - **2026-04-27** — 阿里 Qwen3.6 全家桶 5 个模型一口气上 OpenRouter（27B Dense 到 1T Max Preview 全档位）
@@ -45,6 +46,7 @@
 | 2026-04-30 | [[蚂蚁ling-2-6-flash上openrouter-agent实时档\|蚂蚁 Ling-2.6-flash 偷上 OpenRouter，104B 总参数 7.4B 激活]] | 国产 MoE agent 实时档 |
 | 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费，四模态全收]] | 海外四模态免费白嫖 |
 | 2026-05-13 | [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter 1M context 6×]] | Opus 新档位首发 / 1M context |
+| 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 在 OpenRouter 免费上线 256K + 百万 token 实测]] | 国产前沿模型免费首发 / 长 context |
 
 ## 相关主题
 

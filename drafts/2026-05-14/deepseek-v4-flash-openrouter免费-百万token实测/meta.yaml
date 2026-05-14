@@ -1,0 +1,32 @@
+title: "DeepSeek V4 Flash 今天上 OpenRouter 免费白嫖 256K 上下文 + 百万 token agent 实测"
+status: draft
+date: 2026-05-14
+reach: 10
+sources:
+  - openrouter-new-model-bfbac99c
+  - hugging-face-blog-807d3648
+tags:
+  - DeepSeek
+  - OpenRouter
+  - 免费 API
+  - 国产 AI
+  - 长上下文
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

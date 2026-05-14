@@ -74,6 +74,10 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 | 2026-05-07 | [[9router一夜130星-40providers免费连claude-code-codex-cursor\|一夜 130 星的 9router，把 Claude Code 切到 40 多家免费后端我跑了一晚上]] | 多 provider 路由 / 省钱 |
 | 2026-05-07 | [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | 开源编程模型 / 本地 agent |
 | 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | spec 编排 / agent 调度协议 |
+| 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 在 OpenRouter 免费上线 256K，接入编程工具实测]] | 10 |
+| 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Block Goose 26100 stars 完全免费 Claude Code 平替]] | 9 |
+| 2026-05-14 | [[openai-codex-windows沙箱-国产ai编程ide怎么跟\|OpenAI Codex on Windows 沙箱，国产 AI 编程 IDE 对照]] | 8 |
+| 2026-05-14 | [[simon-willison-claude-code-html不合理有效性\|Simon Willison Claude Code + HTML 单文件方法论]] | 8 |
 
 ## 饱和度评估
 

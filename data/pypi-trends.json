@@ -16,9 +16,9 @@
       "last_month": 293510421
     },
     "anthropic": {
-      "last_day": 4888071,
-      "last_week": 29035515,
-      "last_month": 119014887
+      "last_day": 4706518,
+      "last_week": 28829540,
+      "last_month": 119776565
     },
     "vllm": {
       "last_day": 232611,
@@ -51,5 +51,5 @@
       "last_month": 1552652
     }
   },
-  "updated_at": "2026-05-13T10:19:07.389Z"
+  "updated_at": "2026-05-14T12:25:58.565Z"
 }

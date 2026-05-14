@@ -27,6 +27,7 @@ Simon 是英文 AI 社区里最高产的"工具试用者"，他的博客是工�
 | 2026-04-13 | [[chatgpt上车了-但simon-willison说语音模式跑的是弱模型|ChatGPT上车了，但Simon Willison说语音模式跑的是弱模型]] | 主角 |
 | 2026-04-18 | Qwen3.6-35B在笔记本上画的图比Claude Opus 4.7好——Simon Willison亲测 | 主角 |
 | 2026-04-08 | [[simon-willison写了个扫secret的cli|500行Python扫出API Key，Simon Willison的开发过程]] | 主角 |
+| 2026-05-14 | [[simon-willison-claude-code-html不合理有效性\|Simon Willison Claude Code + HTML 单文件方法论的"不合理有效性"]] | 主角（Claude Code + HTML 工作流原作者） |
 
 ## 选题建议
 

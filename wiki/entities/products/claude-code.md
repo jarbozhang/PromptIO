@@ -56,6 +56,8 @@ Claude Code 在中文 AI 社区（X/小红书）是当前最热的工具话题�
 | 2026-05-13 | [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter 1M context 6×]] | 模型新档位 / OpenRouter 接入 |
 | 2026-05-13 | [[claude-platform-aws-bedrock-切换-国内云厂商怎么抄\|Claude Platform on AWS / SDK v0.101 切换国内云厂商怎么抄]] | 云基础设施 / SDK 切换路径 |
 | 2026-05-13 | [[imbad0202-academic-research-skills-claude-code-学术研究全自动\|academic-research-skills 把 Claude Code 变成学术研究全自动流水线]] | Skill 生态 / 学术研究工作流 |
+| 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Block Goose 26100 stars 完全免费 Claude Code 替代]] | 开源平替 / 一年省 2400 美元 |
+| 2026-05-14 | [[simon-willison-claude-code-html不合理有效性\|Simon Willison Claude Code + HTML 单文件方法论的不合理有效性]] | KOL 方法论 / Claude Code + HTML 单文件 |
 
 ## 注意
 
