@@ -1,0 +1,21 @@
+---
+title: Reducing cross-sample prediction churn in scientific machine learning
+url: 'https://arxiv.org/abs/2605.13826v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Gordan Prastalo
+  - Kevin Maik Jablonka
+categories:
+  - cs.LG
+  - cond-mat.mtrl-sci
+  - physics.chem-ph
+  - cs.LG
+published: '2026-05-13T17:50:57Z'
+fetched_at: '2026-05-14T12:15:41.548Z'
+---
+Scientific machine learning reports predictive performance. It does not report whether the same prediction would survive a different draw of training data. Across $9$ chemistry benchmarks, two classifiers trained on independent bootstraps of the same training set agree on aggregate accuracy to within $1.3\text{--}4.2$ percentage points but disagree on the class label of $8.0\text{--}21.8\%$ of test molecules. We call this gap \emph{cross-sample prediction churn}. The standard parameter-side techniques (deep ensembles, MC dropout, stochastic weight averaging) do not reduce this gap; two data-side methods do. The first is $K$-bootstrap bagging, which cuts the rate $40\text{--}54\%$ on every dataset at no accuracy cost ($K{\times}$-ERM compute). The second is \emph{twin-bootstrap}, our proposal: two networks trained jointly on independent bootstraps with a sym-KL consistency loss between their predictions, which at matched $2{\times}$-ERM compute reduces churn a further median $45\%$ beyond bagging-$K{=}2$. Cross-sample prediction churn deserves a column alongside predictive performance in scientific-ML benchmark reports, because without it the parameter-side and data-side methods are indistinguishable on the metric they actually differ on.
+
+Authors: Gordan Prastalo, Kevin Maik Jablonka
+Categories: cs.LG, cond-mat.mtrl-sci, physics.chem-ph, cs.LG

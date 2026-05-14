@@ -1,0 +1,23 @@
+---
+title: >-
+  Uncertainty-Driven Anomaly Detection for Psychotic Relapse Using Smartwatches:
+  Forecasting and Multi-Task Learning Fusion
+url: 'https://arxiv.org/abs/2605.13816v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Nikolaos Tsalkitzis
+  - Panagiotis P. Filntisis
+  - Petros Maragos
+  - Niki Efthymiou
+categories:
+  - cs.LG
+  - cs.LG
+published: '2026-05-13T17:43:07Z'
+fetched_at: '2026-05-14T12:15:41.552Z'
+---
+Digital phenotyping enables continuous passive monitoring of behavior and physiology, offering a promising paradigm for early detection of psychotic relapse. In this work, we develop and systematically study two smartwatch-based frameworks for daily relapse detection. The first forecasts cardiac dynamics and flags deviations between predicted and observed features as indicators of abnormality. The second adopts a multi-task formulation that fuses sleep with motion and cardiac-derived signals, learning time-aware embeddings and predicting measurement timing. Both pipelines use Transformer encoders and output a daily anomaly score, derived from predictive uncertainty estimated via an ensemble of multilayer perceptrons to improve robustness to real-world wearable variability. While each framework independently demonstrates strong predictive power, we show that they capture complementary physiological signatures. Consequently, we propose a late-fusion strategy that synergistically combines the anomaly signals from both architectures into a unified decision score. We benchmark our methodology on the 2nd e-Prevention Grand Challenge dataset, where our fused model achieves a 8% relative improvement over the competition-winning baseline. Our results, supported by extensive ablation studies, suggest that the integration of diverse digital phenotypes, cardiac, motion, and sleep, is essential for the high-fidelity detection of psychotic relapse in real-world settings.
+
+Authors: Nikolaos Tsalkitzis, Panagiotis P. Filntisis, Petros Maragos, Niki Efthymiou
+Categories: cs.LG, cs.LG
