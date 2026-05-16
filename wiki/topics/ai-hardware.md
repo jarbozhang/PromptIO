@@ -25,6 +25,8 @@ AI 推理 / 训练芯片、数据中心、消费端 AI 硬件。重点关注 NVI
 | 2026-04-19 | NVIDIA Lyra 2.0：AI 生成可探索的 3D 世界 | 多模态硬件 |
 | 2026-04-30 | [[华为昇腾triton语言开源-国产gpu软件栈\|华为昇腾的 Triton 语言开源了，国产 GPU 软件栈第一次对齐 PyTorch 圈通用底座]] | 国产 GPU 软件栈 / 昇腾 |
 | 2026-05-07 | [[deepseek-v4-pro-flash双发-华为昇腾跑国产开源前沿\|DeepSeek V4 Pro 不再是 benchmark 第一名，但它把 1.6T 模型直接放到了昇腾上]] | 国产 GPU + 开源旗舰首次同框 |
+| 2026-05-16 | [[cerebras-600亿美元ipo-算力公司大事件-国产昇腾cambricon估值怎么算\|Cerebras $60B IPO wafer-scale chip]] | Cerebras IPO / 算力公司大事件 |
+| 2026-05-16 | [[whichllm-282hn票-一键查电脑能跑哪个本地llm\|whichllm 硬件→模型映射]] | 本地硬件选型 / 282 HN 票 |
 
 ## 相关实体
 

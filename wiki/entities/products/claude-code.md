@@ -58,6 +58,9 @@ Claude Code 在中文 AI 社区（X/小红书）是当前最热的工具话题�
 | 2026-05-13 | [[imbad0202-academic-research-skills-claude-code-学术研究全自动\|academic-research-skills 把 Claude Code 变成学术研究全自动流水线]] | Skill 生态 / 学术研究工作流 |
 | 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Block Goose 26100 stars 完全免费 Claude Code 替代]] | 开源平替 / 一年省 2400 美元 |
 | 2026-05-14 | [[simon-willison-claude-code-html不合理有效性\|Simon Willison Claude Code + HTML 单文件方法论的不合理有效性]] | KOL 方法论 / Claude Code + HTML 单文件 |
+| 2026-05-16 | [[clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员\|Clawdmeter Claude Code 用量桌面 dashboard]] | 用量监控 / openclaw 生态新工具 |
+| 2026-05-16 | [[anthropic官方claude-code大代码库使用手册-237hn票最佳实践\|Anthropic 官方 Claude Code 大代码库使用手册]] | 官方手册 / 大代码库最佳实践 |
+| 2026-05-16 | [[anthropic-skills官方仓库-923颗星-skills四派归一\|anthropic/skills 官方仓库 +923 stars Skills 四派归一]] | Skills 官方仓库 / 四派归一 |
 
 ## 注意
 

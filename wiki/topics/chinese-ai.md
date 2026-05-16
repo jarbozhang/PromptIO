@@ -30,6 +30,8 @@
 | 2026-05-14 | [[google-gemma-4字节级最强开源-国产qwen-deepseek怎么追\|Gemma 4 最强开源，国产 Qwen / DeepSeek 怎么追]] | 8 |
 | 2026-05-14 | [[deepseek-v3-v4架构演进-sparse-attention-rl三步跳\|Raschka 拆 DeepSeek V3 → V4 架构演进透明化]] | 7 |
 | 2026-05-14 | [[the-verge-vibe-coding革命-个人软件平民化-国产路线\|The Verge vibe coding 革命，Trae / 通义灵码国产 vibe coding 路线]] | 7 |
+| 2026-05-16 | [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|蚂蚁 Ring-2.6-1T 万亿 thinking 上 OpenRouter]] | 9 |
+| 2026-05-16 | [[百度qianfan-ocr-fast-openrouter国产ocr多模态新选项\|百度 Qianfan-OCR-Fast 多模态 OCR]] | 8 |
 
 ## 关键子线
 

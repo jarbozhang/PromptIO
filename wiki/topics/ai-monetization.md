@@ -20,6 +20,7 @@
 | 2026-05-06 | [[marc-lore-ai让人开餐厅-qutwo-3-8亿天使轮\|Marc Lore 用 AI 帮人开餐厅，Qutwo 3.8 亿美元天使轮]] | 7 |
 | 2026-05-01 | [[meta-manus赚钱广告-国内ai副业号警觉\|Meta 用 Manus 打"AI 帮你赚钱"广告，国内副业号该警觉]] | 7 |
 | 2026-05-14 | [[anthropic业务客户超openai-国内中小老板claude路线\|Anthropic 业务客户首次超过 OpenAI，国内中小老板 Claude 路线]] | 7 |
+| 2026-05-16 | [[openai-chatgpt接管银行账户-plaid国内豆包元宝为什么做不到\|ChatGPT 进入个人理财 user-facing 商业化]] | 8 |
 
 ## 关键子线
 

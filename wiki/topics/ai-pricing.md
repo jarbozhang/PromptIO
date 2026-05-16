@@ -52,6 +52,7 @@
 | 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 开源低价策略与估值锚 |
 | 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 在 OpenRouter 免费上线 256K + 百万 token 实测]] | 10 |
 | 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Block Goose 26100 stars 完全免费 Claude Code 替代，一年省 2400 美元]] | 9 |
+| 2026-05-16 | [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|Ring-2.6-1T 几乎免费 $0.075/M 万亿模型新底价]] | 9 |
 
 ## 饱和度评估
 

@@ -1,0 +1,31 @@
+title: "whichllm 282 HN 票一键查你的电脑能跑得动哪个本地 LLM"
+status: draft
+date: 2026-05-16
+reach: 7
+sources:
+  - hacker-news-algolia-ai-filter-b40dcd22
+tags:
+  - whichllm
+  - 本地推理
+  - 硬件选型
+  - benchmark
+  - 本地 LLM
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""

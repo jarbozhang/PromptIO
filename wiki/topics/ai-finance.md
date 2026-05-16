@@ -22,6 +22,7 @@ AI 在金融场景的落地：多 Agent 对冲基金、量化策略、投研 Age
 | 2026-04-22 | [[finceptterminal一天2548星-开源版彭博终端\|FinceptTerminal 一天 +2548 star，想干掉 25000 美元的彭博终端]] | 金融数据终端开源平替 |
 | 2026-04-21 | [[tradingagents-5wan-xing-kai-yuan-dui-chong-ji-jin\|TradingAgents 对冲基金架构开源，年化 30.5% 敢不敢跑实盘]] | 回测 vs 实盘 |
 | 2026-04-15 | [[langalpha把claude-code搬到华尔街-hn-110分的金融ai-agent怎么解决token爆炸\|LangAlpha 金融 AI Agent]] | Token 爆炸/架构分析 |
+| 2026-05-16 | [[openai-chatgpt接管银行账户-plaid国内豆包元宝为什么做不到\|ChatGPT 接 Plaid 银行账户 个人理财]] | personal finance preview / Plaid 银行账户 |
 
 ## 相关实体
 

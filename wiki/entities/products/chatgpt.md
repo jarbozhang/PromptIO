@@ -22,5 +22,7 @@
 | 日期 | 文章 | 角度 |
 |------|------|------|
 | 2026-05-14 | [[openai-chatgpt-trusted-contact紧急联系人-国内豆包元宝对照\|ChatGPT Trusted Contact 紧急联系人功能，国内豆包元宝对照]] | AI+心理健康 / 紧急联系人保护分支 |
+| 2026-05-16 | [[openai-codex-跑进手机-全平台同步-国产ide怎么跟\|ChatGPT mobile 集成 Codex 移动端 vibe coding]] | 移动端 / 全平台 Codex 入口 |
+| 2026-05-16 | [[openai-chatgpt接管银行账户-plaid国内豆包元宝为什么做不到\|ChatGPT 接 Plaid 银行账户 personal finance preview]] | personal finance / Plaid 接管银行账户 |
 
 定价和产品动态主要通过 OpenAI 公司页面追踪，此处仅记 ChatGPT 直接主角文章。

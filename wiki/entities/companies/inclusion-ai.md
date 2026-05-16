@@ -13,6 +13,7 @@
 |------|------|-------|
 | 2026-05-10 | [[蚂蚁ring-腾讯hy3-双双上openrouter-万亿模型免费\|蚂蚁 Ring-2.6-1T 万亿推理模型 + 腾讯 Hy3 preview 同天免费上 OpenRouter，国产万亿双子线]] | 9 |
 | 2026-05-08 | [[蚂蚁ling-2-6-1t万亿模型上openrouter-比deepseek便宜\|蚂蚁 Ling-2.6-1T 万亿参数旗舰悄悄上 OpenRouter，1M token 三毛钱比 DeepSeek 还便宜]] | 8 |
+| 2026-05-16 | [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|Ring-2.6-1T 上 OpenRouter，1T 总参 + 63B active + 262K 上下文]] | 9 |
 
 ## 相关实体
 

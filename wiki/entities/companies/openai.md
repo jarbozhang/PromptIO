@@ -81,6 +81,8 @@
 | 2026-05-14 | [[openai-codex-windows沙箱-国产ai编程ide怎么跟\|OpenAI Codex on Windows 沙箱实现，国产 AI 编程 IDE 怎么跟]] | 8 |
 | 2026-05-14 | [[anthropic业务客户超openai-国内中小老板claude路线\|Anthropic 业务客户超过 OpenAI，国内中小老板 Claude 路线（OpenAI 作为对照方）]] | 7 |
 | 2026-05-14 | [[openai-chatgpt-trusted-contact紧急联系人-国内豆包元宝对照\|OpenAI ChatGPT Trusted Contact 紧急联系人，国内豆包元宝对照]] | 7 |
+| 2026-05-16 | [[openai-codex-跑进手机-全平台同步-国产ide怎么跟\|OpenAI Codex 跑进手机 ChatGPT mobile 全平台同步]] | 9 |
+| 2026-05-16 | [[openai-chatgpt接管银行账户-plaid国内豆包元宝为什么做不到\|OpenAI ChatGPT 接 Plaid 银行账户 personal finance preview]] | 8 |
 
 ## 注意
 

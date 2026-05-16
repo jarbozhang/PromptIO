@@ -78,6 +78,10 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 | 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Block Goose 26100 stars 完全免费 Claude Code 平替]] | 9 |
 | 2026-05-14 | [[openai-codex-windows沙箱-国产ai编程ide怎么跟\|OpenAI Codex on Windows 沙箱，国产 AI 编程 IDE 对照]] | 8 |
 | 2026-05-14 | [[simon-willison-claude-code-html不合理有效性\|Simon Willison Claude Code + HTML 单文件方法论]] | 8 |
+| 2026-05-16 | [[openai-codex-跑进手机-全平台同步-国产ide怎么跟\|Codex 跑进手机 全平台 vibe coding]] | 9 |
+| 2026-05-16 | [[clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员\|Clawdmeter Claude Code 用量监控工具]] | 9 |
+| 2026-05-16 | [[anthropic官方claude-code大代码库使用手册-237hn票最佳实践\|Anthropic 官方 Claude Code 大代码库使用手册]] | 8 |
+| 2026-05-16 | [[anthropic-skills官方仓库-923颗星-skills四派归一\|anthropic/skills 四派归一]] | 8 |
 
 ## 饱和度评估
 

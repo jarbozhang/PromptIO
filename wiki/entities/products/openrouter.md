@@ -47,6 +47,8 @@
 | 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费，四模态全收]] | 海外四模态免费白嫖 |
 | 2026-05-13 | [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter 1M context 6×]] | Opus 新档位首发 / 1M context |
 | 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 在 OpenRouter 免费上线 256K + 百万 token 实测]] | 国产前沿模型免费首发 / 长 context |
+| 2026-05-16 | [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|Ring-2.6-1T 在 OpenRouter 上线 + 国产万亿 thinking model 节奏]] | 国产万亿 thinking model 入驻 / 几乎免费 |
+| 2026-05-16 | [[百度qianfan-ocr-fast-openrouter国产ocr多模态新选项\|Qianfan-OCR-Fast 在 OpenRouter 上线 + 国产 OCR 选项]] | 国产 OCR 多模态新选项 |
 
 ## 相关主题
 

@@ -13,6 +13,7 @@ OCR 模型与多模态文档理解。重点关注国产 OCR 模型的免费/低�
 | 日期 | 文章 | 角度 |
 |------|------|------|
 | 2026-04-23 | [[百度千帆ocr-fast免费上openrouter-发票合同截图白嫖\|百度千帆 OCR 居然免费扔到 OpenRouter 上了]] | 国产免费 OCR 实测 |
+| 2026-05-16 | [[百度qianfan-ocr-fast-openrouter国产ocr多模态新选项\|百度 Qianfan-OCR-Fast 国产 OCR 模型多模态]] | 国产 OCR 多模态新选项 |
 
 ## 相关实体
 

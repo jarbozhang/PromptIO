@@ -2,6 +2,31 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-05-16（10 篇，voice 分布 first-person 4 / narrative 1 / analytical 4 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|蚂蚁 Ring-2.6-1T 上 OpenRouter 国产万亿 thinking model 几乎免费白嫖]] | 9 | first-person | [[ant-group\|蚂蚁]], [[inclusion-ai\|inclusionAI]], [[openrouter\|OpenRouter]] | [[chinese-ai\|国产 AI]] / [[ai-pricing\|AI 定价]] / [[open-models\|开源模型]] |
+| [[百度qianfan-ocr-fast-openrouter国产ocr多模态新选项\|百度 Qianfan-OCR-Fast 上 OpenRouter 国产 OCR 多模态文档解析新选项]] | 8 | analytical | [[baidu\|百度]], [[qianfan\|千帆]], [[openrouter\|OpenRouter]] | [[chinese-ai\|国产 AI]] / [[ocr\|OCR]] / [[multimodal\|多模态]] |
+| [[openai-codex-跑进手机-全平台同步-国产ide怎么跟\|OpenAI Codex 跑进手机 全平台同步 移动端 vibe coding 国产 IDE 怎么跟]] | 9 | analytical | [[openai\|OpenAI]], [[codex\|Codex]], [[chatgpt\|ChatGPT]] | [[ai-coding-tools\|AI 编程工具]] / [[vibe-coding\|Vibe Coding]] |
+| [[clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员\|Clawdmeter 把 Claude Code 用量做成桌面小挂件 openclaw 生态又冒新成员]] | 9 | first-person | [[clawdmeter\|Clawdmeter]], [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[openclaw-org\|openclaw]] | [[openclaw-ecosystem\|openclaw 生态]] / [[ai-coding-tools\|AI 编程工具]] |
+| [[cerebras-600亿美元ipo-算力公司大事件-国产昇腾cambricon估值怎么算\|Cerebras 600 亿美元 IPO 算力公司大事件 国产昇腾 Cambricon 估值怎么算]] | 7 | analytical | [[cerebras\|Cerebras]], [[huawei\|华为]], [[cambricon\|寒武纪]] | [[ai-hardware\|AI 硬件]] / [[ai-mergers\|AI 行业并购]] |
+| [[openai-chatgpt接管银行账户-plaid国内豆包元宝为什么做不到\|OpenAI 让 ChatGPT 接管你的银行账户 Plaid 国内豆包元宝为什么做不到]] | 8 | analytical | [[openai\|OpenAI]], [[chatgpt\|ChatGPT]], [[doubao\|豆包]] | [[ai-finance\|AI 金融]] / [[ai-monetization\|AI 商业化]] |
+| [[mit-tr-中国短剧ai内容机器-横店ai编剧实操路径\|MIT TR 中国短剧变成 AI 内容机器 横店 AI 编剧 5 天出 100 集实操路径]] | 8 | narrative | [[mit-tr\|MIT Technology Review]], [[kling\|可灵]], [[jimeng\|即梦]] | [[ai-film\|AI 影视]] / [[creator-economy\|创作者经济]] |
+| [[whichllm-282hn票-一键查电脑能跑哪个本地llm\|whichllm 282 HN 票一键查你的电脑能跑得动哪个本地 LLM]] | 7 | first-person | [[whichllm\|whichllm]], [[ollama\|Ollama]], [[llama-cpp\|llama.cpp]] | [[local-inference\|本地推理]] / [[ai-hardware\|AI 硬件]] |
+| [[anthropic官方claude-code大代码库使用手册-237hn票最佳实践\|Anthropic 官方 Claude Code 大代码库使用手册 237 HN 票最佳实践拆解]] | 8 | retro | [[anthropic\|Anthropic]], [[claude-code\|Claude Code]] | [[ai-coding-tools\|AI 编程工具]] / 方法论 |
+| [[anthropic-skills官方仓库-923颗星-skills四派归一\|anthropic/skills 官方仓库一天 923 颗星 Claude Skills 四派归一]] | 8 | analytical | [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[matt-pocock\|Matt Pocock]] | [[ai-coding-tools\|AI 编程工具]] / 方法论 |
+
+**5/16 voice 分布**：first-person 4 / narrative 1 / analytical 4 / retro 1。比 5/14 更均衡，narrative 首次回归（#7 短剧产业链事件追踪）。
+
+**5/16 优先品牌**：**openclaw 生态新成员命中**——#4 Clawdmeter 是 5/12 openclaw 主仓库 371k 之后第一个 openclaw 生态新工具（clawd 前缀），优先品牌 +1 boost 触发，REACH 9。NousResearch hermes-agent 149k stars 持续涨但无新事件 → 跳过。
+
+**5/16 QA 结果**：10/10 全过 overall_pass。L2 平均 8.2 / L3 平均 8.2 / L4 全 pass / L5 平均 7.9 / L6 全过 0 fail。L1 共 12 处机械替换。rounds 平均 0（前后两批全部首轮通过，零质修循环）。
+
+**5/16 Step 4.6**：8 篇生成 xhs-version.md（#1 #2 #3 #4 #6 #7 #9 #10，reach ≥ 8 主动触发）；2 篇 xhs:primary 直发主版本（#5 Cerebras IPO reach=7 / #8 whichllm reach=7）；0 篇 xhs:blocked。
+
+**5/16 X 抓取**：跳过（Chrome cookies 失效，与近 7 日同因）。社区反馈用 last30days 替代，10/10 全部成功拉到 Reddit/HN/GitHub。
+
 ## 2026-05-14（10 篇，voice 分布 first-person 3 / narrative 0 / analytical 6 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

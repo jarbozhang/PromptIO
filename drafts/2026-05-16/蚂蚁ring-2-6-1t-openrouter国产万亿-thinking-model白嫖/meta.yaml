@@ -1,0 +1,31 @@
+title: "蚂蚁 Ring-2.6-1T 上 OpenRouter 国产万亿 thinking model 几乎免费白嫖"
+status: draft
+date: 2026-05-16
+reach: 9
+sources:
+  - openrouter-new-model-23f3d9b6
+tags:
+  - 蚂蚁
+  - Ring
+  - OpenRouter
+  - 国产 AI
+  - thinking model
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

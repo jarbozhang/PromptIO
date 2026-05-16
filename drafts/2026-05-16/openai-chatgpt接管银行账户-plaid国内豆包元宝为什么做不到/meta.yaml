@@ -1,0 +1,32 @@
+title: "OpenAI 让 ChatGPT 接管你的银行账户 Plaid 国内豆包元宝为什么做不到"
+status: draft
+date: 2026-05-16
+reach: 8
+sources:
+  - the-verge-ai-cb95e9e2
+  - openai-blog-4ed1b1b7
+tags:
+  - ChatGPT
+  - OpenAI
+  - 金融
+  - Plaid
+  - 国内监管
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

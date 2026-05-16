@@ -20,6 +20,7 @@
 | 2026-05-08 | [[openclaw-claude-codex-把ai播客一键发spotify\|openclaw 给 Claude / Codex 装了个一键发 Spotify 的口子]] | 8 |
 | 2026-05-05 | [[ace-step-ui-开源ai音乐生成器-本地不限量\|ACE-Step-UI 开源 AI 音乐生成器，本地不限量]] | 7 |
 | 2026-05-05 | [[lightricks-ltx-2开源音视频生成模型-本地训lora\|Lightricks LTX-2 开源音视频生成模型，本地训 LoRA]] | 8 |
+| 2026-05-16 | [[mit-tr-中国短剧ai内容机器-横店ai编剧实操路径\|中国短剧 AI 化 横店 AI 编剧]] | 8 |
 
 ## 关键子线
 

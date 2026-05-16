@@ -1,0 +1,31 @@
+title: "Cerebras 600 亿美元 IPO 算力公司大事件 国产昇腾 Cambricon 估值怎么算"
+status: draft
+date: 2026-05-16
+reach: 7
+sources:
+  - latent-space-7570be3c
+tags:
+  - Cerebras
+  - IPO
+  - AI 硬件
+  - 昇腾
+  - Cambricon
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""

@@ -1,0 +1,31 @@
+title: "Anthropic 官方 Claude Code 大代码库使用手册 237 HN 票最佳实践拆解"
+status: draft
+date: 2026-05-16
+reach: 8
+sources:
+  - hacker-news-algolia-ai-filter-b74623b5
+tags:
+  - Anthropic
+  - Claude Code
+  - 大代码库
+  - AI 编程
+  - 最佳实践
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

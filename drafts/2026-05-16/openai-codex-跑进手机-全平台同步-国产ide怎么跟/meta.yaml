@@ -1,0 +1,32 @@
+title: "OpenAI Codex 跑进手机 全平台同步 移动端 vibe coding 国产 IDE 怎么跟"
+status: draft
+date: 2026-05-16
+reach: 9
+sources:
+  - openai-blog-09ab76a1
+  - techcrunch-ai-5cc6e708
+tags:
+  - OpenAI
+  - Codex
+  - 手机
+  - AI 编程
+  - 国产 IDE
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 3
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

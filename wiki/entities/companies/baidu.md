@@ -19,6 +19,7 @@
 | 2026-05-11 | [[智谱glm-ocr开源-国产ocr工具选哪个\|智谱悄悄放出 GLM-OCR，国产 OCR 工具该选哪个，PaddleOCR 还守得住吗]] | 7 |
 | 2026-05-06 | [[百度cobuddy免费上openrouter-国产编程模型白嫖131k-context\|百度第二个免费模型上 OpenRouter，这次是编程模型 CoBuddy，131k 上下文白嫖]] | 9 |
 | 2026-04-23 | [[百度千帆ocr-fast免费上openrouter-发票合同截图白嫖\|百度千帆 OCR 居然免费扔到 OpenRouter 上了]] | 8 |
+| 2026-05-16 | [[百度qianfan-ocr-fast-openrouter国产ocr多模态新选项\|百度 Qianfan-OCR-Fast 上 OpenRouter 国产 OCR 多模态新选项]] | 8 |
 
 ## 相关实体
 

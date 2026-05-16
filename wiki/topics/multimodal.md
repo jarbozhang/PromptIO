@@ -41,6 +41,7 @@
 | 2026-04-30 | [[nvidia-nemotron-30b-omni免费上openrouter-4模态白嫖\|NVIDIA Nemotron 30B Omni 上 OpenRouter 免费，文图视频音频四模态全收]] | 海外四模态免费 / 全模态 |
 | 2026-05-07 | [[gemini-robotics-er-1-6发布-deepmind把空间推理塞给现实机器人\|Gemini Robotics-ER 1.6 发布，DeepMind 把多视角空间推理塞给现实机器人]] | 多视角空间推理 / VLM 工业仪表 |
 | 2026-05-07 | [[replicate上线remote-mcp-server-claude-cursor-vs-code一行接1000模型\|Replicate 把整个模型仓库做成了 MCP，Claude Code 一句话挑模型跑模型]] | 多模态模型仓库 / MCP 工具接入 |
+| 2026-05-16 | [[百度qianfan-ocr-fast-openrouter国产ocr多模态新选项\|Qianfan-OCR-Fast 文本+图像→文本]] | OCR 多模态新选项 |
 
 ## 相关实体
 

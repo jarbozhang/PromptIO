@@ -15,6 +15,7 @@
 |------|------|-------|
 | 2026-05-14 | [[simon-willison-claude-code-html不合理有效性\|Simon Willison Claude Code + HTML 单文件方法论的"不合理有效性"]] | 8 |
 | 2026-05-14 | [[the-verge-vibe-coding革命-个人软件平民化-国产路线\|The Verge vibe coding 革命：个人软件平民化 + 国产路线]] | 7 |
+| 2026-05-16 | [[openai-codex-跑进手机-全平台同步-国产ide怎么跟\|Codex 移动端 vibe coding 全平台]] | 9 |
 
 ## 关联实体 / 主题
 

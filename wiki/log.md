@@ -2,6 +2,34 @@
 
 追加式记录，最新在前。
 
+## [2026-05-16] generate | 10 drafts, REACH>=7, RSS+signals (X 跳过, 5/15 跳天)
+
+- **采集**：RSS/GitHub/arXiv 518 items + GitHub Trending 25 AI repos + OpenRouter 2 new（蚂蚁 Ring-2.6-1T + 百度 Qianfan-OCR-Fast 同日双国产）+ PyPI crewai +27.9% weekly spike + TrendRadar Docker 目录缺失（soft-fail）
+- **X 抓取跳过**：bird Chrome cookies 失效（与近 7 日同因），社区反馈全程 last30days（Reddit/HN/GitHub），10/10 成功
+- **新增 10 篇文章**：
+  - #1 蚂蚁 Ring-2.6-1T 上 OpenRouter 国产万亿 thinking model 几乎免费白嫖（REACH 9 first-person）
+  - #2 百度 Qianfan-OCR-Fast 上 OpenRouter 国产 OCR 多模态文档解析新选项（REACH 8 analytical）
+  - #3 OpenAI Codex 跑进手机 全平台同步 移动端 vibe coding 国产 IDE 怎么跟（REACH 9 analytical）
+  - #4 Clawdmeter 把 Claude Code 用量做成桌面小挂件 openclaw 生态又冒新成员（REACH 9 first-person，优先品牌 +1 boost 触发）
+  - #5 Cerebras 600 亿美元 IPO 算力公司大事件 国产昇腾 Cambricon 估值怎么算（REACH 7 analytical）
+  - #6 OpenAI 让 ChatGPT 接管你的银行账户 Plaid 国内豆包元宝为什么做不到（REACH 8 analytical）
+  - #7 MIT TR 中国短剧变成 AI 内容机器 横店 AI 编剧 5 天出 100 集实操路径（REACH 8 narrative）
+  - #8 whichllm 282 HN 票一键查你的电脑能跑得动哪个本地 LLM（REACH 7 first-person）
+  - #9 Anthropic 官方 Claude Code 大代码库使用手册 237 HN 票最佳实践拆解（REACH 8 retro）
+  - #10 anthropic/skills 官方仓库一天 923 颗星 Claude Skills 四派归一（REACH 8 analytical）
+- **voice 分布**：first-person 4 / narrative 1 / analytical 4 / retro 1。比 5/14 更均衡，narrative 首次回归（#7 短剧产业链事件追踪）
+- **优先品牌 openclaw 生态新成员命中**：#4 Clawdmeter 是 5/12 openclaw 主仓库后第一个生态层新工具（clawd 前缀），优先品牌 +1 boost 触发 REACH 9
+- **新空间打开 6 条**：
+  - 国产 AI 双线同日上 OpenRouter（蚂蚁万亿 + 百度 OCR）
+  - openclaw 生态横向工具层启动（Clawdmeter）
+  - OpenAI Codex 全平台五条腿齐（CLI/Web/Desktop/Mobile/IDE）
+  - AI 影视+创作者经济双线交叉持续（中国短剧）
+  - AI 金融 user-facing 实操首次落地（ChatGPT+Plaid 银行账户）
+  - Skills 生态官方收编（anthropic/skills 四派归一）
+- **QA 结果**：10/10 全过 overall_pass。L2 平均 8.2 / L3 平均 8.2 / L4 全 pass / L5 平均 7.9 / L6 全过 0 fail。L1 共 12 处机械替换。rounds 平均 0（零质修循环，全部首轮过）
+- **Step 4.6**：8 篇 xhs:compliant（#1-#4 #6 #7 #9 #10，reach ≥ 8 主动触发）；2 篇 xhs:primary 直发（#5 Cerebras IPO / #8 whichllm，reach=7）；0 篇 xhs:blocked
+- **实体/主题页同步**：ant-group / inclusion-ai / baidu / openai / anthropic / cerebras（新建）/ openclaw-org / matt-pocock / openrouter / codex / chatgpt / claude-code / qianfan / clawdmeter（新建）追加 5/16 条目；chinese-ai / ai-pricing / open-models / ocr / multimodal / ai-coding-tools / vibe-coding / openclaw-ecosystem / ai-hardware / ai-mergers / ai-finance / ai-monetization / creator-economy / ai-film（新建）/ local-inference 追加 5/16 条目
+
 ## [2026-05-14] generate | 10 drafts, REACH>=7, RSS+signals (X 跳过)
 
 - **采集**：RSS/GitHub/arXiv 498 items + GitHub Trending 31 AI repos + OpenRouter 1 new (DeepSeek V4 Flash free 上线) + PyPI 大量 429（rate limit）+ TrendRadar Docker 目录缺失（soft-fail）

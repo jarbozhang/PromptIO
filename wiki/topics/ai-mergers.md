@@ -18,6 +18,7 @@ AI 领域的收购、融资、上市、战略投资等资本动作。通常 REAC
 | 2026-05-06 | [[cerebras-ipo-openai主合作伙伴-ai硬件公司上市\|OpenAI 主算力商 Cerebras 要 IPO 了，国产 AI 芯片股该怎么挑]] | AI 硬件 IPO / 国产芯片股对照 |
 | 2026-04-22 | [[马斯克600亿买cursor-不是ai编程的胜利\|600 亿美元，马斯克把 Cursor 买回家，这不是 AI 编程的胜利]] | 并购背后的生态冲击 |
 | 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 国产 AI 估值锚 / 大基金入场 |
+| 2026-05-16 | [[cerebras-600亿美元ipo-算力公司大事件-国产昇腾cambricon估值怎么算\|Cerebras $60B IPO 算力公司大事件]] | wafer-scale 算力公司 IPO |
 
 ## 相关实体
 

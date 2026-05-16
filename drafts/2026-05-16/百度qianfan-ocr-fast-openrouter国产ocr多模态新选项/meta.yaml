@@ -1,0 +1,31 @@
+title: "百度 Qianfan-OCR-Fast 上 OpenRouter 国产 OCR 多模态文档解析新选项"
+status: draft
+date: 2026-05-16
+reach: 8
+sources:
+  - openrouter-new-model-ef522a37
+tags:
+  - 百度
+  - Qianfan
+  - OCR
+  - OpenRouter
+  - 多模态
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

@@ -78,6 +78,9 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 | 2026-05-13 | [[claude-platform-aws-bedrock-切换-国内云厂商怎么抄\|Claude Platform on AWS / SDK v0.101 切换国内云厂商怎么抄]] | 8 |
 | 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Goose 免费 Claude Code 替代，Block 26100 stars 一年省 2400 美元]] | 9 |
 | 2026-05-14 | [[anthropic业务客户超openai-国内中小老板claude路线\|Anthropic 业务客户首次超过 OpenAI，国内中小老板 Claude 路线该怎么抄]] | 7 |
+| 2026-05-16 | [[clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员\|Clawdmeter 把 Claude Code 用量做成桌面 dashboard openclaw 生态新工具]] | 9 |
+| 2026-05-16 | [[anthropic官方claude-code大代码库使用手册-237hn票最佳实践\|Anthropic 官方 Claude Code 大代码库使用手册]] | 8 |
+| 2026-05-16 | [[anthropic-skills官方仓库-923颗星-skills四派归一\|anthropic/skills GitHub 一天 +923 stars Skills 四派归一]] | 8 |
 
 ## 注意
 

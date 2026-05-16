@@ -18,6 +18,7 @@ TypeScript 社区头部 KOL，Total TypeScript 创办者，长期产出 TypeScri
 |------|------|------|
 | 2026-04-27 | [[matt-pocock公开claude-skills目录-一天2519星-typescript社区头部\|Matt Pocock 把自己每天用的 Claude Skills 全公开了]] | 主角（Skills 目录所有者 + KOL 影响力） |
 | 2026-05-12 | [[mattpocock-claude-skills-单日4000星\|Matt Pocock 把自己 .claude/skills 目录开源了，一天涨 3886 星，能直接拿来抄]] | 主角（KOL Skills 公开二刷 + 单日 3886 星扩散） |
+| 2026-05-16 | [[anthropic-skills官方仓库-923颗星-skills四派归一\|anthropic/skills 官方仓库 923 星 + Skills 四派归一]] | 主角（mattpocock-skills 作为 Skills KOL 派在四派归一中的定位） |
 
 ## 选题建议
 

@@ -1,6 +1,71 @@
 # 主题饱和度分析
 
-基于 288 篇文章（2026-04-08 至 2026-05-14）的主题分布。**5/14 单批 10 篇后总计 288 篇。**
+基于 298 篇文章（2026-04-08 至 2026-05-16）的主题分布。**5/16 单批 10 篇后总计 298 篇。**（5/15 跳天未生成）
+
+## 5/16 10 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| 蚂蚁 Ring-2.6-1T 上 OpenRouter 国产万亿 thinking model | 9 | first-person | 国产 AI / AI 定价 / 开源模型 |
+| 百度 Qianfan-OCR-Fast 上 OpenRouter 国产 OCR 多模态 | 8 | analytical | 国产 AI / OCR / 多模态 |
+| OpenAI Codex 跑进手机 全平台同步 国产 IDE 怎么跟 | 9 | analytical | AI 编程工具 / Vibe Coding |
+| Clawdmeter Claude Code 用量桌面小挂件 openclaw 生态 | 9 | first-person | openclaw 生态 / AI 编程工具 |
+| Cerebras 600 亿美元 IPO 国产昇腾 Cambricon 估值 | 7 | analytical | AI 硬件 / AI 行业并购 |
+| ChatGPT 接管银行账户 Plaid 国内豆包元宝为什么做不到 | 8 | analytical | AI 金融 / AI 商业化 |
+| MIT TR 中国短剧 AI 内容机器 横店 AI 编剧 | 8 | narrative | AI 影视 / 创作者经济 |
+| whichllm 282 HN 票 一键查电脑跑得动哪个本地 LLM | 7 | first-person | 本地推理 / AI 硬件 |
+| Anthropic 官方 Claude Code 大代码库使用手册 | 8 | retro | AI 编程工具 / 方法论 |
+| anthropic/skills 官方仓库 923 颗星 Skills 四派归一 | 8 | analytical | AI 编程工具 / 方法论 |
+
+**5/16 主题计数变化**：
+
+- **国产 AI**: 38 → **40**（+#1 蚂蚁 Ring-2.6-1T 万亿 + #2 百度 Qianfan-OCR，国产顶级模型 + 国产 OCR 同日上 OpenRouter，国产线两条新分支）
+- **AI 编程工具**: 58 → **62**（+#3 Codex 手机 + #4 Clawdmeter + #9 Claude Code 大代码库 + #10 Anthropic skills，本期 +4 均符合"Anthropic-OpenAI 重大事件 / KOL 方法论 / openclaw 生态优先品牌"例外）
+- **AI 定价**: 40 → **41**（+#1 Ring 价格几乎免费 $0.075/M）
+- **OCR**: 1 → **2**（+#2 百度 Qianfan-OCR-Fast，4/23 百度千帆 OCR 之后第二篇）
+- **多模态**: 20 → **21**（+#2 Qianfan-OCR-Fast 文本/图像→文本）
+- **Vibe Coding**: 2 → **3**（+#3 Codex 手机移动端 vibe coding，5/14 #5 #10 后第 3 篇）
+- **openclaw 生态**: 9 → **10**（+#4 Clawdmeter，5/12 openclaw 主仓库 371k 后第一个生态新工具）
+- **AI 硬件**: 14 → **16**（+#5 Cerebras IPO + #8 whichllm 硬件选型，本期 +2 AI 硬件双线）
+- **AI 行业并购**: 10 → **11**（+#5 Cerebras $60B IPO）
+- **AI 金融**: 4 → **5**（+#6 ChatGPT + Plaid 银行账户，5/10 dexter / 5/14 Anthropic 业务客户后 AI 金融线持续）
+- **AI 商业化**: 2 → **3**（+#6，5/13 DeployCo + 5/14 Anthropic 业务客户后第 3 篇）
+- **AI 影视**: 1 → **2**（+#7 中国短剧 AI 化，5/13 #7 Hollywood 失业编剧后第 2 篇，提示新建 wiki/topics/ai-film.md）
+- **创作者经济**: 2 → **3**（+#7 横店 AI 编剧）
+- **本地推理**: 25 → **26**（+#8 whichllm 硬件选型，5/12 omlx 后第 1 个本地推理工具新增）
+- **方法论**: 12 → **14**（+#9 Anthropic 官方大代码库 + #10 anthropic/skills 四派归一）
+
+**新空间打开**：
+
+- **国产 AI 双线同日上 OpenRouter**（#1 蚂蚁 Ring 万亿 thinking model + #2 百度 Qianfan-OCR-Fast 5/16 同日双触发，国产模型上 OpenRouter 节奏明显加快）
+- **openclaw 生态横向工具层启动**（#4 Clawdmeter 是 5/12 openclaw 主仓库后第一个生态新工具，从"主仓库 + Hermes Agent"扩到"工具层"第三条路线）
+- **OpenAI Codex 全平台五条腿齐**（#3 CLI / Web / Desktop / Mobile / IDE 五端齐了，关键节点）
+- **AI 影视 + 创作者经济双线交叉持续**（#7 中国短剧，AI 影视 5/3 奥斯卡禁 AI 演员 → 5/13 Hollywood → 5/16 中国短剧，三周三个节点）
+- **AI 金融 user-facing 实操首次落地**（#6 ChatGPT 接银行账户 Plaid，AI 金融从 dexter 散户研报扩到"个人理财 user-facing"新分支）
+- **Skills 生态官方收编**（#10 anthropic/skills +923/day，把 5/12 mattpocock + 5/13 academic-research-skills 四派归一）
+
+**警告/降权说明**：
+
+- AI 编程工具 62 篇连续 11 日高饱和（5/3 +5 / 5/5 +3 / 5/6 +3 / 5/7 +5 / 5/8 +5 / 5/10 +3 / 5/11 +1 / 5/12 +2 / 5/13 +3 / 5/14 +4 / 5/16 +4 均符合例外条款），下一轮继续严格"国产 Claude Code 平替二次出圈 / Anthropic-OpenAI 重大事件 / KOL 新方法论 / openclaw 生态新动态"才纳入
+- Agent 框架 53 篇连续 12 日峰区（本期 +0，符合严格降权策略）
+- 国产 AI 40 篇高饱和，下一轮国产线只跟"非 Kimi/DeepSeek/Qwen/字节"的新增项目 + 重大 OpenRouter 上线
+- AI 定价 41 篇饱和，下一轮只跟"重大降价 / 免费白嫖新方案"
+- 本地推理 26 + AI 硬件 16 篇高饱和，下一轮严格只跟"新硬件路线首次 / 重大蒸馏范式"
+- **优先品牌 openclaw 生态新成员 +1 boost 触发**（#4 Clawdmeter，5/12 主仓库后第一个生态工具，clawd 前缀算 openclaw 生态扩展）
+- **国产 AI 双线**（蚂蚁 Ring + 百度 OCR）提示下一轮可继续追"国产模型上 OpenRouter"节奏
+
+**下一轮选题方向（结合 5/3-5/16 趋势）**：
+
+1. AI 影视/娱乐（5/13 Hollywood + 5/16 中国短剧已两次切入，下一轮可追爱奇艺 AI 艺人库 / B 站 AI 视频 / 抖音 AI 短剧）
+2. AI+医疗（4 月 2 篇后无新增，国产百图生科 / 晶泰 + Noetik 后空白）
+3. 具身智能国产对照（5/7 Gemini Robotics 后可追宇树 / 小鹏 IRON / 智元）
+4. AI 训练数据/隐私边界（5/13 Hollywood 切入后可追 Meta 录键鼠后续）
+5. RAG 国产对照（5/8 PageIndex 后可追 Dify / FastGPT，5/16 #2 OCR 类是 RAG 上游）
+6. AI 法律/监管（5/13 马里兰 + 5/16 #6 个人金融监管视角扩展）
+7. AI 变现深化（5/13 DeployCo + 5/14 Anthropic + 5/16 ChatGPT finance 三连）
+8. **Vibe Coding 主题深化**（5/14 #5 #10 + 5/16 #3 已三次切入，下一轮可追国产 Trae / 通义灵码 vibe 模式）
+9. **AI 办公协同主题深化**（5/14 #4 Notion，下一轮可追飞书 AI / 钉钉智能助理 / 语雀）
+10. **openclaw 生态深化**（5/16 #4 Clawdmeter 工具层启动，下一轮可追其他 clawd/clawhub/molty 系新工具）
 
 ## 5/14 10 篇主题分布
 

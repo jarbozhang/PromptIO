@@ -14,6 +14,7 @@
 | 日期 | 文章 | REACH |
 |------|------|-------|
 | 2026-05-14 | [[google-gemma-4字节级最强开源-国产qwen-deepseek怎么追\|DeepMind Gemma 4 byte-for-byte 最强开源，国产 Qwen / DeepSeek 怎么追]] | 8 |
+| 2026-05-16 | [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|Ring-2.6-1T 国产万亿开源 thinking model]] | 9 |
 
 ## 关联实体 / 主题
 

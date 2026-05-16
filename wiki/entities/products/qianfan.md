@@ -24,6 +24,7 @@
 |------|------|------|
 | 2026-05-06 | [[百度cobuddy免费上openrouter-国产编程模型白嫖131k-context\|百度第二个免费模型上 OpenRouter，这次是编程模型 CoBuddy，131k 上下文白嫖]] | 千帆体系第二个免费模型 / 编程模型 |
 | 2026-04-23 | [[百度千帆ocr-fast免费上openrouter-发票合同截图白嫖\|百度千帆 OCR 居然免费扔到 OpenRouter 上了]] | 免费 OCR 实测 |
+| 2026-05-16 | [[百度qianfan-ocr-fast-openrouter国产ocr多模态新选项\|Qianfan-OCR-Fast 在 OpenRouter 上线 OCR 专精多模态]] | OCR 专精多模态 |
 
 ## 相关主题
 

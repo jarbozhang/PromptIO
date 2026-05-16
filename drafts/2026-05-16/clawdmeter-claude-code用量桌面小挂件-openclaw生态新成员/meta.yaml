@@ -1,0 +1,31 @@
+title: "Clawdmeter 把 Claude Code 用量做成桌面小挂件 openclaw 生态又冒新成员"
+status: draft
+date: 2026-05-16
+reach: 9
+sources:
+  - techcrunch-ai-2c05eee6
+tags:
+  - Clawdmeter
+  - Claude Code
+  - openclaw 生态
+  - 桌面工具
+  - AI 编程
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 9
+  l3_score: 9
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""
