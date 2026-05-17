@@ -1,0 +1,34 @@
+title: 豆包把手机号标成卖野猪 个人号码被 AI 搜索误伤
+status: draft
+date: 2026-05-17T00:00:00.000Z
+reach: 9
+sources:
+  - trendradar-微博-0c02babc
+  - trendradar-百度热搜-8af5ee7b
+  - web-doubao-phone-sina
+  - web-doubao-phone-v2ex
+tags:
+  - 豆包
+  - AI 搜索
+  - 隐私
+  - AI 安全
+  - 个人信息
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

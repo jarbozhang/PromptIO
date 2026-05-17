@@ -2,6 +2,46 @@
 
 基于 298 篇文章（2026-04-08 至 2026-05-16）的主题分布。**5/16 单批 10 篇后总计 298 篇。**（5/15 跳天未生成）
 
+
+## 5/17 9 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| 乔木 NotebookLM Skill 把公众号和 PDF 变播客课件 | 9 | first-person | ai-productivity/AI 办公协同 / creator-economy/创作者经济 |
+| 闲鱼自动回复开源项目 多账号客服和自动发货自己搭 | 9 | first-person | ai-monetization/AI 变现 / creator-economy/创作者经济 / agent-frameworks/Agent 框架 |
+| LEANN 本地 RAG 省 97% 存储 个人知识库不用先买硬盘 | 8 | first-person | local-inference/本地推理 / ai-productivity/AI 办公协同 |
+| CodeGraph 给 Claude Code 先建代码图 少烧 token 少查文件 | 8 | first-person | ai-coding-tools/AI 编程工具 / ai-pricing/AI 定价 |
+| 豆包把手机号标成卖野猪 个人号码被 AI 搜索误伤 | 9 | analytical | ai-life/AI+生活 / ai-safety/AI 安全 |
+| Google AI 鼠标指针 Gemini 要从光标接管屏幕 | 8 | analytical | computer-use-agent/Computer Use Agent / multimodal/多模态 |
+| OpenAI 两个月免费 Codex 抢团队默认 IDE | 9 | analytical | ai-coding-tools/AI 编程工具 / ai-pricing/AI 定价 |
+| Chollet 说 agent 写代码像机器学习 测试集过拟合进评审 | 7 | retro | ai-coding-tools/AI 编程工具 / ai-methodology/AI 方法论 |
+| Shannon Lite 开源 AI 渗透测试 先读源码再证明漏洞 | 8 | analytical | ai-safety/AI 安全 |
+
+**5/17 主题计数变化（人工估算）**：
+
+- **AI 编程工具**：62 → **65**（+CodeGraph / Codex 企业试用 / Chollet 方法论，均按高饱和例外纳入）
+- **AI 定价**：41 → **43**（+CodeGraph 少 token / Codex 两个月免费）
+- **AI 办公协同**：1 → **3**（+NotebookLM Skill / LEANN 个人知识库）
+- **创作者经济**：3 → **5**（+NotebookLM 内容再生产 / 闲鱼自动客服）
+- **AI 变现**：3 → **4**（+闲鱼自动回复开源项目）
+- **Agent 框架**：53 → **54**（+闲鱼自动客服边缘 agent 工作流）
+- **本地推理**：26 → **27**（+LEANN 本地 RAG）
+- **AI+生活**：1 → **2**（+豆包手机号误伤）
+- **AI 安全**：11 → **13**（+豆包个人信息误伤 / Shannon AI 渗透测试）
+- **Computer Use Agent**：3 → **4**（+Google AI pointer）
+- **多模态**：20 → **21**（+Google AI pointer motion/speech/screen）
+- **方法论**：14 → **15**（+Chollet agentic coding as ML）
+
+**新空间打开**：
+
+- AI 搜索个人信息误伤：豆包手机号被错误关联，AI 搜索治理从答案质量扩到个人骚扰与申诉机制
+- 内容再生产 Skill：NotebookLM + Claude Skill 把公众号/PDF 旧内容转播客课件
+- 本地 RAG 存储压缩：LEANN 将个人知识库竞争从“能问文档”推进到“能装下长期数据”
+- Claude Code 代码图预索引：CodeGraph 把 harness 竞争推进到本地代码知识图谱
+- AI 编程企业采购战：Codex 两个月免费 + Sea 案例，默认 IDE 争夺进入 60 天试点打法
+- AI 安全证明式扫描：Shannon 从 findings 走向授权环境 PoC 证明
+
+**警告/降权说明**：AI 编程工具、Agent 框架、AI 定价继续严重高饱和；下一轮仅保留重大产品策略、KOL 新方法论、安全事件、国产/开源工具二次出圈。豆包个人信息安全、AI+生活、AI 办公协同仍有低饱和空间，可继续追后续申诉机制、平台规则和国内办公工具落地。
 ## 5/16 10 篇主题分布
 
 | 文章 | REACH | voice | 主题 |

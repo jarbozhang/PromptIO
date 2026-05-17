@@ -61,6 +61,7 @@ Claude Code 在中文 AI 社区（X/小红书）是当前最热的工具话题�
 | 2026-05-16 | [[clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员\|Clawdmeter Claude Code 用量桌面 dashboard]] | 用量监控 / openclaw 生态新工具 |
 | 2026-05-16 | [[anthropic官方claude-code大代码库使用手册-237hn票最佳实践\|Anthropic 官方 Claude Code 大代码库使用手册]] | 官方手册 / 大代码库最佳实践 |
 | 2026-05-16 | [[anthropic-skills官方仓库-923颗星-skills四派归一\|anthropic/skills 官方仓库 +923 stars Skills 四派归一]] | Skills 官方仓库 / 四派归一 |
+| 2026-05-17 | [[codegraph给claude-code先建代码图-少烧token少查文件|CodeGraph 给 Claude Code 先建代码图 少烧 token 少查文件]] | 本地代码图预索引 / harness |
 
 ## 注意
 

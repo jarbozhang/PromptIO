@@ -1,0 +1,32 @@
+title: CodeGraph 给 Claude Code 先建代码图 少烧 token 少查文件
+status: draft
+date: 2026-05-17T00:00:00.000Z
+reach: 8
+sources:
+  - github-trending-c2eaf872
+  - x-home-binghe-cad7c5fd
+tags:
+  - CodeGraph
+  - Claude Code
+  - AI 编程
+  - 代码索引
+  - token 成本
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

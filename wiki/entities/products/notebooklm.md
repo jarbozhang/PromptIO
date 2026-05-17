@@ -23,6 +23,7 @@ NotebookLM 在中文 AI 社区正在被当作两件事用：
 |------|------|------|
 | 2026-04-21 | [[notebooklm-白嫖google算力-claude省17倍token\|为什么我不再往 Claude 里塞资料，NotebookLM 才是你没用起来的 RAG]] | RAG 省 Token |
 | 2026-04-21 | [[notebooklm-gemini-dazao-maikenxi-guwen-wanfa\|把《金字塔原理》喂给 NotebookLM，捏了个麦肯锡顾问]] | 方法论顾问玩法 |
+| 2026-05-17 | [[乔木notebooklm-skill-把公众号和pdf变播客课件|乔木 NotebookLM Skill 把公众号和 PDF 变播客课件]] | Claude Skill 多源内容再生产 |
 
 ## 相关主题
 

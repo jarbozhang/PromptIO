@@ -1,0 +1,32 @@
+title: Chollet 说 agent 写代码像机器学习 测试集过拟合进评审
+status: draft
+date: 2026-05-17T00:00:00.000Z
+reach: 7
+sources:
+  - x-fchollet-4550ed5b
+  - x-fchollet-c331ac51
+tags:
+  - François Chollet
+  - Agentic Coding
+  - AI 编程
+  - 测试
+  - 方法论
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""

@@ -3,3 +3,4 @@ node_modules/
 *.lock
 pipeline.lock
 .gstack/
+.venv/

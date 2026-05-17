@@ -53,6 +53,8 @@
 | 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 在 OpenRouter 免费上线 256K + 百万 token 实测]] | 10 |
 | 2026-05-14 | [[goose-免费claude-code替代-一年省2400美元\|Block Goose 26100 stars 完全免费 Claude Code 替代，一年省 2400 美元]] | 9 |
 | 2026-05-16 | [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|Ring-2.6-1T 几乎免费 $0.075/M 万亿模型新底价]] | 9 |
+| 2026-05-17 | [[codegraph给claude-code先建代码图-少烧token少查文件|CodeGraph 少工具调用少 token]] | 8 |
+| 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|Codex 企业两个月免费试用]] | 9 |
 
 ## 饱和度评估
 

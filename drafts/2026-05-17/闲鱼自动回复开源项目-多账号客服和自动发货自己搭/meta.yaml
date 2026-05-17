@@ -1,0 +1,31 @@
+title: 闲鱼自动回复开源项目 多账号客服和自动发货自己搭
+status: draft
+date: 2026-05-17T00:00:00.000Z
+reach: 9
+sources:
+  - github-trending-2fc33e6f
+tags:
+  - 闲鱼
+  - AI 变现
+  - 自动回复
+  - 多账号管理
+  - 开源项目
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

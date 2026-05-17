@@ -1,0 +1,226 @@
+[
+  {
+    "index": 1,
+    "title": "乔木 NotebookLM Skill 把公众号和 PDF 变播客课件",
+    "slug": "乔木notebooklm-skill-把公众号和pdf变播客课件",
+    "score": 8.6,
+    "actionability": 10,
+    "novelty": 8,
+    "reach": 9,
+    "depth_potential": 8,
+    "angle": "joeseesun/qiaomu-anything-to-notebooklm 把 WeChat 文章、网页、YouTube、PDF、Markdown、搜索查询等多源内容交给 NotebookLM，输出 Podcast/PPT/MindMap/Quiz。适合公众号作者、知识库整理者和课程运营直接把旧内容再生产。",
+    "tags": [
+      "NotebookLM",
+      "Claude Skill",
+      "知识管理",
+      "公众号",
+      "AI 办公协同"
+    ],
+    "reason": "NotebookLM 品牌 + 公众号/PDF 可直接转播客课件 + GitHub 当日 +561 星，REACH 9",
+    "reach_note": "Google/NotebookLM 品牌认知 + 把旧内容变播客课件利益点 + Skill 可直接安装运行",
+    "sources": [
+      "github-trending-b0a9a435.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 2,
+    "title": "闲鱼自动回复开源项目 多账号客服和自动发货自己搭",
+    "slug": "闲鱼自动回复开源项目-多账号客服和自动发货自己搭",
+    "score": 8.4,
+    "actionability": 9,
+    "novelty": 8,
+    "reach": 9,
+    "depth_potential": 8,
+    "angle": "GuDong2003/xianyu-auto-reply-fix 以 FastAPI、SQLite、Docker、Playwright/DrissionPage 做闲鱼智能客服后台，支持多账号、AI 自动回复、自动发货确认、通知。角度聚焦个人卖家和副业团队能否把售前售后自动化跑起来。",
+    "tags": [
+      "闲鱼",
+      "AI 变现",
+      "自动回复",
+      "多账号管理",
+      "开源项目"
+    ],
+    "reason": "闲鱼强中文认知 + 自动客服/自动发货直接省时间 + 开源可自部署，REACH 9",
+    "reach_note": "闲鱼品牌 + 省客服时间利益点 + 可部署后台",
+    "sources": [
+      "github-trending-2fc33e6f.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 3,
+    "title": "LEANN 本地 RAG 省 97% 存储 个人知识库不用先买硬盘",
+    "slug": "leann本地rag省97存储-个人知识库不用先买硬盘",
+    "score": 8.8,
+    "actionability": 9,
+    "novelty": 9,
+    "reach": 8,
+    "depth_potential": 9,
+    "angle": "yichuan-w/LEANN 宣称 RAG on Everything，97% storage savings，100% private，适合把邮件、微信聊天记录、PDF、代码和个人文档做成本地语义搜索。重点讲它解决的是本地 RAG 的索引体积问题，而不是又一个聊天壳。",
+    "tags": [
+      "LEANN",
+      "RAG",
+      "本地推理",
+      "知识库",
+      "隐私"
+    ],
+    "reason": "本地 RAG 痛点明确 + 97% 存储节省强利益点 + MIT 开源 11k stars，REACH 8",
+    "reach_note": "RAG/本地知识库认知 + 省硬盘利益点 + 可本地部署",
+    "sources": [
+      "github-trending-cfcdf580.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 4,
+    "title": "CodeGraph 给 Claude Code 先建代码图 少烧 token 少查文件",
+    "slug": "codegraph给claude-code先建代码图-少烧token少查文件",
+    "score": 8.3,
+    "actionability": 9,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "colbymchenry/codegraph 是 Claude Code 的本地代码知识图谱预索引层，宣称 fewer tokens、fewer tool calls、100% local。结合近期 Claude Code 大 repo 方法论，讨论 grep 流派和预索引流派如何互补。",
+    "tags": [
+      "CodeGraph",
+      "Claude Code",
+      "AI 编程",
+      "代码索引",
+      "token 成本"
+    ],
+    "reason": "Claude Code 热门生态 + 少 token 少工具调用利益点 + npx 可直接试，REACH 8",
+    "reach_note": "Claude Code 品牌 + 省 token 利益点 + 本地命令可执行",
+    "sources": [
+      "github-trending-c2eaf872.md",
+      "x-home-binghe-cad7c5fd.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 5,
+    "title": "豆包把手机号标成卖野猪 个人号码被 AI 搜索误伤",
+    "slug": "豆包把手机号标成卖野猪-个人号码被ai搜索误伤",
+    "score": 8,
+    "actionability": 7,
+    "novelty": 9,
+    "reach": 9,
+    "depth_potential": 7,
+    "angle": "微博热榜和百度热搜出现“男子手机号被豆包乱标成卖猪电话”“豆包说你那里卖野猪”。结合 4 月 Sina 科技报道 AI 生成真人手机号、V2EX 用户称号码被豆包关联到厂房租赁/招工，讨论 AI 搜索幻觉如何变成现实骚扰。",
+    "tags": [
+      "豆包",
+      "AI 搜索",
+      "隐私",
+      "AI 安全",
+      "个人信息"
+    ],
+    "reason": "豆包全民品牌 + 个人号码骚扰强切身利益 + 自查投诉路径明确，REACH 9",
+    "reach_note": "豆包品牌 + 手机号误伤痛点 + 用户可自查可申诉",
+    "sources": [
+      "trendradar-微博-0c02babc.md",
+      "trendradar-百度热搜-8af5ee7b.md",
+      "web-doubao-phone-sina.md",
+      "web-doubao-phone-v2ex.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 6,
+    "title": "Google AI 鼠标指针 Gemini 要从光标接管屏幕",
+    "slug": "google-ai鼠标指针-gemini屏幕入口",
+    "score": 8.1,
+    "actionability": 7,
+    "novelty": 9,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "Google DeepMind 展示 AI pointer，把 50 年历史的鼠标指针改成 Gemini 的屏幕入口，用 motion、speech、natural shorthand 指挥屏幕任务。重点看它和 Computer Use Agent 的区别，为什么光标可能是浏览器 AI 的下一入口。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI 鼠标",
+      "Computer Use Agent",
+      "多模态"
+    ],
+    "reason": "Google/Gemini 强品牌 + 鼠标指针这个大众入口新鲜 + 未来交互可感知，REACH 8",
+    "reach_note": "Google/Gemini 品牌 + 光标入口利益点 + 演示可理解",
+    "sources": [
+      "deepmind-blog-29342363.md",
+      "x-GoogleDeepMind-d3ed5a08.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 7,
+    "title": "OpenAI 两个月免费 Codex 抢团队默认 IDE",
+    "slug": "openai两个月免费codex-抢团队默认ide",
+    "score": 8.2,
+    "actionability": 8,
+    "novelty": 8,
+    "reach": 9,
+    "depth_potential": 8,
+    "angle": "Sam Altman 和 OpenAI Devs 宣布企业客户在 30 天内切换可获得两个月免费 Codex usage，OpenAI 同时发布 Sea Limited 在亚洲工程团队部署 Codex 的案例。角度从移动端补齐转向企业采购战和团队默认 IDE 争夺。",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "企业 AI",
+      "AI 编程",
+      "免费试用"
+    ],
+    "reason": "OpenAI/Codex 品牌 + 两个月免费强利益点 + 企业团队切换动作明确，REACH 9",
+    "reach_note": "OpenAI 品牌 + 免费两个月利益点 + CTO/团队可试用",
+    "sources": [
+      "x-sama-59417100.md",
+      "x-OpenAI-5cc1985c.md",
+      "openai-blog-73eb815a.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 8,
+    "title": "Chollet 说 agent 写代码像机器学习 测试集过拟合进评审",
+    "slug": "chollet说agent写代码像机器学习-测试集过拟合进评审",
+    "score": 7.8,
+    "actionability": 8,
+    "novelty": 8,
+    "reach": 7,
+    "depth_potential": 9,
+    "angle": "François Chollet 把 agentic coding 类比为机器学习，工程师提供 spec/tests，agent 优化生成代码，结果像黑盒模型一样需要经验评估。文章重点把 overfitting、data leakage、concept drift、Clever Hans 翻译成代码评审清单。",
+    "tags": [
+      "François Chollet",
+      "Agentic Coding",
+      "AI 编程",
+      "测试",
+      "方法论"
+    ],
+    "reason": "Keras 作者方法论 + 可转成评审清单 + AI 编程高饱和但符合 KOL 新方法论例外，REACH 7",
+    "reach_note": "Chollet/Keras 认知 + 测试评审可操作 + 方法论可立刻套用",
+    "sources": [
+      "x-fchollet-4550ed5b.md",
+      "x-fchollet-c331ac51.md"
+    ],
+    "voice": "retro"
+  },
+  {
+    "index": 9,
+    "title": "Shannon Lite 开源 AI 渗透测试 先读源码再证明漏洞",
+    "slug": "shannon-lite开源ai渗透测试-先读源码再证明漏洞",
+    "score": 8.3,
+    "actionability": 8,
+    "novelty": 9,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "KeygraphHQ/shannon 是 AGPL-3.0 的 white-box AI pentester，读源码、识别攻击路径、执行真实利用来证明漏洞。重点讲它和 SAST/DAST 的区别，以及为什么只能在授权环境中验证。",
+    "tags": [
+      "Shannon",
+      "AI 安全",
+      "渗透测试",
+      "开源工具",
+      "代码审计"
+    ],
+    "reason": "42k stars 安全工具 + 先证明漏洞的强叙事 + 安全团队可试，REACH 8",
+    "reach_note": "AI 安全品牌/开源热度 + 漏洞验证利益点 + 授权环境可运行",
+    "sources": [
+      "github-trending-ea8a2b07.md"
+    ],
+    "voice": "analytical"
+  }
+]

@@ -23,6 +23,7 @@ Chollet 是 benchmark 注水和 AI 过度宣传的最主要批评者。当一个
 | 2026-04-09 | [[meta新模型上线第一天被arc测试之父拆台|Meta新模型上线第一天被ARC测试之父拆台]] | 主角 |
 | 2026-04-09 | [[keras-kinetic一行装饰器扔到tpu上跑|Chollet发布Keras Kinetic]] | 主角 |
 | 2026-04-08 | [[chollet说大多数ai研究者只会一种学习方式|Chollet说大多数AI研究者只会一种学习方式]] | 主角 |
+| 2026-05-17 | [[chollet说agent写代码像机器学习-测试集过拟合进评审|Chollet 说 agent 写代码像机器学习 测试集过拟合进评审]] | 主角 / agentic coding 方法论 |
 
 ## 注意
 

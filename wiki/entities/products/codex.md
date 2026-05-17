@@ -25,6 +25,7 @@
 | 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | spec 编排 / agent 调度 |
 | 2026-05-14 | [[openai-codex-windows沙箱-国产ai编程ide怎么跟\|OpenAI Codex on Windows 沙箱机制，国产 AI 编程 IDE 怎么跟]] | Windows 沙箱实现 / 国产 IDE 对照 |
 | 2026-05-16 | [[openai-codex-跑进手机-全平台同步-国产ide怎么跟\|Codex 跑进手机 ChatGPT mobile CLI/Web/Desktop/Mobile/IDE 五端齐]] | 移动端 / 全平台 vibe coding |
+| 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|OpenAI 两个月免费 Codex 抢团队默认 IDE]] | 企业试点 / 默认 IDE 争夺 |
 
 ## 注意
 

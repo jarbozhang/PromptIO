@@ -19,6 +19,7 @@ Altman 的公开言论常常成为 AI 行业叙事的"锚点"——对 Anthropic
 |------|------|-------|
 | 2026-05-01 | [[musk当庭承认xai蒸馏grok-国产模型蒸馏边界\|Musk 当庭承认 xAI 用 OpenAI 模型蒸馏 Grok，国产模型蒸馏的边界又被推了一下]] | 9 |
 | 2026-04-22 | [[anthropic-mythos-48小时连爆四件事-核武器钥匙丢了\|Anthropic Mythos 四连炸，Altman 嘲讽 fear-based marketing]] | 8 |
+| 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|OpenAI 两个月免费 Codex 抢团队默认 IDE]] | Codex 企业免费试用传播 |
 
 ## 相关实体
 

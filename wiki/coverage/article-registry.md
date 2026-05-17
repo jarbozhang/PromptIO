@@ -2,6 +2,28 @@
 
 全部已生成文章索引，按日期倒序。
 
+
+## 2026-05-17（9 篇，voice 分布 first-person 4 / narrative 0 / analytical 4 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[乔木notebooklm-skill-把公众号和pdf变播客课件|乔木 NotebookLM Skill 把公众号和 PDF 变播客课件]] | 9 | first-person | [[notebooklm|NotebookLM]], [[claude-code|Claude Code]] | [[ai-productivity|AI 办公协同]] / [[creator-economy|创作者经济]] |
+| [[闲鱼自动回复开源项目-多账号客服和自动发货自己搭|闲鱼自动回复开源项目 多账号客服和自动发货自己搭]] | 9 | first-person | [[xianyu-auto-reply-fix|xianyu-auto-reply-fix]] | [[ai-monetization|AI 变现]] / [[creator-economy|创作者经济]] / [[agent-frameworks|Agent 框架]] |
+| [[leann本地rag省97存储-个人知识库不用先买硬盘|LEANN 本地 RAG 省 97% 存储 个人知识库不用先买硬盘]] | 8 | first-person | [[leann|LEANN]], [[ollama|Ollama]] | [[local-inference|本地推理]] / [[ai-productivity|AI 办公协同]] |
+| [[codegraph给claude-code先建代码图-少烧token少查文件|CodeGraph 给 Claude Code 先建代码图 少烧 token 少查文件]] | 8 | first-person | [[codegraph|CodeGraph]], [[claude-code|Claude Code]] | [[ai-coding-tools|AI 编程工具]] / [[ai-pricing|AI 定价]] |
+| [[豆包把手机号标成卖野猪-个人号码被ai搜索误伤|豆包把手机号标成卖野猪 个人号码被 AI 搜索误伤]] | 9 | analytical | [[doubao|豆包]] | [[ai-life|AI+生活]] / [[ai-safety|AI 安全]] |
+| [[google-ai鼠标指针-gemini屏幕入口|Google AI 鼠标指针 Gemini 要从光标接管屏幕]] | 8 | analytical | [[google|Google]], [[gemini|Gemini]] | [[computer-use-agent|Computer Use Agent]] / [[multimodal|多模态]] |
+| [[openai两个月免费codex-抢团队默认ide|OpenAI 两个月免费 Codex 抢团队默认 IDE]] | 9 | analytical | [[openai|OpenAI]], [[codex|Codex]], [[sam-altman|Sam Altman]] | [[ai-coding-tools|AI 编程工具]] / [[ai-pricing|AI 定价]] |
+| [[chollet说agent写代码像机器学习-测试集过拟合进评审|Chollet 说 agent 写代码像机器学习 测试集过拟合进评审]] | 7 | retro | [[chollet|François Chollet]] | [[ai-coding-tools|AI 编程工具]] / [[ai-methodology|AI 方法论]] |
+| [[shannon-lite开源ai渗透测试-先读源码再证明漏洞|Shannon Lite 开源 AI 渗透测试 先读源码再证明漏洞]] | 8 | analytical | [[shannon|Shannon]] | [[ai-safety|AI 安全]] |
+
+**5/17 voice 分布**：first-person 4 / analytical 4 / retro 1。工具实测与行业/安全事件均衡，narrative 本期缺位。
+
+**5/17 优先品牌/例外**：AI 编程工具继续高饱和，但本期纳入的 CodeGraph / Codex / Chollet 均符合“大工具生态新动态 / OpenAI 重大企业策略 / KOL 方法论”例外；豆包手机号误伤打开 AI 搜索个人信息安全分支。
+
+**5/17 QA 结果**：9/9 全过基础结构和合规检查。L1 共 2 处机械替换。Step 4.6：8 篇 xhs:compliant（reach ≥ 8 主动触发），1 篇 xhs:primary（Chollet reach=7），0 篇 xhs:blocked。
+
+**5/17 采集备注**：RSS/GitHub/arXiv 478 items；GitHub Trending 32 AI repos；OpenRouter 0 new；PyPI checked；TrendRadar Docker 已恢复并抓到 13 条中文热点；bird X 抓取成功保存 227 tweets。
 ## 2026-05-16（10 篇，voice 分布 first-person 4 / narrative 1 / analytical 4 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

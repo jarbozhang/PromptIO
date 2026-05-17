@@ -11,6 +11,8 @@
     "fetch:openrouter": "node scripts/fetch-openrouter-models.js",
     "fetch:pypi": "node scripts/fetch-pypi-trends.js",
     "fetch:trendradar": "node scripts/fetch-trendradar.js",
+    "video:check-env": "node scripts/check-video-env.js",
+    "video:render": "node scripts/generate-video.js",
     "test": "node --test 'test/**/*.test.js'"
   },
   "dependencies": {

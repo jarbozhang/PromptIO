@@ -64,6 +64,7 @@ Harness / Skills / MCP / Multi-Agent 架构。
 | 2026-05-07 | [[anthropic-cowork发布-claude-desktop-agent给非技术用户\|Anthropic 用一周半时间，把 Claude Code 改成给会计 HR 用的 Cowork]] | 桌面 agent / 非技术用户场景 |
 | 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | spec 编排 / agent 调度协议 |
 | 2026-05-14 | [[notion-developer-platform-ai-agent中心-飞书钉钉怎么抄\|Notion Developer Platform 把 workspace 变 AI agent hub，飞书钉钉怎么抄]] | 8 |
+| 2026-05-17 | [[闲鱼自动回复开源项目-多账号客服和自动发货自己搭|闲鱼 AI 客服自动化工作流]] | 9 |
 
 ## 饱和度评估
 

@@ -2,6 +2,16 @@
 
 追加式记录，最新在前。
 
+
+## [2026-05-17] generate | 9 drafts, REACH>=7, RSS+X+signals
+
+- **采集**：RSS/GitHub/arXiv 478 items + GitHub Trending 32 AI repos + OpenRouter 0 new + PyPI checked + TrendRadar Docker 恢复并保存 13 条中文热点
+- **X 抓取**：bird 成功保存 227 tweets（120 accounts / 94 home / 13 following），failures 0
+- **新增 9 篇文章**：#1 乔木 NotebookLM Skill 把公众号和 PDF 变播客课件（REACH 9 first-person）；#2 闲鱼自动回复开源项目 多账号客服和自动发货自己搭（REACH 9 first-person）；#3 LEANN 本地 RAG 省 97% 存储 个人知识库不用先买硬盘（REACH 8 first-person）；#4 CodeGraph 给 Claude Code 先建代码图 少烧 token 少查文件（REACH 8 first-person）；#5 豆包把手机号标成卖野猪 个人号码被 AI 搜索误伤（REACH 9 analytical）；#6 Google AI 鼠标指针 Gemini 要从光标接管屏幕（REACH 8 analytical）；#7 OpenAI 两个月免费 Codex 抢团队默认 IDE（REACH 9 analytical）；#8 Chollet 说 agent 写代码像机器学习 测试集过拟合进评审（REACH 7 retro）；#9 Shannon Lite 开源 AI 渗透测试 先读源码再证明漏洞（REACH 8 analytical）
+- **voice 分布**：first-person 4 / analytical 4 / retro 1
+- **QA 结果**：9/9 全过基础结构和合规检查；L1 共 2 处机械替换；8 篇 xhs:compliant，1 篇 xhs:primary，0 篇 xhs:blocked
+- **实体/主题页同步**：notebooklm / xianyu-auto-reply-fix / leann / codegraph / doubao / google / gemini / openai / codex / sam-altman / chollet / shannon 及 ai-productivity / creator-economy / ai-monetization / local-inference / ai-coding-tools / ai-pricing / ai-life / ai-safety / computer-use-agent / multimodal / ai-methodology 追加 5/17 条目
+
 ## [2026-05-16] generate | 10 drafts, REACH>=7, RSS+signals (X 跳过, 5/15 跳天)
 
 - **采集**：RSS/GitHub/arXiv 518 items + GitHub Trending 25 AI repos + OpenRouter 2 new（蚂蚁 Ring-2.6-1T + 百度 Qianfan-OCR-Fast 同日双国产）+ PyPI crewai +27.9% weekly spike + TrendRadar Docker 目录缺失（soft-fail）

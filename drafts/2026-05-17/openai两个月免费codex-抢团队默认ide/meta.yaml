@@ -1,0 +1,33 @@
+title: OpenAI 两个月免费 Codex 抢团队默认 IDE
+status: draft
+date: 2026-05-17T00:00:00.000Z
+reach: 9
+sources:
+  - x-sama-59417100
+  - x-OpenAI-5cc1985c
+  - openai-blog-73eb815a
+tags:
+  - OpenAI
+  - Codex
+  - 企业 AI
+  - AI 编程
+  - 免费试用
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

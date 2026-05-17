@@ -83,6 +83,7 @@
 | 2026-05-14 | [[openai-chatgpt-trusted-contact紧急联系人-国内豆包元宝对照\|OpenAI ChatGPT Trusted Contact 紧急联系人，国内豆包元宝对照]] | 7 |
 | 2026-05-16 | [[openai-codex-跑进手机-全平台同步-国产ide怎么跟\|OpenAI Codex 跑进手机 ChatGPT mobile 全平台同步]] | 9 |
 | 2026-05-16 | [[openai-chatgpt接管银行账户-plaid国内豆包元宝为什么做不到\|OpenAI ChatGPT 接 Plaid 银行账户 personal finance preview]] | 8 |
+| 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|OpenAI 两个月免费 Codex 抢团队默认 IDE]] | 9 |
 
 ## 注意
 

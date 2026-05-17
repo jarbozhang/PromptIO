@@ -82,6 +82,9 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 | 2026-05-16 | [[clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员\|Clawdmeter Claude Code 用量监控工具]] | 9 |
 | 2026-05-16 | [[anthropic官方claude-code大代码库使用手册-237hn票最佳实践\|Anthropic 官方 Claude Code 大代码库使用手册]] | 8 |
 | 2026-05-16 | [[anthropic-skills官方仓库-923颗星-skills四派归一\|anthropic/skills 四派归一]] | 8 |
+| 2026-05-17 | [[codegraph给claude-code先建代码图-少烧token少查文件|CodeGraph 给 Claude Code 先建代码图]] | 8 |
+| 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|OpenAI 两个月免费 Codex 抢团队默认 IDE]] | 9 |
+| 2026-05-17 | [[chollet说agent写代码像机器学习-测试集过拟合进评审|Chollet 说 agent 写代码像机器学习]] | 7 |
 
 ## 饱和度评估
 
