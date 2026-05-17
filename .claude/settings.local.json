@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p ~/.claude/skills/bird)",
+      "Bash(cp /tmp/bird-upstream-SKILL.md ~/.claude/skills/bird/SKILL.md)",
+      "Read(//Users/byron/.claude/skills/**)"
+    ]
+  }
+}
