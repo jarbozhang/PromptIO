@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <style>
+    @font-face {
+      font-family: "SourceHanSansCN";
+      src: url("./assets/fonts/SourceHanSansCN-Regular.otf") format("opentype");
+      font-weight: 400;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "SourceHanSansCN";
+      src: url("./assets/fonts/SourceHanSansCN-Bold.otf") format("opentype");
+      font-weight: 700;
+      font-display: block;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: #0a0e1a;
+      font-family: "SourceHanSansCN", "PingFang SC", sans-serif;
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+    }
+    .scene {
+      position: absolute;
+      inset: 0;
+      padding: 100px 70px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* scene 1: hook */
+    .scene-hook {
+      background: linear-gradient(135deg, #0f1729 0%, #1a2541 60%, #2a3858 100%);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hook-headline {
+      font-size: 110px;
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 50px;
+      letter-spacing: -2px;
+    }
+    .hook-subline {
+      font-size: 52px;
+      font-weight: 400;
+      color: #8b9dc3;
+      line-height: 1.35;
+    }
+    .hook-brand {
+      position: absolute;
+      bottom: 120px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 40px;
+      color: #6a7896;
+      letter-spacing: 12px;
+      font-weight: 700;
+    }
+
+    /* scene 2: event */
+    .scene-event {
+      background: #0a0e1a;
+      justify-content: center;
+    }
+    .event-tag {
+      display: inline-block;
+      align-self: flex-start;
+      font-size: 40px;
+      color: #0a0e1a;
+      background: #ffc857;
+      padding: 12px 32px;
+      border-radius: 8px;
+      margin-bottom: 50px;
+      font-weight: 700;
+    }
+    .event-headline {
+      font-size: 86px;
+      font-weight: 700;
+      margin-bottom: 60px;
+      line-height: 1.25;
+    }
+    .event-body {
+      font-size: 50px;
+      line-height: 1.6;
+      color: #d8dee9;
+    }
+
+    /* scene 3: data */
+    .scene-data {
+      background: radial-gradient(circle at 50% 40%, #1a2541 0%, #0a0e1a 70%);
+      justify-content: center;
+      align-items: center;
+      gap: 140px;
+    }
+    .data-number { text-align: center; }
+    .data-value {
+      font-size: 240px;
+      font-weight: 700;
+      color: #ffc857;
+      line-height: 1;
+      margin-bottom: 36px;
+      letter-spacing: -4px;
+    }
+    .data-label {
+      font-size: 48px;
+      color: #d8dee9;
+      letter-spacing: 2px;
+    }
+
+    /* scene 4: opinion */
+    .scene-opinion {
+      background: linear-gradient(180deg, #0a0e1a 0%, #1a1f3a 100%);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .opinion-mark {
+      font-size: 240px;
+      color: #ffc857;
+      line-height: 0.8;
+      margin-bottom: 30px;
+      font-family: Georgia, serif;
+    }
+    .opinion-quote {
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 1.45;
+      max-width: 920px;
+    }
+    .opinion-author {
+      margin-top: 80px;
+      font-size: 36px;
+      color: #8b9dc3;
+      letter-spacing: 6px;
+    }
+
+    /* scene 5: action */
+    .scene-action {
+      background: #0a0e1a;
+      justify-content: center;
+    }
+    .action-title {
+      font-size: 64px;
+      font-weight: 700;
+      color: #ffc857;
+      margin-bottom: 100px;
+      letter-spacing: 2px;
+    }
+    .action-list {
+      list-style: none;
+      counter-reset: action-counter;
+    }
+    .action-item {
+      font-size: 54px;
+      line-height: 1.4;
+      padding-left: 120px;
+      position: relative;
+      margin-bottom: 80px;
+      font-weight: 700;
+    }
+    .action-item::before {
+      content: counter(action-counter);
+      counter-increment: action-counter;
+      position: absolute;
+      left: 0;
+      top: -8px;
+      width: 80px;
+      height: 80px;
+      background: #ffc857;
+      color: #0a0e1a;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 52px;
+      font-weight: 700;
+    }
+
+    /* scene 6: outro */
+    .scene-outro {
+      background: linear-gradient(135deg, #ffc857 0%, #ff8c42 100%);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #0a0e1a;
+    }
+    .outro-brand {
+      font-size: 160px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      margin-bottom: 50px;
+    }
+    .outro-tagline {
+      font-size: 54px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    .outro-platforms {
+      margin-top: 90px;
+      font-size: 38px;
+      letter-spacing: 12px;
+      opacity: 0.75;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div
+    id="root"
+    data-composition-id="main"
+    data-start="0"
+    data-duration="60"
+    data-width="1080"
+    data-height="1920"
+  >
+    <div id="scene-hook" class="scene scene-hook clip" data-start="0" data-duration="4" data-track-index="1">
+      <div class="hook-headline">{{scene1_headline}}</div>
+      <div class="hook-subline">{{scene1_subline}}</div>
+      <div class="hook-brand">PROMPTIO</div>
+    </div>
+
+    <div id="scene-event" class="scene scene-event clip" data-start="4" data-duration="10" data-track-index="1">
+      <div class="event-tag">事件</div>
+      <div class="event-headline">{{scene2_headline}}</div>
+      <div class="event-body">{{scene2_body}}</div>
+    </div>
+
+    <div id="scene-data" class="scene scene-data clip" data-start="14" data-duration="12" data-track-index="1">
+      <div class="data-number">
+        <div class="data-value">{{scene3_num1_value}}</div>
+        <div class="data-label">{{scene3_num1_label}}</div>
+      </div>
+      <div class="data-number">
+        <div class="data-value">{{scene3_num2_value}}</div>
+        <div class="data-label">{{scene3_num2_label}}</div>
+      </div>
+    </div>
+
+    <div id="scene-opinion" class="scene scene-opinion clip" data-start="26" data-duration="16" data-track-index="1">
+      <div class="opinion-mark">&ldquo;</div>
+      <div class="opinion-quote">{{scene4_quote}}</div>
+      <div class="opinion-author">— PROMPTIO</div>
+    </div>
+
+    <div id="scene-action" class="scene scene-action clip" data-start="42" data-duration="13" data-track-index="1">
+      <div class="action-title">怎么动手</div>
+      <ol class="action-list">
+        <li class="action-item">{{scene5_bullet1}}</li>
+        <li class="action-item">{{scene5_bullet2}}</li>
+        <li class="action-item">{{scene5_bullet3}}</li>
+      </ol>
+    </div>
+
+    <div id="scene-outro" class="scene scene-outro clip" data-start="55" data-duration="5" data-track-index="1">
+      <div class="outro-brand">{{scene6_brand_line}}</div>
+      <div class="outro-tagline">每天发现 AI 行动力</div>
+      <div class="outro-platforms">公众号 · 视频号 · 小红书</div>
+    </div>
+
+    <audio
+      id="narration"
+      data-start="0"
+      data-duration="60"
+      data-volume="1.0"
+      src="{{narration_src}}"
+    ></audio>
+
+    <audio
+      id="bgm"
+      data-start="0"
+      data-duration="60"
+      data-volume="{{bgm_volume}}"
+      src="./assets/bgm/{{bgm_file}}"
+    ></audio>
+  </div>
+
+  <script src="./assets/vendor/gsap.min.js"></script>
+  <script>
+    window.__timelines = window.__timelines || {};
+    const tl = gsap.timeline({ paused: true });
+    tl.from("#scene-hook .hook-headline", { opacity: 0, y: 40, duration: 0.6 }, 0);
+    tl.from("#scene-hook .hook-subline", { opacity: 0, y: 20, duration: 0.5 }, 0.3);
+    tl.from("#scene-event .event-tag", { opacity: 0, x: -30, duration: 0.4 }, 4);
+    tl.from("#scene-event .event-headline", { opacity: 0, y: 30, duration: 0.6 }, 4.2);
+    tl.from("#scene-event .event-body", { opacity: 0, y: 20, duration: 0.6 }, 4.6);
+    tl.from("#scene-data .data-number:nth-child(1)", { opacity: 0, scale: 0.7, duration: 0.6 }, 14);
+    tl.from("#scene-data .data-number:nth-child(2)", { opacity: 0, scale: 0.7, duration: 0.6 }, 14.4);
+    tl.from("#scene-opinion .opinion-mark", { opacity: 0, scale: 0.5, duration: 0.6 }, 26);
+    tl.from("#scene-opinion .opinion-quote", { opacity: 0, y: 30, duration: 0.8 }, 26.4);
+    tl.from("#scene-action .action-title", { opacity: 0, x: -30, duration: 0.5 }, 42);
+    tl.from("#scene-action .action-item:nth-child(1)", { opacity: 0, x: 50, duration: 0.5 }, 42.3);
+    tl.from("#scene-action .action-item:nth-child(2)", { opacity: 0, x: 50, duration: 0.5 }, 42.7);
+    tl.from("#scene-action .action-item:nth-child(3)", { opacity: 0, x: 50, duration: 0.5 }, 43.1);
+    tl.from("#scene-outro .outro-brand", { opacity: 0, scale: 0.7, duration: 0.6 }, 55);
+    tl.from("#scene-outro .outro-tagline", { opacity: 0, y: 20, duration: 0.5 }, 55.4);
+    window.__timelines["main"] = tl;
+  </script>
+</body>
+</html>

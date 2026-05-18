@@ -1,0 +1,47 @@
+{
+  "slug": "百度qianfan-ocr-fast-openrouter国产ocr多模态新选项",
+  "aspect": "9:16",
+  "duration": 60,
+  "scenes": [
+    {
+      "id": 1, "kind": "hook", "start": 0, "duration": 4,
+      "headline": "百度 OCR 上 OpenRouter",
+      "subline": "国产 OCR 多模态新选项",
+      "narration": "百度 OCR 上了 OpenRouter"
+    },
+    {
+      "id": 2, "kind": "event", "start": 4, "duration": 10,
+      "headline": "无发布会的静默上线",
+      "body": "Qianfan-OCR-Fast 进入 OpenRouter 模型列表，OCR 专精多模态模型，65K 上下文，国内可直连。",
+      "narration": "Qianfan OCR Fast 进入 OpenRouter 模型列表，OCR 专精多模态模型，65K 上下文，国内可直连"
+    },
+    {
+      "id": 3, "kind": "data", "start": 14, "duration": 12,
+      "numbers": [
+        {"value": "$0.68", "label": "输入/M token"},
+        {"value": "65K", "label": "上下文窗口"}
+      ],
+      "narration": "输入每百万 token 0.68 美元，上下文窗口 65K，比 Qwen VL Plus 略贵但比海外头部便宜"
+    },
+    {
+      "id": 4, "kind": "opinion", "start": 26, "duration": 16,
+      "quote": "国产 OCR 多模态又多了一个版本号。",
+      "narration": "国产 OCR 多模态又多了一个版本号。下次做 RAG 文档预处理选型时，多一个选项进对比矩阵"
+    },
+    {
+      "id": 5, "kind": "action", "start": 42, "duration": 13,
+      "bullets": [
+        "OpenRouter 充 5 美元",
+        "5-10 张真实样本盲评",
+        "和 Qwen-VL Plus 横评"
+      ],
+      "narration": "OpenRouter 充 5 美元起步。准备 5 到 10 张真实样本盲评。和 Qwen VL Plus 横评一遍"
+    },
+    {
+      "id": 6, "kind": "outro", "start": 55, "duration": 5,
+      "brand_line": "PROMPTIO",
+      "narration": "关注 PromptIO，每天发现 AI 行动力"
+    }
+  ],
+  "bgm": "news-energetic.mp3"
+}

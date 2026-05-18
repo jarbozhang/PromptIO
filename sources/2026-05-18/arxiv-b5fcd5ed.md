@@ -1,0 +1,24 @@
+---
+title: Self-Distilled Agentic Reinforcement Learning
+url: 'https://arxiv.org/abs/2605.15155v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Zhengxi Lu
+  - Zhiyuan Yao
+  - Zhuowen Han
+  - Zi-Han Wang
+  - Jinyang Wu
+categories:
+  - cs.LG
+  - cs.AI
+  - cs.CL
+  - cs.LG
+published: '2026-05-14T17:51:26Z'
+fetched_at: '2026-05-18T00:51:02.181Z'
+---
+Reinforcement learning (RL) has emerged as a central paradigm for post-training LLM agents, yet its trajectory-level reward signal provides only coarse supervision for long-horizon interaction. On-Policy Self-Distillation (OPSD) complements RL by introducing dense token-level guidance from a teacher branch augmented with privileged context. However, transferring OPSD to multi-turn agents proves problematic: compounding multi-turn instability destabilizes supervision, while skill-conditioned privileged guidance requires asymmetric treatment for negative teacher rejections may arise from imperfect skills retrieval or utilization. We introduce SDAR (Self-Distilled Agentic Reinforcement Learning), which treats OPSD as a gated auxiliary objective while keeping RL as the primary optimization backbone. SDAR maps detached token-level signals into a sigmoid gate, strengthening distillation on teacher-endorsed positive-gap tokens and softly attenuating negative teacher rejections. Across the Qwen2.5 and Qwen3 families on ALFWorld, WebShop, and Search-QA, SDAR substantially improves over GRPO (+9.4% on ALFWorld, +7.0% on Search-QA, +10.2% on WebShop-Acc), avoids the instability of naive GRPO+OPSD, and consistently outperforms hybrid RL--OPSD baselines across model scales.
+
+Authors: Zhengxi Lu, Zhiyuan Yao, Zhuowen Han, Zi-Han Wang, Jinyang Wu
+Categories: cs.LG, cs.AI, cs.CL, cs.LG

@@ -1,0 +1,10 @@
+---
+title: Quoting Mitchell Hashimoto
+url: 'https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything'
+source: Simon Willison
+source_type: rss
+language: en
+published: '2026-05-12T22:21:51.000Z'
+fetched_at: '2026-05-18T00:49:43.569Z'
+---
+

@@ -1,0 +1,8 @@
+[2026-05-17T12:10:13.090Z] command=render slug=2026-05-16/百度qianfan-ocr-fast-openrouter国产ocr多模态新选项
+[2026-05-17T12:10:13.093Z] render_started
+[2026-05-17T12:10:53.772Z] render_finished exit=0 duration_sec=41 output_size_mb=3.47
+[2026-05-17T12:22:54.153Z] command=render slug=2026-05-16/百度qianfan-ocr-fast-openrouter国产ocr多模态新选项
+[2026-05-17T12:22:54.157Z] tts_started
+[2026-05-17T12:22:59.162Z] tts_finished
+[2026-05-17T12:22:59.163Z] render_started
+[2026-05-17T12:23:42.531Z] render_finished exit=0 duration_sec=43 output_size_mb=3.35

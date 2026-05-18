@@ -1,0 +1,47 @@
+{
+  "slug": "clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员",
+  "aspect": "9:16",
+  "duration": 60,
+  "scenes": [
+    {
+      "id": 1, "kind": "hook", "start": 0, "duration": 4,
+      "headline": "Clawdmeter 把用量做成挂件",
+      "subline": "openclaw 生态又冒新成员",
+      "narration": "openclaw 又冒出一个新成员"
+    },
+    {
+      "id": 2, "kind": "event", "start": 4, "duration": 10,
+      "headline": "168 元的桌面小爪兽",
+      "body": "Hermann 用 Claude 三天做出的 ESP32 挂件，蓝牙连笔记本，实时显示 Claude Code 的 5 小时窗口和周配额。",
+      "narration": "Hermann 用 Claude 三天做出的桌面挂件，蓝牙连笔记本，实时显示 Claude Code 用量"
+    },
+    {
+      "id": 3, "kind": "data", "start": 14, "duration": 12,
+      "numbers": [
+        {"value": "1000★", "label": "一周 star"},
+        {"value": "168元", "label": "入门成本"}
+      ],
+      "narration": "GitHub 一周拿到 1000 颗星，硬件入门成本 168 元"
+    },
+    {
+      "id": 4, "kind": "opinion", "start": 26, "duration": 16,
+      "quote": "openclaw 生态终于补上硬件这一块。",
+      "narration": "openclaw 生态终于补上硬件这一块。fork 列表里已经冒出穿戴和家庭场景版本，这条线还会继续走"
+    },
+    {
+      "id": 5, "kind": "action", "start": 42, "duration": 13,
+      "bullets": [
+        "闲鱼搜 Waveshare 板",
+        "flash-mac.sh 刷固件",
+        "LaunchAgent 开机自启"
+      ],
+      "narration": "闲鱼搜 Waveshare 板下单。跑 flash-mac 刷固件。再用 LaunchAgent 开机自启"
+    },
+    {
+      "id": 6, "kind": "outro", "start": 55, "duration": 5,
+      "brand_line": "PROMPTIO",
+      "narration": "关注 PromptIO，每天发现 AI 行动力"
+    }
+  ],
+  "bgm": "lofi-calm.mp3"
+}

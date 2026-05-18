@@ -1,0 +1,8 @@
+[2026-05-17T12:08:40.837Z] command=render slug=2026-05-16/clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员
+[2026-05-17T12:08:40.840Z] render_started
+[2026-05-17T12:09:21.237Z] render_finished exit=0 duration_sec=40 output_size_mb=3.50
+[2026-05-17T12:20:44.147Z] command=render slug=2026-05-16/clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员
+[2026-05-17T12:20:44.151Z] tts_started
+[2026-05-17T12:20:49.425Z] tts_finished
+[2026-05-17T12:20:49.427Z] render_started
+[2026-05-17T12:21:42.461Z] render_finished exit=0 duration_sec=53 output_size_mb=3.32

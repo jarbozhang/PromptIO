@@ -1,0 +1,47 @@
+{
+  "slug": "whichllm-282hn票-一键查电脑能跑哪个本地llm",
+  "aspect": "9:16",
+  "duration": 60,
+  "scenes": [
+    {
+      "id": 1, "kind": "hook", "start": 0, "duration": 4,
+      "headline": "一行查电脑能跑哪个 LLM",
+      "subline": "HN 282 票的硬件推荐工具",
+      "narration": "HN 282 票的本地 LLM 推荐工具"
+    },
+    {
+      "id": 2, "kind": "event", "start": 4, "duration": 10,
+      "headline": "uvx whichllm 三步出结果",
+      "body": "扫硬件、估显存、按 benchmark 排名。Nvidia、AMD、Apple Silicon、纯 CPU 都认，五个来源混合打分。",
+      "narration": "扫硬件，估显存，按 benchmark 排名。N 卡、A 卡、苹果芯片、纯 CPU 都认"
+    },
+    {
+      "id": 3, "kind": "data", "start": 14, "duration": 12,
+      "numbers": [
+        {"value": "282", "label": "HN 票"},
+        {"value": "5", "label": "数据源"}
+      ],
+      "narration": "HN 上拿到 282 票，benchmark 数据混合 5 个来源做加权打分"
+    },
+    {
+      "id": 4, "kind": "opinion", "start": 26, "duration": 16,
+      "quote": "思路对，实现还不到取代社区经验的程度。",
+      "narration": "思路是对的，实现还不到取代社区经验的程度。但作为查询起点够用，能帮你筛掉 80% 的不可能选项"
+    },
+    {
+      "id": 5, "kind": "action", "start": 42, "duration": 13,
+      "bullets": [
+        "uvx whichllm 先跑一次",
+        "--gpu 5090 模拟买卡",
+        "Top 5 去 r/LocalLLaMA 验"
+      ],
+      "narration": "先 uvx whichllm 跑一次。用 gpu 5090 参数模拟买卡。Top 5 去 r 杠 LocalLLaMA 验证一遍"
+    },
+    {
+      "id": 6, "kind": "outro", "start": 55, "duration": 5,
+      "brand_line": "PROMPTIO",
+      "narration": "关注 PromptIO，每天发现 AI 行动力"
+    }
+  ],
+  "bgm": "tech-minimal.mp3"
+}
