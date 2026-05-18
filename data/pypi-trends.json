@@ -26,14 +26,14 @@
       "last_month": 6594478
     },
     "llama-cpp-python": {
-      "last_day": 17136,
-      "last_week": 139064,
-      "last_month": 614704
+      "last_day": 16568,
+      "last_week": 139200,
+      "last_month": 604676
     },
     "ollama": {
-      "last_day": 339979,
-      "last_week": 3128129,
-      "last_month": 12069008
+      "last_day": 354216,
+      "last_week": 3147721,
+      "last_month": 12013875
     },
     "crewai": {
       "last_day": 625240,
@@ -51,5 +51,5 @@
       "last_month": 1557774
     }
   },
-  "updated_at": "2026-05-18T00:51:20.027Z"
+  "updated_at": "2026-05-18T12:50:08.010Z"
 }
