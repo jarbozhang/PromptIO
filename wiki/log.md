@@ -3,6 +3,15 @@
 追加式记录，最新在前。
 
 
+## [2026-05-18] generate | 9 drafts, REACH>=7, RSS+X+signals
+
+- **采集**：RSS/GitHub/arXiv 498 items + GitHub Trending 32 AI repos + OpenRouter 0 new + PyPI checked + TrendRadar 保存 17 条中文热点
+- **X 抓取**：bird 成功保存 221 tweets（127 accountTweets / 89 home / 5 following），failures 0
+- **新增 9 篇文章**：#1 Seedance 2.0 做出 2 小时 AI 电影 成本账比流量更刺眼（REACH 8 analytical）；#2 K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理（REACH 8 first-person）；#3 Dograh 一条 Docker 命令自建语音客服 不用先按分钟买 SaaS（REACH 8 first-person）；#4 Google Gemini CLI 10 万星 终端 agent 每天 1000 次免费额度怎么用（REACH 9 first-person）；#5 飞书 CLI 过万星 200 个命令让 Agent 接进办公系统（REACH 9 analytical）；#6 DreamServer 一条命令把本地 AI 全家桶跑起来 Mac Windows Linux 都能用（REACH 8 first-person）；#7 OpenHuman 把个人 AI 记忆写进本地 Obsidian 118 个集成自动同步（REACH 8 analytical）；#8 NVIDIA Sana 让 8GB 显存跑 4K 生图 创作者又多一个本地模型选项（REACH 8 retro）；#9 华为昇腾 384 集群落地无锡 Token 工厂开始按智能单元计费（REACH 7 analytical）
+- **voice 分布**：first-person 4 / analytical 4 / retro 1
+- **QA 结果**：9/9 全过结构和合规检查；L1 机械替换 0 处；8 篇 xhs:compliant，1 篇 xhs:primary，0 篇 xhs:blocked
+- **实体/主题页同步**：seedance-2-0 / bytedance / k-dense-scientific-agent-skills / dograh / gemini-cli / feishu / lark-cli / dreamserver / openhuman / obsidian / sana / ascend / huawei 及 ai-video / creator-economy / ai-education / agent-frameworks / voice-ai / ai-coding-tools / ai-pricing / ai-productivity / local-inference / ai-hardware / chinese-ai 追加 5/18 条目
+
 ## [2026-05-17] generate | 9 drafts, REACH>=7, RSS+X+signals
 
 - **采集**：RSS/GitHub/arXiv 478 items + GitHub Trending 32 AI repos + OpenRouter 0 new + PyPI checked + TrendRadar Docker 恢复并保存 13 条中文热点

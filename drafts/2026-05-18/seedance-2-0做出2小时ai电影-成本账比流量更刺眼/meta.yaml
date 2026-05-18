@@ -1,0 +1,33 @@
+title: Seedance 2.0 做出 2 小时 AI 电影 成本账比流量更刺眼
+status: draft
+date: 2026-05-18T00:00:00.000Z
+reach: 8
+sources:
+  - x-home-Saccc_c-6f4f0d19
+  - x-home-Xiaoniu6161-4a45163a
+  - web-github-98446302
+tags:
+  - Seedance 2.0
+  - AI 视频
+  - 创作者经济
+  - 字节跳动
+  - 视频工作流
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

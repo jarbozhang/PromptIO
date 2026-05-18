@@ -17,6 +17,8 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 | 日期 | 文章 | 具体角度 |
 |------|------|---------|
+| 2026-05-18 | [[dreamserver一条命令把本地ai全家桶跑起来-mac-windows-linux都能用|DreamServer 一条命令把本地 AI 全家桶跑起来 Mac Windows Linux 都能用]] | 本地 AI 全家桶 / 个人服务器 |
+| 2026-05-18 | [[nvidia-sana让8gb显存跑4k生图-创作者又多一个本地模型选项|NVIDIA Sana 让 8GB 显存跑 4K 生图 创作者又多一个本地模型选项]] | 8GB 显存 / 本地高分辨率生成 |
 | 2026-05-13 | [[needle-26m-蒸馏-gemini-tool-calling-手机能跑\|Cactus 把 Gemini tool calling 蒸馏成 26M 模型，6000 tok/s 手机跑]] | 9 |
 | 2026-05-13 | [[local-ai-needs-to-be-the-norm-hn1848-本地推理潮\|HN 1848 票顶上来的"Local AI 必须成为主流"，国内本地推理玩家三档路线]] | 8 |
 | 2026-05-12 | [[jundot-omlx-apple-silicon-llm服务器\|jundot omlx：Apple Silicon LLM 服务器，Mac 跑 LLM 的新引擎]] | 9 |

@@ -4,6 +4,7 @@
 
 ## 最近更新
 
+- 2026-05-18 — 9 篇文章（voice 分布 first-person 4 / narrative 0 / analytical 4 / retro 1）。**依赖状态**：last30days skill 已可用，TrendRadar Docker 已运行，bird X 抓取成功保存 221 tweets。**新空间打开 7 条**：Seedance 2.0 长视频成本账、K-Dense 科研 Skills、Dograh 自托管语音客服、飞书 CLI 办公 agent 执行层、DreamServer 本地 AI 服务器、OpenHuman 本地 Obsidian 记忆、华为昇腾 Token 工厂计费。**Google Gemini CLI** 以每天 1000 次免费额度破 AI 编程高饱和例外，**NVIDIA Sana** 把本地生图/视频效率线拉回 8GB 显存创作者场景。QA 9/9 全过，L1 0 处，8 篇 xhs:compliant / 1 篇 xhs:primary。
 - 2026-05-17 — 9 篇文章（voice 分布 first-person 4 / narrative 0 / analytical 4 / retro 1）。**依赖修复**：安装 last30days skill，TrendRadar Docker 恢复运行并抓到 13 条中文热点，bird X 抓取成功保存 227 tweets。**新空间打开 6 条**：NotebookLM + Claude Skill 内容再生产、闲鱼 AI 客服副业自动化、LEANN 本地 RAG 省 97% 存储、CodeGraph Claude Code 代码图预索引、豆包手机号误伤 AI 搜索个人信息安全、Shannon white-box AI pentester 证明式漏洞扫描。**OpenAI Codex** 两个月免费进入企业默认 IDE 争夺，**Google AI pointer** 把 Gemini 入口从聊天框挪到光标，**Chollet** 把 agentic coding 评审拉到 ML 过拟合框架。QA 9/9 全过，L1 2 处，8 篇 xhs:compliant / 1 篇 xhs:primary。
 - 2026-05-16 — 10 篇文章（voice 分布 first-person 4 / narrative 1 / analytical 4 / retro 1，比 5/14 更均衡，narrative 首次回归 #7 中国短剧产业链事件追踪）。**优先品牌 openclaw 生态新成员命中**：#4 Clawdmeter 是 5/12 openclaw 主仓库 371k 后第一个生态层新工具（clawd 前缀），+1 boost 触发 REACH 9。**新空间打开 6 条**：国产 AI 双线同日上 OpenRouter（#1 蚂蚁 Ring-2.6-1T 万亿 thinking model 几乎免费 + #2 百度 Qianfan-OCR-Fast 多模态 OCR，国产模型上 OR 节奏明显加快）、openclaw 生态横向工具层启动（#4 Clawdmeter Claude Code 用量桌面 dashboard）、OpenAI Codex 全平台五条腿齐（#3 CLI/Web/Desktop/Mobile/IDE，移动端 vibe coding 首次落地）、AI 影视+创作者经济双线交叉持续（#7 中国短剧 AI 化，5/13 Hollywood 之后第 2 篇 AI 影视）、AI 金融 user-facing 实操首次落地（#6 ChatGPT+Plaid 银行账户 personal finance，国内豆包元宝监管对照）、Skills 生态官方收编（#10 anthropic/skills +923/day 把 mattpocock KOL / everything-claude-code 平台 / academic-research-skills 学术 四派归一）。其他：#5 Cerebras $60B IPO 算力公司大事件 + #8 whichllm 282 HN 票本地 LLM 选型 + #9 Anthropic 官方 Claude Code 大代码库使用手册。**QA 10/10 全过**，L2 平均 8.2 / L3 平均 8.2 / L4 全 pass / L5 平均 7.9 / L6 全过 0 fail，L1 共 12 处机械替换，rounds 平均 0（零质修循环全部首轮过）。**Step 4.6**：8 篇 xhs:compliant（reach ≥ 8 主动触发）；2 篇 xhs:primary 直发（#5 #8 reach=7）；0 篇 xhs:blocked。**X 抓取跳过**（Chrome cookies 失效，与近 7 日同因），社区反馈用 last30days 替代 10/10 成功。**警告**：AI 编程工具 62 + Agent 框架 53 + 国产 AI 40 + AI 定价 41 + 本地推理 26 + AI 硬件 16 篇连续高饱和峰区，下一轮严格降权。**新建 wiki 页**：cerebras 实体 / clawdmeter 实体 / ai-film 主题（5/13 Hollywood 已提示）
 - 2026-05-14 — 10 篇文章（voice 分布 first-person 3 / narrative 0 / analytical 6 / retro 1，analytical 占主导，行业事件密集）。**优先品牌本期跳过**：openclaw 371k + Hermes 149k GitHub Trending 持续在榜但无新事件，下一轮见到新动态依然优先选入。**新空间打开 6 条**：DeepSeek V4 当日双事件（#1 V4 Flash 5/14 上 OpenRouter 免费 256K + 百万 token agent + #9 Raschka 架构演进 sparse attention，工具实测+论文拆解同日双切，本号首次单日双 DeepSeek 事件）、AI 编程工具平替+省钱叙事（#2 Goose 26100 stars 一年省 2400 美元，明确"免费替代闭源订阅"路线）、Vibe Coding 范式独立成主题（#5 Simon Willison HTML + #10 Verge 长篇叙事，从 5/13 工具讨论升级到独立主题，新建 wiki/topics/vibe-coding.md）、AI 办公协同首次单独立线（#4 Notion Developer Platform agent hub，国内飞书钉钉语雀对照路径，新建 wiki/topics/ai-productivity.md）、AI 安全用户保护分支（#8 ChatGPT Trusted Contact，AI 安全从供应链/漏洞扩到"用户心理健康保护"）、企业 AI 客户结构变化（#7 Anthropic 业务客户首次超 OpenAI，5/13 DeployCo 之后第 2 个企业商业化叙事）。其他主题：#3 OpenAI Codex on Windows 沙箱（Windows 用户首次官方 coding agent 安全方案）、#6 Gemma 4 byte-for-byte 开源（Google 重大开源新一代）。**QA 10/10 全过**，L2 平均 8.3 / L3 平均 8.3 / L4 全 pass / L5 平均 7.8 / L6 全过 0 fail。L1 共 7 处机械替换。rounds 平均 0.5。**Step 4.6**：6 篇生成 xhs-version.md（#1 #2 #3 #4 #5 #6，reach ≥ 8 主动触发）；4 篇 xhs:primary 直发主版本（#7 #8 #9 #10，reach=7 + L6 pass）；0 篇 xhs:blocked。**X 抓取本期跳过**（Chrome cookies 失效），社区反馈用 last30days 替代 10/10 成功。**警告**：AI 编程工具 58 + Agent 框架 53 + 国产 AI 38 + AI 定价 40 篇连续高饱和峰区，下一轮严格降权；**新建 6 个主题页**：vibe-coding / ai-productivity / open-models / llm-architecture / ai-life / ai-democratization
@@ -52,6 +53,8 @@
 - [[anthropic|Anthropic]] — Claude / Claude Code / Glasswing / Mythos
 - [[google|Google DeepMind]] — Gemini / Gemma / Veo / NotebookLM / TPU
 - [[meta|Meta]] — Muse Spark / Llama / 员工键鼠训练数据
+- [[bytedance|字节跳动]] — 豆包 / Seedance / UI-TARS / deer-flow 等国产 AI 产品线
+- [[huawei|华为]] — 昇腾 AI 算力 / 鸿蒙 AI 硬件 / 国产 GPU 软件栈
 - [[deepseek|DeepSeek]] — V4 Pro 1.6T + V4 Flash 284B MoE 双发
 - [[moonshot|Moonshot / Kimi]] — Kimi K 系列 / kimi-cli
 - [[deezer|Deezer]] — 法国流媒体，AI 音乐占比披露者
@@ -71,6 +74,17 @@
 - [[mozilla|Mozilla]] — Firefox 母体，2026-05 与 Anthropic Mythos 合作浏览器漏洞挖掘
 
 ### 产品
+- [[seedance-2-0|Seedance 2.0]] — 字节系 AI 视频生成模型，5/18 长视频成本账入题
+- [[k-dense-scientific-agent-skills|K-Dense Scientific Agent Skills]] — 135 个科研和分析 Skills，支持 Claude Code / Codex / Cursor
+- [[dograh|Dograh]] — 开源自托管语音 agent 平台，一条 Docker 命令验证语音客服流程
+- [[gemini-cli|Gemini CLI]] — Google 终端 agent，10 万星，每天 1000 次免费额度
+- [[feishu|飞书]] — 字节系办公协作平台，CLI/Agent Skills 接入办公系统
+- [[lark-cli|Lark CLI]] — 飞书/Lark 官方 CLI，200+ 命令 / 24 Agent Skills
+- [[dreamserver|DreamServer]] — 本地 AI 全家桶，一条命令组合 Open WebUI / llama-server / n8n / Qdrant / ComfyUI 等服务
+- [[openhuman|OpenHuman]] — 个人 AI 记忆系统，118+ 集成同步到 SQLite + Obsidian vault
+- [[obsidian|Obsidian]] — 本地 Markdown 知识库，作为个人 AI 记忆 vault 载体
+- [[sana|Sana]] — NVIDIA 高效图像/视频生成框架，8GB 显存/4K 生图效率线
+- [[ascend|华为昇腾]] — 华为 AI 算力产品线，Token 工厂和国产推理集群锚点
 - [[xianyu-auto-reply-fix|xianyu-auto-reply-fix]] — 闲鱼多账号 AI 客服与自动发货开源后台
 - [[leann|LEANN]] — 省存储的本地 RAG / 私有个人知识库索引
 - [[codegraph|CodeGraph]] — Claude Code 本地代码知识图谱预索引层
@@ -151,6 +165,6 @@
 
 ## 覆盖追踪 (Coverage)
 
-- [[article-registry|文章注册表]] — 全部 240 篇文章索引
+- [[article-registry|文章注册表]] — 全部文章索引
 - [[topic-saturation|主题饱和度]] — 哪些写多了，哪些是空白
 - [[compliance-log|合规事件日志]] — 小红书违规历史 + L6 触发验证案例

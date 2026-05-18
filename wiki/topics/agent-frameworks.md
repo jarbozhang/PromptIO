@@ -14,6 +14,11 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-18 | [[k-dense-135个科研skill开源-claude-code和codex可以变科研助理|K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理]] | 科研 Skills / agent 科研助理 |
+| 2026-05-18 | [[dograh一条docker命令自建语音客服-不用先按分钟买saas|Dograh 一条 Docker 命令自建语音客服 不用先按分钟买 SaaS]] | 语音 agent 流程平台 |
+| 2026-05-18 | [[飞书cli过万星-200个命令让agent接进办公系统|飞书 CLI 过万星 200 个命令让 Agent 接进办公系统]] | 办公系统 CLI / Agent Skills |
+| 2026-05-18 | [[dreamserver一条命令把本地ai全家桶跑起来-mac-windows-linux都能用|DreamServer 一条命令把本地 AI 全家桶跑起来 Mac Windows Linux 都能用]] | 本地 agent 服务栈 / OpenClaw 与 n8n |
+| 2026-05-18 | [[openhuman把个人ai记忆写进本地obsidian-118个集成自动同步|OpenHuman 把个人 AI 记忆写进本地 Obsidian 118 个集成自动同步]] | agent memory / 本地 Obsidian vault |
 | 2026-05-13 | [[claude-platform-aws-bedrock-切换-国内云厂商怎么抄\|Claude Platform 登陆 AWS，SDK v0.101 对接 Bedrock，国内云厂商抄哪几步]] | 8 |
 | 2026-05-13 | [[needle-26m-蒸馏-gemini-tool-calling-手机能跑\|Cactus 把 Gemini tool calling 蒸馏成 26M 模型，6000 tok/s 手机跑]] | 9 |
 | 2026-05-12 | [[openclaw-371k-clawhub-moltbot-生态全景\|openclaw 371k 星生态全景：clawhub / clawdbot / moltbot 三条子线一次说清]] | 10 |

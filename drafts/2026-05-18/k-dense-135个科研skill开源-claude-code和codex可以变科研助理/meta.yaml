@@ -1,0 +1,32 @@
+title: K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理
+status: draft
+date: 2026-05-18T00:00:00.000Z
+reach: 8
+sources:
+  - github-trending-d28b6b5a
+  - web-github-c8f3d928
+tags:
+  - Claude Code
+  - Codex
+  - Agent Skills
+  - 科研
+  - AI 教育
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

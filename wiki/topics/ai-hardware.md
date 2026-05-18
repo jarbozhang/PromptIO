@@ -12,6 +12,7 @@ AI 推理 / 训练芯片、数据中心、消费端 AI 硬件。重点关注 NVI
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-18 | [[华为昇腾384集群落地无锡-token工厂开始按智能单元计费|华为昇腾 384 集群落地无锡 Token 工厂开始按智能单元计费]] | 华为昇腾 384 超节点 / Token 工厂 |
 | 2026-05-13 | [[google-android-17-agentic-ai-vibe-widgets-小米oppo怎么跟\|Google 把 agentic AI 和 vibe-coded widgets 塞进 Android 17，小米/OPPO/vivo 怎么跟]] | 8 |
 | 2026-05-13 | [[ai-data-center-rural-america-马里兰20亿账单-国内贵州对照\|AI 数据中心吃光美国农村电网，马里兰居民被甩 20 亿账单，对照国内贵州/内蒙路径]] | 7 |
 | 2026-05-10 | [[anthropic-spacex-5b-300mw算力大单-xai输给自己人\|Anthropic 跟 SpaceX 签 50 亿美元 / 年算力大单 300MW Colossus I]] | 算力供应链 / 大模型公司算力瓶颈 |

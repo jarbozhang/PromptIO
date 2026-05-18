@@ -4,15 +4,16 @@
 
 ## 状态
 
-- 当前篇数：6
+- 当前篇数：7
 - 饱和度：中
-- 最近覆盖：2026-05-12
+- 最近覆盖：2026-05-18
 - 下一轮策略：跟"实时交互模型范式 + 国产 TTS 横评 + 语音 UI 设备"，避开纯单一 TTS 模型发布
 
 ## 我们的覆盖
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-18 | [[dograh一条docker命令自建语音客服-不用先按分钟买saas|Dograh 一条 Docker 命令自建语音客服 不用先按分钟买 SaaS]] | 8 |
 | 2026-05-12 | [[thinking-machines-interaction-models-mira-murati-边听边说\|Thinking Machines / Mira Murati 谈 interaction models：边听边说的下一代语音多模态]] | 8 |
 | 2026-05-11 | [[apple-airpods摄像头给siri用-国产眼镜怎么抄\|Apple AirPods 给 Siri 装摄像头，进入设计验证阶段]] | 8 |
 | 2026-05-11 | [[openai-realtime-2新语音模型-国产实时语音对照\|OpenAI realtime 2 新语音模型，国产实时语音对照]] | 8 |
@@ -39,6 +40,7 @@
 
 ## 近期关键动态
 
+- **Dograh 自托管语音客服** (2026-05-18) — 语音 AI 从模型/TTS 扩到客服流程平台，中小团队可先用 Docker 验证 Web Call 流程
 - **Thinking Machines interaction models** (2026-05-12) — Mira Murati 团队首次正式提"边听边说"为下一代语音范式，把 TTS / ASR 分离架构甩到上一代
 - **Apple AirPods 摄像头给 Siri 用** (2026-05-11) — 语音 AI 从音频通道升级到"音 + 视"通道，国产 AI 眼镜路线得跟
 - **OpenAI realtime 2** (2026-05-11) — 实时语音模型质量再升一档，直播 / 客服 / 互动主播工具开始洗牌

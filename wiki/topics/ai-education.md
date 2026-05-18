@@ -10,6 +10,7 @@ AI 与教培/学习场景结合。面向学习者的工具（单词 / 语言 / �
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-18 | [[k-dense-135个科研skill开源-claude-code和codex可以变科研助理|K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理]] | 科研 Skills / 桌面科研助理 |
 | 2026-05-13 | [[imbad0202-academic-research-skills-claude-code-学术研究全自动\|Imbad0202 academic-research-skills 把 Claude Code 改造成学术研究流水线]] | 8 |
 | 2026-05-12 | [[dive-into-llms-动手学大模型-从零教程\|Dive into LLMs 动手学大模型从零教程 / Datawhale 系列]] | 8 |
 | 2026-05-11 | [[anthropic-skills-financial-services-courses官方三仓库\|Anthropic 把官方 skills / 金融行业 cookbook / 教育课程三仓库一起开源]] | 官方教育课程仓库 / AI Agent 教学 |

@@ -1,8 +1,47 @@
 # 主题饱和度分析
 
-基于 298 篇文章（2026-04-08 至 2026-05-16）的主题分布。**5/16 单批 10 篇后总计 298 篇。**（5/15 跳天未生成）
+基于 316 篇文章（2026-04-08 至 2026-05-18）的主题分布。**5/18 单批 9 篇后总计 316 篇。**（5/15 跳天未生成）
 
 
+## 5/18 9 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| Seedance 2.0 做出 2 小时 AI 电影 成本账比流量更刺眼 | 8 | analytical | ai-video/AI 视频 / creator-economy/创作者经济 |
+| K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理 | 8 | first-person | ai-education/AI 教育 / agent-frameworks/Agent 框架 |
+| Dograh 一条 Docker 命令自建语音客服 不用先按分钟买 SaaS | 8 | first-person | voice-ai/语音 AI / agent-frameworks/Agent 框架 |
+| Google Gemini CLI 10 万星 终端 agent 每天 1000 次免费额度怎么用 | 9 | first-person | ai-coding-tools/AI 编程工具 / ai-pricing/AI 定价 |
+| 飞书 CLI 过万星 200 个命令让 Agent 接进办公系统 | 9 | analytical | ai-productivity/AI 办公协同 / agent-frameworks/Agent 框架 |
+| DreamServer 一条命令把本地 AI 全家桶跑起来 Mac Windows Linux 都能用 | 8 | first-person | local-inference/本地推理 / agent-frameworks/Agent 框架 |
+| OpenHuman 把个人 AI 记忆写进本地 Obsidian 118 个集成自动同步 | 8 | analytical | ai-productivity/AI 办公协同 / agent-frameworks/Agent 框架 |
+| NVIDIA Sana 让 8GB 显存跑 4K 生图 创作者又多一个本地模型选项 | 8 | retro | local-inference/本地推理 / ai-video/AI 视频 / creator-economy/创作者经济 |
+| 华为昇腾 384 集群落地无锡 Token 工厂开始按智能单元计费 | 7 | analytical | ai-hardware/AI 硬件 / ai-pricing/AI 定价 / chinese-ai/国产 AI |
+
+**5/18 主题计数变化（人工估算）**：
+
+- **AI 编程工具**：65 → **66**（+Gemini CLI，Google 品牌 + 1000 次免费额度，按高饱和例外纳入）
+- **AI 定价**：43 → **45**（+Gemini CLI 免费额度 / Token 工厂按智能单元计费）
+- **AI 办公协同**：3 → **5**（+飞书 CLI / OpenHuman 本地记忆）
+- **创作者经济**：5 → **7**（+Seedance 长视频成本账 / Sana 本地生图效率）
+- **Agent 框架**：54 → **59**（+K-Dense Skills / Dograh 语音 agent / 飞书 CLI / DreamServer / OpenHuman，均为可执行工作流或 agent 记忆入口）
+- **本地推理**：27 → **29**（+DreamServer 本地 AI 全家桶 / Sana 8GB 显存高分辨率生成）
+- **AI 视频**：3 → **5**（+Seedance 2.0 长视频流水线 / Sana 视频与 world model 子线）
+- **语音 AI**：6 → **7**（+Dograh 自托管语音客服，从模型/TTS 扩到客服流程平台）
+- **AI 硬件**：16 → **17**（+华为昇腾 384 超节点 Token 工厂）
+- **国产 AI**：40 → **41**（+华为昇腾 Token 工厂，国产算力产能计费）
+- **AI 教育**：7 → **8**（+K-Dense 科研 Skills，科研助理工作流）
+
+**新空间打开**：
+
+- AI 视频成本账：Seedance 2.0 长片案例把讨论从画质推进到镜头返工率、token 成本和创作者回本模型。
+- 科研 Skills：K-Dense 把 Claude Code / Codex / Cursor 的 agent 能力从写代码推进到科研数据库、论文、实验与分析流程。
+- 语音客服自托管：Dograh 让中小团队先本地验证对话流程，再决定是否接入按分钟计费 SaaS。
+- 办公 agent 执行层：飞书 CLI 200+ 命令把 Docs / Sheets / Base / Calendar 等协作系统接进 agent 工具调用。
+- 个人 AI 记忆本地化：OpenHuman 把 118+ 集成写入 SQLite + Obsidian vault，记忆从聊天记录走向可迁移知识库。
+- 本地 AI 服务器：DreamServer 把 Open WebUI / llama-server / n8n / Qdrant / ComfyUI / OpenClaw 等服务打包成家庭服务器式栈。
+- Token 工厂计费：华为昇腾 384 集群案例把 AI 基础设施叙事从卡时/机柜转向 token 产能与智能单元。
+
+**警告/降权说明**：AI 编程工具、Agent 框架、AI 定价、本地推理仍高饱和。下一轮继续只跟重大品牌、真实可操作工具、成本结构变化和低饱和垂类；单纯 GitHub star 增长或泛 agent 工具盘点继续降权。AI 视频、AI 办公协同、语音客服自托管和个人记忆仍有低到中饱和空间，可继续追真实工作流案例。
 ## 5/17 9 篇主题分布
 
 | 文章 | REACH | voice | 主题 |

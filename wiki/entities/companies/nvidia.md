@@ -21,6 +21,7 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-18 | [[nvidia-sana让8gb显存跑4k生图-创作者又多一个本地模型选项|NVIDIA Sana 让 8GB 显存跑 4K 生图 创作者又多一个本地模型选项]] | 8 |
 | 2026-05-06 | [[sap-1-16亿砸德国ai-lab-nemoclaw-18个月独角兽\|SAP 11.6 亿砸 18 个月的德国 AI lab（NVIDIA 作为投资合伙方）]] | 8 |
 | 2026-04-24 | [[gemma-4塞进jetson-orin-nano-2000块桌面机器人真能做事\|Gemma 4 塞进 NVIDIA Jetson Orin Nano，2000 块钱桌面机器人真的能做事了]] | 8 |
 | 2026-04-23 | [[google两款tpu挑战nvidia-gemini不用付英伟达税了\|Google 双 TPU 挑战 NVIDIA（NVIDIA 作为被挑战对照方）]] | 8 |

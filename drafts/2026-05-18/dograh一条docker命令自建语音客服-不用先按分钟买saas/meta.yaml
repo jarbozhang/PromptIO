@@ -1,0 +1,32 @@
+title: Dograh 一条 Docker 命令自建语音客服 不用先按分钟买 SaaS
+status: draft
+date: 2026-05-18T00:00:00.000Z
+reach: 8
+sources:
+  - github-trending-1c4164f8
+  - web-github-6ea9e0fb
+tags:
+  - Dograh
+  - 语音 Agent
+  - Docker
+  - 客服自动化
+  - Voice AI
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

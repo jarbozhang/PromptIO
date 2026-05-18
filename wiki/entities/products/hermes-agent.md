@@ -18,6 +18,7 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-18 | [[dreamserver一条命令把本地ai全家桶跑起来-mac-windows-linux都能用|DreamServer 一条命令把本地 AI 全家桶跑起来 Mac Windows Linux 都能用]] | 8 |
 | 2026-05-06 | [[字节deer-flow开源superagent-harness-国产agent又一条路\|字节 deer-flow 开源 SuperAgent harness，国产 agent 又一条路（Hermes Agent 作为持久成长 agent 对照）]] | 8 |
 | 2026-05-03 | [[hermes-agent-130k星-nousresearch和openclaw生态深度绑定-topics拆解\|NousResearch hermes-agent 130k 星了，topics 里写满了 openclaw / clawdbot / moltbot]] | 9 |
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 已经 12 万星了，NousResearch 这个 agent 真的会和你一起长大]] | 8 |

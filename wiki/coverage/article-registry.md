@@ -3,6 +3,27 @@
 全部已生成文章索引，按日期倒序。
 
 
+## 2026-05-18（9 篇，voice 分布 first-person 4 / narrative 0 / analytical 4 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[seedance-2-0做出2小时ai电影-成本账比流量更刺眼|Seedance 2.0 做出 2 小时 AI 电影 成本账比流量更刺眼]] | 8 | analytical | [[seedance-2-0|Seedance 2.0]], [[bytedance|字节跳动]] | [[ai-video|AI 视频]] / [[creator-economy|创作者经济]] |
+| [[k-dense-135个科研skill开源-claude-code和codex可以变科研助理|K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理]] | 8 | first-person | [[k-dense-scientific-agent-skills|K-Dense Scientific Agent Skills]], [[claude-code|Claude Code]], [[codex|Codex]] | [[ai-education|AI 教育]] / [[agent-frameworks|Agent 框架]] |
+| [[dograh一条docker命令自建语音客服-不用先按分钟买saas|Dograh 一条 Docker 命令自建语音客服 不用先按分钟买 SaaS]] | 8 | first-person | [[dograh|Dograh]] | [[voice-ai|语音 AI]] / [[agent-frameworks|Agent 框架]] |
+| [[google-gemini-cli-10万星-终端agent每天1000次免费额度怎么用|Google Gemini CLI 10 万星 终端 agent 每天 1000 次免费额度怎么用]] | 9 | first-person | [[gemini-cli|Gemini CLI]], [[google|Google]], [[gemini|Gemini]] | [[ai-coding-tools|AI 编程工具]] / [[ai-pricing|AI 定价]] |
+| [[飞书cli过万星-200个命令让agent接进办公系统|飞书 CLI 过万星 200 个命令让 Agent 接进办公系统]] | 9 | analytical | [[feishu|飞书]], [[lark-cli|Lark CLI]] | [[ai-productivity|AI 办公协同]] / [[agent-frameworks|Agent 框架]] |
+| [[dreamserver一条命令把本地ai全家桶跑起来-mac-windows-linux都能用|DreamServer 一条命令把本地 AI 全家桶跑起来 Mac Windows Linux 都能用]] | 8 | first-person | [[dreamserver|DreamServer]], [[openclaw|OpenClaw]], [[hermes-agent|Hermes Agent]] | [[local-inference|本地推理]] / [[agent-frameworks|Agent 框架]] |
+| [[openhuman把个人ai记忆写进本地obsidian-118个集成自动同步|OpenHuman 把个人 AI 记忆写进本地 Obsidian 118 个集成自动同步]] | 8 | analytical | [[openhuman|OpenHuman]], [[obsidian|Obsidian]] | [[ai-productivity|AI 办公协同]] / [[agent-frameworks|Agent 框架]] |
+| [[nvidia-sana让8gb显存跑4k生图-创作者又多一个本地模型选项|NVIDIA Sana 让 8GB 显存跑 4K 生图 创作者又多一个本地模型选项]] | 8 | retro | [[sana|Sana]], [[nvidia|NVIDIA]] | [[local-inference|本地推理]] / [[ai-video|AI 视频]] / [[creator-economy|创作者经济]] |
+| [[华为昇腾384集群落地无锡-token工厂开始按智能单元计费|华为昇腾 384 集群落地无锡 Token 工厂开始按智能单元计费]] | 7 | analytical | [[ascend|华为昇腾]], [[huawei|华为]] | [[ai-hardware|AI 硬件]] / [[ai-pricing|AI 定价]] / [[chinese-ai|国产 AI]] |
+
+**5/18 voice 分布**：first-person 4 / analytical 4 / retro 1。工具实测继续占 4 篇，行业/生态分析 4 篇，retro 1 篇用于 NVIDIA Sana 效率线复盘。
+
+**5/18 优先品牌/例外**：AI 编程工具、Agent 框架、AI 定价仍高饱和，本期仅纳入 Google Gemini CLI 免费额度、K-Dense 科研 Skills、飞书 CLI 办公 agent、Token 工厂成本计量等具备品牌或明确可操作利益点的例外。Open Generative AI 因 2026-04-24 已覆盖，未作为独立选题重复出篇。
+
+**5/18 QA 结果**：9/9 全过结构和合规检查。L1 机械替换 0 处。Step 4.6：8 篇 xhs:compliant（reach ≥ 8 主动触发），1 篇 xhs:primary（Token 工厂 reach=7），0 篇 xhs:blocked。
+
+**5/18 采集备注**：RSS/GitHub/arXiv 498 items；GitHub Trending 32 AI repos；OpenRouter 0 new；PyPI checked；TrendRadar 保存 17 条中文热点；bird X 抓取成功保存 221 tweets（127 accountTweets / 89 home / 5 following），failures 0。
 ## 2026-05-17（9 篇，voice 分布 first-person 4 / narrative 0 / analytical 4 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

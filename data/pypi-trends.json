@@ -31,9 +31,9 @@
       "last_month": 614704
     },
     "ollama": {
-      "last_day": 466477,
-      "last_week": 3129971,
-      "last_month": 12035637
+      "last_day": 339979,
+      "last_week": 3128129,
+      "last_month": 12069008
     },
     "crewai": {
       "last_day": 625240,
@@ -51,5 +51,5 @@
       "last_month": 1557774
     }
   },
-  "updated_at": "2026-05-17T11:23:34.539Z"
+  "updated_at": "2026-05-18T00:51:20.027Z"
 }

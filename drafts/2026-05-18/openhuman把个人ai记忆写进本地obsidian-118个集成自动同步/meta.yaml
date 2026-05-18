@@ -1,0 +1,32 @@
+title: OpenHuman 把个人 AI 记忆写进本地 Obsidian 118 个集成自动同步
+status: draft
+date: 2026-05-18T00:00:00.000Z
+reach: 8
+sources:
+  - github-trending-8ea11e12
+  - web-github-8ed2cce0
+tags:
+  - OpenHuman
+  - Obsidian
+  - 个人 AI
+  - Agent Memory
+  - 本地知识库
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

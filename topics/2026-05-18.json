@@ -1,0 +1,175 @@
+[
+  {
+    "index": 1,
+    "title": "Seedance 2.0 做出 2 小时 AI 电影 成本账比流量更刺眼",
+    "slug": "seedance-2-0做出2小时ai电影-成本账比流量更刺眼",
+    "score": 8.4,
+    "actionability": 8,
+    "novelty": 9,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "X 上中文社区在转一条近 2 小时 AI 电影《人类进化史》，讨论点不是画面本身，而是 Seedance 2.0 这类视频模型的 token 成本和创作者能不能算回本。结合 GitHub 上一批 Seedance 2.0 prompt、Skill、API、ComfyUI 项目，写 AI 视频从单条炫技进入长视频流水线后的成本账。",
+    "tags": ["Seedance 2.0", "AI 视频", "创作者经济", "字节跳动", "视频工作流"],
+    "reason": "Seedance/字节品牌认知 + 2 小时 AI 电影和上亿流量有传播钩子 + prompt/Skill/API 项目可直接试，REACH 8。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓",
+    "sources": [
+      "x-home-Saccc_c-6f4f0d19.md",
+      "x-home-Xiaoniu6161-4a45163a.md",
+      "web-github-98446302.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 2,
+    "title": "K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理",
+    "slug": "k-dense-135个科研skill开源-claude-code和codex可以变科研助理",
+    "score": 8.5,
+    "actionability": 9,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 9,
+    "angle": "K-Dense-AI/scientific-agent-skills 把 135 个科研和分析 Skill 开源，覆盖生物信息、药物发现、临床研究、材料科学、金融数据和科研写作。重点写它怎么把 Claude Code、Codex、Cursor 从代码助手变成桌面科研助理。",
+    "tags": ["Claude Code", "Codex", "Agent Skills", "科研", "AI 教育"],
+    "reason": "Claude Code/Codex 品牌 + 135 个现成科研 Skill 利益点 + npx skills add 可直接安装，REACH 8。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓",
+    "sources": [
+      "github-trending-d28b6b5a.md",
+      "web-github-c8f3d928.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 3,
+    "title": "Dograh 一条 Docker 命令自建语音客服 不用先按分钟买 SaaS",
+    "slug": "dograh一条docker命令自建语音客服-不用先按分钟买saas",
+    "score": 8.2,
+    "actionability": 9,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "dograh-hq/dograh 是开源自托管语音 Agent 平台，README 给出一条 Docker compose 命令，跑起来后可以在本地 Web Call 里测试 inbound/outbound voice bot。文章重点写中小团队做语音客服、线索筛选和售前问答时，为什么先自托管验证流程比一开始买按分钟计费 SaaS 更稳。",
+    "tags": ["Dograh", "语音 Agent", "Docker", "客服自动化", "Voice AI"],
+    "reason": "语音客服痛点明确 + 一条 Docker 命令可操作 + 不先按分钟买 SaaS 有利益点，REACH 8。",
+    "reach_note": "品牌✗ 利益点✓ 可操作✓",
+    "sources": [
+      "github-trending-1c4164f8.md",
+      "web-github-6ea9e0fb.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 4,
+    "title": "Google Gemini CLI 10 万星 终端 agent 每天 1000 次免费额度怎么用",
+    "slug": "google-gemini-cli-10万星-终端agent每天1000次免费额度怎么用",
+    "score": 8.4,
+    "actionability": 9,
+    "novelty": 7,
+    "reach": 9,
+    "depth_potential": 8,
+    "angle": "google-gemini/gemini-cli 已经 10 万星，README 明确列出个人 Google 账号免费档 60 requests/min、1000 requests/day、Gemini 3 和 1M context。AI 编程工具高饱和，但 Google 品牌、免费额度和终端 agent 组合足够强，文章聚焦它适合拿来做哪些低成本任务，而不是再做 Claude Code 横评。",
+    "tags": ["Google", "Gemini CLI", "AI 编程", "免费额度", "终端 Agent"],
+    "reason": "Google/Gemini 品牌 + 1000 次免费额度 + npx/npm/brew 可直接装，REACH 9。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓",
+    "sources": [
+      "github-trending-8d49e667.md",
+      "web-github-24684c1e.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 5,
+    "title": "飞书 CLI 过万星 200 个命令让 Agent 接进办公系统",
+    "slug": "飞书cli过万星-200个命令让agent接进办公系统",
+    "score": 8.7,
+    "actionability": 9,
+    "novelty": 9,
+    "reach": 9,
+    "depth_potential": 8,
+    "angle": "阮一峰在 X 上提到多家国产办公平台开放 agent 可调用 CLI，其中飞书功能最全、40 多天过万星。官方 larksuite/cli README 显示 17 个业务域、200+ 命令、24 个 Agent Skills。文章写国内办公 agent 真正落地的入口不是聊天机器人，而是 Docs、Sheets、Base、Calendar、Mail 这些可调用命令。",
+    "tags": ["飞书", "Lark CLI", "AI 办公协同", "Agent Skills", "工作流自动化"],
+    "reason": "飞书品牌 + 200 个命令/24 个 Skill 明确利益点 + npx 安装和授权路径可操作，REACH 9。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓",
+    "sources": [
+      "x-home-ruanyf-8d063012.md",
+      "web-github-dd76962a.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 6,
+    "title": "DreamServer 一条命令把本地 AI 全家桶跑起来 Mac Windows Linux 都能用",
+    "slug": "dreamserver一条命令把本地ai全家桶跑起来-mac-windows-linux都能用",
+    "score": 8.1,
+    "actionability": 9,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "DreamServer 把 Open WebUI、llama-server、LiteLLM、Whisper、Kokoro、n8n、Qdrant、SearXNG、ComfyUI、OpenClaw、Hermes Agent 等服务预先接好，一条命令启动。文章重点写它和单独装 Ollama/Open WebUI 的差别，以及为什么本地 AI 开始从模型运行器变成整套家庭服务器。",
+    "tags": ["DreamServer", "本地 AI", "Open WebUI", "OpenClaw", "自托管"],
+    "reason": "一条命令 + 多平台 + 省订阅/自托管利益点明确，REACH 8。",
+    "reach_note": "品牌✗ 利益点✓ 可操作✓",
+    "sources": [
+      "github-trending-a7e9e8a4.md",
+      "web-github-bfc33b7b.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 7,
+    "title": "OpenHuman 把个人 AI 记忆写进本地 Obsidian 118 个集成自动同步",
+    "slug": "openhuman把个人ai记忆写进本地obsidian-118个集成自动同步",
+    "score": 8,
+    "actionability": 8,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "tinyhumansai/openhuman GitHub Trending 日增最高，README 里最关键的不是“个人 AI 超级智能”，而是 118+ OAuth 集成、20 分钟自动抓取、SQLite + Obsidian vault 的 Memory Tree。文章写个人 agent 记忆从聊天记录走向本地知识库以后，普通用户应该先试哪三类数据。",
+    "tags": ["OpenHuman", "Obsidian", "个人 AI", "Agent Memory", "本地知识库"],
+    "reason": "Obsidian/个人 AI 认知 + 118 个集成和本地记忆利益点 + 桌面安装/命令安装可操作，REACH 8。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓",
+    "sources": [
+      "github-trending-8ea11e12.md",
+      "web-github-8ed2cce0.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 8,
+    "title": "NVIDIA Sana 让 8GB 显存跑 4K 生图 创作者又多一个本地模型选项",
+    "slug": "nvidia-sana让8gb显存跑4k生图-创作者又多一个本地模型选项",
+    "score": 8.1,
+    "actionability": 8,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "NVlabs/Sana Trending 日增 472，README 把 SANA 系列定位成高分辨率图像和视频生成的高效框架，写到 4K 生图、4-bit 量化、8GB 显存、SANA-Sprint、SANA-Video/LongSANA。文章面向创作者解释它适合什么机器、什么工作流，不做论文细节堆砌。",
+    "tags": ["NVIDIA", "Sana", "本地生图", "AI 视频", "创作者经济"],
+    "reason": "NVIDIA 品牌 + 8GB 显存/4K 生图利益点 + diffusers/ComfyUI 可操作，REACH 8。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓",
+    "sources": [
+      "github-trending-f549c52e.md",
+      "web-github-c4c236c4.md"
+    ],
+    "voice": "retro"
+  },
+  {
+    "index": 9,
+    "title": "华为昇腾 384 集群落地无锡 Token 工厂开始按智能单元计费",
+    "slug": "华为昇腾384集群落地无锡-token工厂开始按智能单元计费",
+    "score": 7.4,
+    "actionability": 6,
+    "novelty": 8,
+    "reach": 7,
+    "depth_potential": 8,
+    "angle": "财联社和 TrendRadar 同步出现无锡 Token 工厂话题，弘信电子与无锡高新区落地华为昇腾 384 超节点集群，首批 4 台，强调从卖卡时/机柜转向按 Token 这个智能单元计费。文章不是股票推荐，而是解释 AI 服务成本以后为什么会从 GPU 租赁价变成 token 产能价。",
+    "tags": ["华为昇腾", "Token 工厂", "AI 基础设施", "算力", "国产 AI"],
+    "reason": "华为/昇腾品牌 + Token 计费新鲜 + 对开发者理解未来 API 成本有价值，REACH 7。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✗",
+    "sources": [
+      "trendradar-财联社热门-3fe8f6e4.md",
+      "trendradar-华尔街见闻-0507f324.md",
+      "web-cls-ab890127.md"
+    ],
+    "voice": "analytical"
+  }
+]

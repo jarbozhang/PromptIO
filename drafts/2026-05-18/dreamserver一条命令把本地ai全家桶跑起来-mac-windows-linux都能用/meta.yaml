@@ -1,0 +1,32 @@
+title: DreamServer 一条命令把本地 AI 全家桶跑起来 Mac Windows Linux 都能用
+status: draft
+date: 2026-05-18T00:00:00.000Z
+reach: 8
+sources:
+  - github-trending-a7e9e8a4
+  - web-github-bfc33b7b
+tags:
+  - DreamServer
+  - 本地 AI
+  - Open WebUI
+  - OpenClaw
+  - 自托管
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
+xhs_blocked_reason: ""

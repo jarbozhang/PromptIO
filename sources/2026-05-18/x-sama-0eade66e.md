@@ -1,0 +1,12 @@
+---
+title: "being a dad is the thing that has most exceeded already-high-expectations in my whole life"
+source: "X @sama"
+url: "https://x.com/sama/status/2054773491522822264"
+date: "Thu May 14 03:59:10 +0000 2026"
+likes: 6980
+reposts: 248
+replies: 1037
+tweet_id: "2054773491522822264"
+author: "sama"
+---
+being a dad is the thing that has most exceeded already-high-expectations in my whole life
