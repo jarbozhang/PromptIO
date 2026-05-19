@@ -90,7 +90,7 @@ npm test            # 运行测试
 - **境外软件访问教程**（翻墙/梯子/Clash/ChatGPT web 注册）→ 选题门 skip，写作层禁用词
 - **纯拉踩标题**（X 干翻/吊打/订阅可以退了/变笨了）→ 选题门 skip，写作层禁用句式
 
-QA 新增 L6 小红书合规维度（不影响 overall_pass，只影响 xhs_pass）。高 REACH 或 L6 fail 的文章在 Step 4.6 自动生成 `xhs-version.md` 合规版本。详见 `docs/brainstorms/2026-04-24-xhs-compliance-requirements.md` 和 `config/prompts/scoring.md` 的 Hard Exclusions。
+QA 的 L6 小红书合规维度现在是主稿硬门槛：不再单独生成 `xhs-version.md`，而是只生成一份文章，并保证这份主稿能通过小红书规则检验。L6 fail 的文章必须直接修改主稿；3 轮质修后仍不通过则 `platforms.xhs: blocked`。详见 `config/prompts/scoring.md` 的 Hard Exclusions。
 
 ## Skill routing
 

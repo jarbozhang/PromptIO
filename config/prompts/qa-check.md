@@ -72,7 +72,7 @@
 
 ### 第六步：L6 小红书合规检查（pass/fail）
 
-**注意，L6 不影响 overall_pass，只影响 xhs_pass。** 一旦 L6 fail，文章仍可以发公众号/X，但会在 Step 4.6 触发小红书合规版生成。
+**注意，L6 是主稿硬门槛。** 不再生成单独的小红书版本；一旦 L6 fail，文章必须进入质修循环，直接修改主稿，直到这一份主稿可同时用于公众号/X/小红书。
 
 检查以下 5 条，任一命中即 L6 fail：
 
@@ -108,13 +108,13 @@
 }
 ```
 
-**overall_pass 的判断逻辑：** l4_pass == true AND l1_violations == 0 AND l2_score >= 7 AND l3_score >= 7 AND l5_score >= 7（**L6 不影响 overall_pass**，维持现有 L1-L5 的三态判定）
+**overall_pass 的判断逻辑：** l4_pass == true AND l1_violations == 0 AND l2_score >= 7 AND l3_score >= 7 AND l5_score >= 7 AND l6_pass == true（**L6 小红书合规是主稿硬门槛**）
 
 **xhs_pass 的判断逻辑：** l6_pass == true AND l5_score >= 7
 
 **l6_issues 格式：** 每个元素是一个对象 `{"type": "title_banned_phrase" 或 "superstition" 或 "overseas_access" 或 "competitor_bashing" 或 "vpn_guide", "text": "违规文本", "suggestion": "改进建议"}`
 
-**注意：** L6 fail 且 overall_pass=true 的文章会进入 Step 4.6 生成小红书合规版 xhs-version.md。overall_pass=false 的文章仍走原 passed/needs_review/failed_qa 三态流程，不受 L6 影响。
+**注意：** L6 fail 时，overall_pass 必须为 false，并在 summary 中明确列出需要直接修改主稿的问题。不要建议生成 `xhs-version.md` 或单独小红书版本。
 
 如果 overall_pass 为 false，在 summary 中明确说明哪些维度未通过以及最优先需要修改的问题。
 

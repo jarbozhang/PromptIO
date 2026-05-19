@@ -16,11 +16,11 @@ description: >
 **全程无人值守。** 触发本 skill 后，所有步骤连续执行直到 Step 6 commit 完成，**任何中间步骤都不停下等用户确认**：
 - Step 3 选题输出后**直接进入** Step 3.5，不展示候选给用户审核
 - Step 4 写作子代理直接并行启动
-- Step 4.5 QA 即使有 needs_review 也不暂停，只在 meta.yaml 标记，Step 6 commit 仍照常
-- Step 4.6 xhs 合规版按规则自动生成 / 标记 blocked
+- Step 4.5 QA 将 L6 小红书规则作为主稿硬门槛；如有 needs_review 也不暂停，只在 meta.yaml 标记，Step 6 commit 仍照常
+- 不再生成单独的小红书版本；主稿就是公众号/X/小红书共用的唯一版本
 - Step 5 wiki 三类子代理并行后直接 commit
 
-质量保证依赖：Step 3 合规预检 + Step 4.5 QA 三轮质修循环 + Step 4.6 L6 合规闸 + Step 5c 主角过滤。这四道关之外不再设人工把关。
+质量保证依赖：Step 3 合规预检 + Step 4.5 QA 三轮质修循环（含 L6 小红书硬门槛）+ Step 5c 主角过滤。这三道关之外不再设人工把关。
 
 例外：单步触发（如"只评分"/"只生成"）按用户单步指令执行，不进入连续模式。
 
@@ -201,7 +201,7 @@ console.log(JSON.stringify({ skip, reasons }));
 
 输出选题列表，每题包含：标题、角度、原型、关联 source 文件、score、reach。
 
-**自动直通：** 选题输出后直接进入 Step 3.5，**不等待用户确认**。用户已明确管线是无人值守跑完整流程；Step 4.5 QA 循环 + Step 4.6 xhs 合规生成 + Step 5 wiki 子代理已经覆盖了内容质量、合规、覆盖度三道关，不需要选题阶段的人工把关。如果选题需要回退，由 Step 4.5 needs_review 或 commit 前自检兜底。
+**自动直通：** 选题输出后直接进入 Step 3.5，**不等待用户确认**。用户已明确管线是无人值守跑完整流程；Step 4.5 QA 循环（含 L6 小红书规则）+ Step 5 wiki 子代理已经覆盖了内容质量、合规、覆盖度三道关，不需要选题阶段的人工把关。如果选题需要回退，由 Step 4.5 needs_review 或 commit 前自检兜底。
 
 ### Step 3.5: last30days 社区反馈拉取（每个 REACH>=7 选题）
 
@@ -290,13 +290,21 @@ qa:                      # 质检结果（由质检循环自动写入）
   l3_score: 7            # 1-10
   l4_pass: true          # boolean
   l5_score: 8            # 1-10
+  l6_pass: true           # boolean，小红书合规硬门槛
+  l6_issues: []           # L6 fail 时的具体问题
+  xhs_pass: true          # l6_pass && l5_score >= 7
   l1_replacements: 3     # L1 机械替换次数
   issues: []             # 最后一轮的未解决问题列表（仅 needs_review 时有值）
   error: ""              # failed_qa 时填写错误原因（parse_error/timeout/unknown）
+platforms:
+  wechat: primary
+  xhs: primary            # primary | blocked
+  x: primary
+xhs_blocked_reason: ""
 ```
 
 **qa.status 说明：**
-- `passed` = L1 零违规 + L2/L3/L5 均 >= 7 + L4 pass
+- `passed` = L1 零违规 + L2/L3/L5 均 >= 7 + L4 pass + L6 小红书合规 pass
 - `needs_review` = 3 轮质修后仍未达标，带 issues 进入人工审核
 - `failed_qa` = QA agent 错误（超时/不可解析），带 error 进入人工审核
 
@@ -361,11 +369,13 @@ console.log(JSON.stringify({ replacements_count: replacements.length, details: r
 - `overall_pass == false` → 进入质修循环（4.5d）
 - JSON 不可解析且 2 次重试均失败 → 消耗 1 轮内容修改配额
 
+**L6 是主稿硬门槛。** 小红书合规不再通过派生版兜底；一篇文章如果 `l6_pass == false`，`overall_pass` 必须为 false，并进入同一个质修循环，直接修主稿。
+
 **4.5d 质修循环（最多 3 轮）**
 
 对于未通过质检的文章：
 
-1. 从 QA JSON 中提取问题清单（l4_issues + l1_details + 低分维度的 reasons）
+1. 从 QA JSON 中提取问题清单（l4_issues + l1_details + l6_issues + 低分维度的 reasons）
 2. 启动修改子代理（Agent tool, mode: bypassPermissions），传入：
    - 文章原文
    - QA 问题清单（不含 QA 的推理过程，只传结论和建议）
@@ -391,24 +401,23 @@ qa:
   l3_score: 7
   l4_pass: true
   l5_score: 8
-  l6_pass: true           # L6 小红书合规（不影响 overall_pass）
-  l6_issues: []           # L6 fail 时记录违规类型和建议
+  l6_pass: true           # L6 小红书合规（主稿硬门槛）
+  l6_issues: []           # L6 fail 时记录违规类型和建议，并进入质修循环
   xhs_pass: true          # l6_pass && l5_score >= 7
   l1_replacements: 3      # Step 4.5a 的机械替换次数
   issues: []              # needs_review 时填写
   error: ""               # failed_qa 时填写
 platforms:
   wechat: primary         # primary | blocked
-  xhs: primary            # primary | compliant | blocked（缺失时按 blocked 处理）
+  xhs: primary            # primary | blocked（缺失时按 blocked 处理）
   x: primary              # primary | blocked
 xhs_blocked_reason: ""    # 可选，仅 platforms.xhs=blocked 时填写
 ```
 
 **platforms 字段语义和默认值：**
 - `wechat.primary` 主版本（主 slug.md）直接发公众号
-- `xhs.primary` 主版本直接发小红书（低风险文章）
-- `xhs.compliant` 主版本不发小红书，派生版 `xhs-version.md` 发（触发 Step 4.6）
-- `xhs.blocked` 不发小红书（含玄学或其它强制排除情况）
+- `xhs.primary` 主版本直接发小红书，且主版本必须已通过 L6
+- `xhs.blocked` 不发小红书（3 轮质修后仍未通过 L6、玄学等强制排除情况、或 QA 基础设施失败）
 - **向后兼容**：读取 meta.yaml 时，如 `platforms` 或 `platforms.xhs` 字段不存在，按 `xhs: blocked` 处理（保守兜底，历史 drafts 不会被误发）
 
 **所有文章质检完成后，汇报质检结果：**
@@ -416,58 +425,34 @@ xhs_blocked_reason: ""    # 可选，仅 platforms.xhs=blocked 时填写
 - 需要人工审核的文章列表（如有）
 - 平均质修轮次
 - L1 机械替换总次数
-- L6 fail 的文章列表（将进入 Step 4.6）
+- L6 最终仍 fail 的文章列表（`platforms.xhs` 将写 `blocked`）
 
-然后继续 Step 4.6（小红书合规版生成）。
+然后继续 Step 4.6（单版本平台标记）。
 
-### Step 4.6: 小红书合规版生成（条件触发）
+### Step 4.6: 单版本平台标记
 
-**触发条件（对每篇 QA 通过的文章判断）：**
+**原则：只保留一份主稿。** 不生成 `xhs-version.md`，不启动额外的小红书改写子代理。公众号、X、小红书共用 `drafts/{date}/{slug}/{slug}.md` 这一份文章；为了能发小红书，主稿必须通过 L6。
 
-```
-generate_xhs = (qa.overall_pass === true) AND (qa.l6_pass === false OR reach >= 8)
-```
+**标记规则：**
 
-- L6 fail 的必须生成（正文有平台违规）
-- REACH >= 8 的高价值文章主动生成合规版（扩大小红书分发）
-- 两个条件都不满足的文章，主版本可以直接发小红书，写 `platforms.xhs: primary`
+- `qa.status == passed` 且 `qa.l6_pass == true` 且 `qa.xhs_pass == true` → `platforms.xhs = primary`
+- `qa.status == needs_review` 且最终问题包含 L6 → `platforms.xhs = blocked`，`xhs_blocked_reason = l6_needs_review`
+- `qa.status == failed_qa` → `platforms.xhs = blocked`，`xhs_blocked_reason = failed_qa`
+- 玄学完全禁区、境外访问教程等强制排除问题无法在 3 轮内修掉 → `platforms.xhs = blocked`，不要生成替代稿
 
-**生成流程：**
-
-对每篇符合条件的文章启动 xhs-compliant 子代理（Agent tool, mode: bypassPermissions），传入：
-
-1. **System prompt**：读取 `config/prompts/xhs-compliant.md` 的完整内容
-2. **原文 markdown**：读 `drafts/{date}/{slug}/{slug}.md`（L1 替换后的主版本）
-3. **l6_issues**：从 meta.yaml.qa.l6_issues 里取出，作为明确的违规点清单
-
-**子代理返回判断：**
-
-- 返回以 `cannot_comply:` 开头的字符串 → 文章含玄学禁区词，无法合规
-  - `meta.yaml.platforms.xhs = 'blocked'`
-  - `meta.yaml.xhs_blocked_reason = cannot_comply 后面的原因`
-  - 不生成 xhs-version.md
-- 返回完整合规 markdown → 正常转写
-  - 写入 `drafts/{date}/{slug}/xhs-version.md`
-  - `meta.yaml.platforms.xhs = 'compliant'`
-- 子代理异常超时或 JSON 不可解析 → soft-fail
-  - `meta.yaml.platforms.xhs = 'blocked'`
-  - `meta.yaml.xhs_blocked_reason = 'xhs_generation_error'`
-  - 记日志，不阻塞后续 Step 5
-
-**对不触发条件的文章，也要写入 platforms 字段：**
+**每篇文章都要写入 platforms 字段：**
 
 ```yaml
 platforms:
   wechat: primary
-  xhs: primary    # 低 REACH 且 L6 pass，主版本可直接发小红书
+  xhs: primary    # 主稿通过 L6 时才可直接发小红书；否则 blocked
   x: primary
 ```
 
 **所有文章处理完成后，汇报：**
-- xhs.primary 数量（低风险直接发）
-- xhs.compliant 数量（生成了合规版）
-- xhs.blocked 数量（玄学/合规生成失败）
-- 生成的 xhs-version.md 文件列表
+- xhs.primary 数量（主稿可直接发）
+- xhs.blocked 数量（主稿仍不适合发小红书）
+- 被 blocked 的标题和原因
 
 然后继续 Step 5（Wiki 更新）。
 

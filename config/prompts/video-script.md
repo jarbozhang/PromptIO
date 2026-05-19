@@ -6,7 +6,7 @@
 
 - 原文 markdown 全文（含 frontmatter 或纯正文皆可）
 - slug（字符串，从 draft 路径解析得到）
-- 可选：xhs-version.md 的内容（若存在，优先用 xhs-version 作为合规底线参考）
+- 原文必须已经是通过小红书 L6 规则的单版本主稿；不要依赖单独的小红书版本兜底
 
 ## 输出契约
 
