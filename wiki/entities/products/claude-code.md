@@ -16,6 +16,8 @@ Claude Code 在中文 AI 社区（X/小红书）是当前最热的工具话题�
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-19 | [[trae真实用户最常调用的10个agent-skills暴露了ai编程该怎么管|TRAE 真实用户 Top 10 Agent Skills]] | Skills 治理 / 真实调用数据 |
+| 2026-05-19 | [[claude-code创始人说自己今年没写过代码-anthropic内部已经让claude互相问问题|Claude Code 创始人 Boris Cherny 工作流]] | 并行 agent / Loop / 组织流程 |
 | 2026-05-18 | [[k-dense-135个科研skill开源-claude-code和codex可以变科研助理|K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理]] | 科研 Skills / 学术工作流 |
 | 2026-05-11 | [[anthropic-skills-financial-services-courses官方三仓库\|Anthropic 把官方 skills / 金融行业 cookbook / 教育课程三仓库一起开源]] | 官方 Skills 仓库 / Skill 生态 |
 | 2026-05-10 | [[claude-code-cve-39861-sandbox逃逸-国内开发者升级\|Claude Code 爆 CVE-2026-39861 sandbox 逃逸漏洞，国内开发者今晚把这一个版本删掉]] | 安全漏洞 / 供应链 |

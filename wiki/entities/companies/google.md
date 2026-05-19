@@ -13,6 +13,7 @@ Gemini / Gemma / Veo 系列的开发商。
 
 ## 近期动态
 
+- **Gemini API Flex/Priority + Webhooks** (2026-05-19 入题) — Gemini API 把低成本后台推理、低延迟在线推理和长任务回调拆成更清晰的生产系统能力
 - **Google + Kaggle 5 天 AI Agent 速成课回炉** (2026-04-27 / 4/28 入题) — Kaggle GenAI Intensive 重启，2026/6 开课，主题 Vibe Coding + AI Agents，免费 + 证书，AI 教育低饱和首次以 Google 大牌课程入选
 - **Veo 3.1 Lite paid preview 上线 Gemini API/AI Studio** (2026-03-31 / 4/28 入题) — Google AI Studio + Gemini API 推出最便宜视频生成档，与即梦/可灵/Sora-2 在性价比层正面对比
 - **Chrome Skills 把 prompt 变一键工具** (2026-04-14 / 4/28 入题) — Chrome 内置 Skills 让用户保存/分享/复用 AI prompt workflow，预演国产浏览器交互范式
@@ -33,6 +34,7 @@ Gemini / Gemma / Veo 系列的开发商。
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-19 | [[google-gemini-api新增flex和priority两档-低价批处理和低延迟终于分开|Google Gemini API 新增 Flex 和 Priority 两档 低价批处理和低延迟终于分开]] | 9 |
 | 2026-05-18 | [[google-gemini-cli-10万星-终端agent每天1000次免费额度怎么用|Google Gemini CLI 10 万星 终端 agent 每天 1000 次免费额度怎么用]] | 9 |
 | 2026-05-10 | [[deepmind-alphaevolve-gemini编程agent解实际问题\|DeepMind AlphaEvolve 把 Gemini 编程 agent 推到真实问题，国产 coding agent 该看的是这套思路]] | 8 |
 | 2026-05-05 | [[chrome-4gb-ai模型偷装-国内用户怎么删\|Chrome 在你硬盘上偷塞了 4GB 的 Gemini Nano，国内用户怎么查、怎么删]] | 9 |

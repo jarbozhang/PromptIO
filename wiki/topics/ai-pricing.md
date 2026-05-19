@@ -17,6 +17,7 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-19 | [[google-gemini-api新增flex和priority两档-低价批处理和低延迟终于分开|Gemini API Flex / Priority 两档]] | 成本和延迟分层 / Webhooks 长任务 |
 | 2026-05-18 | [[google-gemini-cli-10万星-终端agent每天1000次免费额度怎么用|Google Gemini CLI 10 万星 终端 agent 每天 1000 次免费额度怎么用]] | Google 终端 agent 免费额度 / 1000 requests/day |
 | 2026-05-18 | [[华为昇腾384集群落地无锡-token工厂开始按智能单元计费|华为昇腾 384 集群落地无锡 Token 工厂开始按智能单元计费]] | Token 工厂 / 智能单元计费 |
 | 2026-05-13 | [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter，6 倍价格换速度，1M 上下文跑全栈]] | 9 |

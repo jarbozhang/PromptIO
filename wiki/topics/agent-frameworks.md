@@ -14,6 +14,8 @@ Harness / Skills / MCP / Multi-Agent 架构。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-19 | [[trae真实用户最常调用的10个agent-skills暴露了ai编程该怎么管|TRAE Top 10 Agent Skills]] | skills 治理 / 真实调用数据 |
+| 2026-05-19 | [[anthropic收购stainless-sdk和mcp服务器要变成claude的基础设施|Anthropic 收购 Stainless]] | SDK/MCP 工具生产线 |
 | 2026-05-18 | [[k-dense-135个科研skill开源-claude-code和codex可以变科研助理|K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理]] | 科研 Skills / agent 科研助理 |
 | 2026-05-18 | [[dograh一条docker命令自建语音客服-不用先按分钟买saas|Dograh 一条 Docker 命令自建语音客服 不用先按分钟买 SaaS]] | 语音 agent 流程平台 |
 | 2026-05-18 | [[飞书cli过万星-200个命令让agent接进办公系统|飞书 CLI 过万星 200 个命令让 Agent 接进办公系统]] | 办公系统 CLI / Agent Skills |

@@ -1,0 +1,13 @@
+# AI 工作流
+
+AI agents 从一次性对话转向长期运行、循环任务、并行 session、Routines、Loop 和组织流程改造的主题线。
+
+## 我们的覆盖
+
+| 日期 | 文章 | 角度 |
+|------|------|------|
+| 2026-05-19 | [[claude-code创始人说自己今年没写过代码-anthropic内部已经让claude互相问问题|Claude Code 创始人说自己今年没写过代码 Anthropic 内部已经让 Claude 互相问问题]] | 多 session / Loop / Claude 互相问问题 |
+
+## 选题策略
+
+优先真实组织/团队里已经跑起来的流程，不收抽象“未来趋势”空谈。

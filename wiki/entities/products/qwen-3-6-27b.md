@@ -16,6 +16,7 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-19 | [[qwen3-6-27b-mtp在llama-cpp跑到60tokens-s-4090本地coding-agent又快了一截|Qwen3.6-27B MTP 在 llama.cpp 跑到 60 tokens/s]] | MTP / GGUF / 本地 coding agent |
 | 2026-04-24 | [[qwen3-6-27b编程模型发布-27b-dense旗舰本地可跑\|Qwen3.6-27B 27B Dense 干出旗舰级编程能力，本地显卡党有福了]] | Dense 路线 + 本地编程 |
 
 ## 相关主题

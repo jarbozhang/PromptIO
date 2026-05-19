@@ -13,6 +13,7 @@
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-19 | [[agent-game-forge把codex和claude-code接进2d游戏ide-ai不只会出概念图|Agent Game Forge 2D 游戏原型]] | 8 |
 | 2026-05-18 | [[seedance-2-0做出2小时ai电影-成本账比流量更刺眼|Seedance 2.0 长视频成本账]] | 8 |
 | 2026-05-18 | [[nvidia-sana让8gb显存跑4k生图-创作者又多一个本地模型选项|NVIDIA Sana 8GB 显存本地生图]] | 8 |
 | 2026-05-13 | [[hollywood-训练ai-creator-economy-国内对照\|Hollywood 失业编剧在给 AI 标剧本，横店编剧和网文编辑会是下一个吗]] | 7 |

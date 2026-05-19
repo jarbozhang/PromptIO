@@ -17,6 +17,7 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 
 | 日期 | 文章 | 具体角度 |
 |------|------|---------|
+| 2026-05-19 | [[qwen3-6-27b-mtp在llama-cpp跑到60tokens-s-4090本地coding-agent又快了一截|Qwen3.6-27B MTP llama.cpp 60 tokens/s]] | MTP / GGUF / 4090 本地 coding agent |
 | 2026-05-18 | [[dreamserver一条命令把本地ai全家桶跑起来-mac-windows-linux都能用|DreamServer 一条命令把本地 AI 全家桶跑起来 Mac Windows Linux 都能用]] | 本地 AI 全家桶 / 个人服务器 |
 | 2026-05-18 | [[nvidia-sana让8gb显存跑4k生图-创作者又多一个本地模型选项|NVIDIA Sana 让 8GB 显存跑 4K 生图 创作者又多一个本地模型选项]] | 8GB 显存 / 本地高分辨率生成 |
 | 2026-05-13 | [[needle-26m-蒸馏-gemini-tool-calling-手机能跑\|Cactus 把 Gemini tool calling 蒸馏成 26M 模型，6000 tok/s 手机跑]] | 9 |

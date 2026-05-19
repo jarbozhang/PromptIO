@@ -1,0 +1,13 @@
+---
+title: "We've published a paper that explains our views on AI competition between the US and China. The US a"
+source: "X @AnthropicAI"
+url: "https://x.com/AnthropicAI/status/2054987444664377374"
+date: "Thu May 14 18:09:21 +0000 2026"
+likes: 5807
+reposts: 1022
+replies: 1214
+---
+
+We've published a paper that explains our views on AI competition between the US and China.
+
+The US and democratic allies hold the lead in frontier AI today. Read more on what it’ll take to keep that lead: https://t.co/TgJBeodWYK

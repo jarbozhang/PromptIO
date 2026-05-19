@@ -13,6 +13,7 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 
 ## 近期动态
 
+- **收购 Stainless + Boris Cherny 工作流访谈** (2026-05-19 入题) — 一条补 SDK/MCP 连接基础设施，一条展示 Claude Code 从个人工具走向组织流程
 - **Claude Code 变笨 retro + Opus 4.7 system prompt 拆解** (2026-04-24) — 用户社区骂 Claude Code 变笨，Anthropic 发了篇 retro 交代质量下滑成因，[[simon-willison|Simon Willison]] 同时把 Opus 4.7 的 system prompt 扒了出来对比
 - **Mythos 一周四连炸** (2026-04-22) — Mythos 48 小时内经历 NSA 报告引用 → Pentagon 泄露声称 → Sam Altman 公开嘲讽 fear-based marketing → 黑客利用四个剧情转折，从"神坛"滚到"阴沟"
 - **SpaceX/Cursor 并购中被提及** (2026-04-22) — 马斯克 600 亿美元收购 Cursor 一役被多方解读为对 Anthropic/Claude Code 编程工具护城河的直接冲击
@@ -31,6 +32,8 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-19 | [[claude-code创始人说自己今年没写过代码-anthropic内部已经让claude互相问问题|Claude Code 创始人说自己今年没写过代码]] | 9 |
+| 2026-05-19 | [[anthropic收购stainless-sdk和mcp服务器要变成claude的基础设施|Anthropic 收购 Stainless SDK 和 MCP 服务器要变成 Claude 的基础设施]] | 8 |
 | 2026-05-11 | [[mythos-curl-mozilla271-anthropic-ai安全\|Mythos 在 Mozilla 之后又找到 curl 漏洞，Daniel Stenberg 一句话救了国内开发者]] | 9 |
 | 2026-05-10 | [[anthropic-spacex-5b-300mw算力大单-xai输给自己人\|Anthropic 跟 SpaceX 签 50 亿美元 / 年算力大单 300MW Colossus I，xAI 输给自己人]] | 9 |
 | 2026-05-10 | [[claude-code-cve-39861-sandbox逃逸-国内开发者升级\|Claude Code 爆 CVE-2026-39861 sandbox 逃逸漏洞，国内开发者今晚把这一个版本删掉]] | 9 |

@@ -1,0 +1,32 @@
+title: Anthropic 收购 Stainless SDK 和 MCP 服务器要变成 Claude 的基础设施
+status: draft
+date: 2026-05-19T00:00:00.000Z
+reach: 8
+sources:
+  - x-AnthropicAI-3a4db90e
+  - techcrunch-ai-d023da29
+tags:
+  - Anthropic
+  - Stainless
+  - MCP
+  - SDK
+  - 开发者平台
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 9
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""

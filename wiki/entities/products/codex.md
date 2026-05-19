@@ -17,6 +17,8 @@
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-19 | [[agent-game-forge把codex和claude-code接进2d游戏ide-ai不只会出概念图|Agent Game Forge 把 Codex 接进 2D 游戏 IDE]] | 游戏原型 / 本地 IDE |
+| 2026-05-19 | [[codex远程接管mac-mini和devbox-本机只当入口ai编程开始常驻后台|Codex 远程接管 Mac mini 和 devbox，本机只当入口]] | 远程连接 / Mac mini / devbox |
 | 2026-05-18 | [[k-dense-135个科研skill开源-claude-code和codex可以变科研助理|K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理]] | 科研 Skills / Codex 桌面科研助理 |
 | 2026-04-18 | Codex大更新：桌面控制+图片生成+记忆，OpenAI正面硬刚Claude Code | 功能更新 |
 | 2026-04-14 | [[openai新增100美元pro层-codex用量翻5倍但最高档不变|OpenAI新增$100 Pro层]] | 定价分析 |

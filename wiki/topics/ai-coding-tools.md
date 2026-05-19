@@ -21,6 +21,9 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 
 | 日期 | 文章 | 角度 |
 |------|------|------|
+| 2026-05-19 | [[codex远程接管mac-mini和devbox-本机只当入口ai编程开始常驻后台|Codex 远程接管 Mac mini 和 devbox]] | 远程开发 / always-on host |
+| 2026-05-19 | [[claude-code创始人说自己今年没写过代码-anthropic内部已经让claude互相问问题|Claude Code Boris Cherny 工作流]] | 并行 agent / Loop / 组织流程 |
+| 2026-05-19 | [[qwen3-6-27b-mtp在llama-cpp跑到60tokens-s-4090本地coding-agent又快了一截|Qwen3.6-27B MTP llama.cpp 60 tokens/s]] | 本地 coding agent 速度 / 4090 参数 |
 | 2026-05-18 | [[google-gemini-cli-10万星-终端agent每天1000次免费额度怎么用|Google Gemini CLI 10 万星 终端 agent 每天 1000 次免费额度怎么用]] | Gemini CLI / 每天 1000 次免费额度 / 终端 agent |
 | 2026-05-13 | [[claude-opus-4-7-fast-openrouter-1m-context-6x\|Claude Opus 4.7 Fast 上 OpenRouter，6 倍价格换速度，1M 上下文跑全栈]] | 9 |
 | 2026-05-13 | [[claude-platform-aws-bedrock-切换-国内云厂商怎么抄\|Claude Platform 登陆 AWS，SDK v0.101 对接 Bedrock，国内云厂商抄哪几步]] | 8 |

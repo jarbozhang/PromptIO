@@ -3,6 +3,15 @@
 追加式记录，最新在前。
 
 
+## [2026-05-19] regenerate | 8 drafts, single XHS-safe main version, RSS+X+signals
+
+- **采集**：RSS/GitHub/arXiv 498 items；GitHub Trending 33 AI repos；OpenRouter 0 new；PyPI checked（anthropic 429）；TrendRadar Docker 目录缺失 soft-fail
+- **X 抓取**：bird 成功保存 218 tweets（123 account / 95 home+following），failures 0
+- **新增 8 篇文章**：#1 Google Gemini API 新增 Flex 和 Priority 两档（REACH 9 analytical）；#2 Qwen3.6-27B MTP 在 llama.cpp 跑到 60 tokens/s（REACH 8 first-person）；#3 Anthropic 收购 Stainless SDK 和 MCP 服务器（REACH 8 analytical）；#4 Claude Code 创始人 Boris Cherny 工作流（REACH 9 analytical）；#5 Agent Game Forge 2D 游戏 IDE（REACH 8 first-person）；#6 TRAE 真实用户 Top 10 Agent Skills（REACH 8 analytical）；#7 MIT GenCAD / CAD-Coder 可编辑 CAD 程序（REACH 8 retro）；#8 Codex 远程接管 Mac mini 和 devbox（REACH 8 first-person）
+- **voice 分布**：first-person 3 / analytical 4 / retro 1
+- **QA 结果**：8/8 全过；L1 机械替换 2 处；L6 小红书规则 8/8 pass；无 xhs-version.md；8 篇全部为唯一主稿 `xhs:primary`
+- **实体/主题页同步**：gemini-api / stainless / boris-cherny / agent-game-forge / gencad / cad-coder / agent-skills / trae 及 ai-game-dev / generative-design / industrial-design / remote-development / devbox / ai-workflows / developer-tools / ai-infra 追加 5/19 条目
+
 ## [2026-05-18] generate | 9 drafts, REACH>=7, RSS+X+signals
 
 - **采集**：RSS/GitHub/arXiv 498 items + GitHub Trending 32 AI repos + OpenRouter 0 new + PyPI checked + TrendRadar 保存 17 条中文热点

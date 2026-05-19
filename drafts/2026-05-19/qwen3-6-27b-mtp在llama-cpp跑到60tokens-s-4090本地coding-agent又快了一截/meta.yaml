@@ -1,0 +1,32 @@
+title: Qwen3.6-27B MTP 在 llama.cpp 跑到 60 tokens/s 4090 本地 coding agent 又快了一截
+status: draft
+date: 2026-05-19T00:00:00.000Z
+reach: 8
+sources:
+  - x-9hills-f56de9f4
+  - x-ggerganov-8ccb61e7
+tags:
+  - Qwen3.6
+  - llama.cpp
+  - MTP
+  - 本地推理
+  - AI 编程
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""

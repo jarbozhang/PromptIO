@@ -1,8 +1,44 @@
 # 主题饱和度分析
 
-基于 316 篇文章（2026-04-08 至 2026-05-18）的主题分布。**5/18 单批 9 篇后总计 316 篇。**（5/15 跳天未生成）
+基于 324 篇文章（2026-04-08 至 2026-05-19）的主题分布。**5/19 重新生成 8 篇后总计 324 篇。**（5/15 跳天未生成）
 
 
+## 5/19 8 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| Google Gemini API 新增 Flex 和 Priority 两档 低价批处理和低延迟终于分开 | 9 | analytical | ai-pricing/AI 定价 / agent-frameworks/Agent 框架 / ai-infra/AI 基础设施 |
+| Qwen3.6-27B MTP 在 llama.cpp 跑到 60 tokens/s 4090 本地 coding agent 又快了一截 | 8 | first-person | local-inference/本地推理 / ai-coding-tools/AI 编程工具 / chinese-ai/国产 AI |
+| Anthropic 收购 Stainless SDK 和 MCP 服务器要变成 Claude 的基础设施 | 8 | analytical | agent-frameworks/Agent 框架 / developer-tools/开发者工具 |
+| Claude Code 创始人说自己今年没写过代码 Anthropic 内部已经让 Claude 互相问问题 | 9 | analytical | ai-coding-tools/AI 编程工具 / agent-frameworks/Agent 框架 / ai-workflows/AI 工作流 |
+| Agent Game Forge 把 Codex 和 Claude Code 接进 2D 游戏 IDE AI 不只会出概念图 | 8 | first-person | ai-game-dev/AI 游戏开发 / creator-economy/创作者经济 / ai-coding-tools/AI 编程工具 |
+| TRAE 真实用户最常调用的 10 个 Agent Skills 暴露了 AI 编程该怎么管 | 8 | analytical | agent-frameworks/Agent 框架 / ai-coding-tools/AI 编程工具 |
+| MIT GenCAD 把照片变成可编辑 CAD 程序 AI 终于碰到工业设计真流程 | 8 | retro | generative-design/生成式设计 / industrial-design/工业设计 / ai-research/AI 研究 |
+| Codex 远程接管 Mac mini 和 devbox 本机只当入口 AI 编程开始常驻后台 | 8 | first-person | ai-coding-tools/AI 编程工具 / remote-development/远程开发 / devbox/devbox |
+
+**5/19 主题计数变化（人工估算）**：
+
+- **AI 编程工具**：66 → **71**（+Qwen MTP coding agent / Claude Code Boris 工作流 / Agent Game Forge / TRAE Skills / Codex remote，均按重大品牌或真实工作流例外纳入）
+- **Agent 框架**：59 → **63**（+Gemini API Webhooks/tier / Stainless MCP / Claude Code Loop / TRAE Skills）
+- **AI 定价**：45 → **46**（+Gemini API Flex/Priority，成本与延迟分层）
+- **本地推理**：29 → **30**（+Qwen3.6 MTP llama.cpp 实操，虽高饱和但有 60 tokens/s 参数）
+- **国产 AI**：41 → **42**（+Qwen3.6 MTP 本地 coding agent）
+- **创作者经济**：7 → **8**（+Agent Game Forge 游戏原型工具）
+- **AI 研究**：18 → **19**（+GenCAD/CAD-Coder 参数化 CAD 程序）
+- **AI 游戏开发**：新增/复活 1（Agent Game Forge 从概念图推进到可运行原型）
+- **生成式设计 / 工业设计**：新增 1（GenCAD/CAD-Coder 从图片转可编辑 CAD program）
+- **远程开发 / devbox / AI 工作流 / 开发者工具 / AI 基础设施**：均新增主题锚点
+
+**新空间打开**：
+
+- Gemini API 成本/延迟分层：Flex/Priority + Webhooks 把模型调用从“模型列表”推到“工作负载治理”。
+- SDK/MCP 生产线：Stainless 收购说明 agent 平台竞争开始拼 API 工具化基础设施。
+- Agent Skills 治理：TRAE 真实调用数据 + secure registry 说明 skill 生态从“安装”走向“流程与安全治理”。
+- AI 游戏开发：Agent Game Forge 把 Codex/Claude Code 接进本地 2D IDE，从概念图进入可玩原型。
+- 工业设计 CAD：GenCAD/CAD-Coder 把图像生成推进到参数化 CAD program，进入制造流程前段。
+- 常驻后台开发：Codex remote + Mac mini/devbox 把 AI 编程从当前设备移动到 always-on host。
+
+**警告/降权说明**：AI 编程工具和 Agent 框架继续严重高饱和；下一轮只有重大平台策略、真实用户数据、低饱和垂类或明确成本/安全/远程开发基础设施变化才纳入。Qwen/DeepSeek/Gemini/Claude/Codex 相关选题继续严格去重，避免连续写同一产品的普通更新。
 ## 5/18 9 篇主题分布
 
 | 文章 | REACH | voice | 主题 |

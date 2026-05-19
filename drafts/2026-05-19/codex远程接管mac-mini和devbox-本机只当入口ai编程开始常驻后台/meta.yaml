@@ -1,0 +1,33 @@
+title: Codex 远程接管 Mac mini 和 devbox 本机只当入口 AI 编程开始常驻后台
+status: draft
+date: 2026-05-19T00:00:00.000Z
+reach: 8
+sources:
+  - x-sitinme-b2199380
+  - x-mattshumer_-237166ce
+  - web-openai-codex-remote-connections
+tags:
+  - Codex
+  - Mac mini
+  - devbox
+  - 远程开发
+  - AI 编程
+qa:
+  status: passed
+  rounds: 0
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ""

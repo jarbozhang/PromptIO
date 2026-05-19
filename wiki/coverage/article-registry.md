@@ -3,6 +3,27 @@
 全部已生成文章索引，按日期倒序。
 
 
+## 2026-05-19（8 篇，voice 分布 first-person 3 / narrative 0 / analytical 4 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[google-gemini-api新增flex和priority两档-低价批处理和低延迟终于分开|Google Gemini API 新增 Flex 和 Priority 两档 低价批处理和低延迟终于分开]] | 9 | analytical | [[google|Google]], [[gemini-api|Gemini API]] | [[ai-pricing|AI 定价]] / [[agent-frameworks|Agent 框架]] / [[ai-infra|AI 基础设施]] |
+| [[qwen3-6-27b-mtp在llama-cpp跑到60tokens-s-4090本地coding-agent又快了一截|Qwen3.6-27B MTP 在 llama.cpp 跑到 60 tokens/s 4090 本地 coding agent 又快了一截]] | 8 | first-person | [[qwen-3-6-27b|Qwen3.6-27B]], [[llama-cpp|llama.cpp]] | [[local-inference|本地推理]] / [[ai-coding-tools|AI 编程工具]] / [[chinese-ai|国产 AI]] |
+| [[anthropic收购stainless-sdk和mcp服务器要变成claude的基础设施|Anthropic 收购 Stainless SDK 和 MCP 服务器要变成 Claude 的基础设施]] | 8 | analytical | [[anthropic|Anthropic]], [[stainless|Stainless]], [[claude|Claude]] | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[claude-code创始人说自己今年没写过代码-anthropic内部已经让claude互相问问题|Claude Code 创始人说自己今年没写过代码 Anthropic 内部已经让 Claude 互相问问题]] | 9 | analytical | [[claude-code|Claude Code]], [[anthropic|Anthropic]], [[boris-cherny|Boris Cherny]] | [[ai-coding-tools|AI 编程工具]] / [[agent-frameworks|Agent 框架]] / [[ai-workflows|AI 工作流]] |
+| [[agent-game-forge把codex和claude-code接进2d游戏ide-ai不只会出概念图|Agent Game Forge 把 Codex 和 Claude Code 接进 2D 游戏 IDE AI 不只会出概念图]] | 8 | first-person | [[agent-game-forge|Agent Game Forge]], [[codex|Codex]], [[claude-code|Claude Code]] | [[ai-game-dev|AI 游戏开发]] / [[creator-economy|创作者经济]] / [[ai-coding-tools|AI 编程工具]] |
+| [[trae真实用户最常调用的10个agent-skills暴露了ai编程该怎么管|TRAE 真实用户最常调用的 10 个 Agent Skills 暴露了 AI 编程该怎么管]] | 8 | analytical | [[trae|TRAE]], [[agent-skills|Agent Skills]], [[claude-code|Claude Code]] | [[agent-frameworks|Agent 框架]] / [[ai-coding-tools|AI 编程工具]] |
+| [[mit-gencad把照片变成可编辑cad程序-ai终于碰到工业设计真流程|MIT GenCAD 把照片变成可编辑 CAD 程序 AI 终于碰到工业设计真流程]] | 8 | retro | [[gencad|GenCAD]], [[cad-coder|CAD-Coder]], [[mit|MIT]] | [[generative-design|生成式设计]] / [[industrial-design|工业设计]] / [[ai-research|AI 研究]] |
+| [[codex远程接管mac-mini和devbox-本机只当入口ai编程开始常驻后台|Codex 远程接管 Mac mini 和 devbox 本机只当入口 AI 编程开始常驻后台]] | 8 | first-person | [[codex|Codex]], [[openai|OpenAI]], [[openclaw|OpenClaw]] | [[ai-coding-tools|AI 编程工具]] / [[remote-development|远程开发]] / [[devbox|devbox]] |
+
+**5/19 voice 分布**：first-person 3 / analytical 4 / retro 1。今天不再生成单独小红书版本，8 篇均使用同一主稿，platforms.xhs 为 primary。
+
+**5/19 优先品牌/例外**：AI 编程工具、Agent 框架、本地推理继续高饱和，本期只纳入重大品牌基础设施变化（Gemini API tier/Webhooks、Anthropic+Stainless、Codex remote）、真实工作流数据（TRAE Skills）、低饱和新垂类（AI 游戏开发、CAD/工业设计）和 Qwen MTP 实操参数。
+
+**5/19 QA 结果**：8/8 全过结构和合规检查。L1 机械替换 2 处。L6 小红书规则 8/8 pass。无 xhs-version.md，8 篇全部 xhs:primary 主稿直发。
+
+**5/19 采集备注**：RSS/GitHub/arXiv 498 items；GitHub Trending 33 AI repos；OpenRouter 0 new；PyPI checked，anthropic 429；TrendRadar Docker 目录缺失 soft-fail；bird X 抓取成功保存 218 tweets（123 account / 95 home+following），failures 0。
+
 ## 2026-05-18（9 篇，voice 分布 first-person 4 / narrative 0 / analytical 4 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

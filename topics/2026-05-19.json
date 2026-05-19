@@ -1,0 +1,153 @@
+[
+  {
+    "index": 1,
+    "title": "Google Gemini API 新增 Flex 和 Priority 两档 低价批处理和低延迟终于分开",
+    "slug": "google-gemini-api新增flex和priority两档-低价批处理和低延迟终于分开",
+    "score": 8.4,
+    "actionability": 8,
+    "novelty": 8,
+    "reach": 9,
+    "depth_potential": 8,
+    "angle": "Google 给 Gemini API 新增 Flex 和 Priority 两个 inference tier，并把长任务 Webhooks 放到同一条开发者体验线上。文章不写 Gemini CLI，重点写 API 成本、延迟和长任务调度终于能拆开设计，国内开发者做批处理、多模型路由和后台 agent 时可以少烧一层轮询。",
+    "tags": ["Google", "Gemini API", "AI 定价", "推理服务", "Agent 后台"],
+    "reason": "Google/Gemini 品牌强，Flex/Priority 和 Webhooks 都是开发者能马上调整架构的变化，API 成本控制有明确利益点；与 5/18 Gemini CLI 选题不同，主题从终端工具切到服务端推理层。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓；合规预检通过",
+    "sources": [
+      "google-ai-blog-b9151f44.md",
+      "google-ai-blog-79cb2cae.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 2,
+    "title": "Qwen3.6-27B MTP 在 llama.cpp 跑到 60 tokens/s 4090 本地 coding agent 又快了一截",
+    "slug": "qwen3-6-27b-mtp在llama-cpp跑到60tokens-s-4090本地coding-agent又快了一截",
+    "score": 7.7,
+    "actionability": 8,
+    "novelty": 7,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "llama.cpp 给 Qwen3.6 family 加上 MTP 后，中文社区已有 4090 跑 Qwen3.6-27B MTP 到 60 tokens/s 的参数记录。主题本地推理已高饱和，所以文章只写实操参数、显存边界和 coding agent 体感，不重复 4/24 的 Qwen3.6 发布稿，也不做无边界拉踩。",
+    "tags": ["Qwen3.6", "llama.cpp", "MTP", "本地推理", "AI 编程"],
+    "reason": "Qwen/llama.cpp/4090 对中文开发者有品牌和可操作性；本地推理高饱和，REACH 不再给到 9，但 60 tokens/s 和命令参数足够实用。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓；合规预检通过",
+    "sources": [
+      "x-9hills-f56de9f4.md",
+      "x-ggerganov-8ccb61e7.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 3,
+    "title": "Anthropic 收购 Stainless SDK 和 MCP 服务器要变成 Claude 的基础设施",
+    "slug": "anthropic收购stainless-sdk和mcp服务器要变成claude的基础设施",
+    "score": 7.9,
+    "actionability": 7,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 9,
+    "angle": "Anthropic 收购 Stainless，不只是买一个开发工具团队，而是把 SDK 生成、API 文档同步和 MCP server 生产线拿到 Claude 平台内部。文章从开发者基础设施视角解释，为什么未来 agent 平台拼的不只是模型，还有把每个 API 都变成稳定工具的能力。",
+    "tags": ["Anthropic", "Stainless", "MCP", "SDK", "开发者平台"],
+    "reason": "Anthropic/Claude/MCP 品牌强，Stainless 的 SDK/MCP 定位能解释 agent 平台底层趋势；并购新闻本身可操作性有限，但对开发者平台判断有深度。",
+    "reach_note": "品牌✓ 利益点✓ 可操作△；合规预检通过",
+    "sources": [
+      "x-AnthropicAI-3a4db90e.md",
+      "techcrunch-ai-d023da29.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 4,
+    "title": "Claude Code 创始人说自己今年没写过代码 Anthropic 内部已经让 Claude 互相问问题",
+    "slug": "claude-code创始人说自己今年没写过代码-anthropic内部已经让claude互相问问题",
+    "score": 8.3,
+    "actionability": 8,
+    "novelty": 8,
+    "reach": 9,
+    "depth_potential": 8,
+    "angle": "Boris Cherny 在 Sequoia AI Ascent 的访谈把 Claude Code 从个人工具讲到组织流程，手机多 session、Loop 定时任务、Claude 通过 Slack 互相问问题，都是可迁移的方法。文章不再写 Claude Code 横评，而写并行 agent 工作流和组织改造。",
+    "tags": ["Claude Code", "Anthropic", "Boris Cherny", "Agent 工作流", "AI 编程"],
+    "reason": "Claude Code/Boris/Anthropic 都有传播认知，年化营收、没手写代码、每天 merge 多个 PR 是强钩子；方法论能落到个人并行 agent 和团队流程改造。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓；合规预检通过",
+    "sources": [
+      "x-chenchengpro-542ffee1.md",
+      "venturebeat-ai-c2e433d6.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 5,
+    "title": "Agent Game Forge 把 Codex 和 Claude Code 接进 2D 游戏 IDE AI 不只会出概念图",
+    "slug": "agent-game-forge把codex和claude-code接进2d游戏ide-ai不只会出概念图",
+    "score": 8.0,
+    "actionability": 8,
+    "novelty": 9,
+    "reach": 8,
+    "depth_potential": 7,
+    "angle": "Agent Game Forge 把 Codex CLI 或 Claude Code 接进本地优先 2D 游戏 IDE，让 agent 生成精灵图、背景、碰撞框、关卡布局，再由人用可视化编辑器微调并导出 Canvas。AI+游戏低饱和，适合写从概念图到可运行原型的工作流。",
+    "tags": ["Agent Game Forge", "Codex", "Claude Code", "AI 游戏", "创作者经济"],
+    "reason": "Codex/Claude Code 品牌 + 游戏原型可见成果 + 本地 IDE 可操作；源材料较薄，所以控制成工具发现型短稿。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓；合规预检通过",
+    "sources": [
+      "x-axiaisacat-99cfd350.md"
+    ],
+    "voice": "first-person"
+  },
+  {
+    "index": 6,
+    "title": "TRAE 真实用户最常调用的 10 个 Agent Skills 暴露了 AI 编程该怎么管",
+    "slug": "trae真实用户最常调用的10个agent-skills暴露了ai编程该怎么管",
+    "score": 8.2,
+    "actionability": 9,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "TRAE 团队公开真实 skill call data，最常用的并不是炫技工具，而是 brainstorming、writing-plans、systematic-debugging、browser testing 这类强制流程。文章把 Top 10 拆成元层、行为层、流程层、执行层、验证层，顺带用 agent-skills 注册表说明 skill 生态开始需要治理。",
+    "tags": ["TRAE", "Agent Skills", "Claude Code", "Cursor", "AI 编程治理"],
+    "reason": "TRAE/Agent Skills 对中文 AI 编程用户有直接关联，真实调用数据比普通工具推荐更有信号，可操作性来自按五层搭建自己的 skills；已软化原文低俗命名，不进入标题和正文。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓；合规预检通过",
+    "sources": [
+      "x-shao__meng-a73f3f0f.md",
+      "github-trending-0fe73e15.md",
+      "github-trending-a90d342e.md"
+    ],
+    "voice": "analytical"
+  },
+  {
+    "index": 7,
+    "title": "MIT GenCAD 把照片变成可编辑 CAD 程序 AI 终于碰到工业设计真流程",
+    "slug": "mit-gencad把照片变成可编辑cad程序-ai终于碰到工业设计真流程",
+    "score": 8.1,
+    "actionability": 7,
+    "novelty": 9,
+    "reach": 8,
+    "depth_potential": 9,
+    "angle": "MIT GenCAD/CAD-Coder 路线不是生成一个漂亮 3D 壳，而是从图像恢复参数化 CAD command sequence，再通过几何内核得到可编辑 solid model。文章面向工业设计和硬件创业读者，解释为什么建模历史比 3D 外形更关键。",
+    "tags": ["MIT", "GenCAD", "CAD-Coder", "工业设计", "生成式设计"],
+    "reason": "MIT/CAD/开源模型有认知和传播点，参数化历史对工业工作流有深度；不使用原文的绝对化和拉踩表述。",
+    "reach_note": "品牌✓ 利益点✓ 可操作△；合规预检通过",
+    "sources": [
+      "x-home-MaxForAI-0c6f2320.md"
+    ],
+    "voice": "retro"
+  },
+  {
+    "index": 8,
+    "title": "Codex 远程接管 Mac mini 和 devbox 本机只当入口 AI 编程开始常驻后台",
+    "slug": "codex远程接管mac-mini和devbox-本机只当入口ai编程开始常驻后台",
+    "score": 8.3,
+    "actionability": 9,
+    "novelty": 8,
+    "reach": 8,
+    "depth_potential": 8,
+    "angle": "Codex 远程访问把手机、笔记本、Mac mini、devbox 连成一个工作台。文章避开已经写过的 Codex mobile 免费额度，聚焦远程项目、被控端在线、SSH/devbox 和 secure relay 这些工程细节，解释为什么 AI 编程开始常驻后台。",
+    "tags": ["Codex", "Mac mini", "devbox", "远程开发", "AI 编程"],
+    "reason": "Codex/Mac mini/devbox 是中文开发者熟悉的组合，远程项目有明确配置动作和使用场景；与 5/16、5/17 Codex 移动端选题角度区分。",
+    "reach_note": "品牌✓ 利益点✓ 可操作✓；合规预检通过",
+    "sources": [
+      "x-sitinme-b2199380.md",
+      "x-mattshumer_-237166ce.md"
+    ],
+    "voice": "first-person"
+  }
+]
