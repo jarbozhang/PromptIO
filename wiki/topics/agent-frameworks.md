@@ -72,6 +72,10 @@ Harness / Skills / MCP / Multi-Agent 架构。
 | 2026-05-07 | [[openai开源symphony-codex编排spec-issue-tracker变agent系统\|OpenAI 开源 Symphony spec，把 Linear 当事件源，Codex 自己从 backlog 里拿活干]] | spec 编排 / agent 调度协议 |
 | 2026-05-14 | [[notion-developer-platform-ai-agent中心-飞书钉钉怎么抄\|Notion Developer Platform 把 workspace 变 AI agent hub，飞书钉钉怎么抄]] | 8 |
 | 2026-05-17 | [[闲鱼自动回复开源项目-多账号客服和自动发货自己搭|闲鱼 AI 客服自动化工作流]] | 9 |
+| 2026-05-20 | [[google-io-2026-gemini-3-5-flash-八连发\|Google I/O 2026 八条线一起开火 Gemini 3.5 Flash 不再做聊天机器人改做 agents]] | 10 |
+| 2026-05-20 | [[gemini-spark-gmail-24-7-agent\|Gemini Spark 把 24/7 agent 直接塞进 Gmail 国内邮箱助理们要尴尬了]] | 9 |
+| 2026-05-20 | [[openviking-字节火山-openclaw-agent-文件系统\|字节火山 OpenViking 给 AI agent 装了文件系统当大脑 专为 openclaw 优化]] | 9 |
+| 2026-05-20 | [[nousresearch-hermes-agent-15万星-跨host\|NousResearch hermes-agent 15.8 万星 跨 Claude Code / Codex / openclaw]] | 8 |
 
 ## 饱和度评估
 

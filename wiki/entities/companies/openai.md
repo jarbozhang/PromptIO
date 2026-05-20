@@ -12,6 +12,7 @@
 
 ## 近期动态
 
+- **Codex Windows sandbox + Dell on-prem 企业内网版** (2026-05-20) — Codex 同步发布 Windows sandbox 隔离方案和 Dell on-prem 服务器版，企业内网 AI 编程门槛降到合规可过
 - **OpenAI 真要造手机：Kuo 爆料联手联发科/高通/立讯** (2026-04-27 TC / 4/28 入题) — 分析师 Ming-Chi Kuo 指 OpenAI 与 MediaTek、Qualcomm、Luxshare 合作开发 AI 手机，与 io（Jony Ive 主导硬件子公司）耳机线并行，AI agent 接管 App 入口的范式
 - **OpenAI Privacy Filter 开源 PII 检测模型** (2026-04-22 / 4/28 入题) — open-weight 1.5B total/50M activated 稀疏 MoE PII 检测模型 Apache 2.0 上 HuggingFace，128K context + Token Classification + BIOES 解码，对标 Microsoft Presidio
 - **[[gpt-5-5|GPT-5.5]] 上 OpenRouter，Pro 版 $30 / 百万 token + Simon 提示词指南** (2026-04-25) — GPT-5.5 正式上线 OpenRouter，Pro 版定价 $30 / 百万 token，[[simon-willison|Simon Willison]] 同日发布 GPT-5.5 提示词写法指南
@@ -84,6 +85,8 @@
 | 2026-05-16 | [[openai-codex-跑进手机-全平台同步-国产ide怎么跟\|OpenAI Codex 跑进手机 ChatGPT mobile 全平台同步]] | 9 |
 | 2026-05-16 | [[openai-chatgpt接管银行账户-plaid国内豆包元宝为什么做不到\|OpenAI ChatGPT 接 Plaid 银行账户 personal finance preview]] | 8 |
 | 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|OpenAI 两个月免费 Codex 抢团队默认 IDE]] | 9 |
+| 2026-05-20 | [[openai-codex-windows-sandbox-dell-on-prem\|OpenAI 给 Codex 上了 Windows sandbox 和 Dell on-prem 企业内网 AI 编程的门终于开了]] | 8 |
+| 2026-05-20 | [[simon-willison-过去6个月-llm-五分钟回顾\|Simon Willison 用 5 分钟把过去 6 个月 LLM 全捋了一遍（OpenAI 作为对照之一）]] | 8 |
 
 ## 注意
 

@@ -1,7 +1,41 @@
 # 主题饱和度分析
 
-基于 324 篇文章（2026-04-08 至 2026-05-19）的主题分布。**5/19 重新生成 8 篇后总计 324 篇。**（5/15 跳天未生成）
+基于 331 篇文章（2026-04-08 至 2026-05-20）的主题分布。**5/20 单批 7 篇后总计 331 篇。**
 
+
+## 5/20 7 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| Google I/O 2026 八条线一起开火 Gemini 3.5 Flash 不再做聊天机器人改做 agents | 10 | analytical | ai-product/AI 产品 / agent-frameworks/Agent 框架 / ai-coding-tools/AI 编程工具 |
+| Gemini Spark 把 24/7 agent 直接塞进 Gmail 国内邮箱助理们要尴尬了 | 9 | first-person | ai-productivity/AI 办公协同 / agent-frameworks/Agent 框架 |
+| Google AI Studio 让你说一句话就出 Android 原生 app AI 编程下一站是手机厂 | 9 | analytical | ai-coding-tools/AI 编程工具 / ai-product/AI 产品 / chinese-ai/国产 AI |
+| 字节火山 OpenViking 给 AI agent 装了文件系统当大脑 专为 openclaw 优化 | 9 | first-person | agent-frameworks/Agent 框架 / chinese-ai/国产 AI / developer-tools/开发者工具 |
+| NousResearch hermes-agent 冲上 GitHub Trending 15.8 万星 会成长的 agent 到底长啥样 | 8 | first-person | agent-frameworks/Agent 框架 / developer-tools/开发者工具 |
+| OpenAI 给 Codex 上了 Windows sandbox 和 Dell on-prem 企业内网 AI 编程的门终于开了 | 8 | analytical | ai-coding-tools/AI 编程工具 / enterprise-ai/企业 AI / ai-infra/AI 基础设施 |
+| Simon Willison 用 5 分钟把过去 6 个月 LLM 全捋了一遍 给中国读者画的时间轴 | 8 | retro | ai-research/AI 研究 / ai-methodology/AI 方法论 / chinese-ai/国产 AI |
+
+**5/20 主题计数变化（人工估算）**：
+
+- **AI 产品**：→ **+3**（Google I/O 综述 / Gemini Spark / AI Studio Android）
+- **Agent 框架**：63 → **66**（+Google I/O 八连发 / Spark agent / OpenViking 文件系统 / hermes-agent 跨 host，均按 openclaw 生态或重大品牌例外纳入）
+- **AI 编程工具**：71 → **74**（+I/O 综述 / AI Studio Android / Codex Windows，均为重大品牌基础设施变化）
+- **AI 办公协同**：5 → **6**（+Gemini Spark Gmail 24/7 agent）
+- **国产 AI**：42 → **44**（+OpenViking 字节火山 / AI Studio Android 国产对照）
+- **开发者工具**：→ **+2**（OpenViking / hermes-agent）
+- **企业 AI**：新增 1（Codex Windows + Dell on-prem，企业内网部署赛道首次进入）
+- **AI 基础设施**：→ **+1**（Codex 内网/Dell 服务器整合）
+- **AI 研究 / 方法论**：→ **+1**（Simon Willison 半年回顾）
+
+**新空间打开**：
+
+- **企业内网 AI 编程**：Codex on Windows + Dell on-prem 把 AI 编程战场从个人开发推到企业内网，国产服务器厂商有了对照路径
+- **Agent 文件系统范式**：OpenViking 把 memory/resources/skills 统一抽象成文件系统，国产团队第一次给开源 agent 生态做基础设施
+- **跨 host 通用 agent**：hermes-agent 把 Claude Code/Codex/openclaw 当目标平台，agent 工具层标准化的新信号
+- **AI app native**：AI Studio Android 把 vibe code 从 web 推进到 Android 原生 APK，手机端 AI 编程的新赛道
+- **半年时间轴方法论**：Simon Willison 用 retro 方式梳理 6 个月 LLM 演进，给国内自媒体提供可借鉴的内容形态
+
+**警告/降权说明**：AI 编程工具（74）、Agent 框架（66）持续严重高饱和，下一轮继续严格去重，只纳入重大品牌基础设施变化（如 Anthropic/OpenAI 重大并购、Google/Microsoft 新一代产品线）、真实工作流数据（如 TRAE/Cursor 真实用户数据）、低饱和垂类（企业 AI/AI 教育/工业设计/AI 游戏开发）和明确成本/安全/远程开发基础设施变化。
 
 ## 5/19 8 篇主题分布
 

@@ -3,6 +3,24 @@
 全部已生成文章索引，按日期倒序。
 
 
+## 2026-05-20（7 篇，voice 分布 first-person 3 / narrative 0 / analytical 3 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[google-io-2026-gemini-3-5-flash-八连发\|Google I/O 2026 八条线一起开火 Gemini 3.5 Flash 不再做聊天机器人改做 agents]] | 10 | analytical | [[google\|Google]], [[gemini\|Gemini]], [[gemini-3-5-flash\|Gemini 3.5 Flash]] | [[ai-product\|AI 产品]] / [[agent-frameworks\|Agent 框架]] / [[ai-coding-tools\|AI 编程工具]] |
+| [[gemini-spark-gmail-24-7-agent\|Gemini Spark 把 24/7 agent 直接塞进 Gmail 国内邮箱助理们要尴尬了]] | 9 | first-person | [[google\|Google]], [[gemini\|Gemini]], [[gemini-spark\|Gemini Spark]], [[gmail\|Gmail]] | [[ai-productivity\|AI 办公协同]] / [[agent-frameworks\|Agent 框架]] |
+| [[google-ai-studio-android-vibe-code\|Google AI Studio 让你说一句话就出 Android 原生 app AI 编程下一站是手机厂]] | 9 | analytical | [[google\|Google]], [[gemini\|Gemini]], [[android\|Android]] | [[ai-coding-tools\|AI 编程工具]] / [[ai-product\|AI 产品]] / [[chinese-ai\|国产 AI]] |
+| [[openviking-字节火山-openclaw-agent-文件系统\|字节火山 OpenViking 给 AI agent 装了文件系统当大脑 专为 openclaw 优化]] | 9 | first-person | [[openviking\|OpenViking]], [[bytedance\|字节跳动]], [[volcengine\|火山引擎]], [[openclaw\|OpenClaw]] | [[agent-frameworks\|Agent 框架]] / [[chinese-ai\|国产 AI]] / [[developer-tools\|开发者工具]] |
+| [[nousresearch-hermes-agent-15万星-跨host\|NousResearch hermes-agent 冲上 GitHub Trending 15.8 万星 会成长的 agent 到底长啥样]] | 8 | first-person | [[nousresearch\|NousResearch]], [[hermes-agent\|hermes-agent]], [[claude-code\|Claude Code]], [[codex\|Codex]], [[openclaw\|OpenClaw]] | [[agent-frameworks\|Agent 框架]] / [[developer-tools\|开发者工具]] |
+| [[openai-codex-windows-sandbox-dell-on-prem\|OpenAI 给 Codex 上了 Windows sandbox 和 Dell on-prem 企业内网 AI 编程的门终于开了]] | 8 | analytical | [[openai\|OpenAI]], [[codex\|Codex]], [[dell\|Dell]] | [[ai-coding-tools\|AI 编程工具]] / [[enterprise-ai\|企业 AI]] / [[ai-infra\|AI 基础设施]] |
+| [[simon-willison-过去6个月-llm-五分钟回顾\|Simon Willison 用 5 分钟把过去 6 个月 LLM 全捋了一遍 给中国读者画的时间轴]] | 8 | retro | [[simon-willison\|Simon Willison]], [[claude\|Claude]], [[gemini\|Gemini]], [[codex\|Codex]] | [[ai-research\|AI 研究]] | [[ai-methodology\|AI 方法论]] / [[chinese-ai\|国产 AI]] |
+
+**5/20 voice 分布**：first-person 3 / analytical 3 / retro 1。Google I/O 一次铺三篇（综述 + Spark + Android）占 3/7，OpenViking/hermes-agent 双 openclaw 生态文章 2/7，Codex 企业 on-prem 和 Simon Willison 半年回顾各 1/7。
+
+**5/20 QA 结果**：7/7 全过；L1 替换 6 处（OpenViking 含 2 处人工修复"砍掉/变笨了"→"省/变慢"）；L6 小红书规则 7/7 pass；继续单稿模式，platforms.xhs 全部 primary。
+
+**5/20 采集备注**：RSS/GitHub/arXiv 497 items；GitHub Trending 50 AI repos；OpenRouter 0 new；PyPI 部分 429；TrendRadar 正常；bird X 抓取失败（cookies 全失效，Keychain exit 36），本日 X 数据缺失，社区反馈走 WebFetch 补。
+
 ## 2026-05-19（8 篇，voice 分布 first-person 3 / narrative 0 / analytical 4 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

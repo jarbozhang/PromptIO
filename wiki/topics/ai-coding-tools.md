@@ -89,6 +89,9 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 | 2026-05-17 | [[codegraph给claude-code先建代码图-少烧token少查文件|CodeGraph 给 Claude Code 先建代码图]] | 8 |
 | 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|OpenAI 两个月免费 Codex 抢团队默认 IDE]] | 9 |
 | 2026-05-17 | [[chollet说agent写代码像机器学习-测试集过拟合进评审|Chollet 说 agent 写代码像机器学习]] | 7 |
+| 2026-05-20 | [[google-io-2026-gemini-3-5-flash-八连发\|Google I/O 2026 八连发 Gemini 3.5 Flash 转 agents]] | 10 |
+| 2026-05-20 | [[google-ai-studio-android-vibe-code\|Google AI Studio 一句话出 Android 原生 app vibe code 打进手机厂]] | 9 |
+| 2026-05-20 | [[openai-codex-windows-sandbox-dell-on-prem\|OpenAI Codex 上 Windows sandbox + Dell on-prem 企业内网]] | 8 |
 
 ## 饱和度评估
 

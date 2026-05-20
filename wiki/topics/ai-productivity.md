@@ -18,6 +18,7 @@
 | 2026-05-14 | [[notion-developer-platform-ai-agent中心-飞书钉钉怎么抄\|Notion Developer Platform 把 workspace 变 AI agent hub]] | 8 |
 | 2026-05-17 | [[乔木notebooklm-skill-把公众号和pdf变播客课件|NotebookLM Skill 把旧内容再生产为播客课件]] | 9 |
 | 2026-05-17 | [[leann本地rag省97存储-个人知识库不用先买硬盘|LEANN 本地 RAG 省 97% 存储]] | 8 |
+| 2026-05-20 | [[gemini-spark-gmail-24-7-agent\|Gemini Spark 把 24/7 agent 直接塞进 Gmail 国内邮箱助理们要尴尬了]] | 9 |
 
 ## 关联实体 / 主题
 

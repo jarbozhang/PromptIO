@@ -1,0 +1,33 @@
+title: "Google I/O 2026 八条线一起开火 Gemini 3.5 Flash 不再做聊天机器人改做 agents"
+status: draft
+date: 2026-05-20
+reach: 10
+sources:
+  - techcrunch-ai-333d7542
+  - the-verge-ai-4aff86b3
+  - latent-space-6c8ea973
+  - simon-willison-d5349c1f
+tags:
+  - google
+  - gemini
+  - ai-product
+  - agent-frameworks
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ''

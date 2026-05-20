@@ -1,0 +1,30 @@
+title: "Simon Willison 用 5 分钟把过去 6 个月 LLM 全捋了一遍 给中国读者画的时间轴"
+status: draft
+date: 2026-05-20
+reach: 8
+sources:
+  - simon-willison-498c7192
+tags:
+  - simon-willison
+  - llm-history
+  - chinese-ai
+  - ai-methodology
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ''

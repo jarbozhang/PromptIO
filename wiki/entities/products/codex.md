@@ -29,6 +29,9 @@
 | 2026-05-14 | [[openai-codex-windows沙箱-国产ai编程ide怎么跟\|OpenAI Codex on Windows 沙箱机制，国产 AI 编程 IDE 怎么跟]] | Windows 沙箱实现 / 国产 IDE 对照 |
 | 2026-05-16 | [[openai-codex-跑进手机-全平台同步-国产ide怎么跟\|Codex 跑进手机 ChatGPT mobile CLI/Web/Desktop/Mobile/IDE 五端齐]] | 移动端 / 全平台 vibe coding |
 | 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|OpenAI 两个月免费 Codex 抢团队默认 IDE]] | 企业试点 / 默认 IDE 争夺 |
+| 2026-05-20 | [[openai-codex-windows-sandbox-dell-on-prem\|OpenAI 给 Codex 上了 Windows sandbox 和 Dell on-prem 企业内网 AI 编程的门终于开了]] | Windows sandbox / Dell on-prem / 企业内网 |
+| 2026-05-20 | [[nousresearch-hermes-agent-15万星-跨host\|NousResearch hermes-agent 跨 host：Claude Code / Codex / openclaw]] | 跨 host agent 宿主 |
+| 2026-05-20 | [[simon-willison-过去6个月-llm-五分钟回顾\|Simon Willison 5 分钟回顾 LLM 半年（Codex 作为对照）]] | 对照实体 |
 
 ## 注意
 

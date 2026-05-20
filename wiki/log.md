@@ -3,6 +3,22 @@
 追加式记录，最新在前。
 
 
+## [2026-05-20] generate | 7 drafts, REACH>=8, single XHS-safe main version
+
+- **采集**：RSS/GitHub/arXiv 497 items；GitHub Trending 50 AI repos；OpenRouter 0 new；PyPI 部分 429；TrendRadar 正常；bird X 失败（Keychain exit 36），全 cookies 失效
+- **新增 7 篇文章**：
+  - #1 Google I/O 2026 八连发 综述（REACH 10 analytical，google/gemini/gemini-3-5-flash）
+  - #2 Gemini Spark Gmail 24/7 agent（REACH 9 first-person，gemini-spark/gmail）
+  - #3 AI Studio Android vibe code（REACH 9 analytical，android）
+  - #4 OpenViking 字节火山 文件系统（REACH 9 first-person，openviking/volcengine/openclaw 优先品牌）
+  - #5 NousResearch hermes-agent（REACH 8 first-person，nousresearch 优先品牌 + openclaw 标记）
+  - #6 OpenAI Codex Windows + Dell on-prem（REACH 8 analytical）
+  - #7 Simon Willison 半年回顾（REACH 8 retro）
+- **voice 分布**：first-person 3 / analytical 3 / retro 1
+- **QA 结果**：7/7 全过；L1 机械替换 6 处（OpenViking 2 处人工二次修复"砍掉/变笨了"→"省/变慢"）；L6 小红书规则 7/7 pass；platforms.xhs 全部 primary
+- **降权命中**：5/20 没有重复 5/17-5/19 已写主题（Gemini API tier / Qwen MTP / Codex 远程 / Karpathy HTML / Karpathy 编程教训 等已严格去重）
+- **wiki 同步待办**：实体页 openviking / hermes-agent / nousresearch / gemini-spark / dell / volcengine / gemini-3-5-flash / android / gmail 待新建或追加；google/openai/codex/simon-willison/bytedance/openclaw/claude-code 实体页追加 5/20 条目；主题 ai-product / ai-productivity / enterprise-ai / ai-infra / chinese-ai 追加
+
 ## [2026-05-18] supplement | 1 draft afternoon top-up (Karpathy HTML)
 
 - **触发**：下午基于 X karpathy 17k 赞爆款补番 1 篇（上午已完成 9 篇）

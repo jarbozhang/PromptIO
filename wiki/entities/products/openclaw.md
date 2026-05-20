@@ -25,6 +25,8 @@
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 已经 12 万星了，NousResearch 这个 agent 真的会和你一起长大]] | 8 |
 | 2026-05-12 | [[hermes-agent-146k-一天涨2000星-nous-research-持久成长\|NousResearch hermes-agent 146k 星了，一天涨 2065 星到底在涨什么]] | 10 |
 | 2026-05-12 | [[openclaw-371k-clawhub-moltbot-生态全景\|openclaw 371k 星了，clawhub/clawdbot/moltbot 这条线现在长什么样]] | 10 |
+| 2026-05-20 | [[openviking-字节火山-openclaw-agent-文件系统\|字节火山 OpenViking 给 AI agent 装了文件系统当大脑 专为 openclaw 优化]] | 9 |
+| 2026-05-20 | [[nousresearch-hermes-agent-15万星-跨host\|NousResearch hermes-agent 15.8 万星 跨 Claude Code / Codex / openclaw 三宿主]] | 8 |
 
 ## 相关主题
 

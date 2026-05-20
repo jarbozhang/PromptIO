@@ -1,0 +1,32 @@
+title: "Gemini Spark 把 24/7 agent 直接塞进 Gmail 国内邮箱助理们要尴尬了"
+status: draft
+date: 2026-05-20
+reach: 9
+sources:
+  - techcrunch-ai-6e6d5dc2
+  - techcrunch-ai-df9d01ab
+  - the-verge-ai-40602be2
+tags:
+  - google
+  - gemini
+  - gmail
+  - ai-productivity
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 8
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 2
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ''

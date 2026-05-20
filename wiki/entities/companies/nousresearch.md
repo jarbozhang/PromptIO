@@ -8,6 +8,7 @@
 
 ## 近期动态
 
+- **hermes-agent 冲上 GitHub Trending 15.8 万星 + 跨 host 接入** (2026-05-20) — hermes-agent 15.8 万星登上 GitHub Trending，"会成长的 agent"形态正式跨 [[claude-code|Claude Code]] / [[codex|Codex]] / [[openclaw|openclaw]] 三个宿主
 - **Hermes Agent 12 万星 + 接入 openclaw 生态** (2026-04-28) — NousResearch 把 Hermes Agent 的"持久记忆 / 持续成长"路线接到 [[openclaw-org|openclaw]] 体系上，从独立 agent 进入"宿主 + agent"组合形态
 
 ## 我们的覆盖
@@ -18,6 +19,7 @@
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 已经 12 万星了，NousResearch 这个 agent 真的会和你一起长大]] | 8 |
 | 2026-05-07 | [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | 9 |
 | 2026-05-12 | [[hermes-agent-146k-一天涨2000星-nous-research-持久成长\|NousResearch hermes-agent 146k 星了，一天涨 2065 星到底在涨什么]] | 10 |
+| 2026-05-20 | [[nousresearch-hermes-agent-15万星-跨host\|NousResearch hermes-agent 冲上 GitHub Trending 15.8 万星 会成长的 agent 到底长啥样]] | 8 |
 
 ## 相关主题
 

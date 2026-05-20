@@ -33,6 +33,9 @@
 | 2026-05-14 | [[the-verge-vibe-coding革命-个人软件平民化-国产路线\|The Verge vibe coding 革命，Trae / 通义灵码国产 vibe coding 路线]] | 7 |
 | 2026-05-16 | [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|蚂蚁 Ring-2.6-1T 万亿 thinking 上 OpenRouter]] | 9 |
 | 2026-05-16 | [[百度qianfan-ocr-fast-openrouter国产ocr多模态新选项\|百度 Qianfan-OCR-Fast 多模态 OCR]] | 8 |
+| 2026-05-20 | [[openviking-字节火山-openclaw-agent-文件系统\|字节火山 OpenViking 给 AI agent 装了文件系统当大脑 专为 openclaw 优化]] | 9 |
+| 2026-05-20 | [[google-ai-studio-android-vibe-code\|Google AI Studio 一句话出 Android 原生 app（国产手机厂对照）]] | 9 |
+| 2026-05-20 | [[simon-willison-过去6个月-llm-五分钟回顾\|Simon Willison 5 分钟回顾 LLM 半年 给中国读者画的时间轴]] | 8 |
 
 ## 关键子线
 
