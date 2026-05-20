@@ -24,10 +24,11 @@
 
 **5/19 采集备注**：RSS/GitHub/arXiv 498 items；GitHub Trending 33 AI repos；OpenRouter 0 new；PyPI checked，anthropic 429；TrendRadar Docker 目录缺失 soft-fail；bird X 抓取成功保存 218 tweets（123 account / 95 home+following），failures 0。
 
-## 2026-05-18（9 篇，voice 分布 first-person 4 / narrative 0 / analytical 4 / retro 1）
+## 2026-05-18（10 篇含下午补番 1 篇，voice 分布 first-person 5 / narrative 0 / analytical 4 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |
 |------|-------|-------|---------|------|
+| [[karpathy让ai用html回答-17k赞爆款输出格式正在变天\|Karpathy 让 AI 用 HTML 回答 17k 赞爆款 输出格式正在变天]] | 9 | first-person | [[karpathy\|Karpathy]], [[claude\|Claude]], [[chatgpt\|ChatGPT]] | [[ai-prompt-engineering\|Prompt 工程]] / [[ai-product\|AI 产品]] |
 | [[seedance-2-0做出2小时ai电影-成本账比流量更刺眼|Seedance 2.0 做出 2 小时 AI 电影 成本账比流量更刺眼]] | 8 | analytical | [[seedance-2-0|Seedance 2.0]], [[bytedance|字节跳动]] | [[ai-video|AI 视频]] / [[creator-economy|创作者经济]] |
 | [[k-dense-135个科研skill开源-claude-code和codex可以变科研助理|K-Dense 135 个科研 Skill 开源 Claude Code 和 Codex 可以变科研助理]] | 8 | first-person | [[k-dense-scientific-agent-skills|K-Dense Scientific Agent Skills]], [[claude-code|Claude Code]], [[codex|Codex]] | [[ai-education|AI 教育]] / [[agent-frameworks|Agent 框架]] |
 | [[dograh一条docker命令自建语音客服-不用先按分钟买saas|Dograh 一条 Docker 命令自建语音客服 不用先按分钟买 SaaS]] | 8 | first-person | [[dograh|Dograh]] | [[voice-ai|语音 AI]] / [[agent-frameworks|Agent 框架]] |

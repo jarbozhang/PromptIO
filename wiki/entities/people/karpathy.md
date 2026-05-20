@@ -8,6 +8,7 @@ Karpathy 是中文 AI 读者最熟悉的英文圈 KOL 之一，他的推文自�
 
 ## 近期关键动态
 
+- **HTML 输出 prompt 技巧** (2026-05-11，5-18 报道) — 推文「在 query 末尾加 structure your response as HTML」拿到 17426 赞 / 1822 转 / 913 回复。配套理论：audio 是人→AI 偏好输入，vision 是 AI→人偏好输出；输出格式演进 text → markdown → HTML → 交互式神经视频
 - **CLAUDE.md 编程教训出圈** (2026-05-06) — Karpathy 在 X 零散吐槽的"LLM 写代码翻车点"被 forrestchang 归纳成 4 条原则（Think Before Coding / Simplicity First / Surgical Changes / 第 4 条），仓库 `forrestchang/andrej-karpathy-skills` 单日 +2409 stars 登顶 GitHub Trending
 - **Idea File 概念** (2026-04-04) — 提出"不分享代码，只分享想法文件"的范式。LLM Wiki 项目 48 小时 5000 stars，v2 进化为活的记忆系统（可信度评分、记忆分层、知识图谱、遗忘曲线）
 - **AI 能力认知鸿沟** (2026-04-09) — 25K+ likes，指出免费用户和 $200 Pro 用户看到的是完全不同的 AI。[[codex|Codex]]/[[claude-code|Claude Code]] 在编程领域的能力"staggering"
@@ -18,6 +19,7 @@ Karpathy 是中文 AI 读者最熟悉的英文圈 KOL 之一，他的推文自�
 
 | 日期 | 文章 | REACH |
 |------|------|-------|
+| 2026-05-18 | [[karpathy让ai用html回答-17k赞爆款输出格式正在变天\|Karpathy 让 AI 用 HTML 回答 17k 赞爆款 输出格式正在变天]] | 9 |
 | 2026-05-06 | [[karpathy-llm-coding教训被写成claude-md一夜2409星\|Karpathy 的 LLM 编程踩坑教训被写成一个 CLAUDE.md，一夜涨了 2409 颗星]] | 9 |
 | 2026-05-06 | [[openai物理学家lupsasca谈vibe-physics\|OpenAI 物理学家 Lupsasca 谈 Vibe Physics（Karpathy 提出 vibe coding 对照）]] | 7 |
 | 2026-04-14 | [[karpathy说ai时代不用分享代码了-只分享想法文件就够|Karpathy说AI时代不用分享代码了，只分享"想法文件"就够]] | 9 |
@@ -27,4 +29,4 @@ Karpathy 是中文 AI 读者最熟悉的英文圈 KOL 之一，他的推文自�
 
 ## 注意
 
-Karpathy 相关选题已覆盖 4 次（15 天内），短期内需要降权。"Idea File"角度已用 2 次。
+Karpathy 相关选题已覆盖 5 次（30 天内），短期内需要降权。"Idea File" 角度 2 次、"LLM 编程教训"和"HTML 输出"各 1 次。下一次再写需要明显新角度。

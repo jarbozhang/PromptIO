@@ -3,6 +3,15 @@
 追加式记录，最新在前。
 
 
+## [2026-05-18] supplement | 1 draft afternoon top-up (Karpathy HTML)
+
+- **触发**：下午基于 X karpathy 17k 赞爆款补番 1 篇（上午已完成 9 篇）
+- **新增**：Karpathy 让 AI 用 HTML 回答 17k 赞爆款 输出格式正在变天（REACH 9 first-person，karpathy / claude / chatgpt / ai-prompt-engineering / ai-product）
+- **QA**：L1 替换 1 处，L2:8 / L3:8 / L4:pass / L5:9 / L6:pass / xhs_pass:true，1 轮通过
+- **xhs**：REACH 9 触发 → 生成 xhs-version.md 1755 字（小红书风格 emoji + 短句 + tag）
+- **实体页**：karpathy.md 更新「HTML 输出 prompt 技巧」动态 + 覆盖表新条目
+- **降权提醒**：karpathy 短期累计 5 次（30 天），下一次需要明显新角度
+
 ## [2026-05-19] regenerate | 8 drafts, single XHS-safe main version, RSS+X+signals
 
 - **采集**：RSS/GitHub/arXiv 498 items；GitHub Trending 33 AI repos；OpenRouter 0 new；PyPI checked（anthropic 429）；TrendRadar Docker 目录缺失 soft-fail

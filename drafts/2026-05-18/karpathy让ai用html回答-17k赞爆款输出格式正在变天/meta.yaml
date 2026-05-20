@@ -1,0 +1,29 @@
+title: "Karpathy 让 AI 用 HTML 回答 17k 赞爆款 输出格式正在变天"
+status: draft
+date: 2026-05-18
+reach: 9
+sources:
+  - x-karpathy-7a33ecee
+tags:
+  - karpathy
+  - prompt-engineering
+  - ai-product
+  - html-output
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 9
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 1
+  issues: []
+  error: ""
+platforms:
+  wechat: primary
+  xhs: compliant
+  x: primary
