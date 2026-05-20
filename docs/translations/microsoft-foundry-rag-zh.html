@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Microsoft Foundry 中的检索增强生成（RAG）与索引</title>
+  <style>
+    @page { size: A4; margin: 18mm 16mm; }
+    html {
+      color: #1f2328;
+      background: #ffffff;
+      font-family: "Hiragino Sans GB", "Heiti SC", "PingFang SC", "Arial Unicode MS", sans-serif;
+      font-size: 14px;
+      line-height: 1.72;
+    }
+    body {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    h1, h2, h3 {
+      color: #111827;
+      line-height: 1.3;
+      page-break-after: avoid;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 18px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #2563eb;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 28px 0 10px;
+      padding-top: 6px;
+      border-top: 1px solid #e5e7eb;
+    }
+    h3 {
+      font-size: 16px;
+      margin: 22px 0 8px;
+    }
+    p { margin: 8px 0 12px; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 5px 0; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: #f6f8fa;
+      border: 1px solid #d0d7de;
+      border-radius: 4px;
+      padding: 1px 4px;
+      font-size: 0.92em;
+    }
+    a { color: #0969da; text-decoration: none; }
+    header#title-block-header { display: none; }
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Microsoft Foundry 中的检索增强生成（RAG）与索引</h1>
+</header>
+<h1 id="microsoft-foundry-中的检索增强生成rag与索引">Microsoft Foundry
+中的检索增强生成（RAG）与索引</h1>
+<p>原文：Retrieval augmented generation (RAG) and indexes in Microsoft
+Foundry<br />
+来源：https://learn.microsoft.com/en-au/azure/foundry/concepts/retrieval-augmented-generation<br />
+原文更新时间：2026-05-18<br />
+许可证：Creative Commons Attribution 4.0 International</p>
+<p>说明：本文是对 Microsoft Learn
+原文的中文翻译与术语本地化整理，保留原文结构和主要含义。代码、产品名、API
+名称和链接按原文保留。</p>
+<h2 id="概览">概览</h2>
+<p>检索增强生成（retrieval augmented
+generation，RAG）是一种把搜索能力和大型语言模型（LLM）结合起来的模式。它的目标是让模型回答时基于你的数据，而不是只依赖模型训练时学到的公共知识。本文解释
+RAG 在 Microsoft Foundry 中如何工作、索引在其中承担什么角色，以及
+agentic retrieval 如何改变传统 RAG 模式。</p>
+<p>LLM
+通常基于训练时可用的公共数据训练。如果你需要模型基于私有数据回答，或者需要基于经常变化的信息回答，RAG
+可以帮助你：</p>
+<ul>
+<li>从你的数据中检索相关信息，通常通过索引完成。</li>
+<li>把这些信息作为 grounding data 提供给模型。</li>
+<li>生成可以引用原始内容来源的回答。</li>
+</ul>
+<h2 id="什么是-rag">什么是 RAG</h2>
+<p>像 ChatGPT
+这样的大型语言模型，是基于模型训练时可用的公共互联网数据训练出来的。这些公共数据并不总能满足你的业务需求。例如，你可能希望回答基于企业内部文档，或者希望答案反映最新信息。</p>
+<p>RAG
+的做法是从你的数据中检索相关内容，并把这些内容放进模型输入。这样，模型生成回答时就可以基于检索到的内容，而不是凭空推断。</p>
+<p>RAG 的几个关键概念：</p>
+<ul>
+<li><strong>Grounding
+data</strong>：提供给模型的检索内容，用来减少猜测。</li>
+<li><strong>Index</strong>：为检索优化的数据结构，可以支持关键词、语义、向量或混合搜索。</li>
+<li><strong>Embeddings</strong>：内容的数值化表示，用于向量相似度搜索。可参考
+Microsoft Learn 的 Understand embeddings。</li>
+<li><strong>System message and
+prompts</strong>：指导模型如何使用检索内容的指令。可参考 Prompt
+engineering 和 Safety system messages。</li>
+</ul>
+<h2 id="rag-如何工作">RAG 如何工作</h2>
+<p>RAG 通常遵循三步流程：</p>
+<ol type="1">
+<li><strong>Retrieve</strong>：用户提出问题后，应用查询索引或数据存储，找出相关内容。</li>
+<li><strong>Augment</strong>：应用把用户问题和检索内容，也就是 grounding
+data，组合成一个 prompt。</li>
+<li><strong>Generate</strong>：模型接收增强后的
+prompt，生成基于检索内容的回答，从而减少不准确内容，并支持更准确的引用。</li>
+</ol>
+<p>这个流程的核心不是让模型“记住”所有私有知识，而是在回答时动态取回相关证据，再让模型围绕证据生成答案。</p>
+<h2 id="什么是索引为什么需要它">什么是索引，为什么需要它</h2>
+<p>RAG
+的效果很大程度取决于能否快速、稳定地取回相关内容。索引通过组织内容来提升检索效率。</p>
+<p>很多 RAG 方案会使用支持一种或多种检索模式的索引：</p>
+<ul>
+<li><strong>Keyword search</strong>：关键词搜索。</li>
+<li><strong>Semantic search</strong>：语义搜索。</li>
+<li><strong>Vector search</strong>：向量搜索。</li>
+<li><strong>Hybrid
+search</strong>：混合搜索，通常指关键词搜索加向量搜索，有时还会配合语义排序。</li>
+</ul>
+<p>索引也可以保存提升引用质量所需的字段，例如文档标题、URL、文件名等。</p>
+<p>Foundry 可以把项目连接到 Azure AI Search
+服务和索引，用于检索。根据所使用的功能和 API
+表面不同，这些连接信息可能表现为项目连接，也可能表现为 index asset
+ID。</p>
+<p>例如，Foundry Project REST API preview 对 Azure AI Search
+索引资源包含 <code>index_asset_id</code> 字段。可参考 Foundry Project
+REST API preview。</p>
+<p>Azure AI Search 是 RAG
+场景推荐使用的索引存储。它支持对搜索索引中的向量数据和文本数据进行检索；如果使用
+agentic retrieval，也可以查询其他目标。可参考 What is Azure AI
+Search。</p>
+<h2 id="agentic-rag现代检索方式">Agentic RAG：现代检索方式</h2>
+<p>传统 RAG 往往使用单个查询从数据中检索信息。Agentic retrieval，也叫
+agentic
+RAG，是检索架构的一种演进。它使用模型把复杂输入拆分成多个聚焦的子查询，并行执行这些子查询，然后返回更适合聊天补全模型使用的结构化
+grounding data。</p>
+<p>与经典 RAG 相比，agentic retrieval 有几类优势：</p>
+<ul>
+<li><strong>上下文感知的查询规划</strong>：利用对话历史理解上下文和意图。追问可以保留前文上下文，让多轮对话更自然。</li>
+<li><strong>并行执行</strong>：同时运行多个聚焦子查询，提升覆盖面。相比只用单个查询顺序检索，并行执行可以降低延迟，并取回更多样的相关结果。</li>
+<li><strong>结构化响应</strong>：随结果一起返回 grounding
+data、引用和执行元数据。结构化输出让应用更容易准确引用来源，并追踪答案背后的检索过程。</li>
+<li><strong>内置语义排序</strong>：提升结果相关性。语义排序可以过滤噪声，优先保留真正相关的段落，这在大型数据集上尤其重要。</li>
+<li><strong>可选答案合成</strong>：查询响应中可以直接包含由 LLM
+组织的答案。你也可以选择只返回原始段落，让应用自己处理。</li>
+</ul>
+<p>如果你使用 Azure AI Search 作为检索引擎，可参考 Agentic retrieval 和
+Quickstart: Agentic retrieval。</p>
+<h2 id="在-foundry-中如何选择方案">在 Foundry 中如何选择方案</h2>
+<p>Foundry
+支持多种处理私有数据的模式。选择时应根据用例复杂度，以及你需要多少控制权来决定。</p>
+<ul>
+<li><strong>使用
+RAG</strong>：当你需要答案基于私有数据或频繁变化的数据时。</li>
+<li><strong>使用
+fine-tuning</strong>：当你要改变模型行为、风格或任务表现，而不是添加新知识时。</li>
+<li><strong>使用 agent
+tools</strong>：当你正在构建一个需要把检索作为工具来使用的 agent
+时。例如可参考 File search tool for agents。</li>
+</ul>
+<p>换句话说，RAG 更适合“知识从外部取回”，fine-tuning
+更适合“改变模型做事方式”，agent tools 更适合“让 agent
+在任务执行中调用检索能力”。</p>
+<h2 id="在-foundry-中开始使用-rag">在 Foundry 中开始使用 RAG</h2>
+<p>在 Foundry 中实现 RAG，通常会遵循下面的工作流：</p>
+<ol type="1">
+<li><strong>准备数据</strong>：整理并切分你的私有文档或知识库，使其成为可搜索内容。</li>
+<li><strong>设置索引</strong>：创建 Azure AI Search
+索引，或使用其他检索服务来组织内容，以便高效搜索。</li>
+<li><strong>连接到 Foundry</strong>：从 Foundry
+项目创建到索引或检索服务的连接。</li>
+<li><strong>构建 RAG 应用</strong>：使用 Foundry SDK 或 REST
+API，把检索过程和 LLM 调用集成起来。</li>
+<li><strong>测试与评估</strong>：验证检索质量是否足够好，回答是否准确，引用是否恰当。</li>
+</ol>
+<p>开始时，可以按需求选择路径：</p>
+<ul>
+<li><strong>Agent with retrieval</strong>：如果你正在构建
+agent，把检索作为工具使用。可参考 File search tool for agents。</li>
+<li><strong>Custom RAG application</strong>：如果你需要完整控制权，用
+Foundry SDK 构建完整 RAG 应用。</li>
+</ul>
+<h2 id="安全与隐私注意事项">安全与隐私注意事项</h2>
+<p>如果访问控制和 prompt 设计不当，RAG 系统可能暴露敏感内容。</p>
+<ul>
+<li><strong>在检索时应用访问控制</strong>。如果你使用 Azure AI Search
+作为数据源，可以用文档级访问控制和安全过滤器。</li>
+<li><strong>生产环境优先使用 Microsoft Entra ID，而不是 API
+keys</strong>。API keys 适合开发阶段，但不推荐用于生产环境。Azure AI
+Search 的 RBAC 指南可参考 Connect to Azure AI Search using roles。</li>
+<li><strong>把检索到的内容视为不可信输入</strong>。系统消息和应用逻辑应降低文档或检索段落中的
+prompt injection 风险。可参考 Safety system messages。</li>
+</ul>
+<h2 id="成本与延迟注意事项">成本与延迟注意事项</h2>
+<p>与只调用模型相比，RAG 会增加额外工作：</p>
+<ul>
+<li><strong>检索成本和延迟</strong>：查询索引会增加网络往返和计算。</li>
+<li><strong>Embedding 成本和延迟</strong>：向量搜索需要在建索引时生成
+embedding，很多场景下查询时也需要生成 embedding。</li>
+<li><strong>Token 使用量</strong>：检索段落会增加输入
+token，从而增加成本。</li>
+</ul>
+<p>如果使用 Azure AI
+Search，在生产上线前应确认服务层级和价格。如果使用语义检索或混合检索，应查看
+Azure AI Search 文档中的价格和限制。</p>
+<h2 id="限制与故障排查">限制与故障排查</h2>
+<h3 id="已知限制">已知限制</h3>
+<ul>
+<li>RAG 质量依赖内容准备、检索配置和 prompt
+设计。糟糕的数据准备或索引策略会直接影响回答质量。</li>
+<li>如果检索返回的段落不相关或不完整，即使有
+grounding，模型仍可能生成不完整或不准确的回答。</li>
+<li>如果没有控制源内容访问权限，基于检索内容生成的回答可能泄露索引中的敏感信息。</li>
+</ul>
+<h3 id="常见挑战与缓解方式">常见挑战与缓解方式</h3>
+<ul>
+<li><strong>检索质量差</strong>：如果索引没有返回相关段落，应检查数据切分策略、embedding
+模型质量和搜索配置，例如关键词、语义、向量或混合检索的选择。</li>
+<li><strong>有 grounding
+仍然幻觉</strong>：即便提供了检索内容，模型仍可能生成不准确回答。应启用引用，并使用清晰的
+system message 和 prompt，要求模型严格基于检索内容回答。</li>
+<li><strong>延迟问题</strong>：大型索引可能拖慢检索。可以优化索引策略、过滤条件和
+reranking，减少需要处理的段落数量。</li>
+<li><strong>超出 token 预算</strong>：检索段落可能很快耗尽 token
+限制。应实现段落过滤、排序或摘要，确保输入控制在预算内。</li>
+</ul>
+<p>评估 RAG 效果的更多指导，可以参考原文 Related content 中列出的教程和
+quickstarts。</p>
+<h2 id="相关内容">相关内容</h2>
+<ul>
+<li>File search tool for agents</li>
+<li>Quickstart: Agentic retrieval</li>
+<li>Agentic retrieval overview</li>
+<li>What is Azure AI Search</li>
+</ul>
+<h2 id="译者整理的实践结论">译者整理的实践结论</h2>
+<p>从这篇文档可以提炼出一个清晰建议：</p>
+<ul>
+<li>企业知识问答的默认底座应是 RAG，而不是 fine-tuning。</li>
+<li>索引不是可选配件，而是 RAG 稳定工作的核心基础设施。</li>
+<li>生产系统应优先考虑混合检索、引用、权限过滤、评估和延迟成本。</li>
+<li>Agentic RAG
+适合复杂问题、多轮问题、多子查询和需要更强检索编排的场景。</li>
+<li>Agent 工具适合“agent
+在任务中调用检索”，但知识问答本身仍应基于可追溯的检索证据。</li>
+</ul>
+</body>
+</html>

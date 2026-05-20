@@ -1,0 +1,13 @@
+---
+title: >-
+  Google launches Antigravity 2.0 with an updated desktop app and CLI tool at IO
+  2026
+url: >-
+  https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/
+source: TechCrunch AI
+source_type: rss
+language: en
+published: '2026-05-19T17:45:00.000Z'
+fetched_at: '2026-05-20T14:38:44.067Z'
+---
+Google is debuting a new AI Ultra plan priced at $100, which will give users 5x more usage limit than the AI Pro plan alongside the Antigravity 2.0 launch.
