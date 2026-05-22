@@ -84,13 +84,13 @@ npm test            # 运行测试
 
 ### 平台合规底线
 
-3 次违规已导致小红书账号警告。三类高风险品类必须在**选题阶段**拦截，不能等写作完再治理：
+3 次违规已导致小红书账号警告。小红书合规采用**选题硬排除 + 主稿改写优先**两段式：
 
 - **封建迷信**（算命/风水/八字/占卜/运势）→ 选题门 `checkCompliance()` 自动 skip
 - **境外软件访问教程**（翻墙/梯子/Clash/ChatGPT web 注册）→ 选题门 skip，写作层禁用词
 - **纯拉踩标题**（X 干翻/吊打/订阅可以退了/变笨了）→ 选题门 skip，写作层禁用句式
 
-QA 的 L6 小红书合规维度现在是主稿硬门槛：不再单独生成 `xhs-version.md`，而是只生成一份文章，并保证这份主稿能通过小红书规则检验。L6 fail 的文章必须直接修改主稿；3 轮质修后仍不通过则 `platforms.xhs: blocked`。详见 `config/prompts/scoring.md` 的 Hard Exclusions。
+QA 的 L6 小红书合规维度现在是主稿硬门槛：不再单独生成 `xhs-version.md`，而是只生成一份文章，并保证这份主稿能通过小红书规则检验。L6 fail 的文章必须直接修改主稿；引流求互动、AI 未标识、AI 托管/批量发布、虚假夸张、制造对立、隐私攻击、医疗/金融/教育承诺等可修复问题都先改写，不直接舍弃。只有玄学完全禁区、违法低俗、隐私攻击等删除后主线仍不成立的问题，或 3 轮质修后仍不通过，才 `platforms.xhs: blocked`。详见 `config/prompts/scoring.md` 的 Hard Exclusions 和 `config/prompts/qa-check.md` 的 L6。
 
 ## Skill routing
 

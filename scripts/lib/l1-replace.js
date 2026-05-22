@@ -24,7 +24,7 @@ const FORBIDDEN_PUNCTUATION = [
 ];
 
 // Layer 1 合规词表 — 命中任一项直接跳过文章生成（小红书封建迷信类）
-// 每一项是高置信度禁用词，边缘 case（如"算命先生"人物实体上下文）交给 QA L6 判断
+// 每一项是高置信度不可修主线，边缘 case（如"算命先生"人物实体上下文）交给 QA L6 判断
 const SKIP_PATTERNS = [
   '算命', '看风水', '批八字', '占卜', '塔罗牌', '运势测算',
   '符咒', '开光', '代参拜', '代开光',
@@ -32,11 +32,14 @@ const SKIP_PATTERNS = [
   '紫微斗数', '奇门遁甲', '易经预测', '命格',
 ];
 
-// Layer 2 合规词表 — 境外访问教程禁用词，applyCompliance 直接删除
-// 行政合规类，出现即必删
+// Layer 2 合规词表 — 可机械删除的禁用词，applyCompliance 直接删除
+// 出现时优先删改主稿，不直接舍弃文章
 const COMPLIANCE_DELETE = [
   '翻墙', '梯子', '科学上网', '魔法上网', '全局代理',
   '自建节点', '机场订阅', 'Clash 订阅', 'V2Ray', 'Shadowsocks', 'SSR 订阅',
+  '加微信', '加我微信', '私信我', '主页领取', '主页有链接',
+  '评论区蹲', '求赞', '求关注', '求收藏', '点个赞', '关注我',
+  '进群', '加群', '扫码入群', '领取资料',
 ];
 
 // Layer 3 合规词表 — 拉踩词软化替换，applyCompliance 执行替换
@@ -45,13 +48,37 @@ const RHETORIC_SOFTEN = [
   ['干翻', '追上'],
   ['吊打', '领先'],
   ['完爆', '比过'],
+  ['碾压', '领先'],
+  ['秒杀', '明显快于'],
+  ['暴打', '超过'],
+  ['完胜', '表现更好'],
   ['砍掉', '对标'],
   ['杀死', '切到同赛道'],
   ['平替', '开源替代'],
   ['订阅可以退了', '开源方案来了'],
   ['可以卸载了', '多了个新选择'],
   ['真的凉了', '遇到挑战'],
+  ['要凉了', '遇到挑战'],
   ['变笨了', '有用户反馈变化'],
+  ['割韭菜', '定价争议'],
+  ['稳赚', '存在收益想象但有风险'],
+  ['保赚', '存在收益想象但有风险'],
+  ['包过', '提高通过概率'],
+  ['100% 成功', '提高成功概率'],
+  ['百分百成功', '提高成功概率'],
+  ['月入过万保证', '存在收益想象但有风险'],
+  ['全网第一', '少见的高水平'],
+  ['行业第一', '行业靠前'],
+  ['唯一选择', '一个选择'],
+];
+
+// Layer 4 合规词表 — 需要语义质修的问题，只报告不机械改写
+// 这些问题通常能通过改标题、补标识、删除诱导或改行动建议修复，不能在选题阶段直接丢弃
+const MANUAL_REWRITE = [
+  'AI 托管账号', 'AI托管账号', '自动养号', '批量发笔记', '批量发布小红书',
+  '自动评论', '自动私信', '模拟真人', '伪装真人', '规避审核', '绕过审核',
+  '不标注 AI', '不用标 AI', '不用标注 AI',
+  '荐股', '保本', '无风险收益', '包治', '根治', '治愈率', '疗效保证',
 ];
 
 // Regex to match fenced code blocks (``` ... ```) and inline code (` ... `)
@@ -112,13 +139,13 @@ export function l1Replace(text) {
 
 /**
  * Scan text for compliance violations without modifying it.
- * Used in Step 3 (选题门) to decide whether to skip a topic entirely,
- * and in Step 4.5 (QA L6) to inform the QA agent what to flag.
+ * Used in Step 3 (选题门) to decide whether to skip only truly irreparable topics,
+ * and in Step 4.5 (QA L6) to inform the QA/rewrite loop what to repair in the main draft.
  *
  * @param {string} text - article markdown text or title + source summary
  * @returns {{ skip: boolean, reasons: Array<{layer: string, pattern: string, matched_text: string}> }}
- *   skip=true means the article/topic should be abandoned (SKIP_PATTERNS hit).
- *   reasons always includes all matches across all three layers for diagnostic use.
+ *   skip=true means the topic should be abandoned (only SKIP_PATTERNS hit).
+ *   reasons includes skip, auto-rewrite, and manual-rewrite matches for diagnostic use.
  */
 export function checkCompliance(text) {
   const codeSlots = [];
@@ -157,13 +184,22 @@ export function checkCompliance(text) {
     }
   }
 
+  for (const pattern of MANUAL_REWRITE) {
+    const re = new RegExp(escapeRegExp(pattern), 'g');
+    const matches = [...safeText.matchAll(re)];
+    for (const m of matches) {
+      reasons.push({ layer: 'manual_rewrite', pattern, matched_text: m[0] });
+    }
+  }
+
   return { skip, reasons };
 }
 
 /**
  * Apply Layer 2 (COMPLIANCE_DELETE — delete) and Layer 3 (RHETORIC_SOFTEN — replace)
  * compliance transformations to text. Layer 1 (SKIP_PATTERNS) is NOT applied here
- * because SKIP means abandon; use checkCompliance() first to decide.
+ * because SKIP means abandon; Layer 4 (MANUAL_REWRITE) is semantic and must be handled
+ * by the QA/rewrite loop instead of mechanical replacement.
  *
  * l1Replace() is orthogonal to this — callers typically run l1Replace() for writing-style
  * normalization and then applyCompliance() separately for platform compliance.

@@ -157,6 +157,23 @@ describe('checkCompliance — RHETORIC_SOFTEN reporting', () => {
     assert.equal(skip, false);
     assert.ok(reasons.some(r => r.pattern === '订阅可以退了'));
   });
+
+  it('reports newer bashing and exaggerated claims without setting skip', () => {
+    const { skip, reasons } = checkCompliance('这个工具碾压同行，号称稳赚');
+    assert.equal(skip, false);
+    assert.ok(reasons.some(r => r.layer === 'rhetoric_soften' && r.pattern === '碾压'));
+    assert.ok(reasons.some(r => r.layer === 'rhetoric_soften' && r.pattern === '稳赚'));
+  });
+});
+
+describe('checkCompliance — manual rewrite reporting', () => {
+  it('reports AI account automation as manual rewrite, not skip', () => {
+    const { skip, reasons } = checkCompliance('用 AI 托管账号自动评论自动私信，模拟真人运营');
+    assert.equal(skip, false);
+    assert.ok(reasons.some(r => r.layer === 'manual_rewrite' && r.pattern === 'AI 托管账号'));
+    assert.ok(reasons.some(r => r.layer === 'manual_rewrite' && r.pattern === '自动评论'));
+    assert.ok(reasons.some(r => r.layer === 'manual_rewrite' && r.pattern === '模拟真人'));
+  });
 });
 
 describe('checkCompliance — code block protection', () => {
@@ -185,6 +202,15 @@ describe('applyCompliance — COMPLIANCE_DELETE (Layer 2)', () => {
     const { text } = applyCompliance('用 Clash 订阅就好');
     assert.ok(!text.includes('Clash 订阅'));
   });
+
+  it('deletes engagement bait and private traffic phrases', () => {
+    const { text, replacements } = applyCompliance('私信我，主页领取，求关注，扫码入群');
+    assert.ok(!text.includes('私信我'));
+    assert.ok(!text.includes('主页领取'));
+    assert.ok(!text.includes('求关注'));
+    assert.ok(!text.includes('扫码入群'));
+    assert.ok(replacements.some(r => r.from === '私信我' && r.layer === 'compliance_delete'));
+  });
 });
 
 describe('applyCompliance — RHETORIC_SOFTEN (Layer 3)', () => {
@@ -205,6 +231,15 @@ describe('applyCompliance — RHETORIC_SOFTEN (Layer 3)', () => {
     const { text } = applyCompliance('Claude Code 变笨了');
     assert.ok(!text.includes('变笨了'));
     assert.ok(text.includes('有用户反馈变化'));
+  });
+
+  it('softens exaggerated claims instead of skipping the article', () => {
+    const { text, replacements } = applyCompliance('这是全网第一方案，保证稳赚，100% 成功');
+    assert.ok(!text.includes('全网第一'));
+    assert.ok(!text.includes('稳赚'));
+    assert.ok(!text.includes('100% 成功'));
+    assert.ok(replacements.some(r => r.from === '全网第一' && r.to === '少见的高水平'));
+    assert.ok(replacements.some(r => r.from === '稳赚' && r.to === '存在收益想象但有风险'));
   });
 });
 

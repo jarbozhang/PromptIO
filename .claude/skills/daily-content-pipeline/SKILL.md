@@ -369,7 +369,7 @@ console.log(JSON.stringify({ replacements_count: replacements.length, details: r
 - `overall_pass == false` → 进入质修循环（4.5d）
 - JSON 不可解析且 2 次重试均失败 → 消耗 1 轮内容修改配额
 
-**L6 是主稿硬门槛。** 小红书合规不再通过派生版兜底；一篇文章如果 `l6_pass == false`，`overall_pass` 必须为 false，并进入同一个质修循环，直接修主稿。
+**L6 是主稿硬门槛，但不是默认丢弃门槛。** 小红书合规不再通过派生版兜底；一篇文章如果 `l6_pass == false`，`overall_pass` 必须为 false，并进入同一个质修循环，直接修主稿。引流、AI 标识、自动化风险、虚假夸张、拉踩对比、境外访问行动建议等问题都先改写修复；只有玄学完全禁区、违法低俗、隐私攻击等删除后主线仍不成立，或 3 轮质修后仍不通过，才标记 `platforms.xhs = blocked`。
 
 **4.5d 质修循环（最多 3 轮）**
 
@@ -386,7 +386,7 @@ console.log(JSON.stringify({ replacements_count: replacements.length, details: r
 3. 修改完成后，重新执行 4.5b（独立 QA 检查）
 4. 重复直到通过或达到 3 轮上限
 
-**3 轮后仍未通过** → 标记为 `needs_review`，保留最后一轮的 issues 列表。
+**3 轮后仍未通过** → 标记为 `needs_review`，保留最后一轮的 issues 列表。不要把可修复的 L6 问题直接舍弃；必须已经尝试主稿改写。
 
 **4.5e 写入 QA 结果到 meta.yaml**
 
@@ -438,7 +438,7 @@ xhs_blocked_reason: ""    # 可选，仅 platforms.xhs=blocked 时填写
 - `qa.status == passed` 且 `qa.l6_pass == true` 且 `qa.xhs_pass == true` → `platforms.xhs = primary`
 - `qa.status == needs_review` 且最终问题包含 L6 → `platforms.xhs = blocked`，`xhs_blocked_reason = l6_needs_review`
 - `qa.status == failed_qa` → `platforms.xhs = blocked`，`xhs_blocked_reason = failed_qa`
-- 玄学完全禁区、境外访问教程等强制排除问题无法在 3 轮内修掉 → `platforms.xhs = blocked`，不要生成替代稿
+- 玄学完全禁区、违法低俗、隐私攻击等强制排除问题无法在 3 轮内修掉，或删除后文章主线不成立 → `platforms.xhs = blocked`，不要生成替代稿
 
 **每篇文章都要写入 platforms 字段：**
 
