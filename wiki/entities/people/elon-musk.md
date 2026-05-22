@@ -8,6 +8,7 @@ SpaceX / Tesla / xAI / X 创始人。2026-04 通过 SpaceX 对 Cursor 的收购�
 
 ## 近期关键动态
 
+- **xAI 发 Grok Build 0.1 编程模型，价格只有 Codex 零头** (2026-05-21) — [[xai|xAI]] 推 [[grok-build|Grok Build 0.1]] 编程模型，256K context，$1/$2 per 1M tokens，比 [[codex|Codex]] 便宜 5 倍，Musk 把 xAI 战线扩到 AI 编程价格战
 - **Anthropic 跟 SpaceX 签 50 亿/年算力大单 Colossus 1 300MW** (2026-05-10) — Musk 把 xAI 用旧的 Colossus 1 算力（22 万张 GPU）转手租给 Anthropic 做推理，xAI 训练已挪到 Colossus 2，被解读为"xAI 输给自己人"
 - **Musk 当庭承认 xAI 用 OpenAI 模型蒸馏 Grok** (2026-05-01) — Musk v. OpenAI 案庭审第二天，Musk 在证人席上回答 distillation 问题时说"Partly"，把整个行业心照不宣的事捅进庭审记录，国产模型蒸馏的合规边界被推动
 - **SpaceX 600 亿美元收购 Cursor** (2026-04-22) — 马斯克借 SpaceX 资金盘把 Cursor 买回家，中文社区解读为"AI 编程的失败而非胜利"（独立 AI 编程工具的独立性被资本收编）
@@ -19,6 +20,7 @@ SpaceX / Tesla / xAI / X 创始人。2026-04 通过 SpaceX 对 Cursor 的收购�
 | 2026-05-10 | [[anthropic-spacex-5b-300mw算力大单-xai输给自己人\|Anthropic 跟 SpaceX 签 50 亿美元 / 年算力大单 300MW Colossus I，xAI 输给自己人]] | 9 |
 | 2026-05-01 | [[musk当庭承认xai蒸馏grok-国产模型蒸馏边界\|Musk 当庭承认 xAI 用 OpenAI 模型蒸馏 Grok，国产模型蒸馏的边界又被推了一下]] | 9 |
 | 2026-04-22 | [[马斯克600亿买cursor-不是ai编程的胜利\|SpaceX 600 亿收 Cursor，马斯克把 Cursor 买回家]] | 9 |
+| 2026-05-21 | [[xai-grok-build-0-1-编程模型-比codex便宜5倍\|xAI 推 Grok Build 0.1 编程模型 25.6 万上下文 价格只有 Codex 的零头]] | 8 |
 
 ## 相关实体
 

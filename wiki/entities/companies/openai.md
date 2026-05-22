@@ -12,6 +12,7 @@
 
 ## 近期动态
 
+- **新模型证否 80 年 Erdős 单位距离猜想** (2026-05-21) — OpenAI 新一代推理模型把保罗·[[erdos|Erdős]] 1946 年提出的单位距离猜想给证否了，算力成本不到 1000 美元，AI for Science 第一次有了具体数学案例
 - **Codex Windows sandbox + Dell on-prem 企业内网版** (2026-05-20) — Codex 同步发布 Windows sandbox 隔离方案和 Dell on-prem 服务器版，企业内网 AI 编程门槛降到合规可过
 - **OpenAI 真要造手机：Kuo 爆料联手联发科/高通/立讯** (2026-04-27 TC / 4/28 入题) — 分析师 Ming-Chi Kuo 指 OpenAI 与 MediaTek、Qualcomm、Luxshare 合作开发 AI 手机，与 io（Jony Ive 主导硬件子公司）耳机线并行，AI agent 接管 App 入口的范式
 - **OpenAI Privacy Filter 开源 PII 检测模型** (2026-04-22 / 4/28 入题) — open-weight 1.5B total/50M activated 稀疏 MoE PII 检测模型 Apache 2.0 上 HuggingFace，128K context + Token Classification + BIOES 解码，对标 Microsoft Presidio
@@ -87,6 +88,7 @@
 | 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|OpenAI 两个月免费 Codex 抢团队默认 IDE]] | 9 |
 | 2026-05-20 | [[openai-codex-windows-sandbox-dell-on-prem\|OpenAI 给 Codex 上了 Windows sandbox 和 Dell on-prem 企业内网 AI 编程的门终于开了]] | 8 |
 | 2026-05-20 | [[simon-willison-过去6个月-llm-五分钟回顾\|Simon Willison 用 5 分钟把过去 6 个月 LLM 全捋了一遍（OpenAI 作为对照之一）]] | 8 |
+| 2026-05-21 | [[openai-证否-erdős-80年-单位距离猜想-1000美元\|OpenAI 新模型证否 80 年 Erdős 单位距离猜想 算力成本不到 1000 美元]] | 9 |
 
 ## 注意
 

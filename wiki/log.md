@@ -3,6 +3,22 @@
 追加式记录，最新在前。
 
 
+## [2026-05-22] generate | 7 drafts, REACH>=7, single XHS-safe main version
+
+- **采集**：RSS/GitHub/arXiv 517 items；GitHub Trending 56 AI repos；OpenRouter 2 new（Qwen3.7 Max / Grok Build 0.1）；PyPI 部分 429；bird X 失败（cookies 全失效）
+- **新增 7 篇文章**：
+  - #1 OpenAI 证否 Erdős 80 年单位距离猜想 1000 美元（REACH 9 analytical，ai-for-science 新主题）
+  - #2 阿里 Qwen3.7 Max OpenRouter 100 万上下文 白菜价（REACH 9 first-person，国产模型出海）
+  - #3 xAI Grok Build 0.1 编程模型 比 Codex 便宜 5 倍（REACH 8 analytical，AI 编程价格战）
+  - #4 港大 ViMax 一个 prompt 当导演（REACH 8 first-person，国产学界视频 agent）
+  - #5 Anthropic Claude Plugins 官方目录（REACH 8 first-person，skill 市场化）
+  - #6 Chrome DevTools MCP 官方上线（REACH 7 first-person，前端 AI 联调）
+  - #7 Cloudflare CEO + Meta 万人裁员（REACH 7 analytical，AI 劳动力替代新主题）
+- **voice 分布**：first-person 4 / analytical 3 / retro 0
+- **QA 结果**：7/7 全过，L1 机械替换 3 处，L6 小红书规则 7/7 pass，platforms.xhs 全部 primary
+- **降权命中**：严格避开 5/20-5/19-5/18 已写主题（Gemini I/O / Codex Windows / OpenViking / 飞书 CLI / Karpathy HTML 等已严格去重）
+- **wiki 同步待办**：实体页 erdos / qwen / qwen-3-7-max / xai / grok / grok-build / musk / hkuds / vimax / cloudflare / mcp / claude-plugins / chrome-devtools-mcp 待新建；openai / alibaba / openrouter / anthropic / claude-code / google / chrome / meta 实体页追加 5/22 条目；主题 ai-for-science / ai-workforce 待新建，ai-research / ai-pricing / chinese-ai / agent-frameworks / ai-coding-tools / ai-video / creator-economy / developer-tools / enterprise-ai / ai-productivity 追加
+
 ## [2026-05-20] generate | 7 drafts, REACH>=8, single XHS-safe main version
 
 - **采集**：RSS/GitHub/arXiv 497 items；GitHub Trending 50 AI repos；OpenRouter 0 new；PyPI 部分 429；TrendRadar 正常；bird X 失败（Keychain exit 36），全 cookies 失效

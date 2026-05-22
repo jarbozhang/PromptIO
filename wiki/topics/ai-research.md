@@ -33,6 +33,7 @@ LLM / 强化学习 / 推理模型 / 多模态领域的论文拆解与方法论�
 | 2026-04-30 | [[chatgpt卸载量飙132-国产ai抢用户窗口期\|ChatGPT 卸载量同比涨 132%，国产 AI 抢用户的窗口期]] | 行业分析 / DAU 转移 |
 | 2026-04-30 | [[智谱z-ai公开glm-5大规模部署retro\|智谱 z.ai 公开 GLM-5 大规模部署 retro，coding agent serving 翻车的几个瞬间]] | 国产大规模部署 retro / SRE |
 | 2026-05-20 | [[simon-willison-过去6个月-llm-五分钟回顾\|Simon Willison 用 5 分钟把过去 6 个月 LLM 全捋了一遍 给中国读者画的时间轴]] | KOL 半年时间轴 / LLM 行业回顾 |
+| 2026-05-21 | [[openai-证否-erdős-80年-单位距离猜想-1000美元\|OpenAI 新模型证否 80 年 Erdős 单位距离猜想 算力成本不到 1000 美元]] | AI for Science / 数学证否 / 推理模型成本 |
 
 ## 相关实体
 

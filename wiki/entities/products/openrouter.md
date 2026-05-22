@@ -11,6 +11,7 @@
 
 ## 近期入驻事件
 
+- **2026-05-21** — 阿里 [[qwen-3-7-max|Qwen3.7 Max]] 上 OpenRouter，1M context + agent 优先 + $2.5/$7.5 per 1M tokens 价格白菜，国产万亿档新一代旗舰出海首发
 - **2026-05-14** — DeepSeek [[deepseek-v4|V4 Flash]] 在 OpenRouter 免费上线，256K context + 百万 token agent loop 实测，把国产前沿模型免费首发新底部继续往下打
 - **2026-05-08** — 蚂蚁 [[ling-2-6-1t|Ling-2.6-1T]] 旗舰付费版上线 $0.30/M、Google [[gemini-3-1-flash-lite|Gemini 3.1 Flash Lite]] $0.25/M 1M 多模态、Block [[goose|Goose]] 通过 OpenRouter 接 [[deepseek|DeepSeek]] 跑本地编程 agent（三件接连，价格断档新低）
 - **2026-04-28** — 给 7 个主流模型一口气加 Latest 别名（覆盖 OpenAI / Anthropic / Google / Moonshot 等），Agent 调用层从此自动跟随最新版本，省去手动改 model id
@@ -49,6 +50,7 @@
 | 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 在 OpenRouter 免费上线 256K + 百万 token 实测]] | 国产前沿模型免费首发 / 长 context |
 | 2026-05-16 | [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|Ring-2.6-1T 在 OpenRouter 上线 + 国产万亿 thinking model 节奏]] | 国产万亿 thinking model 入驻 / 几乎免费 |
 | 2026-05-16 | [[百度qianfan-ocr-fast-openrouter国产ocr多模态新选项\|Qianfan-OCR-Fast 在 OpenRouter 上线 + 国产 OCR 选项]] | 国产 OCR 多模态新选项 |
+| 2026-05-21 | [[阿里-qwen3-7-max-openrouter-100万上下文-白菜价\|阿里 Qwen3.7 Max 上 OpenRouter 100 万 token 上下文 Agent 优先 价格白菜]] | 国产万亿新旗舰 / 1M context / 白菜价 |
 
 ## 相关主题
 

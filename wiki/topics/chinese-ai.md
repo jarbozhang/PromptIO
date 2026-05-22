@@ -36,6 +36,8 @@
 | 2026-05-20 | [[openviking-字节火山-openclaw-agent-文件系统\|字节火山 OpenViking 给 AI agent 装了文件系统当大脑 专为 openclaw 优化]] | 9 |
 | 2026-05-20 | [[google-ai-studio-android-vibe-code\|Google AI Studio 一句话出 Android 原生 app（国产手机厂对照）]] | 9 |
 | 2026-05-20 | [[simon-willison-过去6个月-llm-五分钟回顾\|Simon Willison 5 分钟回顾 LLM 半年 给中国读者画的时间轴]] | 8 |
+| 2026-05-21 | [[阿里-qwen3-7-max-openrouter-100万上下文-白菜价\|阿里 Qwen3.7 Max 上 OpenRouter 100 万 token 上下文 Agent 优先 价格白菜]] | 9 |
+| 2026-05-21 | [[港大-vimax-视频agent-一键当导演\|港大 ViMax 一个 prompt 当导演 编剧分镜制作全自动 国产学界视频 agent]] | 8 |
 
 ## 关键子线
 

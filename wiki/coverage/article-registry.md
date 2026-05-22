@@ -3,6 +3,26 @@
 全部已生成文章索引，按日期倒序。
 
 
+## 2026-05-22（7 篇，voice 分布 first-person 4 / narrative 0 / analytical 3 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[openai-证否-erdős-80年-单位距离猜想-1000美元\|OpenAI 新模型证否 80 年 Erdős 单位距离猜想 算力成本不到 1000 美元]] | 9 | analytical | [[openai\|OpenAI]], [[erdos\|Erdős]] | [[ai-for-science\|AI for Science]] / [[ai-research\|AI 研究]] / [[ai-pricing\|AI 定价]] |
+| [[阿里-qwen3-7-max-openrouter-100万上下文-白菜价\|阿里 Qwen3.7 Max 上 OpenRouter 100 万 token 上下文 Agent 优先 价格白菜]] | 9 | first-person | [[alibaba\|阿里]], [[qwen-family\|Qwen]], [[qwen-3-7-max\|Qwen3.7 Max]], [[openrouter\|OpenRouter]] | [[chinese-ai\|国产 AI]] / [[ai-pricing\|AI 定价]] / [[agent-frameworks\|Agent 框架]] |
+| [[xai-grok-build-0-1-编程模型-比codex便宜5倍\|xAI 推 Grok Build 0.1 编程模型 25.6 万上下文 价格只有 Codex 的零头]] | 8 | analytical | [[xai\|xAI]], [[grok\|Grok]], [[grok-build\|Grok Build]], [[elon-musk\|Elon Musk]] | [[ai-coding-tools\|AI 编程工具]] / [[ai-pricing\|AI 定价]] |
+| [[港大-vimax-视频agent-一键当导演\|港大 ViMax 一个 prompt 当导演 编剧分镜制作全自动 国产学界视频 agent]] | 8 | first-person | [[vimax\|ViMax]], [[hkuds\|港大 HKUDS]] | [[ai-video\|AI 视频]] / [[creator-economy\|创作者经济]] / [[agent-frameworks\|Agent 框架]] / [[chinese-ai\|国产 AI]] |
+| [[anthropic-claude-plugins-official-目录上线-skill-市场\|Anthropic 官方 Claude Code Plugins 目录上线 半天 682 星 终于不用满 GitHub 找 skill]] | 8 | first-person | [[anthropic\|Anthropic]], [[claude-code\|Claude Code]], [[claude-plugins\|Claude Plugins]] | [[agent-frameworks\|Agent 框架]] / [[developer-tools\|开发者工具]] / [[ai-coding-tools\|AI 编程工具]] |
+| [[chrome-devtools-mcp-官方上线-claude-codex-接管浏览器\|Chrome DevTools MCP 官方版上线 Claude Codex 直接接管浏览器调试不用截图]] | 7 | first-person | [[google\|Google]], [[chrome\|Chrome]], [[mcp\|MCP]], [[claude-code\|Claude Code]] | [[developer-tools\|开发者工具]] / [[ai-coding-tools\|AI 编程工具]] / [[agent-frameworks\|Agent 框架]] |
+| [[cloudflare-ceo-怎么选员工被ai替换-meta-万人裁员\|Cloudflare CEO 公开说怎么选员工被 AI 替换 Meta 同期裁员万人补 AI 投入]] | 7 | analytical | [[cloudflare\|Cloudflare]], [[meta\|Meta]] | [[ai-workforce\|AI 劳动力替代]] / [[enterprise-ai\|企业 AI]] / [[ai-productivity\|AI 办公协同]] |
+
+**5/22 voice 分布**：first-person 4 / analytical 3 / retro 0。覆盖 5 条独立主线：AI for Science（Erdős 数学猜想）+ 国产模型出海（阿里 Qwen3.7 Max OpenRouter）+ AI 编程模型价格战（xAI Grok Build）+ 视频 agent（港大 ViMax）+ Anthropic skill 市场化 + 浏览器 MCP + AI 替代员工。
+
+**5/22 QA 结果**：7/7 全过；L1 替换 3 处；L6 小红书规则 7/7 pass，platforms.xhs 全部 primary。
+
+**5/22 采集备注**：RSS/GitHub/arXiv 517 items；GitHub Trending 56 AI repos；OpenRouter 2 new（Qwen3.7 Max + Grok Build 0.1）；PyPI 部分 429；TrendRadar 正常；bird X 失败（cookies 全失效）。
+
+注：pipeline.js 用 UTC 日期，本地 PDT 2026-05-21 对应 UTC 2026-05-22，sources/drafts 目录命名以 UTC 为准。
+
 ## 2026-05-20（7 篇，voice 分布 first-person 3 / narrative 0 / analytical 3 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

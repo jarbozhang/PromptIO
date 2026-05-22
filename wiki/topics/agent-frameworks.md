@@ -76,6 +76,10 @@ Harness / Skills / MCP / Multi-Agent 架构。
 | 2026-05-20 | [[gemini-spark-gmail-24-7-agent\|Gemini Spark 把 24/7 agent 直接塞进 Gmail 国内邮箱助理们要尴尬了]] | 9 |
 | 2026-05-20 | [[openviking-字节火山-openclaw-agent-文件系统\|字节火山 OpenViking 给 AI agent 装了文件系统当大脑 专为 openclaw 优化]] | 9 |
 | 2026-05-20 | [[nousresearch-hermes-agent-15万星-跨host\|NousResearch hermes-agent 15.8 万星 跨 Claude Code / Codex / openclaw]] | 8 |
+| 2026-05-21 | [[阿里-qwen3-7-max-openrouter-100万上下文-白菜价\|阿里 Qwen3.7 Max 上 OpenRouter 100 万 token 上下文 Agent 优先 价格白菜]] | agent 优先模型 / 1M context |
+| 2026-05-21 | [[港大-vimax-视频agent-一键当导演\|港大 ViMax 一个 prompt 当导演 编剧分镜制作全自动 国产学界视频 agent]] | 多 agent 视频生成 / 国产学界 |
+| 2026-05-21 | [[anthropic-claude-plugins-official-目录上线-skill-市场\|Anthropic 官方 Claude Code Plugins 目录上线 半天 682 星 终于不用满 GitHub 找 skill]] | 官方 Plugins 目录 / Skills 市场化 |
+| 2026-05-21 | [[chrome-devtools-mcp-官方上线-claude-codex-接管浏览器\|Chrome DevTools MCP 官方版上线 Claude Codex 直接接管浏览器调试不用截图]] | 官方 MCP / agent 接管浏览器 |
 
 ## 饱和度评估
 

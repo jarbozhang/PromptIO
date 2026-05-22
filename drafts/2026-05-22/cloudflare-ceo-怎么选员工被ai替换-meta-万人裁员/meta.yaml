@@ -1,0 +1,31 @@
+title: "Cloudflare CEO 公开说怎么选员工被 AI 替换 Meta 同期裁员万人补 AI 投入"
+status: draft
+date: 2026-05-22
+reach: 7
+sources:
+  - hacker-news-algolia-ai-filter-301a27ad
+  - the-verge-ai-d656b8ca
+tags:
+  - cloudflare
+  - meta
+  - ai-workforce
+  - enterprise-ai
+qa:
+  status: passed
+  rounds: 1
+  l1_qa_violations: 0
+  l2_score: 8
+  l3_score: 8
+  l4_pass: true
+  l5_score: 7
+  l6_pass: true
+  l6_issues: []
+  xhs_pass: true
+  l1_replacements: 0
+  issues: []
+  error: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: primary
+xhs_blocked_reason: ''

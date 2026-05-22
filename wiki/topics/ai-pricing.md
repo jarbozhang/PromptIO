@@ -58,6 +58,9 @@
 | 2026-05-16 | [[蚂蚁ring-2-6-1t-openrouter国产万亿-thinking-model白嫖\|Ring-2.6-1T 几乎免费 $0.075/M 万亿模型新底价]] | 9 |
 | 2026-05-17 | [[codegraph给claude-code先建代码图-少烧token少查文件|CodeGraph 少工具调用少 token]] | 8 |
 | 2026-05-17 | [[openai两个月免费codex-抢团队默认ide|Codex 企业两个月免费试用]] | 9 |
+| 2026-05-21 | [[阿里-qwen3-7-max-openrouter-100万上下文-白菜价\|阿里 Qwen3.7 Max 上 OpenRouter 100 万 token 上下文 Agent 优先 价格白菜]] | 国产万亿新档位 / 1M context / 白菜价 |
+| 2026-05-21 | [[xai-grok-build-0-1-编程模型-比codex便宜5倍\|xAI 推 Grok Build 0.1 编程模型 25.6 万上下文 价格只有 Codex 的零头]] | 编程模型价格新底部 / Codex 1/5 |
+| 2026-05-21 | [[openai-证否-erdős-80年-单位距离猜想-1000美元\|OpenAI 新模型证否 80 年 Erdős 单位距离猜想 算力成本不到 1000 美元]] | 推理模型成本 / 1000 美元解 80 年猜想 |
 
 ## 饱和度评估
 

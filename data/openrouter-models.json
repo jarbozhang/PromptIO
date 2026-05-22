@@ -1,5 +1,13 @@
 {
   "models": {
+    "qwen/qwen3.7-max": {
+      "name": "Qwen: Qwen3.7 Max",
+      "context_length": 1000000
+    },
+    "x-ai/grok-build-0.1": {
+      "name": "xAI: Grok Build 0.1",
+      "context_length": 256000
+    },
     "google/gemini-3.5-flash": {
       "name": "Google: Gemini 3.5 Flash",
       "context_length": 1048576
@@ -174,7 +182,7 @@
     },
     "z-ai/glm-5.1": {
       "name": "Z.ai: GLM 5.1",
-      "context_length": 202800
+      "context_length": 202752
     },
     "google/gemma-4-26b-a4b-it:free": {
       "name": "Google: Gemma 4 26B A4B  (free)",
@@ -383,10 +391,6 @@
     "stepfun/step-3.5-flash": {
       "name": "StepFun: Step 3.5 Flash",
       "context_length": 262144
-    },
-    "arcee-ai/trinity-large-preview": {
-      "name": "Arcee AI: Trinity Large Preview",
-      "context_length": 131000
     },
     "moonshotai/kimi-k2.5": {
       "name": "MoonshotAI: Kimi K2.5",
@@ -1429,5 +1433,5 @@
       "context_length": 8191
     }
   },
-  "updated_at": "2026-05-20T14:49:25.801Z"
+  "updated_at": "2026-05-22T00:28:39.974Z"
 }

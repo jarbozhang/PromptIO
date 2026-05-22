@@ -14,6 +14,7 @@ Chrome 在中文 AI 读者眼中正在从"浏览器"变成"AI 搭子容器"：
 - **2026-04-16** — Chrome AI Skills（首次覆盖）
 - **2026-04-20** — Chrome 上帝模式
 - **2026-04-23** — Chrome AI Mode 集成，Perplexity 危机加剧
+- **2026-05-21** — Chrome DevTools [[mcp|MCP]] 官方上线，Claude / Codex 可以直接接管浏览器调试不用截图
 
 ## 我们的覆盖
 
@@ -23,6 +24,7 @@ Chrome 在中文 AI 读者眼中正在从"浏览器"变成"AI 搭子容器"：
 | 2026-04-23 | [[google-ai-mode进chrome-浏览器变ai搭子-perplexity要慌了\|Google 把 AI Mode 塞进 Chrome 了，Perplexity 这次真的该慌]] | AI 搜索竞争格局 |
 | 2026-04-20 | Chrome 解锁"上帝模式"，Gemini+技能商店+垂直标签 | 上帝模式 |
 | 2026-04-16 | [[chrome现在能把你的ai提示词变成一键按钮了\|Chrome 现在能把 AI 提示词变成一键按钮]] | Skills 商店 |
+| 2026-05-21 | [[chrome-devtools-mcp-官方上线-claude-codex-接管浏览器\|Chrome DevTools MCP 官方版上线 Claude Codex 直接接管浏览器调试不用截图]] | DevTools MCP / agent 接管浏览器 |
 
 ## 相关主题
 

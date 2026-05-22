@@ -14,6 +14,7 @@
 
 ## 近期动态
 
+- **Qwen3.7 Max 上 OpenRouter，1M context + agent 优先 + 白菜价** (2026-05-21) — 阿里 [[qwen-3-7-max|Qwen3.7 Max]] 直接走出海首发，100 万 token 上下文 + $2.5/$7.5 per 1M tokens，定位 agent 工作流，国产万亿档进入"长 context + agent + 低价"新阶段
 - **Qwen3.6 全家桶 5 个模型上 OpenRouter** (2026-04-27) — 27B Dense / Coder / Vision / Video / 1T Max Preview 一次性铺出海，国产模型从单点出海升级到全档位出海，OpenRouter 国产模型生态进一步压实
 - **Qwen3.6-27B 编程模型发布** (2026-04-24) — 27B Dense 参数量做出旗舰级编程能力，本地显卡党有福，对标 DeepSeek 等国产 MoE 路线
 - **Qwen3.6-35B 本地图片生成测试** (2026-04-18) — Simon Willison 笔记本实测超 Claude Opus 4.7
@@ -28,6 +29,7 @@
 | 2026-04-21 | [[钉钉禁员工写文档做会议纪要-全靠ai整理\|钉钉 CEO 禁员工写文档全靠 AI 整理]] | 8 |
 | 2026-04-21 | [[self-llm国产教程-零门槛微调deepseek-qwen\|self-llm 3 万星 50 模型全中文教程（含 Qwen）]] | 8 |
 | 2026-04-18 | Qwen3.6-35B 在笔记本上画的图比 Claude Opus 4.7 好——Simon Willison 亲测 | 7 |
+| 2026-05-21 | [[阿里-qwen3-7-max-openrouter-100万上下文-白菜价\|阿里 Qwen3.7 Max 上 OpenRouter 100 万 token 上下文 Agent 优先 价格白菜]] | 9 |
 
 ## 相关主题
 

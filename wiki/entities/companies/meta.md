@@ -10,6 +10,7 @@ Muse Spark / Llama 系列的开发商。同时是 AI 训练数据收集领域的
 
 ## 近期动态
 
+- **同期裁员万人补 AI 投入** (2026-05-21) — Meta 同期宣布大规模裁员，与 [[cloudflare|Cloudflare]] CEO 公开 AI 替员工 SOP 形成对照，行业进入"AI 替员工"具体化阶段
 - **ai4animationpy 开源** (2026-04-28) — Meta 把神经网络驱动的角色动画做成 Python 框架，AI 动画 / AI 游戏 / 虚拟人生产可直接接入，首次进入 Meta 在创作者侧的开源序列
 - **采集员工鼠标与键盘行为训练 AI** (2026-04-22) — Meta 开始记录员工在工作设备上的键鼠交互，用于生成下一代 AI 训练语料，引发 [[ai-training-data|AI 训练数据]]与员工隐私边界讨论
 - **Muse Spark 发布** (2026-04-08) — App Store 排名从 #57 到 #5，但 [[chollet|Chollet]] 批评 benchmark 注水
@@ -25,6 +26,7 @@ Muse Spark / Llama 系列的开发商。同时是 AI 训练数据收集领域的
 | 2026-04-22 | [[meta录员工鼠标键盘-ai训练数据下一块肉\|Meta 开始录员工的鼠标和键盘了，AI 训练数据的下一块肉是你的每一次点击]] | 9 |
 | 2026-04-13 | [[meta-muse-spark首秀-app-store冲到第5但chollet说benchmark注水了\|Meta Muse Spark首秀，Chollet说benchmark注水]] | 7 |
 | 2026-04-09 | [[meta新模型上线第一天被arc测试之父拆台\|Meta新模型上线第一天被ARC测试之父拆台]] | 7 |
+| 2026-05-21 | [[cloudflare-ceo-怎么选员工被ai替换-meta-万人裁员\|Cloudflare CEO 公开说怎么选员工被 AI 替换 Meta 同期裁员万人补 AI 投入]] | 7 |
 
 ## 相关主题
 

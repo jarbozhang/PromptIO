@@ -1,39 +1,39 @@
 {
   "packages": {
     "transformers": {
-      "last_day": 5330282,
-      "last_week": 31845036,
-      "last_month": 147583936
+      "last_day": 5293692,
+      "last_week": 31868723,
+      "last_month": 147857586
     },
     "langchain": {
-      "last_day": 9022728,
-      "last_week": 58766161,
-      "last_month": 242265769
+      "last_day": 11985963,
+      "last_week": 62108901,
+      "last_month": 247943932
     },
     "openai": {
-      "last_day": 11552271,
-      "last_week": 71689393,
-      "last_month": 298562218
+      "last_day": 12276552,
+      "last_week": 73061137,
+      "last_month": 307130963
     },
     "anthropic": {
-      "last_day": 5148612,
-      "last_week": 30254109,
-      "last_month": 124581928
+      "last_day": 5102315,
+      "last_week": 30649906,
+      "last_month": 125898580
     },
     "vllm": {
-      "last_day": 277625,
-      "last_week": 1512104,
-      "last_month": 6145889
+      "last_day": 207005,
+      "last_week": 1501173,
+      "last_month": 6118574
     },
     "llama-cpp-python": {
-      "last_day": 20675,
-      "last_week": 136066,
-      "last_month": 605331
+      "last_day": 19823,
+      "last_week": 136051,
+      "last_month": 603601
     },
     "ollama": {
-      "last_day": 460973,
-      "last_week": 3101604,
-      "last_month": 12161601
+      "last_day": 529573,
+      "last_week": 3211618,
+      "last_month": 12495358
     },
     "crewai": {
       "last_day": 528134,
@@ -51,5 +51,5 @@
       "last_month": 1557499
     }
   },
-  "updated_at": "2026-05-20T14:49:26.869Z"
+  "updated_at": "2026-05-22T00:28:40.833Z"
 }

@@ -1,7 +1,45 @@
 # 主题饱和度分析
 
-基于 331 篇文章（2026-04-08 至 2026-05-20）的主题分布。**5/20 单批 7 篇后总计 331 篇。**
+基于 338 篇文章（2026-04-08 至 2026-05-22）的主题分布。**5/22 单批 7 篇后总计 338 篇。**
 
+
+## 5/22 7 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| OpenAI 证否 Erdős 80 年单位距离猜想 1000 美元 | 9 | analytical | ai-for-science/AI for Science / ai-research/AI 研究 / ai-pricing/AI 定价 |
+| 阿里 Qwen3.7 Max OpenRouter 100 万上下文 价格白菜 | 9 | first-person | chinese-ai/国产 AI / ai-pricing/AI 定价 / agent-frameworks/Agent 框架 |
+| xAI Grok Build 0.1 编程模型 比 Codex 便宜 5 倍 | 8 | analytical | ai-coding-tools/AI 编程工具 / ai-pricing/AI 定价 |
+| 港大 ViMax 一个 prompt 当导演 编剧分镜制作全自动 | 8 | first-person | ai-video/AI 视频 / creator-economy/创作者经济 / agent-frameworks/Agent 框架 / chinese-ai/国产 AI |
+| Anthropic 官方 Claude Code Plugins 目录上线 | 8 | first-person | agent-frameworks/Agent 框架 / developer-tools/开发者工具 / ai-coding-tools/AI 编程工具 |
+| Chrome DevTools MCP 官方版上线 Claude Codex 接管浏览器 | 7 | first-person | developer-tools/开发者工具 / ai-coding-tools/AI 编程工具 / agent-frameworks/Agent 框架 |
+| Cloudflare CEO 怎么选员工被 AI 替换 Meta 万人裁员 | 7 | analytical | ai-workforce/AI 劳动力替代 / enterprise-ai/企业 AI / ai-productivity/AI 办公协同 |
+
+**5/22 主题计数变化（人工估算）**：
+
+- **AI for Science**：新增/复活 1（Erdős 数学猜想被 AI 证否，开拓"AI 做科研"新垂类）
+- **AI 劳动力替代**：新增 1（Cloudflare CEO + Meta 万人裁员，从"AI 替代论"具体到"分类法 + SOP"）
+- **国产 AI**：44 → **46**（+阿里 Qwen3.7 Max OpenRouter 出海 / 港大 ViMax 国产学界）
+- **AI 定价**：46 → **49**（+Qwen3.7 Max 白菜价 / Grok Build 便宜 5 倍 / Erdős 1000 美元算力）
+- **Agent 框架**：66 → **70**（+Qwen3.7 Max agent / ViMax 多 agent / Claude Plugins / Chrome DevTools MCP，均按 plugin 化或基础设施例外纳入）
+- **AI 编程工具**：74 → **77**（+Grok Build / Claude Plugins / Chrome DevTools MCP，重大品牌基础设施）
+- **AI 视频**：5 → **6**（+ViMax 多 agent 视频路线）
+- **创作者经济**：8 → **9**（+ViMax 短视频 agent）
+- **开发者工具**：→ **+2**（Claude Plugins / Chrome DevTools MCP）
+- **企业 AI**：→ **+1**（Cloudflare/Meta 裁员替代）
+- **AI 办公协同**：6 → **7**（+Cloudflare/Meta AI 替代角度）
+- **AI 研究**：→ **+1**（Erdős 数学证否）
+
+**新空间打开**：
+
+- **AI for Science 拐点**：OpenAI 用 <$1000 算力推翻 80 年数学猜想，从"AI 写代码"推进到"AI 做研究"
+- **国产模型 OpenRouter 出海**：阿里 Qwen3.7 Max 第一时间上 OpenRouter，国产模型直接进入全球路由
+- **多 agent 视频路线**：港大 ViMax 把"导演+编剧+制片"做成 agent 团队，对标单模型视频生成的另一条路
+- **Skill 市场化**：Anthropic 官方 Plugins 目录是 Claude Code 的 App Store v0
+- **浏览器 AI 联调**：Chrome 官方 MCP 把前端 AI 调试从"截图来回"推到"AI 闭环"
+- **AI 替代分类法**：Cloudflare CEO 给出 reducers/sellers/builders 三分类 SOP，AI 替代讨论具体化
+
+**警告/降权说明**：AI 编程工具（77）、Agent 框架（70）、AI 定价（49）持续严重高饱和，下一轮继续严格去重，只纳入重大品牌基础设施变化（如 Anthropic/OpenAI 重大并购、Google/Microsoft 新一代产品线）、真实工作流数据、低饱和垂类（AI for Science / AI 劳动力 / AI 教育 / 工业设计 / AI 游戏）和明确成本/安全/远程开发变化。
 
 ## 5/20 7 篇主题分布
 

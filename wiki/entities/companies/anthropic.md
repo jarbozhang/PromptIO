@@ -13,6 +13,7 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 
 ## 近期动态
 
+- **官方 Claude Plugins 目录上线** (2026-05-21) — anthropics/claude-plugins 仓库官方上线，半天 682 star，把散落在 GitHub 的 Claude Code Skills / Plugins / Hooks 收归官方目录，开发者不用再满 GitHub 找 skill
 - **收购 Stainless + Boris Cherny 工作流访谈** (2026-05-19 入题) — 一条补 SDK/MCP 连接基础设施，一条展示 Claude Code 从个人工具走向组织流程
 - **Claude Code 变笨 retro + Opus 4.7 system prompt 拆解** (2026-04-24) — 用户社区骂 Claude Code 变笨，Anthropic 发了篇 retro 交代质量下滑成因，[[simon-willison|Simon Willison]] 同时把 Opus 4.7 的 system prompt 扒了出来对比
 - **Mythos 一周四连炸** (2026-04-22) — Mythos 48 小时内经历 NSA 报告引用 → Pentagon 泄露声称 → Sam Altman 公开嘲讽 fear-based marketing → 黑客利用四个剧情转折，从"神坛"滚到"阴沟"
@@ -84,6 +85,7 @@ Claude / Claude Code / Glasswing 的开发商。我们管线本身就跑在 Clau
 | 2026-05-16 | [[clawdmeter-claude-code用量桌面小挂件-openclaw生态新成员\|Clawdmeter 把 Claude Code 用量做成桌面 dashboard openclaw 生态新工具]] | 9 |
 | 2026-05-16 | [[anthropic官方claude-code大代码库使用手册-237hn票最佳实践\|Anthropic 官方 Claude Code 大代码库使用手册]] | 8 |
 | 2026-05-16 | [[anthropic-skills官方仓库-923颗星-skills四派归一\|anthropic/skills GitHub 一天 +923 stars Skills 四派归一]] | 8 |
+| 2026-05-21 | [[anthropic-claude-plugins-official-目录上线-skill-市场\|Anthropic 官方 Claude Code Plugins 目录上线 半天 682 星 终于不用满 GitHub 找 skill]] | 8 |
 
 ## 注意
 

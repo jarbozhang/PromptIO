@@ -13,6 +13,7 @@
 | 日期 | 文章 | REACH | 主要实体 |
 |------|------|-------|---------|
 | 2026-05-20 | [[openai-codex-windows-sandbox-dell-on-prem\|OpenAI 给 Codex 上了 Windows sandbox 和 Dell on-prem 企业内网 AI 编程的门终于开了]] | 8 | [[openai|OpenAI]] / [[codex|Codex]] / [[dell|Dell]] |
+| 2026-05-21 | [[cloudflare-ceo-怎么选员工被ai替换-meta-万人裁员\|Cloudflare CEO 公开说怎么选员工被 AI 替换 Meta 同期裁员万人补 AI 投入]] | 7 | [[cloudflare|Cloudflare]] / [[meta|Meta]] |
 
 ## 饱和度
 

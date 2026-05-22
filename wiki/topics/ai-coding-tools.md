@@ -92,6 +92,9 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 | 2026-05-20 | [[google-io-2026-gemini-3-5-flash-八连发\|Google I/O 2026 八连发 Gemini 3.5 Flash 转 agents]] | 10 |
 | 2026-05-20 | [[google-ai-studio-android-vibe-code\|Google AI Studio 一句话出 Android 原生 app vibe code 打进手机厂]] | 9 |
 | 2026-05-20 | [[openai-codex-windows-sandbox-dell-on-prem\|OpenAI Codex 上 Windows sandbox + Dell on-prem 企业内网]] | 8 |
+| 2026-05-21 | [[xai-grok-build-0-1-编程模型-比codex便宜5倍\|xAI 推 Grok Build 0.1 编程模型 25.6 万上下文 价格只有 Codex 的零头]] | 编程模型新底部 / 多 backend 选项 |
+| 2026-05-21 | [[anthropic-claude-plugins-official-目录上线-skill-市场\|Anthropic 官方 Claude Code Plugins 目录上线 半天 682 星 终于不用满 GitHub 找 skill]] | 官方 Plugins 目录 / Skills 市场化 |
+| 2026-05-21 | [[chrome-devtools-mcp-官方上线-claude-codex-接管浏览器\|Chrome DevTools MCP 官方版上线 Claude Codex 直接接管浏览器调试不用截图]] | DevTools MCP / 浏览器调试 |
 
 ## 饱和度评估
 

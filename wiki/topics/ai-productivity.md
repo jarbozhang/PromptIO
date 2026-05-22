@@ -19,6 +19,7 @@
 | 2026-05-17 | [[乔木notebooklm-skill-把公众号和pdf变播客课件|NotebookLM Skill 把旧内容再生产为播客课件]] | 9 |
 | 2026-05-17 | [[leann本地rag省97存储-个人知识库不用先买硬盘|LEANN 本地 RAG 省 97% 存储]] | 8 |
 | 2026-05-20 | [[gemini-spark-gmail-24-7-agent\|Gemini Spark 把 24/7 agent 直接塞进 Gmail 国内邮箱助理们要尴尬了]] | 9 |
+| 2026-05-21 | [[cloudflare-ceo-怎么选员工被ai替换-meta-万人裁员\|Cloudflare CEO 公开说怎么选员工被 AI 替换 Meta 同期裁员万人补 AI 投入]] | 7 |
 
 ## 关联实体 / 主题
 
