@@ -4,6 +4,7 @@ import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { parseArgs, slugify, normalizeMarkdown, extractJson } from '../scripts/single.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -80,5 +81,48 @@ describe('single.js CLI', () => {
     } finally {
       cleanup(tmpPath);
     }
+  });
+
+  it('parseArgs: supports platform draft options', () => {
+    const opts = parseArgs([
+      'article.md',
+      '--angle', '实操分析',
+      '--title', '指定标题',
+      '--voice', 'narrative',
+      '--date', '2026-05-25',
+      '--text-model', 'claude-test',
+      '--cover-model', 'gpt-image-2',
+      '--no-cover',
+      '--require-cover',
+      '--overwrite',
+    ]);
+
+    assert.equal(opts.contentFile, 'article.md');
+    assert.equal(opts.angle, '实操分析');
+    assert.equal(opts.title, '指定标题');
+    assert.equal(opts.voice, 'narrative');
+    assert.equal(opts.date, '2026-05-25');
+    assert.equal(opts.textModel, 'claude-test');
+    assert.equal(opts.coverModel, 'gpt-image-2');
+    assert.equal(opts.noCover, true);
+    assert.equal(opts.requireCover, true);
+    assert.equal(opts.overwrite, true);
+  });
+
+  it('slugify: keeps Chinese characters and English brands in kebab-case', () => {
+    assert.equal(
+      slugify('OpenAI 给 Codex 上了 Windows sandbox，国内 IDE 怎么跟？'),
+      'openai-给-codex-上了-windows-sandbox-国内-ide-怎么跟'
+    );
+  });
+
+  it('normalizeMarkdown: removes frontmatter and keeps an H1', () => {
+    const md = normalizeMarkdown('---\ntitle: old\n---\n正文第一段', '新标题');
+    assert.equal(md, '# 新标题\n\n正文第一段\n');
+  });
+
+  it('extractJson: extracts JSON from a markdown code fence', () => {
+    const parsed = extractJson('```json\n{"title":"测试","reach":8}\n```');
+    assert.deepEqual(parsed, { title: '测试', reach: 8 });
   });
 });

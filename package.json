@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "pipeline": "node scripts/pipeline.js",
+    "single": "node scripts/single.js",
+    "draft:article": "node scripts/single.js",
     "publish": "node scripts/publish.js",
     "setup": "node scripts/setup.js",
     "fetch:trending": "node scripts/fetch-github-trending.js",
