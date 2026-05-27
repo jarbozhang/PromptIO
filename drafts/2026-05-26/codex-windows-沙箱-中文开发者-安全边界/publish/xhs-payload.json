@@ -1,0 +1,15 @@
+{
+  "title": "Codex Windows 沙箱，重点不是跑分",
+  "body": "OpenAI 5 月 13 日讲了 Codex Windows 沙箱的工程细节。这个话题不花哨，但对用 Windows 做开发的人很关键。\n\nCodex 这类 coding agent 不只是生成代码。它会在你的电脑上跑命令，读文件，改工作区，跑测试，调用 Git、Python、包管理器和构建工具。只要它按真实用户权限运行，能力就很大，风险也会跟着放大。\n\nOpenAI 文章里说，Windows 版以前没有沙箱时，用户只能在两种体验里选。要么几乎每条命令都批准，连读取都要确认。要么开 `Full Access mode`，让 Codex 不受限制地执行命令。前者打断效率，后者把监督放松得太多。\n\n这次 Windows 沙箱的意义，是把边界交给操作系统执行。OpenAI 先试过不提权方案，用 SID、ACL 和 write-restricted token 限制文件写入。文件边界能做得比较细，但网络只能靠环境变量和 PATH 拦截常见工具流量，进程仍可能绕过。\n\n所以当前方案改成 setup 阶段需要管理员权限，并创建 `CodexSandboxOffline` 和 `CodexSandboxOnline` 两个本地用户。离线用户被 Windows Firewall 限制出站网络，命令再通过 restricted token 和专门的 command runner 执行。结构更重，但边界更真实。\n\n给开发者的行动建议很简单。别把 `Full Access mode` 当默认。开始用本地 coding agent 前，先确认三件事，它能写哪些目录，哪些目录只读，它什么时候能联网。\n\n这篇不是访问教程，也不是亲测报告。本文为 AI 辅助整理，关键事实已按 OpenAI 公开文章核对。我的判断是，agent 越能替你操作电脑，沙箱越应该成为选型时的基础项。",
+  "tags": [
+    "#OpenAI",
+    "#Codex",
+    "#Windows",
+    "#沙箱",
+    "#AI编程"
+  ],
+  "combined": "OpenAI 5 月 13 日讲了 Codex Windows 沙箱的工程细节。这个话题不花哨，但对用 Windows 做开发的人很关键。\n\nCodex 这类 coding agent 不只是生成代码。它会在你的电脑上跑命令，读文件，改工作区，跑测试，调用 Git、Python、包管理器和构建工具。只要它按真实用户权限运行，能力就很大，风险也会跟着放大。\n\nOpenAI 文章里说，Windows 版以前没有沙箱时，用户只能在两种体验里选。要么几乎每条命令都批准，连读取都要确认。要么开 `Full Access mode`，让 Codex 不受限制地执行命令。前者打断效率，后者把监督放松得太多。\n\n这次 Windows 沙箱的意义，是把边界交给操作系统执行。OpenAI 先试过不提权方案，用 SID、ACL 和 write-restricted token 限制文件写入。文件边界能做得比较细，但网络只能靠环境变量和 PATH 拦截常见工具流量，进程仍可能绕过。\n\n所以当前方案改成 setup 阶段需要管理员权限，并创建 `CodexSandboxOffline` 和 `CodexSandboxOnline` 两个本地用户。离线用户被 Windows Firewall 限制出站网络，命令再通过 restricted token 和专门的 command runner 执行。结构更重，但边界更真实。\n\n给开发者的行动建议很简单。别把 `Full Access mode` 当默认。开始用本地 coding agent 前，先确认三件事，它能写哪些目录，哪些目录只读，它什么时候能联网。\n\n这篇不是访问教程，也不是亲测报告。本文为 AI 辅助整理，关键事实已按 OpenAI 公开文章核对。我的判断是，agent 越能替你操作电脑，沙箱越应该成为选型时的基础项。\n#OpenAI #Codex #Windows #沙箱 #AI编程",
+  "warnings": [
+    "title_over_20_chars"
+  ]
+}

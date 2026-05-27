@@ -1,6 +1,7 @@
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
-import { execFileSync } from 'node:child_process';
+import { execFileSync, spawn } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import yaml from 'js-yaml';
 import matter from 'gray-matter';
@@ -23,7 +24,10 @@ export function usage() {
     'Options:',
     '  --voice <first-person|narrative|analytical|retro>',
     '  --date <YYYY-MM-DD>',
+    '  --llm-provider <anthropic|codex>',
     '  --text-model <model>',
+    '  --codex-bin <path>          Default: CODEX_BIN or codex',
+    '  --codex-profile <profile>   Optional Codex CLI profile',
     '  --cover-model <model>        Default: OPENAI_IMAGE_MODEL or gpt-image-2',
     '  --no-cover                   Only generate drafts, skip cover image',
     '  --require-cover              Exit non-zero if cover image generation fails',
@@ -38,7 +42,10 @@ export function parseArgs(argv) {
     title: '',
     voice: '',
     date: TODAY,
-    textModel: process.env.LLM_MODEL || 'claude-sonnet-4-20250514',
+    llmProvider: process.env.LLM_PROVIDER || 'anthropic',
+    textModel: '',
+    codexBin: process.env.CODEX_BIN || 'codex',
+    codexProfile: process.env.CODEX_PROFILE || '',
     coverModel: process.env.OPENAI_IMAGE_MODEL || 'gpt-image-2',
     noCover: false,
     requireCover: false,
@@ -67,8 +74,17 @@ export function parseArgs(argv) {
       case '--date':
         opts.date = requireValue(args, arg);
         break;
+      case '--llm-provider':
+        opts.llmProvider = requireValue(args, arg);
+        break;
       case '--text-model':
         opts.textModel = requireValue(args, arg);
+        break;
+      case '--codex-bin':
+        opts.codexBin = requireValue(args, arg);
+        break;
+      case '--codex-profile':
+        opts.codexProfile = requireValue(args, arg);
         break;
       case '--cover-model':
         opts.coverModel = requireValue(args, arg);
@@ -94,6 +110,16 @@ export function parseArgs(argv) {
   }
   if (opts.voice && !['first-person', 'narrative', 'analytical', 'retro'].includes(opts.voice)) {
     throw new Error('--voice must be first-person, narrative, analytical, or retro');
+  }
+  opts.llmProvider = String(opts.llmProvider || '').toLowerCase();
+  if (!['anthropic', 'codex'].includes(opts.llmProvider)) {
+    throw new Error('--llm-provider must be anthropic or codex');
+  }
+  if (!opts.textModel && opts.llmProvider === 'codex') {
+    opts.textModel = process.env.CODEX_MODEL || '';
+  }
+  if (!opts.textModel && opts.llmProvider === 'anthropic') {
+    opts.textModel = process.env.LLM_MODEL || 'claude-sonnet-4-20250514';
   }
 
   return opts;
@@ -271,6 +297,112 @@ async function callAnthropic(prompt, model) {
   return text;
 }
 
+export async function callTextLLM(prompt, opts) {
+  switch (opts.llmProvider) {
+    case 'anthropic':
+      return callAnthropic(prompt, opts.textModel);
+    case 'codex':
+      return callCodex(prompt, opts);
+    default:
+      throw new Error(`unsupported LLM provider: ${opts.llmProvider}`);
+  }
+}
+
+async function callCodex(prompt, opts) {
+  if (!commandExists(opts.codexBin)) {
+    throw new Error(`Codex CLI not found: ${opts.codexBin}`);
+  }
+
+  const outputPath = path.join(
+    os.tmpdir(),
+    `promptio-codex-${process.pid}-${Date.now()}-${Math.random().toString(16).slice(2)}.txt`
+  );
+  const args = buildCodexExecArgs(opts, outputPath);
+
+  try {
+    const result = await execFileWithInput(opts.codexBin, args, prompt, {
+      cwd: ROOT,
+      timeoutMs: Number(process.env.CODEX_TIMEOUT_MS || process.env.LLM_TIMEOUT_MS || 300000),
+    });
+
+    const text = fs.existsSync(outputPath)
+      ? fs.readFileSync(outputPath, 'utf8').trim()
+      : result.stdout.trim();
+
+    if (!text) {
+      const detail = result.stderr.trim() || result.stdout.trim();
+      throw new Error(`Codex CLI returned empty text${detail ? `: ${detail.slice(0, 500)}` : ''}`);
+    }
+    return text;
+  } finally {
+    fs.rmSync(outputPath, { force: true });
+  }
+}
+
+export function buildCodexExecArgs(opts, outputPath) {
+  const args = [
+    'exec',
+    '--ephemeral',
+    '--sandbox', 'read-only',
+    '--color', 'never',
+    '-C', ROOT,
+    '-o', outputPath,
+  ];
+
+  if (opts.textModel) args.push('--model', opts.textModel);
+  if (opts.codexProfile) args.push('--profile', opts.codexProfile);
+
+  args.push('-');
+  return args;
+}
+
+function execFileWithInput(command, args, input, { cwd, timeoutMs }) {
+  return new Promise((resolve, reject) => {
+    const child = spawn(command, args, {
+      cwd,
+      stdio: ['pipe', 'pipe', 'pipe'],
+      env: process.env,
+    });
+    let stdout = '';
+    let stderr = '';
+    let settled = false;
+
+    const timeout = setTimeout(() => {
+      if (settled) return;
+      child.kill('SIGTERM');
+      settled = true;
+      reject(new Error(`${command} timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+
+    child.stdout.setEncoding('utf8');
+    child.stderr.setEncoding('utf8');
+    child.stdout.on('data', chunk => {
+      stdout += chunk;
+    });
+    child.stderr.on('data', chunk => {
+      stderr += chunk;
+    });
+    child.on('error', err => {
+      if (settled) return;
+      clearTimeout(timeout);
+      settled = true;
+      reject(err);
+    });
+    child.on('close', code => {
+      if (settled) return;
+      clearTimeout(timeout);
+      settled = true;
+      if (code === 0) {
+        resolve({ stdout, stderr });
+        return;
+      }
+      reject(new Error(`${command} failed with exit code ${code}: ${(stderr || stdout).slice(0, 1000)}`));
+    });
+
+    child.stdin.end(input);
+  });
+}
+
 function buildMeta({ opts, article, generated, slug, cover }) {
   const title = generated.title || headingFrom(generated.wechat) || opts.title || article.frontmatter.title || slug;
   return {
@@ -285,6 +417,10 @@ function buildMeta({ opts, article, generated, slug, cover }) {
     voice: opts.voice || '',
     reach: Number(generated.reach || 0) || null,
     tags: Array.isArray(generated.tags) ? generated.tags : [],
+    llm: {
+      provider: opts.llmProvider,
+      model: opts.textModel || '',
+    },
     platforms: {
       wechat: 'primary',
       xhs: 'primary',
@@ -489,7 +625,7 @@ function commandExists(cmd) {
 export async function run(opts) {
   const article = readArticle(path.resolve(opts.contentFile));
   const prompt = buildGenerationPrompt({ article, ...opts });
-  const raw = await callAnthropic(prompt, opts.textModel);
+  const raw = await callTextLLM(prompt, opts);
   const generated = extractJson(raw);
 
   const title = generated.title || headingFrom(generated.wechat) || opts.title || article.frontmatter.title || 'manual article';

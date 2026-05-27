@@ -4,7 +4,7 @@ import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { parseArgs, slugify, normalizeMarkdown, extractJson } from '../scripts/single.js';
+import { parseArgs, slugify, normalizeMarkdown, extractJson, buildCodexExecArgs } from '../scripts/single.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -90,7 +90,10 @@ describe('single.js CLI', () => {
       '--title', '指定标题',
       '--voice', 'narrative',
       '--date', '2026-05-25',
+      '--llm-provider', 'codex',
       '--text-model', 'claude-test',
+      '--codex-bin', 'codex-test',
+      '--codex-profile', 'local',
       '--cover-model', 'gpt-image-2',
       '--no-cover',
       '--require-cover',
@@ -102,7 +105,10 @@ describe('single.js CLI', () => {
     assert.equal(opts.title, '指定标题');
     assert.equal(opts.voice, 'narrative');
     assert.equal(opts.date, '2026-05-25');
+    assert.equal(opts.llmProvider, 'codex');
     assert.equal(opts.textModel, 'claude-test');
+    assert.equal(opts.codexBin, 'codex-test');
+    assert.equal(opts.codexProfile, 'local');
     assert.equal(opts.coverModel, 'gpt-image-2');
     assert.equal(opts.noCover, true);
     assert.equal(opts.requireCover, true);
@@ -125,4 +131,66 @@ describe('single.js CLI', () => {
     const parsed = extractJson('```json\n{"title":"测试","reach":8}\n```');
     assert.deepEqual(parsed, { title: '测试', reach: 8 });
   });
+
+  it('parseArgs: validates llm provider', () => {
+    assert.throws(
+      () => parseArgs(['article.md', '--llm-provider', 'ollama']),
+      /--llm-provider must be anthropic or codex/
+    );
+  });
+
+  it('parseArgs: defaults Anthropic model only for Anthropic provider', () => {
+    const anthropic = parseArgs(['article.md']);
+    assert.equal(anthropic.llmProvider, 'anthropic');
+    assert.equal(anthropic.textModel, process.env.LLM_MODEL || 'claude-sonnet-4-20250514');
+
+    const codex = parseArgs(['article.md', '--llm-provider', 'codex']);
+    assert.equal(codex.llmProvider, 'codex');
+    assert.equal(codex.textModel, process.env.CODEX_MODEL || '');
+  });
+
+  it('parseArgs: does not reuse LLM_MODEL when Codex provider is selected', () => {
+    const oldLlmProvider = process.env.LLM_PROVIDER;
+    const oldLlmModel = process.env.LLM_MODEL;
+    const oldCodexModel = process.env.CODEX_MODEL;
+    try {
+      process.env.LLM_PROVIDER = 'codex';
+      process.env.LLM_MODEL = 'glm-4.7';
+      delete process.env.CODEX_MODEL;
+
+      const opts = parseArgs(['article.md']);
+      assert.equal(opts.llmProvider, 'codex');
+      assert.equal(opts.textModel, '');
+    } finally {
+      restoreEnv('LLM_PROVIDER', oldLlmProvider);
+      restoreEnv('LLM_MODEL', oldLlmModel);
+      restoreEnv('CODEX_MODEL', oldCodexModel);
+    }
+  });
+
+  it('buildCodexExecArgs: uses non-interactive read-only execution', () => {
+    const args = buildCodexExecArgs({
+      textModel: 'gpt-5.1-codex',
+      codexProfile: 'local',
+    }, '/tmp/promptio-output.txt');
+
+    assert.deepEqual(args.slice(0, 2), ['exec', '--ephemeral']);
+    assert.ok(args.includes('--sandbox'));
+    assert.ok(args.includes('read-only'));
+    assert.ok(args.includes('-o'));
+    assert.ok(args.includes('/tmp/promptio-output.txt'));
+    assert.ok(args.includes('--model'));
+    assert.ok(args.includes('gpt-5.1-codex'));
+    assert.ok(args.includes('--profile'));
+    assert.ok(args.includes('local'));
+    assert.equal(args.at(-1), '-');
+  });
 });
+
+function restoreEnv(key, value) {
+  if (value === undefined) {
+    delete process.env[key];
+  } else {
+    process.env[key] = value;
+  }
+}

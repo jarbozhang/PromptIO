@@ -1,0 +1,76 @@
+# Codex 补上 Windows 沙箱，开发者该关心的不是跑分
+
+如果你在 Windows 上把 Codex 当本地 coding agent 用，最该关心的不是它会不会写代码，而是它到底被关在哪里。
+
+OpenAI 在 2026 年 5 月 13 日发了一篇工程文章，讲 Codex Windows 沙箱怎么做出来。这个题目看起来很底层，但对中文开发者很实在。因为 Codex 不是只在云端吐代码，它会在你的电脑上通过 CLI、IDE 插件或桌面端调本地命令，读文件，改文件，跑测试，拉起 Git、Python、包管理器和构建工具。
+
+问题来了，agent 一旦拿到真实用户权限，它能做的事就和你差不多。它能帮你省掉重复劳动，也可能在没有边界时碰到不该碰的文件，或者让某段代码把数据发到外面。
+
+OpenAI 文章里说，在 Windows 沙箱补齐之前，Windows 用户基本只有两个选择。一个是几乎每条命令都手动批准，连读取都要确认，效率会被打断。另一个是打开 `Full Access mode`，让 Codex 不受限制地跑命令，体验顺了，但监督弱了。
+
+这个选择很尴尬。coding agent 的价值在于能连续干活，可连续干活又要求系统替你守住边界。
+
+## 沙箱到底挡什么
+
+Codex 的默认目标并不激进。它希望可以读取大多数位置的文件，只在当前工作区和配置过的 `writable_roots` 里写文件，并且默认没有网络访问，除非用户明确允许。
+
+听起来像权限配置，实际难点在操作系统。一个真正有效的沙箱，需要系统在进程启动时就给它降权限，并让这个限制顺着子进程一路传下去。Codex 让 shell 跑脚本，脚本再拉起 Python，Python 再调用其他二进制文件，这条链上的每个子进程都不能跑出边界。
+
+macOS 有 Seatbelt，Linux 有 seccomp 或 bubblewrap。Windows 有不少安全机制，但没有一个现成能力能直接映射到这种 agent 工作流。
+
+OpenAI 评估了三条路。AppContainer 是原生沙箱，隔离强，但更适合需求提前固定的应用，不适合 Codex 这种要驱动 shell、Git、Python、包管理器的开放式开发流程。Windows Sandbox 是轻量虚拟机，隔离更强，但 Codex 需要直接操作用户真实 checkout、工具链和环境，不适合塞进一次性桌面里，而且 Windows Home SKU 不提供它。Mandatory Integrity Control 看起来优雅，可以用完整性级别限制写入，但它会改真实文件系统的信任语义，给整个工作区贴低完整性标签后，影响的不只是 Codex。
+
+这也是这篇文章最有价值的地方。它不是在说 Windows 没有安全能力，而是在说传统应用沙箱和 coding agent 沙箱不是同一个问题。
+
+## 第一个原型卡在网络
+
+OpenAI 的第一个原型叫 unelevated sandbox，目标是不要求管理员权限。文件写入这部分，它用了 Windows 的 SID 和 write-restricted token。
+
+可以把 SID 理解成 Windows 权限系统里的身份标记。Codex 可以创建一个只给沙箱使用的 synthetic SID，比如 `sandbox-write`。然后通过 ACL 只给它当前目录和 `writable_roots` 的写入、执行、删除权限，同时拒绝它写入 `<cwd>/.git`、`<cwd>/.codex`、`<cwd>/.agents` 这些位置。
+
+write-restricted token 的关键是双重检查。一次写入要成功，真实用户身份得允许，restricted SID 列表里也得至少有一个 SID 被允许。这样 Codex 不是因为你能写哪里就能写哪里，它还要满足沙箱这层额外门槛。
+
+文件边界看起来解决了，网络边界没这么顺。因为不想要求管理员权限，原型没法可靠使用 Windows Firewall。OpenAI 只能用环境变量把常见网络流量引到死地址，比如 `HTTPS_PROXY`、`ALL_PROXY`、`GIT_HTTPS_PROXY` 指向 `127.0.0.1:9`，让 Git over SSH 直接失败，再把一个 `denybin` 目录放到 PATH 前面，拦截 SSH 和 SCP。
+
+这能挡住很多常规工具流量，但它只是 advisory。进程可以忽略环境变量，可以绕过 PATH，也可以直接开 socket。对一个本地代码执行 agent 来说，这个网络边界不够硬。
+
+## 当前方案为什么要管理员设置
+
+于是 OpenAI 接受了一个产品上不那么轻的选择，当前 Windows 沙箱需要在 setup 阶段拿管理员权限。
+
+这个 elevated sandbox 的核心变化，是 Codex 不再让子进程以真实 Windows 用户作为 principal 运行，而是创建两个本地用户。`CodexSandboxOffline` 会被防火墙规则拦住所有出站网络，`CodexSandboxOnline` 不套这条规则。这样 Windows Firewall 能按用户身份命中真正要限制的命令树，而不是只限制 `codex.exe` 这个外壳。
+
+setup 阶段要做的事也变多了。它要创建 synthetic SID，创建 online 和 offline 两个沙箱用户，用 Windows DPAPI 在本地加密保存凭据，创建或校验防火墙规则。因为沙箱用户默认不一定能读真实用户目录，Codex 还会给常用目录补读 ACL，这部分会异步跑，避免阻塞 setup。
+
+OpenAI 还拆了两个 Windows 专用二进制。`codex-windows-sandbox-setup.exe` 负责需要提权的设置工作，`codex-command-runner.exe` 负责以沙箱用户运行并创建 restricted token，最后再启动真正的子进程。
+
+这套结构不算轻。最终链路有 `codex.exe`、setup 程序、command runner 和 child process。文章作者 David Wiesen 也承认，系统复杂度是在几十个安全和易用性决策里长出来的。
+
+但这里的重点不是复杂，而是边界终于能被操作系统实际执行。文件写入靠 restricted token 和 ACL，网络限制靠 Windows Firewall 和专门的 sandbox user。agent 还是能像开发者一样跑真实工作流，但不能默认拥有整个机器。
+
+## 中文开发者该怎么用这个信息
+
+这篇文章给我的判断很明确。以后看 coding agent，别只看模型名和 demo 速度，也要看本地执行边界。
+
+尤其在 Windows 机器上，很多开发环境、公司内网项目、个人密钥、浏览器缓存和历史仓库都在同一台电脑里。coding agent 越强，越需要系统级边界。只靠每次弹窗确认，人会疲劳。直接全放开，又把风险推给用户自己。
+
+可以立刻做三件事。
+
+一是把 `Full Access mode` 当成临时例外，而不是默认工作方式。需要它时再开，做完关掉。
+
+二是检查工作区里哪些目录应该可写，哪些目录应该只读。像 `.git`、`.codex`、`.agents` 这种目录，最好明确知道工具如何保护它们。
+
+三是把网络访问当成独立权限看待。跑测试、改代码、读文件是一类事，访问外网是另一类事。OpenAI 这次专门为 Windows 沙箱改架构，核心原因就是环境变量级别的网络抑制不够可靠。
+
+我不把这篇文章看成 Codex 的一次普通功能补齐。它更像一个信号，coding agent 正在从会写代码走向会操作电脑，安全问题也从模型提示词转到了操作系统边界。
+
+下一次你把一个本地仓库交给 agent 之前，先问一句，它能写哪里，能不能联网，谁在执行这两个限制。
+
+本文为 AI 辅助整理，关键事实已按 OpenAI 原文核对。
+
+## 相关链接
+
+- [OpenAI 工程文章 Building a safe effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox/)
+- [Codex 官方页面](https://openai.com/codex/)
+
+<!-- REACH: 7/10 | 品牌✓ 利益点✓ 可操作✓ -->
