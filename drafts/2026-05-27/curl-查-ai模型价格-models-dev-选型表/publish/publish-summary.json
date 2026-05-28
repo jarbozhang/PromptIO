@@ -1,0 +1,21 @@
+{
+  "draft_dir": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-05-27/curl-查-ai模型价格-models-dev-选型表",
+  "out_dir": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-05-27/curl-查-ai模型价格-models-dev-选型表/publish",
+  "wechat": {
+    "status": "dry_run",
+    "action": "draft",
+    "html": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-05-27/curl-查-ai模型价格-models-dev-选型表/publish/wechat-article.html",
+    "payload": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-05-27/curl-查-ai模型价格-models-dev-选型表/publish/wechat-draft-payload.json",
+    "cover": "",
+    "thumb_media_id": "__WECHAT_THUMB_MEDIA_ID__"
+  },
+  "xhs": {
+    "status": "dry_run",
+    "mode": "manual_creator_center",
+    "title": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-05-27/curl-查-ai模型价格-models-dev-选型表/publish/xhs-title.txt",
+    "body": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-05-27/curl-查-ai模型价格-models-dev-选型表/publish/xhs-body.txt",
+    "tags": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-05-27/curl-查-ai模型价格-models-dev-选型表/publish/xhs-tags.txt",
+    "markdown": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-05-27/curl-查-ai模型价格-models-dev-选型表/publish/xhs-publish.md",
+    "payload": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-05-27/curl-查-ai模型价格-models-dev-选型表/publish/xhs-payload.json"
+  }
+}

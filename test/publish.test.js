@@ -24,9 +24,9 @@ function makeDraft() {
     'tags:',
     '  - OpenAI',
     '  - AI 编程',
+    'xhs_title: 小红书发布标题可以比较完整',
     'draft_files:',
     '  wechat: demo-slug.md',
-    '  xhs: xhs.md',
     '',
   ].join('\n'));
   fs.writeFileSync(path.join(draftDir, 'demo-slug.md'), [
@@ -40,14 +40,6 @@ function makeDraft() {
     '- 要点二含 `code`',
     '',
     '[来源](https://example.com)',
-    '',
-  ].join('\n'));
-  fs.writeFileSync(path.join(draftDir, 'xhs.md'), [
-    '# 小红书标题超过二十个字会被作为警告处理示例',
-    '',
-    '这是小红书正文。',
-    '',
-    '本文为 AI 辅助整理。',
     '',
   ].join('\n'));
   return { root, draftDir };
@@ -98,7 +90,8 @@ describe('publish.js draft handling', () => {
       assert.equal(draft.slug, 'demo-slug');
       assert.equal(draft.meta.title, '测试标题');
       assert.ok(draft.wechatMarkdown.includes('# 微信标题'));
-      assert.ok(draft.xhsMarkdown.includes('# 小红书标题'));
+      assert.equal(draft.xhsPath, draft.wechatPath);
+      assert.ok(draft.xhsMarkdown.includes('# 微信标题'));
     } finally {
       cleanup(root);
     }
@@ -146,10 +139,10 @@ describe('publish.js payload builders', () => {
     const { root, draftDir } = makeDraft();
     try {
       const pack = buildXhsPackage(readDraft(draftDir));
-      assert.equal(pack.title, '小红书标题超过二十个字会被作为警告处理示例');
-      assert.ok(pack.body.includes('这是小红书正文'));
+      assert.equal(pack.title, '小红书发布标题可以比较完整');
+      assert.ok(pack.body.includes('第一段摘要'));
       assert.deepEqual(pack.tags, ['#OpenAI', '#AI编程']);
-      assert.deepEqual(pack.warnings, ['title_over_20_chars']);
+      assert.deepEqual(pack.warnings, []);
     } finally {
       cleanup(root);
     }

@@ -1,0 +1,1 @@
+Gemini API 加了 Webhooks，长任务不用再轮询，延迟和成本都能省

@@ -165,13 +165,62 @@ export function normalizeMarkdown(markdown, fallbackTitle) {
 
 export function extractJson(text) {
   const raw = String(text || '').trim();
-  const fenced = raw.match(/```(?:json)?\s*([\s\S]*?)```/i);
-  const candidate = fenced ? fenced[1].trim() : raw.slice(raw.indexOf('{'), raw.lastIndexOf('}') + 1);
-  if (!candidate) throw new Error('LLM response did not contain JSON');
-  return JSON.parse(candidate);
+  const jsonFenced = raw.match(/```json\s*([\s\S]*?)```/i);
+  const candidates = [];
+  if (jsonFenced) candidates.push(jsonFenced[1].trim());
+  candidates.push(raw);
+  const objectText = extractJsonObject(raw);
+  if (objectText) candidates.push(objectText);
+
+  for (const candidate of candidates) {
+    if (!candidate) continue;
+    try {
+      return JSON.parse(candidate);
+    } catch {
+      // Try the next candidate. LLMs sometimes include non-JSON code fences from source material.
+    }
+  }
+
+  throw new Error('LLM response did not contain valid JSON');
 }
 
-function readArticle(filepath) {
+function extractJsonObject(text) {
+  const raw = String(text || '');
+  const start = raw.indexOf('{');
+  if (start === -1) return '';
+
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+
+  for (let i = start; i < raw.length; i++) {
+    const ch = raw[i];
+
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+      } else if (ch === '\\') {
+        escaped = true;
+      } else if (ch === '"') {
+        inString = false;
+      }
+      continue;
+    }
+
+    if (ch === '"') {
+      inString = true;
+    } else if (ch === '{') {
+      depth++;
+    } else if (ch === '}') {
+      depth--;
+      if (depth === 0) return raw.slice(start, i + 1);
+    }
+  }
+
+  return '';
+}
+
+export function readArticle(filepath) {
   if (!fs.existsSync(filepath)) throw new Error(`file not found: ${filepath}`);
   const raw = fs.readFileSync(filepath, 'utf8');
   if (!raw.trim()) throw new Error(`content file is empty: ${filepath}`);
@@ -196,7 +245,7 @@ function splitArticles(content) {
   return parts.length ? parts : [content.trim()];
 }
 
-function buildGenerationPrompt({ article, angle, title, voice }) {
+export function buildGenerationPrompt({ article, angle, title, voice }) {
   const wechatPrompt = fs.readFileSync(WECHAT_PROMPT_PATH, 'utf8');
   const xhsPrompt = fs.existsSync(XHS_PROMPT_PATH)
     ? fs.readFileSync(XHS_PROMPT_PATH, 'utf8')
@@ -209,7 +258,7 @@ function buildGenerationPrompt({ article, angle, title, voice }) {
     .join('\n\n');
 
   return [
-    '你是 PromptIO 的中文内容生成代理。用户已经指定了一篇文章作为源材料，你要直接生成两个平台草稿。',
+    '你是 PromptIO 的中文内容生成代理。用户已经指定了一篇文章作为源材料，你要生成一份可同时用于公众号和小红书的主稿。',
     '',
     '必须只返回 JSON，不要解释，不要使用 markdown code fence。',
     '',
@@ -219,24 +268,25 @@ function buildGenerationPrompt({ article, angle, title, voice }) {
     '  "slug": "中文字符和英文品牌混合的 kebab-case slug，不要纯拼音",',
     '  "reach": 1,',
     '  "tags": ["tag"],',
-    '  "wechat": "# 标题\\n\\n公众号草稿 markdown",',
-    '  "xhs": "# 小红书标题\\n\\n小红书草稿 markdown",',
+    '  "wechat": "# 标题\\n\\n主稿 markdown",',
+    '  "xhs_title": "小红书发布标题，不要标题党、不要拉踩、不要引流求互动",',
     '  "cover_prompt": "给 gpt-image-2 的英文封面图提示词，不要让图中出现任何文字"',
     '}',
     '',
-    '公众号草稿要求:',
+    '主稿要求:',
     '- 严格遵守下面的 wechat.md 写作规范。',
     '- 以 H1 开头，不要 YAML frontmatter。',
     '- 结尾包含相关链接 section 和 REACH 注释。',
     '- 事实必须来自源材料，不能编造实测、价格、发布日期或社区反馈。',
     '- 如果源材料不足以支撑亲测视角，不要写成亲测，改用 narrative 或 analytical。',
-    '',
-    '小红书草稿要求:',
-    '- 单独生成一份适合小红书图文笔记的短稿，400-900 中文字。',
-    '- 标题更口语、更短，但不要标题党、不要拉踩、不要引流求互动。',
-    '- 保留关键信息、行动建议、风险边界和 AI 内容标识需要。',
+    '- 这份主稿必须能直接作为小红书正文使用，不要另写一份小红书短稿。',
     '- 不要出现小红书禁区，不要教境外访问方法，不要写加微信/私信/评论区蹲/求收藏。',
-    '- 以 H1 开头，不要 YAML frontmatter。',
+    '- 保留关键信息、行动建议、风险边界和 AI 内容标识需要。',
+    '',
+    '小红书发布标题要求:',
+    '- xhs_title 是发布时可用的标题，不需要限制到 10 个字或 20 个字。',
+    '- 可以比公众号标题更口语，但必须完整表达主题。',
+    '- 不要标题党、不要拉踩、不要引流求互动。',
     '',
     '公众号封面图要求:',
     '- cover_prompt 用英文写给 gpt-image-2。',
@@ -428,8 +478,8 @@ function buildMeta({ opts, article, generated, slug, cover }) {
     },
     draft_files: {
       wechat: `${slug}.md`,
-      xhs: 'xhs.md',
     },
+    xhs_title: generated.xhs_title || '',
     cover,
   };
 }
@@ -632,18 +682,13 @@ export async function run(opts) {
   if (!generated.wechat || !String(generated.wechat).trim()) {
     throw new Error('LLM response missing required field: wechat');
   }
-  if (!generated.xhs || !String(generated.xhs).trim()) {
-    throw new Error('LLM response missing required field: xhs');
-  }
 
   const baseSlug = slugify(generated.slug || title);
   const draft = uniqueDraftDir(opts.date, baseSlug, opts.overwrite);
   fs.mkdirSync(draft.dir, { recursive: true });
 
   const wechat = normalizeMarkdown(generated.wechat, title);
-  const xhs = normalizeMarkdown(generated.xhs, headingFrom(generated.xhs) || title);
   fs.writeFileSync(path.join(draft.dir, `${draft.slug}.md`), wechat);
-  fs.writeFileSync(path.join(draft.dir, 'xhs.md'), xhs);
 
   const coverPrompt = generated.cover_prompt || `Editorial technology cover image for: ${title}. No text, no logos, no QR codes.`;
   let cover = await generateCover({
@@ -664,7 +709,7 @@ export async function run(opts) {
     dir: draft.dir,
     slug: draft.slug,
     wechat: path.join(draft.dir, `${draft.slug}.md`),
-    xhs: path.join(draft.dir, 'xhs.md'),
+    xhs: path.join(draft.dir, `${draft.slug}.md`),
     meta: metaPath,
     cover: cover.status === 'generated' ? path.join(draft.dir, 'cover.png') : null,
     coverStatus: cover.status,
@@ -686,7 +731,7 @@ async function main() {
     const result = await run(opts);
     console.log(`Drafts written: ${path.relative(ROOT, result.dir)}`);
     console.log(`- WeChat: ${path.relative(ROOT, result.wechat)}`);
-    console.log(`- XHS: ${path.relative(ROOT, result.xhs)}`);
+    console.log(`- XHS: uses primary draft (${path.relative(ROOT, result.xhs)})`);
     console.log(`- Meta: ${path.relative(ROOT, result.meta)}`);
     if (result.cover) {
       console.log(`- Cover: ${path.relative(ROOT, result.cover)} (${COVER_TARGET.width}x${COVER_TARGET.height})`);

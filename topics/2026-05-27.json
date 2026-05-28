@@ -1,0 +1,60 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T04:33:10.264Z",
+  "topics": [
+    {
+      "file": "sources/2026-05-27/github-trending-0bd21c2c.md",
+      "title": "openclaw 上榜 GitHub：我会这样搭一套自己的本地 AI 助手",
+      "angle": "面向想要“自己掌控数据”的中国 AI 用户，写成一次从仓库信息到可运行路径的实操稿。源材料较短，文章必须明确标注信息边界：哪些来自 GitHub 简介，哪些来自实际安装和体验。",
+      "voice": "first-person",
+      "reach": 10,
+      "reach_note": "openclaw 是重点生态品牌，可直接拉仓库尝试，并且命中个人 AI 助手的实用利益点。",
+      "reason": "openclaw 是本号核心生态，且主题天然适合做公众号深稿和小红书实操笔记。读者关心的是本地助手、数据掌控和能否替代日常工作流。"
+    },
+    {
+      "file": "sources/2026-05-27/github-trending-978e35c6.md",
+      "title": "NousResearch 的 hermes-agent 火了：一个会随你成长的开源 Agent 怎么用",
+      "angle": "从中国开发者视角拆解 hermes-agent 能接入哪些编码、记忆和工作流场景，并给出第一步试用路线。源材料较短，成稿必须标注信息边界，避免把仓库简介扩写成未验证能力。",
+      "voice": "analytical",
+      "reach": 10,
+      "reach_note": "NousResearch 和 openclaw 生态加成明显，开源 Agent 可直接尝试，适合开发者工作流。",
+      "reason": "命中 NousResearch、openclaw、clawdbot、moltbot 等本号重点生态关键词，且 GitHub 热度高。适合做生态跟踪型选题。"
+    },
+    {
+      "file": "sources/2026-05-27/hacker-news-algolia-ai-filter-040cf1bd.md",
+      "title": "DeepSeek 旗舰模型永久 75 折：国内开发者该重新算一遍 API 成本了",
+      "angle": "围绕 API 成本重算展开，帮助开发者判断哪些任务适合迁到 DeepSeek、哪些仍需保留其他模型。文章重点给出成本表、迁移检查项和适用场景。",
+      "voice": "analytical",
+      "reach": 10,
+      "reach_note": "DeepSeek 品牌强、75% 折扣利益点强，API 用户可以立刻调整模型选型。",
+      "reason": "这是高传播的省钱选题，且对中国 AI 开发者非常直接：模型调用成本会影响产品毛利、Agent 预算和个人项目能否长期跑。"
+    },
+    {
+      "file": "sources/2026-05-27/hacker-news-algolia-ai-filter-b32ded44.md",
+      "title": "一行 curl 查全网 AI 模型价格：models.dev 适合做你的选型表",
+      "angle": "写成模型选型和省钱工具稿：用 models.dev 的公开 API 拉取模型规格、价格和能力，再教读者做自己的 OpenAI、DeepSeek、Qwen、Gemini 对比表。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "利益点是省钱和选型，API 可一行命令调用，并可绑定 OpenAI、DeepSeek 等读者熟悉品牌。",
+      "reason": "信息量足，有 API、README 摘要和 HN 讨论热度。非常适合中国开发者立刻动手做模型路由、成本看板或采购前评估。"
+    },
+    {
+      "file": "sources/2026-05-27/openai-blog-09ab76a1.md",
+      "title": "Codex 可以在手机上管任务了：远程盯代码 Agent 的正确用法",
+      "angle": "从移动端监控、接管、审批远程编码任务切入，写给已经用 Codex 或想尝试代码 Agent 的开发者。重点是如何把碎片时间变成代码审查、任务推进和风险确认。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "OpenAI/Codex 品牌强，可操作场景明确，利益点是随时监控和批准编码任务。",
+      "reason": "这是代码 Agent 从桌面走向日常工作流的实用变化。公众号可讲工作流，小红书可做“手机管 AI 写代码”的轻教程。"
+    },
+    {
+      "file": "sources/2026-05-27/google-ai-blog-79cb2cae.md",
+      "title": "Gemini API 加了 Webhooks：长任务不用再轮询，延迟和成本都能省",
+      "angle": "面向做图片、视频、文档处理和 Agent 后台任务的开发者，讲清楚 Webhooks 如何替代轮询，以及在实际项目中怎么设计回调、重试和状态表。",
+      "voice": "analytical",
+      "reach": 8,
+      "reach_note": "Google/Gemini 品牌强，开发者可直接改 API 架构，利益点是降低轮询摩擦、延迟和资源浪费。",
+      "reason": "这是明确的 API 工作流改进，不是单纯发布新闻。适合写成开发者实操教程，也能延展到国产模型和多模型任务队列的架构参考。"
+    }
+  ]
+}

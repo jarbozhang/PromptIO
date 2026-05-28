@@ -1,0 +1,41 @@
+title: openclaw 上榜 GitHub，我会这样搭一套自己的本地 AI 助手
+status: draft
+date: '2026-05-27'
+source: manual
+source_file: sources/2026-05-27/github-trending-0bd21c2c.md
+source_title: 'openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 '
+source_url: https://github.com/openclaw/openclaw
+angle: 面向想要“自己掌控数据”的中国 AI 用户，写成一次从仓库信息到可运行路径的实操稿。源材料较短，文章必须明确标注信息边界：哪些来自 GitHub 简介，哪些来自实际安装和体验。
+voice: first-person
+reach: 1
+tags:
+  - openclaw
+  - 本地AI助手
+  - GitHub Trending
+  - 数据掌控
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: openclaw-github-本地-ai-助手.md
+cover:
+  status: skipped
+  model: gpt-image-2
+  prompt: >-
+    Horizontal technology media cover for a WeChat article, designed for a 900x383 final crop. A
+    realistic editorial illustration of a local-first personal AI assistant setup on a clean desk,
+    with a laptop showing an abstract unreadable local network map, a small home server, a
+    smartphone with unlabeled glowing message bubbles, and subtle cable lines converging into a
+    central assistant node shaped with a simple claw-shell motif. Chinese urban apartment at night,
+    focused and practical mood, graphite gray, white, and teal accents, crisp lighting, no readable
+    text, no logos, no QR codes, no UI screenshot.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: ''
+xhs_title: openclaw 上榜 GitHub，我会这样搭一套自己的本地 AI 助手

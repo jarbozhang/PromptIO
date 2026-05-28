@@ -1,0 +1,82 @@
+# 小红书发布包
+
+## 标题
+Gemini API 加了 Webhooks，长任务不用再轮询，延迟和成本都能省
+
+## 正文
+Gemini API 的这次更新，不是又多了一个模型参数，而是把长任务的后端姿势改了。
+
+Google 在 2026 年 5 月 4 日的 AI Blog 里介绍了 Event-Driven Webhooks。它做的事很朴素，长时间运行的 Gemini 任务完成后，由 Gemini API 主动向你的服务器发一个 HTTP POST，而不是让你一直反复调用 `GET operations` 去问结果好了没有。
+
+对做图片、视频、文档处理和 Agent 后台任务的开发者来说，这个变化比看起来更实用。
+
+以前的轮询架构通常长这样。用户提交一个视频生成、批量提示词处理、长文档分析，服务端拿到 operation id，然后每隔几秒查一次状态。任务如果 3 分钟结束，轮询还能忍。任务如果跑几十分钟，甚至几个小时，后台就会堆出大量没有业务价值的请求。
+
+这些请求不直接创造结果，只是在问同一句话，结束了吗。
+
+Webhooks 把这个关系反过来。提交任务时把回调地址配好，任务完成时让 Gemini API 推送事件。你的系统只需要接住这个事件，写入状态表，再触发下一步处理。
+
+这不是新概念。支付、CI、GitHub App 很早就在用 Webhooks。Gemini API 把它加到长任务上，价值在于 AI 任务越来越不像一次 HTTP 请求，而更像后台工作流。
+
+Google 在文章里点了几个场景，Deep Research、长视频生成、通过 Batch API 处理数千个 prompt。这类任务共同点很明确，耗时长、结果不是立即返回、后续还要接存储、通知、审核或二次处理。
+
+如果还用轮询，系统复杂度会从业务层漏到基础设施层。
+
+## 不要只把它当通知
+
+很多团队接 Webhooks 的第一个误区，是把回调接口当成普通通知接口。
+
+更稳的设计是把它当成状态机输入。
+
+一张任务表至少要有这些字段，内部任务 id、Gemini operation id、业务类型、当前状态、回调事件 id、最后事件时间、结果位置、错误信息、更新时间。
+
+提交任务时先写一行 `submitted`。Gemini 返回受理信息后，把 operation id 补进去。回调到达时，不直接在 HTTP 请求里跑重活，而是先校验、去重、落库，把状态改成 `succeeded` 或 `failed`，再投递到自己的队列里做下载、转码、入库、通知用户。
+
+这里有一个关键点，回调接口的成功标准应该是事件已可靠保存，而不是所有后处理都跑完。
+
+这样做的好处很直接。Gemini 只需要知道你收到了事件。你自己的图片压缩、视频搬运、文档索引失败了，可以在内部队列里重试，不要把第三方回调拖进你的业务补偿逻辑里。
+
+## 重试要按至少一次交付来设计
+
+Google 在原文里说，Webhooks 遵循 Standard Webhooks specification，每个请求会带 `webhook-signature`、`webhook-id` 和 `webhook-timestamp` 这类头部，用来做签名校验、幂等和防重放。
+
+它还说明交付语义是 at-least-once，并且会自动重试最长 24 小时。
+
+这句话很重要。at-least-once 不是只来一次，而是至少来一次。同一个事件可能因为网络抖动、你的接口超时、返回非 2xx，被再次发送。
+
+所以回调处理不要写成收到一次就新增一次结果。应该用 `webhook-id` 或 provider event id 做唯一键。已经处理过的事件，直接返回成功。状态更新也要允许重复写入同一个终态。
+
+签名也不要省。带时间戳的签名可以挡掉一类重放请求。静态 Webhooks 在项目级配置，Google 提到用 HMAC 保护。动态 Webhooks 可以按请求覆盖路由，原文提到用 JWKS 保护。工程上可以把两者分开看，固定系统集成用项目级端点，某些批处理任务需要按租户、队列或环境分流时，再考虑动态回调。
+
+## 状态表才是省成本的地方
+
+Webhooks 省下来的，不只是反复查询的延迟。
+
+更实际的是后台系统不用维护一堆定时扫描器，不用在队列里塞满检查状态的空任务，也不用为了长任务把 worker 挂很久。对高并发批处理来说，这些都是可见的工程成本。
+
+但也别把它理解成模型调用价格下降。Google 原文讲的是减少摩擦和延迟，消除低效轮询。模型本身怎么计费，还是要看 Gemini API 的计费规则。
+
+比较稳的落地顺序是这样。
+
+先保留原有 `GET operations` 作为兜底，只把新任务接入 Webhooks。然后给任务表加终态检查，超过 24 小时还没有回调的任务，再用低频轮询补偿。最后把监控拆成三类，回调成功率、重复事件数、任务从提交到终态的耗时。
+
+这套设计适合四类项目。批量图片生成，回调后进入审核和对象存储。视频生成，回调后触发转码和封面抽帧。文档处理，回调后写入向量索引。Agent 后台任务，回调后推进下一步 tool chain。
+
+我认为这次更新的信号很清楚。AI API 正在从同步问答接口，变成后台任务平台。以前接模型像接一个函数，现在更像接一个外部工作流引擎。
+
+下一步别急着改所有代码。先挑一个最烦人的轮询任务，把它改成回调驱动。只要状态表、幂等键和重试边界设计对了，后面的图片、视频、文档和 Agent 任务，都能沿用同一套骨架。
+
+## 相关链接
+
+- Google AI Blog，Event-Driven Webhooks in the Gemini API，https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/
+- Gemini API Webhooks 文档，https://ai.google.dev/gemini-api/docs/webhooks
+- Gemini API Batch API 文档，https://ai.google.dev/gemini-api/docs/batch-api
+- Standard Webhooks specification，https://www.standardwebhooks.com/
+
+<!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->
+
+## 标签
+#GeminiAPI #Webhooks #Agent #后端架构
+
+## 发布入口
+https://creator.xiaohongshu.com/

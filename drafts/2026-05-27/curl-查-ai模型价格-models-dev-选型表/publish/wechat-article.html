@@ -1,0 +1,54 @@
+<h1>一行 curl 查全网 AI 模型价格，models.dev 适合做你的选型表</h1>
+<p>我现在看一个新模型，第一反应已经不是问它有多聪明，而是先问三件事。</p>
+<p>上下文多大，能不能 tool calling，百万 tokens 多少钱。</p>
+<p>因为真正把模型接进产品以后，模型能力只是选型的一半，另一半是账单、限制和替换成本。OpenAI、DeepSeek、Qwen、Gemini、Anthropic 这些名字摆在一起，看起来像在比模型，其实更像在比一张不断变化的采购表。</p>
+<p>这也是我觉得 models.dev 值得单独拿出来写的原因。</p>
+<p>它不是一个聊天产品，也不是又一个模型榜单。models.dev 在 GitHub 上把自己定义成一个开源 AI 模型数据库，收集模型规格、价格和能力信息。更关键的是，它直接给了一个公开 API。</p>
+<p>你只要跑这一行。</p>
+<pre><code>curl https://models.dev/api.json</code></pre>
+<p>就能拿到一份可机器读取的模型数据。</p>
+<p>这件事听起来很小，但对做 AI 产品的人很实用。因为我们平时最浪费时间的地方，往往不是读某个模型的发布稿，而是把散落在各家文档里的价格、上下文、输入输出限制、结构化输出、工具调用能力，重新手抄进一张表。</p>
+<p>models.dev 想做的，就是把这张表开源出来。</p>
+<h2>它真正适合解决什么问题</h2>
+<p>我不会把 models.dev 当成权威评测榜。</p>
+<p>它的 README 讲得很清楚，项目目标是建立一个综合的、开源的 AI 模型规格、价格和能力数据库。数据以 provider 和 model 为单位，用 TOML 文件维护，再生成网站和 API。</p>
+<p>这套设计对工程师很友好。</p>
+<p>provider 层会记录供应商名称、npm package、鉴权环境变量、文档地址，以及可选的 OpenAI-compatible base URL。model 层会记录模型能力和限制，比如是否支持文件附件、reasoning、tool calling、structured output、temperature、知识截止时间、发布时间、更新时间、是否 open-weight、每百万 tokens 成本、上下文长度、输入输出上限和支持的模态。</p>
+<p>这些字段刚好对上了模型选型时最容易漏的坑。</p>
+<p>很多人做选型，第一眼只看单价。等真正接入时才发现，某个模型不支持结构化输出，另一个模型输出上限不够，还有一个模型虽然便宜，但上下文窗口和工具调用能力不适合当前业务。</p>
+<p>我的建议是，把 models.dev 当成第一张筛选表，而不是最后结论。</p>
+<p>它帮你快速缩小范围，然后你再去各家官方文档核对关键字段。</p>
+<h2>我会怎么拿它做自己的对比表</h2>
+<p>最简单的用法，就是把 API JSON 拉下来，转成 CSV 或表格。</p>
+<p>字段不需要一开始就全要。对大多数团队，先抓这几列就够了。</p>
+<p>模型 ID、provider、输入价格、输出价格、context limit、output limit、tool calling、structured output、reasoning、open-weight、release date、updated date。</p>
+<p>然后按场景建几个视图。</p>
+<p>如果你在做客服、检索问答、长文总结，先看上下文和输出上限。如果你在做 agent，先看 tool calling、structured output 和 reasoning。如果你在做批量内容处理，输入输出价格会更敏感。</p>
+<p>这里有一个容易忽略的小细节。</p>
+<p>models.dev 的 README 说，Model ID 可以用于 lookup，并且匹配 AI SDK 使用的 identifier。也就是说，如果你的项目本来就在用 AI SDK，这个字段会更顺手，不只是展示用的名字。</p>
+<p>我会把表做成三层。</p>
+<p>第一层是候选池，OpenAI、DeepSeek、Qwen、Gemini 等常用 provider 都先放进去。第二层是硬条件过滤，比如必须支持 structured output，必须有足够的上下文。第三层才是价格排序。</p>
+<p>这样做的好处是，不会被便宜模型带偏。</p>
+<p>便宜但不满足能力约束，最后会把工程复杂度补回来。贵一点但接口能力稳定，可能反而省掉很多兜底逻辑。</p>
+<h2>这类开源数据库的边界</h2>
+<p>models.dev 不是魔法表。</p>
+<p>源材料里能确认的是，它是 community-contributed，也被 opencode 内部使用。GitHub 仓库在抓取时有 4277 stars、1006 forks，创建于 2025 年 6 月 4 日，观察到的最新 push 是 2026 年 5 月 27 日。HN 讨论页当时有 159 points、28 条评论。</p>
+<p>这些信息说明它有关注度，也在持续更新，但不能推出所有价格都永远准确。</p>
+<p>模型价格和能力是高频变化项，尤其是上下文窗口、输出上限、兼容接口、定价单位，供应商随时可能调整。所以我不会把它当财务结算依据。</p>
+<p>更稳妥的用法是，models.dev 用来发现和初筛，关键决策前回到官方文档复核。</p>
+<p>它最适合放在产品和工程之间。</p>
+<p>产品同学能看懂价格和能力差异，工程同学能把 Model ID、base URL、环境变量和能力字段接进配置系统。对小团队来说，这比在飞书表格里手动维护十几个模型链接要可靠得多。</p>
+<h2>一个可执行的小流程</h2>
+<p>如果你今天就想用它，我建议别先写复杂系统。</p>
+<p>先用 <code>curl https://models.dev/api.json</code> 拉数据，再把 JSON 转成你熟悉的表格。只保留你当前项目真的关心的字段，不要为了完整而完整。</p>
+<p>然后问自己四个问题。</p>
+<p>这个模型是否支持我需要的输入和输出模态。它是否支持 tool calling 或 structured output。它的 context 和 output limit 是否覆盖真实任务。它的输入输出价格是否适合当前调用量。</p>
+<p>如果四个问题都过，再进入小规模验证。</p>
+<p>这一步不要跳。models.dev 能帮你少做信息搬运，但不能替你验证真实任务里的延迟、稳定性、返回质量和供应商侧限制。</p>
+<p>我喜欢这个项目的地方在于，它没有把模型世界包装成玄学榜单。</p>
+<p>它只是把规格、价格和能力摊开，变成一份可以 curl、可以 diff、可以接进脚本的公开数据。对于需要反复在 OpenAI、DeepSeek、Qwen、Gemini 等模型之间做取舍的人，这种朴素反而很值钱。</p>
+<p>下一次选模型前，我会先拉这张表。</p>
+<p>不是为了找到所谓最强模型，而是先排除那些不适合自己业务的模型。</p>
+<h2>相关链接</h2>
+<ul><li><a href="https://github.com/anomalyco/models.dev">models.dev GitHub 仓库</a></li><li><a href="https://models.dev">models.dev 网站</a></li><li><a href="https://models.dev/api.json">models.dev API</a></li><li><a href="https://news.ycombinator.com/item?id=48241172">Hacker News 讨论</a></li></ul>
+<p>&lt;!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ --&gt;</p>

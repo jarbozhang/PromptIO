@@ -1,0 +1,41 @@
+title: DeepSeek 旗舰模型永久降价 75%，国内开发者该重新算一遍 API 成本了
+status: draft
+date: '2026-05-27'
+source: manual
+source_file: sources/2026-05-27/hacker-news-algolia-ai-filter-040cf1bd.md
+source_title: DeepSeek to Make Permanent 75% Discount on Flagship AI Model
+source_url: >-
+  https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model
+angle: 围绕 API 成本重算展开，帮助开发者判断哪些任务适合迁到 DeepSeek、哪些仍需保留其他模型。文章重点给出成本表、迁移检查项和适用场景。
+voice: analytical
+reach: 8
+tags:
+  - DeepSeek
+  - API成本
+  - 模型路由
+  - AI开发
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: deepseek-v4-pro-api-成本重算.md
+cover:
+  status: skipped
+  model: gpt-image-2
+  prompt: >-
+    Horizontal technology media cover for a 900x383 WeChat crop. A realistic developer workstation
+    at night with blank unlabeled cost charts, flowing token streams, and a compact AI inference
+    server cluster. Show the quarter-price idea visually through four equal server lanes where one
+    lane is brightly illuminated and three are dim, without any readable text. Include subtle
+    Chinese developer office cues, clean glass and metal materials, deep blue and silver lighting
+    with warm amber accents. No words, no numbers, no logos, no QR codes, no UI screenshots.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: ''
+xhs_title: DeepSeek 旗舰模型永久降价 75%，国内开发者该重新算一遍 API 成本了

@@ -4,7 +4,14 @@ import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { parseArgs, slugify, normalizeMarkdown, extractJson, buildCodexExecArgs } from '../scripts/single.js';
+import {
+  parseArgs,
+  slugify,
+  normalizeMarkdown,
+  extractJson,
+  buildCodexExecArgs,
+  buildGenerationPrompt,
+} from '../scripts/single.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -132,6 +139,11 @@ describe('single.js CLI', () => {
     assert.deepEqual(parsed, { title: '测试', reach: 8 });
   });
 
+  it('extractJson: ignores non-json source code fences before the JSON object', () => {
+    const parsed = extractJson('```bash\ncurl https://models.dev/api.json\n```\n\n{"title":"测试","reach":8}');
+    assert.deepEqual(parsed, { title: '测试', reach: 8 });
+  });
+
   it('parseArgs: validates llm provider', () => {
     assert.throws(
       () => parseArgs(['article.md', '--llm-provider', 'ollama']),
@@ -184,6 +196,23 @@ describe('single.js CLI', () => {
     assert.ok(args.includes('--profile'));
     assert.ok(args.includes('local'));
     assert.equal(args.at(-1), '-');
+  });
+
+  it('buildGenerationPrompt: keeps XHS as primary draft adaptation, not a separate short draft', () => {
+    const prompt = buildGenerationPrompt({
+      article: {
+        frontmatter: { title: '测试源' },
+        sections: ['测试正文'],
+      },
+      angle: '测试角度',
+      title: '',
+      voice: '',
+    });
+
+    assert.ok(prompt.includes('"xhs_title"'));
+    assert.ok(prompt.includes('这份主稿必须能直接作为小红书正文使用'));
+    assert.ok(!prompt.includes('"xhs": "# 小红书标题'));
+    assert.ok(!prompt.includes('单独生成一份适合小红书图文笔记的短稿'));
   });
 });
 

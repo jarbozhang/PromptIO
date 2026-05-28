@@ -1,0 +1,41 @@
+title: Gemini API 加了 Webhooks，长任务不用再轮询，延迟和成本都能省
+status: draft
+date: '2026-05-27'
+source: manual
+source_file: sources/2026-05-27/google-ai-blog-79cb2cae.md
+source_title: Reduce friction and latency for long-running jobs with Webhooks in Gemini API
+source_url: https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/
+angle: 面向做图片、视频、文档处理和 Agent 后台任务的开发者，讲清楚 Webhooks 如何替代轮询，以及在实际项目中怎么设计回调、重试和状态表。
+voice: analytical
+reach: 8
+tags:
+  - Gemini API
+  - Webhooks
+  - Agent
+  - 后端架构
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: gemini-api-webhooks-长任务-不用轮询.md
+cover:
+  status: skipped
+  model: gpt-image-2
+  prompt: >-
+    A horizontal technology media cover for a WeChat article, final crop 900x383. Show a concrete
+    backend workflow for Gemini API webhooks without any readable text, logos, QR codes, or UI
+    screenshots. Visual scene, a central cloud AI processing node connected to queues of image,
+    video, document, and agent task tiles, with glowing event pulses pushing from the cloud to a
+    server callback endpoint, while faded polling loops are shown as dim circular arrows in the
+    background. Clean engineering aesthetic, modern data center lighting, crisp details, balanced
+    wide composition, no typography, no brand marks.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: ''
+xhs_title: Gemini API 加了 Webhooks，长任务不用再轮询，延迟和成本都能省

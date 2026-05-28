@@ -163,12 +163,13 @@ export function readDraft(draftDir) {
   const meta = yaml.load(fs.readFileSync(metaPath, 'utf8')) || {};
   const slug = path.basename(draftDir);
   const wechatName = meta.draft_files?.wechat || `${slug}.md`;
-  const xhsName = meta.draft_files?.xhs || 'xhs.md';
   const wechatPath = path.join(draftDir, wechatName);
-  const xhsPath = path.join(draftDir, xhsName);
+  const xhsPath = meta.draft_files?.xhs
+    ? path.join(draftDir, meta.draft_files.xhs)
+    : wechatPath;
 
   if (!fs.existsSync(wechatPath)) throw new Error(`WeChat draft not found: ${wechatPath}`);
-  if (!fs.existsSync(xhsPath)) throw new Error(`XHS draft not found: ${xhsPath}`);
+  if (!fs.existsSync(xhsPath)) throw new Error(`XHS source draft not found: ${xhsPath}`);
 
   return {
     dir: draftDir,
@@ -468,7 +469,7 @@ function assertWechatOk(json, action) {
 }
 
 export function buildXhsPackage(draft) {
-  const title = headingFrom(draft.xhsMarkdown) || draft.meta.title || draft.slug;
+  const title = draft.meta.xhs_title || headingFrom(draft.xhsMarkdown) || draft.meta.title || draft.slug;
   const body = stripFrontmatter(draft.xhsMarkdown)
     .replace(/^#\s+.+\n?/, '')
     .trim();
@@ -485,9 +486,6 @@ export function buildXhsPackage(draft) {
 
 function xhsWarnings({ title, body }) {
   const warnings = [];
-  if (Array.from(title).length > 20) {
-    warnings.push('title_over_20_chars');
-  }
   if (Array.from(body).length > 1000) {
     warnings.push('body_over_1000_chars');
   }
