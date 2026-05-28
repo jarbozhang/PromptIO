@@ -4,7 +4,11 @@ import {
   parseArgs,
   buildSelectionPrompt,
   normalizeSelection,
+  applyTopicMetadata,
 } from '../scripts/daily.js';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
 
 const sources = [
   {
@@ -101,5 +105,34 @@ describe('daily.js topic selection', () => {
       () => normalizeSelection({ topics: [] }, sources, { min: 1, count: 1 }),
       /expected at least 1/
     );
+  });
+});
+
+describe('daily.js draft metadata', () => {
+  it('applyTopicMetadata: keeps selector reach and reason on generated draft meta', () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), 'promptio-daily-meta-'));
+    const metaPath = path.join(root, 'meta.yaml');
+    fs.writeFileSync(metaPath, [
+      'title: 测试文章',
+      'reach: 1',
+      'tags:',
+      '  - AI',
+      '',
+    ].join('\n'));
+
+    try {
+      const meta = applyTopicMetadata(metaPath, {
+        reach: 9,
+        reach_note: '品牌强，可操作',
+        reason: '适合今天发布',
+      });
+
+      assert.equal(meta.reach, 9);
+      assert.equal(meta.reach_note, '品牌强，可操作');
+      assert.equal(meta.selection_reason, '适合今天发布');
+      assert.match(fs.readFileSync(metaPath, 'utf8'), /reach: 9/);
+    } finally {
+      fs.rmSync(root, { recursive: true, force: true });
+    }
   });
 });

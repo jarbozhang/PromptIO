@@ -1,0 +1,44 @@
+title: OpenAI 用 Codex 做自进化税务 Agent，普通开发者能抄哪三步
+status: draft
+date: '2026-05-28'
+source: manual
+source_file: sources/2026-05-28/openai-blog-5899b169.md
+source_title: Building self-improving tax agents with Codex
+source_url: https://openai.com/index/building-self-improving-tax-agents-with-codex
+angle: 把案例拆成可复用方法，而不是转述企业新闻：任务分解、自动评估、反馈闭环分别如何迁移到财务、报表、合规文档等中文场景。
+voice: analytical
+reach: 8
+tags:
+  - OpenAI
+  - Codex
+  - Agent
+  - 自动评估
+  - 财务自动化
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: openai-codex-自进化税务-agent-三步复用.md
+xhs_title: OpenAI Codex 税务 Agent 案例，普通开发者可以复用的三步
+cover:
+  status: failed
+  model: gpt-image-2
+  prompt: >-
+    Horizontal technology media cover image for a 900x383 WeChat crop. A realistic editorial scene
+    showing a self-improving tax AI workflow: an accountant desk with organized tax documents,
+    receipts, spreadsheet printouts, colored field markers, a modern laptop displaying abstract
+    blurred panels without readable text, evaluation check indicators, and a subtle loop of luminous
+    nodes connecting documents, code modules, validation gauges, and human review marks. Clean
+    high-end tech newsroom lighting, concrete financial-document theme, precise and professional
+    composition. No readable text, no logos, no QR codes, no UI screenshots, no brand marks.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: OPENAI_API_KEY is not set
+reach_note: OpenAI/Codex 强品牌 + 自进化 Agent 利益点 + 开发者可借鉴流程。
+selection_reason: Codex 案例具备方法论价值，能帮助中国开发者从“会用代码助手”升级到“会设计可迭代 Agent”。

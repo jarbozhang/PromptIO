@@ -1,0 +1,42 @@
+title: Gemini API 新 Webhooks：长任务不用轮询，Agent 成本和延迟都能降
+status: draft
+date: '2026-05-28'
+source: manual
+source_file: sources/2026-05-28/google-ai-blog-79cb2cae.md
+source_title: Reduce friction and latency for long-running jobs with Webhooks in Gemini API
+source_url: https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/
+angle: 面向做图片、视频、文档解析和长链路 Agent 的开发者，解释为什么轮询浪费资源，并给出 webhook 架构、失败重试和状态回调的实现清单。
+voice: analytical
+reach: 7
+tags:
+  - Gemini API
+  - Webhooks
+  - Agent
+  - 异步任务
+  - 开发者
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: gemini-api-webhooks-长任务-不用轮询-agent-成本-延迟.md
+xhs_title: Gemini API 加了 Webhooks，长任务可以少做轮询了
+cover:
+  status: failed
+  model: gpt-image-2
+  prompt: >-
+    Horizontal technology media cover for a 900x383 WeChat crop. A concrete backend architecture
+    scene where glowing event packets travel from a cloud AI service into a secure server endpoint,
+    then into queues connected to video frames, image thumbnails, document pages, and agent workflow
+    nodes. Clean modern editorial style, realistic depth, cool neutral lighting with restrained
+    accent colors. No readable text, no logos, no QR codes, no interface screenshots.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: OPENAI_API_KEY is not set
+reach_note: Gemini API 品牌 + 降低延迟和轮询成本的利益点 + 开发者可立即改架构。
+selection_reason: 这是偏工程但非常实用的 API 选题，适合 PromptIO 读者把现有 Agent 服务改得更稳、更省。

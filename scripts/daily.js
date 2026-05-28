@@ -287,6 +287,23 @@ function appendDailyLog(date, message) {
   fs.appendFileSync(path.join(logDir, `${date}.md`), `[${ts}] ${message}\n`);
 }
 
+export function applyTopicMetadata(metaPath, topic) {
+  const current = yaml.load(fs.readFileSync(metaPath, 'utf8')) || {};
+  const next = {
+    ...current,
+    reach: Number(topic.reach || 0) || current.reach || null,
+    reach_note: topic.reach_note || current.reach_note || '',
+    selection_reason: topic.reason || current.selection_reason || '',
+  };
+
+  fs.writeFileSync(metaPath, yaml.dump(next, {
+    lineWidth: 100,
+    noRefs: true,
+    sortKeys: false,
+  }));
+  return next;
+}
+
 export async function run(opts) {
   const sources = collectSourceSummaries(opts.date, opts.sourcesLimit);
   const selectionRaw = await callTextLLM(buildSelectionPrompt({
@@ -321,6 +338,7 @@ export async function run(opts) {
       requireCover: opts.requireCover,
       overwrite: opts.overwrite,
     });
+    applyTopicMetadata(result.meta, topic);
     drafts.push({ topic, ...result });
 
     if (opts.publishDryRun) {

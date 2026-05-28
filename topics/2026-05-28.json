@@ -1,0 +1,69 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T06:46:16.951Z",
+  "topics": [
+    {
+      "file": "sources/2026-05-28/github-trending-978e35c6.md",
+      "title": "NousResearch 的 Hermes Agent 上榜：怎么把它接进 openclaw 工作流",
+      "angle": "面向已经在用 Codex、Claude Code 或 openclaw 的开发者，文章应实测 Hermes Agent 的安装、任务记忆、工具调用和 clawdbot/moltbot 相关用法；如果只依据 GitHub 摘要和 README，必须明确标注能力边界，避免夸大。",
+      "voice": "analytical",
+      "reach": 10,
+      "reach_note": "NousResearch/openclaw 生态品牌 + 开源可动手 + agent 工作流收益明确。",
+      "reason": "命中本号核心生态，且读者可以直接克隆项目试跑，适合做成公众号深度实测和小红书步骤卡片。"
+    },
+    {
+      "file": "sources/2026-05-28/github-trending-0bd21c2c.md",
+      "title": "openclaw 冲上 GitHub Trending：我试了这个跨平台个人 AI 助手",
+      "angle": "从中国用户最关心的本地数据、自托管、跨平台助手三个角度切入，写清楚安装路径、适合的日常任务，以及和普通聊天机器人的实际差别；源摘要较短，正文必须标注哪些结论来自实测、哪些只来自项目说明。",
+      "voice": "first-person",
+      "reach": 10,
+      "reach_note": "openclaw 核心品牌 + 可立即安装体验 + 个人 AI 助手利益点。",
+      "reason": "这是 PromptIO/openclaw 目录下最贴合定位的选题，既能承接生态关注，也能产出强实操内容。"
+    },
+    {
+      "file": "sources/2026-05-28/github-trending-6eec8646.md",
+      "title": "Ollama 一条命令跑 Kimi、GLM、DeepSeek、Qwen：本地模型新手路线图",
+      "angle": "给中国 AI 用户整理一套本地模型快速上手路径：如何选模型、如何跑起来、低配置机器怎么取舍，以及哪些任务适合本地完成。",
+      "voice": "analytical",
+      "reach": 9,
+      "reach_note": "Ollama + DeepSeek/Kimi/Qwen 等高认知品牌，且一条命令即可操作。",
+      "reason": "本地模型、省钱、隐私和国产模型生态都具备传播点，适合做可收藏的教程型内容。"
+    },
+    {
+      "file": "sources/2026-05-28/github-trending-24dc2be7.md",
+      "title": "Dify 还能怎么用：给中小团队搭一个可上线的 AI 工作流",
+      "angle": "不要泛泛介绍低代码平台，而是选一个中国团队常见场景，比如客服知识库、销售线索整理或内部审批助手，写成从数据接入到发布的完整搭建流程。",
+      "voice": "analytical",
+      "reach": 8,
+      "reach_note": "Dify 品牌认知强 + 工作流落地收益明确 + 可直接自托管或上手搭建。",
+      "reason": "Dify 在中文 AI 圈认知度高，读者看完能立刻照着搭一个业务流程，公众号和小红书都容易转化为收藏。"
+    },
+    {
+      "file": "sources/2026-05-28/github-trending-feb34faf.md",
+      "title": "n8n + AI：不用写全套后端，也能搭一个自动化工作流",
+      "angle": "围绕自托管、400+ 集成和 AI 节点，设计一个合规的个人或团队效率场景，比如日报汇总、工单分发、内容素材整理，避免写成账号托管或批量运营教程。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "n8n 品牌在自动化圈有认知 + 自托管省钱 + 工作流可立刻搭建。",
+      "reason": "n8n 的操作感强，适合用截图和流程图拆成小红书内容，也适合公众号补充部署和避坑。"
+    },
+    {
+      "file": "sources/2026-05-28/openai-blog-5899b169.md",
+      "title": "OpenAI 用 Codex 做自进化税务 Agent：普通开发者能抄哪三步",
+      "angle": "把案例拆成可复用方法，而不是转述企业新闻：任务分解、自动评估、反馈闭环分别如何迁移到财务、报表、合规文档等中文场景。",
+      "voice": "analytical",
+      "reach": 8,
+      "reach_note": "OpenAI/Codex 强品牌 + 自进化 Agent 利益点 + 开发者可借鉴流程。",
+      "reason": "Codex 案例具备方法论价值，能帮助中国开发者从“会用代码助手”升级到“会设计可迭代 Agent”。"
+    },
+    {
+      "file": "sources/2026-05-28/google-ai-blog-79cb2cae.md",
+      "title": "Gemini API 新 Webhooks：长任务不用轮询，Agent 成本和延迟都能降",
+      "angle": "面向做图片、视频、文档解析和长链路 Agent 的开发者，解释为什么轮询浪费资源，并给出 webhook 架构、失败重试和状态回调的实现清单。",
+      "voice": "analytical",
+      "reach": 7,
+      "reach_note": "Gemini API 品牌 + 降低延迟和轮询成本的利益点 + 开发者可立即改架构。",
+      "reason": "这是偏工程但非常实用的 API 选题，适合 PromptIO 读者把现有 Agent 服务改得更稳、更省。"
+    }
+  ]
+}

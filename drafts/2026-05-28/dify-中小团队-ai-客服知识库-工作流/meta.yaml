@@ -1,0 +1,43 @@
+title: Dify 还能怎么用，给中小团队搭一个可上线的 AI 工作流
+status: draft
+date: '2026-05-28'
+source: manual
+source_file: sources/2026-05-28/github-trending-24dc2be7.md
+source_title: 'langgenius/dify: Production-ready platform for agentic workflow development.'
+source_url: https://github.com/langgenius/dify
+angle: 不要泛泛介绍低代码平台，而是选一个中国团队常见场景，比如客服知识库、销售线索整理或内部审批助手，写成从数据接入到发布的完整搭建流程。
+voice: analytical
+reach: 8
+tags:
+  - Dify
+  - AI工作流
+  - 知识库
+  - RAG
+  - 中小团队
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: dify-中小团队-ai-客服知识库-工作流.md
+xhs_title: Dify 给中小团队搭客服知识库工作流，可以按这条路径做
+cover:
+  status: failed
+  model: gpt-image-2
+  prompt: >-
+    A horizontal technology media cover for a WeChat article, 900x383 crop composition. Show a small
+    business customer support operations desk with a clean AI workflow map floating above it,
+    connected knowledge documents, retrieval nodes, approval checkpoints, and publishing pipeline
+    elements. Modern Chinese startup office atmosphere, realistic yet polished editorial style, blue
+    and green accent lighting, no readable text, no logos, no QR codes, no UI screenshots, no
+    letters or numbers.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: OPENAI_API_KEY is not set
+reach_note: Dify 品牌认知强 + 工作流落地收益明确 + 可直接自托管或上手搭建。
+selection_reason: Dify 在中文 AI 圈认知度高，读者看完能立刻照着搭一个业务流程，公众号和小红书都容易转化为收藏。

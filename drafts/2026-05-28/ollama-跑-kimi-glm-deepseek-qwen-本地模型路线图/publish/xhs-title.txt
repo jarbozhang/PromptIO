@@ -1,0 +1,1 @@
+Ollama 跑 Kimi、GLM、DeepSeek、Qwen，新手先分清本地和 cloud

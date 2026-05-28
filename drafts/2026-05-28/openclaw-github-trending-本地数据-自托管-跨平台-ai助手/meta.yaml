@@ -1,0 +1,43 @@
+title: openclaw 冲上 GitHub Trending：我试了这个跨平台个人 AI 助手
+status: draft
+date: '2026-05-28'
+source: manual
+source_file: sources/2026-05-28/github-trending-0bd21c2c.md
+source_title: 'openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 '
+source_url: https://github.com/openclaw/openclaw
+angle: 从中国用户最关心的本地数据、自托管、跨平台助手三个角度切入，写清楚安装路径、适合的日常任务，以及和普通聊天机器人的实际差别；源摘要较短，正文必须标注哪些结论来自实测、哪些只来自项目说明。
+voice: first-person
+reach: 10
+tags:
+  - OpenClaw
+  - GitHub Trending
+  - 个人AI助手
+  - 自托管
+  - 本地优先
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: openclaw-github-trending-本地数据-自托管-跨平台-ai助手.md
+xhs_title: OpenClaw 跨平台个人 AI 助手，我最关心本地数据和自托管
+cover:
+  status: failed
+  model: gpt-image-2
+  prompt: >-
+    Landscape technology media cover for a WeChat article, designed for a 900x383 crop. Show a
+    self-hosted personal AI assistant concept with a laptop, smartphone, tablet, and a small home
+    server connected by subtle light trails to a secure local data vault. Include a friendly
+    abstract crustacean-inspired assistant silhouette made of soft metallic light, suggesting
+    OpenClaw without using any logo. Concrete, premium, editorial tech style, clean depth, realistic
+    devices, no readable text, no logos, no QR codes, no UI screenshots.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: OPENAI_API_KEY is not set
+reach_note: openclaw 核心品牌 + 可立即安装体验 + 个人 AI 助手利益点。
+selection_reason: 这是 PromptIO/openclaw 目录下最贴合定位的选题，既能承接生态关注，也能产出强实操内容。

@@ -1,0 +1,44 @@
+title: Ollama 一条命令跑 Kimi、GLM、DeepSeek、Qwen：本地模型新手路线图
+status: draft
+date: '2026-05-28'
+source: manual
+source_file: sources/2026-05-28/github-trending-6eec8646.md
+source_title: >-
+  ollama/ollama: Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma
+  and other models.
+source_url: https://github.com/ollama/ollama
+angle: 给中国 AI 用户整理一套本地模型快速上手路径：如何选模型、如何跑起来、低配置机器怎么取舍，以及哪些任务适合本地完成。
+voice: analytical
+reach: 9
+tags:
+  - Ollama
+  - 本地模型
+  - DeepSeek
+  - Qwen
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: ollama-跑-kimi-glm-deepseek-qwen-本地模型路线图.md
+xhs_title: Ollama 跑 Kimi、GLM、DeepSeek、Qwen，新手先分清本地和 cloud
+cover:
+  status: failed
+  model: gpt-image-2
+  prompt: >-
+    Wide horizontal technology media cover for a 900x383 WeChat crop. A realistic developer desk
+    with a local workstation, compact GPU tower, and several distinct glowing AI model modules
+    flowing into the machine through clean cable-like light paths. Show a clear contrast between
+    local hardware on the desk and a distant soft cloud compute silhouette in the background. Modern
+    technology editorial style, concrete hardware details, sharp lighting, no readable text, no
+    logos, no QR codes, no brand marks, no UI screenshots.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: OPENAI_API_KEY is not set
+reach_note: Ollama + DeepSeek/Kimi/Qwen 等高认知品牌，且一条命令即可操作。
+selection_reason: 本地模型、省钱、隐私和国产模型生态都具备传播点，适合做可收藏的教程型内容。
