@@ -1,0 +1,24 @@
+---
+title: 'CaMBRAIN: Real-time, Continuous EEG Inference with Causal State Space Models'
+url: 'https://arxiv.org/abs/2605.28792v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Abhilash Durgam
+  - Nyle Siddiqui
+  - Jeffrey A. Chan-Santiago
+  - Qiushi Fu
+  - Elakkat D. Gireesh
+categories:
+  - cs.AI
+  - cs.HC
+  - cs.LG
+  - cs.AI
+published: '2026-05-27T17:50:36Z'
+fetched_at: '2026-05-28T03:17:22.086Z'
+---
+Electroencephalography (EEG) is a critical, non-invasive method to monitor electrical brain activity. EEGs can span anywhere from a couple seconds to multiple hours, posing a major hurdle for existing deep learning methods due to two major factors: (1) existing EEG models are predominantly built upon the attention mechanism, incurring quadratic scaling as the sequence length increases, and (2) raw EEG signals must be processed in a sliding-window fashion due to fixed-length input requirements, preventing global understanding of the entire signal. To this extent, we propose CaMBRAIN - the first Causal, Mamba-based state space model (SSM) capable of real-time inference of EEG signals, arguing that bidirectional approaches are needlessly expensive given the causal, unidirectional nature of EEG. However, training such a model is non-trivial, as crucial EEG events can be extremely brief - within fractions of a second - yet separated by long intervals spanning minutes. Current EEG methods use self-supervised objectives that optimize for signal reconstruction, but these are not well suited for streaming SSMs; they fail to explicitly train the hidden state to retain the salient long-range context needed for streaming inference. We therefore introduce a multi-stage self-supervised training pipeline specifically tailored to encourage long-range memory retention and strong performance on EEG signals, while preserving the linear-time complexity of state space models. CaMBRAIN achieves st
+
+Authors: Abhilash Durgam, Nyle Siddiqui, Jeffrey A. Chan-Santiago, Qiushi Fu, Elakkat D. Gireesh
+Categories: cs.AI, cs.HC, cs.LG, cs.AI
