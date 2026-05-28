@@ -95,6 +95,7 @@ describe('single.js CLI', () => {
       'article.md',
       '--angle', '实操分析',
       '--title', '指定标题',
+      '--slug', 'stable-topic-slug',
       '--voice', 'narrative',
       '--date', '2026-05-25',
       '--llm-provider', 'codex',
@@ -110,6 +111,7 @@ describe('single.js CLI', () => {
     assert.equal(opts.contentFile, 'article.md');
     assert.equal(opts.angle, '实操分析');
     assert.equal(opts.title, '指定标题');
+    assert.equal(opts.slug, 'stable-topic-slug');
     assert.equal(opts.voice, 'narrative');
     assert.equal(opts.date, '2026-05-25');
     assert.equal(opts.llmProvider, 'codex');

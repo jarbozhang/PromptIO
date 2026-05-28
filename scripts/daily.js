@@ -6,6 +6,7 @@ import yaml from 'js-yaml';
 import {
   callTextLLM,
   extractJson,
+  slugify,
   run as generateSingle,
 } from './single.js';
 
@@ -218,6 +219,7 @@ export function buildSelectionPrompt({ date, count, min, max, sources }) {
     '    {',
     '      "file": "sources/YYYY-MM-DD/example.md",',
     '      "title": "建议公众号标题",',
+    '      "slug": "稳定文件名，中文字符和英文品牌混合的 kebab-case，不要纯拼音",',
     '      "angle": "中文写作角度，必须具体说明读者为什么要关心",',
     '      "voice": "first-person|narrative|analytical|retro",',
     '      "reach": 7,',
@@ -234,6 +236,7 @@ export function buildSelectionPrompt({ date, count, min, max, sources }) {
     '- 优先中国 AI 用户能立刻动手的东西，尤其是工具、模型、API、省钱、开发者工作流、国产生态、openclaw/NousResearch 生态。',
     '- 如果源材料过短但主题重要，angle 里必须要求文章明确标注信息边界。',
     '- file 必须逐字使用 source 列表里的 file。',
+    '- slug 是后续 drafts/{date}/{slug}/{slug}.md 的文件名，必须稳定、可读、短于 80 字符，生成后不要在写作阶段改名。',
     '',
     '--- scoring guide ---',
     scoringPrompt,
@@ -255,6 +258,7 @@ export function normalizeSelection(selection, sources, opts) {
     topics.push({
       file,
       title: String(item.title || byFile.get(file).title || '').trim(),
+      slug: slugify(String(item.slug || item.title || byFile.get(file).title || '').trim()),
       angle: String(item.angle || '').trim(),
       voice: String(item.voice || '').trim(),
       reach: Number(item.reach || 0) || null,
@@ -327,6 +331,7 @@ export async function run(opts) {
       contentFile: path.join(ROOT, topic.file),
       angle: topic.angle,
       title: topic.title,
+      slug: topic.slug,
       voice: topic.voice,
       date: opts.date,
       llmProvider: opts.llmProvider,

@@ -9,7 +9,8 @@
       "voice": "analytical",
       "reach": 10,
       "reach_note": "NousResearch/openclaw 生态品牌 + 开源可动手 + agent 工作流收益明确。",
-      "reason": "命中本号核心生态，且读者可以直接克隆项目试跑，适合做成公众号深度实测和小红书步骤卡片。"
+      "reason": "命中本号核心生态，且读者可以直接克隆项目试跑，适合做成公众号深度实测和小红书步骤卡片。",
+      "slug": "nousresearch-hermes-agent-接入-openclaw-工作流"
     },
     {
       "file": "sources/2026-05-28/github-trending-0bd21c2c.md",
@@ -18,7 +19,8 @@
       "voice": "first-person",
       "reach": 10,
       "reach_note": "openclaw 核心品牌 + 可立即安装体验 + 个人 AI 助手利益点。",
-      "reason": "这是 PromptIO/openclaw 目录下最贴合定位的选题，既能承接生态关注，也能产出强实操内容。"
+      "reason": "这是 PromptIO/openclaw 目录下最贴合定位的选题，既能承接生态关注，也能产出强实操内容。",
+      "slug": "openclaw-github-trending-本地数据-自托管-跨平台-ai助手"
     },
     {
       "file": "sources/2026-05-28/github-trending-6eec8646.md",
@@ -27,7 +29,8 @@
       "voice": "analytical",
       "reach": 9,
       "reach_note": "Ollama + DeepSeek/Kimi/Qwen 等高认知品牌，且一条命令即可操作。",
-      "reason": "本地模型、省钱、隐私和国产模型生态都具备传播点，适合做可收藏的教程型内容。"
+      "reason": "本地模型、省钱、隐私和国产模型生态都具备传播点，适合做可收藏的教程型内容。",
+      "slug": "ollama-跑-kimi-glm-deepseek-qwen-本地模型路线图"
     },
     {
       "file": "sources/2026-05-28/github-trending-24dc2be7.md",
@@ -36,7 +39,8 @@
       "voice": "analytical",
       "reach": 8,
       "reach_note": "Dify 品牌认知强 + 工作流落地收益明确 + 可直接自托管或上手搭建。",
-      "reason": "Dify 在中文 AI 圈认知度高，读者看完能立刻照着搭一个业务流程，公众号和小红书都容易转化为收藏。"
+      "reason": "Dify 在中文 AI 圈认知度高，读者看完能立刻照着搭一个业务流程，公众号和小红书都容易转化为收藏。",
+      "slug": "dify-中小团队-ai-客服知识库-工作流"
     },
     {
       "file": "sources/2026-05-28/github-trending-feb34faf.md",
@@ -45,7 +49,8 @@
       "voice": "first-person",
       "reach": 8,
       "reach_note": "n8n 品牌在自动化圈有认知 + 自托管省钱 + 工作流可立刻搭建。",
-      "reason": "n8n 的操作感强，适合用截图和流程图拆成小红书内容，也适合公众号补充部署和避坑。"
+      "reason": "n8n 的操作感强，适合用截图和流程图拆成小红书内容，也适合公众号补充部署和避坑。",
+      "slug": "n8n-ai-自托管-自动化工作流"
     },
     {
       "file": "sources/2026-05-28/openai-blog-5899b169.md",
@@ -54,7 +59,8 @@
       "voice": "analytical",
       "reach": 8,
       "reach_note": "OpenAI/Codex 强品牌 + 自进化 Agent 利益点 + 开发者可借鉴流程。",
-      "reason": "Codex 案例具备方法论价值，能帮助中国开发者从“会用代码助手”升级到“会设计可迭代 Agent”。"
+      "reason": "Codex 案例具备方法论价值，能帮助中国开发者从“会用代码助手”升级到“会设计可迭代 Agent”。",
+      "slug": "openai-codex-自进化税务-agent-三步复用"
     },
     {
       "file": "sources/2026-05-28/google-ai-blog-79cb2cae.md",
@@ -63,7 +69,8 @@
       "voice": "analytical",
       "reach": 7,
       "reach_note": "Gemini API 品牌 + 降低延迟和轮询成本的利益点 + 开发者可立即改架构。",
-      "reason": "这是偏工程但非常实用的 API 选题，适合 PromptIO 读者把现有 Agent 服务改得更稳、更省。"
+      "reason": "这是偏工程但非常实用的 API 选题，适合 PromptIO 读者把现有 Agent 服务改得更稳、更省。",
+      "slug": "gemini-api-webhooks-长任务-不用轮询-agent-成本-延迟"
     }
   ]
 }

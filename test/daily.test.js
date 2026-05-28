@@ -79,6 +79,8 @@ describe('daily.js topic selection', () => {
     });
 
     assert.ok(prompt.includes('"topics"'));
+    assert.ok(prompt.includes('"slug"'));
+    assert.ok(prompt.includes('drafts/{date}/{slug}/{slug}.md'));
     assert.ok(prompt.includes('sources/2026-05-27/a.md'));
     assert.ok(prompt.includes('只选 REACH >= 7'));
   });
@@ -86,7 +88,7 @@ describe('daily.js topic selection', () => {
   it('normalizeSelection: filters unknown and duplicate files', () => {
     const topics = normalizeSelection({
       topics: [
-        { file: 'sources/2026-05-27/a.md', title: 'A', angle: '角度 A', reach: 8 },
+        { file: 'sources/2026-05-27/a.md', title: 'A', slug: 'models-dev-选型表', angle: '角度 A', reach: 8 },
         { file: 'sources/2026-05-27/a.md', title: 'A dup', angle: '重复', reach: 8 },
         { file: 'sources/2026-05-27/missing.md', title: 'missing', reach: 9 },
         { file: 'sources/2026-05-27/b.md', title: 'B', angle: '角度 B', reach: 7 },
@@ -98,6 +100,8 @@ describe('daily.js topic selection', () => {
       'sources/2026-05-27/a.md',
       'sources/2026-05-27/b.md',
     ]);
+    assert.equal(topics[0].slug, 'models-dev-选型表');
+    assert.equal(topics[1].slug, 'b');
   });
 
   it('normalizeSelection: rejects too few usable topics', () => {

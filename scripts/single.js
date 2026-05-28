@@ -19,7 +19,7 @@ loadEnv(path.join(ROOT, '.env'));
 export function usage() {
   return [
     'Usage:',
-    '  node scripts/single.js <article-file> [--angle "写作角度"] [--title "标题"] [options]',
+    '  node scripts/single.js <article-file> [--angle "写作角度"] [--title "标题"] [--slug "文件名"] [options]',
     '',
     'Options:',
     '  --voice <first-person|narrative|analytical|retro>',
@@ -40,6 +40,7 @@ export function parseArgs(argv) {
   const opts = {
     angle: '',
     title: '',
+    slug: '',
     voice: '',
     date: TODAY,
     llmProvider: process.env.LLM_PROVIDER || 'anthropic',
@@ -67,6 +68,9 @@ export function parseArgs(argv) {
         break;
       case '--title':
         opts.title = requireValue(args, arg);
+        break;
+      case '--slug':
+        opts.slug = requireValue(args, arg);
         break;
       case '--voice':
         opts.voice = requireValue(args, arg);
@@ -245,7 +249,7 @@ function splitArticles(content) {
   return parts.length ? parts : [content.trim()];
 }
 
-export function buildGenerationPrompt({ article, angle, title, voice }) {
+export function buildGenerationPrompt({ article, angle, title, slug, voice }) {
   const wechatPrompt = fs.readFileSync(WECHAT_PROMPT_PATH, 'utf8');
   const xhsPrompt = fs.existsSync(XHS_PROMPT_PATH)
     ? fs.readFileSync(XHS_PROMPT_PATH, 'utf8')
@@ -295,6 +299,7 @@ export function buildGenerationPrompt({ article, angle, title, voice }) {
     '- 画面要具体体现文章主题，不要纯抽象渐变。',
     '',
     `指定标题: ${sourceTitle || '(未指定)'}`,
+    `指定 slug: ${slug || '(未指定)'}`,
     `指定角度: ${angle || 'Manual selection, choose the most actionable angle.'}`,
     `指定 voice: ${voice || '由内容自动选择 first-person/narrative/analytical/retro 中最合适的一种'}`,
     `来源: ${sourceName}`,
@@ -683,7 +688,7 @@ export async function run(opts) {
     throw new Error('LLM response missing required field: wechat');
   }
 
-  const baseSlug = slugify(generated.slug || title);
+  const baseSlug = slugify(opts.slug || generated.slug || title);
   const draft = uniqueDraftDir(opts.date, baseSlug, opts.overwrite);
   fs.mkdirSync(draft.dir, { recursive: true });
 
