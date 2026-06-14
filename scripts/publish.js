@@ -20,6 +20,7 @@ export function usage() {
     '  --dry-run                       Build local publish payloads only, no platform API calls',
     '  --out-dir <dir>                 Default: <draft-dir>/publish',
     '  --overwrite                     Recreate local publish files if they already exist',
+    '  --manual-bypass <reason>        Override the meta publish gate for legacy/manual review cases',
     '',
     'WeChat Official Account:',
     '  --wechat-action <draft|publish> Default: draft',
@@ -40,6 +41,7 @@ export function parseArgs(argv) {
     dryRun: false,
     outDir: '',
     overwrite: false,
+    manualBypassReason: '',
     wechatAction: 'draft',
     wechatThumbMediaId: process.env.WECHAT_THUMB_MEDIA_ID || '',
     wechatCover: process.env.WECHAT_COVER_PATH || '',
@@ -69,6 +71,10 @@ export function parseArgs(argv) {
         break;
       case '--overwrite':
         opts.overwrite = true;
+        break;
+      case '--manual-bypass':
+      case '--manual-bypass-reason':
+        opts.manualBypassReason = requireValue(args, arg);
         break;
       case '--wechat-action':
         opts.wechatAction = requireValue(args, arg);
@@ -181,6 +187,66 @@ export function readDraft(draftDir) {
     wechatMarkdown: fs.readFileSync(wechatPath, 'utf8'),
     xhsMarkdown: fs.readFileSync(xhsPath, 'utf8'),
   };
+}
+
+const ALLOWED_PLATFORM_STATUSES = new Set(['primary', 'compliant']);
+
+export function evaluatePublishGate(draft, platform, opts = {}) {
+  const bypassReason = String(opts.manualBypassReason || '').trim();
+  if (bypassReason) {
+    return {
+      allowed: true,
+      publishable: true,
+      gate_status: 'manual_bypass',
+      gate_reason: '',
+      bypass_reason: bypassReason,
+    };
+  }
+
+  const reasons = [];
+  const qa = draft.meta.qa || {};
+  const platforms = draft.meta.platforms || {};
+  const platformStatus = platforms[platform];
+
+  if (qa.overall_pass !== true) {
+    reasons.push('missing or false qa.overall_pass');
+  }
+  if (!platformStatus) {
+    reasons.push(`missing platforms.${platform}`);
+  } else if (!ALLOWED_PLATFORM_STATUSES.has(String(platformStatus))) {
+    reasons.push(`platforms.${platform} is ${platformStatus}`);
+  }
+  if (platform === 'xhs' && qa.l6_pass !== true && qa.xhs_pass !== true) {
+    reasons.push('missing or false qa.l6_pass or qa.xhs_pass');
+  }
+
+  if (reasons.length) {
+    return {
+      allowed: false,
+      publishable: false,
+      gate_status: 'blocked',
+      gate_reason: reasons.join('; '),
+    };
+  }
+
+  return {
+    allowed: true,
+    publishable: true,
+    gate_status: 'passed',
+    gate_reason: '',
+  };
+}
+
+function applyGateToResult(result, gate, { blockedPreview = false } = {}) {
+  const next = {
+    ...result,
+    publishable: gate.publishable,
+    gate_status: gate.gate_status,
+  };
+  if (gate.gate_reason) next.gate_reason = gate.gate_reason;
+  if (gate.bypass_reason) next.bypass_reason = gate.bypass_reason;
+  if (blockedPreview) next.status = 'blocked_preview';
+  return next;
 }
 
 function ensureOutDir(draft, opts) {
@@ -573,7 +639,22 @@ function updatePublishMeta(draft, patch) {
 export async function run(opts) {
   const draftDir = resolveDraftDir(opts.draftRef);
   const draft = readDraft(draftDir);
+  const requestedPlatforms = [];
+  if (opts.platform === 'wechat' || opts.platform === 'all') requestedPlatforms.push('wechat');
+  if (opts.platform === 'xhs' || opts.platform === 'all') requestedPlatforms.push('xhs');
+  const gates = Object.fromEntries(
+    requestedPlatforms.map(platform => [platform, evaluatePublishGate(draft, platform, opts)])
+  );
+
+  if (!opts.dryRun) {
+    const blocked = requestedPlatforms.find(platform => !gates[platform].allowed);
+    if (blocked) {
+      throw new Error(`publish gate blocked ${blocked}: ${gates[blocked].gate_reason}`);
+    }
+  }
+
   const outDir = ensureOutDir(draft, opts);
+
   const result = {
     draft_dir: draftDir,
     out_dir: outDir,
@@ -582,11 +663,21 @@ export async function run(opts) {
   };
 
   if (opts.platform === 'wechat' || opts.platform === 'all') {
-    result.wechat = await publishWechat(draft, opts, outDir);
+    const gate = gates.wechat;
+    result.wechat = applyGateToResult(
+      await publishWechat(draft, opts, outDir),
+      gate,
+      { blockedPreview: opts.dryRun && !gate.allowed }
+    );
   }
 
   if (opts.platform === 'xhs' || opts.platform === 'all') {
-    result.xhs = publishXhsPackage(draft, opts, outDir);
+    const gate = gates.xhs;
+    result.xhs = applyGateToResult(
+      publishXhsPackage(draft, opts, outDir),
+      gate,
+      { blockedPreview: opts.dryRun && !gate.allowed }
+    );
   }
 
   const summaryPath = path.join(outDir, 'publish-summary.json');

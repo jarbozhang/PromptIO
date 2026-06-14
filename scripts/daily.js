@@ -9,6 +9,12 @@ import {
   slugify,
   run as generateSingle,
 } from './single.js';
+import {
+  updateSourceCount,
+  upsertSelectedTopic,
+  markDraftReady,
+  markDraftFailed,
+} from './lib/run-manifest.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -291,6 +297,19 @@ function appendDailyLog(date, message) {
   fs.appendFileSync(path.join(logDir, `${date}.md`), `[${ts}] ${message}\n`);
 }
 
+export function recordManifestSelection({ date, sources, topics }) {
+  updateSourceCount(date, sources.length);
+  for (const topic of topics) upsertSelectedTopic(date, topic);
+}
+
+export function recordManifestDraftReady({ date, topic, result }) {
+  markDraftReady(date, topic, result);
+}
+
+export function recordManifestDraftFailed({ date, topic, error }) {
+  markDraftFailed(date, topic, error);
+}
+
 export function applyTopicMetadata(metaPath, topic) {
   const current = yaml.load(fs.readFileSync(metaPath, 'utf8')) || {};
   const next = {
@@ -319,6 +338,7 @@ export async function run(opts) {
   }), opts);
   const topics = normalizeSelection(extractJson(selectionRaw), sources, opts);
   const topicsPath = writeTopicsFile({ date: opts.date, topics });
+  recordManifestSelection({ date: opts.date, sources, topics });
 
   if (opts.dryRun) {
     appendDailyLog(opts.date, `Daily generation dry-run selected ${topics.length} topics.`);
@@ -327,23 +347,31 @@ export async function run(opts) {
 
   const drafts = [];
   for (const topic of topics) {
-    const result = await generateSingle({
-      contentFile: path.join(ROOT, topic.file),
-      angle: topic.angle,
-      title: topic.title,
-      slug: topic.slug,
-      voice: topic.voice,
-      date: opts.date,
-      llmProvider: opts.llmProvider,
-      textModel: opts.textModel,
-      codexBin: opts.codexBin,
-      codexProfile: opts.codexProfile,
-      coverModel: process.env.OPENAI_IMAGE_MODEL || 'gpt-image-2',
-      noCover: opts.noCover,
-      requireCover: opts.requireCover,
-      overwrite: opts.overwrite,
-    });
-    applyTopicMetadata(result.meta, topic);
+    let result;
+    try {
+      result = await generateSingle({
+        contentFile: path.join(ROOT, topic.file),
+        angle: topic.angle,
+        title: topic.title,
+        slug: topic.slug,
+        voice: topic.voice,
+        date: opts.date,
+        llmProvider: opts.llmProvider,
+        textModel: opts.textModel,
+        codexBin: opts.codexBin,
+        codexProfile: opts.codexProfile,
+        coverModel: process.env.OPENAI_IMAGE_MODEL || 'gpt-image-2',
+        noCover: opts.noCover,
+        requireCover: opts.requireCover,
+        overwrite: opts.overwrite,
+      });
+      applyTopicMetadata(result.meta, topic);
+    } catch (err) {
+      recordManifestDraftFailed({ date: opts.date, topic, error: err });
+      throw err;
+    }
+
+    recordManifestDraftReady({ date: opts.date, topic, result });
     drafts.push({ topic, ...result });
 
     if (opts.publishDryRun) {

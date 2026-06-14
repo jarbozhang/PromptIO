@@ -5,6 +5,9 @@ import {
   buildSelectionPrompt,
   normalizeSelection,
   applyTopicMetadata,
+  recordManifestSelection,
+  recordManifestDraftReady,
+  recordManifestDraftFailed,
 } from '../scripts/daily.js';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -137,6 +140,69 @@ describe('daily.js draft metadata', () => {
       assert.match(fs.readFileSync(metaPath, 'utf8'), /reach: 9/);
     } finally {
       fs.rmSync(root, { recursive: true, force: true });
+    }
+  });
+});
+
+describe('daily.js run manifest integration', () => {
+  const manifestDate = '2099-01-02';
+  const manifestDir = path.join(process.cwd(), 'runs', manifestDate);
+
+  it('records selected topics in the run manifest', () => {
+    try {
+      recordManifestSelection({
+        date: manifestDate,
+        sources,
+        topics: [{
+          file: 'sources/2099-01-02/a.md',
+          title: 'Manifest topic',
+          slug: 'manifest-topic',
+          reach: 8,
+          reason: 'test selection',
+        }],
+      });
+
+      const manifest = JSON.parse(fs.readFileSync(path.join(manifestDir, 'manifest.json'), 'utf8'));
+      assert.equal(manifest.source_count, 2);
+      assert.equal(manifest.topics.length, 1);
+      assert.equal(manifest.topics[0].status, 'topics_selected');
+      assert.equal(manifest.topics[0].slug, 'manifest-topic');
+    } finally {
+      fs.rmSync(manifestDir, { recursive: true, force: true });
+    }
+  });
+
+  it('records draft-ready and draft-failed topic states', () => {
+    try {
+      const topic = {
+        file: 'sources/2099-01-02/a.md',
+        title: 'Manifest topic',
+        slug: 'manifest-topic',
+      };
+      recordManifestSelection({ date: manifestDate, sources, topics: [topic] });
+      recordManifestDraftReady({
+        date: manifestDate,
+        topic,
+        result: {
+          dir: path.join(process.cwd(), 'drafts/2099-01-02/manifest-topic'),
+          meta: path.join(process.cwd(), 'drafts/2099-01-02/manifest-topic/meta.yaml'),
+        },
+      });
+      recordManifestDraftFailed({
+        date: manifestDate,
+        topic: { file: 'sources/2099-01-02/b.md', slug: 'failed-topic' },
+        error: new Error('draft failed'),
+      });
+
+      const manifest = JSON.parse(fs.readFileSync(path.join(manifestDir, 'manifest.json'), 'utf8'));
+      const ready = manifest.topics.find(item => item.slug === 'manifest-topic');
+      const failed = manifest.topics.find(item => item.slug === 'failed-topic');
+      assert.equal(ready.status, 'draft_ready');
+      assert.equal(ready.draft_dir, 'drafts/2099-01-02/manifest-topic');
+      assert.equal(failed.status, 'draft_failed');
+      assert.equal(failed.error, 'draft failed');
+    } finally {
+      fs.rmSync(manifestDir, { recursive: true, force: true });
     }
   });
 });

@@ -40,6 +40,13 @@ npm run setup       # 初始化配置
 npm test            # 运行测试
 ```
 
+## Run Manifest / 发布闸门
+
+- `npm run draft:daily` 会把每日选题和草稿生成状态写入 `runs/{date}/manifest.json`，用于恢复失败选题；它不替代 `topics/{date}.json`、draft markdown 或 `meta.yaml`。
+- `npm run publish` 采用 meta-first 发布闸门：先读 `meta.yaml` 的 `qa` 与 `platforms`，缺失或未通过时默认不可发布；dry-run 仍可生成预览，但 summary 会标记 `publishable: false`。
+- legacy draft 如需越过闸门，必须显式传 `--manual-bypass "reason"`，原因会写入 publish summary。
+- 详细操作见 `docs/run-manifest.md`。
+
 ## 目录结构
 
 - `config/sources.yaml` — RSS 源列表

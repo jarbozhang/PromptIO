@@ -13,7 +13,7 @@ import {
   run,
 } from '../scripts/publish.js';
 
-function makeDraft() {
+function makeDraft(metaLines = []) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'promptio-publish-'));
   const draftDir = path.join(root, 'drafts', '2026-05-26', 'demo-slug');
   fs.mkdirSync(draftDir, { recursive: true });
@@ -27,6 +27,7 @@ function makeDraft() {
     'xhs_title: 小红书发布标题可以比较完整',
     'draft_files:',
     '  wechat: demo-slug.md',
+    ...metaLines,
     '',
   ].join('\n'));
   fs.writeFileSync(path.join(draftDir, 'demo-slug.md'), [
@@ -151,16 +152,87 @@ describe('publish.js payload builders', () => {
 
 describe('publish.js dry-run', () => {
   it('run: writes WeChat and XHS artifacts without mutating meta', async () => {
-    const { root, draftDir } = makeDraft();
+    const { root, draftDir } = makeDraft([
+      'qa:',
+      '  overall_pass: true',
+      '  l6_pass: true',
+      'platforms:',
+      '  wechat: primary',
+      '  xhs: primary',
+    ]);
     try {
       const before = fs.readFileSync(path.join(draftDir, 'meta.yaml'), 'utf8');
       const result = await run(parseArgs([draftDir, '--dry-run', '--overwrite']));
 
       assert.equal(result.wechat.status, 'dry_run');
+      assert.equal(result.wechat.publishable, true);
       assert.equal(result.xhs.status, 'dry_run');
+      assert.equal(result.xhs.publishable, true);
       assert.ok(fs.existsSync(path.join(draftDir, 'publish', 'wechat-draft-payload.json')));
       assert.ok(fs.existsSync(path.join(draftDir, 'publish', 'xhs-publish.md')));
       assert.equal(fs.readFileSync(path.join(draftDir, 'meta.yaml'), 'utf8'), before);
+    } finally {
+      cleanup(root);
+    }
+  });
+
+  it('run: dry-run preview marks missing QA as blocked but still writes preview artifacts', async () => {
+    const { root, draftDir } = makeDraft([
+      'platforms:',
+      '  wechat: primary',
+      '  xhs: primary',
+    ]);
+    try {
+      const result = await run(parseArgs([draftDir, '--dry-run', '--overwrite']));
+
+      assert.equal(result.wechat.status, 'blocked_preview');
+      assert.equal(result.wechat.publishable, false);
+      assert.match(result.wechat.gate_reason, /qa\.overall_pass/);
+      assert.equal(result.xhs.status, 'blocked_preview');
+      assert.equal(result.xhs.publishable, false);
+      assert.ok(fs.existsSync(path.join(draftDir, 'publish', 'wechat-draft-payload.json')));
+      assert.ok(fs.existsSync(path.join(draftDir, 'publish', 'xhs-publish.md')));
+    } finally {
+      cleanup(root);
+    }
+  });
+
+  it('run: blocks non-dry-run artifact creation when platform is blocked', async () => {
+    const { root, draftDir } = makeDraft([
+      'qa:',
+      '  overall_pass: true',
+      '  l6_pass: true',
+      'platforms:',
+      '  wechat: primary',
+      '  xhs: blocked',
+    ]);
+    try {
+      await assert.rejects(
+        () => run(parseArgs([draftDir, '--platform', 'xhs', '--overwrite'])),
+        /publish gate blocked xhs/
+      );
+    } finally {
+      cleanup(root);
+    }
+  });
+
+  it('run: manual bypass records the bypass reason in summary result', async () => {
+    const { root, draftDir } = makeDraft([
+      'platforms:',
+      '  wechat: primary',
+    ]);
+    try {
+      const result = await run(parseArgs([
+        draftDir,
+        '--platform', 'wechat',
+        '--dry-run',
+        '--overwrite',
+        '--manual-bypass', 'legacy approved by operator',
+      ]));
+
+      assert.equal(result.wechat.publishable, true);
+      assert.equal(result.wechat.gate_status, 'manual_bypass');
+      assert.equal(result.wechat.bypass_reason, 'legacy approved by operator');
     } finally {
       cleanup(root);
     }
