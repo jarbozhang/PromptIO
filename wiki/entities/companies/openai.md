@@ -89,6 +89,7 @@
 | 2026-05-20 | [[openai-codex-windows-sandbox-dell-on-prem\|OpenAI 给 Codex 上了 Windows sandbox 和 Dell on-prem 企业内网 AI 编程的门终于开了]] | 8 |
 | 2026-05-20 | [[simon-willison-过去6个月-llm-五分钟回顾\|Simon Willison 用 5 分钟把过去 6 个月 LLM 全捋了一遍（OpenAI 作为对照之一）]] | 8 |
 | 2026-05-21 | [[openai-证否-erdős-80年-单位距离猜想-1000美元\|OpenAI 新模型证否 80 年 Erdős 单位距离猜想 算力成本不到 1000 美元]] | 9 |
+| 2026-06-16 | [[Codex 免费重置次数可以攒着用了，什么时候用最划算？|Codex 免费重置次数可以攒着用了，什么时候用最划算？]] | 9 |
 
 ## 注意
 

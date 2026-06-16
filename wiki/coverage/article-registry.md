@@ -2,6 +2,24 @@
 
 全部已生成文章索引，按日期倒序。
 
+## 2026-06-16（7 篇，voice 分布 first-person 6 / narrative 0 / analytical 1 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了|个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了]] | 9 | first-person | [[hermes-agent|Hermes Agent]], [[nousresearch|NousResearch]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform|OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform]] | 9 | first-person | [[openclaw-org|OpenClaw]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[Codex 免费重置次数可以攒着用了，什么时候用最划算？|Codex 免费重置次数可以攒着用了，什么时候用最划算？]] | 9 | first-person | [[openai|OpenAI]], [[codex|Codex]] | [[ai-coding-tools|AI 编程工具]] |
+| [[ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了|ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了]] | 9 | first-person | [[chatgpt|ChatGPT]], [[codex|Codex]] | [[ai-productivity|AI 生产力]] / [[developer-tools|开发者工具]] |
+| [[免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？|免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？]] | 9 | analytical | [[github|GitHub]] | [[developer-tools|开发者工具]] / [[ai-pricing|AI 定价]] |
+| [[本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek|本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek]] | 8 | first-person | [[ollama|Ollama]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]] | [[local-inference|本地推理]] / [[local-first-ai|本地优先 AI]] |
+| [[用 n8n 搭一个自动化助手，400+ 集成别一上来全接|用 n8n 搭一个自动化助手，400+ 集成别一上来全接]] | 8 | first-person | [[n8n|n8n]] | [[ai-workflows|AI 工作流]] / [[agent-frameworks|Agent 框架]] |
+
+**6/16 voice 分布**：first-person 6 / analytical 1 / retro 0。今天恢复 RSS/GitHub/arXiv + X + GitHub Trending + PyPI 信号后生成 7 篇，重点收敛到个人 agent 新版本、AI 编程额度策略、本地工具链和工作流自动化。
+
+**6/16 QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；主稿默认可用于小红书。发布面扫描 0 命中，未出现 Reddit、Hacker News/HN、OpenRouter 及地域二分表达；内部写作约束泄漏守卫新增并通过测试。
+
+**6/16 采集备注**：RSS/GitHub/arXiv 保存 508 new items；GitHub Trending 保存 23 个 AI repo；PyPI 保存 1 份趋势摘要；bird X 保存 213 条来源；TrendRadar Docker 路径缺失 soft-fail。最终 sources 目录 745 个 md，选题使用 220 条高优先级摘要。
+
 
 ## 2026-05-22（7 篇，voice 分布 first-person 4 / narrative 0 / analytical 3 / retro 0）
 

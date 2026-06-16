@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-16T03:24:00.857Z",
+  "topics": [
+    {
+      "file": "sources/2026-06-15/github-trending-0bd21c2c.md",
+      "title": "OpenClaw 最新版怎么开始用：把个人 AI 助手搬回本地",
+      "slug": "OpenClaw最新版个人AI助手上手",
+      "angle": "从 6 月 14 日公开仓库最新更新切入，写清它解决个人数据、跨平台助手和本地可控工作流的什么问题，以及怎么从 README、release、issue/PR 找到可验证入口开始使用。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "OpenClaw 核心生态品牌 + 个人 AI 助手利益点 + GitHub 可直接动手。",
+      "reason": "命中本号核心生态，适合做成公众号的版本解读和小红书的上手清单，读者可以立刻去仓库验证与尝试。"
+    },
+    {
+      "file": "sources/2026-06-15/github-trending-978e35c6.md",
+      "title": "Hermes Agent 新版值得看：从 clawdbot 到 moltbot，Agent 怎么长进你的工作流",
+      "slug": "HermesAgent新版工作流上手",
+      "angle": "从 6 月 14 日最新仓库更新切入，覆盖 Hermes Agent 解决的长期记忆、工具调用和个人工作流沉淀问题，重点写新增能力、openclaw 生态启发和最小上手路径。",
+      "voice": "analytical",
+      "reach": 9,
+      "reach_note": "NousResearch/Hermes 生态品牌 + Agent 工作流利益点 + GitHub 可操作入口。",
+      "reason": "Hermes 与 openclaw 共享生态关键词，是本号应持续跟踪的高优先级选题，适合做成开发者可执行的新版解读。"
+    },
+    {
+      "file": "sources/2026-06-15/github-trending-6eec8646.md",
+      "title": "Ollama 已支持 Kimi-K2.6、GLM-5.1 和 DeepSeek：本地跑模型先试这条路径",
+      "slug": "Ollama本地跑Kimi和DeepSeek",
+      "angle": "把文章写成中文读者的本地模型启动清单：先确认机器条件，再用 Ollama 跑 Kimi、GLM、DeepSeek、Qwen 等模型，最后给出适合写作、代码和知识库问答的选择建议。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "Ollama、Kimi、DeepSeek 等高认知品牌 + 本地运行省试错成本 + 命令行可直接尝试。",
+      "reason": "本地模型是强实操主题，品牌和动作都明确，公众号能做教程，小红书能做“几分钟跑起来”的笔记。"
+    },
+    {
+      "file": "sources/2026-06-15/github-trending-24dc2be7.md",
+      "title": "Dify 的 Agentic Workflow 怎么用：给小团队搭一个能跑的 AI 流程",
+      "slug": "Dify搭建Agentic工作流",
+      "angle": "围绕小团队最常见的客服、资料整理、内部问答三个场景，写清 Dify 的低代码工作流、RAG、MCP 和模型接入怎么组合，读者关心的是不用从零写后端也能快速验证 AI 流程。",
+      "voice": "analytical",
+      "reach": 8,
+      "reach_note": "Dify 品牌 + 低代码省开发成本 + 可直接部署和配置。",
+      "reason": "Dify 在中文开发者和运营团队中认知度高，选题可以落到具体流程搭建，实用性强。"
+    },
+    {
+      "file": "sources/2026-06-15/github-trending-feb34faf.md",
+      "title": "n8n + MCP：不用重写胶水代码，搭一个 AI 自动化工作流",
+      "slug": "n8n加MCP搭AI自动化",
+      "angle": "从 400+ 集成和自托管能力切入，写一个可复用的 AI 自动化模板：触发器、模型调用、工具节点、结果回写；读者关心的是把零散 API 和 Agent 能力串成稳定流程。",
+      "voice": "analytical",
+      "reach": 8,
+      "reach_note": "n8n 在自动化圈有认知 + 节省集成成本 + 可视化配置可直接动手。",
+      "reason": "适合公众号讲工作流架构，也适合小红书做“一个模板跑通”的实操笔记，和 AI Agent 主题高度匹配。"
+    },
+    {
+      "file": "sources/2026-06-15/github-trending-2980df6c.md",
+      "title": "NVIDIA SkillSpector：给 AI Agent 技能做一次本地安全扫描",
+      "slug": "NVIDIA-SkillSpector扫描Agent技能",
+      "angle": "把它写成 Agent 开发者的安全检查清单：扫描 skill、识别恶意模式、看风险报告、接入发布前检查。",
+      "voice": "analytical",
+      "reach": 8,
+      "reach_note": "NVIDIA 品牌 + 安全风险利益点 + 扫描工具可直接运行。",
+      "reason": "Agent 技能越来越多，安全扫描是读者能马上采用的刚需动作，也能和 openclaw 技能生态形成关联。"
+    },
+    {
+      "file": "sources/2026-06-15/openai-blog-0af0c5c7.md",
+      "title": "Wasmer 用 Codex 把边缘 Node.js 运行时做快 10 倍：普通开发者能抄哪些工作流",
+      "slug": "Codex十倍开发工作流复盘",
+      "angle": "不要只转述 10x 到 20x 的结果，而是拆出可迁移的 Codex 工作法：任务拆分、测试护栏、长任务交给 Agent、人工复核节点；读者关心的是怎样把案例变成自己的开发流程。",
+      "voice": "retro",
+      "reach": 8,
+      "reach_note": "OpenAI/Codex 品牌 + 10x 到 20x 效率利益点 + 开发工作流可复用。",
+      "reason": "官方案例信息量足，既有传播点也有方法论，可写成面向开发者的复盘型公众号和小红书清单。"
+    }
+  ]
+}

@@ -80,6 +80,9 @@ Harness / Skills / MCP / Multi-Agent 架构。
 | 2026-05-21 | [[港大-vimax-视频agent-一键当导演\|港大 ViMax 一个 prompt 当导演 编剧分镜制作全自动 国产学界视频 agent]] | 多 agent 视频生成 / 国产学界 |
 | 2026-05-21 | [[anthropic-claude-plugins-official-目录上线-skill-市场\|Anthropic 官方 Claude Code Plugins 目录上线 半天 682 星 终于不用满 GitHub 找 skill]] | 官方 Plugins 目录 / Skills 市场化 |
 | 2026-05-21 | [[chrome-devtools-mcp-官方上线-claude-codex-接管浏览器\|Chrome DevTools MCP 官方版上线 Claude Codex 直接接管浏览器调试不用截图]] | 官方 MCP / agent 接管浏览器 |
+| 2026-06-16 | [[个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了|个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了]] | Hermes Agent 长期记忆 / 工具边界 / 会话恢复 |
+| 2026-06-16 | [[OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform|OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform]] | OpenClaw Gateway / workspace / 多渠道个人助手 |
+| 2026-06-16 | [[用 n8n 搭一个自动化助手，400+ 集成别一上来全接|用 n8n 搭一个自动化助手，400+ 集成别一上来全接]] | n8n AI workflow / 模型节点 / 通知输出 |
 
 ## 饱和度评估
 

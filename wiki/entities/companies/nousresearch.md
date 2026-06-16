@@ -20,6 +20,7 @@
 | 2026-05-07 | [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | 9 |
 | 2026-05-12 | [[hermes-agent-146k-一天涨2000星-nous-research-持久成长\|NousResearch hermes-agent 146k 星了，一天涨 2065 星到底在涨什么]] | 10 |
 | 2026-05-20 | [[nousresearch-hermes-agent-15万星-跨host\|NousResearch hermes-agent 冲上 GitHub Trending 15.8 万星 会成长的 agent 到底长啥样]] | 8 |
+| 2026-06-16 | [[个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了|个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了]] | 9 |
 
 ## 相关主题
 

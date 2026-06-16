@@ -35,6 +35,7 @@
 
 ## 单日记录
 
+- **2026-06-16**：TrendRadar Docker 路径缺失（/tmp/TrendRadar/docker）soft-fail；MIT Technology Review TLS 断开；多个官方 blog/RSS 404 或 403；PyPI ollama/autogen/dspy-ai 返回 429；bird X 抓取成功保存 213 条来源。
 - **2026-05-11**：bird CLI Chrome Safe Storage exit 36 + 无 SWEETISTICS_API_KEY，X 抓取跳过；TrendRadar Docker 目录缺失；Mistral / Perplexity / Stability / Chip Huyen / Lilian Weng / Hamel Husain 6 个源 404
 - **2026-05-10**：同 5/11 X 跳过原因；bird CLI 仍失败
 - **2026-05-08**：bird CLI（X 抓取）继续 cookies 缺失，Reddit RSS 部分 403，TrendRadar Docker 目录缺失（/tmp/TrendRadar/docker），pypi 1 个 429。**Step 2 X 抓取本期跳过，由 Step 3.5 last30days 补社区反馈。**

@@ -49,6 +49,7 @@ llama.cpp + GGUF 量化 + Tailscale/FRP 远程 + MCP 工具集成
 | 2026-05-07 | [[gb10-solution-atlas开源-rust-cuda让qwen3-6-35b单卡100tok每秒\|DGX Spark 单卡跑 Qwen3.6-35B 100+ tok/s，这个 Rust 推理引擎把 PyTorch 整条栈丢出去了]] | 推理引擎 / Rust + CUDA / 砍 Python 栈 |
 | 2026-05-16 | [[whichllm-282hn票-一键查电脑能跑哪个本地llm\|whichllm 282 HN 票本地 LLM 硬件选型 benchmark]] | 硬件→模型映射 / 选型工具 |
 | 2026-05-17 | [[leann本地rag省97存储-个人知识库不用先买硬盘|LEANN 本地 RAG 省 97% 存储]] | 8 |
+| 2026-06-16 | [[本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek|本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek]] | Ollama / 第一台机器 / 本地模型选型 |
 
 ## 饱和度评估
 

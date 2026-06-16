@@ -4,6 +4,7 @@
 
 ## 最近更新
 
+- 2026-06-16 — 7 篇文章（voice 分布 first-person 6 / narrative 0 / analytical 1 / retro 0）。**重新生成完成**：RSS/GitHub/arXiv 508 new items，GitHub Trending 23 AI repos，bird X 抓取 213 条来源，PyPI trends 1 份摘要。**主线**：Hermes Agent 和 OpenClaw 回到新版本能力解读，重点写解决了什么、新增了什么、如何开始；Codex reset 改成额度排班；chatgpt-imagegen、免费 LLM API、Ollama、n8n 走可验证工具路径。**分发策略**：7 篇全部唯一主稿，小红书默认内容，不再区分 publish 文件夹，每个文章目录只保留 1 个 md。**QA**：发布面扫描 0 命中，npm test 122/122 pass。
 - 2026-05-19 — 8 篇文章（voice 分布 first-person 3 / narrative 0 / analytical 4 / retro 1）。**重新生成完成**：RSS/GitHub/arXiv 498 items，GitHub Trending 33 AI repos，bird X 抓取 218 tweets。**新空间打开 6 条**：Gemini API Flex/Priority + Webhooks 成本/延迟分层、Anthropic 收购 Stainless 把 SDK/MCP 生产线纳入 Claude 基础设施、TRAE 真实 Agent Skills 调用数据、Agent Game Forge 本地 2D 游戏 IDE、MIT GenCAD/CAD-Coder 可编辑 CAD program、Codex remote 让 Mac mini/devbox 变常驻后台开发机。**高饱和例外**：Qwen3.6-27B MTP + llama.cpp 60 tokens/s 以实操参数入选；Claude Code Boris 工作流以组织流程角度入选，不做工具横评。**QA 8/8 全过**，L1 2 处，L6 小红书规则 8/8 pass。**分发策略更新**：不再生成 xhs-version.md，8 篇全部唯一主稿 xhs:primary。
 - 2026-05-18 — 9 篇文章（voice 分布 first-person 4 / narrative 0 / analytical 4 / retro 1）。**依赖状态**：last30days skill 已可用，TrendRadar Docker 已运行，bird X 抓取成功保存 221 tweets。**新空间打开 7 条**：Seedance 2.0 长视频成本账、K-Dense 科研 Skills、Dograh 自托管语音客服、飞书 CLI 办公 agent 执行层、DreamServer 本地 AI 服务器、OpenHuman 本地 Obsidian 记忆、华为昇腾 Token 工厂计费。**Google Gemini CLI** 以每天 1000 次免费额度破 AI 编程高饱和例外，**NVIDIA Sana** 把本地生图/视频效率线拉回 8GB 显存创作者场景。QA 9/9 全过，L1 0 处，8 篇 xhs:compliant / 1 篇 xhs:primary。
 - 2026-05-17 — 9 篇文章（voice 分布 first-person 4 / narrative 0 / analytical 4 / retro 1）。**依赖修复**：安装 last30days skill，TrendRadar Docker 恢复运行并抓到 13 条中文热点，bird X 抓取成功保存 227 tweets。**新空间打开 6 条**：NotebookLM + Claude Skill 内容再生产、闲鱼 AI 客服副业自动化、LEANN 本地 RAG 省 97% 存储、CodeGraph Claude Code 代码图预索引、豆包手机号误伤 AI 搜索个人信息安全、Shannon white-box AI pentester 证明式漏洞扫描。**OpenAI Codex** 两个月免费进入企业默认 IDE 争夺，**Google AI pointer** 把 Gemini 入口从聊天框挪到光标，**Chollet** 把 agentic coding 评审拉到 ML 过拟合框架。QA 9/9 全过，L1 2 处，8 篇 xhs:compliant / 1 篇 xhs:primary。
@@ -133,6 +134,9 @@
 - [[ai4animationpy|ai4animationpy]] — Meta 开源神经网络驱动角色动画 Python 框架
 - [[openclaw|openclaw]] — TypeScript 圈最大跨平台个人 AI 助手 / 365k 星 / 4 月安全事件
 - [[hermes-agent|Hermes Agent]] — NousResearch 持久成长 agent / 12 万星 / 接入 openclaw 生态
+- [[ollama|Ollama]] — 本地模型运行入口，2026-06-16 以 Kimi/GLM/MiniMax/DeepSeek/Qwen 选型指南入题
+- [[n8n|n8n]] — 工作流自动化平台，2026-06-16 以 AI 工作流助手和 400+ 集成取舍入题
+- [[github|GitHub]] — 开源项目与趋势源，2026-06-16 免费 LLM API 清单入题
 - [[goose|Goose]] — Block 开源本地 AI 编程 agent / 26k 星 / 绕开 Claude Code $200 订阅
 - [[pageindex|PageIndex]] — VectifyAI vectorless RAG 框架 / 943 星 / 不用 embedding 不用向量数据库
 - [[gpt-5-5-cyber|GPT-5.5-Cyber]] — OpenAI 网络安全垂直模型 / Mythos 路线对照
@@ -171,6 +175,7 @@
 - [[embodied-ai|具身智能]] — Gemma 4 on Jetson Orin Nano / VLA / 桌面机器人
 - [[computer-use-agent|Computer Use Agent]] — Anthropic Claude Computer Use / trycua 跨平台开源基础设施
 - [[openclaw-ecosystem|openclaw 生态]] — openclaw / clawhub / clawdbot / moltbot 体系 / TypeScript 圈个人 AI 助手生态
+- [[local-first-ai|本地优先 AI]] — 个人 agent / 本地记忆 / 本地运行 / 自持有数据边界
 
 ## 源质量 (Sources)
 

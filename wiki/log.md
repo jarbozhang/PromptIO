@@ -2,6 +2,22 @@
 
 追加式记录，最新在前。
 
+## [2026-06-16] generate | 7 drafts, REACH>=8, single XHS-safe main version
+
+- **采集**：RSS/GitHub/arXiv 508 new items；GitHub Trending 23 AI repos；PyPI trends 1 份摘要；bird X 保存 213 条来源；TrendRadar Docker 路径缺失 soft-fail；sources/2026-06-16 共 745 个 md
+- **新增 7 篇文章**：
+  - #1 个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了（REACH 9 first-person，Hermes Agent 新版本 / 长期工作流）
+  - #2 OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform（REACH 9 first-person，OpenClaw 最新仓库动态）
+  - #3 Codex 免费重置次数可以攒着用了，什么时候用最划算？（REACH 9 first-person，Codex 额度排班）
+  - #4 ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了（REACH 9 first-person，本地生图工具）
+  - #5 免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？（REACH 9 analytical，低成本原型入口）
+  - #6 本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek（REACH 8 first-person，本地模型选型）
+  - #7 用 n8n 搭一个自动化助手，400+ 集成别一上来全接（REACH 8 first-person，AI 工作流自动化）
+- **voice 分布**：first-person 6 / analytical 1 / retro 0
+- **QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；发布面扫描 0 命中；npm test 122/122 pass
+- **技能/规则更新**：生成提示和发布面守卫新增“内部写作约束泄漏”与敏感来源字面黑名单；manifest 失败错误改为脱敏摘要，避免历史错误文本污染发布面扫描
+- **实体/主题页同步**：新增/追加 openclaw、Hermes Agent、NousResearch、Codex、ChatGPT、Ollama、n8n、GitHub，以及 agent-frameworks、local-first-ai、local-inference、ai-workflows、developer-tools、ai-pricing、ai-productivity
+
 
 ## [2026-05-22] generate | 7 drafts, REACH>=7, single XHS-safe main version
 

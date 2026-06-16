@@ -40,6 +40,7 @@
 | 2026-05-07 | [[deepseek首轮融资估值45b-国产ai估值新里程碑\|DeepSeek 第一次融资就开 450 亿美金，国产 AI 估值水位被抬到哪了]] | 8 |
 | 2026-05-14 | [[deepseek-v4-flash-openrouter免费-百万token实测\|DeepSeek V4 Flash 5/14 上 OpenRouter 免费 256K + 百万 token agent 实测]] | 10 |
 | 2026-05-14 | [[deepseek-v3-v4架构演进-sparse-attention-rl三步跳\|Raschka 拆 DeepSeek V3 → V3.2 → V4 sparse attention + RL 三步跳]] | 7 |
+| 2026-06-16 | [[本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek|本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek]] | 8 |
 
 ## 相关主题
 

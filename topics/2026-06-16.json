@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T06:46:14.609Z",
+  "topics": [
+    {
+      "file": "sources/2026-06-16/github-trending-978e35c6.md",
+      "title": "NousResearch 的 Hermes Agent 又更新了：把个人 AI 助手从脚本变成长期工作流",
+      "slug": "Hermes-Agent-长期工作流实战",
+      "angle": "从 6 月 16 日仓库更新切入，讲清 Hermes Agent 解决了个人 agent 难持续、难接工具、难沉淀上下文的问题，并给读者一条从 README、示例配置到本地运行的验证路径。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "NousResearch 和 Hermes 命中重点生态，GitHub 可直接查看和运行，个人 agent 工作流有明确实操价值。",
+      "reason": "Hermes Agent 同时关联 clawdbot、moltbot、openclaw、Codex 等关键词，适合做成中文读者能立刻跟着搭建的 agent 工作流选题。"
+    },
+    {
+      "file": "sources/2026-06-16/github-trending-0bd21c2c.md",
+      "title": "OpenClaw 最新仓库更新：为什么个人 AI 助手开始强调 Any OS、Any Platform",
+      "slug": "OpenClaw-个人AI助手最新更新",
+      "angle": "围绕 OpenClaw 最新仓库动态，拆解它想解决的跨系统个人助手、数据自持有和多平台协作问题，并给读者整理从仓库入口、安装条件到第一个可运行任务的开始路径。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "OpenClaw 是重点生态，品牌强、GitHub 入口可操作，个人 AI 助手场景容易传播。",
+      "reason": "OpenClaw 是本号核心生态，适合持续跟进新能力、架构变化和实际可用性，比泛泛报道 agent 概念更有长期价值。"
+    },
+    {
+      "file": "sources/2026-06-16/x-OpenAI-f6aa4591.md",
+      "title": "Codex 免费重置次数可以攒着用了：什么时候用最划算？",
+      "slug": "Codex-免费重置次数怎么用最划算",
+      "angle": "把 OpenAI 这次 Codex rate limit reset 改动写成一篇省钱和排班指南：什么时候该攒、什么时候该用、适合放给代码重构还是长任务排查，帮助 Go、Plus、Pro、Business 用户少浪费额度。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "OpenAI 和 Codex 品牌强，免费 reset 是明确利益点，用户能马上检查账号并调整使用策略。",
+      "reason": "这不是普通产品新闻，而是直接影响 Codex 用户成本和工作流安排的小改动，适合公众号讲判断，小红书讲省额度技巧。"
+    },
+    {
+      "file": "sources/2026-06-16/x-chenchengpro-8121dfe9.md",
+      "title": "ChatGPT 订阅也能直接生图：chatgpt-imagegen 把 Pro 会员价值榨出来了",
+      "slug": "ChatGPT订阅直接生图工具",
+      "angle": "把 chatgpt-imagegen 写成一个本地工具实测选题：读者关心的是不用单独准备 API key、不搭网关、不跑 daemon，能否直接复用 Codex auth 信息完成生图；需要提醒读者确认项目权限、账号条款和本地凭据风险。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "ChatGPT 和 Codex 认知强，不用 API key 是明确利益点，开源工具可立即尝试。",
+      "reason": "它击中 AI 绘图用户最敏感的成本和配置痛点，适合做成可复制的工具体验文。"
+    },
+    {
+      "file": "sources/2026-06-16/github-trending-f844f009.md",
+      "title": "免费 LLM API 资源清单又火了：哪些适合个人项目先跑起来？",
+      "slug": "免费LLM-API资源清单",
+      "angle": "围绕 free-llm-api-resources 做一篇低成本开发指南，帮助读者按用途筛选可用于原型、脚本、学习项目的免费推理入口，同时强调配额、稳定性和数据使用边界。",
+      "voice": "analytical",
+      "reach": 9,
+      "reach_note": "免费 API 是强利益点，GitHub 清单可直接打开筛选，适合个人开发者马上动手。",
+      "reason": "免费模型 API 对中文读者有强吸引力，也能自然延展到预算有限时如何搭建 AI 应用原型。"
+    },
+    {
+      "file": "sources/2026-06-16/github-trending-6eec8646.md",
+      "title": "Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek：本地跑模型怎么选第一台机器？",
+      "slug": "Ollama本地跑国产模型指南",
+      "angle": "从 Ollama 最新描述里的 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、Qwen 切入，写一篇本地运行模型的入门选择指南：读者该先装什么、先跑哪个模型、用什么任务判断是否够用。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "Ollama、DeepSeek、Qwen 等品牌认知强，本地运行可操作，省调用成本的利益点明确。",
+      "reason": "本地模型部署是读者能立刻实践的高频需求，Ollama 的品牌认知和可操作性足够支撑公众号与小红书双端内容。"
+    },
+    {
+      "file": "sources/2026-06-16/github-trending-feb34faf.md",
+      "title": "n8n 的 AI 工作流怎么落地：用 400+ 集成搭一个自己的自动化助手",
+      "slug": "n8n-AI工作流自动化实战",
+      "angle": "把 n8n 的 AI 能力写成一个可复用工作流教程：从触发器、模型调用、MCP/接口集成到通知输出，帮助读者搭建一个能处理日常重复任务的自动化助手。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "n8n 在自动化圈层有认知，400+ 集成和自托管带来利益点，读者能直接搭工作流。",
+      "reason": "n8n 比纯 agent 框架更容易让非专业开发者上手，适合转化为具体的工作流案例和模板。"
+    }
+  ]
+}

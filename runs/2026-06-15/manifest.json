@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-15",
+  "created_at": "2026-06-16T03:24:00.857Z",
+  "updated_at": "2026-06-16T04:00:35.379Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-06-15/github-trending-0bd21c2c.md",
+      "file": "sources/2026-06-15/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw最新版个人AI助手上手",
+      "title": "OpenClaw 最新版怎么开始用：把个人 AI 助手搬回本地",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "OpenClaw 核心生态品牌 + 个人 AI 助手利益点 + GitHub 可直接动手。",
+      "selection_reason": "命中本号核心生态，适合做成公众号的版本解读和小红书的上手清单，读者可以立刻去仓库验证与尝试。",
+      "selected_at": "2026-06-16T03:24:00.858Z",
+      "updated_at": "2026-06-16T04:00:35.376Z",
+      "draft_ready_at": "2026-06-16T04:00:35.375Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-15/把个人 AI 助手搬回本地，OpenClaw 最新版怎么开始用",
+      "meta_path": "drafts/2026-06-15/把个人 AI 助手搬回本地，OpenClaw 最新版怎么开始用/把个人 AI 助手搬回本地，OpenClaw 最新版怎么开始用.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-15/github-trending-978e35c6.md",
+      "file": "sources/2026-06-15/github-trending-978e35c6.md",
+      "slug": "HermesAgent新版工作流上手",
+      "title": "Hermes Agent 新版值得看：从 clawdbot 到 moltbot，Agent 怎么长进你的工作流",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "NousResearch/Hermes 生态品牌 + Agent 工作流利益点 + GitHub 可操作入口。",
+      "selection_reason": "Hermes 与 openclaw 共享生态关键词，是本号应持续跟踪的高优先级选题，适合做成开发者可执行的新版解读。",
+      "selected_at": "2026-06-16T03:24:00.858Z",
+      "updated_at": "2026-06-16T04:00:35.377Z",
+      "draft_ready_at": "2026-06-16T04:00:35.377Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-15/让工作流长记性，Hermes Agent 新版从 clawdbot 到 moltbot",
+      "meta_path": "drafts/2026-06-15/让工作流长记性，Hermes Agent 新版从 clawdbot 到 moltbot/让工作流长记性，Hermes Agent 新版从 clawdbot 到 moltbot.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-15/github-trending-6eec8646.md",
+      "file": "sources/2026-06-15/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑Kimi和DeepSeek",
+      "title": "Ollama 已支持 Kimi-K2.6、GLM-5.1 和 DeepSeek：本地跑模型先试这条路径",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "Ollama、Kimi、DeepSeek 等高认知品牌 + 本地运行省试错成本 + 命令行可直接尝试。",
+      "selection_reason": "本地模型是强实操主题，品牌和动作都明确，公众号能做教程，小红书能做“几分钟跑起来”的笔记。",
+      "selected_at": "2026-06-16T03:24:00.858Z",
+      "updated_at": "2026-06-16T04:00:35.377Z",
+      "draft_ready_at": "2026-06-16T04:00:35.377Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-15/本地跑 Kimi、GLM 和 DeepSeek，Ollama 这条路径先试",
+      "meta_path": "drafts/2026-06-15/本地跑 Kimi、GLM 和 DeepSeek，Ollama 这条路径先试/本地跑 Kimi、GLM 和 DeepSeek，Ollama 这条路径先试.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-15/github-trending-24dc2be7.md",
+      "file": "sources/2026-06-15/github-trending-24dc2be7.md",
+      "slug": "Dify搭建Agentic工作流",
+      "title": "Dify 的 Agentic Workflow 怎么用：给小团队搭一个能跑的 AI 流程",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "Dify 品牌 + 低代码省开发成本 + 可直接部署和配置。",
+      "selection_reason": "Dify 在中文开发者和运营团队中认知度高，选题可以落到具体流程搭建，实用性强。",
+      "selected_at": "2026-06-16T03:24:00.859Z",
+      "updated_at": "2026-06-16T04:00:35.378Z",
+      "draft_ready_at": "2026-06-16T04:00:35.378Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-15/不用从零写后端，Dify 的 Agentic Workflow 怎么搭",
+      "meta_path": "drafts/2026-06-15/不用从零写后端，Dify 的 Agentic Workflow 怎么搭/不用从零写后端，Dify 的 Agentic Workflow 怎么搭.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-15/github-trending-feb34faf.md",
+      "file": "sources/2026-06-15/github-trending-feb34faf.md",
+      "slug": "n8n加MCP搭AI自动化",
+      "title": "n8n + MCP：不用重写胶水代码，搭一个 AI 自动化工作流",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "n8n 在自动化圈有认知 + 节省集成成本 + 可视化配置可直接动手。",
+      "selection_reason": "适合公众号讲工作流架构，也适合小红书做“一个模板跑通”的实操笔记，和 AI Agent 主题高度匹配。",
+      "selected_at": "2026-06-16T03:24:00.859Z",
+      "updated_at": "2026-06-16T04:00:35.379Z",
+      "draft_ready_at": "2026-06-16T04:00:35.378Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-15/不用重写胶水代码，n8n + MCP 搭出 AI 自动化工作流",
+      "meta_path": "drafts/2026-06-15/不用重写胶水代码，n8n + MCP 搭出 AI 自动化工作流/不用重写胶水代码，n8n + MCP 搭出 AI 自动化工作流.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-15/github-trending-2980df6c.md",
+      "file": "sources/2026-06-15/github-trending-2980df6c.md",
+      "slug": "NVIDIA-SkillSpector扫描Agent技能",
+      "title": "NVIDIA SkillSpector：给 AI Agent 技能做一次本地安全扫描",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "NVIDIA 品牌 + 安全风险利益点 + 扫描工具可直接运行。",
+      "selection_reason": "Agent 技能越来越多，安全扫描是读者能马上采用的刚需动作，也能和 openclaw 技能生态形成关联。",
+      "selected_at": "2026-06-16T03:24:00.859Z",
+      "updated_at": "2026-06-16T04:00:35.379Z",
+      "draft_ready_at": "2026-06-16T04:00:35.379Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-15/本地扫描 Agent 技能，NVIDIA SkillSpector 能查什么风险",
+      "meta_path": "drafts/2026-06-15/本地扫描 Agent 技能，NVIDIA SkillSpector 能查什么风险/本地扫描 Agent 技能，NVIDIA SkillSpector 能查什么风险.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-15/openai-blog-0af0c5c7.md",
+      "file": "sources/2026-06-15/openai-blog-0af0c5c7.md",
+      "slug": "Codex十倍开发工作流复盘",
+      "title": "Wasmer 用 Codex 把边缘 Node.js 运行时做快 10 倍：普通开发者能抄哪些工作流",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "OpenAI/Codex 品牌 + 10x 到 20x 效率利益点 + 开发工作流可复用。",
+      "selection_reason": "官方案例信息量足，既有传播点也有方法论，可写成面向开发者的复盘型公众号和小红书清单。",
+      "selected_at": "2026-06-16T03:24:00.859Z",
+      "updated_at": "2026-06-16T04:00:35.379Z",
+      "draft_ready_at": "2026-06-16T04:00:35.379Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-15/普通开发者能抄的 Codex 工作流，Wasmer 把边缘 Node.js 开发提速 10 倍",
+      "meta_path": "drafts/2026-06-15/普通开发者能抄的 Codex 工作流，Wasmer 把边缘 Node.js 开发提速 10 倍/普通开发者能抄的 Codex 工作流，Wasmer 把边缘 Node.js 开发提速 10 倍.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-16T03:24:00.857Z",
+      "source_count": 160
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T03:24:00.858Z",
+      "topic_id": "sources/2026-06-15/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw最新版个人AI助手上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T03:24:00.858Z",
+      "topic_id": "sources/2026-06-15/github-trending-978e35c6.md",
+      "slug": "HermesAgent新版工作流上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T03:24:00.858Z",
+      "topic_id": "sources/2026-06-15/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑Kimi和DeepSeek"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T03:24:00.859Z",
+      "topic_id": "sources/2026-06-15/github-trending-24dc2be7.md",
+      "slug": "Dify搭建Agentic工作流"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T03:24:00.859Z",
+      "topic_id": "sources/2026-06-15/github-trending-feb34faf.md",
+      "slug": "n8n加MCP搭AI自动化"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T03:24:00.859Z",
+      "topic_id": "sources/2026-06-15/github-trending-2980df6c.md",
+      "slug": "NVIDIA-SkillSpector扫描Agent技能"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T03:24:00.859Z",
+      "topic_id": "sources/2026-06-15/openai-blog-0af0c5c7.md",
+      "slug": "Codex十倍开发工作流复盘"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T03:27:19.322Z",
+      "topic_id": "sources/2026-06-15/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw最新版个人AI助手上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T03:30:56.168Z",
+      "topic_id": "sources/2026-06-15/github-trending-978e35c6.md",
+      "slug": "HermesAgent新版工作流上手",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-06-16T03:35:56.183Z",
+      "topic_id": "sources/2026-06-15/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑Kimi和DeepSeek",
+      "error": "codex timed out after 300000ms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T03:56:20.767Z",
+      "topic_id": "sources/2026-06-15/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw最新版个人AI助手上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T03:56:20.771Z",
+      "topic_id": "sources/2026-06-15/github-trending-978e35c6.md",
+      "slug": "HermesAgent新版工作流上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T03:56:20.772Z",
+      "topic_id": "sources/2026-06-15/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑Kimi和DeepSeek",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T03:56:20.774Z",
+      "topic_id": "sources/2026-06-15/github-trending-24dc2be7.md",
+      "slug": "Dify搭建Agentic工作流",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T03:56:20.775Z",
+      "topic_id": "sources/2026-06-15/github-trending-feb34faf.md",
+      "slug": "n8n加MCP搭AI自动化",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T03:56:20.777Z",
+      "topic_id": "sources/2026-06-15/github-trending-2980df6c.md",
+      "slug": "NVIDIA-SkillSpector扫描Agent技能",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T03:56:20.778Z",
+      "topic_id": "sources/2026-06-15/openai-blog-0af0c5c7.md",
+      "slug": "Codex十倍开发工作流复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T04:00:35.376Z",
+      "topic_id": "sources/2026-06-15/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw最新版个人AI助手上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T04:00:35.377Z",
+      "topic_id": "sources/2026-06-15/github-trending-978e35c6.md",
+      "slug": "HermesAgent新版工作流上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T04:00:35.377Z",
+      "topic_id": "sources/2026-06-15/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑Kimi和DeepSeek",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T04:00:35.378Z",
+      "topic_id": "sources/2026-06-15/github-trending-24dc2be7.md",
+      "slug": "Dify搭建Agentic工作流",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T04:00:35.379Z",
+      "topic_id": "sources/2026-06-15/github-trending-feb34faf.md",
+      "slug": "n8n加MCP搭AI自动化",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T04:00:35.379Z",
+      "topic_id": "sources/2026-06-15/github-trending-2980df6c.md",
+      "slug": "NVIDIA-SkillSpector扫描Agent技能",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T04:00:35.379Z",
+      "topic_id": "sources/2026-06-15/openai-blog-0af0c5c7.md",
+      "slug": "Codex十倍开发工作流复盘",
+      "error": ""
+    }
+  ]
+}

@@ -95,6 +95,7 @@ Claude Code / Codex / Cursor 等 AI 编程工具生态。
 | 2026-05-21 | [[xai-grok-build-0-1-编程模型-比codex便宜5倍\|xAI 推 Grok Build 0.1 编程模型 25.6 万上下文 价格只有 Codex 的零头]] | 编程模型新底部 / 多 backend 选项 |
 | 2026-05-21 | [[anthropic-claude-plugins-official-目录上线-skill-市场\|Anthropic 官方 Claude Code Plugins 目录上线 半天 682 星 终于不用满 GitHub 找 skill]] | 官方 Plugins 目录 / Skills 市场化 |
 | 2026-05-21 | [[chrome-devtools-mcp-官方上线-claude-codex-接管浏览器\|Chrome DevTools MCP 官方版上线 Claude Codex 直接接管浏览器调试不用截图]] | DevTools MCP / 浏览器调试 |
+| 2026-06-16 | [[Codex 免费重置次数可以攒着用了，什么时候用最划算？|Codex 免费重置次数可以攒着用了，什么时候用最划算？]] | Codex rate limit reset / 额度排班 |
 
 ## 饱和度评估
 
