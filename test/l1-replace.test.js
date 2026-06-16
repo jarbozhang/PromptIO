@@ -297,6 +297,8 @@ describe('scanPublishSurface — final publish guard', () => {
   it('flags formulaic action headings without banning natural body copy', () => {
     const issues = scanPublishSurface('## 今晚可以这样搭\n\n正文');
     assert.ok(issues.some(issue => issue.type === 'formulaic_heading'));
+    assert.ok(scanPublishSurface('今晚能做什么？').some(issue => issue.type === 'formulaic_heading'));
+    assert.ok(scanPublishSurface('今晚想动手，我建议先跑一条最短路径。').some(issue => issue.type === 'formulaic_heading'));
     assert.deepEqual(scanPublishSurface('正文里说今晚先跑一个低风险任务。'), []);
   });
 

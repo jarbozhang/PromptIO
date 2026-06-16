@@ -248,6 +248,8 @@ describe('single.js CLI', () => {
     assert.ok(prompt.includes('至少有 3 个 ## 二级标题'));
     assert.ok(prompt.includes('可收藏清单或步骤清单'));
     assert.ok(prompt.includes('不要复用“今晚可以这样...”'));
+    assert.ok(prompt.includes('“今晚能做什么”'));
+    assert.ok(prompt.includes('“今晚想动手”'));
     assert.ok(!prompt.includes('今晚可以这样搭'));
     assert.ok(!prompt.includes('"xhs": "# 小红书标题'));
     assert.ok(!prompt.includes('单独生成一份适合小红书图文笔记的短稿'));
