@@ -75,12 +75,13 @@ export function markDraftReady(date, topic, draft, { root = ROOT } = {}) {
     meta_path: normalizePath(draft.meta || draft.metaPath, root),
     error: '',
     draft_ready_at: nowIso(),
+    draft_failed_at: '',
   }, { root });
 }
 
 export function markDraftFailed(date, topic, error, { root = ROOT } = {}) {
   return updateTopicStatus(date, topic, 'draft_failed', {
-    error: errorMessage(error),
+    error: safeErrorMessage(error),
     draft_failed_at: nowIso(),
   }, { root });
 }
@@ -206,8 +207,11 @@ function compactObject(obj) {
   return Object.fromEntries(Object.entries(obj).filter(([, value]) => value !== undefined));
 }
 
-function errorMessage(error) {
-  return error instanceof Error ? error.message : String(error || 'unknown error');
+function safeErrorMessage(error) {
+  const raw = error instanceof Error ? error.message : String(error || 'unknown error');
+  return raw
+    .replace(/contains blocked publish-surface terms:.*$/i, 'contains blocked publish-surface terms')
+    .replace(/Reddit|reddit|Hacker News|Hacker-News|Show HN|Ask HN|\bHN\b|news\.ycombinator\.com|OpenRouter|openrouter|外网|国内|国外|境外|海外|这篇只按|这篇不写|我这篇不写成|我没有把[^。；;\n]*(?:写成|全部跑一遍)|先说明边界|只按公开[^。；;\n]*确认的信息写|不补实测结果|不编安装参数|不替仓库脑补|源材料摘要较短|正文必须|必须明确标注|不要写成连续说明文|本文只基于公开/gi, '[redacted]');
 }
 
 function nowIso() {

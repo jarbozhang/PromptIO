@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import yaml from 'js-yaml';
+import matter from 'gray-matter';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -17,8 +17,8 @@ export function usage() {
     '',
     'Options:',
     '  --platform <wechat|xhs|all>     Default: all',
-    '  --dry-run                       Build local publish payloads only, no platform API calls',
-    '  --out-dir <dir>                 Default: <draft-dir>/publish',
+    '  --dry-run                       Build in-memory publish preview only, no files written',
+    '  --out-dir <dir>                 Ignored for XHS single-md preview; kept for CLI compatibility',
     '  --overwrite                     Recreate local publish files if they already exist',
     '  --manual-bypass <reason>        Override the meta publish gate for legacy/manual review cases',
     '',
@@ -27,7 +27,7 @@ export function usage() {
     '  --wechat-thumb-media-id <id>    Use an existing permanent media id as cover',
     '  --wechat-cover <file>           Upload this cover if no media id is provided',
     '  --wechat-author <name>          Default: WECHAT_AUTHOR or PromptIO',
-    '  --wechat-source-url <url>       Default: source_url from meta.yaml',
+    '  --wechat-source-url <url>       Default: source_url from markdown frontmatter',
     '',
     'Xiaohongshu:',
     '  --xhs-mode <package>            Default: package',
@@ -157,36 +157,39 @@ export function resolveDraftDir(ref) {
   }
 
   for (const candidate of candidates) {
-    if (fs.existsSync(path.join(candidate, 'meta.yaml'))) return candidate;
+    if (findDraftMarkdown(candidate)) return candidate;
   }
 
-  throw new Error(`draft meta.yaml not found for: ${ref}`);
+  throw new Error(`draft markdown not found for: ${ref}`);
 }
 
 export function readDraft(draftDir) {
-  const metaPath = path.join(draftDir, 'meta.yaml');
-  if (!fs.existsSync(metaPath)) throw new Error(`meta.yaml not found: ${metaPath}`);
-  const meta = yaml.load(fs.readFileSync(metaPath, 'utf8')) || {};
+  const markdownPath = findDraftMarkdown(draftDir);
+  if (!markdownPath) throw new Error(`draft markdown not found: ${draftDir}`);
+  const parsed = matter(fs.readFileSync(markdownPath, 'utf8'));
+  const meta = parsed.data || {};
   const slug = path.basename(draftDir);
-  const wechatName = meta.draft_files?.wechat || `${slug}.md`;
-  const wechatPath = path.join(draftDir, wechatName);
-  const xhsPath = meta.draft_files?.xhs
-    ? path.join(draftDir, meta.draft_files.xhs)
-    : wechatPath;
-
-  if (!fs.existsSync(wechatPath)) throw new Error(`WeChat draft not found: ${wechatPath}`);
-  if (!fs.existsSync(xhsPath)) throw new Error(`XHS source draft not found: ${xhsPath}`);
 
   return {
     dir: draftDir,
     slug,
-    metaPath,
+    metaPath: markdownPath,
     meta,
-    wechatPath,
-    xhsPath,
-    wechatMarkdown: fs.readFileSync(wechatPath, 'utf8'),
-    xhsMarkdown: fs.readFileSync(xhsPath, 'utf8'),
+    wechatPath: markdownPath,
+    xhsPath: markdownPath,
+    wechatMarkdown: parsed.content.trim() + '\n',
+    xhsMarkdown: parsed.content.trim() + '\n',
   };
+}
+
+function findDraftMarkdown(draftDir) {
+  if (!fs.existsSync(draftDir) || !fs.statSync(draftDir).isDirectory()) return '';
+  const preferred = path.join(draftDir, `${path.basename(draftDir)}.md`);
+  if (fs.existsSync(preferred)) return preferred;
+  const markdowns = fs.readdirSync(draftDir)
+    .filter(name => name.endsWith('.md') && !name.startsWith('xhs-') && name !== 'xhs-publish.md')
+    .sort();
+  return markdowns.length === 1 ? path.join(draftDir, markdowns[0]) : '';
 }
 
 const ALLOWED_PLATFORM_STATUSES = new Set(['primary', 'compliant']);
@@ -247,15 +250,6 @@ function applyGateToResult(result, gate, { blockedPreview = false } = {}) {
   if (gate.bypass_reason) next.bypass_reason = gate.bypass_reason;
   if (blockedPreview) next.status = 'blocked_preview';
   return next;
-}
-
-function ensureOutDir(draft, opts) {
-  const outDir = opts.outDir
-    ? path.resolve(opts.outDir)
-    : path.join(draft.dir, 'publish');
-  if (fs.existsSync(outDir) && !opts.overwrite) return outDir;
-  fs.mkdirSync(outDir, { recursive: true });
-  return outDir;
 }
 
 export function buildWechatArticle(draft, opts, thumbMediaId) {
@@ -398,7 +392,7 @@ function defaultCoverPath(draft, opts) {
   return coverPath && fs.existsSync(coverPath) ? coverPath : '';
 }
 
-async function publishWechat(draft, opts, outDir) {
+async function publishWechat(draft, opts) {
   let thumbMediaId = opts.wechatThumbMediaId;
   const coverPath = defaultCoverPath(draft, opts);
 
@@ -406,15 +400,11 @@ async function publishWechat(draft, opts, outDir) {
     if (!thumbMediaId) thumbMediaId = '__WECHAT_THUMB_MEDIA_ID__';
     const article = buildWechatArticle(draft, opts, thumbMediaId);
     const payload = { articles: [article] };
-    const htmlPath = path.join(outDir, 'wechat-article.html');
-    const payloadPath = path.join(outDir, 'wechat-draft-payload.json');
-    fs.writeFileSync(htmlPath, article.content);
-    fs.writeFileSync(payloadPath, JSON.stringify(payload, null, 2) + '\n');
     return {
       status: 'dry_run',
       action: opts.wechatAction,
-      html: htmlPath,
-      payload: payloadPath,
+      article,
+      payload,
       cover: coverPath || '',
       thumb_media_id: thumbMediaId,
     };
@@ -569,71 +559,16 @@ function normalizeXhsTags(tags) {
 
 function publishXhsPackage(draft, opts, outDir) {
   const pack = buildXhsPackage(draft);
-  const titlePath = path.join(outDir, 'xhs-title.txt');
-  const bodyPath = path.join(outDir, 'xhs-body.txt');
-  const tagsPath = path.join(outDir, 'xhs-tags.txt');
-  const mdPath = path.join(outDir, 'xhs-publish.md');
-  const payloadPath = path.join(outDir, 'xhs-payload.json');
-
-  fs.writeFileSync(titlePath, pack.title + '\n');
-  fs.writeFileSync(bodyPath, pack.body + '\n');
-  fs.writeFileSync(tagsPath, pack.tags.join(' ') + '\n');
-  fs.writeFileSync(mdPath, [
-    '# 小红书发布包',
-    '',
-    '## 标题',
-    pack.title,
-    '',
-    '## 正文',
-    pack.body,
-    '',
-    '## 标签',
-    pack.tags.join(' '),
-    '',
-    '## 发布入口',
-    'https://creator.xiaohongshu.com/',
-  ].join('\n') + '\n');
-  fs.writeFileSync(payloadPath, JSON.stringify(pack, null, 2) + '\n');
-
-  if (!opts.dryRun) {
-    updatePublishMeta(draft, {
-      xhs: {
-        status: 'package_created',
-        mode: 'manual_creator_center',
-        title_file: path.relative(draft.dir, titlePath),
-        body_file: path.relative(draft.dir, bodyPath),
-        tags_file: path.relative(draft.dir, tagsPath),
-        updated_at: new Date().toISOString(),
-      },
-    });
-  }
 
   return {
     status: opts.dryRun ? 'dry_run' : 'package_created',
     mode: 'manual_creator_center',
-    title: titlePath,
-    body: bodyPath,
-    tags: tagsPath,
-    markdown: mdPath,
-    payload: payloadPath,
+    title: pack.title,
+    body: pack.body,
+    tags: pack.tags,
+    warnings: pack.warnings,
+    payload: pack,
   };
-}
-
-function updatePublishMeta(draft, patch) {
-  const current = yaml.load(fs.readFileSync(draft.metaPath, 'utf8')) || {};
-  const next = {
-    ...current,
-    publish: {
-      ...(current.publish || {}),
-      ...patch,
-    },
-  };
-  fs.writeFileSync(draft.metaPath, yaml.dump(next, {
-    lineWidth: 100,
-    noRefs: true,
-    sortKeys: false,
-  }));
-  draft.meta = next;
 }
 
 export async function run(opts) {
@@ -653,11 +588,9 @@ export async function run(opts) {
     }
   }
 
-  const outDir = ensureOutDir(draft, opts);
-
   const result = {
     draft_dir: draftDir,
-    out_dir: outDir,
+    out_dir: '',
     wechat: null,
     xhs: null,
   };
@@ -665,7 +598,7 @@ export async function run(opts) {
   if (opts.platform === 'wechat' || opts.platform === 'all') {
     const gate = gates.wechat;
     result.wechat = applyGateToResult(
-      await publishWechat(draft, opts, outDir),
+      await publishWechat(draft, opts),
       gate,
       { blockedPreview: opts.dryRun && !gate.allowed }
     );
@@ -674,15 +607,12 @@ export async function run(opts) {
   if (opts.platform === 'xhs' || opts.platform === 'all') {
     const gate = gates.xhs;
     result.xhs = applyGateToResult(
-      publishXhsPackage(draft, opts, outDir),
+      publishXhsPackage(draft, opts),
       gate,
       { blockedPreview: opts.dryRun && !gate.allowed }
     );
   }
 
-  const summaryPath = path.join(outDir, 'publish-summary.json');
-  fs.writeFileSync(summaryPath, JSON.stringify(result, null, 2) + '\n');
-  result.summary = summaryPath;
   return result;
 }
 
@@ -698,14 +628,13 @@ async function main() {
 
   try {
     const result = await run(opts);
-    console.log(`Publish artifacts: ${path.relative(ROOT, result.out_dir)}`);
+    console.log(`Publish preview: ${path.relative(ROOT, result.draft_dir)}`);
     if (result.wechat) {
       console.log(`- WeChat: ${result.wechat.status}${result.wechat.media_id ? ` media_id=${result.wechat.media_id}` : ''}`);
     }
     if (result.xhs) {
       console.log(`- XHS: ${result.xhs.status} (${result.xhs.mode})`);
     }
-    console.log(`- Summary: ${path.relative(ROOT, result.summary)}`);
   } catch (err) {
     console.error(`ERROR: ${err.message}`);
     process.exit(1);

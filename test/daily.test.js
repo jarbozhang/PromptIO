@@ -5,6 +5,9 @@ import {
   buildSelectionPrompt,
   normalizeSelection,
   applyTopicMetadata,
+  filterPublishableSources,
+  normalizeTopicVoice,
+  sourceRisk,
   recordManifestSelection,
   recordManifestDraftReady,
   recordManifestDraftFailed,
@@ -29,6 +32,14 @@ const sources = [
     url: 'https://example.com/b',
     published: '2026-05-27',
     text: 'A coding agent workflow release for developers.',
+  },
+  {
+    file: 'sources/2026-05-27/c.md',
+    title: 'Hermes Agent v0.16 release',
+    source: 'GitHub Release',
+    url: 'https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.5',
+    published: '2026-05-27',
+    text: 'Hermes Agent release adds desktop app, model picker, and multi-profile sessions.',
   },
 ];
 
@@ -84,27 +95,80 @@ describe('daily.js topic selection', () => {
     assert.ok(prompt.includes('"topics"'));
     assert.ok(prompt.includes('"slug"'));
     assert.ok(prompt.includes('drafts/{date}/{slug}/{slug}.md'));
-    assert.ok(prompt.includes('sources/2026-05-27/a.md'));
+    assert.ok(!prompt.includes('sources/2026-05-27/a.md'));
     assert.ok(prompt.includes('只选 REACH >= 7'));
+    assert.ok(prompt.includes('sources/2026-05-27/b.md'));
   });
 
-  it('normalizeSelection: filters unknown and duplicate files', () => {
+  it('filterPublishableSources: removes sensitive source platforms but keeps GitHub', () => {
+    assert.deepEqual(sourceRisk(sources[0]), ['hacker-news']);
+    assert.deepEqual(filterPublishableSources(sources).map(item => item.file), [
+      'sources/2026-05-27/b.md',
+      'sources/2026-05-27/c.md',
+    ]);
+  });
+
+  it('normalizeSelection: filters sensitive, unknown, and duplicate files', () => {
     const topics = normalizeSelection({
       topics: [
         { file: 'sources/2026-05-27/a.md', title: 'A', slug: 'models-dev-选型表', angle: '角度 A', reach: 8 },
         { file: 'sources/2026-05-27/a.md', title: 'A dup', angle: '重复', reach: 8 },
         { file: 'sources/2026-05-27/missing.md', title: 'missing', reach: 9 },
         { file: 'sources/2026-05-27/b.md', title: 'B', angle: '角度 B', reach: 7 },
+        { file: 'sources/2026-05-27/c.md', title: 'Hermes 新版怎么用', angle: '角度 C', reach: 8 },
       ],
     }, sources, { min: 2, count: 2 });
 
     assert.equal(topics.length, 2);
     assert.deepEqual(topics.map(item => item.file), [
-      'sources/2026-05-27/a.md',
       'sources/2026-05-27/b.md',
+      'sources/2026-05-27/c.md',
     ]);
-    assert.equal(topics[0].slug, 'models-dev-选型表');
-    assert.equal(topics[1].slug, 'b');
+    assert.equal(topics[0].slug, 'B');
+    assert.equal(topics[1].slug, 'Hermes 新版怎么用');
+  });
+
+  it('normalizeSelection: rejects selector text that would leak publish-surface terms', () => {
+    const topics = normalizeSelection({
+      topics: [
+        { file: 'sources/2026-05-27/b.md', title: 'OpenRouter 怎么接入', angle: '风险角度', reach: 8 },
+        { file: 'sources/2026-05-27/c.md', title: 'Hermes 新版怎么用', angle: '角度 C', reach: 8 },
+      ],
+    }, sources, { min: 1, count: 1 });
+
+    assert.equal(topics.length, 1);
+    assert.equal(topics[0].file, 'sources/2026-05-27/c.md');
+  });
+
+  it('normalizeTopicVoice: upgrades workflow tutorials away from flat analytical prose', () => {
+    const voice = normalizeTopicVoice({
+      title: '不用从零写后端，Dify 的 Agentic Workflow 怎么搭',
+      angle: '写清楚 RAG、MCP 和 agent 工作流怎么组合成可交付应用',
+      voice: 'analytical',
+    }, {
+      title: 'Dify workflow release',
+      text: 'low-code workflow, RAG, MCP, agent delivery',
+    });
+
+    assert.equal(voice, 'first-person');
+  });
+
+  it('normalizeSelection: sanitizes internal writing instructions from topic metadata', () => {
+    const topics = normalizeSelection({
+      topics: [
+        {
+          file: 'sources/2026-05-27/b.md',
+          title: 'Agent 技能发布前怎么检查',
+          slug: 'Agent技能发布前检查',
+          angle: '写成 Agent 开发者检查清单；源材料摘要较短，正文必须明确标注信息边界，并只基于公开仓库可验证能力。',
+          reach: 8,
+          reason: '源材料摘要较短，正文必须标注信息边界。',
+        },
+      ],
+    }, sources, { min: 1, count: 1 });
+
+    assert.equal(topics[0].angle, '写成 Agent 开发者检查清单。');
+    assert.equal(topics[0].reason, '');
   });
 
   it('normalizeSelection: rejects too few usable topics', () => {
@@ -163,7 +227,7 @@ describe('daily.js run manifest integration', () => {
       });
 
       const manifest = JSON.parse(fs.readFileSync(path.join(manifestDir, 'manifest.json'), 'utf8'));
-      assert.equal(manifest.source_count, 2);
+      assert.equal(manifest.source_count, 3);
       assert.equal(manifest.topics.length, 1);
       assert.equal(manifest.topics[0].status, 'topics_selected');
       assert.equal(manifest.topics[0].slug, 'manifest-topic');

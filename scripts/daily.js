@@ -10,6 +10,11 @@ import {
   run as generateSingle,
 } from './single.js';
 import {
+  assertPublishSurfaceSafe,
+  sanitizeInternalInstructions,
+  scanPublishSurface,
+} from './lib/l1-replace.js';
+import {
   updateSourceCount,
   upsertSelectedTopic,
   markDraftReady,
@@ -20,6 +25,21 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const TODAY = new Date().toISOString().slice(0, 10);
 const SCORING_PROMPT_PATH = path.join(ROOT, 'config/prompts/scoring.md');
+
+const SENSITIVE_SOURCE_RULES = [
+  {
+    name: 'reddit',
+    re: /\breddit\b|reddit\.com|\/r\/[a-z0-9_]+|reddit-r-/i,
+  },
+  {
+    name: 'hacker-news',
+    re: /\bhacker news\b|\bhacker-news\b|news\.ycombinator\.com|\bshow hn\b|\bask hn\b|\bhn\b/i,
+  },
+  {
+    name: 'openrouter',
+    re: /\bopenrouter\b|openrouter\.ai|openrouter-new-model/i,
+  },
+];
 
 export function usage() {
   return [
@@ -159,10 +179,11 @@ export function collectSourceSummaries(date, limit) {
   const summaries = files
     .map(readSourceSummary)
     .filter(item => item.title && item.text)
+    .filter(isPublishableSource)
     .sort((a, b) => sourcePriority(b) - sourcePriority(a))
     .slice(0, limit);
 
-  if (!summaries.length) throw new Error(`no usable sources found in ${sourceDir}`);
+  if (!summaries.length) throw new Error(`no publishable sources found in ${sourceDir}`);
   return summaries;
 }
 
@@ -178,6 +199,7 @@ function readSourceSummary(filepath) {
     file: path.relative(ROOT, filepath),
     title: String(parsed.data.title || '').trim(),
     source: String(parsed.data.source || '').trim(),
+    sourceType: String(parsed.data.source_type || parsed.data.type || '').trim(),
     url: String(parsed.data.url || parsed.data.link || '').trim(),
     published: String(parsed.data.published || '').trim(),
     text,
@@ -185,23 +207,72 @@ function readSourceSummary(filepath) {
   };
 }
 
+export function sourceRisk(item) {
+  const haystack = [
+    item.file,
+    item.title,
+    item.source,
+    item.sourceType,
+    item.url,
+    item.text,
+    item.angle,
+    item.reason,
+    item.reach_note,
+  ].filter(Boolean).join(' ');
+
+  return SENSITIVE_SOURCE_RULES
+    .filter(rule => rule.re.test(haystack))
+    .map(rule => rule.name);
+}
+
+export function isPublishableSource(item) {
+  return sourceRisk(item).length === 0;
+}
+
+export function filterPublishableSources(sources) {
+  return sources.filter(isPublishableSource);
+}
+
+export function normalizeTopicVoice(topic, source = {}) {
+  const explicit = String(topic.voice || '').trim();
+  const haystack = [
+    topic.title,
+    topic.slug,
+    topic.angle,
+    topic.reason,
+    source.title,
+    source.text,
+  ].filter(Boolean).join(' ');
+
+  if (
+    explicit === 'analytical' &&
+    /怎么(搭|用|做|开始|配置|接入)|workflow|工作流|教程|路线图|上手|入门|RAG|MCP|agent|Agent|交付|低代码/i.test(haystack)
+  ) {
+    return 'first-person';
+  }
+
+  return explicit;
+}
+
 function sourcePriority(item) {
   let score = 0;
   const haystack = `${item.file} ${item.title} ${item.source} ${item.text}`.toLowerCase();
   if (/openclaw|clawhub|clawdbot|moltbot|hermes|nousresearch/.test(haystack)) score += 60;
-  if (/openai|anthropic|google|deepmind|github|hacker-news|simon|interconnects|replicate/.test(haystack)) score += 20;
+  if (/openclaw|hermes|nousresearch/.test(haystack) && /release|releases|version|v20\d|更新|新版本|latest|readme/.test(haystack)) score += 25;
+  if (/openai|anthropic|google|deepmind|github|simon|interconnects|replicate/.test(haystack)) score += 20;
   if (/codex|agent|model|llm|api|pricing|open source|developer|tool|cost|benchmark/.test(haystack)) score += 12;
-  if (/github-trending|hacker-news/.test(item.file)) score += Math.min(20, Math.log10(Math.max(item.stars, 1)) * 8);
+  if (/github-trending/.test(item.file)) score += Math.min(20, Math.log10(Math.max(item.stars, 1)) * 8);
   if (/product-hunt|release/.test(item.file)) score -= 8;
   if (item.text.length < 80) score -= 10;
   return score;
 }
 
 export function buildSelectionPrompt({ date, count, min, max, sources }) {
+  const safeSources = filterPublishableSources(sources);
   const scoringPrompt = fs.existsSync(SCORING_PROMPT_PATH)
     ? fs.readFileSync(SCORING_PROMPT_PATH, 'utf8')
     : '';
-  const sourceText = sources.map((item, idx) => [
+  const sourceText = safeSources.map((item, idx) => [
     `### ${idx + 1}. ${item.title}`,
     `file: ${item.file}`,
     `source: ${item.source || 'unknown'}`,
@@ -225,7 +296,7 @@ export function buildSelectionPrompt({ date, count, min, max, sources }) {
     '    {',
     '      "file": "sources/YYYY-MM-DD/example.md",',
     '      "title": "建议公众号标题",',
-    '      "slug": "稳定文件名，中文字符和英文品牌混合的 kebab-case，不要纯拼音",',
+    '      "slug": "中文可读目录名，优先接近最终标题，不要纯英文，不要纯拼音",',
     '      "angle": "中文写作角度，必须具体说明读者为什么要关心",',
     '      "voice": "first-person|narrative|analytical|retro",',
     '      "reach": 7,',
@@ -238,11 +309,15 @@ export function buildSelectionPrompt({ date, count, min, max, sources }) {
     '硬性规则:',
     '- 只选 REACH >= 7 的题目。',
     '- 去重，不要选同一个事实的重复来源。',
-    '- 不要选玄学、境外软件访问教程、纯拉踩标题、账号自动化违规运营教程。',
-    '- 优先中国 AI 用户能立刻动手的东西，尤其是工具、模型、API、省钱、开发者工作流、国产生态、openclaw/NousResearch 生态。',
+    '- 不要选玄学、访问教程、纯拉踩标题、账号自动化违规运营教程。',
+    '- 不要选择或提及 Reddit、Hacker News/HN、OpenRouter 相关来源；GitHub 来源可以正常使用。',
+    '- 不要使用“外网/国内/国外/境外/海外”等二分表达，用“读者/中文读者/公开来源/官方文档/本地运行/可验证入口”等中性表达。',
+    '- 优先中文读者能立刻动手的东西，尤其是工具、模型、API、省钱、开发者工作流、开源生态、openclaw/NousResearch 生态。',
+    '- openclaw 或 Hermes 相关题目必须从新版本切入，覆盖解决的问题、新增能力、启发和怎么开始使用。',
     '- 如果源材料过短但主题重要，angle 里必须要求文章明确标注信息边界。',
+    '- angle、reason、reach_note 只能写给读者/作者看的自然选题角度，不要出现“正文必须”“源材料摘要较短”“只基于公开资料”等内部生成规则。',
     '- file 必须逐字使用 source 列表里的 file。',
-    '- slug 是后续 drafts/{date}/{slug}/{slug}.md 的文件名，必须稳定、可读、短于 80 字符，生成后不要在写作阶段改名。',
+    '- slug 是后续 drafts/{date}/{slug}/{slug}.md 的文件夹和文件名，必须中文可读、接近最终标题、短于 96 字符，生成后不要在写作阶段改名。',
     '',
     '--- scoring guide ---',
     scoringPrompt,
@@ -260,16 +335,38 @@ export function normalizeSelection(selection, sources, opts) {
   for (const item of selection.topics || []) {
     const file = String(item.file || '').trim();
     if (!byFile.has(file) || seen.has(file)) continue;
+    const source = byFile.get(file);
+    const sanitized = {
+      title: String(item.title || source.title || '').trim(),
+      slug: slugify(String(item.slug || item.title || source.title || '').trim()),
+      angle: sanitizeInternalInstructions(String(item.angle || '').trim()),
+      reach_note: sanitizeInternalInstructions(String(item.reach_note || '').trim()),
+      reason: sanitizeInternalInstructions(String(item.reason || '').trim()),
+    };
+    const candidate = {
+      ...source,
+      ...item,
+      ...sanitized,
+      file,
+    };
+    if (!isPublishableSource(candidate)) continue;
+    if (scanPublishSurface([
+      sanitized.title,
+      sanitized.slug,
+      sanitized.angle,
+      sanitized.reach_note,
+      sanitized.reason,
+    ].filter(Boolean).join(' ')).length) continue;
     seen.add(file);
     topics.push({
       file,
-      title: String(item.title || byFile.get(file).title || '').trim(),
-      slug: slugify(String(item.slug || item.title || byFile.get(file).title || '').trim()),
-      angle: String(item.angle || '').trim(),
-      voice: String(item.voice || '').trim(),
+      title: sanitized.title,
+      slug: sanitized.slug,
+      angle: sanitized.angle,
+      voice: normalizeTopicVoice(item, source),
       reach: Number(item.reach || 0) || null,
-      reach_note: String(item.reach_note || '').trim(),
-      reason: String(item.reason || '').trim(),
+      reach_note: sanitized.reach_note,
+      reason: sanitized.reason,
     });
   }
 
@@ -311,19 +408,23 @@ export function recordManifestDraftFailed({ date, topic, error }) {
 }
 
 export function applyTopicMetadata(metaPath, topic) {
-  const current = yaml.load(fs.readFileSync(metaPath, 'utf8')) || {};
+  const parsed = matter(fs.readFileSync(metaPath, 'utf8'));
+  const current = parsed.data || {};
   const next = {
     ...current,
     reach: Number(topic.reach || 0) || current.reach || null,
-    reach_note: topic.reach_note || current.reach_note || '',
-    selection_reason: topic.reason || current.selection_reason || '',
+    angle: sanitizeInternalInstructions(current.angle || topic.angle || ''),
+    reach_note: sanitizeInternalInstructions(topic.reach_note || current.reach_note || ''),
+    selection_reason: sanitizeInternalInstructions(topic.reason || current.selection_reason || ''),
   };
 
-  fs.writeFileSync(metaPath, yaml.dump(next, {
+  const nextMarkdown = `---\n${yaml.dump(next, {
     lineWidth: 100,
     noRefs: true,
     sortKeys: false,
-  }));
+  }).trim()}\n---\n\n${parsed.content.trim()}\n`;
+  assertPublishSurfaceSafe(nextMarkdown, `topic metadata for ${topic.slug || topic.title || metaPath}`);
+  fs.writeFileSync(metaPath, nextMarkdown);
   return next;
 }
 

@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>Ideation: 小红书敏感源与内容生成 Skill 更新</title>
+  <style>
+    :root {
+      --bg: #f7f4ee;
+      --paper: #fffdf9;
+      --ink: #1f2933;
+      --muted: #667085;
+      --line: #e6dfd4;
+      --accent: #b45309;
+      --accent-soft: #fff3df;
+      --danger: #b42318;
+      --danger-soft: #fff1f0;
+      --ok: #166534;
+      --ok-soft: #ecfdf3;
+      --blue: #1d4ed8;
+      --blue-soft: #eff6ff;
+      --shadow: 0 18px 50px rgba(31, 41, 51, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top left, #fff7ed 0, transparent 34rem), var(--bg);
+      color: var(--ink);
+      font: 15.5px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+    .page { max-width: 960px; margin: 0 auto; padding: 48px 24px 64px; }
+    header.hero {
+      background: linear-gradient(135deg, #fffdf9 0%, #fff7ed 100%);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 34px;
+      margin-bottom: 28px;
+    }
+    .eyebrow { color: var(--accent); font-weight: 800; letter-spacing: .08em; text-transform: uppercase; font-size: 12px; }
+    h1 { font-size: clamp(30px, 5vw, 48px); line-height: 1.14; margin: 10px 0 16px; letter-spacing: -0.03em; }
+    h2 { font-size: 25px; margin: 38px 0 14px; line-height: 1.25; letter-spacing: -0.02em; }
+    h3 { font-size: 19px; margin: 0 0 12px; line-height: 1.35; }
+    p { max-width: 72ch; margin: 0 0 14px; }
+    a { color: var(--blue); text-decoration: none; border-bottom: 1px solid rgba(29,78,216,.25); }
+    a:hover { border-bottom-color: currentColor; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: #f3f4f6; border: 1px solid #e5e7eb; border-radius: 6px; padding: 1px 5px; font-size: .92em; }
+    .meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .pill { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; border: 1px solid var(--line); background: #fff; padding: 6px 10px; color: var(--muted); font-size: 13px; }
+    .stat-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 22px 0 4px; }
+    .stat { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: 16px; }
+    .stat b { display: block; font-size: 23px; line-height: 1.1; color: var(--ink); }
+    .stat span { display: block; color: var(--muted); font-size: 13px; margin-top: 5px; }
+    section { margin-top: 28px; }
+    .card, .idea, .callout { background: var(--paper); border: 1px solid var(--line); border-radius: 22px; padding: 22px; box-shadow: 0 10px 28px rgba(31,41,51,.05); margin: 14px 0; }
+    .callout { background: var(--accent-soft); border-color: #fed7aa; }
+    .callout.danger { background: var(--danger-soft); border-color: #fecaca; }
+    .callout.ok { background: var(--ok-soft); border-color: #bbf7d0; }
+    .callout.blue { background: var(--blue-soft); border-color: #bfdbfe; }
+    .label { font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+    .danger .label { color: var(--danger); }
+    .ok .label { color: var(--ok); }
+    .blue .label { color: var(--blue); }
+    .jump-list { display: grid; gap: 8px; padding: 0; margin: 10px 0 18px; list-style: none; }
+    .jump-list a { display: block; background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 10px 12px; color: var(--ink); }
+    .idea { padding: 0; overflow: hidden; }
+    .idea-head { display: flex; gap: 14px; align-items: flex-start; padding: 22px 22px 8px; }
+    .rank { flex: 0 0 auto; width: 42px; height: 42px; border-radius: 14px; background: var(--ink); color: white; display: grid; place-items: center; font-weight: 900; }
+    .idea-body { padding: 0 22px 22px 78px; }
+    dl { display: grid; grid-template-columns: 120px 1fr; gap: 8px 14px; margin: 16px 0; }
+    dt { color: var(--muted); font-weight: 800; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; }
+    dd { margin: 0; }
+    ul { margin-top: 8px; padding-left: 1.25rem; }
+    li { margin: 5px 0; }
+    table { width: 100%; border-collapse: collapse; background: var(--paper); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; display: table; }
+    th, td { text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); padding: 12px 14px; }
+    th { background: #faf5ee; color: #475467; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; }
+    tr:last-child td { border-bottom: 0; }
+    .axes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .axis { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 14px; }
+    .axis b { display: block; margin-bottom: 4px; }
+    .diagram { margin: 16px 0; background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 10px; overflow-x: auto; }
+    .composition-signal { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 18px; }
+    @media (max-width: 760px) {
+      .stat-grid, .axes { grid-template-columns: 1fr; }
+      .idea-body { padding-left: 22px; }
+      dl { grid-template-columns: 1fr; }
+      .page { padding: 28px 14px 48px; }
+      header.hero { padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="eyebrow">ce-ideate · repo-grounded</div>
+      <h1>小红书敏感源与内容生成 Skill 更新</h1>
+      <p>这份独立评估针对 5 条新约束，判断哪些规则必须进入选题、写作、质检和 skill 层，避免下一轮生成继续选中敏感来源、继续强调“可访问差异”，并把 openclaw / Hermes 从泛泛项目介绍改成版本价值拆解。</p>
+      <div class="meta">
+        <span class="pill">date: <time datetime="2026-06-16">2026-06-16</time></span>
+        <span class="pill">topic: xhs-source-risk-and-skill-update</span>
+        <span class="pill">focus: Reddit/HN/OpenRouter 限制、openclaw/Hermes 新版本、去 AI 味</span>
+        <span class="pill">mode: repo-grounded</span>
+      </div>
+      <div class="stat-grid">
+        <div class="stat"><b>3</b><span>今天已生成选题命中敏感源</span></div>
+        <div class="stat"><b>55</b><span>小红书后台样本笔记</span></div>
+        <div class="stat"><b>17,729</b><span>样本最高浏览，强场景/强故事</span></div>
+        <div class="stat"><b>6</b><span>建议保留方向</span></div>
+      </div>
+    </header>
+
+    <section id="grounding-context">
+      <h2>Grounding Context</h2>
+      <article class="callout danger">
+        <div class="label">current failure</div>
+        <p>当前 2026-06-15 选题已经暴露了规则缺口，<code>topics/2026-06-15.json</code> 选入了 OpenRouter、Reddit r/LocalLLaMA、Hacker News 三类来源，对应草稿正文和 frontmatter 也保留了这些平台名、链接和来源说明。仅靠写作模型“尽量不要提”已经不够，风险必须前移到选题门和保存前扫描。</p>
+      </article>
+
+      <div class="card">
+        <h3>代码与 prompt 现状</h3>
+        <ul>
+          <li><code>scripts/daily.js</code> 的 <code>sourcePriority()</code> 仍给 <code>hacker-news</code> 加分，也没有在 <code>normalizeSelection()</code> 或 prompt 前过滤 Reddit/HN/OpenRouter。</li>
+          <li><code>config/prompts/scoring.md</code> 仍允许通过 OpenRouter/镜像讲 API 路径；<code>qa-check.md</code> 和 <code>xhs-compliant.md</code> 也把 OpenRouter 列为可替代入口。</li>
+          <li><code>.claude/skills/daily-content-pipeline/SKILL.md</code> 的 Step 3.5 仍设计为用 last30days 拉 Reddit/HN/GitHub，且会写 <code>community-research.md</code>，这和“只保留一个确认过的 md 文件”以及新的敏感源限制都冲突。</li>
+          <li><code>config/prompts/wechat.md</code> 已经有 L4 活人感终审，但缺少一个保存前的“去 AI 味终修”步骤，导致模型会用边界说明、套路化分节和“本文为 AI 辅助整理”来显得安全，读感仍偏机器。</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>平台样本给出的正向信号</h3>
+        <p><code>data/xhs-note-manager-sample.json</code> 的 55 条样本里，高浏览和高收藏集中在“中文场景 + 明确收益 + 可收藏路线”。例如 17,729 浏览的 Claude Code 交易 bot，5,303 浏览的不联网 AI 听写 App，4,937 浏览的 Gemma 本地跑，1,138 浏览的大模型中文教程路线。相反，“一行 curl 查模型价格”“Dify 论文”“Clawdmeter 桌面小工具”等偏英文工具目录或摘要式标题，浏览明显低。</p>
+        <p>这说明之前的“英文项目名 + 技术摘要”不是主航道。新规则不只是为了避险，也应该把选题推向“今晚能做什么、怎么避坑、适合谁、版本变化解决什么问题”。</p>
+      </div>
+
+      <div class="card">
+        <h3>openclaw / Hermes 最新可用事实</h3>
+        <p>已在 2026-06-16 核对 GitHub API 和 README。openclaw 最新 release 为 <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.6.8-beta.1">v2026.6.8-beta.1</a>，发布时间为 2026-06-14T22:45:33Z，重点不是“冲上 Trending”，而是 Telegram/WhatsApp 渠道投递更稳定、Agent/Gateway 恢复更强、消息工具和会话身份等故障被修复。README 还确认它是可运行在自有设备上的个人 AI 助手，支持多渠道、onboard CLI、Windows Hub、local-first gateway 和 security defaults。</p>
+        <p>Hermes Agent 最新 release 为 <a href="https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.5">v2026.6.5</a>，发布时间为 2026-06-06T00:55:58Z，标题为 The Surface Release。关键变化是原生桌面 App、Web 管理面板、首次设置体验、完整简体中文翻译、远程 gateway 登录等。README 说明它的核心卖点是 learning loop、skills、memory、session search、cron、messaging gateway 和多 backend 运行。写 Hermes 时应优先讲这些版本变化，而不是停留在“会成长的 Agent”口号。</p>
+      </div>
+    </section>
+
+    <section id="topic-axes">
+      <h2>Topic Axes</h2>
+      <div class="axes">
+        <div class="axis"><b>来源准入</b><span>哪些 source 能进入评分，哪些只能内部观察。</span></div>
+        <div class="axis"><b>文本风险面</b><span>标题、正文、frontmatter、相关链接、REACH 注释是否泄漏敏感平台和对立表达。</span></div>
+        <div class="axis"><b>品牌叙事深度</b><span>openclaw / Hermes 从热度稿变成版本解决方案稿。</span></div>
+        <div class="axis"><b>读感与平台表现</b><span>从 AI 综述体转向具体场景、收藏路线、自然中文表达。</span></div>
+      </div>
+    </section>
+
+    <section id="ranked-ideas">
+      <h2>Ranked Ideas</h2>
+      <ul class="jump-list">
+        <li><a href="#idea-1">1. 建立 Source Eligibility Firewall，把敏感源挡在选题前</a></li>
+        <li><a href="#idea-2">2. 为 openclaw / Hermes 单独建立 Release-first 写作镜头</a></li>
+        <li><a href="#idea-3">3. 把“国内/外网”改成中性读者语言规则</a></li>
+        <li><a href="#idea-4">4. 增加保存前 Humanizer 终修，而不是只靠 QA 打分</a></li>
+        <li><a href="#idea-5">5. 把社区反馈改成 GitHub-first 和中文平台信号</a></li>
+        <li><a href="#idea-6">6. 加发布面扫描和回归测试，防止敏感词从 frontmatter 泄漏</a></li>
+      </ul>
+
+      <article class="idea" id="idea-1">
+        <div class="idea-head"><div class="rank">1</div><div><h3>建立 Source Eligibility Firewall，把敏感源挡在选题前</h3><p>把 Reddit、HN、OpenRouter 从“可降权来源”升级为“不可进入发布选题的来源”。GitHub 保留，因为用户明确说 GitHub 可访问，且平台样本也显示 GitHub 中文指南、本地运行、开源教程能带来收藏。</p></div></div>
+        <div class="idea-body">
+          <dl>
+            <dt>Axis</dt><dd>来源准入</dd>
+            <dt>Basis</dt><dd>direct: 当前 <code>topics/2026-06-15.json</code> 已选入 <code>openrouter-new-model-ac0fd8fa.md</code>、<code>reddit-r-localllama-a3573e04.md</code>、<code>hacker-news-algolia-ai-filter-146c08ec.md</code>；<code>scripts/daily.js</code> 仍给 <code>hacker-news</code> 加分。</dd>
+            <dt>Rationale</dt><dd>敏感源如果进入 topics，后续标题、frontmatter、链接、正文都会自然泄漏。前置过滤比生成后改写更稳。</dd>
+            <dt>Downsides</dt><dd>会减少候选池，尤其是 local LLM 和 HN 工具发现；需要用 GitHub releases、GitHub issues、中文平台补信号。</dd>
+            <dt>Confidence</dt><dd>93%</dd>
+            <dt>Complexity</dt><dd>Medium</dd>
+          </dl>
+          <div class="diagram" aria-label="Source firewall flow">
+            <svg width="760" height="160" viewBox="0 0 760 160" role="img">
+              <rect x="20" y="52" width="150" height="56" rx="14" fill="#eff6ff" stroke="#93c5fd"/>
+              <text x="95" y="84" text-anchor="middle" font-size="14" fill="#1e3a8a">source files</text>
+              <path d="M180 80 H270" stroke="#667085" stroke-width="2" marker-end="url(#arrow)"/>
+              <rect x="280" y="36" width="190" height="88" rx="16" fill="#fff7ed" stroke="#fdba74"/>
+              <text x="375" y="68" text-anchor="middle" font-size="14" fill="#92400e">source_risk classifier</text>
+              <text x="375" y="92" text-anchor="middle" font-size="12" fill="#92400e">publishable / internal-only</text>
+              <path d="M480 62 H585" stroke="#166534" stroke-width="2" marker-end="url(#arrow)"/>
+              <path d="M480 100 H585" stroke="#b42318" stroke-width="2" marker-end="url(#arrow)"/>
+              <rect x="595" y="34" width="135" height="48" rx="14" fill="#ecfdf3" stroke="#86efac"/>
+              <text x="662" y="63" text-anchor="middle" font-size="13" fill="#166534">score & draft</text>
+              <rect x="595" y="92" width="135" height="48" rx="14" fill="#fff1f0" stroke="#fca5a5"/>
+              <text x="662" y="121" text-anchor="middle" font-size="13" fill="#b42318">quarantine</text>
+              <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#667085"/></marker></defs>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <article class="idea" id="idea-2">
+        <div class="idea-head"><div class="rank">2</div><div><h3>为 openclaw / Hermes 单独建立 Release-first 写作镜头</h3><p>这两个品牌不应继续写“项目火了、值得关注”这种泛稿。选题命中 openclaw 或 Hermes 时，写作 prompt 应强制补充 release / README / docs 事实，并围绕“解决了什么问题、新增了什么功能、给我们什么启发、今晚怎么试”组织。</p></div></div>
+        <div class="idea-body">
+          <dl>
+            <dt>Axis</dt><dd>品牌叙事深度</dd>
+            <dt>Basis</dt><dd>external: openclaw 最新 <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.6.8-beta.1">v2026.6.8-beta.1</a> 明确有渠道投递与 Agent/Gateway recovery 变化；Hermes <a href="https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.5">v2026.6.5</a> 是 Surface Release，新增桌面 App、Web 管理、中文翻译等。</dd>
+            <dt>Rationale</dt><dd>用户点名 openclaw / Hermes 要关注新版本。版本 lens 能把热度稿转成可交付的更新解读，也更符合小红书收藏型结构。</dd>
+            <dt>Downsides</dt><dd>需要在生成前多抓一次 GitHub release/README；如果 release 信息太长，需要摘要，否则 prompt 会膨胀。</dd>
+            <dt>Confidence</dt><dd>88%</dd>
+            <dt>Complexity</dt><dd>Medium</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="idea" id="idea-3">
+        <div class="idea-head"><div class="rank">3</div><div><h3>把“国内/外网”改成中性读者语言规则</h3><p>不要再把读者分成“国内用户”与“外网/国外工具”。在 skill 和 prompt 里改成“中文读者、读者、小团队、开发者、本地部署、官方文档、公开来源、可验证入口”。这不是文字洁癖，而是降低平台审核联想。</p></div></div>
+        <div class="idea-body">
+          <dl>
+            <dt>Axis</dt><dd>文本风险面</dd>
+            <dt>Basis</dt><dd>direct: 当前 skill 和 prompt 多处出现“国内可访问入口”“国外工具”“国内无法直接访问”“国内用户”等表达；用户明确要求不要区分外网/国内。</dd>
+            <dt>Rationale</dt><dd>正常中文科技文章不需要解释访问边界。中性语言既能保留行动价值，又不会主动触发敏感语义。</dd>
+            <dt>Downsides</dt><dd>需要重写一批既有规则，避免把“可操作”误写成“可访问”。</dd>
+            <dt>Confidence</dt><dd>91%</dd>
+            <dt>Complexity</dt><dd>Low</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="idea" id="idea-4">
+        <div class="idea-head"><div class="rank">4</div><div><h3>增加保存前 Humanizer 终修，而不是只靠 QA 打分</h3><p>现在 L4 会判断“像不像同一个 AI 套出来”，但没有一个稳定的“保存前改写动作”。建议在写作后、frontmatter 写入前增加终修 pass，专门删除模板化边界说明、机械分节、泛泛“适合谁/坑点/今晚能做什么”小标题堆叠，并把必要免责声明融入自然句。</p></div></div>
+        <div class="idea-body">
+          <dl>
+            <dt>Axis</dt><dd>读感与平台表现</dd>
+            <dt>Basis</dt><dd>direct: 今日 openclaw/Hermes 草稿有明显“先把边界说清楚”“适合谁先看”“最小试用清单”“今晚能做什么”等重复骨架；QA 规则已承认具体技法清单会反向制造 AI 味。</dd>
+            <dt>Rationale</dt><dd>去 AI 味不能只列禁用词，否则模型会换一组套话。终修应该以整篇节奏和姿态为单位，删掉解释腔，把文章改成自然分享。</dd>
+            <dt>Downsides</dt><dd>会增加一次 LLM 调用；如果没有约束，可能删掉事实边界。因此需要“只删/替换，不扩写事实”的约束。</dd>
+            <dt>Confidence</dt><dd>82%</dd>
+            <dt>Complexity</dt><dd>Medium</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="idea" id="idea-5">
+        <div class="idea-head"><div class="rank">5</div><div><h3>把社区反馈改成 GitHub-first 和中文平台信号</h3><p>last30days 原本用 Reddit/HN/GitHub 补“社区声音”，但现在 Reddit/HN 要移出发布素材链。替代方案不是放弃真实反馈，而是用 GitHub releases、issues、PR、discussions、README、官方 docs，以及已有中文平台样本做反馈来源。</p></div></div>
+        <div class="idea-body">
+          <dl>
+            <dt>Axis</dt><dd>来源准入</dd>
+            <dt>Basis</dt><dd>direct: <code>.claude/skills/daily-content-pipeline/SKILL.md</code> Step 3.5 明确调用 <code>--search reddit,hn,github</code> 并保存 Reddit thread、HN story；用户明确 GitHub 可访问但 Reddit/HN 不应进入规则。</dd>
+            <dt>Rationale</dt><dd>GitHub 足够支撑开源项目的版本事实、问题反馈和使用边界。中文平台数据可以支撑标题与结构，不需要把不可访问社区搬进正文。</dd>
+            <dt>Downsides</dt><dd>缺少 Reddit/HN 后，部分“开发者口碑”会变少；需要更依赖 release note 和 issues 的信息密度。</dd>
+            <dt>Confidence</dt><dd>86%</dd>
+            <dt>Complexity</dt><dd>Medium</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="idea" id="idea-6">
+        <div class="idea-head"><div class="rank">6</div><div><h3>加发布面扫描和回归测试，防止敏感词从 frontmatter 泄漏</h3><p>风险不只在正文。今天 OpenRouter/Reddit/HN 同时出现在 title、source_file、source_url、tags、reach_note 和相关链接里。保存前扫描必须覆盖完整 md 文件，包括 frontmatter。</p></div></div>
+        <div class="idea-body">
+          <dl>
+            <dt>Axis</dt><dd>文本风险面</dd>
+            <dt>Basis</dt><dd>direct: 当前草稿 markdown frontmatter 保留 <code>source_url</code> 和 <code>source_title</code>，而同步到 Obsidian/发布平台时仍可能被读取或复制。</dd>
+            <dt>Rationale</dt><dd>只扫正文会漏掉最容易被忽略的来源字段。测试用例可以固定防止未来 prompt 或 fetcher 改动回退。</dd>
+            <dt>Downsides</dt><dd>需要区分内部调试文件和最终文章文件；内部 ideation 文档可保留这些词，发布草稿不可保留。</dd>
+            <dt>Confidence</dt><dd>84%</dd>
+            <dt>Complexity</dt><dd>Low</dd>
+          </dl>
+        </div>
+      </article>
+    </section>
+
+    <section id="rejection-summary">
+      <h2>Rejection Summary</h2>
+      <table>
+        <thead><tr><th>#</th><th>Idea</th><th>Reason Rejected</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>只提示 LLM 不要提 Reddit/HN/OpenRouter</td><td>太晚也太弱，当前草稿已经证明来源会泄漏到 frontmatter、标题和链接。</td></tr>
+          <tr><td>2</td><td>保留 OpenRouter，但换成“统一模型路由服务”</td><td>本质仍是敏感源规避写法，且容易变成不透明表述。</td></tr>
+          <tr><td>3</td><td>把所有英文平台名都加入禁用词</td><td>过宽，会误伤 GitHub、OpenAI、Google、Ollama 等可讲的品牌。</td></tr>
+          <tr><td>4</td><td>每个来源都人工确认</td><td>违背每日管线自动化目标；应该用规则自动判定，再把边缘样本报出。</td></tr>
+          <tr><td>5</td><td>所有 openclaw/Hermes 都写安装教程</td><td>用户要的是新版本解决了什么和启发，不是每次都硬写安装教程；没有实测时教程化会编造。</td></tr>
+          <tr><td>6</td><td>继续用“国内可访问入口”作为安全壳</td><td>用户已明确不要区分外网/国内，这个安全壳本身会触发不必要联想。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="recommended-sequence">
+      <h2>Recommended Sequence</h2>
+      <article class="callout ok">
+        <div class="label">implementation order</div>
+        <ol>
+          <li>先更新 <code>scoring.md</code>、<code>daily-content-pipeline/SKILL.md</code> 和 <code>daily.js</code>，让 Reddit/HN/OpenRouter 不再进入 topics。</li>
+          <li>再更新 <code>wechat.md</code>、<code>xhs-compliant.md</code>、<code>qa-check.md</code>，移除 OpenRouter 替代入口和“国内/外网”表达。</li>
+          <li>为 openclaw/Hermes 增加 release-first 生成规则，生成前抓 GitHub release/README 摘要。</li>
+          <li>增加 humanizer 终修和发布面扫描测试。</li>
+          <li>最后删除今天已生成目录，按新规则重新生成，预期会去掉 OpenRouter、Reddit、HN 这 3 篇，补入 GitHub/中文平台安全选题。</li>
+        </ol>
+      </article>
+    </section>
+
+    <footer class="composition-signal">Composed 2026-06-16T00:00+08:00 by ce-ideate from PromptIO repository scan, XHS sample data, current 2026-06-15 drafts, and verified GitHub release/README checks.</footer>
+  </main>
+</body>
+</html>

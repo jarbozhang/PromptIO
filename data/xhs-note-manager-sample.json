@@ -1,0 +1,447 @@
+[
+  {
+    "title": "论文：Dify还能怎么用",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-06-15 16:52",
+    "metrics": { "views": 9, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "一行 curl 查全网 AI 模型价格，models.dev",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-27 14:50",
+    "metrics": { "views": 2, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Anthropic 官方 Claude Code Plugins 目录",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-22 20:28",
+    "metrics": { "views": 90, "comments": 1, "likes": 0, "collects": 2, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Simon Willison 用 5 分钟把过去 6 个月 LL",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-21 09:47",
+    "metrics": { "views": 2, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Clawdmeter 把 Claude Code 用量做成桌面小",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-16 22:59",
+    "metrics": { "views": 3, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "OpenAI Codex on Windows 沙箱方案来了 国",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-05-15 20:50",
+    "metrics": { "views": 5, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Google Gemma 4 来了 和国产 Qwen DeepSeek",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-14 22:21",
+    "metrics": { "views": 248, "comments": 0, "likes": 4, "collects": 4, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "从零学大模型，国内中文教程已经有四条路，",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-13 09:27",
+    "metrics": { "views": 1138, "comments": 0, "likes": 86, "collects": 198, "shares": 29 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Datawhale hello-agents 一夜涨 1197 星，",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-11 14:04",
+    "metrics": { "views": 99, "comments": 0, "likes": 10, "collects": 11, "shares": 3 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "DGX Spark 单卡跑 Qwen3.6-35B 100+ tok/s",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-07 21:39",
+    "metrics": { "views": 688, "comments": 10, "likes": 16, "collects": 25, "shares": 7 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "OpenAI 手机被加速到 2027 量产，新爆料里",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-06 20:54",
+    "metrics": { "views": 713, "comments": 1, "likes": 9, "collects": 5, "shares": 5 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "本来要写 50 行 JSON，现在我用一句中文让",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-05 21:47",
+    "metrics": { "views": 96, "comments": 0, "likes": 1, "collects": 2, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "不让 AI 看截图猜坐标了，agent-desktop 让",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-05-05 20:27",
+    "metrics": { "views": 129, "comments": 0, "likes": 7, "collects": 7, "shares": 1 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "一个开源的闲鱼 AI 客服 agent 一夜涨星，7",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-30 19:44",
+    "metrics": { "views": 2, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Microsoft 把 VibeVoice 开源了，标榜 Fron",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-28 17:03",
+    "metrics": { "views": 172, "comments": 0, "likes": 9, "collects": 7, "shares": 4 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "一个开源工具用 LLM 翻译整本书，断点续传",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-28 13:28",
+    "metrics": { "views": 382, "comments": 1, "likes": 25, "collects": 52, "shares": 11 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Matt Pocock 把自己每天用的 Claude Skills",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-27 21:45",
+    "metrics": { "views": 407, "comments": 0, "likes": 10, "collects": 26, "shares": 4 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "trycua 把 Computer Use Agent 的整套基础",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-27 18:58",
+    "metrics": { "views": 253, "comments": 1, "likes": 10, "collects": 22, "shares": 8 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Gemma 4 塞进 NVIDIA Jetson Orin Nano，20",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-24 18:41",
+    "metrics": { "views": 84, "comments": 0, "likes": 2, "collects": 7, "shares": 6 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "小米 MiMo-V2.5 偷偷上了 OpenRouter，1M c",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-23 20:09",
+    "metrics": { "views": 6, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "一天涨 2548 个 star，这个开源项目想干掉",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-22 19:22",
+    "metrics": { "views": 1191, "comments": 2, "likes": 43, "collects": 178, "shares": 54 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "我跟着 GitHub 42k 星的中文指南用 Gemini",
+    "status": "rejected",
+    "visibility": "public",
+    "publishedAt": "2026-04-21 21:49",
+    "metrics": { "views": 966, "comments": 1, "likes": 99, "collects": 203, "shares": 35 },
+    "ruleSignal": "查看修改建议；本地合规复盘归因为境外工具访问教程",
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "ESP32小屏幕变Claude编程搭子，花token升级",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-21 08:32",
+    "metrics": { "views": 428, "comments": 3, "likes": 6, "collects": 7, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "7个AI玄学Skills，赛博算命/看风水/批八字",
+    "status": "rejected",
+    "visibility": "private",
+    "publishedAt": "2026-04-20 21:10",
+    "metrics": { "views": 1, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "ruleSignal": "查看修改建议；本地合规复盘归因为玄学/封建迷信",
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "有人测了Claude 4.7新tokenizer的真实成本",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-19 23:40",
+    "metrics": { "views": 46, "comments": 0, "likes": 2, "collects": 0, "shares": 2 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "5分钟发招聘、700美元买版画、策略性隐瞒身",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-19 19:40",
+    "metrics": { "views": 18, "comments": 0, "likes": 1, "collects": 1, "shares": 1 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "一键检测你的网站是否为AIAgent做好准备",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-19 18:50",
+    "metrics": { "views": 12, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "当做视频变成写HTML，500条商品短视频只需",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-19 18:38",
+    "metrics": { "views": 405, "comments": 1, "likes": 19, "collects": 43, "shares": 12 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Google发布Android CLI,让AI Agent三分钟开",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-19 13:46",
+    "metrics": { "views": 11, "comments": 0, "likes": 1, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "两个开源工具终结AI做PPT的痛点，可编辑不",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-19 11:38",
+    "metrics": { "views": 9, "comments": 0, "likes": 0, "collects": 0, "shares": 1 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "🥳在小红书赞和收藏破1000啦！️️",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-19 10:41",
+    "metrics": { "views": 5, "comments": 0, "likes": 0, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Qwen3.6-35B在笔记本上画的图比Claude Opus",
+    "status": "rejected",
+    "visibility": "public",
+    "publishedAt": "2026-04-18 15:58",
+    "metrics": { "views": 570, "comments": 0, "likes": 7, "collects": 12, "shares": 5 },
+    "ruleSignal": "查看修改建议；本地合规复盘归因为拉踩测评/竞品优劣断言",
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "有人知道这块匾的来历吗",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-18 11:44",
+    "metrics": { "views": 92, "comments": 0, "likes": 3, "collects": 1, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Google Gemini 3.1 Flash TTS来了，用文字",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-17 10:40",
+    "metrics": { "views": 128, "comments": 0, "likes": 4, "collects": 7, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "交大学生用Claude Code做了个交易bot，一晚",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-16 17:40",
+    "metrics": { "views": 17729, "comments": 47, "likes": 575, "collects": 776, "shares": 249 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "LangAlpha把Claude Code搬到华尔街，HN 110",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-15 14:36",
+    "metrics": { "views": 36, "comments": 0, "likes": 1, "collects": 1, "shares": 3 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "AI视频汉化全自动，一个开源工具搞定下载翻",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-14 14:21",
+    "metrics": { "views": 11, "comments": 0, "likes": 1, "collects": 1, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "VoxCPM 2冲上GitHub Trending，中国开源TTS",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-14 13:36",
+    "metrics": { "views": 241, "comments": 1, "likes": 18, "collects": 21, "shares": 8 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Obsidian加Claude Code打造第二大脑，三个",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-13 19:10",
+    "metrics": { "views": 208, "comments": 0, "likes": 6, "collects": 22, "shares": 4 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "OpenClaw生态30家创业公司营收曝光，卖铲子",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-13 18:43",
+    "metrics": { "views": 330, "comments": 4, "likes": 13, "collects": 25, "shares": 9 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "一张4090就够-Gemma 4离线知识库Agent完整",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-13 18:12",
+    "metrics": { "views": 775, "comments": 0, "likes": 26, "collects": 50, "shares": 18 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "55 个大厂的设计语言塞进一个文件，Claude",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-12 21:47",
+    "metrics": { "views": 213, "comments": 1, "likes": 15, "collects": 29, "shares": 7 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "harness是什么？claude-code和codex高手都",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-12 11:46",
+    "metrics": { "views": 271, "comments": 0, "likes": 13, "collects": 14, "shares": 5 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "chatgpt出了100美元月新档-claude用户该不",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-11 00:14",
+    "metrics": { "views": 382, "comments": 0, "likes": 1, "collects": 1, "shares": 1 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "npm-axios被投毒-karpathy差点中招",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-09 17:32",
+    "metrics": { "views": 910, "comments": 2, "likes": 11, "collects": 13, "shares": 5 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "754B 参数的 Claude Mythos，Anthropic 为",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-08 18:52",
+    "metrics": { "views": 483, "comments": 3, "likes": 5, "collects": 1, "shares": 4 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "10B 参数干翻 GPT 5.4？Holo3 说操控电脑这",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2026-04-08 13:38",
+    "metrics": { "views": 144, "comments": 1, "likes": 3, "collects": 4, "shares": 3 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "Google偷偷上架了一个不联网的AI听写App，",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-07 11:36",
+    "metrics": { "views": 5303, "comments": 47, "likes": 154, "collects": 249, "shares": 73 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "免费满血Gemma 4本地跑，我把Google的27B模",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-04-06 14:55",
+    "metrics": { "views": 4937, "comments": 24, "likes": 126, "collects": 257, "shares": 51 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "把闲置安卓机变成24小时AI助手",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-02-11 19:38",
+    "metrics": { "views": 268, "comments": 4, "likes": 2, "collects": 2, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "告别低效，进入真正的 Vibe Coding 模式！🚀",
+    "status": "published_or_review_passed",
+    "visibility": "public",
+    "publishedAt": "2026-02-09 14:34",
+    "metrics": { "views": 677, "comments": 0, "likes": 6, "collects": 4, "shares": 1 },
+    "media": "video",
+    "duration": "00:14",
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "开工",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2025-03-04 13:24",
+    "metrics": { "views": 81, "comments": 0, "likes": 1, "collects": 0, "shares": 1 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "如何使用 snowpeak喝到更好喝的咖啡",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2024-04-28 15:33",
+    "metrics": { "views": 423, "comments": 1, "likes": 5, "collects": 1, "shares": 1 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "怪奇物语的大魔王",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2024-04-27 10:57",
+    "metrics": { "views": 652, "comments": 6, "likes": 21, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  },
+  {
+    "title": "谁让你这么调皮的",
+    "status": "published_or_review_passed",
+    "visibility": "private",
+    "publishedAt": "2024-04-20 15:30",
+    "metrics": { "views": 486, "comments": 0, "likes": 5, "collects": 0, "shares": 0 },
+    "source": "creator-note-manager-all-55"
+  }
+]

@@ -11,6 +11,7 @@ import {
   extractJson,
   buildCodexExecArgs,
   buildGenerationPrompt,
+  chooseDraftSlug,
 } from '../scripts/single.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -124,16 +125,43 @@ describe('single.js CLI', () => {
     assert.equal(opts.overwrite, true);
   });
 
-  it('slugify: keeps Chinese characters and English brands in kebab-case', () => {
+  it('slugify: keeps readable Chinese titles instead of forcing kebab-case', () => {
     assert.equal(
-      slugify('OpenAI 给 Codex 上了 Windows sandbox，国内 IDE 怎么跟？'),
-      'openai-给-codex-上了-windows-sandbox-国内-ide-怎么跟'
+      slugify('OpenAI 给 Codex 上了 Windows sandbox，IDE 怎么跟？'),
+      'OpenAI 给 Codex 上了 Windows sandbox，IDE 怎么跟？'
+    );
+  });
+
+  it('chooseDraftSlug: prefers the final Chinese title over generated or requested slugs', () => {
+    assert.equal(
+      chooseDraftSlug({
+        requestedSlug: 'dify-rag-mcp-agent-workflow',
+        generatedSlug: 'Dify-不只做聊天框-RAG-MCP-Agent-怎么交付',
+        title: 'Dify 不只做聊天框，RAG、MCP、Agent 怎么交付',
+      }),
+      'Dify 不只做聊天框，RAG、MCP、Agent 怎么交付'
+    );
+  });
+
+  it('chooseDraftSlug: falls back to Chinese title when the requested slug is English-only', () => {
+    assert.equal(
+      chooseDraftSlug({
+        requestedSlug: 'dify-rag-mcp-agent-workflow',
+        generatedSlug: '',
+        title: '中小团队用 Dify 交付 AI 应用',
+      }),
+      '中小团队用 Dify 交付 AI 应用'
     );
   });
 
   it('normalizeMarkdown: removes frontmatter and keeps an H1', () => {
     const md = normalizeMarkdown('---\ntitle: old\n---\n正文第一段', '新标题');
     assert.equal(md, '# 新标题\n\n正文第一段\n');
+  });
+
+  it('normalizeMarkdown: rewrites an existing H1 to the default XHS title', () => {
+    const md = normalizeMarkdown('# 公众号备用标题\n\n正文第一段', '小红书默认标题');
+    assert.equal(md, '# 小红书默认标题\n\n正文第一段\n');
   });
 
   it('extractJson: extracts JSON from a markdown code fence', () => {
@@ -200,7 +228,7 @@ describe('single.js CLI', () => {
     assert.equal(args.at(-1), '-');
   });
 
-  it('buildGenerationPrompt: keeps XHS as primary draft adaptation, not a separate short draft', () => {
+  it('buildGenerationPrompt: keeps XHS content as the default primary draft', () => {
     const prompt = buildGenerationPrompt({
       article: {
         frontmatter: { title: '测试源' },
@@ -212,7 +240,15 @@ describe('single.js CLI', () => {
     });
 
     assert.ok(prompt.includes('"xhs_title"'));
-    assert.ok(prompt.includes('这份主稿必须能直接作为小红书正文使用'));
+    assert.ok(prompt.includes('小红书正文是默认主稿'));
+    assert.ok(prompt.includes('title 和 xhs_title 都按小红书发布标题写'));
+    assert.ok(prompt.includes('不能出现 Reddit、Hacker News/HN、OpenRouter'));
+    assert.ok(prompt.includes('去 AI 味终审'));
+    assert.ok(prompt.includes('openclaw 或 Hermes'));
+    assert.ok(prompt.includes('至少有 3 个 ## 二级标题'));
+    assert.ok(prompt.includes('可收藏清单或步骤清单'));
+    assert.ok(prompt.includes('不要复用“今晚可以这样...”'));
+    assert.ok(!prompt.includes('今晚可以这样搭'));
     assert.ok(!prompt.includes('"xhs": "# 小红书标题'));
     assert.ok(!prompt.includes('单独生成一份适合小红书图文笔记的短稿'));
   });

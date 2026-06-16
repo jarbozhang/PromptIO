@@ -109,6 +109,22 @@ describe('run manifest helper', () => {
     }
   });
 
+  it('redacts blocked publish-surface details from draft failure logs', () => {
+    const root = tempRoot();
+    try {
+      const manifest = markDraftFailed('2026-06-14', {
+        file: 'sources/2026-06-14/a.md',
+        slug: 'demo',
+      }, new Error('generated markdown contains blocked publish-surface terms: instruction_leak:这篇不写, domestic_foreign_framing:外网'), { root });
+
+      assert.equal(manifest.topics[0].status, 'draft_failed');
+      assert.equal(manifest.topics[0].error, 'generated markdown contains blocked publish-surface terms');
+      assert.equal(manifest.events.at(-1).error, 'generated markdown contains blocked publish-surface terms');
+    } finally {
+      cleanup(root);
+    }
+  });
+
   it('does not downgrade draft-ready to selected on rerun', () => {
     const root = tempRoot();
     try {

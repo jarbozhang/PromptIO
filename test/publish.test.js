@@ -17,7 +17,8 @@ function makeDraft(metaLines = []) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'promptio-publish-'));
   const draftDir = path.join(root, 'drafts', '2026-05-26', 'demo-slug');
   fs.mkdirSync(draftDir, { recursive: true });
-  fs.writeFileSync(path.join(draftDir, 'meta.yaml'), [
+  fs.writeFileSync(path.join(draftDir, 'demo-slug.md'), [
+    '---',
     'title: 测试标题',
     'status: draft',
     'source_url: https://example.com/source',
@@ -25,12 +26,9 @@ function makeDraft(metaLines = []) {
     '  - OpenAI',
     '  - AI 编程',
     'xhs_title: 小红书发布标题可以比较完整',
-    'draft_files:',
-    '  wechat: demo-slug.md',
     ...metaLines,
+    '---',
     '',
-  ].join('\n'));
-  fs.writeFileSync(path.join(draftDir, 'demo-slug.md'), [
     '# 微信标题',
     '',
     '第一段摘要，说明这篇文章讲什么。',
@@ -84,7 +82,7 @@ describe('publish.js CLI parsing', () => {
 });
 
 describe('publish.js draft handling', () => {
-  it('readDraft: reads meta and platform draft files', () => {
+  it('readDraft: reads frontmatter and the single markdown draft', () => {
     const { root, draftDir } = makeDraft();
     try {
       const draft = readDraft(draftDir);
@@ -161,16 +159,20 @@ describe('publish.js dry-run', () => {
       '  xhs: primary',
     ]);
     try {
-      const before = fs.readFileSync(path.join(draftDir, 'meta.yaml'), 'utf8');
+      const before = fs.readFileSync(path.join(draftDir, 'demo-slug.md'), 'utf8');
       const result = await run(parseArgs([draftDir, '--dry-run', '--overwrite']));
 
       assert.equal(result.wechat.status, 'dry_run');
       assert.equal(result.wechat.publishable, true);
       assert.equal(result.xhs.status, 'dry_run');
       assert.equal(result.xhs.publishable, true);
-      assert.ok(fs.existsSync(path.join(draftDir, 'publish', 'wechat-draft-payload.json')));
-      assert.ok(fs.existsSync(path.join(draftDir, 'publish', 'xhs-publish.md')));
-      assert.equal(fs.readFileSync(path.join(draftDir, 'meta.yaml'), 'utf8'), before);
+      assert.equal(result.out_dir, '');
+      assert.equal(result.xhs.title, '小红书发布标题可以比较完整');
+      assert.ok(result.xhs.body.includes('第一段摘要'));
+      assert.ok(!fs.existsSync(path.join(draftDir, 'wechat-draft-payload.json')));
+      assert.ok(!fs.existsSync(path.join(draftDir, 'xhs-publish.md')));
+      assert.ok(!fs.existsSync(path.join(draftDir, 'publish', 'xhs-publish.md')));
+      assert.equal(fs.readFileSync(path.join(draftDir, 'demo-slug.md'), 'utf8'), before);
     } finally {
       cleanup(root);
     }
@@ -190,8 +192,12 @@ describe('publish.js dry-run', () => {
       assert.match(result.wechat.gate_reason, /qa\.overall_pass/);
       assert.equal(result.xhs.status, 'blocked_preview');
       assert.equal(result.xhs.publishable, false);
-      assert.ok(fs.existsSync(path.join(draftDir, 'publish', 'wechat-draft-payload.json')));
-      assert.ok(fs.existsSync(path.join(draftDir, 'publish', 'xhs-publish.md')));
+      assert.equal(result.out_dir, '');
+      assert.ok(result.wechat.payload.articles[0].title);
+      assert.ok(result.xhs.payload.body.includes('第一段摘要'));
+      assert.ok(!fs.existsSync(path.join(draftDir, 'wechat-draft-payload.json')));
+      assert.ok(!fs.existsSync(path.join(draftDir, 'xhs-publish.md')));
+      assert.ok(!fs.existsSync(path.join(draftDir, 'publish', 'xhs-publish.md')));
     } finally {
       cleanup(root);
     }
