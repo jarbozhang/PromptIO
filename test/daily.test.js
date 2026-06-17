@@ -3,10 +3,12 @@ import assert from 'node:assert/strict';
 import {
   parseArgs,
   buildSelectionPrompt,
+  classifySource,
   normalizeSelection,
   applyTopicMetadata,
   filterPublishableSources,
   normalizeTopicVoice,
+  selectSourceSummariesForPrompt,
   sourceRisk,
   recordManifestSelection,
   recordManifestDraftReady,
@@ -97,6 +99,11 @@ describe('daily.js topic selection', () => {
     assert.ok(prompt.includes('drafts/{date}/{slug}/{slug}.md'));
     assert.ok(!prompt.includes('sources/2026-05-27/a.md'));
     assert.ok(prompt.includes('只选 REACH >= 7'));
+    assert.ok(prompt.includes('quality_tier:'));
+    assert.ok(prompt.includes('source_role:'));
+    assert.ok(prompt.includes('A 可直接选题'));
+    assert.ok(prompt.includes('X 内容只能提供场景和问题意识'));
+    assert.ok(!prompt.includes('正文必须标注信息边界'));
     assert.ok(prompt.includes('sources/2026-05-27/b.md'));
   });
 
@@ -106,6 +113,106 @@ describe('daily.js topic selection', () => {
       'sources/2026-05-27/b.md',
       'sources/2026-05-27/c.md',
     ]);
+  });
+
+  it('classifySource: marks publishable sources by quality tier, bucket, and role', () => {
+    assert.equal(classifySource(sources[0]).qualityTier, 'D');
+
+    const repo = classifySource({
+      file: 'sources/2026-05-27/github-trending-transformers.md',
+      title: 'huggingface/transformers',
+      source: 'GitHub Trending',
+      sourceType: 'github',
+      url: 'https://github.com/huggingface/transformers',
+      text: 'Transformers is a framework for text, vision, audio, multimodal inference and training. Stars and recent pushes show active maintenance.',
+      stars: 160000,
+    });
+    assert.equal(repo.sourceBucket, 'github-repo');
+    assert.equal(repo.sourceRole, 'fact');
+    assert.equal(repo.qualityTier, 'A');
+
+    const release = classifySource(sources[2]);
+    assert.equal(release.sourceBucket, 'release');
+    assert.equal(release.sourceRole, 'version');
+    assert.equal(release.qualityTier, 'A');
+
+    const xAccount = classifySource({
+      file: 'sources/2026-05-27/x-chenchengpro-abc.md',
+      title: 'AI 写代码之后，瓶颈变成 validate diff',
+      source: 'X @chenchengpro',
+      url: 'https://x.com/chenchengpro/status/1',
+      text: 'AI 写代码比人审代码快太多，瓶颈从 produce diff 挪到了 validate diff。这个工具在真实远端前增加本地闸门，跑 review、test、document、lint，再开干净 PR。'.repeat(4),
+    });
+    assert.equal(xAccount.sourceBucket, 'x-account');
+    assert.equal(xAccount.sourceRole, 'angle');
+    assert.equal(xAccount.qualityTier, 'A');
+  });
+
+  it('selectSourceSummariesForPrompt: keeps source diversity before truncation', () => {
+    const manyGithub = Array.from({ length: 8 }, (_, idx) => ({
+      file: `sources/2026-05-27/github-${idx}.md`,
+      title: `repo ${idx}`,
+      source: 'GitHub Trending',
+      sourceType: 'github',
+      url: `https://github.com/example/repo-${idx}`,
+      text: 'A developer tool repo with workflow, agent, local run, API and benchmark details for readers to verify.',
+      stars: 10000 + idx,
+    }));
+    const release = {
+      file: 'sources/2026-05-27/vllm-releases-abc.md',
+      title: 'vLLM v0.23.0 release',
+      source: 'GitHub Release RSS',
+      url: 'https://github.com/vllm-project/vllm/releases/tag/v0.23.0',
+      text: 'Release notes describe scheduler fixes, inference changes, deployment behavior, and upgrade notes for version v0.23.0.',
+    };
+    const xAccount = {
+      file: 'sources/2026-05-27/x-chenchengpro-abc.md',
+      title: 'Validate diff workflow',
+      source: 'X @chenchengpro',
+      url: 'https://x.com/chenchengpro/status/1',
+      text: 'AI coding workflow shifted from produce diff to validate diff. The thread explains review, test, document, lint and PR gates for agent delivery.'.repeat(4),
+    };
+
+    const selected = selectSourceSummariesForPrompt([...manyGithub, release, xAccount], 5);
+    assert.equal(selected.length, 5);
+    assert.ok(selected.some(item => item.file === release.file));
+    assert.ok(selected.some(item => item.file === xAccount.file));
+    assert.ok(selected.every(item => item.qualityTier !== 'D'));
+  });
+
+  it('selectSourceSummariesForPrompt: caps repeated release families before relaxing', () => {
+    const repeatedReleases = Array.from({ length: 8 }, (_, idx) => ({
+      file: `sources/2026-05-27/anthropic-python-sdk-releases-${idx}.md`,
+      title: `v0.10${idx}.0`,
+      source: 'Anthropic Python SDK Releases',
+      url: `https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.10${idx}.0`,
+      text: 'Release note with version changes, SDK fixes, API behavior and migration notes for agent developers.',
+    }));
+    const repo = {
+      file: 'sources/2026-05-27/github-trending-openclaw.md',
+      title: 'openclaw/openclaw',
+      source: 'GitHub Trending',
+      sourceType: 'github',
+      url: 'https://github.com/openclaw/openclaw',
+      text: 'OpenClaw personal AI assistant with local workflow, agent, GitHub integrations and cross-platform deployment path.',
+      stars: 365000,
+    };
+    const xAccount = {
+      file: 'sources/2026-05-27/x-chenchengpro-diff.md',
+      title: 'Validate diff workflow',
+      source: 'X @chenchengpro',
+      url: 'https://x.com/chenchengpro/status/2',
+      text: 'The thread explains an agent workflow for validate diff, review gates, tests, docs, lint and clean pull requests.'.repeat(4),
+    };
+
+    const selected = selectSourceSummariesForPrompt([...repeatedReleases, repo, xAccount], 6);
+    assert.equal(selected.length, 6);
+    assert.ok(selected.some(item => item.file === repo.file));
+    assert.ok(selected.some(item => item.file === xAccount.file));
+    assert.equal(
+      selected.filter(item => item.file.includes('anthropic-python-sdk-releases')).length,
+      4
+    );
   });
 
   it('normalizeSelection: filters sensitive, unknown, and duplicate files', () => {

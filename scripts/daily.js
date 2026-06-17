@@ -180,11 +180,15 @@ export function collectSourceSummaries(date, limit) {
     .map(readSourceSummary)
     .filter(item => item.title && item.text)
     .filter(isPublishableSource)
-    .sort((a, b) => sourcePriority(b) - sourcePriority(a))
-    .slice(0, limit);
+    .map(item => ({
+      ...item,
+      ...classifySource(item),
+    }));
 
-  if (!summaries.length) throw new Error(`no publishable sources found in ${sourceDir}`);
-  return summaries;
+  const selected = selectSourceSummariesForPrompt(summaries, limit);
+
+  if (!selected.length) throw new Error(`no publishable sources found in ${sourceDir}`);
+  return selected;
 }
 
 function readSourceSummary(filepath) {
@@ -233,6 +237,75 @@ export function filterPublishableSources(sources) {
   return sources.filter(isPublishableSource);
 }
 
+export function classifySource(item) {
+  const risks = sourceRisk(item);
+  const textLength = String(item.text || '').trim().length;
+  const haystack = sourceHaystack(item);
+  const bucket = sourceBucket(item);
+  const role = sourceRole(bucket);
+  const qualityScore = sourceQualityScore(item, { bucket, textLength, haystack, risks });
+  const reasons = [];
+
+  if (risks.length) reasons.push(`blocked:${risks.join(',')}`);
+  if (textLength < 80) reasons.push('thin_summary');
+  if (bucket === 'release') reasons.push('version_signal');
+  if (bucket === 'github-repo') reasons.push('repo_signal');
+  if (bucket === 'x-account') reasons.push('human_signal');
+  if (bucket === 'research') reasons.push('research_depth');
+  if (/openclaw|hermes|nousresearch/i.test(haystack)) reasons.push('priority_ecosystem');
+
+  let tier = 'C';
+  if (risks.length) {
+    tier = 'D';
+  } else if (isDirectTopicSource({ item, bucket, textLength, haystack, qualityScore })) {
+    tier = 'A';
+  } else if (isEvidenceSource({ bucket, textLength, haystack, qualityScore })) {
+    tier = 'B';
+  }
+
+  return {
+    qualityTier: tier,
+    sourceBucket: bucket,
+    sourceRole: role,
+    qualityScore,
+    qualityReasons: reasons,
+  };
+}
+
+export function selectSourceSummariesForPrompt(sources, limit) {
+  const annotated = sources
+    .map(item => item.qualityTier ? item : { ...item, ...classifySource(item) })
+    .filter(item => item.qualityTier !== 'D');
+
+  const selected = [];
+  const seen = new Set();
+  const familyCounts = new Map();
+  const take = (items, count, { relaxed = false } = {}) => {
+    for (const item of items) {
+      if (selected.length >= limit || count <= 0) break;
+      if (seen.has(item.file)) continue;
+      const family = sourceFamily(item);
+      const familyCount = familyCounts.get(family) || 0;
+      if (!relaxed && familyCount >= sourceFamilyLimit(item)) continue;
+      selected.push(item);
+      seen.add(item.file);
+      familyCounts.set(family, familyCount + 1);
+      count--;
+    }
+  };
+
+  const tierA = annotated.filter(item => item.qualityTier === 'A');
+  const tierB = annotated.filter(item => item.qualityTier === 'B');
+  const tierC = annotated.filter(item => item.qualityTier === 'C');
+
+  take(roundRobinByBucket(tierA), Math.min(limit, tierA.length));
+  if (selected.length < limit) take(roundRobinByBucket(tierB), limit - selected.length);
+  if (selected.length < limit) take(roundRobinByBucket(tierC), limit - selected.length);
+  if (selected.length < limit) take(roundRobinByBucket(annotated), limit - selected.length, { relaxed: true });
+
+  return selected;
+}
+
 export function normalizeTopicVoice(topic, source = {}) {
   const explicit = String(topic.voice || '').trim();
   const haystack = [
@@ -255,6 +328,10 @@ export function normalizeTopicVoice(topic, source = {}) {
 }
 
 function sourcePriority(item) {
+  return baseSourcePriority(item) + sourceQualityBoost(item);
+}
+
+function baseSourcePriority(item) {
   let score = 0;
   const haystack = `${item.file} ${item.title} ${item.source} ${item.text}`.toLowerCase();
   if (/openclaw|clawhub|clawdbot|moltbot|hermes|nousresearch/.test(haystack)) score += 60;
@@ -267,8 +344,185 @@ function sourcePriority(item) {
   return score;
 }
 
+function sourceQualityBoost(item) {
+  const classified = item.qualityTier ? item : classifySource(item);
+  if (classified.qualityTier === 'A') return 35;
+  if (classified.qualityTier === 'B') return 12;
+  if (classified.qualityTier === 'D') return -1000;
+  return -8;
+}
+
+function sourceHaystack(item) {
+  return [
+    item.file,
+    item.title,
+    item.source,
+    item.sourceType,
+    item.url,
+    item.text,
+  ].filter(Boolean).join(' ').toLowerCase();
+}
+
+function sourceBucket(item) {
+  const haystack = sourceHaystack(item);
+  const sourceLine = `${item.file} ${item.source} ${item.sourceType} ${item.url}`;
+  if (/github.*releases|-releases-|releases\/tag|github release|release rss|releases?$/i.test(sourceLine)) return 'release';
+  if (/x-home-|home timeline/i.test(sourceLine)) return 'x-home';
+  if (/^x @/i.test(item.source || '') || /^x-[^-]+-/i.test(path.basename(item.file || ''))) return 'x-account';
+  if (/github-trending|source_type:\s*github|github\.com/i.test(sourceLine)) return 'github-repo';
+  if (/arxiv/.test(haystack)) return 'research';
+  if (/product-hunt/.test(haystack)) return 'product-discovery';
+  if (/pypi/.test(haystack)) return 'ecosystem-data';
+  return 'rss';
+}
+
+function sourceRole(bucket) {
+  switch (bucket) {
+    case 'github-repo':
+      return 'fact';
+    case 'release':
+      return 'version';
+    case 'x-account':
+    case 'x-home':
+      return 'angle';
+    case 'research':
+      return 'evidence';
+    case 'product-discovery':
+      return 'discovery';
+    case 'ecosystem-data':
+      return 'adoption';
+    default:
+      return 'background';
+  }
+}
+
+function sourceFamily(item) {
+  const bucket = item.sourceBucket || sourceBucket(item);
+  const basename = path.basename(item.file || '').replace(/-[a-f0-9]{8}\.md$/i, '').replace(/\.md$/i, '');
+  const githubRepo = String(item.url || '').match(/github\.com\/([^/\s]+\/[^/\s#?]+)/i)?.[1]?.toLowerCase();
+  const xHandle = String(item.source || '').match(/^X\s+@(.+)$/i)?.[1]?.trim().toLowerCase();
+
+  if (bucket === 'github-repo' && githubRepo) return `github-repo:${githubRepo}`;
+  if (bucket === 'release') return `release:${githubRepo || basename}`;
+  if (bucket === 'x-account') return `x-account:${xHandle || basename.replace(/-[a-f0-9]+$/i, '')}`;
+  if (bucket === 'x-home') return `x-home:${basename.replace(/^x-home-/, '').replace(/-[a-f0-9]+$/i, '')}`;
+  if (bucket === 'rss') return `rss:${String(item.source || basename).toLowerCase()}`;
+  if (bucket === 'research') return `research:${String(item.source || 'arxiv').toLowerCase()}`;
+  if (bucket === 'product-discovery') return `product:${String(item.source || basename).toLowerCase()}`;
+  return `${bucket}:${String(item.source || basename).toLowerCase()}`;
+}
+
+function sourceFamilyLimit(item) {
+  const bucket = item.sourceBucket || sourceBucket(item);
+  switch (bucket) {
+    case 'github-repo':
+      return 1;
+    case 'release':
+      return 4;
+    case 'x-account':
+      return 4;
+    case 'x-home':
+      return 3;
+    case 'rss':
+      return 5;
+    case 'research':
+      return 12;
+    case 'product-discovery':
+      return 4;
+    default:
+      return 6;
+  }
+}
+
+function sourceQualityScore(item, { bucket, textLength, haystack, risks }) {
+  if (risks.length) return -100;
+
+  let score = baseSourcePriority(item);
+
+  if (textLength >= 700) score += 20;
+  else if (textLength >= 250) score += 14;
+  else if (textLength >= 100) score += 8;
+  else if (textLength < 40) score -= 25;
+
+  if (bucket === 'github-repo') score += 24;
+  if (bucket === 'release') score += 20;
+  if (bucket === 'research') score += 14;
+  if (bucket === 'x-account') score += 12;
+  if (bucket === 'x-home') score -= 4;
+  if (bucket === 'product-discovery') score -= 12;
+
+  if (/release|version|changelog|更新|新版本|latest|v\d/i.test(haystack)) score += 10;
+  if (/workflow|agent|mcp|rag|codex|developer|github|api|benchmark|local|本地|工作流|交付|版本|开源/.test(haystack)) score += 10;
+  if (/openclaw|hermes|nousresearch/i.test(haystack)) score += 30;
+  if (/reddit|hacker news|openrouter/i.test(haystack)) score -= 100;
+
+  return Math.round(score);
+}
+
+function isDirectTopicSource({ item, bucket, textLength, haystack, qualityScore }) {
+  const stars = Number(item.stars || 0) || 0;
+  if (qualityScore >= 70 && textLength >= 80) return true;
+  if (bucket === 'github-repo' && (stars >= 1000 || /openclaw|hermes|nousresearch|dify|transformers|vllm/i.test(haystack))) return true;
+  if (bucket === 'release' && /openclaw|hermes|nousresearch|transformers|vllm|langchain|openai|anthropic/i.test(haystack) && textLength >= 120) return true;
+  if (bucket === 'x-account' && textLength >= 320 && /workflow|agent|codex|github|diff|review|mcp|rag|工作流|验证|交付|开源/i.test(haystack)) return true;
+  if (bucket === 'ecosystem-data' && textLength >= 80) return true;
+  return false;
+}
+
+function isEvidenceSource({ bucket, textLength, haystack, qualityScore }) {
+  if (qualityScore >= 35 && textLength >= 80) return true;
+  if (['release', 'research', 'x-account', 'github-repo'].includes(bucket) && textLength >= 80) return true;
+  if (bucket === 'product-discovery' && textLength >= 40) return true;
+  if (/official|blog|release|paper|github|文档|官方/.test(haystack) && textLength >= 120) return true;
+  return false;
+}
+
+function roundRobinByBucket(items) {
+  const order = [
+    'github-repo',
+    'release',
+    'x-account',
+    'research',
+    'ecosystem-data',
+    'product-discovery',
+    'rss',
+    'x-home',
+  ];
+  const groups = new Map();
+
+  for (const item of items) {
+    const bucket = item.sourceBucket || classifySource(item).sourceBucket;
+    if (!groups.has(bucket)) groups.set(bucket, []);
+    groups.get(bucket).push(item);
+  }
+
+  for (const group of groups.values()) {
+    group.sort((a, b) => sourcePriority(b) - sourcePriority(a) || String(a.file).localeCompare(String(b.file)));
+  }
+
+  const keys = [
+    ...order.filter(key => groups.has(key)),
+    ...[...groups.keys()].filter(key => !order.includes(key)).sort(),
+  ];
+  const out = [];
+  let progressed = true;
+
+  while (progressed) {
+    progressed = false;
+    for (const key of keys) {
+      const group = groups.get(key);
+      if (!group?.length) continue;
+      out.push(group.shift());
+      progressed = true;
+    }
+  }
+
+  return out;
+}
+
 export function buildSelectionPrompt({ date, count, min, max, sources }) {
-  const safeSources = filterPublishableSources(sources);
+  const safeSources = filterPublishableSources(sources)
+    .map(item => item.qualityTier ? item : { ...item, ...classifySource(item) });
   const scoringPrompt = fs.existsSync(SCORING_PROMPT_PATH)
     ? fs.readFileSync(SCORING_PROMPT_PATH, 'utf8')
     : '';
@@ -276,6 +530,9 @@ export function buildSelectionPrompt({ date, count, min, max, sources }) {
     `### ${idx + 1}. ${item.title}`,
     `file: ${item.file}`,
     `source: ${item.source || 'unknown'}`,
+    `quality_tier: ${item.qualityTier}`,
+    `source_bucket: ${item.sourceBucket}`,
+    `source_role: ${item.sourceRole}`,
     `url: ${item.url || 'none'}`,
     `published: ${item.published || 'unknown'}`,
     '',
@@ -314,7 +571,10 @@ export function buildSelectionPrompt({ date, count, min, max, sources }) {
     '- 不要使用“外网/国内/国外/境外/海外”等二分表达，用“读者/中文读者/公开来源/官方文档/本地运行/可验证入口”等中性表达。',
     '- 优先中文读者能立刻动手的东西，尤其是工具、模型、API、省钱、开发者工作流、开源生态、openclaw/NousResearch 生态。',
     '- openclaw 或 Hermes 相关题目必须从新版本切入，覆盖解决的问题、新增能力、启发和怎么开始使用。',
-    '- 如果源材料过短但主题重要，angle 里必须要求文章明确标注信息边界。',
+    '- 使用 source 的 quality_tier 和 source_role：A 可直接选题；B 只能作为需要补官方证据的候选；C 只作背景，除非没有更强素材不要选。',
+    '- source_role=fact/version 的 GitHub、release、官方文档可作事实主源；source_role=angle 的 X 内容只能提供场景和问题意识，不能替代官方事实；source_role=evidence/adoption/background 只能辅助判断。',
+    '- 最终候选不要被单一来源类型占满，优先组合 fact、version、angle、evidence、adoption，让同一天文章既有项目、版本变化、方法论，也有使用场景。',
+    '- 如果源材料过短但主题重要，angle 只写可执行的读者角度，例如“整理成发布前检查清单”或“先用 GitHub release 验证版本变化”，不要写内部边界规则。',
     '- angle、reason、reach_note 只能写给读者/作者看的自然选题角度，不要出现“正文必须”“源材料摘要较短”“只基于公开资料”等内部生成规则。',
     '- file 必须逐字使用 source 列表里的 file。',
     '- slug 是后续 drafts/{date}/{slug}/{slug}.md 的文件夹和文件名，必须中文可读、接近最终标题、短于 96 字符，生成后不要在写作阶段改名。',
