@@ -92,6 +92,23 @@ REACH 分数基于以下三要素评估：
 - 不要虚构你不确定的细节，宁可文章短一点也不编数据
 - openclaw / Hermes 相关选题优先使用 GitHub release、README、issue/PR、官方文档，重点写新版本解决的问题、新增能力、启发和使用路径
 
+## Source quality fields
+
+`scripts/daily.js` 会在进入 selector 前给每条 source 加上质量和角色字段。选题时必须使用这些字段，而不是只看标题热度。
+
+- `quality_tier=A`：可直接选题。通常是信息量充足的 GitHub repo、release、官方来源、长 X 工程方法论或生态数据。
+- `quality_tier=B`：需要补官方证据。可以入选，但 angle 要落到可验证动作，例如读 release、看 README、跑最小 demo，不要让单条推文独立成文。
+- `quality_tier=C`：背景素材。除非没有更强素材，不要作为主选题。
+- `quality_tier=D`：不可发布或风险源。不得选入。
+
+`source_role` 的使用规则：
+
+- `fact` / `version`：可作为事实主源，优先来自 GitHub、release、官方文档。
+- `angle`：只提供场景、痛点、问题意识，不能替代官方事实。
+- `evidence` / `adoption` / `background`：只能辅助判断，不单独支撑核心结论。
+
+同一天选题不要被单一来源类型占满。优先组合项目、版本变化、方法论、使用场景和生态数据，避免连续多篇都像 GitHub 仓库介绍。
+
 ## For each article, provide:
 
 - **title**: A compelling Chinese title. Frame it as something the reader can learn or do. "如何用X实现Y" > "X公司发布了Y"。"我试了X，发现他漏掉了最关键的一步" > "X的技术分析"

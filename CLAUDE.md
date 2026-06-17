@@ -26,8 +26,11 @@
 1. npm run pipeline              # RSS/GitHub/arXiv 采集
 2. bird search "from:{handle}" 抓取 X  # 按 config/sources.yaml 中 x_accounts 列表
    过滤：近14天 + likes>50            # bird CLI 读 Chrome cookies 认证，无需 API key
-3. Claude Code 评分 top 10       # 从全部 sources 中选题，去重已有 drafts
-4. 10 个子代理并行生成文章         # 保存到 drafts/{date}/
+3. npm run draft:daily -- --date YYYY-MM-DD  # 先做 source 分层/配额，再选题生成
+   输入门：Reddit/HN/OpenRouter 不进入公开生成链路；GitHub 正常使用
+   质量层：A 可直接选题，B 需补官方证据，C 只作背景，D 丢弃
+   来源角色：fact/version 作事实主源，angle 只提供场景，evidence/adoption/background 辅助判断
+4. 生成完成后逐篇看质量：标题是否有中文收益点，正文是否有扫读层级，是否泄漏内部规则，是否同批文章复用句式
 5. commit
 ```
 
@@ -78,7 +81,7 @@ npm test            # 运行测试
 文章结构：
 1. 为什么你应该关注这件事（hook）
 2. 把事情讲清楚（技术拆解 + 背景补充）
-3. 社区声音（多平台真实反馈）
+3. 场景/反馈（只写有一手来源的 GitHub issue/PR、X 讨论、知乎/B站等；不写 Reddit/HN）
 4. 我的判断（必须有立场）
 5. 行动建议（可选）
 
@@ -93,6 +96,7 @@ npm test            # 运行测试
 
 3 次违规已导致小红书账号警告。小红书合规采用**选题硬排除 + 主稿改写优先**两段式：
 
+- **Reddit / Hacker News / HN / OpenRouter** → 只允许内部观察，不进入标题、正文、frontmatter、slug、topics JSON 或相关链接
 - **封建迷信**（算命/风水/八字/占卜/运势）→ 选题门 `checkCompliance()` 自动 skip
 - **境外软件访问教程**（翻墙/梯子/Clash/ChatGPT web 注册）→ 选题门 skip，写作层禁用词
 - **纯拉踩标题**（X 干翻/吊打/订阅可以退了/变笨了）→ 选题门 skip，写作层禁用句式
