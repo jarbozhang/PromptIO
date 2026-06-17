@@ -2,6 +2,23 @@
 
 追加式记录，最新在前。
 
+
+## [2026-06-17] generate | 7 drafts, reviewed topics, X source recovery
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集 115 tweets（517 seen / 13 failures，后段触发 429）；补充 OpenClaw v2026.6.8 官方 release/README 摘要源；sources/2026-06-17 共 631 个 md。
+- **新增 7 篇文章**：
+  - #1 个人 AI 助手更稳了，OpenClaw v2026.6.8 补齐多通道交付（REACH 9 first-person，OpenClaw release / 多通道可靠性）
+  - #2 Hermes Studio v0.6.15 长对话、技能命令和本地 Runtime 都更顺了（REACH 9 first-person，Hermes 新版本 / 本地 runtime）
+  - #3 OpenAI Python SDK 2.42.0，先看懂 spend_alerts，再给团队 API 花费上闸门（REACH 8 first-person，API 成本控制）
+  - #4 Codex 操控电脑的三种方式，什么时候用 Computer Use、Chrome 扩展和内置浏览器（REACH 9 analytical，Codex 自动化入口选择）
+  - #5 AI 写代码之后，怎么守住 PR 质量，no-mistakes 的本地闸门思路（REACH 8 first-person，代码交付门禁）
+  - #6 vLLM 0.23.0 更新，DeepSeek-V4 和 Qwen3 部署党该看哪些变化（REACH 8 analytical，推理部署升级清单）
+  - #7 Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen，本地模型玩家该怎么选第一套组合（REACH 9 first-person，本地模型选型）
+- **voice 分布**：first-person 5 / analytical 2 / retro 0。
+- **QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；发布面扫描 0 命中；npm test 129/129 pass。
+- **技能/流程更新**：新增 npm run fetch:x；daily 支持 --topics-file 审核后生成；选题 prompt 增加同实体/同产品线去重；发布面守卫新增 AI 辅助/非实测元叙事扫描；manifest 支持 superseded，避免多次 dry-run 的旧候选污染状态。
+- **发现的后续改进**：X 抓取需要 delay / 429 后停止策略；RSS 失效源仍需清理；长 X 帖和 release 源应先摘要再生成以缩短运行时间；manifest 可增加 reviewed_set_id 便于追踪最终选题批次。
+
 ## [2026-06-16] generate | 7 drafts, REACH>=8, single XHS-safe main version
 
 - **采集**：RSS/GitHub/arXiv 508 new items；GitHub Trending 23 AI repos；PyPI trends 1 份摘要；bird X 保存 213 条来源；TrendRadar Docker 路径缺失 soft-fail；sources/2026-06-16 共 745 个 md

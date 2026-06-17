@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-17",
+  "created_at": "2026-06-17T03:22:43.362Z",
+  "updated_at": "2026-06-17T03:59:06.592Z",
+  "source_count": 260,
+  "topics": [
+    {
+      "id": "sources/2026-06-17/github-trending-978e35c6.md",
+      "file": "sources/2026-06-17/github-trending-978e35c6.md",
+      "slug": "nousresearch-hermes-agent-今天动手试",
+      "title": "NousResearch 的 Hermes Agent 值得今天动手试：一个会随使用增长的开源 agent",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "NousResearch、Hermes、openclaw 生态有品牌识别，开源仓库可直接上手，适合做本地 agent 工作流实践。",
+      "selection_reason": "命中本号重点生态，且 GitHub fact 源足够强；相比普通 agent 仓库，它更适合写成“怎么开始用、能替你积累什么能力”的实操选题。",
+      "selected_at": "2026-06-17T03:22:43.362Z",
+      "updated_at": "2026-06-17T03:59:06.589Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-17/x-libapi_-2ad3eed3.md",
+      "file": "sources/2026-06-17/x-libapi_-2ad3eed3.md",
+      "slug": "Hermes Studio v0.6.15 长对话和本地运行更新",
+      "title": "Hermes Studio v0.6.15：长对话、技能命令和本地 Runtime 都更顺了",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "Hermes 生态有持续关注价值，版本更新明确，读者可直接升级体验。",
+      "selection_reason": "这是当天最适合跟进的 Hermes 新版本题材，既有产品变化，也有本地运行和工作流层面的改进。",
+      "selected_at": "2026-06-17T03:22:43.362Z",
+      "updated_at": "2026-06-17T03:59:06.590Z",
+      "draft_ready_at": "2026-06-17T03:36:56.217Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-17/Hermes Studio v0.6.15 长对话、技能命令和本地 Runtime 都更顺了",
+      "meta_path": "drafts/2026-06-17/Hermes Studio v0.6.15 长对话、技能命令和本地 Runtime 都更顺了/Hermes Studio v0.6.15 长对话、技能命令和本地 Runtime 都更顺了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-17/github-trending-0bd21c2c.md",
+      "file": "sources/2026-06-17/github-trending-0bd21c2c.md",
+      "slug": "openclaw-个人-ai-助手数据自己管",
+      "title": "openclaw 又上热门：个人 AI 助手为什么要先强调“自己的数据自己管”",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "openclaw 是重点品牌，个人 AI 助手和数据自主有明确利益点，GitHub 仓库可直接尝试。",
+      "selection_reason": "品牌和定位高度契合 PromptIO，适合做一篇面向新读者的入口文章，把项目价值和开始使用路径讲清楚。",
+      "selected_at": "2026-06-17T03:22:43.362Z",
+      "updated_at": "2026-06-17T03:59:06.589Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-17/openai-python-sdk-releases-052770e0.md",
+      "file": "sources/2026-06-17/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI Python SDK 2.42.0 花费告警上手",
+      "title": "OpenAI Python SDK 2.42.0：先看懂 spend_alerts，再给团队 API 花费上闸门",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "OpenAI 品牌强，花费告警是明确利益点，开发者可立刻检查 SDK 与后台配置。",
+      "selection_reason": "OpenAI release 是事实主源，主题兼具品牌、成本和工程可操作性，比普通 SDK 更新更容易转成实用内容。",
+      "selected_at": "2026-06-17T03:22:43.363Z",
+      "updated_at": "2026-06-17T03:59:06.590Z",
+      "draft_ready_at": "2026-06-17T03:38:58.913Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-17/OpenAI Python SDK 2.42.0，先看懂 spend_alerts，再给团队 API 花费上闸门",
+      "meta_path": "drafts/2026-06-17/OpenAI Python SDK 2.42.0，先看懂 spend_alerts，再给团队 API 花费上闸门/OpenAI Python SDK 2.42.0，先看懂 spend_alerts，再给团队 API 花费上闸门.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-17/vllm-releases-9b0ff932.md",
+      "file": "sources/2026-06-17/vllm-releases-9b0ff932.md",
+      "slug": "vLLM 0.23.0 DeepSeek 和 Qwen 部署变化",
+      "title": "vLLM 0.23.0 更新：DeepSeek-V4 和 Qwen3 部署党该看哪些变化",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "DeepSeek、Qwen 和 vLLM 都有认知度，推理部署收益明确，读者可直接评估升级。",
+      "selection_reason": "这是高质量 release 主源，能把模型生态和实际部署连接起来，适合面向开发者读者。",
+      "selected_at": "2026-06-17T03:22:43.363Z",
+      "updated_at": "2026-06-17T03:59:06.591Z",
+      "draft_ready_at": "2026-06-17T03:45:43.726Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-17/vLLM 0.23.0 更新，DeepSeek-V4 和 Qwen3 部署党该看哪些变化",
+      "meta_path": "drafts/2026-06-17/vLLM 0.23.0 更新，DeepSeek-V4 和 Qwen3 部署党该看哪些变化/vLLM 0.23.0 更新，DeepSeek-V4 和 Qwen3 部署党该看哪些变化.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-17/github-trending-6eec8646.md",
+      "file": "sources/2026-06-17/github-trending-6eec8646.md",
+      "slug": "Ollama 本地模型第一套组合",
+      "title": "Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen：本地模型玩家该怎么选第一套组合",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "Ollama、DeepSeek、Qwen 等品牌认知强，本地运行和模型选择有直接操作价值。",
+      "selection_reason": "本地 AI 是中文读者高需求场景，仓库源为 fact，能把热门模型列表转成可执行的安装和选择建议。",
+      "selected_at": "2026-06-17T03:22:43.363Z",
+      "updated_at": "2026-06-17T03:59:06.592Z",
+      "draft_ready_at": "2026-06-17T03:48:59.423Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-17/Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen，本地模型玩家该怎么选第一套组合",
+      "meta_path": "drafts/2026-06-17/Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen，本地模型玩家该怎么选第一套组合/Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen，本地模型玩家该怎么选第一套组合.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-17/x-chenchengpro-8e23e575.md",
+      "file": "sources/2026-06-17/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes 本地 PR 质量闸门",
+      "title": "AI 写代码之后，怎么守住 PR 质量：no-mistakes 的本地闸门思路",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "Codex、Claude Code 等 coding agent 场景明确，质量闸门是痛点，开发者可照着改自己的流程。",
+      "selection_reason": "它不是单纯工具介绍，而是命中 AI 编程后的验证瓶颈，适合转成工程实践文章。",
+      "selected_at": "2026-06-17T03:22:43.363Z",
+      "updated_at": "2026-06-17T03:59:06.591Z",
+      "draft_ready_at": "2026-06-17T03:43:30.023Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-17/AI 写代码之后，怎么守住 PR 质量，no-mistakes 的本地闸门思路",
+      "meta_path": "drafts/2026-06-17/AI 写代码之后，怎么守住 PR 质量，no-mistakes 的本地闸门思路/AI 写代码之后，怎么守住 PR 质量，no-mistakes 的本地闸门思路.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-17/x-dotey-9b5fb2d1.md",
+      "file": "sources/2026-06-17/x-dotey-9b5fb2d1.md",
+      "slug": "Codex 操控电脑三种方式选择指南",
+      "title": "Codex 操控电脑的三种方式：什么时候用 Computer Use、Chrome 扩展和内置浏览器",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "Codex 品牌强，选择指南有明确效率收益，读者能马上按任务类型试用。",
+      "selection_reason": "这个题材能直接服务正在用 Codex 的读者，适合做结构化方法论。",
+      "selected_at": "2026-06-17T03:26:22.634Z",
+      "updated_at": "2026-06-17T03:59:06.591Z",
+      "draft_ready_at": "2026-06-17T03:42:11.933Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-17/Codex 操控电脑的三种方式，什么时候用 Computer Use、Chrome 扩展和内置浏览器",
+      "meta_path": "drafts/2026-06-17/Codex 操控电脑的三种方式，什么时候用 Computer Use、Chrome 扩展和内置浏览器/Codex 操控电脑的三种方式，什么时候用 Computer Use、Chrome 扩展和内置浏览器.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-17/replicate-blog-c2b1c193.md",
+      "file": "sources/2026-06-17/replicate-blog-c2b1c193.md",
+      "slug": "Recraft V4 可编辑 SVG 和海报图实测",
+      "title": "Recraft V4 上 Replicate：想做可编辑 SVG 和海报图，可以怎么试",
+      "status": "superseded",
+      "reach": 7,
+      "reach_note": "Replicate 和 Recraft 有开发者认知，可编辑 SVG 是明确利益点，读者可直接打开模型测试。",
+      "selection_reason": "它补足当天工具和视觉创作方向，和代码、推理、Agent 题材形成区分，适合小红书展示生成结果。",
+      "selected_at": "2026-06-17T03:26:22.635Z",
+      "updated_at": "2026-06-17T03:59:06.589Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-17/openclaw-release-2026-6-8.md",
+      "file": "sources/2026-06-17/openclaw-release-2026-6-8.md",
+      "slug": "OpenClaw 2026.6.8 个人 AI 助手可靠性更新",
+      "title": "OpenClaw 2026.6.8 更新：个人 AI 助手开始补齐可靠性和多通道交付",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "OpenClaw 是本号重点生态，release 信息具体，读者可以直接用 README 的安装和 gateway 检查路径开始。",
+      "selection_reason": "相比 GitHub Trending 的仓库入口，release 摘要能支撑新版本解读，能写清解决的问题、新增能力、启发和怎么开始。",
+      "selected_at": "2026-06-17T03:32:42.790Z",
+      "updated_at": "2026-06-17T03:59:06.590Z",
+      "draft_ready_at": "2026-06-17T03:35:39.928Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-17/个人 AI 助手更稳了，OpenClaw v2026.6.8 补齐多通道交付",
+      "meta_path": "drafts/2026-06-17/个人 AI 助手更稳了，OpenClaw v2026.6.8 补齐多通道交付/个人 AI 助手更稳了，OpenClaw v2026.6.8 补齐多通道交付.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-17T03:22:43.362Z",
+      "source_count": 160
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:22:43.362Z",
+      "topic_id": "sources/2026-06-17/github-trending-978e35c6.md",
+      "slug": "nousresearch-hermes-agent-今天动手试"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:22:43.362Z",
+      "topic_id": "sources/2026-06-17/x-libapi_-2ad3eed3.md",
+      "slug": "hermes-studio-v0615-更新实测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:22:43.363Z",
+      "topic_id": "sources/2026-06-17/github-trending-0bd21c2c.md",
+      "slug": "openclaw-个人-ai-助手数据自己管"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:22:43.363Z",
+      "topic_id": "sources/2026-06-17/openai-python-sdk-releases-052770e0.md",
+      "slug": "openai-python-sdk-spend-alerts-预算提醒"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:22:43.363Z",
+      "topic_id": "sources/2026-06-17/vllm-releases-9b0ff932.md",
+      "slug": "vllm-0230-deepseek-qwen3-升级清单"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:22:43.363Z",
+      "topic_id": "sources/2026-06-17/github-trending-6eec8646.md",
+      "slug": "ollama-本地模型第一套组合"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:22:43.363Z",
+      "topic_id": "sources/2026-06-17/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes-ai代码推送闸门"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-17T03:26:22.633Z",
+      "source_count": 160
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:26:22.634Z",
+      "topic_id": "sources/2026-06-17/x-libapi_-2ad3eed3.md",
+      "slug": "Hermes Studio v0.6.15 长对话和本地运行更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:26:22.634Z",
+      "topic_id": "sources/2026-06-17/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI Python SDK 2.42.0 花费告警上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:26:22.634Z",
+      "topic_id": "sources/2026-06-17/x-dotey-9b5fb2d1.md",
+      "slug": "Codex 操控电脑三种方式选择指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:26:22.635Z",
+      "topic_id": "sources/2026-06-17/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes 本地 PR 质量闸门"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:26:22.635Z",
+      "topic_id": "sources/2026-06-17/vllm-releases-9b0ff932.md",
+      "slug": "vLLM 0.23.0 DeepSeek 和 Qwen 部署变化"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:26:22.635Z",
+      "topic_id": "sources/2026-06-17/replicate-blog-c2b1c193.md",
+      "slug": "Recraft V4 可编辑 SVG 和海报图实测"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-17T03:32:42.790Z",
+      "source_count": 260
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:32:42.790Z",
+      "topic_id": "sources/2026-06-17/openclaw-release-2026-6-8.md",
+      "slug": "OpenClaw 2026.6.8 个人 AI 助手可靠性更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:32:42.790Z",
+      "topic_id": "sources/2026-06-17/x-libapi_-2ad3eed3.md",
+      "slug": "Hermes Studio v0.6.15 长对话和本地运行更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:32:42.791Z",
+      "topic_id": "sources/2026-06-17/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI Python SDK 2.42.0 花费告警上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:32:42.791Z",
+      "topic_id": "sources/2026-06-17/x-dotey-9b5fb2d1.md",
+      "slug": "Codex 操控电脑三种方式选择指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:32:42.791Z",
+      "topic_id": "sources/2026-06-17/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes 本地 PR 质量闸门"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:32:42.792Z",
+      "topic_id": "sources/2026-06-17/vllm-releases-9b0ff932.md",
+      "slug": "vLLM 0.23.0 DeepSeek 和 Qwen 部署变化"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:32:42.792Z",
+      "topic_id": "sources/2026-06-17/github-trending-6eec8646.md",
+      "slug": "Ollama 本地模型第一套组合"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-17T03:33:19.545Z",
+      "source_count": 260
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:33:19.546Z",
+      "topic_id": "sources/2026-06-17/openclaw-release-2026-6-8.md",
+      "slug": "OpenClaw 2026.6.8 个人 AI 助手可靠性更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:33:19.546Z",
+      "topic_id": "sources/2026-06-17/x-libapi_-2ad3eed3.md",
+      "slug": "Hermes Studio v0.6.15 长对话和本地运行更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:33:19.547Z",
+      "topic_id": "sources/2026-06-17/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI Python SDK 2.42.0 花费告警上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:33:19.547Z",
+      "topic_id": "sources/2026-06-17/x-dotey-9b5fb2d1.md",
+      "slug": "Codex 操控电脑三种方式选择指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:33:19.547Z",
+      "topic_id": "sources/2026-06-17/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes 本地 PR 质量闸门"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:33:19.548Z",
+      "topic_id": "sources/2026-06-17/vllm-releases-9b0ff932.md",
+      "slug": "vLLM 0.23.0 DeepSeek 和 Qwen 部署变化"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:33:19.548Z",
+      "topic_id": "sources/2026-06-17/github-trending-6eec8646.md",
+      "slug": "Ollama 本地模型第一套组合"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-17T03:35:39.928Z",
+      "topic_id": "sources/2026-06-17/openclaw-release-2026-6-8.md",
+      "slug": "OpenClaw 2026.6.8 个人 AI 助手可靠性更新",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-17T03:36:56.218Z",
+      "topic_id": "sources/2026-06-17/x-libapi_-2ad3eed3.md",
+      "slug": "Hermes Studio v0.6.15 长对话和本地运行更新",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-17T03:38:58.913Z",
+      "topic_id": "sources/2026-06-17/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI Python SDK 2.42.0 花费告警上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-17T03:42:11.933Z",
+      "topic_id": "sources/2026-06-17/x-dotey-9b5fb2d1.md",
+      "slug": "Codex 操控电脑三种方式选择指南",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-17T03:43:30.023Z",
+      "topic_id": "sources/2026-06-17/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes 本地 PR 质量闸门",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-17T03:45:43.726Z",
+      "topic_id": "sources/2026-06-17/vllm-releases-9b0ff932.md",
+      "slug": "vLLM 0.23.0 DeepSeek 和 Qwen 部署变化",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-17T03:48:59.423Z",
+      "topic_id": "sources/2026-06-17/github-trending-6eec8646.md",
+      "slug": "Ollama 本地模型第一套组合",
+      "error": ""
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-17T03:59:06.588Z",
+      "source_count": 260
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-17T03:59:06.589Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:59:06.590Z",
+      "topic_id": "sources/2026-06-17/openclaw-release-2026-6-8.md",
+      "slug": "OpenClaw 2026.6.8 个人 AI 助手可靠性更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:59:06.590Z",
+      "topic_id": "sources/2026-06-17/x-libapi_-2ad3eed3.md",
+      "slug": "Hermes Studio v0.6.15 长对话和本地运行更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:59:06.590Z",
+      "topic_id": "sources/2026-06-17/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI Python SDK 2.42.0 花费告警上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:59:06.591Z",
+      "topic_id": "sources/2026-06-17/x-dotey-9b5fb2d1.md",
+      "slug": "Codex 操控电脑三种方式选择指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:59:06.591Z",
+      "topic_id": "sources/2026-06-17/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes 本地 PR 质量闸门"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:59:06.591Z",
+      "topic_id": "sources/2026-06-17/vllm-releases-9b0ff932.md",
+      "slug": "vLLM 0.23.0 DeepSeek 和 Qwen 部署变化"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-17T03:59:06.592Z",
+      "topic_id": "sources/2026-06-17/github-trending-6eec8646.md",
+      "slug": "Ollama 本地模型第一套组合"
+    }
+  ]
+}

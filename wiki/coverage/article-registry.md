@@ -2,6 +2,25 @@
 
 全部已生成文章索引，按日期倒序。
 
+
+## 2026-06-17（7 篇，voice 分布 first-person 5 / narrative 0 / analytical 2 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[个人 AI 助手更稳了，OpenClaw v2026.6.8 补齐多通道交付|个人 AI 助手更稳了，OpenClaw v2026.6.8 补齐多通道交付]] | 9 | first-person | [[openclaw-org|OpenClaw]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[Hermes Studio v0.6.15 长对话、技能命令和本地 Runtime 都更顺了|Hermes Studio v0.6.15 长对话、技能命令和本地 Runtime 都更顺了]] | 9 | first-person | [[hermes-agent|Hermes]] | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[OpenAI Python SDK 2.42.0，先看懂 spend_alerts，再给团队 API 花费上闸门|OpenAI Python SDK 2.42.0，先看懂 spend_alerts，再给团队 API 花费上闸门]] | 8 | first-person | [[openai|OpenAI]] | [[ai-pricing|AI 定价]] / [[developer-tools|开发者工具]] |
+| [[Codex 操控电脑的三种方式，什么时候用 Computer Use、Chrome 扩展和内置浏览器|Codex 操控电脑的三种方式，什么时候用 Computer Use、Chrome 扩展和内置浏览器]] | 9 | analytical | [[codex|Codex]] | [[ai-coding-tools|AI 编程工具]] / [[developer-tools|开发者工具]] |
+| [[AI 写代码之后，怎么守住 PR 质量，no-mistakes 的本地闸门思路|AI 写代码之后，怎么守住 PR 质量，no-mistakes 的本地闸门思路]] | 8 | first-person | [[codex|Codex]] | [[ai-coding-tools|AI 编程工具]] / [[developer-tools|开发者工具]] |
+| [[vLLM 0.23.0 更新，DeepSeek-V4 和 Qwen3 部署党该看哪些变化|vLLM 0.23.0 更新，DeepSeek-V4 和 Qwen3 部署党该看哪些变化]] | 8 | analytical | [[vllm|vLLM]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]] | [[local-inference|本地推理]] |
+| [[Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen，本地模型玩家该怎么选第一套组合|Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen，本地模型玩家该怎么选第一套组合]] | 9 | first-person | [[ollama|Ollama]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]] | [[local-inference|本地推理]] / [[local-first-ai|本地优先 AI]] |
+
+**6/17 voice 分布**：first-person 5 / analytical 2 / retro 0。今天引入 X 补采集和 topics-file 审核入口后，选题从 RSS 摘要主导转为 release / GitHub fact / X angle 混合。
+
+**6/17 QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；主稿默认可用于小红书。发布面扫描 0 命中，未出现 Reddit、Hacker News/HN、OpenRouter、地域二分表达或 AI 辅助元叙事。
+
+**6/17 采集备注**：RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 保存 115 tweets；补 OpenClaw v2026.6.8 官方 release/README 摘要源。X 后段触发 429，后续应加 delay 与限流停止策略。
+
 ## 2026-06-16（7 篇，voice 分布 first-person 6 / narrative 0 / analytical 1 / retro 0）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

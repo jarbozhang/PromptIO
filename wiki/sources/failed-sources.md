@@ -35,6 +35,7 @@
 
 ## 单日记录
 
+- **2026-06-17**：RSS 侧 MIT Technology Review TLS 断开，多源 404/403/401 与 XML malformed 继续存在；HN 502；Reddit LocalLLaMA 成功但被规则排除公开链路，MachineLearning 429；bird X 保存 115 条后后段触发 429，13 个账号失败或不存在；TrendRadar/PyPI 未在本轮追加运行。
 - **2026-06-16**：TrendRadar Docker 路径缺失（/tmp/TrendRadar/docker）soft-fail；MIT Technology Review TLS 断开；多个官方 blog/RSS 404 或 403；PyPI ollama/autogen/dspy-ai 返回 429；bird X 抓取成功保存 213 条来源。
 - **2026-05-11**：bird CLI Chrome Safe Storage exit 36 + 无 SWEETISTICS_API_KEY，X 抓取跳过；TrendRadar Docker 目录缺失；Mistral / Perplexity / Stability / Chip Huyen / Lilian Weng / Hamel Husain 6 个源 404
 - **2026-05-10**：同 5/11 X 跳过原因；bird CLI 仍失败
