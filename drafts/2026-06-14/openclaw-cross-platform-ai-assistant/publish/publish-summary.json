@@ -1,0 +1,27 @@
+{
+  "draft_dir": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-06-14/openclaw-cross-platform-ai-assistant",
+  "out_dir": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-06-14/openclaw-cross-platform-ai-assistant/publish",
+  "wechat": {
+    "status": "blocked_preview",
+    "action": "draft",
+    "html": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-06-14/openclaw-cross-platform-ai-assistant/publish/wechat-article.html",
+    "payload": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-06-14/openclaw-cross-platform-ai-assistant/publish/wechat-draft-payload.json",
+    "cover": "",
+    "thumb_media_id": "__WECHAT_THUMB_MEDIA_ID__",
+    "publishable": false,
+    "gate_status": "blocked",
+    "gate_reason": "missing or false qa.overall_pass"
+  },
+  "xhs": {
+    "status": "blocked_preview",
+    "mode": "manual_creator_center",
+    "title": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-06-14/openclaw-cross-platform-ai-assistant/publish/xhs-title.txt",
+    "body": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-06-14/openclaw-cross-platform-ai-assistant/publish/xhs-body.txt",
+    "tags": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-06-14/openclaw-cross-platform-ai-assistant/publish/xhs-tags.txt",
+    "markdown": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-06-14/openclaw-cross-platform-ai-assistant/publish/xhs-publish.md",
+    "payload": "/Users/jiabozhang/Documents/CA001/openclaw/PromptIO/drafts/2026-06-14/openclaw-cross-platform-ai-assistant/publish/xhs-payload.json",
+    "publishable": false,
+    "gate_status": "blocked",
+    "gate_reason": "missing or false qa.overall_pass; missing or false qa.l6_pass or qa.xhs_pass"
+  }
+}

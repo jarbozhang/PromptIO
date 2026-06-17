@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-14",
+  "created_at": "2026-06-14T14:05:09.985Z",
+  "updated_at": "2026-06-14T14:07:47.829Z",
+  "source_count": 120,
+  "topics": [
+    {
+      "id": "sources/2026-06-14/github-trending-0bd21c2c.md",
+      "file": "sources/2026-06-14/github-trending-0bd21c2c.md",
+      "slug": "openclaw-cross-platform-ai-assistant",
+      "title": "openclaw 冲上 GitHub Trending：如何搭一个自己的跨平台 AI 助手",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "命中 openclaw 核心生态品牌，有“自己的跨平台 AI 助手”利益点，读者可直接打开仓库尝试。",
+      "selection_reason": "openclaw 是本号核心生态，且主题天然适合公众号做上手框架、小红书做“我为什么要试一个个人 AI 助手”的实操种草。相比泛 Agent 新闻，它更贴近读者可立即动手的工具选择。",
+      "selected_at": "2026-06-14T14:05:09.985Z",
+      "updated_at": "2026-06-14T14:07:47.829Z",
+      "draft_ready_at": "2026-06-14T14:07:47.829Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-14/openclaw-cross-platform-ai-assistant",
+      "meta_path": "drafts/2026-06-14/openclaw-cross-platform-ai-assistant/meta.yaml",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-14T14:05:09.985Z",
+      "source_count": 120
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-14T14:05:09.985Z",
+      "topic_id": "sources/2026-06-14/github-trending-0bd21c2c.md",
+      "slug": "openclaw-cross-platform-ai-assistant"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-14T14:07:47.829Z",
+      "topic_id": "sources/2026-06-14/github-trending-0bd21c2c.md",
+      "slug": "openclaw-cross-platform-ai-assistant",
+      "error": ""
+    }
+  ]
+}
