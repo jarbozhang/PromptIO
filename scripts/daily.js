@@ -16,7 +16,7 @@ import {
 } from './lib/l1-replace.js';
 import {
   updateSourceCount,
-  upsertSelectedTopic,
+  replaceSelectedTopics,
   markDraftReady,
   markDraftFailed,
 } from './lib/run-manifest.js';
@@ -59,6 +59,7 @@ export function usage() {
     '  --overwrite                  Pass overwrite to single-article generation',
     '  --dry-run                    Select topics only, do not generate drafts',
     '  --publish-dry-run            Generate local publish payloads after each draft',
+    '  --topics-file <path>         Use a reviewed topics JSON file instead of selecting topics again',
     '  --sources-limit <n>          Max source summaries sent to selector. Default: 160',
   ].join('\n');
 }
@@ -80,6 +81,7 @@ export function parseArgs(argv) {
     overwrite: false,
     dryRun: false,
     publishDryRun: false,
+    topicsFile: '',
   };
 
   while (args.length) {
@@ -129,6 +131,9 @@ export function parseArgs(argv) {
         break;
       case '--publish-dry-run':
         opts.publishDryRun = true;
+        break;
+      case '--topics-file':
+        opts.topicsFile = requireValue(args, arg);
         break;
       default:
         throw new Error(`unknown argument: ${arg}`);
@@ -566,6 +571,7 @@ export function buildSelectionPrompt({ date, count, min, max, sources }) {
     '硬性规则:',
     '- 只选 REACH >= 7 的题目。',
     '- 去重，不要选同一个事实的重复来源。',
+    '- 同一天不要选择同一实体/同一产品线的两篇文章；例如 Hermes Agent 和 Hermes Studio 通常应合并成一篇版本解读，除非两个题目都有独立事实主源且读者行动完全不同。',
     '- 不要选玄学、访问教程、纯拉踩标题、账号自动化违规运营教程。',
     '- 不要选择或提及 Reddit、Hacker News/HN、OpenRouter 相关来源；GitHub 来源可以正常使用。',
     '- 不要使用“外网/国内/国外/境外/海外”等二分表达，用“读者/中文读者/公开来源/官方文档/本地运行/可验证入口”等中性表达。',
@@ -647,6 +653,14 @@ function writeTopicsFile({ date, topics }) {
   return outPath;
 }
 
+function readTopicsFile(filepath) {
+  const resolved = path.isAbsolute(filepath) ? filepath : path.join(ROOT, filepath);
+  if (!fs.existsSync(resolved)) throw new Error(`topics file not found: ${filepath}`);
+  const parsed = JSON.parse(fs.readFileSync(resolved, 'utf8'));
+  if (!Array.isArray(parsed.topics)) throw new Error(`topics file must contain a topics array: ${filepath}`);
+  return parsed;
+}
+
 function appendDailyLog(date, message) {
   const logDir = path.join(ROOT, 'logs');
   fs.mkdirSync(logDir, { recursive: true });
@@ -656,7 +670,7 @@ function appendDailyLog(date, message) {
 
 export function recordManifestSelection({ date, sources, topics }) {
   updateSourceCount(date, sources.length);
-  for (const topic of topics) upsertSelectedTopic(date, topic);
+  replaceSelectedTopics(date, topics);
 }
 
 export function recordManifestDraftReady({ date, topic, result }) {
@@ -690,19 +704,22 @@ export function applyTopicMetadata(metaPath, topic) {
 
 export async function run(opts) {
   const sources = collectSourceSummaries(opts.date, opts.sourcesLimit);
-  const selectionRaw = await callTextLLM(buildSelectionPrompt({
-    date: opts.date,
-    count: opts.count,
-    min: opts.min,
-    max: opts.max,
-    sources,
-  }), opts);
-  const topics = normalizeSelection(extractJson(selectionRaw), sources, opts);
+  const selection = opts.topicsFile
+    ? readTopicsFile(opts.topicsFile)
+    : extractJson(await callTextLLM(buildSelectionPrompt({
+      date: opts.date,
+      count: opts.count,
+      min: opts.min,
+      max: opts.max,
+      sources,
+    }), opts));
+  const topics = normalizeSelection(selection, sources, opts);
   const topicsPath = writeTopicsFile({ date: opts.date, topics });
   recordManifestSelection({ date: opts.date, sources, topics });
 
   if (opts.dryRun) {
-    appendDailyLog(opts.date, `Daily generation dry-run selected ${topics.length} topics.`);
+    const source = opts.topicsFile ? `reviewed topics file ${path.relative(ROOT, path.resolve(ROOT, opts.topicsFile))}` : 'selector';
+    appendDailyLog(opts.date, `Daily generation dry-run selected ${topics.length} topics via ${source}.`);
     return { topics, topicsPath, drafts: [] };
   }
 

@@ -58,6 +58,7 @@ describe('daily.js CLI', () => {
       '--codex-bin', 'codex-test',
       '--codex-profile', 'local',
       '--no-cover',
+      '--topics-file', 'topics/2026-05-27.json',
       '--publish-dry-run',
       '--dry-run',
     ]);
@@ -72,6 +73,7 @@ describe('daily.js CLI', () => {
     assert.equal(opts.codexBin, 'codex-test');
     assert.equal(opts.codexProfile, 'local');
     assert.equal(opts.noCover, true);
+    assert.equal(opts.topicsFile, 'topics/2026-05-27.json');
     assert.equal(opts.publishDryRun, true);
     assert.equal(opts.dryRun, true);
   });
@@ -99,6 +101,7 @@ describe('daily.js topic selection', () => {
     assert.ok(prompt.includes('drafts/{date}/{slug}/{slug}.md'));
     assert.ok(!prompt.includes('sources/2026-05-27/a.md'));
     assert.ok(prompt.includes('只选 REACH >= 7'));
+    assert.ok(prompt.includes('同一实体/同一产品线'));
     assert.ok(prompt.includes('quality_tier:'));
     assert.ok(prompt.includes('source_role:'));
     assert.ok(prompt.includes('A 可直接选题'));

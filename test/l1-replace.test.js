@@ -294,6 +294,11 @@ describe('scanPublishSurface — final publish guard', () => {
     assert.ok(issues.some(issue => issue.type === 'instruction_leak'));
   });
 
+  it('flags AI-assistance and non-test meta disclaimers', () => {
+    const issues = scanPublishSurface('本文为 AI 辅助整理。它不是跑分实测，也不是假装已经跑完所有场景。');
+    assert.ok(issues.some(issue => issue.type === 'instruction_leak'));
+  });
+
   it('flags formulaic action headings without banning natural body copy', () => {
     const issues = scanPublishSurface('## 今晚可以这样搭\n\n正文');
     assert.ok(issues.some(issue => issue.type === 'formulaic_heading'));
@@ -331,6 +336,14 @@ describe('sanitizeInternalInstructions', () => {
       '写 Hermes 新版本；我没有把它写成已跑通实测，下面给你一条今晚能自己验证的路径。'
     );
     assert.equal(text, '写 Hermes 新版本。');
+    assert.deepEqual(scanPublishSurface(text), []);
+  });
+
+  it('removes AI-assistance and non-test meta disclaimers', () => {
+    const text = sanitizeInternalInstructions(
+      '信息来自 release；本文为 AI 辅助整理，关键事实已按来源核对。它不是跑分实测。'
+    );
+    assert.equal(text, '信息来自 release。');
     assert.deepEqual(scanPublishSurface(text), []);
   });
 });

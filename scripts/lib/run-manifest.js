@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '../..');
 const SCHEMA_VERSION = 1;
-const TOPIC_STATUSES = new Set(['topics_selected', 'draft_ready', 'draft_failed']);
+const TOPIC_STATUSES = new Set(['topics_selected', 'draft_ready', 'draft_failed', 'superseded']);
 const TERMINALISH_STATUSES = new Set(['draft_ready']);
 
 export function manifestPathFor(date, root = ROOT) {
@@ -36,6 +36,25 @@ export function updateSourceCount(date, sourceCount, { root = ROOT } = {}) {
   appendEvent(manifest, 'sources_seen', { source_count: manifest.source_count });
   saveManifest(manifest, { root });
   return manifest;
+}
+
+export function replaceSelectedTopics(date, topics, { root = ROOT } = {}) {
+  const manifest = loadManifest(date, { root });
+  const keepIds = new Set(topics.map(topicId));
+
+  for (const topic of manifest.topics) {
+    if (!keepIds.has(topic.id) && topic.status === 'topics_selected') {
+      topic.status = 'superseded';
+      topic.updated_at = nowIso();
+    }
+  }
+
+  manifest.updated_at = nowIso();
+  appendEvent(manifest, 'topics_replaced', { topic_count: topics.length });
+  saveManifest(manifest, { root });
+
+  for (const topic of topics) upsertSelectedTopic(date, topic, { root });
+  return loadManifest(date, { root });
 }
 
 export function upsertSelectedTopic(date, topic, { root = ROOT } = {}) {
@@ -186,6 +205,7 @@ function topicId(topic) {
 
 function mergeStatus(current, incoming) {
   if (TERMINALISH_STATUSES.has(current) && incoming === 'topics_selected') return current;
+  if (current === 'superseded' && incoming === 'topics_selected') return 'topics_selected';
   return incoming;
 }
 

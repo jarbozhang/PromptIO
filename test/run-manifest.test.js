@@ -7,6 +7,7 @@ import {
   loadManifest,
   saveManifest,
   upsertSelectedTopic,
+  replaceSelectedTopics,
   markDraftReady,
   markDraftFailed,
   manifestPathFor,
@@ -143,6 +144,39 @@ describe('run manifest helper', () => {
 
       assert.equal(manifest.topics[0].status, 'draft_ready');
       assert.equal(manifest.topics[0].draft_dir, 'drafts/2026-06-14/demo');
+    } finally {
+      cleanup(root);
+    }
+  });
+
+  it('marks unreviewed selected topics as superseded when a reviewed set replaces them', () => {
+    const root = tempRoot();
+    try {
+      upsertSelectedTopic('2026-06-14', {
+        file: 'sources/2026-06-14/a.md',
+        slug: 'old',
+        title: 'Old',
+      }, { root });
+      markDraftReady('2026-06-14', {
+        file: 'sources/2026-06-14/b.md',
+        slug: 'ready',
+        title: 'Ready',
+      }, {
+        dir: path.join(root, 'drafts/2026-06-14/ready'),
+        meta: path.join(root, 'drafts/2026-06-14/ready/ready.md'),
+      }, { root });
+
+      const manifest = replaceSelectedTopics('2026-06-14', [{
+        file: 'sources/2026-06-14/c.md',
+        slug: 'new',
+        title: 'New',
+      }], { root });
+
+      const byFile = new Map(manifest.topics.map(topic => [topic.file, topic]));
+      assert.equal(byFile.get('sources/2026-06-14/a.md').status, 'superseded');
+      assert.equal(byFile.get('sources/2026-06-14/b.md').status, 'draft_ready');
+      assert.equal(byFile.get('sources/2026-06-14/c.md').status, 'topics_selected');
+      assert.ok(manifest.events.some(event => event.type === 'topics_replaced'));
     } finally {
       cleanup(root);
     }
