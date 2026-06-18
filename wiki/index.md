@@ -4,6 +4,7 @@
 
 ## 最近更新
 
+- 2026-06-18 — 7 篇文章（voice 分布 first-person 6 / narrative 1 / analytical 0 / retro 0）。**生成完成**：RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集保存 134 条来源；sources/2026-06-18 共 645 个 md；新增 OpenClaw v2026.6.8、Hermes Agent v0.16.0、Firecrawl v2.10 三份官方 release 摘要源。**主线**：Hermes Agent 从 CLI 扩到桌面版、中文界面和远程网关；OpenClaw 新版写成交付前可靠性检查表；Firecrawl v2.10 聚焦 Agent 资料入口；Warp issue 反馈闭环写 Skill 迭代；Sakana Marlin 写长推理研究 Agent；Claude Cowork 写文件夹里的 Agent 协作；Gemini Live Translate 写实时语音翻译进入产品。**质量处理**：初选结果里重复 06-17 的 Ollama/vLLM/Codex 线被替换；移除隐藏 REACH 注释和短链；不新增 publish 目录，每个中文文章目录只保留 1 个 md。**QA**：7/7 唯一主稿；发布面扫描 0 命中；npm test 129/129 pass。
 
 - 2026-06-17 — 7 篇文章（voice 分布 first-person 5 / narrative 0 / analytical 2 / retro 0）。**重新生成完成**：RSS/GitHub/arXiv 508 new items；GitHub Trending 21 AI repos；bird X 补采集保存 115 条来源；sources/2026-06-17 共 631 个 md。**主线**：OpenClaw 2026.6.8 和 Hermes Studio v0.6.15 都从新版本切入，重点写可靠性、多通道、本地 runtime 和技能命令；OpenAI Python SDK 写 API 花费告警；Codex 和 no-mistakes 写 AI 编程验证入口；vLLM 与 Ollama 写部署/本地模型选型。**流程改进**：新增 fetch:x 脚本、topics-file 审核入口、同实体去重、AI 味元叙事扫描、manifest superseded 状态。**QA**：7/7 唯一主稿；每个文章目录只保留 1 个 md；发布面扫描 0 命中；npm test 129/129 pass。
 

@@ -3,6 +3,22 @@
 追加式记录，最新在前。
 
 
+## [2026-06-18] generate | 7 drafts, reviewed topics, curated release sources
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集 134 tweets（567 seen / 9 failures，后段触发 429）；新增 OpenClaw v2026.6.8、Hermes Agent v0.16.0、Firecrawl v2.10 三份官方 release 摘要源；sources/2026-06-18 共 645 个 md。
+- **新增 7 篇文章**：
+  - #1 Agent 终于能交付给别人用了，Hermes v0.16.0 补上界面层（REACH 9 first-person，Hermes Agent 桌面版 / 中文界面 / 远程网关）
+  - #2 个人 AI 助手靠不靠谱，OpenClaw v2026.6.8 给了检查表（REACH 9 first-person，OpenClaw 可靠性 / 多通道交付）
+  - #3 Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流（REACH 8 first-person，资料采集 / Agent 工作流）
+  - #4 Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄（REACH 8 first-person，Skill 反馈闭环）
+  - #5 Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理（REACH 7 first-person，长推理研究 Agent）
+  - #6 Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活（REACH 8 first-person，文件夹协作 Agent）
+  - #7 Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品（REACH 7 narrative，实时语音翻译）
+- **voice 分布**：first-person 6 / narrative 1 / analytical 0 / retro 0。
+- **QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；发布面扫描 0 命中；npm test 129/129 pass。
+- **质量处理**：初始 selector 命中的 Ollama/vLLM/Codex 与 06-17 重叠，本轮用 reviewed topics 文件替换；OpenClaw/Hermes/Firecrawl 改用官方 release 摘要源补事实密度；生成后移除隐藏 REACH 注释和短链。
+- **发现的后续改进**：X 抓取仍需 backoff / invalid-account 清理；RSS 失效源继续产生噪音；release 类素材应稳定进入预摘要层，避免只靠 GitHub Trending 摘要生成平淡文章。
+
 ## [2026-06-17] generate | 7 drafts, reviewed topics, X source recovery
 
 - **采集**：pipeline 保存 RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集 115 tweets（517 seen / 13 failures，后段触发 429）；补充 OpenClaw v2026.6.8 官方 release/README 摘要源；sources/2026-06-17 共 631 个 md。

@@ -3,6 +3,24 @@
 全部已生成文章索引，按日期倒序。
 
 
+## 2026-06-18（7 篇，voice 分布 first-person 6 / narrative 1 / analytical 0 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[Agent 终于能交付给别人用了，Hermes v0.16.0 补上界面层|Agent 终于能交付给别人用了，Hermes v0.16.0 补上界面层]] | 9 | first-person | [[hermes-agent|Hermes Agent]], [[nousresearch|NousResearch]] | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[个人 AI 助手靠不靠谱，OpenClaw v2026.6.8 给了检查表|个人 AI 助手靠不靠谱，OpenClaw v2026.6.8 给了检查表]] | 9 | first-person | [[openclaw-org|OpenClaw]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流|Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流]] | 8 | first-person | Firecrawl | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄|Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄]] | 8 | first-person | Warp, Agent Skills | [[ai-workflows|AI 工作流]] / [[agent-frameworks|Agent 框架]] |
+| [[Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理|Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理]] | 7 | first-person | Sakana AI, Marlin | [[agent-frameworks|Agent 框架]] / [[ai-research|AI 研究]] |
+| [[Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活|Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活]] | 8 | first-person | [[anthropic|Anthropic]], Claude Cowork, [[claude-code|Claude Code]] | [[ai-productivity|AI 生产力]] / [[agent-frameworks|Agent 框架]] |
+| [[Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品|Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品]] | 7 | narrative | [[google|Google]], Gemini | AI 产品 / 语音 AI |
+
+**6/18 voice 分布**：first-person 6 / narrative 1 / analytical 0 / retro 0。本轮把重点放在“新版解决什么问题、能带来什么工作流变化”，减少泛泛评论。
+
+**6/18 QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；主稿默认可用于小红书。发布面扫描 0 命中，未出现敏感来源字面、地域二分表达、短链或 AI 辅助元叙事。
+
+**6/18 采集备注**：RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 保存 134 tweets；新增 3 份官方 release 摘要源。初始 selector 重复 06-17 的本地模型/部署/工具控制线，已通过 reviewed topics 替换。
+
 ## 2026-06-17（7 篇，voice 分布 first-person 5 / narrative 0 / analytical 2 / retro 0）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |
