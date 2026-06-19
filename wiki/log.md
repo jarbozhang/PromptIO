@@ -3,6 +3,22 @@
 追加式记录，最新在前。
 
 
+## [2026-06-19] generate | 7 drafts, reviewed topics, official/curated anchors
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 528 items；GitHub Trending 21 AI repos；bird X 补采集 143 tweets（575 seen / 9 failures，后段触发 429）；sources/2026-06-19 共 678 个 md；新增 Codex Record & Replay、Claude Code Artifacts、baoyu-design、Adobe、MosaicLeaks、ARD、Probe-and-Refine 七份 curated source。
+- **新增 7 篇文章**：
+  - #1 Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书（REACH 9 first-person，Record & Replay / Computer Use / Skill）
+  - #2 Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么（REACH 9 first-person，Claude Code 输出层 / 团队协作）
+  - #3 baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块（REACH 8 first-person，本地 Skill / PPTX / AI 配图）
+  - #4 Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文（REACH 8 narrative，Creative Cloud / Firefly / 项目上下文）
+  - #5 研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答（REACH 8 first-person，Deep Research / RAG 隐私 / 工具调用泄露）
+  - #6 MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口（REACH 8 first-person，ARD / 能力发现层）
+  - #7 AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产（REACH 8 first-person，AGENTS.md / coding agent guidance）
+- **voice 分布**：first-person 6 / narrative 1 / analytical 0 / retro 0。
+- **QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；发布面扫描 0 命中；npm test 129/129 pass。
+- **质量处理**：初始 selector 命中的 Hermes/no-mistakes/vLLM/OpenAI SDK/Ollama 与 06-17/06-18 重叠，本轮全部替换；RSS 中多篇空正文或短摘要源先补 curated official/source summary，再生成；生成后移除隐藏 REACH 注释。
+- **发现的后续改进**：X 抓取仍需清理无效账号和 429 backoff；The Verge / DeepMind / Hugging Face 这类源有时正文较短或为空，应继续自动补 fetch/curated 摘要；选题器仍偏好近两日高频实体，需要更强的历史去重惩罚。
+
 ## [2026-06-18] generate | 7 drafts, reviewed topics, curated release sources
 
 - **采集**：pipeline 保存 RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集 134 tweets（567 seen / 9 failures，后段触发 429）；新增 OpenClaw v2026.6.8、Hermes Agent v0.16.0、Firecrawl v2.10 三份官方 release 摘要源；sources/2026-06-18 共 645 个 md。

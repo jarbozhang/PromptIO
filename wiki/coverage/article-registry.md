@@ -3,6 +3,24 @@
 全部已生成文章索引，按日期倒序。
 
 
+## 2026-06-19（7 篇，voice 分布 first-person 6 / narrative 1 / analytical 0 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书|Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书]] | 9 | first-person | [[codex|Codex]], [[openai|OpenAI]] | [[ai-workflows|AI 工作流]] / [[developer-tools|开发者工具]] |
+| [[Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么|Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么]] | 9 | first-person | [[claude-code|Claude Code]], [[anthropic|Anthropic]] | [[ai-coding-tools|AI 编程工具]] / [[ai-productivity|AI 生产力]] |
+| [[baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块|baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块]] | 8 | first-person | baoyu-design, Agent Skills | [[creator-economy|创作者经济]] / [[ai-workflows|AI 工作流]] |
+| [[Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文|Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文]] | 8 | narrative | Adobe, Firefly, Photoshop, Premiere | [[creator-economy|创作者经济]] / AI 产品 |
+| [[研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答|研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答]] | 8 | first-person | Hugging Face, ServiceNow, MosaicLeaks | [[ai-safety|AI 安全]] / [[agent-frameworks|Agent 框架]] |
+| [[MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口|MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口]] | 8 | first-person | Hugging Face, ARD, MCP, Skills, A2A | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产|AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产]] | 8 | first-person | AGENTS.md, Probe-and-Refine, Qwen | [[ai-coding-tools|AI 编程工具]] / [[ai-methodology|AI 方法论]] |
+
+**6/19 voice 分布**：first-person 6 / narrative 1 / analytical 0 / retro 0。今天刻意避开近两日高频的 Hermes/OpenClaw/Ollama/vLLM/OpenAI SDK 线，把重点转向新功能、新标准、安全评测和可交付 Skill。
+
+**6/19 QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；主稿默认可用于小红书。发布面扫描 0 命中，未出现敏感来源字面、地域二分表达、短链、隐藏 REACH 注释或 AI 辅助元叙事。
+
+**6/19 采集备注**：RSS/GitHub/arXiv 528 items；GitHub Trending 21 AI repos；bird X 保存 143 tweets；补 7 份 curated source。初始 selector 与 06-17/06-18 重复较多，已通过 reviewed topics 替换。
+
 ## 2026-06-18（7 篇，voice 分布 first-person 6 / narrative 1 / analytical 0 / retro 0）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

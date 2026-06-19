@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T15:05:06.963Z",
+  "topics": [
+    {
+      "file": "sources/2026-06-19/codex-record-replay-curated.md",
+      "title": "Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书",
+      "slug": "Codex录一次操作就能生成Skill",
+      "angle": "从真实工作流切入，报销、发视频、建 issue、下载周期报告这类流程以前难写成提示词，现在可以演示一次变成可检查、可修改的 Skill。重点写适用条件、使用步骤、为什么这比纯提示词更适合重复操作。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "官方新功能，场景具体，和 Skill / Computer Use / 本地自动化强相关。",
+      "reason": "这是当天最新鲜且可操作的主线，和前两天的 Codex 概览不重复，落点是把操作流程沉淀成 Skill。"
+    },
+    {
+      "file": "sources/2026-06-19/claude-code-artifacts-curated.md",
+      "title": "Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么",
+      "slug": "ClaudeCodeArtifacts把终端结果变成网页",
+      "angle": "从团队协作痛点切入，Agent 在终端里做了很多分析，但其他人看不到。Artifacts 让 PR 走查、事故时间线、设计方案、dashboard 变成组织内可分享的交互页面。重点写它不是应用，而是可交付的会话产物。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "Claude Code 新 beta 能力，适合 AI 编程团队和管理者，协作价值明确。",
+      "reason": "和 06-18 Claude Cowork 不同，这篇聚焦 Claude Code 输出层和团队可见性。"
+    },
+    {
+      "file": "sources/2026-06-19/baoyu-design-image-skill-curated.md",
+      "title": "baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块",
+      "slug": "baoyu-design自动给PPT配图",
+      "angle": "从 PPT、网站、视频脚本这些内容交付场景切入。以前 Agent 生成结构和文案，配图还要人手动找；现在设计 Skill 可以调用生图 Skill，把图片放进 PPTX，后续还能继续编辑。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "职场和创作者场景直观，GitHub 可验证，和本项目内容生成链路也有强相关。",
+      "reason": "这是本地 Skill 生态的新可交付案例，不是重复介绍生图工具。"
+    },
+    {
+      "file": "sources/2026-06-19/adobe-creative-cloud-ai-assistants-curated.md",
+      "title": "Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文",
+      "slug": "Adobe创意软件开始记住项目上下文",
+      "angle": "从创作者工作台切入，Adobe 不是简单加聊天框，而是在 Photoshop、Premiere、Illustrator、InDesign、Frame.io 里放应用级 specialist，并让 Firefly studio 强调 persistent context、reusable assets 和项目工作流。",
+      "voice": "narrative",
+      "reach": 8,
+      "reach_note": "Adobe / Photoshop / Premiere 认知度高，适合写创意工具变化。",
+      "reason": "能打开 AI 创作软件的新线，和本地 Agent Skill 文章形成对照。"
+    },
+    {
+      "file": "sources/2026-06-19/mosaicleaks-research-agent-privacy-curated.md",
+      "title": "研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答",
+      "slug": "MosaicLeaks提醒研究Agent外部查询也会泄密",
+      "angle": "从 RAG / deep research 的实际风险切入，隐私泄露不一定发生在最终答案，也可能发生在搜索词和工具调用参数里。重点写 mosaic effect、为什么只优化任务表现可能加剧泄露，以及给个人知识库和企业资料库的检查清单。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "安全角度新鲜，数字结果明确，和 RAG/资料库/Agent 工作流强相关。",
+      "reason": "补充安全与评测方向，避免今日全是工具更新。"
+    },
+    {
+      "file": "sources/2026-06-19/agentic-resource-discovery-curated.md",
+      "title": "MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口",
+      "slug": "AgenticResourceDiscovery让Agent搜索能力",
+      "angle": "从能力太多后的发现问题切入。MCP 管调用，Skills 管指令，A2A 管互相调用，但用户仍要知道该装什么。ARD 的价值是让 Agent 在运行时搜索工具、Skills 和其他 Agent。重点写它为何不是 marketplace，而是发现层。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "MCP/Skills/A2A 都是当前 agent 工程关键词，标准层变化值得关注。",
+      "reason": "能把工具生态从“安装更多工具”推进到“运行时发现能力”，有方法论价值。"
+    },
+    {
+      "file": "sources/2026-06-19/agents-md-probe-refine-curated.md",
+      "title": "AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产",
+      "slug": "AGENTS-md应该像测试资产一样迭代",
+      "angle": "从我们自己也在维护 skill / AGENTS.md 的场景切入，仓库说明不只是给模型看的提示词，而是会影响 agent 能不能找到正确文件。重点写 probe-and-refine 的实验结果和对团队维护 Agent 指令文件的启发。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "arXiv 新论文，数字明确，和 AI 编程质量、Skill 更新、仓库说明直接相关。",
+      "reason": "这篇能承接用户近期对 skill 质量的要求，也能产生内部流程改进启发。"
+    }
+  ]
+}

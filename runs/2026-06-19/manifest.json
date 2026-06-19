@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-19",
+  "created_at": "2026-06-19T14:47:30.444Z",
+  "updated_at": "2026-06-19T15:20:14.527Z",
+  "source_count": 320,
+  "topics": [
+    {
+      "id": "sources/2026-06-19/x-dotey-6ba89def.md",
+      "file": "sources/2026-06-19/x-dotey-6ba89def.md",
+      "slug": "Codex录制Skill把重复操作变成自动化",
+      "title": "Codex 录制 Skill 上线：演示一遍，就把重复操作变成自动化",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "Codex 品牌强，利益点是少写指令和节省重复劳动，读者在 macOS 上可直接尝试。",
+      "selection_reason": "这是当天最适合公众号和小红书的实操题：新功能、路径清晰、场景具体，还能自然延伸到 Skill 工作流。",
+      "selected_at": "2026-06-19T14:47:30.445Z",
+      "updated_at": "2026-06-19T15:04:57.813Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/github-trending-978e35c6.md",
+      "file": "sources/2026-06-19/github-trending-978e35c6.md",
+      "slug": "HermesAgent新版本值得看",
+      "title": "Hermes Agent 新版本值得看：一个会跟着你成长的开源 Agent",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "NousResearch 和 Hermes 属于重点生态，GitHub 可验证，读者能立刻查看项目并本地尝试。",
+      "selection_reason": "命中 openclaw/NousResearch 生态，GitHub fact 源质量高，适合做版本解读和上手路径。",
+      "selected_at": "2026-06-19T14:47:30.445Z",
+      "updated_at": "2026-06-19T15:04:57.813Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/x-chenchengpro-8e23e575.md",
+      "file": "sources/2026-06-19/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes把AI代码先过闸门",
+      "title": "AI 写代码太快，怎么防止把烂 PR 推上去？这个 no-mistakes 工作流值得抄",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "Claude Code、Codex、PR、CI 都是读者熟悉的工作流关键词，利益点是降低 AI 代码误推风险，具备明确可操作步骤。",
+      "selection_reason": "这不是单纯工具介绍，而是可复用的工程门控方法，特别适合当前 AI Coding 使用者。",
+      "selected_at": "2026-06-19T14:47:30.445Z",
+      "updated_at": "2026-06-19T15:04:57.813Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/vllm-releases-9b0ff932.md",
+      "file": "sources/2026-06-19/vllm-releases-9b0ff932.md",
+      "slug": "vLLM0230部署DeepSeekV4注意事项",
+      "title": "vLLM 0.23.0 更新：DeepSeek-V4 本地和服务端部署要注意什么",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "DeepSeek 品牌强，vLLM 是可直接部署的推理工具，利益点是升级判断和部署避坑。",
+      "selection_reason": "这是 A 级 release 主源，信息量足，适合写成开发者能直接执行的升级检查文章。",
+      "selected_at": "2026-06-19T14:47:30.445Z",
+      "updated_at": "2026-06-19T15:04:57.813Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/openai-python-sdk-releases-052770e0.md",
+      "file": "sources/2026-06-19/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-SDK花费预警怎么用",
+      "title": "OpenAI Python SDK 2.42.0 加入 spend_alerts：开发者怎么给 API 花费设预警",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "OpenAI 品牌强，利益点是控制 API 成本，SDK 更新可直接检查和接入。",
+      "selection_reason": "省钱和工程治理都很明确，适合做短平快但有价值的开发者实操稿。",
+      "selected_at": "2026-06-19T14:47:30.445Z",
+      "updated_at": "2026-06-19T15:04:57.813Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/github-trending-6eec8646.md",
+      "file": "sources/2026-06-19/github-trending-6eec8646.md",
+      "slug": "Ollama一键跑KimiGLMDeepSeekQwen",
+      "title": "Ollama 现在能一键跑 Kimi、GLM、DeepSeek、Qwen：本地模型入口怎么选",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "DeepSeek、Kimi、GLM、Qwen 都有认知度，利益点是本地运行和少花钱，读者可直接安装尝试。",
+      "selection_reason": "品牌、利益点、可操作三要素都强，且 GitHub fact 源足够稳定，适合公众号和小红书双平台。",
+      "selected_at": "2026-06-19T14:47:30.446Z",
+      "updated_at": "2026-06-19T15:04:57.813Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/x-dotey-35460a89.md",
+      "file": "sources/2026-06-19/x-dotey-35460a89.md",
+      "slug": "baoyu-design自动给PPT配图",
+      "title": "做 PPT 不想手动配图？baoyu-design Skill 已经能自动调用 AI 生图",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "Codex、Claude Code、PPTX 是高认知工作流，利益点是自动配图省时间，读者可安装 Skill 尝试。",
+      "selection_reason": "实操感强，适合小红书标题和步骤图，也能延展成公众号的 Skill 工作流案例。",
+      "selected_at": "2026-06-19T14:47:30.446Z",
+      "updated_at": "2026-06-19T15:04:57.813Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/codex-record-replay-curated.md",
+      "file": "sources/2026-06-19/codex-record-replay-curated.md",
+      "slug": "Codex录一次操作就能生成Skill",
+      "title": "Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "官方新功能，场景具体，和 Skill / Computer Use / 本地自动化强相关。",
+      "selection_reason": "这是当天最新鲜且可操作的主线，和前两天的 Codex 概览不重复，落点是把操作流程沉淀成 Skill。",
+      "selected_at": "2026-06-19T15:04:57.813Z",
+      "updated_at": "2026-06-19T15:06:01.181Z",
+      "draft_ready_at": "2026-06-19T15:06:01.181Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-19/Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书",
+      "meta_path": "drafts/2026-06-19/Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书/Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/claude-code-artifacts-curated.md",
+      "file": "sources/2026-06-19/claude-code-artifacts-curated.md",
+      "slug": "ClaudeCodeArtifacts把终端结果变成网页",
+      "title": "Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "Claude Code 新 beta 能力，适合 AI 编程团队和管理者，协作价值明确。",
+      "selection_reason": "和 06-18 Claude Cowork 不同，这篇聚焦 Claude Code 输出层和团队可见性。",
+      "selected_at": "2026-06-19T15:04:57.814Z",
+      "updated_at": "2026-06-19T15:07:25.824Z",
+      "draft_ready_at": "2026-06-19T15:07:25.824Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-19/Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么",
+      "meta_path": "drafts/2026-06-19/Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么/Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/baoyu-design-image-skill-curated.md",
+      "file": "sources/2026-06-19/baoyu-design-image-skill-curated.md",
+      "slug": "baoyu-design自动给PPT配图",
+      "title": "baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "职场和创作者场景直观，GitHub 可验证，和本项目内容生成链路也有强相关。",
+      "selection_reason": "这是本地 Skill 生态的新可交付案例，不是重复介绍生图工具。",
+      "selected_at": "2026-06-19T15:04:57.814Z",
+      "updated_at": "2026-06-19T15:08:43.786Z",
+      "draft_ready_at": "2026-06-19T15:08:43.786Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-19/baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块",
+      "meta_path": "drafts/2026-06-19/baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块/baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/adobe-creative-cloud-ai-assistants-curated.md",
+      "file": "sources/2026-06-19/adobe-creative-cloud-ai-assistants-curated.md",
+      "slug": "Adobe创意软件开始记住项目上下文",
+      "title": "Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "Adobe / Photoshop / Premiere 认知度高，适合写创意工具变化。",
+      "selection_reason": "能打开 AI 创作软件的新线，和本地 Agent Skill 文章形成对照。",
+      "selected_at": "2026-06-19T15:04:57.814Z",
+      "updated_at": "2026-06-19T15:10:49.439Z",
+      "draft_ready_at": "2026-06-19T15:10:49.438Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-19/Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文",
+      "meta_path": "drafts/2026-06-19/Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文/Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/mosaicleaks-research-agent-privacy-curated.md",
+      "file": "sources/2026-06-19/mosaicleaks-research-agent-privacy-curated.md",
+      "slug": "MosaicLeaks提醒研究Agent外部查询也会泄密",
+      "title": "研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "安全角度新鲜，数字结果明确，和 RAG/资料库/Agent 工作流强相关。",
+      "selection_reason": "补充安全与评测方向，避免今日全是工具更新。",
+      "selected_at": "2026-06-19T15:04:57.815Z",
+      "updated_at": "2026-06-19T15:15:22.521Z",
+      "draft_ready_at": "2026-06-19T15:15:22.521Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-19/研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答",
+      "meta_path": "drafts/2026-06-19/研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答/研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/agentic-resource-discovery-curated.md",
+      "file": "sources/2026-06-19/agentic-resource-discovery-curated.md",
+      "slug": "AgenticResourceDiscovery让Agent搜索能力",
+      "title": "MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "MCP/Skills/A2A 都是当前 agent 工程关键词，标准层变化值得关注。",
+      "selection_reason": "能把工具生态从“安装更多工具”推进到“运行时发现能力”，有方法论价值。",
+      "selected_at": "2026-06-19T15:04:57.815Z",
+      "updated_at": "2026-06-19T15:18:26.134Z",
+      "draft_ready_at": "2026-06-19T15:18:26.133Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-19/MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口",
+      "meta_path": "drafts/2026-06-19/MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口/MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-19/agents-md-probe-refine-curated.md",
+      "file": "sources/2026-06-19/agents-md-probe-refine-curated.md",
+      "slug": "AGENTS-md应该像测试资产一样迭代",
+      "title": "AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "arXiv 新论文，数字明确，和 AI 编程质量、Skill 更新、仓库说明直接相关。",
+      "selection_reason": "这篇能承接用户近期对 skill 质量的要求，也能产生内部流程改进启发。",
+      "selected_at": "2026-06-19T15:04:57.815Z",
+      "updated_at": "2026-06-19T15:20:14.527Z",
+      "draft_ready_at": "2026-06-19T15:20:14.526Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-19/AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产",
+      "meta_path": "drafts/2026-06-19/AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产/AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-19T14:47:30.444Z",
+      "source_count": 300
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-19T14:47:30.445Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T14:47:30.445Z",
+      "topic_id": "sources/2026-06-19/x-dotey-6ba89def.md",
+      "slug": "Codex录制Skill把重复操作变成自动化"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T14:47:30.445Z",
+      "topic_id": "sources/2026-06-19/github-trending-978e35c6.md",
+      "slug": "HermesAgent新版本值得看"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T14:47:30.445Z",
+      "topic_id": "sources/2026-06-19/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes把AI代码先过闸门"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T14:47:30.445Z",
+      "topic_id": "sources/2026-06-19/vllm-releases-9b0ff932.md",
+      "slug": "vLLM0230部署DeepSeekV4注意事项"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T14:47:30.445Z",
+      "topic_id": "sources/2026-06-19/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-SDK花费预警怎么用"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T14:47:30.446Z",
+      "topic_id": "sources/2026-06-19/github-trending-6eec8646.md",
+      "slug": "Ollama一键跑KimiGLMDeepSeekQwen"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T14:47:30.446Z",
+      "topic_id": "sources/2026-06-19/x-dotey-35460a89.md",
+      "slug": "baoyu-design自动给PPT配图"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-19T15:04:57.813Z",
+      "source_count": 320
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-19T15:04:57.813Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:04:57.813Z",
+      "topic_id": "sources/2026-06-19/codex-record-replay-curated.md",
+      "slug": "Codex录一次操作就能生成Skill"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:04:57.814Z",
+      "topic_id": "sources/2026-06-19/claude-code-artifacts-curated.md",
+      "slug": "ClaudeCodeArtifacts把终端结果变成网页"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:04:57.814Z",
+      "topic_id": "sources/2026-06-19/baoyu-design-image-skill-curated.md",
+      "slug": "baoyu-design自动给PPT配图"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:04:57.814Z",
+      "topic_id": "sources/2026-06-19/adobe-creative-cloud-ai-assistants-curated.md",
+      "slug": "Adobe创意软件开始记住项目上下文"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:04:57.815Z",
+      "topic_id": "sources/2026-06-19/mosaicleaks-research-agent-privacy-curated.md",
+      "slug": "MosaicLeaks提醒研究Agent外部查询也会泄密"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:04:57.815Z",
+      "topic_id": "sources/2026-06-19/agentic-resource-discovery-curated.md",
+      "slug": "AgenticResourceDiscovery让Agent搜索能力"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:04:57.815Z",
+      "topic_id": "sources/2026-06-19/agents-md-probe-refine-curated.md",
+      "slug": "AGENTS-md应该像测试资产一样迭代"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-19T15:05:06.964Z",
+      "source_count": 320
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-19T15:05:06.964Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:05:06.965Z",
+      "topic_id": "sources/2026-06-19/codex-record-replay-curated.md",
+      "slug": "Codex录一次操作就能生成Skill"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:05:06.965Z",
+      "topic_id": "sources/2026-06-19/claude-code-artifacts-curated.md",
+      "slug": "ClaudeCodeArtifacts把终端结果变成网页"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:05:06.965Z",
+      "topic_id": "sources/2026-06-19/baoyu-design-image-skill-curated.md",
+      "slug": "baoyu-design自动给PPT配图"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:05:06.966Z",
+      "topic_id": "sources/2026-06-19/adobe-creative-cloud-ai-assistants-curated.md",
+      "slug": "Adobe创意软件开始记住项目上下文"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:05:06.966Z",
+      "topic_id": "sources/2026-06-19/mosaicleaks-research-agent-privacy-curated.md",
+      "slug": "MosaicLeaks提醒研究Agent外部查询也会泄密"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:05:06.966Z",
+      "topic_id": "sources/2026-06-19/agentic-resource-discovery-curated.md",
+      "slug": "AgenticResourceDiscovery让Agent搜索能力"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-19T15:05:06.967Z",
+      "topic_id": "sources/2026-06-19/agents-md-probe-refine-curated.md",
+      "slug": "AGENTS-md应该像测试资产一样迭代"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-19T15:06:01.181Z",
+      "topic_id": "sources/2026-06-19/codex-record-replay-curated.md",
+      "slug": "Codex录一次操作就能生成Skill",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-19T15:07:25.824Z",
+      "topic_id": "sources/2026-06-19/claude-code-artifacts-curated.md",
+      "slug": "ClaudeCodeArtifacts把终端结果变成网页",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-19T15:08:43.786Z",
+      "topic_id": "sources/2026-06-19/baoyu-design-image-skill-curated.md",
+      "slug": "baoyu-design自动给PPT配图",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-19T15:10:49.439Z",
+      "topic_id": "sources/2026-06-19/adobe-creative-cloud-ai-assistants-curated.md",
+      "slug": "Adobe创意软件开始记住项目上下文",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-19T15:15:22.521Z",
+      "topic_id": "sources/2026-06-19/mosaicleaks-research-agent-privacy-curated.md",
+      "slug": "MosaicLeaks提醒研究Agent外部查询也会泄密",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-19T15:18:26.134Z",
+      "topic_id": "sources/2026-06-19/agentic-resource-discovery-curated.md",
+      "slug": "AgenticResourceDiscovery让Agent搜索能力",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-19T15:20:14.527Z",
+      "topic_id": "sources/2026-06-19/agents-md-probe-refine-curated.md",
+      "slug": "AGENTS-md应该像测试资产一样迭代",
+      "error": ""
+    }
+  ]
+}
