@@ -3,6 +3,24 @@
 全部已生成文章索引，按日期倒序。
 
 
+## 2026-06-20（7 篇，voice 分布 first-person 6 / narrative 0 / analytical 0 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径|Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径]] | 9 | first-person | [[hermes-agent|Hermes Agent]], [[nousresearch|NousResearch]] | [[agent-frameworks|Agent 框架]] / [[ai-workflows|AI 工作流]] |
+| [[OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线|OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线]] | 9 | first-person | [[openclaw-org|OpenClaw]], [[codex|Codex]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上|Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上]] | 9 | first-person | [[codex|Codex]], [[openai|OpenAI]] | [[ai-coding-tools|AI 编程工具]] / [[remote-development|远程开发]] |
+| [[长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文|长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文]] | 8 | first-person | GLM-5.2, Z.AI | [[open-models|开源模型]] / [[agent-frameworks|Agent 框架]] |
+| [[自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了|自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了]] | 8 | first-person | Open Notebook | [[ai-productivity|AI 生产力]] / [[local-first-ai|本地优先 AI]] |
+| [[Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构|Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构]] | 8 | retro | Elastic, Elasticsearch | [[agent-frameworks|Agent 框架]] / [[rag|RAG]] |
+| [[DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾|DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾]] | 8 | first-person | [[deepmind|DeepMind]], AI Control Roadmap | [[ai-safety|AI 安全]] / [[agent-frameworks|Agent 框架]] |
+
+**6/20 voice 分布**：first-person 6 / retro 1。今天继续使用 reviewed topics，避免 selector 自动重复近几日高频实体和已经写过的工具线。
+
+**6/20 QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；主稿默认可用于小红书；无 publish 子目录。发布面扫描 0 命中，未出现敏感来源字面、地域二分表达、短链、隐藏 REACH 注释或 AI 辅助元叙事。npm test 129/129 pass。
+
+**6/20 采集备注**：RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 保存 135 tweets；新增 7 份 curated source。初始 selector 与 06-17/06-19 重复较多，已通过 reviewed topics 替换；生成后按 humanizer 规则做去模板化微修。
+
 ## 2026-06-19（7 篇，voice 分布 first-person 6 / narrative 1 / analytical 0 / retro 0）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

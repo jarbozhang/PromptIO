@@ -3,6 +3,22 @@
 追加式记录，最新在前。
 
 
+## [2026-06-20] generate | 7 drafts, reviewed topics, official/curated anchors
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集 135 tweets（571 seen / 9 failures，后段触发 429）；sources/2026-06-20 共 650 个 md；新增 Hermes v0.17、OpenClaw 2026.6.9-beta.1、Codex thread handoff、GLM-5.2、Open Notebook v1.10、Elastic Agent Memory、DeepMind AI Control Roadmap 七份 curated source。
+- **新增 7 篇文章**：
+  - #1 Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径（REACH 9 first-person，Hermes Reach Release / 入口 / 后台子任务 / Skills Hub）
+  - #2 OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线（REACH 9 first-person，消息交付 / agent recovery / Codex 集成）
+  - #3 Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上（REACH 9 first-person，thread handoff / remote host / worktree）
+  - #4 长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文（REACH 8 first-person，1M context / effort level / 长任务 benchmark）
+  - #5 自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了（REACH 8 first-person，资料 ingest / retry / search fallback / context control）
+  - #6 Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构（REACH 8 retro，长期记忆 / hybrid retrieval / DLS 隔离）
+  - #7 DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾（REACH 8 first-person，Agent 安全 / supervisor / 权限控制）
+- **voice 分布**：first-person 6 / narrative 0 / analytical 0 / retro 1。
+- **QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；无 publish 子目录；发布面扫描 0 命中；npm test 129/129 pass。
+- **质量处理**：初始 selector 又命中近几日高频/已写线（Hermes 泛介绍、vLLM、no-mistakes、Codex Record、chatgpt-imagegen），本轮全部替换为 reviewed topics；生成后移除隐藏 REACH 注释，并按 humanizer 规则压低“我会/我建议/不是而是/真正”等复用句式。
+- **发现的后续改进**：自动 selector 仍然容易被高优先级旧实体吸引，需要引入最近 3-5 天标题/实体历史惩罚；source 质量层应把 release 正文自动摘要到 curated/fact 层，减少手工补源；X 抓取仍需无效账号清理和 429 backoff。
+
 ## [2026-06-19] generate | 7 drafts, reviewed topics, official/curated anchors
 
 - **采集**：pipeline 保存 RSS/GitHub/arXiv 528 items；GitHub Trending 21 AI repos；bird X 补采集 143 tweets（575 seen / 9 failures，后段触发 429）；sources/2026-06-19 共 678 个 md；新增 Codex Record & Replay、Claude Code Artifacts、baoyu-design、Adobe、MosaicLeaks、ARD、Probe-and-Refine 七份 curated source。
