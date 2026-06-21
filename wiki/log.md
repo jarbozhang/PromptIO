@@ -3,6 +3,22 @@
 追加式记录，最新在前。
 
 
+## [2026-06-21] generate | 7 drafts, reviewed topics, official/curated anchors
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 528 items；GitHub Trending 21 AI repos；bird X 补采集 141 tweets（576 seen / 9 failures，后段触发 429）；sources/2026-06-21 共 674 个 md；新增 no-mistakes、Ollama、Confucius4-TTS、Hugging Face ARD、Hugging Face agentic benchmark 五份 curated source。
+- **新增 7 篇文章**：
+  - #1 AI 写代码太快，PR 闸门得先自动跑起来（REACH 8 first-person，no-mistakes / disposable worktree / PR gate）
+  - #2 Agent 犯错以后，别急着往 AGENTS.md 里加规则（REACH 8 first-person，事故复盘 / 测试 / review / 项目约定）
+  - #3 本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短（REACH 9 first-person，本地模型入口 / REST API / agent 集成）
+  - #4 部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项（REACH 7 analytical，DeepSeek-V4 / MRv2 / Rust frontend / KV cache offloading）
+  - #5 一段参考音频换 14 种语言，子曰 4.0 TTS 开源了（REACH 8 first-person，Confucius4-TTS / 跨语言 TTS / 本地部署）
+  - #6 MCP 工具越来越多，Agent 不能全靠你手动装（REACH 8 first-person，ARD / ai-catalog.json / POST /search / 工具发现）
+  - #7 你的 CLI 不适合 Agent，可能会多烧 6 倍 token（REACH 8 first-person，agentic benchmark / CLI / Skill / 文档和测试）
+- **voice 分布**：first-person 6 / analytical 1 / narrative 0 / retro 0。
+- **QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；无 publish 子目录；发布面扫描 0 命中；npm test 129/129 pass。
+- **质量处理**：初始 selector 命中 OpenClaw、Codex Handoff、Ollama、vLLM 等近两日已写或重复线，本轮改用 reviewed topics；X angle 只作问题意识，no-mistakes / Ollama / 子曰 TTS / ARD / agentic benchmark 均补官方或 README 事实锚点；生成后移除隐藏 REACH 注释，并做去模板化微调。
+- **发现的后续改进**：selector 仍会优先吸附历史高权重实体，需要引入最近 3-5 天实体/标题惩罚；curated source 手工成本高，可把 GitHub README 和官方博客空正文补抓做成脚本；manifest 的旧 dry-run 选题已 superseded，但可在最终摘要里只展示 active batch。
+
 ## [2026-06-20] generate | 7 drafts, reviewed topics, official/curated anchors
 
 - **采集**：pipeline 保存 RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集 135 tweets（571 seen / 9 failures，后段触发 429）；sources/2026-06-20 共 650 个 md；新增 Hermes v0.17、OpenClaw 2026.6.9-beta.1、Codex thread handoff、GLM-5.2、Open Notebook v1.10、Elastic Agent Memory、DeepMind AI Control Roadmap 七份 curated source。

@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-21",
+  "created_at": "2026-06-21T03:26:27.571Z",
+  "updated_at": "2026-06-21T04:01:44.052Z",
+  "source_count": 585,
+  "topics": [
+    {
+      "id": "sources/2026-06-21/github-trending-0bd21c2c.md",
+      "file": "sources/2026-06-21/github-trending-0bd21c2c.md",
+      "slug": "openclaw最新版个人AI助手上手",
+      "title": "openclaw 最新版值得试：把个人 AI 助手跑在自己的设备上",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "命中 openclaw 生态加成，具备本地运行和个人数据可控两个明确利益点。",
+      "selection_reason": "这是本号核心生态题目，GitHub 主源质量高，适合做成新版本上手与能力边界解读。",
+      "selected_at": "2026-06-21T03:26:27.571Z",
+      "updated_at": "2026-06-21T03:47:48.523Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/x-dotey-042abc65.md",
+      "file": "sources/2026-06-21/x-dotey-042abc65.md",
+      "slug": "Codex任务迁移Handoff实操",
+      "title": "Codex Handoff 怎么用：把写到一半的任务迁移到远程机器继续跑",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "Codex 品牌强，跨设备继续跑任务是明确利益点，配置完成后可直接尝试。",
+      "selection_reason": "同类来源里这条信息最完整，能从功能介绍落到实际配置路径，适合公众号和小红书双端改写。",
+      "selected_at": "2026-06-21T03:26:27.572Z",
+      "updated_at": "2026-06-21T03:47:48.523Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/x-chenchengpro-ee4bc478.md",
+      "file": "sources/2026-06-21/x-chenchengpro-ee4bc478.md",
+      "slug": "AgentLoop自我改进Skill实战",
+      "title": "Agent 的 loop 不是玄学：用 GitHub issue 做一个会自我改进的 Skill",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "Agent 和 GitHub 有品牌认知，读者能把流程搬到自己的仓库里试。",
+      "selection_reason": "它把抽象的 loop engineering 变成了具体工作流，实操性强，也能和 Codex/Claude Code 用户的日常开发场景结合。",
+      "selected_at": "2026-06-21T03:26:27.572Z",
+      "updated_at": "2026-06-21T03:47:48.523Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/x-chenchengpro-8e23e575.md",
+      "file": "sources/2026-06-21/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes给AI代码加闸门",
+      "title": "AI 写代码之后，最该补的是这道闸门：no-mistakes 的 PR 流水线思路",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "AI 编程痛点明确，Git push 门控和自动开 PR 具备直接可操作性。",
+      "selection_reason": "这是开发者工作流题，避开模型口水战，能提供可复制的工程实践。",
+      "selected_at": "2026-06-21T03:26:27.572Z",
+      "updated_at": "2026-06-21T03:47:48.523Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/github-trending-6eec8646.md",
+      "file": "sources/2026-06-21/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑热门模型指南",
+      "title": "Ollama 最新模型清单怎么用：本地跑 DeepSeek、Qwen、Kimi 的最短路径",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "Ollama、DeepSeek、Qwen 都有认知度，本地运行和省 API 成本是明确利益点。",
+      "selection_reason": "GitHub fact 主源稳定，题目兼具工具、模型和省钱价值，是中文读者最容易动手的一类内容。",
+      "selected_at": "2026-06-21T03:26:27.572Z",
+      "updated_at": "2026-06-21T03:47:48.523Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/vllm-releases-9b0ff932.md",
+      "file": "sources/2026-06-21/vllm-releases-9b0ff932.md",
+      "slug": "部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项",
+      "title": "部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项",
+      "status": "draft_ready",
+      "reach": 7,
+      "reach_note": "vLLM、DeepSeek、Qwen 对部署读者有明确价值，升级检查清单可操作。",
+      "selection_reason": "版本主源质量高，适合提供基础设施深度。",
+      "selected_at": "2026-06-21T03:26:27.573Z",
+      "updated_at": "2026-06-21T03:55:27.416Z",
+      "draft_ready_at": "2026-06-21T03:55:27.415Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-21/部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项",
+      "meta_path": "drafts/2026-06-21/部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项/部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/x-IndieDevHailey-da03c60c.md",
+      "file": "sources/2026-06-21/x-IndieDevHailey-da03c60c.md",
+      "slug": "有道子曰4TTS跨语言口播本地部署",
+      "title": "有道子曰 4.0 TTS 开源：跨语言口播可以本地部署了",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "有道品牌有认知，开源和本地部署是明确利益点，创作者可直接试。",
+      "selection_reason": "它覆盖工具实测和内容生产场景，和开发者题形成互补，也更适合小红书传播。",
+      "selected_at": "2026-06-21T03:26:27.573Z",
+      "updated_at": "2026-06-21T03:47:48.523Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/no-mistakes-official-curated.md",
+      "file": "sources/2026-06-21/no-mistakes-official-curated.md",
+      "slug": "AI 写代码太快，PR 闸门得先自动跑起来",
+      "title": "AI 写代码太快，PR 闸门得先自动跑起来",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "AI 编程痛点明确，PR 闸门和自动验证可直接迁移到读者工作流。",
+      "selection_reason": "官方 README 主源充分，X 讨论提供问题意识，适合做成工程实践文。",
+      "selected_at": "2026-06-21T03:47:48.523Z",
+      "updated_at": "2026-06-21T03:51:05.377Z",
+      "draft_ready_at": "2026-06-21T03:51:05.376Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-21/AI 写代码太快，PR 闸门得先自动跑起来",
+      "meta_path": "drafts/2026-06-21/AI 写代码太快，PR 闸门得先自动跑起来/AI 写代码太快，PR 闸门得先自动跑起来.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/x-dotey-73a04995.md",
+      "file": "sources/2026-06-21/x-dotey-73a04995.md",
+      "slug": "Agent 犯错以后，别急着往 AGENTS.md 里加规则",
+      "title": "Agent 犯错以后，别急着往 AGENTS.md 里加规则",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "AGENTS.md、Codex 和工程事故处理都有明确读者利益点，适合收藏。",
+      "selection_reason": "中文一手讨论，观点具体，有利于补今天的工程方法论角度。",
+      "selected_at": "2026-06-21T03:47:48.524Z",
+      "updated_at": "2026-06-21T03:52:48.430Z",
+      "draft_ready_at": "2026-06-21T03:52:48.430Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-21/Agent 犯错以后，别急着往 AGENTS.md 里加规则",
+      "meta_path": "drafts/2026-06-21/Agent 犯错以后，别急着往 AGENTS.md 里加规则/Agent 犯错以后，别急着往 AGENTS.md 里加规则.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/ollama-current-readme-curated.md",
+      "file": "sources/2026-06-21/ollama-current-readme-curated.md",
+      "slug": "本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短",
+      "title": "本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "Ollama、DeepSeek、Qwen、Kimi 都有认知度，本地运行和低成本试用很强。",
+      "selection_reason": "GitHub 和官方 README 主源清晰，读者能立刻操作。",
+      "selected_at": "2026-06-21T03:47:48.524Z",
+      "updated_at": "2026-06-21T03:54:06.932Z",
+      "draft_ready_at": "2026-06-21T03:54:06.931Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-21/本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短",
+      "meta_path": "drafts/2026-06-21/本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短/本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/confucius4-tts-official-curated.md",
+      "file": "sources/2026-06-21/confucius4-tts-official-curated.md",
+      "slug": "一段参考音频换 14 种语言，子曰 4.0 TTS 开源了",
+      "title": "一段参考音频换 14 种语言，子曰 4.0 TTS 开源了",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "有道品牌、开源 TTS、跨语言口播和本地部署都具备传播点。",
+      "selection_reason": "工具实操和内容生产场景强，能平衡今天偏工程的选题。",
+      "selected_at": "2026-06-21T03:47:48.525Z",
+      "updated_at": "2026-06-21T03:56:40.858Z",
+      "draft_ready_at": "2026-06-21T03:56:40.858Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-21/一段参考音频换 14 种语言，子曰 4.0 TTS 开源了",
+      "meta_path": "drafts/2026-06-21/一段参考音频换 14 种语言，子曰 4.0 TTS 开源了/一段参考音频换 14 种语言，子曰 4.0 TTS 开源了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/hf-agentic-resource-discovery-curated.md",
+      "file": "sources/2026-06-21/hf-agentic-resource-discovery-curated.md",
+      "slug": "MCP 工具越来越多，Agent 不能全靠你手动装",
+      "title": "MCP 工具越来越多，Agent 不能全靠你手动装",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "MCP 和 Agent 是热门入口，工具发现层解决真实扩展问题，适合收藏。",
+      "selection_reason": "官方博客信息密度高，是今天较新的 agent 基础设施题。",
+      "selected_at": "2026-06-21T03:47:48.525Z",
+      "updated_at": "2026-06-21T03:58:42.445Z",
+      "draft_ready_at": "2026-06-21T03:58:42.445Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-21/MCP 工具越来越多，Agent 不能全靠你手动装",
+      "meta_path": "drafts/2026-06-21/MCP 工具越来越多，Agent 不能全靠你手动装/MCP 工具越来越多，Agent 不能全靠你手动装.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-21/hf-agentic-enough-curated.md",
+      "file": "sources/2026-06-21/hf-agentic-enough-curated.md",
+      "slug": "你的 CLI 不适合 Agent，可能会多烧 6 倍 token",
+      "title": "你的 CLI 不适合 Agent，可能会多烧 6 倍 token",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "6 倍 token 成本有强利益点，CLI/SDK 维护者能直接行动。",
+      "selection_reason": "官方博客有数字和案例，适合做成观点鲜明的工程设计文章。",
+      "selected_at": "2026-06-21T03:47:48.525Z",
+      "updated_at": "2026-06-21T04:01:44.052Z",
+      "draft_ready_at": "2026-06-21T04:01:44.052Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-21/你的 CLI 不适合 Agent，可能会多烧 6 倍 token",
+      "meta_path": "drafts/2026-06-21/你的 CLI 不适合 Agent，可能会多烧 6 倍 token/你的 CLI 不适合 Agent，可能会多烧 6 倍 token.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-21T03:26:27.571Z",
+      "source_count": 340
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-21T03:26:27.571Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:26:27.572Z",
+      "topic_id": "sources/2026-06-21/github-trending-0bd21c2c.md",
+      "slug": "openclaw最新版个人AI助手上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:26:27.572Z",
+      "topic_id": "sources/2026-06-21/x-dotey-042abc65.md",
+      "slug": "Codex任务迁移Handoff实操"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:26:27.572Z",
+      "topic_id": "sources/2026-06-21/x-chenchengpro-ee4bc478.md",
+      "slug": "AgentLoop自我改进Skill实战"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:26:27.572Z",
+      "topic_id": "sources/2026-06-21/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes给AI代码加闸门"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:26:27.573Z",
+      "topic_id": "sources/2026-06-21/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑热门模型指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:26:27.573Z",
+      "topic_id": "sources/2026-06-21/vllm-releases-9b0ff932.md",
+      "slug": "vLLM023部署检查清单"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:26:27.573Z",
+      "topic_id": "sources/2026-06-21/x-IndieDevHailey-da03c60c.md",
+      "slug": "有道子曰4TTS跨语言口播本地部署"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-21T03:47:48.523Z",
+      "source_count": 585
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-21T03:47:48.523Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:47:48.523Z",
+      "topic_id": "sources/2026-06-21/no-mistakes-official-curated.md",
+      "slug": "AI 写代码太快，PR 闸门得先自动跑起来"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:47:48.524Z",
+      "topic_id": "sources/2026-06-21/x-dotey-73a04995.md",
+      "slug": "Agent 犯错以后，别急着往 AGENTS.md 里加规则"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:47:48.524Z",
+      "topic_id": "sources/2026-06-21/ollama-current-readme-curated.md",
+      "slug": "本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:47:48.524Z",
+      "topic_id": "sources/2026-06-21/vllm-releases-9b0ff932.md",
+      "slug": "部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:47:48.525Z",
+      "topic_id": "sources/2026-06-21/confucius4-tts-official-curated.md",
+      "slug": "一段参考音频换 14 种语言，子曰 4.0 TTS 开源了"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:47:48.525Z",
+      "topic_id": "sources/2026-06-21/hf-agentic-resource-discovery-curated.md",
+      "slug": "MCP 工具越来越多，Agent 不能全靠你手动装"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:47:48.525Z",
+      "topic_id": "sources/2026-06-21/hf-agentic-enough-curated.md",
+      "slug": "你的 CLI 不适合 Agent，可能会多烧 6 倍 token"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-21T03:49:54.175Z",
+      "source_count": 585
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-21T03:49:54.175Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:49:54.176Z",
+      "topic_id": "sources/2026-06-21/no-mistakes-official-curated.md",
+      "slug": "AI 写代码太快，PR 闸门得先自动跑起来"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:49:54.176Z",
+      "topic_id": "sources/2026-06-21/x-dotey-73a04995.md",
+      "slug": "Agent 犯错以后，别急着往 AGENTS.md 里加规则"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:49:54.176Z",
+      "topic_id": "sources/2026-06-21/ollama-current-readme-curated.md",
+      "slug": "本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:49:54.176Z",
+      "topic_id": "sources/2026-06-21/vllm-releases-9b0ff932.md",
+      "slug": "部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:49:54.177Z",
+      "topic_id": "sources/2026-06-21/confucius4-tts-official-curated.md",
+      "slug": "一段参考音频换 14 种语言，子曰 4.0 TTS 开源了"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:49:54.177Z",
+      "topic_id": "sources/2026-06-21/hf-agentic-resource-discovery-curated.md",
+      "slug": "MCP 工具越来越多，Agent 不能全靠你手动装"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-21T03:49:54.177Z",
+      "topic_id": "sources/2026-06-21/hf-agentic-enough-curated.md",
+      "slug": "你的 CLI 不适合 Agent，可能会多烧 6 倍 token"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-21T03:51:05.377Z",
+      "topic_id": "sources/2026-06-21/no-mistakes-official-curated.md",
+      "slug": "AI 写代码太快，PR 闸门得先自动跑起来",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-21T03:52:48.430Z",
+      "topic_id": "sources/2026-06-21/x-dotey-73a04995.md",
+      "slug": "Agent 犯错以后，别急着往 AGENTS.md 里加规则",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-21T03:54:06.932Z",
+      "topic_id": "sources/2026-06-21/ollama-current-readme-curated.md",
+      "slug": "本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-21T03:55:27.416Z",
+      "topic_id": "sources/2026-06-21/vllm-releases-9b0ff932.md",
+      "slug": "部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-21T03:56:40.858Z",
+      "topic_id": "sources/2026-06-21/confucius4-tts-official-curated.md",
+      "slug": "一段参考音频换 14 种语言，子曰 4.0 TTS 开源了",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-21T03:58:42.445Z",
+      "topic_id": "sources/2026-06-21/hf-agentic-resource-discovery-curated.md",
+      "slug": "MCP 工具越来越多，Agent 不能全靠你手动装",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-21T04:01:44.052Z",
+      "topic_id": "sources/2026-06-21/hf-agentic-enough-curated.md",
+      "slug": "你的 CLI 不适合 Agent，可能会多烧 6 倍 token",
+      "error": ""
+    }
+  ]
+}

@@ -3,6 +3,24 @@
 全部已生成文章索引，按日期倒序。
 
 
+## 2026-06-21（7 篇，voice 分布 first-person 6 / narrative 0 / analytical 1 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[AI 写代码太快，PR 闸门得先自动跑起来|AI 写代码太快，PR 闸门得先自动跑起来]] | 8 | first-person | no-mistakes, Codex | [[ai-coding-tools|AI 编程工具]] / [[developer-tools|开发者工具]] |
+| [[Agent 犯错以后，别急着往 AGENTS.md 里加规则|Agent 犯错以后，别急着往 AGENTS.md 里加规则]] | 8 | first-person | AGENTS.md, Codex, Claude Code | [[ai-coding-tools|AI 编程工具]] / [[ai-methodology|AI 方法论]] |
+| [[本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短|本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短]] | 9 | first-person | [[ollama|Ollama]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]], Kimi | [[local-inference|本地推理]] / [[local-first-ai|本地优先 AI]] |
+| [[部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项|部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项]] | 7 | analytical | [[vllm|vLLM]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]] | [[local-inference|本地推理]] / [[ai-infra|AI 基础设施]] |
+| [[一段参考音频换 14 种语言，子曰 4.0 TTS 开源了|一段参考音频换 14 种语言，子曰 4.0 TTS 开源了]] | 8 | first-person | Confucius4-TTS, NetEase Youdao | 语音 AI / [[creator-economy|创作者经济]] |
+| [[MCP 工具越来越多，Agent 不能全靠你手动装|MCP 工具越来越多，Agent 不能全靠你手动装]] | 8 | first-person | Hugging Face, ARD, MCP, Skills, A2A | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[你的 CLI 不适合 Agent，可能会多烧 6 倍 token|你的 CLI 不适合 Agent，可能会多烧 6 倍 token]] | 8 | first-person | Hugging Face, Transformers, hf CLI | [[developer-tools|开发者工具]] / [[agent-frameworks|Agent 框架]] |
+
+**6/21 voice 分布**：first-person 6 / analytical 1。今天没有继续写 OpenClaw / Codex Handoff，避免和 06-20 重复；保留 vLLM/Ollama 是因为今天改用官方/README 事实源并切换成部署/本地入口角度。
+
+**6/21 QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；主稿默认可用于小红书；无 publish 子目录。发布面扫描 0 命中，未出现敏感来源字面、地域二分表达、短链、隐藏 REACH 注释或 AI 辅助元叙事。npm test 129/129 pass。
+
+**6/21 采集备注**：RSS/GitHub/arXiv 528 items；GitHub Trending 21 AI repos；bird X 保存 141 tweets；新增 5 份 curated source。初始 selector 与 06-20 重复较多，已通过 reviewed topics 替换。
+
 ## 2026-06-20（7 篇，voice 分布 first-person 6 / narrative 0 / analytical 0 / retro 1）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |
