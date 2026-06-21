@@ -12,7 +12,7 @@
 | [[Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上|Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上]] | 9 | first-person | [[codex|Codex]], [[openai|OpenAI]] | [[ai-coding-tools|AI 编程工具]] / [[remote-development|远程开发]] |
 | [[长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文|长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文]] | 8 | first-person | GLM-5.2, Z.AI | [[open-models|开源模型]] / [[agent-frameworks|Agent 框架]] |
 | [[自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了|自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了]] | 8 | first-person | Open Notebook | [[ai-productivity|AI 生产力]] / [[local-first-ai|本地优先 AI]] |
-| [[Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构|Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构]] | 8 | retro | Elastic, Elasticsearch | [[agent-frameworks|Agent 框架]] / [[rag|RAG]] |
+| [[别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计|别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计]] | 8 | retro | Elastic, Elasticsearch | [[agent-frameworks|Agent 框架]] / [[rag|RAG]] |
 | [[DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾|DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾]] | 8 | first-person | [[deepmind|DeepMind]], AI Control Roadmap | [[ai-safety|AI 安全]] / [[agent-frameworks|Agent 框架]] |
 
 **6/20 voice 分布**：first-person 6 / retro 1。今天继续使用 reviewed topics，避免 selector 自动重复近几日高频实体和已经写过的工具线。

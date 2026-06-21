@@ -213,7 +213,7 @@
       "id": "sources/2026-06-20/elastic-agent-memory-curated.md",
       "file": "sources/2026-06-20/elastic-agent-memory-curated.md",
       "slug": "Elastic 给 Agent 长期记忆一套架构",
-      "title": "Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构",
+      "title": "别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计",
       "status": "draft_ready",
       "reach": 8,
       "reach_note": "Agent memory、RAG 和 Elasticsearch 都有可操作价值，适合收藏型技术笔记。",
@@ -222,8 +222,8 @@
       "updated_at": "2026-06-20T05:19:26.557Z",
       "draft_ready_at": "2026-06-20T05:19:26.557Z",
       "draft_failed_at": "",
-      "draft_dir": "drafts/2026-06-20/Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构",
-      "meta_path": "drafts/2026-06-20/Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构/Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构.md",
+      "draft_dir": "drafts/2026-06-20/别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计",
+      "meta_path": "drafts/2026-06-20/别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计/别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计.md",
       "error": ""
     },
     {

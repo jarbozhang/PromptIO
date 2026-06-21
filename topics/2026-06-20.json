@@ -54,7 +54,7 @@
     },
     {
       "file": "sources/2026-06-20/elastic-agent-memory-curated.md",
-      "title": "Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构",
+      "title": "别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计",
       "slug": "Elastic 给 Agent 长期记忆一套架构",
       "angle": "从 1M context 仍然不是 memory system 切入，把 Elasticsearch 的三类记忆、hybrid retrieval、RRF、reranker、supersession、decay、DLS 隔离和 0.89 R@10 翻译成工程检查清单。",
       "voice": "retro",

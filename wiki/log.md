@@ -12,7 +12,7 @@
   - #3 Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上（REACH 9 first-person，thread handoff / remote host / worktree）
   - #4 长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文（REACH 8 first-person，1M context / effort level / 长任务 benchmark）
   - #5 自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了（REACH 8 first-person，资料 ingest / retry / search fallback / context control）
-  - #6 Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构（REACH 8 retro，长期记忆 / hybrid retrieval / DLS 隔离）
+  - #6 别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计（REACH 8 retro，长期记忆 / hybrid retrieval / DLS 隔离）
   - #7 DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾（REACH 8 first-person，Agent 安全 / supervisor / 权限控制）
 - **voice 分布**：first-person 6 / narrative 0 / analytical 0 / retro 1。
 - **QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；无 publish 子目录；发布面扫描 0 命中；npm test 129/129 pass。

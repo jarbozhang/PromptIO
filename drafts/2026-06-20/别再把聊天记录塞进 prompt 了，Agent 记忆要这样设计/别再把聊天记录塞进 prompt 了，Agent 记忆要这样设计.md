@@ -1,5 +1,5 @@
 ---
-title: Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构
+title: 别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计
 status: draft
 date: '2026-06-20'
 source: manual
@@ -22,7 +22,7 @@ platforms:
   wechat: primary
   xhs: primary
   x: blocked
-xhs_title: Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构
+xhs_title: 别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计
 wechat_title: ''
 cover:
   status: skipped
@@ -30,7 +30,7 @@ reach_note: Agent memory、RAG 和 Elasticsearch 都有可操作价值，适合�
 selection_reason: 补一篇方法论深度，帮助今天的文章不只停留在版本新闻。
 ---
 
-# Agent 记忆别再塞进上下文，Elastic 给了一套长期记忆架构
+# 别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计
 
 1M context window 很诱人，但它解决的是一次推理里能看多少东西，不是一个 Agent 能不能长期记住你。
 
