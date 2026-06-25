@@ -25,6 +25,9 @@ export function usage() {
     '',
     'Options:',
     '  --voice <first-person|narrative|analytical|retro>',
+    '  --content-lane <lane>         Daily diversity lane from selector',
+    '  --content-archetype <type>    Article structure archetype from selector',
+    '  --diversity-note <text>       Similarity warnings from daily selector',
     '  --date <YYYY-MM-DD>',
     '  --llm-provider <anthropic|codex>',
     '  --text-model <model>',
@@ -44,6 +47,9 @@ export function parseArgs(argv) {
     title: '',
     slug: '',
     voice: '',
+    contentLane: '',
+    contentArchetype: '',
+    diversityNote: '',
     date: TODAY,
     llmProvider: process.env.LLM_PROVIDER || 'anthropic',
     textModel: '',
@@ -76,6 +82,15 @@ export function parseArgs(argv) {
         break;
       case '--voice':
         opts.voice = requireValue(args, arg);
+        break;
+      case '--content-lane':
+        opts.contentLane = requireValue(args, arg);
+        break;
+      case '--content-archetype':
+        opts.contentArchetype = requireValue(args, arg);
+        break;
+      case '--diversity-note':
+        opts.diversityNote = requireValue(args, arg);
         break;
       case '--date':
         opts.date = requireValue(args, arg);
@@ -116,6 +131,20 @@ export function parseArgs(argv) {
   }
   if (opts.voice && !['first-person', 'narrative', 'analytical', 'retro'].includes(opts.voice)) {
     throw new Error('--voice must be first-person, narrative, analytical, or retro');
+  }
+  if (opts.contentArchetype && ![
+    'hands_on_recipe',
+    'version_brief',
+    'failure_postmortem',
+    'decision_memo',
+    'trend_argument',
+    'case_story',
+    'buyer_guide',
+    'myth_busting',
+    'reference_card',
+    'safety_review',
+  ].includes(opts.contentArchetype)) {
+    throw new Error('--content-archetype is not supported');
   }
   opts.llmProvider = String(opts.llmProvider || '').toLowerCase();
   if (!['anthropic', 'codex'].includes(opts.llmProvider)) {
@@ -286,11 +315,21 @@ function splitArticles(content) {
   return parts.length ? parts : [content.trim()];
 }
 
-export function buildGenerationPrompt({ article, angle, title, slug, voice }) {
+export function buildGenerationPrompt({
+  article,
+  angle,
+  title,
+  slug,
+  voice,
+  contentLane = '',
+  contentArchetype = '',
+  diversityNote = '',
+}) {
   const wechatPrompt = fs.readFileSync(WECHAT_PROMPT_PATH, 'utf8');
   const xhsPrompt = fs.existsSync(XHS_PROMPT_PATH)
     ? fs.readFileSync(XHS_PROMPT_PATH, 'utf8')
     : '';
+  const archetypeGuide = articleArchetypeGuide(contentArchetype);
   const sourceTitle = title || article.frontmatter.title || '';
   const sourceUrl = article.frontmatter.url || article.frontmatter.link || '';
   const sourceName = article.frontmatter.source || 'manual';
@@ -329,13 +368,22 @@ export function buildGenerationPrompt({ article, angle, title, slug, voice }) {
     '- 不要使用“外网/国内/国外/境外/海外”等二分表达，用“读者/中文读者/公开来源/官方文档/本地运行/可验证入口”等中性表达。',
     '- 字面黑名单：外网、国内、国外、境外、海外。标题、正文、链接说明、风险提示、否定句和引用原文里都不能出现这些词。',
     '- 保留关键信息、行动建议和风险边界；不要写“本文为 AI 辅助整理”“不是实测”“不是假装跑完”等元叙事。',
-    '- 按小红书高流量结构写，前 3 段先回答读者收益，正文必须自然覆盖“适合谁 / 怎么做 / 坑点 / 下一步动作 / 交付形态”中的至少 3 项。',
-    '- 工具、教程、工作流、路线图、选型、交付类文章不能写成连续说明文。正文至少有 3 个 ## 二级标题，至少 1 个可收藏清单或步骤清单，至少 1 段明确判断或避坑。',
-    '- 二级标题必须写成读者任务，例如“先选一个最小场景”“把验证路径压到一个任务”，不要写成“RAG”“MCP”“模型接入”这种概念目录。',
+    '- 按小红书高流量结构写，前 3 段先回答读者收益，但不要把每篇都写成同一个“问题 → 工具 → 清单 → 下一步”模板。',
+    '- 正文至少有 3 个 ## 二级标题，二级标题必须服务本篇版型；不要每篇都使用“先把/先看/这里最容易踩坑/从一个最小任务开始”。',
+    '- 只有 hands_on_recipe、buyer_guide、reference_card、safety_review 这类本来适合收藏的版型才必须有清单或步骤。version_brief、failure_postmortem、decision_memo、trend_argument、case_story、myth_busting 可以不用清单，改用版本变化表、事故链条、取舍备忘录、判断段、场景故事或反常识论证。',
+    '- 工具、教程、工作流、路线图、选型、交付类文章不能写成连续说明文，但版面层级不等于清单堆叠。每篇只保留一种主结构。',
+    '- 如果本篇版型需要清单，至少 1 个可收藏清单或步骤清单必须服务具体对象；如果本篇版型不需要清单，不要为了凑格式硬塞。',
+    '- 二级标题必须写成读者任务，例如“选一个最小场景”“把验证路径压到一个任务”，不要写成“RAG”“MCP”“模型接入”这种概念目录。',
     '- 不要复用“今晚可以这样...”“今晚能做什么”“今晚想动手”这类模板化行动标题或段落。行动段标题必须贴合本篇对象，例如验证长期记忆、保留 reset、跑一个收件箱 workflow、检查免费额度失败兜底。',
     '- 英文项目名和技术词不要占据主钩子，必须翻译成中文读者关心的具体场景。',
     '- 如果主题涉及 openclaw 或 Hermes，必须重点写新版本解决了哪些问题、新增了哪些功能、对 agent 应用有什么启发、读者怎么开始使用。',
-    '- 保存前做一次去 AI 味终审，删掉模板化开头、总结腔、清单堆叠、假装亲测、重复动作描写和“本文将介绍”式过渡。',
+    '- 保存前做一次去 AI 味终审，删掉模板化开头、总结腔、清单堆叠、假装亲测、重复动作描写和“本文将介绍”式过渡。尤其检查：这篇是否像最近几天同一个 agent 写出的兄弟篇；如果像，优先换入口、换 H2 骨架、换收尾，而不是只换词。',
+    '',
+    '本篇多样性约束:',
+    `- content_lane: ${contentLane || '未指定，按素材选择但不要默认都写成开发者工具'}`,
+    `- content_archetype: ${contentArchetype || '未指定，按素材选择一种主版型'}`,
+    `- diversity_note: ${diversityNote || '无'}`,
+    archetypeGuide,
     '',
     '小红书发布标题要求:',
     '- title 和 xhs_title 都按小红书发布标题写；除非用户指定，否则二者应完全一致。',
@@ -354,6 +402,8 @@ export function buildGenerationPrompt({ article, angle, title, slug, voice }) {
     `指定 slug: ${slug || '(未指定)'}`,
     `指定角度: ${angle || 'Manual selection, choose the most actionable angle.'}`,
     `指定 voice: ${voice || '由内容自动选择 first-person/narrative/analytical/retro 中最合适的一种'}`,
+    `指定 content_lane: ${contentLane || '(未指定)'}`,
+    `指定 content_archetype: ${contentArchetype || '(未指定)'}`,
     `来源: ${sourceName}`,
     `URL: ${sourceUrl || '(none)'}`,
     '',
@@ -366,6 +416,65 @@ export function buildGenerationPrompt({ article, angle, title, slug, voice }) {
     '--- source materials ---',
     sourceContext,
   ].join('\n');
+}
+
+function articleArchetypeGuide(archetype) {
+  switch (archetype) {
+    case 'version_brief':
+      return [
+        '- 本篇按“版本解读型”写。主结构是：旧问题 → 新版本改了什么 → 哪些能力变得可用 → 适合谁升级/验证。',
+        '- 可以用小表格或要点列版本变化，但不要把全文写成通用检查清单。',
+        '- openclaw/Hermes 题必须重点写解决的问题、新增功能、启发和怎么开始使用。',
+      ].join('\n');
+    case 'failure_postmortem':
+      return [
+        '- 本篇按“失败复盘/风险提醒型”写。主结构是：问题现场 → 根因拆解 → 为什么常见方案不够 → 修复动作。',
+        '- 不要写成工具种草；重点放在读者如何避免同类错误。',
+        '- 结尾可以给一张事故卡片，而不是下一步教程。',
+      ].join('\n');
+    case 'decision_memo':
+      return [
+        '- 本篇按“取舍备忘录型”写。主结构是：要做的决策 → 三个判断维度 → 适合/不适合的人 → 我的选择。',
+        '- 不要写成教程；少用步骤，多写边界和取舍。',
+      ].join('\n');
+    case 'trend_argument':
+      return [
+        '- 本篇按“趋势判断型”写。主结构是：一个小变化 → 它指向的趋势 → 为什么现在值得看 → 对读者的启发。',
+        '- 不强制清单；需要一个明确判断，而不是平均介绍。',
+      ].join('\n');
+    case 'case_story':
+      return [
+        '- 本篇按“场景故事/案例拆解型”写。主结构是：一个具体使用场景 → 工具如何进入流程 → 交付物变了什么 → 可复用的经验。',
+        '- 用场景链条替代概念目录，不要堆功能列表。',
+      ].join('\n');
+    case 'buyer_guide':
+      return [
+        '- 本篇按“选型指南型”写。主结构是：谁需要选 → 关键条件 → 分支建议 → 验证路径。',
+        '- 可以有清单，但必须是选型判断清单，不要变成泛泛教程。',
+      ].join('\n');
+    case 'myth_busting':
+      return [
+        '- 本篇按“反常识/破误解型”写。主结构是：常见误解 → 为什么不完整 → 更准确的判断 → 怎么调整做法。',
+        '- 标题和 H2 要有观点，不要只列功能。',
+      ].join('\n');
+    case 'reference_card':
+      return [
+        '- 本篇按“参考卡/发布前检查型”写。主结构是：使用前提 → 检查项 → 失败信号 → 最小验证。',
+        '- 这是少数可以明确写清单的版型，但清单要短、具体、可执行。',
+      ].join('\n');
+    case 'safety_review':
+      return [
+        '- 本篇按“安全审查型”写。主结构是：风险面 → 攻击/失效路径 → 控制点 → 上线前验证。',
+        '- 不要制造恐慌；用工程控制语言写。',
+      ].join('\n');
+    case 'hands_on_recipe':
+      return [
+        '- 本篇按“实操配方型”写。主结构是：最小场景 → 操作路径 → 验收标准 → 常见坑。',
+        '- 可以有步骤清单，但不要每节都以“先”开头，也不要把动作段写成“今晚可以这样开始”。',
+      ].join('\n');
+    default:
+      return '- 本篇必须先选择一种主版型，再写正文；不要自动套用通用工具文结构。';
+  }
 }
 
 async function callAnthropic(prompt, model) {
@@ -521,6 +630,9 @@ function buildMeta({ opts, article, generated, slug, cover }) {
     source_url: article.frontmatter.url || article.frontmatter.link || '',
     angle: sanitizeInternalInstructions(opts.angle || ''),
     voice: opts.voice || '',
+    content_lane: opts.contentLane || '',
+    content_archetype: opts.contentArchetype || '',
+    diversity_note: sanitizeInternalInstructions(opts.diversityNote || ''),
     reach: Number(generated.reach || 0) || null,
     tags: Array.isArray(generated.tags) ? generated.tags : [],
     llm: {

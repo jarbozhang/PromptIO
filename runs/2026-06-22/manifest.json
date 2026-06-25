@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-22",
+  "created_at": "2026-06-22T04:23:38.952Z",
+  "updated_at": "2026-06-22T04:54:43.829Z",
+  "source_count": 500,
+  "topics": [
+    {
+      "id": "sources/2026-06-22/x-chenchengpro-8e23e575.md",
+      "file": "sources/2026-06-22/x-chenchengpro-8e23e575.md",
+      "slug": "AI写代码后的本地PR闸门",
+      "title": "AI 写代码变快后，真正该补的是本地 PR 闸门",
+      "status": "superseded",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.059,
+      "reach_note": "AI 写代码是高关注场景，PR 闸门能直接降低风险，团队可照着改本地流程。",
+      "selection_reason": "风险提醒和工程方法结合得好，能避开纯工具介绍，写成一篇发布前质量闸门文章。",
+      "selected_at": "2026-06-22T04:23:38.953Z",
+      "updated_at": "2026-06-22T04:35:47.257Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/x-IndieDevHailey-da03c60c.md",
+      "file": "sources/2026-06-22/x-IndieDevHailey-da03c60c.md",
+      "slug": "有道子曰4.0-TTS多语言口播",
+      "title": "网易有道开源子曰4.0 TTS：多语言口播终于能保留原声情绪了",
+      "status": "superseded",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.063,
+      "reach_note": "网易有道品牌清晰，开源和本地部署有利益点，创作者可以直接尝试口播本地化。",
+      "selection_reason": "这是当天少数非常适合创作者场景的题，能补足开发者工具之外的内容结构。",
+      "selected_at": "2026-06-22T04:23:38.953Z",
+      "updated_at": "2026-06-22T04:35:47.257Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/deepmind-blog-6c3ecf06.md",
+      "file": "sources/2026-06-22/deepmind-blog-6c3ecf06.md",
+      "slug": "Google-DeepMind-AI-Control-Roadmap安全栏",
+      "title": "Google DeepMind 的 AI Control Roadmap：上线 Agent 前要先补哪些安全栏",
+      "status": "superseded",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.034,
+      "reach_note": "Google DeepMind 品牌强，Agent 安全是高风险刚需，团队可据此检查上线流程。",
+      "selection_reason": "补足安全和风险面，来源是机构博客，适合做一篇不玄学、不恐慌的上线前安全审查。",
+      "selected_at": "2026-06-22T04:23:38.954Z",
+      "updated_at": "2026-06-22T04:35:47.257Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/github-trending-6eec8646.md",
+      "file": "sources/2026-06-22/github-trending-6eec8646.md",
+      "slug": "Ollama一键跑Kimi-GLM-DeepSeek-Qwen",
+      "title": "Ollama 现在能一键跑 Kimi、GLM、DeepSeek、Qwen：本地模型怎么选第一套",
+      "status": "superseded",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.049,
+      "reach_note": "Ollama、DeepSeek、Qwen、Kimi 都有认知度，本地运行利益点明确，读者能立刻动手。",
+      "selection_reason": "模型部署题里最具行动性，品牌组合强，适合做成收藏型但不夸张的本地上手稿。",
+      "selected_at": "2026-06-22T04:23:38.954Z",
+      "updated_at": "2026-06-22T04:35:47.257Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/x-libapi_-8b5d924c.md",
+      "file": "sources/2026-06-22/x-libapi_-8b5d924c.md",
+      "slug": "Hermes Studio 0.6.18 更像交付工具了",
+      "title": "Hermes Studio 0.6.18 更新：聊天历史、MCP 拆分和 runtime 终于更像交付工具了",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,agent_like_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 80,
+      "recent_similarity": 0.043,
+      "reach_note": "Hermes/openclaw 生态有持续读者，版本变化明确，升级和验证路径可操作。",
+      "selection_reason": "这是今天最符合本号定位的 openclaw/Hermes 生态题，和前几天版本稿相比增量落在 Studio 侧的交付可靠性。",
+      "selected_at": "2026-06-22T04:23:38.954Z",
+      "updated_at": "2026-06-22T04:50:13.654Z",
+      "draft_ready_at": "2026-06-22T04:50:13.653Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-22/个人 agent 终于更像交付工具，Hermes Studio 0.6.18 补上这些坑",
+      "meta_path": "drafts/2026-06-22/个人 agent 终于更像交付工具，Hermes Studio 0.6.18 补上这些坑/个人 agent 终于更像交付工具，Hermes Studio 0.6.18 补上这些坑.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/openai-python-sdk-releases-052770e0.md",
+      "file": "sources/2026-06-22/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-Python-SDK-2.42.0-spend-alerts预算提醒",
+      "title": "OpenAI Python SDK 2.42.0 新增 spend_alerts：团队该怎么做预算提醒",
+      "status": "superseded",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 72,
+      "recent_similarity": 0.068,
+      "reach_note": "OpenAI 品牌强，spend_alerts 有明确省钱和管理价值，开发团队可立即检查 SDK 与账单流程。",
+      "selection_reason": "不是普通 SDK 小版本，而是直连成本控制的功能，适合公众号和小红书都做成“团队别等账单爆了才看”的选题。",
+      "selected_at": "2026-06-22T04:23:38.954Z",
+      "updated_at": "2026-06-22T04:35:47.257Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/openai-blog-663d8726.md",
+      "file": "sources/2026-06-22/openai-blog-663d8726.md",
+      "slug": "三星部署ChatGPT和Codex的企业AI指标",
+      "title": "三星把 ChatGPT Enterprise 和 Codex 推给员工：企业 AI 落地看什么指标",
+      "status": "superseded",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 154,
+      "recent_similarity": 0.032,
+      "reach_note": "三星、OpenAI、ChatGPT、Codex 品牌强，企业部署有明确参考价值。",
+      "selection_reason": "适合做产品商业视角，能把当天内容从工具上手拉到组织决策层面。",
+      "selected_at": "2026-06-22T04:23:38.955Z",
+      "updated_at": "2026-06-22T04:35:47.257Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/venturebeat-ai-e670024b.md",
+      "file": "sources/2026-06-22/venturebeat-ai-e670024b.md",
+      "slug": "AI 写完代码后部署速度变成新瓶颈",
+      "title": "AI 写完代码后，部署速度开始变成新瓶颈",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.03,
+      "reach_note": "AI 编程和部署效率是明确痛点，Railway 的开发者规模与部署数据提供案例支撑。",
+      "selection_reason": "这能把今天内容从模型和工具拉到工程组织决策，避免全是 agent 和 SDK。",
+      "selected_at": "2026-06-22T04:35:47.257Z",
+      "updated_at": "2026-06-22T04:38:49.242Z",
+      "draft_ready_at": "2026-06-22T04:38:49.241Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-22/AI 写完代码后，部署速度开始变成新瓶颈",
+      "meta_path": "drafts/2026-06-22/AI 写完代码后，部署速度开始变成新瓶颈/AI 写完代码后，部署速度开始变成新瓶颈.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/the-verge-ai-e4500944.md",
+      "file": "sources/2026-06-22/the-verge-ai-e4500944.md",
+      "slug": "音乐人可以查 AI 训练数据了",
+      "title": "音乐人可以查训练数据了：AI 训练歌单不再只是黑箱",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "safety_review",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.034,
+      "reach_note": "AI 音乐、训练数据和可检索数据库有明确利益点，创作者可据此检查授权风险。",
+      "selection_reason": "这是非开发者题，能覆盖音乐和内容创作者，同时有可操作的检索入口。",
+      "selected_at": "2026-06-22T04:35:47.257Z",
+      "updated_at": "2026-06-22T04:41:25.996Z",
+      "draft_ready_at": "2026-06-22T04:41:25.995Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-22/音乐人可以查训练数据了：AI 训练歌单不再只是黑箱",
+      "meta_path": "drafts/2026-06-22/音乐人可以查训练数据了：AI 训练歌单不再只是黑箱/音乐人可以查训练数据了：AI 训练歌单不再只是黑箱.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/arxiv-1f615c97.md",
+      "file": "sources/2026-06-22/arxiv-1f615c97.md",
+      "slug": "客服类 AI 不能只靠 prompt 记状态",
+      "title": "客服类 AI 不能只靠 prompt 记状态，LedgerAgent 把任务状态单独立账",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "reference_card",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.041,
+      "reach_note": "客服 AI、工具调用和状态管理都是真实落地问题，ledger 设计能直接借鉴。",
+      "selection_reason": "这篇提供了具体架构启发，不是泛泛讲 agent 风险，适合做成状态管理参考卡。",
+      "selected_at": "2026-06-22T04:35:47.258Z",
+      "updated_at": "2026-06-22T04:42:43.673Z",
+      "draft_ready_at": "2026-06-22T04:42:43.672Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-22/客服类 AI 不能只靠 prompt 记状态，LedgerAgent 把任务状态单独立账",
+      "meta_path": "drafts/2026-06-22/客服类 AI 不能只靠 prompt 记状态，LedgerAgent 把任务状态单独立账/客服类 AI 不能只靠 prompt 记状态，LedgerAgent 把任务状态单独立账.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/x-emollick-7e7e3bc1.md",
+      "file": "sources/2026-06-22/x-emollick-7e7e3bc1.md",
+      "slug": "知识工作不能照搬写代码工具",
+      "title": "知识工作不能照搬写代码工具：过程记录比最后文件更重要",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.032,
+      "reach_note": "Codex/Cowork/Code 有品牌认知，知识工作流程改造是明确痛点。",
+      "selection_reason": "这是今天的观点型题，能跳出代码工具叙事，服务非纯开发读者。",
+      "selected_at": "2026-06-22T04:35:47.258Z",
+      "updated_at": "2026-06-22T04:44:35.448Z",
+      "draft_ready_at": "2026-06-22T04:44:35.447Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-22/知识工作不能照搬写代码工具，过程记录比最后文件更重要",
+      "meta_path": "drafts/2026-06-22/知识工作不能照搬写代码工具，过程记录比最后文件更重要/知识工作不能照搬写代码工具，过程记录比最后文件更重要.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/alignment-forum-1b774dbe.md",
+      "file": "sources/2026-06-22/alignment-forum-1b774dbe.md",
+      "slug": "模型上线前用历史会话预演真实风险",
+      "title": "模型上线前别只跑考试题，先用历史会话预演一次真实风险",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.032,
+      "reach_note": "模型上线、安全评估和真实会话预演有明确团队价值，92% 方向预测提供传播点。",
+      "selection_reason": "这篇和 DeepMind Control Roadmap 不同，重点是上线前评估方法，能给产品团队一个可迁移流程。",
+      "selected_at": "2026-06-22T04:35:47.258Z",
+      "updated_at": "2026-06-22T04:47:23.561Z",
+      "draft_ready_at": "2026-06-22T04:47:23.560Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-22/模型上线前别只跑考试题，先用历史会话预演一次真实风险",
+      "meta_path": "drafts/2026-06-22/模型上线前别只跑考试题，先用历史会话预演一次真实风险/模型上线前别只跑考试题，先用历史会话预演一次真实风险.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-22/venturebeat-ai-b37d9364.md",
+      "file": "sources/2026-06-22/venturebeat-ai-b37d9364.md",
+      "slug": "NousCoder-14B 开源代码模型开始拼训练效率",
+      "title": "NousCoder-14B 开源：别只看 Claude Code，代码模型也开始拼训练效率了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,agent_like_daily_cap,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 196,
+      "recent_similarity": 0.036,
+      "reach_note": "NousResearch、Claude Code、Qwen 都有认知度，开源代码模型评估有明确行动价值。",
+      "selection_reason": "这是 NousResearch 生态的新代码模型题，和 Hermes 版本稿不同，重点是模型评估和本地替代路径。",
+      "selected_at": "2026-06-22T04:35:47.259Z",
+      "updated_at": "2026-06-22T04:54:43.829Z",
+      "draft_ready_at": "2026-06-22T04:54:43.829Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-22/代码模型选型别只看 Claude Code，NousCoder-14B 开始拼训练效率了",
+      "meta_path": "drafts/2026-06-22/代码模型选型别只看 Claude Code，NousCoder-14B 开始拼训练效率了/代码模型选型别只看 Claude Code，NousCoder-14B 开始拼训练效率了.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-22T04:23:38.952Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-22T04:23:38.953Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:23:38.953Z",
+      "topic_id": "sources/2026-06-22/x-chenchengpro-8e23e575.md",
+      "slug": "AI写代码后的本地PR闸门"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:23:38.953Z",
+      "topic_id": "sources/2026-06-22/x-IndieDevHailey-da03c60c.md",
+      "slug": "有道子曰4.0-TTS多语言口播"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:23:38.954Z",
+      "topic_id": "sources/2026-06-22/deepmind-blog-6c3ecf06.md",
+      "slug": "Google-DeepMind-AI-Control-Roadmap安全栏"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:23:38.954Z",
+      "topic_id": "sources/2026-06-22/github-trending-6eec8646.md",
+      "slug": "Ollama一键跑Kimi-GLM-DeepSeek-Qwen"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:23:38.954Z",
+      "topic_id": "sources/2026-06-22/x-libapi_-8b5d924c.md",
+      "slug": "Hermes-Studio-0.6.18-Agent-runtime和MCP拆分"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:23:38.954Z",
+      "topic_id": "sources/2026-06-22/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-Python-SDK-2.42.0-spend-alerts预算提醒"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:23:38.955Z",
+      "topic_id": "sources/2026-06-22/openai-blog-663d8726.md",
+      "slug": "三星部署ChatGPT和Codex的企业AI指标"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-22T04:35:47.256Z",
+      "source_count": 500
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-22T04:35:47.257Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:35:47.257Z",
+      "topic_id": "sources/2026-06-22/venturebeat-ai-e670024b.md",
+      "slug": "AI 写完代码后部署速度变成新瓶颈"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:35:47.257Z",
+      "topic_id": "sources/2026-06-22/the-verge-ai-e4500944.md",
+      "slug": "音乐人可以查 AI 训练数据了"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:35:47.258Z",
+      "topic_id": "sources/2026-06-22/arxiv-1f615c97.md",
+      "slug": "客服类 AI 不能只靠 prompt 记状态"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:35:47.258Z",
+      "topic_id": "sources/2026-06-22/x-emollick-7e7e3bc1.md",
+      "slug": "知识工作不能照搬写代码工具"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:35:47.258Z",
+      "topic_id": "sources/2026-06-22/alignment-forum-1b774dbe.md",
+      "slug": "模型上线前用历史会话预演真实风险"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:35:47.259Z",
+      "topic_id": "sources/2026-06-22/x-libapi_-8b5d924c.md",
+      "slug": "Hermes Studio 0.6.18 更像交付工具了"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:35:47.259Z",
+      "topic_id": "sources/2026-06-22/venturebeat-ai-b37d9364.md",
+      "slug": "NousCoder-14B 开源代码模型开始拼训练效率"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-22T04:36:18.456Z",
+      "source_count": 500
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-22T04:36:18.457Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:36:18.458Z",
+      "topic_id": "sources/2026-06-22/venturebeat-ai-e670024b.md",
+      "slug": "AI 写完代码后部署速度变成新瓶颈"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:36:18.458Z",
+      "topic_id": "sources/2026-06-22/the-verge-ai-e4500944.md",
+      "slug": "音乐人可以查 AI 训练数据了"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:36:18.459Z",
+      "topic_id": "sources/2026-06-22/arxiv-1f615c97.md",
+      "slug": "客服类 AI 不能只靠 prompt 记状态"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:36:18.460Z",
+      "topic_id": "sources/2026-06-22/x-emollick-7e7e3bc1.md",
+      "slug": "知识工作不能照搬写代码工具"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:36:18.461Z",
+      "topic_id": "sources/2026-06-22/alignment-forum-1b774dbe.md",
+      "slug": "模型上线前用历史会话预演真实风险"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:36:18.461Z",
+      "topic_id": "sources/2026-06-22/x-libapi_-8b5d924c.md",
+      "slug": "Hermes Studio 0.6.18 更像交付工具了"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-22T04:36:18.462Z",
+      "topic_id": "sources/2026-06-22/venturebeat-ai-b37d9364.md",
+      "slug": "NousCoder-14B 开源代码模型开始拼训练效率"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-22T04:38:49.242Z",
+      "topic_id": "sources/2026-06-22/venturebeat-ai-e670024b.md",
+      "slug": "AI 写完代码后部署速度变成新瓶颈",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-22T04:41:25.996Z",
+      "topic_id": "sources/2026-06-22/the-verge-ai-e4500944.md",
+      "slug": "音乐人可以查 AI 训练数据了",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-22T04:42:43.673Z",
+      "topic_id": "sources/2026-06-22/arxiv-1f615c97.md",
+      "slug": "客服类 AI 不能只靠 prompt 记状态",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-22T04:44:35.448Z",
+      "topic_id": "sources/2026-06-22/x-emollick-7e7e3bc1.md",
+      "slug": "知识工作不能照搬写代码工具",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-22T04:47:23.561Z",
+      "topic_id": "sources/2026-06-22/alignment-forum-1b774dbe.md",
+      "slug": "模型上线前用历史会话预演真实风险",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-22T04:50:13.654Z",
+      "topic_id": "sources/2026-06-22/x-libapi_-8b5d924c.md",
+      "slug": "Hermes Studio 0.6.18 更像交付工具了",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-22T04:54:43.829Z",
+      "topic_id": "sources/2026-06-22/venturebeat-ai-b37d9364.md",
+      "slug": "NousCoder-14B 开源代码模型开始拼训练效率",
+      "error": ""
+    }
+  ]
+}
