@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-26",
+  "created_at": "2026-06-26T02:58:30.485Z",
+  "updated_at": "2026-06-26T03:17:17.824Z",
+  "source_count": 145,
+  "topics": [
+    {
+      "id": "sources/2026-06-26/x-IndieDevHailey-f6e6bb6e.md",
+      "file": "sources/2026-06-26/x-IndieDevHailey-f6e6bb6e.md",
+      "slug": "OpenMontage-几毛钱做-AI-视频",
+      "title": "OpenMontage：几毛钱做一条 AI 视频，开源工作流值不值得试",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.055,
+      "reach_note": "开源、低成本、视频生产三要素都强，创作者能立刻去 GitHub 验证。",
+      "selection_reason": "它补足当天的创作者场景，和开发者工具、模型部署类选题拉开形态，且利益点足够直接。",
+      "selected_at": "2026-06-26T02:58:30.486Z",
+      "updated_at": "2026-06-26T03:04:28.990Z",
+      "draft_ready_at": "2026-06-26T03:04:28.981Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-26/几毛钱做一条 AI 视频，OpenMontage 开源工作流值不值得试",
+      "meta_path": "drafts/2026-06-26/几毛钱做一条 AI 视频，OpenMontage 开源工作流值不值得试/几毛钱做一条 AI 视频，OpenMontage 开源工作流值不值得试.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-26/x-axiaisacat-e30622d9.md",
+      "file": "sources/2026-06-26/x-axiaisacat-e30622d9.md",
+      "slug": "AirLLM-4GB-显卡跑-70B",
+      "title": "4GB 显卡跑 70B？AirLLM 的真正价值不是快，而是让旧显卡还能上桌",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.025,
+      "reach_note": "低显存、70B、本地运行利益点明确，读者能直接去项目 README 验证。",
+      "selection_reason": "本地部署是中文读者高兴趣方向，这个选题有明确省钱利益点，也能写出理性选型边界。",
+      "selected_at": "2026-06-26T02:58:30.486Z",
+      "updated_at": "2026-06-26T03:06:29.256Z",
+      "draft_ready_at": "2026-06-26T03:06:29.251Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-26/4GB 显卡跑 70B？AirLLM 的真正价值不是快，而是让旧显卡还能上桌",
+      "meta_path": "drafts/2026-06-26/4GB 显卡跑 70B？AirLLM 的真正价值不是快，而是让旧显卡还能上桌/4GB 显卡跑 70B？AirLLM 的真正价值不是快，而是让旧显卡还能上桌.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-26/x-chenchengpro-ee4bc478.md",
+      "file": "sources/2026-06-26/x-chenchengpro-ee4bc478.md",
+      "slug": "Agent-loop-用-GitHub-Issue-进化-Skill",
+      "title": "Agent 的 loop 不是玄学：用 GitHub Issue 让 Skill 自我进化",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.034,
+      "reach_note": "GitHub、Agent、Skill 都有明确开发者认知，且能直接改造现有仓库流程。",
+      "selection_reason": "这是当天少数把 Agent loop 讲成可执行工程机制的来源，比泛泛谈趋势更适合公众号和小红书做成实操型选题。",
+      "selected_at": "2026-06-26T02:58:30.486Z",
+      "updated_at": "2026-06-26T03:07:36.949Z",
+      "draft_ready_at": "2026-06-26T03:07:36.948Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-26/Agent 的 loop 不是玄学，用 GitHub Issue 让 Skill 自我进化",
+      "meta_path": "drafts/2026-06-26/Agent 的 loop 不是玄学，用 GitHub Issue 让 Skill 自我进化/Agent 的 loop 不是玄学，用 GitHub Issue 让 Skill 自我进化.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-26/x-libapi_-2bd61c35.md",
+      "file": "sources/2026-06-26/x-libapi_-2bd61c35.md",
+      "slug": "Hermes-Studio-小方盒首批反馈",
+      "title": "Hermes Studio 小方盒首批反馈：从 Web UI 到本地盒子，它解决了什么问题",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.051,
+      "reach_note": "Hermes 属于重点跟踪生态，版本变化和可体验路径明确，适合转成新功能解读。",
+      "selection_reason": "Hermes Studio 是当天 openclaw/NousResearch 生态里最有连续报道价值的题目，可以把预订热度、首批反馈和产品形态变化合并成一篇版本解读。",
+      "selected_at": "2026-06-26T02:58:30.486Z",
+      "updated_at": "2026-06-26T03:10:00.281Z",
+      "draft_ready_at": "2026-06-26T03:10:00.277Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-26/Hermes Studio 小方盒首批反馈：从 Web UI 到本地盒子，它解决了什么问题",
+      "meta_path": "drafts/2026-06-26/Hermes Studio 小方盒首批反馈：从 Web UI 到本地盒子，它解决了什么问题/Hermes Studio 小方盒首批反馈：从 Web UI 到本地盒子，它解决了什么问题.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-26/x-dotey-e1067d8b.md",
+      "file": "sources/2026-06-26/x-dotey-e1067d8b.md",
+      "slug": "Anthropic-指控-Qwen-蒸馏-Claude",
+      "title": "Anthropic 指控 Qwen 蒸馏 Claude：模型公司最怕的不是调用量，而是被系统性复制",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.035,
+      "reach_note": "Anthropic、Claude、Qwen 都有认知度，风险后果清晰，适合做复盘。",
+      "selection_reason": "当天需要至少一篇风险复盘，这个题目有明确冲突、数字细节和可迁移的安全启发。",
+      "selected_at": "2026-06-26T02:58:30.487Z",
+      "updated_at": "2026-06-26T03:11:07.674Z",
+      "draft_ready_at": "2026-06-26T03:11:07.673Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-26/模型公司最怕的不是调用量，Anthropic 指控 Qwen 系统性复制 Claude 能力",
+      "meta_path": "drafts/2026-06-26/模型公司最怕的不是调用量，Anthropic 指控 Qwen 系统性复制 Claude 能力/模型公司最怕的不是调用量，Anthropic 指控 Qwen 系统性复制 Claude 能力.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-26/x-chenchengpro-8acb32cd.md",
+      "file": "sources/2026-06-26/x-chenchengpro-8acb32cd.md",
+      "slug": "Agent-记忆系统没有通用赢家",
+      "title": "Agent 记忆系统没有通用赢家：12 个方案测完，最该先改的是检索和维护",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "myth_busting",
+      "diversity_note": "title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_title_pattern_saturation",
+      "diversity_penalty": 68,
+      "recent_similarity": 0.024,
+      "reach_note": "Agent 记忆是高频痛点，结论反常识，能转化成架构取舍建议。",
+      "selection_reason": "它提供了可操作的反常识判断，能避免当天内容全是工具介绍，也适合做成收藏型架构判断文章。",
+      "selected_at": "2026-06-26T02:58:30.487Z",
+      "updated_at": "2026-06-26T03:14:43.345Z",
+      "draft_ready_at": "2026-06-26T03:14:43.344Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-26/Agent 记忆系统没有通用赢家，12 个方案测完最该先改检索和维护",
+      "meta_path": "drafts/2026-06-26/Agent 记忆系统没有通用赢家，12 个方案测完最该先改检索和维护/Agent 记忆系统没有通用赢家，12 个方案测完最该先改检索和维护.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-26/x-emollick-37dafbe8.md",
+      "file": "sources/2026-06-26/x-emollick-37dafbe8.md",
+      "slug": "Cornell-Claude-Skill-找回-10万美元",
+      "title": "Cornell 用 Claude Skill 找回 10 万美元：企业 AI 真正该先自动化哪类工作",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,agent_like_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 162,
+      "recent_similarity": 0.027,
+      "reach_note": "Claude、Skill、10 万美元结果明确，企业读者能迁移到财务和运营流程。",
+      "selection_reason": "它给当天保留了产品商业视角，也把 Agent/Skill 从开发者语境拉到组织 ROI，适合公众号传播。",
+      "selected_at": "2026-06-26T02:58:30.487Z",
+      "updated_at": "2026-06-26T03:17:17.824Z",
+      "draft_ready_at": "2026-06-26T03:17:17.817Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-26/Cornell 用 Claude Skill 找回 10 万美元，企业 AI 真正该先自动化哪类工作",
+      "meta_path": "drafts/2026-06-26/Cornell 用 Claude Skill 找回 10 万美元，企业 AI 真正该先自动化哪类工作/Cornell 用 Claude Skill 找回 10 万美元，企业 AI 真正该先自动化哪类工作.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-26T02:58:30.485Z",
+      "source_count": 145
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-26T02:58:30.485Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T02:58:30.486Z",
+      "topic_id": "sources/2026-06-26/x-IndieDevHailey-f6e6bb6e.md",
+      "slug": "OpenMontage-几毛钱做-AI-视频"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T02:58:30.486Z",
+      "topic_id": "sources/2026-06-26/x-axiaisacat-e30622d9.md",
+      "slug": "AirLLM-4GB-显卡跑-70B"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T02:58:30.486Z",
+      "topic_id": "sources/2026-06-26/x-chenchengpro-ee4bc478.md",
+      "slug": "Agent-loop-用-GitHub-Issue-进化-Skill"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T02:58:30.486Z",
+      "topic_id": "sources/2026-06-26/x-libapi_-2bd61c35.md",
+      "slug": "Hermes-Studio-小方盒首批反馈"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T02:58:30.487Z",
+      "topic_id": "sources/2026-06-26/x-dotey-e1067d8b.md",
+      "slug": "Anthropic-指控-Qwen-蒸馏-Claude"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T02:58:30.487Z",
+      "topic_id": "sources/2026-06-26/x-chenchengpro-8acb32cd.md",
+      "slug": "Agent-记忆系统没有通用赢家"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T02:58:30.487Z",
+      "topic_id": "sources/2026-06-26/x-emollick-37dafbe8.md",
+      "slug": "Cornell-Claude-Skill-找回-10万美元"
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-06-26T03:01:27.262Z",
+      "topic_id": "sources/2026-06-26/x-IndieDevHailey-f6e6bb6e.md",
+      "slug": "OpenMontage-几毛钱做-AI-视频",
+      "error": "generated markdown for OpenMontage：几毛钱做一条 AI 视频，开源工作流值不值得试 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T03:04:28.990Z",
+      "topic_id": "sources/2026-06-26/x-IndieDevHailey-f6e6bb6e.md",
+      "slug": "OpenMontage-几毛钱做-AI-视频",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T03:06:29.257Z",
+      "topic_id": "sources/2026-06-26/x-axiaisacat-e30622d9.md",
+      "slug": "AirLLM-4GB-显卡跑-70B",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T03:07:36.949Z",
+      "topic_id": "sources/2026-06-26/x-chenchengpro-ee4bc478.md",
+      "slug": "Agent-loop-用-GitHub-Issue-进化-Skill",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T03:10:00.281Z",
+      "topic_id": "sources/2026-06-26/x-libapi_-2bd61c35.md",
+      "slug": "Hermes-Studio-小方盒首批反馈",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T03:11:07.674Z",
+      "topic_id": "sources/2026-06-26/x-dotey-e1067d8b.md",
+      "slug": "Anthropic-指控-Qwen-蒸馏-Claude",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-06-26T03:12:23.613Z",
+      "topic_id": "sources/2026-06-26/x-chenchengpro-8acb32cd.md",
+      "slug": "Agent-记忆系统没有通用赢家",
+      "error": "generated markdown for Agent 记忆系统没有通用赢家：12 个方案测完，最该先改的是检索和维护 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T03:14:43.345Z",
+      "topic_id": "sources/2026-06-26/x-chenchengpro-8acb32cd.md",
+      "slug": "Agent-记忆系统没有通用赢家",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T03:17:17.824Z",
+      "topic_id": "sources/2026-06-26/x-emollick-37dafbe8.md",
+      "slug": "Cornell-Claude-Skill-找回-10万美元",
+      "error": ""
+    }
+  ]
+}

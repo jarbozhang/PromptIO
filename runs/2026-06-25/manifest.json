@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-25",
+  "created_at": "2026-06-25T07:47:45.962Z",
+  "updated_at": "2026-06-25T08:12:07.563Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-06-25/x-IndieDevHailey-f6e6bb6e.md",
+      "file": "sources/2026-06-25/x-IndieDevHailey-f6e6bb6e.md",
+      "slug": "OpenMontage视频生产流水线先试哪三种",
+      "title": "OpenMontage 把视频生产拆成 12 条流水线：创作者可以先试哪 3 种场景",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.032,
+      "reach_note": "开源、低成本、视频生产都有明确利益点，创作者能立刻去 GitHub 验证和试跑。",
+      "selection_reason": "它补足当天创作者方向，和开发者工具题形成差异，适合公众号写场景链条，小红书写低成本视频工作室。",
+      "selected_at": "2026-06-25T07:47:45.963Z",
+      "updated_at": "2026-06-25T08:01:26.437Z",
+      "draft_ready_at": "2026-06-25T08:01:26.430Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-25/OpenMontage 把视频生产拆成 12 条流水线，创作者可以先试哪 3 种场景",
+      "meta_path": "drafts/2026-06-25/OpenMontage 把视频生产拆成 12 条流水线，创作者可以先试哪 3 种场景/OpenMontage 把视频生产拆成 12 条流水线，创作者可以先试哪 3 种场景.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-25/vllm-releases-9b0ff932.md",
+      "file": "sources/2026-06-25/vllm-releases-9b0ff932.md",
+      "slug": "vLLM0230值不值得升级",
+      "title": "vLLM 0.23.0 值不值得升：DeepSeek-V4、Qwen3 和推理服务的关键变化",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.042,
+      "reach_note": "vLLM、DeepSeek、Qwen 都有品牌认知，升级判断和部署取舍可直接行动。",
+      "selection_reason": "vLLM release 信息量足，能落到模型服务团队的升级判断，比泛泛介绍仓库更有实操价值。",
+      "selected_at": "2026-06-25T07:47:45.963Z",
+      "updated_at": "2026-06-25T07:58:38.129Z",
+      "draft_ready_at": "2026-06-25T07:53:01.141Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-25/vLLM 0.23.0 怎么影响 DeepSeek、Qwen 部署：一次看懂该不该升级",
+      "meta_path": "drafts/2026-06-25/vLLM 0.23.0 怎么影响 DeepSeek、Qwen 部署：一次看懂该不该升级/vLLM 0.23.0 怎么影响 DeepSeek、Qwen 部署：一次看懂该不该升级.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-25/openai-blog-24a3a922.md",
+      "file": "sources/2026-06-25/openai-blog-24a3a922.md",
+      "slug": "OpenAI推理芯片Jalapeno的成本信号",
+      "title": "OpenAI 自研推理芯片 Jalapeño：这不是硬件新闻，是 AI 成本信号",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 98,
+      "recent_similarity": 0.031,
+      "reach_note": "OpenAI 品牌强，推理成本是明确利益点，虽然不能立刻购买但能指导产品和采购判断。",
+      "selection_reason": "官方博客加同日媒体背景足够支撑趋势判断，能为当天保留一篇商业和基础设施视角文章。",
+      "selected_at": "2026-06-25T07:47:45.963Z",
+      "updated_at": "2026-06-25T07:58:38.128Z",
+      "draft_ready_at": "2026-06-25T07:54:47.704Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-25/API 成本会被推理芯片改写吗，OpenAI Jalapeño 值得看",
+      "meta_path": "drafts/2026-06-25/API 成本会被推理芯片改写吗，OpenAI Jalapeño 值得看/API 成本会被推理芯片改写吗，OpenAI Jalapeño 值得看.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-25/x-fchollet-0f1d56d1.md",
+      "file": "sources/2026-06-25/x-fchollet-0f1d56d1.md",
+      "slug": "AI写代码后SaaS不会归零",
+      "title": "AI 能一键写代码，为什么 SaaS 还不会归零：给独立开发者的反常识判断",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.034,
+      "reach_note": "Claude、GPT、SaaS 都有认知度，利益点是帮助开发者判断还要不要做产品。",
+      "selection_reason": "这是当天适合做观点型和反常识型的题，能避免内容全是工具教程，也能给开发者和产品人一个清晰判断框架。",
+      "selected_at": "2026-06-25T07:47:45.964Z",
+      "updated_at": "2026-06-25T08:04:38.134Z",
+      "draft_ready_at": "2026-06-25T08:04:38.133Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-25/AI 能一键写代码，为什么 SaaS 还不会归零：给独立开发者的反常识判断",
+      "meta_path": "drafts/2026-06-25/AI 能一键写代码，为什么 SaaS 还不会归零：给独立开发者的反常识判断/AI 能一键写代码，为什么 SaaS 还不会归零：给独立开发者的反常识判断.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-25/github-trending-0bd21c2c.md",
+      "file": "sources/2026-06-25/github-trending-0bd21c2c.md",
+      "slug": "openclaw最新更新个人AI助手怎么开始用",
+      "title": "openclaw 最新更新：把个人 AI 助手跑在自己的系统里，先看这 3 个入口",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.038,
+      "reach_note": "openclaw 是重点生态品牌，个人助手有明确使用利益点，GitHub 仓库提供可验证入口。",
+      "selection_reason": "这是当天最贴合 PromptIO 定位的核心生态题，适合做成版本解读，覆盖解决的问题、新能力和上手路径。",
+      "selected_at": "2026-06-25T07:47:45.964Z",
+      "updated_at": "2026-06-25T08:07:31.598Z",
+      "draft_ready_at": "2026-06-25T08:07:31.597Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-25/把个人 AI 助手跑在自己的系统里，openclaw 更新先看 3 个入口",
+      "meta_path": "drafts/2026-06-25/把个人 AI 助手跑在自己的系统里，openclaw 更新先看 3 个入口/把个人 AI 助手跑在自己的系统里，openclaw 更新先看 3 个入口.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-25/arxiv-390ecc0b.md",
+      "file": "sources/2026-06-25/arxiv-390ecc0b.md",
+      "slug": "实时语音AI上线前情绪测试",
+      "title": "实时语音 AI 听见了情绪，却没有按情绪行动：上线前要补这道测试",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.03,
+      "reach_note": "OpenAI、Gemini、Qwen 等品牌明确，语音 AI 上线检查有直接应用价值。",
+      "selection_reason": "这是当天质量较高的风险题，能满足失败复盘和安全提醒需求，也能给产品与开发团队提供可执行检查项。",
+      "selected_at": "2026-06-25T07:47:45.964Z",
+      "updated_at": "2026-06-25T08:02:53.210Z",
+      "draft_ready_at": "2026-06-25T08:02:53.206Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-25/实时语音 AI 听见了情绪，却没有按情绪行动：上线前要补这道测试",
+      "meta_path": "drafts/2026-06-25/实时语音 AI 听见了情绪，却没有按情绪行动：上线前要补这道测试/实时语音 AI 听见了情绪，却没有按情绪行动：上线前要补这道测试.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-25/openai-blog-5edb7201.md",
+      "file": "sources/2026-06-25/openai-blog-5edb7201.md",
+      "slug": "Codex长任务上下文流程",
+      "title": "Codex 长任务怎么做：把上下文、交接和项目记忆变成可复用流程",
+      "status": "superseded",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 154,
+      "recent_similarity": 0.035,
+      "reach_note": "OpenAI/Codex 品牌明确，长任务流程能直接迁移到读者自己的开发项目。",
+      "selection_reason": "这是高可操作的开发者工作流题，但不和 openclaw 版本解读重复，适合作为当天唯一的 Codex 实操稿。",
+      "selected_at": "2026-06-25T07:47:45.965Z",
+      "updated_at": "2026-06-25T07:58:38.126Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-25/transformers-releases-6e2be6a5.md",
+      "file": "sources/2026-06-25/transformers-releases-6e2be6a5.md",
+      "slug": "Transformers511新增模型先试哪一个",
+      "title": "Transformers 5.11.0 新增 DiffusionGemma 和 DeepSeek-V3.2：开发者该先试哪一个",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.041,
+      "reach_note": "Hugging Face、Transformers、DeepSeek 有品牌认知，新版本和模型实验有明确可操作入口。",
+      "selection_reason": "官方 release 可作事实主源，适合做成版本简报，并和 vLLM 形成部署侧与模型定义侧的互补。",
+      "selected_at": "2026-06-25T07:58:38.128Z",
+      "updated_at": "2026-06-25T08:12:07.563Z",
+      "draft_ready_at": "2026-06-25T08:12:07.562Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-25/Transformers 5.11.0 新增 DiffusionGemma 和 DeepSeek-V3.2，开发者该先试哪一个",
+      "meta_path": "drafts/2026-06-25/Transformers 5.11.0 新增 DiffusionGemma 和 DeepSeek-V3.2，开发者该先试哪一个/Transformers 5.11.0 新增 DiffusionGemma 和 DeepSeek-V3.2，开发者该先试哪一个.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-25T07:47:45.962Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-25T07:47:45.962Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:47:45.963Z",
+      "topic_id": "sources/2026-06-25/x-IndieDevHailey-f6e6bb6e.md",
+      "slug": "OpenMontage几毛钱做AI视频"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:47:45.963Z",
+      "topic_id": "sources/2026-06-25/vllm-releases-9b0ff932.md",
+      "slug": "vLLM023影响DeepSeek和Qwen部署"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:47:45.963Z",
+      "topic_id": "sources/2026-06-25/openai-blog-24a3a922.md",
+      "slug": "OpenAI推理芯片Jalapeno成本判断"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:47:45.964Z",
+      "topic_id": "sources/2026-06-25/x-fchollet-0f1d56d1.md",
+      "slug": "会写代码不等于替代SaaS"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:47:45.964Z",
+      "topic_id": "sources/2026-06-25/github-trending-0bd21c2c.md",
+      "slug": "openclaw新版本个人AI助手工作台"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:47:45.964Z",
+      "topic_id": "sources/2026-06-25/arxiv-390ecc0b.md",
+      "slug": "实时语音AI听见情绪却没听懂"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:47:45.965Z",
+      "topic_id": "sources/2026-06-25/openai-blog-5edb7201.md",
+      "slug": "Codex长任务上下文流程"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-25T07:50:25.414Z",
+      "topic_id": "sources/2026-06-25/x-IndieDevHailey-f6e6bb6e.md",
+      "slug": "OpenMontage几毛钱做AI视频",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-25T07:53:01.143Z",
+      "topic_id": "sources/2026-06-25/vllm-releases-9b0ff932.md",
+      "slug": "vLLM023影响DeepSeek和Qwen部署",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-25T07:54:47.720Z",
+      "topic_id": "sources/2026-06-25/openai-blog-24a3a922.md",
+      "slug": "OpenAI推理芯片Jalapeno成本判断",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-25T07:55:56.763Z",
+      "topic_id": "sources/2026-06-25/x-fchollet-0f1d56d1.md",
+      "slug": "会写代码不等于替代SaaS",
+      "error": ""
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-25T07:58:38.125Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-25T07:58:38.126Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:58:38.126Z",
+      "topic_id": "sources/2026-06-25/x-IndieDevHailey-f6e6bb6e.md",
+      "slug": "OpenMontage视频生产流水线先试哪三种"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:58:38.127Z",
+      "topic_id": "sources/2026-06-25/arxiv-390ecc0b.md",
+      "slug": "实时语音AI上线前情绪测试"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:58:38.127Z",
+      "topic_id": "sources/2026-06-25/x-fchollet-0f1d56d1.md",
+      "slug": "AI写代码后SaaS不会归零"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:58:38.127Z",
+      "topic_id": "sources/2026-06-25/github-trending-0bd21c2c.md",
+      "slug": "openclaw最新更新个人AI助手怎么开始用"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:58:38.128Z",
+      "topic_id": "sources/2026-06-25/transformers-releases-6e2be6a5.md",
+      "slug": "Transformers511新增模型先试哪一个"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:58:38.128Z",
+      "topic_id": "sources/2026-06-25/openai-blog-24a3a922.md",
+      "slug": "OpenAI推理芯片Jalapeno的成本信号"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-25T07:58:38.129Z",
+      "topic_id": "sources/2026-06-25/vllm-releases-9b0ff932.md",
+      "slug": "vLLM0230值不值得升级"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-25T08:01:26.437Z",
+      "topic_id": "sources/2026-06-25/x-IndieDevHailey-f6e6bb6e.md",
+      "slug": "OpenMontage视频生产流水线先试哪三种",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-25T08:02:53.210Z",
+      "topic_id": "sources/2026-06-25/arxiv-390ecc0b.md",
+      "slug": "实时语音AI上线前情绪测试",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-25T08:04:38.134Z",
+      "topic_id": "sources/2026-06-25/x-fchollet-0f1d56d1.md",
+      "slug": "AI写代码后SaaS不会归零",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-25T08:07:31.598Z",
+      "topic_id": "sources/2026-06-25/github-trending-0bd21c2c.md",
+      "slug": "openclaw最新更新个人AI助手怎么开始用",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-25T08:12:07.563Z",
+      "topic_id": "sources/2026-06-25/transformers-releases-6e2be6a5.md",
+      "slug": "Transformers511新增模型先试哪一个",
+      "error": ""
+    }
+  ]
+}

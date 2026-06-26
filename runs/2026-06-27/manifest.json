@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-27",
+  "created_at": "2026-06-26T23:04:15.996Z",
+  "updated_at": "2026-06-26T23:16:22.035Z",
+  "source_count": 125,
+  "topics": [
+    {
+      "id": "sources/2026-06-27/x-axiaisacat-e30622d9.md",
+      "file": "sources/2026-06-27/x-axiaisacat-e30622d9.md",
+      "slug": "AirLLM用4GB显卡跑70B",
+      "title": "4GB 显卡跑 70B：AirLLM 不是魔法，而是把显存瓶颈往后推",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.058,
+      "reach_note": "70B、4GB 显卡和本地运行利益点明确，GitHub 项目可验证、可动手。",
+      "selection_reason": "这个题目有强传播钩子，也能避免标题党，通过解释原理和限制给读者一个实际部署判断。",
+      "selected_at": "2026-06-26T23:04:16.001Z",
+      "updated_at": "2026-06-26T23:07:42.890Z",
+      "draft_ready_at": "2026-06-26T23:07:42.890Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/4GB 显卡跑 70B：AirLLM 不是魔法，而是把显存瓶颈往后推",
+      "meta_path": "drafts/2026-06-27/4GB 显卡跑 70B：AirLLM 不是魔法，而是把显存瓶颈往后推/4GB 显卡跑 70B：AirLLM 不是魔法，而是把显存瓶颈往后推.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-safaricheung-b85751db.md",
+      "file": "sources/2026-06-27/x-safaricheung-b85751db.md",
+      "slug": "Android地震预警背后的手机传感器网络",
+      "title": "Android 手机为什么能提前几秒预警地震：谷歌把传感器做成了全球网络",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.03,
+      "reach_note": "Google/Android 品牌强，地震预警有普通用户利益点，检查手机设置可立刻行动。",
+      "selection_reason": "这是少数面向普通用户的高价值科技题，能平衡当天过多开发者选题。",
+      "selected_at": "2026-06-26T23:04:16.005Z",
+      "updated_at": "2026-06-26T23:08:53.778Z",
+      "draft_ready_at": "2026-06-26T23:08:53.778Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/Android 手机为什么能提前几秒预警地震，谷歌把传感器做成了全球网络",
+      "meta_path": "drafts/2026-06-27/Android 手机为什么能提前几秒预警地震，谷歌把传感器做成了全球网络/Android 手机为什么能提前几秒预警地震，谷歌把传感器做成了全球网络.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-swyx-fcc60c2d.md",
+      "file": "sources/2026-06-27/x-swyx-fcc60c2d.md",
+      "slug": "工程师技术分享别再堆AI图",
+      "title": "给工程师做技术分享，别再堆 AI 图：一张 thesis card 比十页 bullet 更有用",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "reference_card",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.032,
+      "reach_note": "AI 生成演示材料是高频场景，改 PPT 和技术分享可立即行动，收益是表达更清楚。",
+      "selection_reason": "它覆盖创作者和内容生产场景，能把当天选题从模型和工具扩展到真实输出质量。",
+      "selected_at": "2026-06-26T23:04:16.009Z",
+      "updated_at": "2026-06-26T23:10:34.416Z",
+      "draft_ready_at": "2026-06-26T23:10:34.415Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/给工程师做技术分享，别再堆 AI 图，一张 thesis card 比十页 bullet 更有用",
+      "meta_path": "drafts/2026-06-27/给工程师做技术分享，别再堆 AI 图，一张 thesis card 比十页 bullet 更有用/给工程师做技术分享，别再堆 AI 图，一张 thesis card 比十页 bullet 更有用.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-chenchengpro-ee4bc478.md",
+      "file": "sources/2026-06-27/x-chenchengpro-ee4bc478.md",
+      "slug": "Warp双层loop把issue反馈变成Skill更新",
+      "title": "别只让 Agent 跑任务：Warp 这个双层 loop，能把 GitHub issue 反馈变成 Skill 更新",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.063,
+      "reach_note": "GitHub 和 Warp 有品牌识别，issue triage 是明确可操作场景，还能降低人工分拣成本。",
+      "selection_reason": "这不是泛泛讲 Agent 自进化，而是把反馈闭环落到 GitHub Action、Skill 文件 diff 和 PR review 上，适合写成一个可复刻的团队工作流案例。",
+      "selected_at": "2026-06-26T23:04:16.010Z",
+      "updated_at": "2026-06-26T23:11:37.059Z",
+      "draft_ready_at": "2026-06-26T23:11:37.058Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/别只让 Agent 跑任务，Warp 把 issue 反馈变成 Skill 更新",
+      "meta_path": "drafts/2026-06-27/别只让 Agent 跑任务，Warp 把 issue 反馈变成 Skill 更新/别只让 Agent 跑任务，Warp 把 issue 反馈变成 Skill 更新.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-dotey-e1067d8b.md",
+      "file": "sources/2026-06-27/x-dotey-e1067d8b.md",
+      "slug": "Claude蒸馏攻击复盘",
+      "title": "Claude 被指遭大规模蒸馏攻击：AI 团队该补上的三道防线",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.039,
+      "reach_note": "Claude、Qwen、Anthropic 都有品牌识别，蒸馏攻击关系到模型资产保护，安全动作明确。",
+      "selection_reason": "风险事件具备传播性，也能转化为可执行的风控复盘，不只是行业八卦。",
+      "selected_at": "2026-06-26T23:04:16.010Z",
+      "updated_at": "2026-06-26T23:14:14.336Z",
+      "draft_ready_at": "2026-06-26T23:14:14.336Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/Claude 被指遭大规模蒸馏攻击，AI 团队该补上的三道防线",
+      "meta_path": "drafts/2026-06-27/Claude 被指遭大规模蒸馏攻击，AI 团队该补上的三道防线/Claude 被指遭大规模蒸馏攻击，AI 团队该补上的三道防线.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-chenchengpro-8acb32cd.md",
+      "file": "sources/2026-06-27/x-chenchengpro-8acb32cd.md",
+      "slug": "12个Agent记忆系统的反常识结论",
+      "title": "12 个 Agent 记忆系统实测后，一个反常识结论：花哨架构不一定赢",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "myth_busting",
+      "diversity_note": "title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_title_pattern_saturation",
+      "diversity_penalty": 68,
+      "recent_similarity": 0.046,
+      "reach_note": "Agent memory 是高热关键词，12 系统实测有明确判断价值，读者能据此调整选型。",
+      "selection_reason": "它有足够多的实验结论和反直觉点，可以写成选型纠偏文，和单纯工具教程区分开。",
+      "selected_at": "2026-06-26T23:04:16.013Z",
+      "updated_at": "2026-06-26T23:15:25.638Z",
+      "draft_ready_at": "2026-06-26T23:15:25.637Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/12 个 Agent 记忆系统实测后，一个反常识结论：花哨架构不一定赢",
+      "meta_path": "drafts/2026-06-27/12 个 Agent 记忆系统实测后，一个反常识结论：花哨架构不一定赢/12 个 Agent 记忆系统实测后，一个反常识结论：花哨架构不一定赢.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-chenchengpro-34fe126a.md",
+      "file": "sources/2026-06-27/x-chenchengpro-34fe126a.md",
+      "slug": "Agent记忆先从工作日记开始",
+      "title": "Agent 记忆别做成大脑：先用一条工作日记，救回断掉的上下文",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 154,
+      "recent_similarity": 0.036,
+      "reach_note": "Agent 记忆是高关注主题，Obsidian/Markdown 路径可立刻照做，直接解决长任务断档痛点。",
+      "selection_reason": "相比抽象 memory 架构，这个题目能落到 Daily Log、Session Log、reset 前笔记和夜间整理，适合做成可执行的个人开发流程。",
+      "selected_at": "2026-06-26T23:04:16.013Z",
+      "updated_at": "2026-06-26T23:16:22.035Z",
+      "draft_ready_at": "2026-06-26T23:16:22.034Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/Agent 记忆别做成大脑，先用一条工作日记救回断掉的上下文",
+      "meta_path": "drafts/2026-06-27/Agent 记忆别做成大脑，先用一条工作日记救回断掉的上下文/Agent 记忆别做成大脑，先用一条工作日记救回断掉的上下文.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-26T23:04:15.996Z",
+      "source_count": 125
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-26T23:04:16.000Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T23:04:16.001Z",
+      "topic_id": "sources/2026-06-27/x-axiaisacat-e30622d9.md",
+      "slug": "AirLLM用4GB显卡跑70B"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T23:04:16.005Z",
+      "topic_id": "sources/2026-06-27/x-safaricheung-b85751db.md",
+      "slug": "Android地震预警背后的手机传感器网络"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T23:04:16.009Z",
+      "topic_id": "sources/2026-06-27/x-swyx-fcc60c2d.md",
+      "slug": "工程师技术分享别再堆AI图"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T23:04:16.010Z",
+      "topic_id": "sources/2026-06-27/x-chenchengpro-ee4bc478.md",
+      "slug": "Warp双层loop把issue反馈变成Skill更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T23:04:16.010Z",
+      "topic_id": "sources/2026-06-27/x-dotey-e1067d8b.md",
+      "slug": "Claude蒸馏攻击复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T23:04:16.013Z",
+      "topic_id": "sources/2026-06-27/x-chenchengpro-8acb32cd.md",
+      "slug": "12个Agent记忆系统的反常识结论"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-26T23:04:16.013Z",
+      "topic_id": "sources/2026-06-27/x-chenchengpro-34fe126a.md",
+      "slug": "Agent记忆先从工作日记开始"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T23:07:42.890Z",
+      "topic_id": "sources/2026-06-27/x-axiaisacat-e30622d9.md",
+      "slug": "AirLLM用4GB显卡跑70B",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T23:08:53.778Z",
+      "topic_id": "sources/2026-06-27/x-safaricheung-b85751db.md",
+      "slug": "Android地震预警背后的手机传感器网络",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T23:10:34.416Z",
+      "topic_id": "sources/2026-06-27/x-swyx-fcc60c2d.md",
+      "slug": "工程师技术分享别再堆AI图",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T23:11:37.059Z",
+      "topic_id": "sources/2026-06-27/x-chenchengpro-ee4bc478.md",
+      "slug": "Warp双层loop把issue反馈变成Skill更新",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T23:14:14.336Z",
+      "topic_id": "sources/2026-06-27/x-dotey-e1067d8b.md",
+      "slug": "Claude蒸馏攻击复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T23:15:25.638Z",
+      "topic_id": "sources/2026-06-27/x-chenchengpro-8acb32cd.md",
+      "slug": "12个Agent记忆系统的反常识结论",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-26T23:16:22.035Z",
+      "topic_id": "sources/2026-06-27/x-chenchengpro-34fe126a.md",
+      "slug": "Agent记忆先从工作日记开始",
+      "error": ""
+    }
+  ]
+}
