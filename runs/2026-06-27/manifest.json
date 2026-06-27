@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-06-27",
   "created_at": "2026-06-26T23:04:15.996Z",
-  "updated_at": "2026-06-26T23:16:22.035Z",
+  "updated_at": "2026-06-27T01:01:49.162Z",
   "source_count": 125,
   "topics": [
     {
@@ -30,63 +30,63 @@
     {
       "id": "sources/2026-06-27/x-safaricheung-b85751db.md",
       "file": "sources/2026-06-27/x-safaricheung-b85751db.md",
-      "slug": "Android地震预警背后的手机传感器网络",
-      "title": "Android 手机为什么能提前几秒预警地震：谷歌把传感器做成了全球网络",
+      "slug": "Android 手机怎么变成全球地震预警网普通传感器的产品启发",
+      "title": "Android 手机怎么变成全球地震预警网：普通传感器的产品启发",
       "status": "draft_ready",
       "reach": 8,
       "content_lane": "opinion-trend",
       "content_archetype": "case_story",
-      "diversity_note": "",
-      "diversity_penalty": 0,
-      "recent_similarity": 0.03,
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch",
+      "diversity_penalty": 48,
+      "recent_similarity": 0.027,
       "reach_note": "Google/Android 品牌强，地震预警有普通用户利益点，检查手机设置可立刻行动。",
-      "selection_reason": "这是少数面向普通用户的高价值科技题，能平衡当天过多开发者选题。",
+      "selection_reason": "普通用户场景强，和昨天主题不重复，适合保留。",
       "selected_at": "2026-06-26T23:04:16.005Z",
-      "updated_at": "2026-06-26T23:08:53.778Z",
-      "draft_ready_at": "2026-06-26T23:08:53.778Z",
+      "updated_at": "2026-06-27T01:01:49.162Z",
+      "draft_ready_at": "2026-06-27T01:01:49.161Z",
       "draft_failed_at": "",
-      "draft_dir": "drafts/2026-06-27/Android 手机为什么能提前几秒预警地震，谷歌把传感器做成了全球网络",
-      "meta_path": "drafts/2026-06-27/Android 手机为什么能提前几秒预警地震，谷歌把传感器做成了全球网络/Android 手机为什么能提前几秒预警地震，谷歌把传感器做成了全球网络.md",
+      "draft_dir": "drafts/2026-06-27/Android 手机怎么变成全球地震预警网，普通传感器的产品启发",
+      "meta_path": "drafts/2026-06-27/Android 手机怎么变成全球地震预警网，普通传感器的产品启发/Android 手机怎么变成全球地震预警网，普通传感器的产品启发.md",
       "error": ""
     },
     {
       "id": "sources/2026-06-27/x-swyx-fcc60c2d.md",
       "file": "sources/2026-06-27/x-swyx-fcc60c2d.md",
-      "slug": "工程师技术分享别再堆AI图",
-      "title": "给工程师做技术分享，别再堆 AI 图：一张 thesis card 比十页 bullet 更有用",
+      "slug": "工程师做 AI 分享别再堆图了一场技术演讲只需要一个尖锐观点",
+      "title": "工程师做 AI 分享，别再堆图了：一场技术演讲只需要一个尖锐观点",
       "status": "draft_ready",
       "reach": 7,
       "content_lane": "creator-workflow",
       "content_archetype": "reference_card",
       "diversity_note": "",
       "diversity_penalty": 0,
-      "recent_similarity": 0.032,
+      "recent_similarity": 0.026,
       "reach_note": "AI 生成演示材料是高频场景，改 PPT 和技术分享可立即行动，收益是表达更清楚。",
-      "selection_reason": "它覆盖创作者和内容生产场景，能把当天选题从模型和工具扩展到真实输出质量。",
+      "selection_reason": "主题新，和昨天不撞，也能平衡模型与开发者工具题。",
       "selected_at": "2026-06-26T23:04:16.009Z",
-      "updated_at": "2026-06-26T23:10:34.416Z",
-      "draft_ready_at": "2026-06-26T23:10:34.415Z",
+      "updated_at": "2026-06-27T00:52:19.813Z",
+      "draft_ready_at": "2026-06-27T00:52:19.811Z",
       "draft_failed_at": "",
-      "draft_dir": "drafts/2026-06-27/给工程师做技术分享，别再堆 AI 图，一张 thesis card 比十页 bullet 更有用",
-      "meta_path": "drafts/2026-06-27/给工程师做技术分享，别再堆 AI 图，一张 thesis card 比十页 bullet 更有用/给工程师做技术分享，别再堆 AI 图，一张 thesis card 比十页 bullet 更有用.md",
+      "draft_dir": "drafts/2026-06-27/工程师做 AI 分享，别再堆图了，一场技术演讲只需要一个尖锐观点",
+      "meta_path": "drafts/2026-06-27/工程师做 AI 分享，别再堆图了，一场技术演讲只需要一个尖锐观点/工程师做 AI 分享，别再堆图了，一场技术演讲只需要一个尖锐观点.md",
       "error": ""
     },
     {
       "id": "sources/2026-06-27/x-chenchengpro-ee4bc478.md",
       "file": "sources/2026-06-27/x-chenchengpro-ee4bc478.md",
-      "slug": "Warp双层loop把issue反馈变成Skill更新",
-      "title": "别只让 Agent 跑任务：Warp 这个双层 loop，能把 GitHub issue 反馈变成 Skill 更新",
+      "slug": "Warp这套AgentLoop最值得抄的是让Skill自己变好",
+      "title": "Warp CEO 这套 Agent Loop，最值得抄的是让 Skill 自己变好",
       "status": "draft_ready",
       "reach": 8,
-      "content_lane": "developer-tooling",
-      "content_archetype": "case_story",
-      "diversity_note": "recent_title_pattern_saturation",
-      "diversity_penalty": 10,
-      "recent_similarity": 0.063,
-      "reach_note": "GitHub 和 Warp 有品牌识别，issue triage 是明确可操作场景，还能降低人工分拣成本。",
-      "selection_reason": "这不是泛泛讲 Agent 自进化，而是把反馈闭环落到 GitHub Action、Skill 文件 diff 和 PR review 上，适合写成一个可复刻的团队工作流案例。",
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.057,
+      "reach_note": "Warp、GitHub 和 Skill 有明确品牌识别，团队能直接照着改 issue 流程。",
+      "selection_reason": "它把抽象的 agent loop 讲成了一个真实工作流，适合写成团队决策备忘录，提醒读者先从可验证反馈闭环做起。",
       "selected_at": "2026-06-26T23:04:16.010Z",
-      "updated_at": "2026-06-26T23:11:37.059Z",
+      "updated_at": "2026-06-27T00:47:52.977Z",
       "draft_ready_at": "2026-06-26T23:11:37.058Z",
       "draft_failed_at": "",
       "draft_dir": "drafts/2026-06-27/别只让 Agent 跑任务，Warp 把 issue 反馈变成 Skill 更新",
@@ -96,19 +96,19 @@
     {
       "id": "sources/2026-06-27/x-dotey-e1067d8b.md",
       "file": "sources/2026-06-27/x-dotey-e1067d8b.md",
-      "slug": "Claude蒸馏攻击复盘",
-      "title": "Claude 被指遭大规模蒸馏攻击：AI 团队该补上的三道防线",
+      "slug": "Claude蒸馏攻击复盘模型团队该补哪几道防线",
+      "title": "Claude 被指遭遇大规模蒸馏攻击：模型团队该补哪几道防线",
       "status": "draft_ready",
       "reach": 8,
       "content_lane": "risk-postmortem",
-      "content_archetype": "failure_postmortem",
+      "content_archetype": "safety_review",
       "diversity_note": "recent_entity_saturation",
       "diversity_penalty": 16,
-      "recent_similarity": 0.039,
-      "reach_note": "Claude、Qwen、Anthropic 都有品牌识别，蒸馏攻击关系到模型资产保护，安全动作明确。",
-      "selection_reason": "风险事件具备传播性，也能转化为可执行的风控复盘，不只是行业八卦。",
+      "recent_similarity": 0.043,
+      "reach_note": "Claude、Qwen、Anthropic 都有品牌认知，安全审计和风控动作明确。",
+      "selection_reason": "这是当天最适合做风险复盘的素材，能从热点争议转成模型服务方和企业用户都需要的安全检查清单。",
       "selected_at": "2026-06-26T23:04:16.010Z",
-      "updated_at": "2026-06-26T23:14:14.336Z",
+      "updated_at": "2026-06-27T00:47:52.976Z",
       "draft_ready_at": "2026-06-26T23:14:14.336Z",
       "draft_failed_at": "",
       "draft_dir": "drafts/2026-06-27/Claude 被指遭大规模蒸馏攻击，AI 团队该补上的三道防线",
@@ -140,23 +140,133 @@
     {
       "id": "sources/2026-06-27/x-chenchengpro-34fe126a.md",
       "file": "sources/2026-06-27/x-chenchengpro-34fe126a.md",
-      "slug": "Agent记忆先从工作日记开始",
-      "title": "Agent 记忆别做成大脑：先用一条工作日记，救回断掉的上下文",
+      "slug": "别再给Agent堆记忆系统先让它写工作日记",
+      "title": "别再给 Agent 堆记忆系统了，先让它写一篇工作日记",
       "status": "draft_ready",
       "reach": 8,
       "content_lane": "developer-tooling",
-      "content_archetype": "hands_on_recipe",
-      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
-      "diversity_penalty": 154,
-      "recent_similarity": 0.036,
-      "reach_note": "Agent 记忆是高关注主题，Obsidian/Markdown 路径可立刻照做，直接解决长任务断档痛点。",
-      "selection_reason": "相比抽象 memory 架构，这个题目能落到 Daily Log、Session Log、reset 前笔记和夜间整理，适合做成可执行的个人开发流程。",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 84,
+      "recent_similarity": 0.032,
+      "reach_note": "Agent 记忆是高频痛点，Obsidian、Markdown 和命令式流程都能立刻试。",
+      "selection_reason": "相比介绍复杂记忆架构，这个题目更容易落到个人和小团队可执行的工作习惯，适合公众号和小红书同时转化。",
       "selected_at": "2026-06-26T23:04:16.013Z",
-      "updated_at": "2026-06-26T23:16:22.035Z",
+      "updated_at": "2026-06-27T00:47:52.977Z",
       "draft_ready_at": "2026-06-26T23:16:22.034Z",
       "draft_failed_at": "",
       "draft_dir": "drafts/2026-06-27/Agent 记忆别做成大脑，先用一条工作日记救回断掉的上下文",
       "meta_path": "drafts/2026-06-27/Agent 记忆别做成大脑，先用一条工作日记救回断掉的上下文/Agent 记忆别做成大脑，先用一条工作日记救回断掉的上下文.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-jeffdean-c8da3bb9.md",
+      "file": "sources/2026-06-27/x-jeffdean-c8da3bb9.md",
+      "slug": "Google TPU 五代演进为什么 AI 成本最后拼的是电和互联",
+      "title": "Google TPU 五代演进：为什么 AI 成本最后拼的是电和互联",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "model-deployment",
+      "content_archetype": "trend_argument",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.025,
+      "reach_note": "Google/TPU 品牌强，AI 基建成本是高关注议题，可转成算力采购和架构判断。",
+      "selection_reason": "主题和昨天内容不重复，适合补一篇基础设施判断文，拉开今天选题结构。",
+      "selected_at": "2026-06-27T00:47:52.975Z",
+      "updated_at": "2026-06-27T00:51:22.133Z",
+      "draft_ready_at": "2026-06-27T00:51:22.133Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/Google TPU 五代演进：为什么 AI 成本最后拼的是电和互联",
+      "meta_path": "drafts/2026-06-27/Google TPU 五代演进：为什么 AI 成本最后拼的是电和互联/Google TPU 五代演进：为什么 AI 成本最后拼的是电和互联.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-emollick-f0b84112.md",
+      "file": "sources/2026-06-27/x-emollick-f0b84112.md",
+      "slug": "14 小时 251 美元做出 2 到 17 周的软件 AI 编程该怎么算账",
+      "title": "14 小时、251 美元做出 2 到 17 周的软件：AI 编程该怎么算账",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.033,
+      "reach_note": "14 小时、251 美元和 2-17 周对比有强利益点，可转成团队 AI 编程投入决策。",
+      "selection_reason": "不同于昨天的具体工具题，适合写成管理者/技术负责人视角的成本判断。",
+      "selected_at": "2026-06-27T00:47:52.976Z",
+      "updated_at": "2026-06-27T00:53:56.074Z",
+      "draft_ready_at": "2026-06-27T00:53:56.074Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/14 小时、251 美元做出 2 到 17 周的软件：AI 编程该怎么算账",
+      "meta_path": "drafts/2026-06-27/14 小时、251 美元做出 2 到 17 周的软件：AI 编程该怎么算账/14 小时、251 美元做出 2 到 17 周的软件：AI 编程该怎么算账.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-emollick-d4aca8b2.md",
+      "file": "sources/2026-06-27/x-emollick-d4aca8b2.md",
+      "slug": "开源权重也可能被管住团队选模型前要看清三类依赖",
+      "title": "开源权重也可能被管住：团队选模型前要看清三类依赖",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.024,
+      "reach_note": "开源模型治理关系到企业选型和供应链风险，动作是做模型依赖清单。",
+      "selection_reason": "和昨天内容不撞，风险视角清晰，可作为今天的安全/治理题。",
+      "selected_at": "2026-06-27T00:50:09.043Z",
+      "updated_at": "2026-06-27T00:56:33.539Z",
+      "draft_ready_at": "2026-06-27T00:56:33.539Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/开源权重也可能被管住，团队选模型前要看清三类依赖",
+      "meta_path": "drafts/2026-06-27/开源权重也可能被管住，团队选模型前要看清三类依赖/开源权重也可能被管住，团队选模型前要看清三类依赖.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-VincentLogic-fa4ef106.md",
+      "file": "sources/2026-06-27/x-VincentLogic-fa4ef106.md",
+      "slug": "NVIDIA 开源 LocateAnything-3B 视觉定位模型先试这三类场景",
+      "title": "NVIDIA 开源 LocateAnything-3B：视觉定位模型先试这三类场景",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "version-update",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.036,
+      "reach_note": "NVIDIA 品牌强，开源视觉定位模型有明确可试场景，适合技术团队评估。",
+      "selection_reason": "补一篇视觉模型/开源项目题，和昨天 Agent/LLM 重复度低。",
+      "selected_at": "2026-06-27T00:50:09.044Z",
+      "updated_at": "2026-06-27T00:59:49.092Z",
+      "draft_ready_at": "2026-06-27T00:59:49.089Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/NVIDIA 开源 LocateAnything-3B：视觉定位模型先试这三类场景",
+      "meta_path": "drafts/2026-06-27/NVIDIA 开源 LocateAnything-3B：视觉定位模型先试这三类场景/NVIDIA 开源 LocateAnything-3B：视觉定位模型先试这三类场景.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-27/x-tychozzz-3d2eb6d7.md",
+      "file": "sources/2026-06-27/x-tychozzz-3d2eb6d7.md",
+      "slug": "AI 不一定先制造失业潮普通人更该盯住这条基建链",
+      "title": "AI 不一定先制造失业潮：普通人更该盯住这条基建链",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "trend_argument",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.03,
+      "reach_note": "就业和 AI 基建是大众议题，能给普通读者职业选择和学习方向。",
+      "selection_reason": "作为非工具类趋势文，能降低今天开发者题密度，且和昨天选题不重复。",
+      "selected_at": "2026-06-27T00:50:09.044Z",
+      "updated_at": "2026-06-27T01:00:53.173Z",
+      "draft_ready_at": "2026-06-27T01:00:53.172Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-27/AI 不一定先制造失业潮：普通人更该盯住这条基建链",
+      "meta_path": "drafts/2026-06-27/AI 不一定先制造失业潮：普通人更该盯住这条基建链/AI 不一定先制造失业潮：普通人更该盯住这条基建链.md",
       "error": ""
     }
   ],
@@ -260,6 +370,211 @@
       "at": "2026-06-26T23:16:22.035Z",
       "topic_id": "sources/2026-06-27/x-chenchengpro-34fe126a.md",
       "slug": "Agent记忆先从工作日记开始",
+      "error": ""
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-27T00:47:52.974Z",
+      "source_count": 125
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-27T00:47:52.975Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:47:52.975Z",
+      "topic_id": "sources/2026-06-27/x-jeffdean-c8da3bb9.md",
+      "slug": "GoogleTPU五代演进为什么AI成本最后拼电和互联"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:47:52.976Z",
+      "topic_id": "sources/2026-06-27/x-swyx-fcc60c2d.md",
+      "slug": "工程师做AI分享别再堆图了"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:47:52.976Z",
+      "topic_id": "sources/2026-06-27/x-emollick-f0b84112.md",
+      "slug": "14小时251美元做出软件AI编程该怎么算账"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:47:52.976Z",
+      "topic_id": "sources/2026-06-27/x-dotey-e1067d8b.md",
+      "slug": "Claude蒸馏攻击复盘模型团队该补哪几道防线"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:47:52.977Z",
+      "topic_id": "sources/2026-06-27/x-chenchengpro-ee4bc478.md",
+      "slug": "Warp这套AgentLoop最值得抄的是让Skill自己变好"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:47:52.977Z",
+      "topic_id": "sources/2026-06-27/x-chenchengpro-34fe126a.md",
+      "slug": "别再给Agent堆记忆系统先让它写工作日记"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:47:52.977Z",
+      "topic_id": "sources/2026-06-27/x-safaricheung-b85751db.md",
+      "slug": "Android手机怎么变成全球地震预警网"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-27T00:50:09.040Z",
+      "source_count": 125
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-27T00:50:09.041Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:09.041Z",
+      "topic_id": "sources/2026-06-27/x-jeffdean-c8da3bb9.md",
+      "slug": "Google TPU 五代演进为什么 AI 成本最后拼的是电和互联"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:09.042Z",
+      "topic_id": "sources/2026-06-27/x-swyx-fcc60c2d.md",
+      "slug": "工程师做 AI 分享别再堆图了一场技术演讲只需要一个尖锐观点"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:09.042Z",
+      "topic_id": "sources/2026-06-27/x-emollick-f0b84112.md",
+      "slug": "14 小时 251 美元做出 2 到 17 周的软件 AI 编程该怎么算账"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:09.043Z",
+      "topic_id": "sources/2026-06-27/x-emollick-d4aca8b2.md",
+      "slug": "开源权重也可能被管住团队选模型前要看清三类依赖"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:09.044Z",
+      "topic_id": "sources/2026-06-27/x-VincentLogic-fa4ef106.md",
+      "slug": "NVIDIA 开源 LocateAnything-3B 视觉定位模型先试这三类场景"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:09.044Z",
+      "topic_id": "sources/2026-06-27/x-tychozzz-3d2eb6d7.md",
+      "slug": "AI 不一定先制造失业潮普通人更该盯住这条基建链"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:09.045Z",
+      "topic_id": "sources/2026-06-27/x-safaricheung-b85751db.md",
+      "slug": "Android 手机怎么变成全球地震预警网普通传感器的产品启发"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-27T00:50:25.283Z",
+      "source_count": 125
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-27T00:50:25.283Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:25.284Z",
+      "topic_id": "sources/2026-06-27/x-jeffdean-c8da3bb9.md",
+      "slug": "Google TPU 五代演进为什么 AI 成本最后拼的是电和互联"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:25.284Z",
+      "topic_id": "sources/2026-06-27/x-swyx-fcc60c2d.md",
+      "slug": "工程师做 AI 分享别再堆图了一场技术演讲只需要一个尖锐观点"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:25.285Z",
+      "topic_id": "sources/2026-06-27/x-emollick-f0b84112.md",
+      "slug": "14 小时 251 美元做出 2 到 17 周的软件 AI 编程该怎么算账"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:25.285Z",
+      "topic_id": "sources/2026-06-27/x-emollick-d4aca8b2.md",
+      "slug": "开源权重也可能被管住团队选模型前要看清三类依赖"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:25.285Z",
+      "topic_id": "sources/2026-06-27/x-VincentLogic-fa4ef106.md",
+      "slug": "NVIDIA 开源 LocateAnything-3B 视觉定位模型先试这三类场景"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:25.286Z",
+      "topic_id": "sources/2026-06-27/x-tychozzz-3d2eb6d7.md",
+      "slug": "AI 不一定先制造失业潮普通人更该盯住这条基建链"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-27T00:50:25.286Z",
+      "topic_id": "sources/2026-06-27/x-safaricheung-b85751db.md",
+      "slug": "Android 手机怎么变成全球地震预警网普通传感器的产品启发"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-27T00:51:22.133Z",
+      "topic_id": "sources/2026-06-27/x-jeffdean-c8da3bb9.md",
+      "slug": "Google TPU 五代演进为什么 AI 成本最后拼的是电和互联",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-27T00:52:19.813Z",
+      "topic_id": "sources/2026-06-27/x-swyx-fcc60c2d.md",
+      "slug": "工程师做 AI 分享别再堆图了一场技术演讲只需要一个尖锐观点",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-27T00:53:56.074Z",
+      "topic_id": "sources/2026-06-27/x-emollick-f0b84112.md",
+      "slug": "14 小时 251 美元做出 2 到 17 周的软件 AI 编程该怎么算账",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-27T00:56:33.539Z",
+      "topic_id": "sources/2026-06-27/x-emollick-d4aca8b2.md",
+      "slug": "开源权重也可能被管住团队选模型前要看清三类依赖",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-27T00:59:49.092Z",
+      "topic_id": "sources/2026-06-27/x-VincentLogic-fa4ef106.md",
+      "slug": "NVIDIA 开源 LocateAnything-3B 视觉定位模型先试这三类场景",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-27T01:00:53.173Z",
+      "topic_id": "sources/2026-06-27/x-tychozzz-3d2eb6d7.md",
+      "slug": "AI 不一定先制造失业潮普通人更该盯住这条基建链",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-27T01:01:49.162Z",
+      "topic_id": "sources/2026-06-27/x-safaricheung-b85751db.md",
+      "slug": "Android 手机怎么变成全球地震预警网普通传感器的产品启发",
       "error": ""
     }
   ]

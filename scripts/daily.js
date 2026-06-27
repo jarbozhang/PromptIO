@@ -83,6 +83,9 @@ const ENTITY_RULES = [
   ['claude', /claude|anthropic/i],
   ['gemini', /gemini|google/i],
   ['openai', /openai|chatgpt/i],
+  ['airllm', /airllm/i],
+  ['agent-memory', /agent memory|agent 记忆|记忆系统|agents need a diary|mem0|letta|zep/i],
+  ['warp-loop', /warp|triage skill|issue triage|双层 loop|双层循环/i],
 ];
 
 const SENSITIVE_SOURCE_RULES = [
