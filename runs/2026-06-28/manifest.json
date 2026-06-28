@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-28",
+  "created_at": "2026-06-28T00:56:23.373Z",
+  "updated_at": "2026-06-28T01:24:24.493Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-06-28/alignment-forum-092aebda.md",
+      "file": "sources/2026-06-28/alignment-forum-092aebda.md",
+      "slug": "模型出事后第一步先做Model-Forensics",
+      "title": "模型出事后，第一步不是封禁：先做一次 Model Forensics",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.031,
+      "reach_note": "模型事故和安全复盘有明确风险利益点，读者可转化为内部排查流程。",
+      "selection_reason": "虽然是 B 级研究背景，但主题足够重要，适合做风险复盘型文章，丰富当天内容形态。",
+      "selected_at": "2026-06-28T00:56:23.373Z",
+      "updated_at": "2026-06-28T00:59:11.276Z",
+      "draft_ready_at": "2026-06-28T00:59:11.276Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-28/模型出事后，第一步不是封禁，先做一次 Model Forensics",
+      "meta_path": "drafts/2026-06-28/模型出事后，第一步不是封禁，先做一次 Model Forensics/模型出事后，第一步不是封禁，先做一次 Model Forensics.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-28/github-trending-0bd21c2c.md",
+      "file": "sources/2026-06-28/github-trending-0bd21c2c.md",
+      "slug": "openclaw新版本把个人AI助手跑在自己的设备上",
+      "title": "openclaw 新版本怎么上手：把个人 AI 助手跑在自己的设备上",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.068,
+      "reach_note": "openclaw 是本号重点生态，GitHub 可验证入口明确，读者能直接从仓库开始试用。",
+      "selection_reason": "A 级 GitHub 主源，且命中 openclaw 生态，适合做当天版本解读主选题。",
+      "selected_at": "2026-06-28T00:56:23.374Z",
+      "updated_at": "2026-06-28T01:01:45.249Z",
+      "draft_ready_at": "2026-06-28T01:01:45.237Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-28/把个人 AI 助手跑在自己的设备上，openclaw 新版本怎么上手",
+      "meta_path": "drafts/2026-06-28/把个人 AI 助手跑在自己的设备上，openclaw 新版本怎么上手/把个人 AI 助手跑在自己的设备上，openclaw 新版本怎么上手.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-28/openai-blog-5d9de7a5.md",
+      "file": "sources/2026-06-28/openai-blog-5d9de7a5.md",
+      "slug": "OpenAI-Daybreak发布后团队怎样重做AI安全检查",
+      "title": "OpenAI Daybreak 发布后，团队该怎样重做 AI 安全检查",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.028,
+      "reach_note": "OpenAI 品牌强，Daybreak 和 Codex Security 指向具体安全工具，团队可转化为检查流程。",
+      "selection_reason": "官方来源可作事实主源，能补齐当天至少一篇风险与安全方向内容。",
+      "selected_at": "2026-06-28T00:56:23.374Z",
+      "updated_at": "2026-06-28T01:05:05.702Z",
+      "draft_ready_at": "2026-06-28T01:05:05.701Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-28/OpenAI Daybreak 发布后，团队该怎样重做 AI 安全检查",
+      "meta_path": "drafts/2026-06-28/OpenAI Daybreak 发布后，团队该怎样重做 AI 安全检查/OpenAI Daybreak 发布后，团队该怎样重做 AI 安全检查.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-28/replicate-blog-c2b1c193.md",
+      "file": "sources/2026-06-28/replicate-blog-c2b1c193.md",
+      "slug": "Recraft-V4上Replicate设计图和可编辑SVG一起生成",
+      "title": "Recraft V4 上 Replicate：设计图和可编辑 SVG 终于能一起生成了",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.033,
+      "reach_note": "Replicate 和 Recraft 有工具入口，可编辑 SVG 是明确利益点，创作者能马上试。",
+      "selection_reason": "补足创作者工作流方向，素材具体，适合公众号和小红书都落成实测内容。",
+      "selected_at": "2026-06-28T00:56:23.374Z",
+      "updated_at": "2026-06-28T01:08:57.263Z",
+      "draft_ready_at": "2026-06-28T01:08:57.262Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-28/设计图和可编辑 SVG 终于能一起生成了，Recraft V4 上 Replicate",
+      "meta_path": "drafts/2026-06-28/设计图和可编辑 SVG 终于能一起生成了，Recraft V4 上 Replicate/设计图和可编辑 SVG 终于能一起生成了，Recraft V4 上 Replicate.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-28/github-trending-6eec8646.md",
+      "file": "sources/2026-06-28/github-trending-6eec8646.md",
+      "slug": "Ollama一键跑KimiGLMDeepSeek本地模型怎么选",
+      "title": "Ollama 现在能一键跑 Kimi、GLM、DeepSeek：本地模型该怎么选",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.04,
+      "reach_note": "Ollama、DeepSeek、Qwen 都有认知度，本地运行和模型选择有明确行动路径。",
+      "selection_reason": "A 级 GitHub 主源，品牌强、动作清楚，适合作为高传播的实操选型文。",
+      "selected_at": "2026-06-28T00:56:23.375Z",
+      "updated_at": "2026-06-28T01:21:54.824Z",
+      "draft_ready_at": "2026-06-28T01:21:54.823Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-28/Ollama 现在能一键跑 Kimi、GLM、DeepSeek，本地模型该怎么选",
+      "meta_path": "drafts/2026-06-28/Ollama 现在能一键跑 Kimi、GLM、DeepSeek，本地模型该怎么选/Ollama 现在能一键跑 Kimi、GLM、DeepSeek，本地模型该怎么选.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-28/openai-blog-a55ebd41.md",
+      "file": "sources/2026-06-28/openai-blog-a55ebd41.md",
+      "slug": "ChatGPT企业用量失控前先把花费控制打开",
+      "title": "ChatGPT 企业用量失控前，先把这套花费控制打开",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.043,
+      "reach_note": "ChatGPT 品牌强，成本控制是明确利益点，企业用户能直接检查设置。",
+      "selection_reason": "官方来源，适合补足产品商业和成本治理方向，不会让当天全是开发工具。",
+      "selected_at": "2026-06-28T00:56:23.375Z",
+      "updated_at": "2026-06-28T01:16:20.232Z",
+      "draft_ready_at": "2026-06-28T01:16:20.214Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-28/ChatGPT 企业用量失控前，先把这套花费控制打开",
+      "meta_path": "drafts/2026-06-28/ChatGPT 企业用量失控前，先把这套花费控制打开/ChatGPT 企业用量失控前，先把这套花费控制打开.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-28/techcrunch-ai-f9c0cbd3.md",
+      "file": "sources/2026-06-28/techcrunch-ai-f9c0cbd3.md",
+      "slug": "GPT-5-6限量发布提醒别把模型路线押在单一供应商上",
+      "title": "GPT-5.6 限量发布给团队一个信号：别把模型路线押在单一供应商上",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "trend_argument",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 98,
+      "recent_similarity": 0.036,
+      "reach_note": "OpenAI 和 GPT-5.6 品牌强，供应风险直接影响团队决策和模型选型。",
+      "selection_reason": "与纯发布新闻不同，这个角度能转成产品和架构取舍判断，补足趋势观点文章。",
+      "selected_at": "2026-06-28T00:56:23.375Z",
+      "updated_at": "2026-06-28T01:24:24.493Z",
+      "draft_ready_at": "2026-06-28T01:24:24.493Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-28/GPT-5.6 限量发布给团队一个信号，别把模型路线押在单一供应商上",
+      "meta_path": "drafts/2026-06-28/GPT-5.6 限量发布给团队一个信号，别把模型路线押在单一供应商上/GPT-5.6 限量发布给团队一个信号，别把模型路线押在单一供应商上.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-28T00:56:23.373Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-28T00:56:23.373Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T00:56:23.374Z",
+      "topic_id": "sources/2026-06-28/alignment-forum-092aebda.md",
+      "slug": "模型出事后第一步先做Model-Forensics"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T00:56:23.374Z",
+      "topic_id": "sources/2026-06-28/github-trending-0bd21c2c.md",
+      "slug": "openclaw新版本把个人AI助手跑在自己的设备上"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T00:56:23.374Z",
+      "topic_id": "sources/2026-06-28/openai-blog-5d9de7a5.md",
+      "slug": "OpenAI-Daybreak发布后团队怎样重做AI安全检查"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T00:56:23.374Z",
+      "topic_id": "sources/2026-06-28/replicate-blog-c2b1c193.md",
+      "slug": "Recraft-V4上Replicate设计图和可编辑SVG一起生成"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T00:56:23.375Z",
+      "topic_id": "sources/2026-06-28/github-trending-6eec8646.md",
+      "slug": "Ollama一键跑KimiGLMDeepSeek本地模型怎么选"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T00:56:23.375Z",
+      "topic_id": "sources/2026-06-28/openai-blog-a55ebd41.md",
+      "slug": "ChatGPT企业用量失控前先把花费控制打开"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T00:56:23.375Z",
+      "topic_id": "sources/2026-06-28/techcrunch-ai-f9c0cbd3.md",
+      "slug": "GPT-5-6限量发布提醒别把模型路线押在单一供应商上"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T00:59:11.276Z",
+      "topic_id": "sources/2026-06-28/alignment-forum-092aebda.md",
+      "slug": "模型出事后第一步先做Model-Forensics",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T01:01:45.249Z",
+      "topic_id": "sources/2026-06-28/github-trending-0bd21c2c.md",
+      "slug": "openclaw新版本把个人AI助手跑在自己的设备上",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T01:05:05.702Z",
+      "topic_id": "sources/2026-06-28/openai-blog-5d9de7a5.md",
+      "slug": "OpenAI-Daybreak发布后团队怎样重做AI安全检查",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T01:08:57.263Z",
+      "topic_id": "sources/2026-06-28/replicate-blog-c2b1c193.md",
+      "slug": "Recraft-V4上Replicate设计图和可编辑SVG一起生成",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-06-28T01:13:57.302Z",
+      "topic_id": "sources/2026-06-28/github-trending-6eec8646.md",
+      "slug": "Ollama一键跑KimiGLMDeepSeek本地模型怎么选",
+      "error": "codex timed out after 300000ms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T01:16:20.232Z",
+      "topic_id": "sources/2026-06-28/openai-blog-a55ebd41.md",
+      "slug": "ChatGPT企业用量失控前先把花费控制打开",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T01:21:54.824Z",
+      "topic_id": "sources/2026-06-28/github-trending-6eec8646.md",
+      "slug": "Ollama一键跑KimiGLMDeepSeek本地模型怎么选",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T01:24:24.493Z",
+      "topic_id": "sources/2026-06-28/techcrunch-ai-f9c0cbd3.md",
+      "slug": "GPT-5-6限量发布提醒别把模型路线押在单一供应商上",
+      "error": ""
+    }
+  ]
+}
