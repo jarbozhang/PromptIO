@@ -9,7 +9,14 @@ import { parse as parseYaml } from './lib/yaml.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const TODAY = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+function localDateString(date = new Date()) {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, '0');
+  const d = String(date.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+const TODAY = localDateString(); // YYYY-MM-DD in local timezone
 
 // ── Config ──────────────────────────────────────────────
 const SOURCES_PATH = path.join(ROOT, 'config/sources.yaml');
