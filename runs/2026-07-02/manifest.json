@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-02",
+  "created_at": "2026-07-01T23:16:59.517Z",
+  "updated_at": "2026-07-01T23:29:51.872Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-02/x-shao__meng-647b114f.md",
+      "file": "sources/2026-07-02/x-shao__meng-647b114f.md",
+      "slug": "吴恩达-Loop-Engineering-三层反馈循环",
+      "title": "吴恩达的 Loop Engineering：AI 产品别只写 prompt，要设计三层反馈循环",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.034,
+      "reach_note": "吴恩达有强品牌认知，Loop Engineering 能转成产品和内容团队马上可用的迭代方法。",
+      "selection_reason": "这是非纯开发工具题，能覆盖创作者和产品团队场景，也能避免当天内容都变成 GitHub 项目介绍。",
+      "selected_at": "2026-07-01T23:16:59.518Z",
+      "updated_at": "2026-07-01T23:17:56.595Z",
+      "draft_ready_at": "2026-07-01T23:17:56.595Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-02/吴恩达的 Loop Engineering，AI 产品别只写 prompt，要设计三层反馈循环",
+      "meta_path": "drafts/2026-07-02/吴恩达的 Loop Engineering，AI 产品别只写 prompt，要设计三层反馈循环/吴恩达的 Loop Engineering，AI 产品别只写 prompt，要设计三层反馈循环.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-02/x-dotey-85ff18de.md",
+      "file": "sources/2026-07-02/x-dotey-85ff18de.md",
+      "slug": "Fable-5-Mythos-5-解禁后的模型发布规则",
+      "title": "Fable 5 和 Mythos 5 解禁之后，模型发布进入“先评估再放量”时代",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.052,
+      "reach_note": "Anthropic 和 OpenAI 相关模型有品牌认知，访问恢复与发布规则变化影响实际选型。",
+      "selection_reason": "它提供当天所需的风险提醒和政策/产品交界视角，适合做安全审查型文章，而不是单纯新闻转述。",
+      "selected_at": "2026-07-01T23:16:59.518Z",
+      "updated_at": "2026-07-01T23:18:50.562Z",
+      "draft_ready_at": "2026-07-01T23:18:50.561Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-02/Fable 5 和 Mythos 5 解禁之后，模型发布进入“先评估再放量”时代",
+      "meta_path": "drafts/2026-07-02/Fable 5 和 Mythos 5 解禁之后，模型发布进入“先评估再放量”时代/Fable 5 和 Mythos 5 解禁之后，模型发布进入“先评估再放量”时代.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-02/github-trending-978e35c6.md",
+      "file": "sources/2026-07-02/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版联网读取提速",
+      "title": "Hermes Agent 新版联网读取提速：少塞上下文，少烧 token",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.042,
+      "reach_note": "NousResearch/Hermes 是重点生态，提速和降成本有明确利益点，也能引导读者去 GitHub 验证和试用。",
+      "selection_reason": "Hermes/openclaw 生态优先级高，且主题不是泛泛介绍 agent，而是围绕新版本解决网页读取慢、上下文浪费的问题，适合做版本解读。",
+      "selected_at": "2026-07-01T23:16:59.518Z",
+      "updated_at": "2026-07-01T23:21:24.275Z",
+      "draft_ready_at": "2026-07-01T23:21:24.275Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-02/Hermes Agent 新版联网读取提速：少塞上下文，少烧 token",
+      "meta_path": "drafts/2026-07-02/Hermes Agent 新版联网读取提速：少塞上下文，少烧 token/Hermes Agent 新版联网读取提速：少塞上下文，少烧 token.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-02/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-02/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-0-支持-MiniMax-M3",
+      "title": "vLLM 0.24.0 支持 MiniMax-M3：本地推理团队该先看这 3 个变化",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.062,
+      "reach_note": "vLLM、MiniMax、DeepSeek 都有认知度，升级动作明确，读者可以直接检查 release 并安排压测。",
+      "selection_reason": "这是信息量充足的 A 级 release，覆盖模型部署和成本效率，适合做版本解读，不与 agent 选题挤在一起。",
+      "selected_at": "2026-07-01T23:16:59.518Z",
+      "updated_at": "2026-07-01T23:24:04.946Z",
+      "draft_ready_at": "2026-07-01T23:24:04.945Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-02/vLLM 0.24.0 支持 MiniMax-M3：本地推理团队该先看这 3 个变化",
+      "meta_path": "drafts/2026-07-02/vLLM 0.24.0 支持 MiniMax-M3：本地推理团队该先看这 3 个变化/vLLM 0.24.0 支持 MiniMax-M3：本地推理团队该先看这 3 个变化.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-02/techcrunch-ai-9e47277c.md",
+      "file": "sources/2026-07-02/techcrunch-ai-9e47277c.md",
+      "slug": "Google-Nano-Banana-2-Lite-创作者选型",
+      "title": "Google Nano Banana 2 Lite 更快更便宜：创作者该怎么判断值不值得换",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.051,
+      "reach_note": "Google 品牌强，便宜和更快是明确利益点，创作者可以直接把它纳入下一轮工具测试。",
+      "selection_reason": "补足当天创作者场景和选型指南版型，避免内容过度集中在开发者工具与模型部署。",
+      "selected_at": "2026-07-01T23:16:59.518Z",
+      "updated_at": "2026-07-01T23:26:44.494Z",
+      "draft_ready_at": "2026-07-01T23:26:44.493Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-02/Google Nano Banana 2 Lite 更快更便宜，创作者该怎么判断值不值得换",
+      "meta_path": "drafts/2026-07-02/Google Nano Banana 2 Lite 更快更便宜，创作者该怎么判断值不值得换/Google Nano Banana 2 Lite 更快更便宜，创作者该怎么判断值不值得换.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-02/github-trending-0bd21c2c.md",
+      "file": "sources/2026-07-02/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw-个人-AI-助手上手判断",
+      "title": "OpenClaw 适合谁先上手：个人 AI 助手不只是在桌面聊天",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "decision_memo",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.053,
+      "reach_note": "OpenClaw 是重点生态，个人 AI 助手是清晰品牌和可操作入口，读者可以直接从 GitHub 开始评估。",
+      "selection_reason": "OpenClaw 是本号核心生态，源为 GitHub 事实主源，适合做一篇面向中文读者的上手判断和使用边界说明。",
+      "selected_at": "2026-07-01T23:16:59.519Z",
+      "updated_at": "2026-07-01T23:29:51.872Z",
+      "draft_ready_at": "2026-07-01T23:29:51.851Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-02/OpenClaw 适合谁先上手：个人 AI 助手不只是在桌面聊天",
+      "meta_path": "drafts/2026-07-02/OpenClaw 适合谁先上手：个人 AI 助手不只是在桌面聊天/OpenClaw 适合谁先上手：个人 AI 助手不只是在桌面聊天.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-01T23:16:59.517Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-01T23:16:59.517Z",
+      "topic_count": 6
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T23:16:59.518Z",
+      "topic_id": "sources/2026-07-02/x-shao__meng-647b114f.md",
+      "slug": "吴恩达-Loop-Engineering-三层反馈循环"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T23:16:59.518Z",
+      "topic_id": "sources/2026-07-02/x-dotey-85ff18de.md",
+      "slug": "Fable-5-Mythos-5-解禁后的模型发布规则"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T23:16:59.518Z",
+      "topic_id": "sources/2026-07-02/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版联网读取提速"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T23:16:59.518Z",
+      "topic_id": "sources/2026-07-02/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-0-支持-MiniMax-M3"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T23:16:59.518Z",
+      "topic_id": "sources/2026-07-02/techcrunch-ai-9e47277c.md",
+      "slug": "Google-Nano-Banana-2-Lite-创作者选型"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T23:16:59.519Z",
+      "topic_id": "sources/2026-07-02/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw-个人-AI-助手上手判断"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T23:17:56.595Z",
+      "topic_id": "sources/2026-07-02/x-shao__meng-647b114f.md",
+      "slug": "吴恩达-Loop-Engineering-三层反馈循环",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T23:18:50.562Z",
+      "topic_id": "sources/2026-07-02/x-dotey-85ff18de.md",
+      "slug": "Fable-5-Mythos-5-解禁后的模型发布规则",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T23:21:24.275Z",
+      "topic_id": "sources/2026-07-02/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版联网读取提速",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T23:24:04.946Z",
+      "topic_id": "sources/2026-07-02/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-0-支持-MiniMax-M3",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T23:26:44.494Z",
+      "topic_id": "sources/2026-07-02/techcrunch-ai-9e47277c.md",
+      "slug": "Google-Nano-Banana-2-Lite-创作者选型",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T23:29:51.872Z",
+      "topic_id": "sources/2026-07-02/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw-个人-AI-助手上手判断",
+      "error": ""
+    }
+  ]
+}
