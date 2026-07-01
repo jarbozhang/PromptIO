@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-01",
+  "created_at": "2026-07-01T05:36:03.283Z",
+  "updated_at": "2026-07-01T05:47:06.206Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-01/x-emollick-3ddb7ced.md",
+      "file": "sources/2026-07-01/x-emollick-3ddb7ced.md",
+      "slug": "Token-成本高不一定先限额",
+      "title": "Token 成本高，不一定该先限额：团队用 AI 前要先做三类决策",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.05,
+      "reach_note": "成本是明确利益点，团队读者可以马上用来调整 AI 使用规则。",
+      "selection_reason": "这是当天少数高质量产品商业角度，能平衡技术选题，也能给企业和团队负责人一个可执行判断框架。",
+      "selected_at": "2026-07-01T05:36:03.284Z",
+      "updated_at": "2026-07-01T05:38:00.907Z",
+      "draft_ready_at": "2026-07-01T05:38:00.907Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-01/Token 成本高，不一定该先限额：团队用 AI 前要先做三类决策",
+      "meta_path": "drafts/2026-07-01/Token 成本高，不一定该先限额：团队用 AI 前要先做三类决策/Token 成本高，不一定该先限额：团队用 AI 前要先做三类决策.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-01/anthropic-python-sdk-releases-46830b51.md",
+      "file": "sources/2026-07-01/anthropic-python-sdk-releases-46830b51.md",
+      "slug": "Claude-Sonnet-5-进-Anthropic-SDK",
+      "title": "Claude Sonnet 5 进 Anthropic SDK：开发者该先改哪三处代码",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.03,
+      "reach_note": "Claude 品牌强，SDK 升级有明确动作，也有工具路径修复这个具体利益点。",
+      "selection_reason": "这是官方 release，事实清晰且发布时间近；既能承接 Sonnet 5 热度，又能落到开发者升级检查。",
+      "selected_at": "2026-07-01T05:36:03.284Z",
+      "updated_at": "2026-07-01T05:39:25.088Z",
+      "draft_ready_at": "2026-07-01T05:39:25.088Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-01/Claude Sonnet 5 进 Anthropic SDK，开发者该先改哪三处代码",
+      "meta_path": "drafts/2026-07-01/Claude Sonnet 5 进 Anthropic SDK，开发者该先改哪三处代码/Claude Sonnet 5 进 Anthropic SDK，开发者该先改哪三处代码.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-01/github-trending-978e35c6.md",
+      "file": "sources/2026-07-01/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-最新版怎么开始用",
+      "title": "Hermes Agent 最新版怎么开始用：从 clawdbot、moltbot 到自己的可验证 AI 助手",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.057,
+      "reach_note": "命中 Hermes/openclaw 生态品牌，可从 GitHub 入口立刻动手，适合做版本解读。",
+      "selection_reason": "这是本号核心生态线，GitHub fact 源足够作为主选题；相比泛泛介绍 agent，更适合写成一次新版能力和上手路径梳理。",
+      "selected_at": "2026-07-01T05:36:03.285Z",
+      "updated_at": "2026-07-01T05:42:38.224Z",
+      "draft_ready_at": "2026-07-01T05:42:38.223Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-01/Hermes Agent 最新版怎么开始用，从 clawdbot、moltbot 到自己的可验证 AI 助手",
+      "meta_path": "drafts/2026-07-01/Hermes Agent 最新版怎么开始用，从 clawdbot、moltbot 到自己的可验证 AI 助手/Hermes Agent 最新版怎么开始用，从 clawdbot、moltbot 到自己的可验证 AI 助手.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-01/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-01/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-0-值不值得升",
+      "title": "vLLM 0.24.0 值不值得升：MiniMax-M3、DeepSeek-V4 和 AMD 用户先看这里",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.056,
+      "reach_note": "vLLM、DeepSeek、MiniMax 都有认知度，升级与部署决策可立即执行。",
+      "selection_reason": "release 信息量足，覆盖模型支持、性能优化和 AMD/ROCm 调优；适合做一篇高价值部署取舍文。",
+      "selected_at": "2026-07-01T05:36:03.285Z",
+      "updated_at": "2026-07-01T05:43:37.433Z",
+      "draft_ready_at": "2026-07-01T05:43:37.432Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-01/vLLM 0.24.0 值不值得升，MiniMax-M3、DeepSeek-V4 和 AMD 用户先看这里",
+      "meta_path": "drafts/2026-07-01/vLLM 0.24.0 值不值得升，MiniMax-M3、DeepSeek-V4 和 AMD 用户先看这里/vLLM 0.24.0 值不值得升，MiniMax-M3、DeepSeek-V4 和 AMD 用户先看这里.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-01/techcrunch-ai-9e47277c.md",
+      "file": "sources/2026-07-01/techcrunch-ai-9e47277c.md",
+      "slug": "Google-Nano-Banana-2-Lite-省图像成本",
+      "title": "Google Nano Banana 2 Lite 更快更便宜：创作者该怎么用它省图像成本",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.04,
+      "reach_note": "Google 品牌强，核心利益点是更快更便宜，创作者可以马上调整工具链。",
+      "selection_reason": "当天需要非开发者场景，这个题目兼具品牌、利益点和创作者可操作性，适合公众号和小红书都做。",
+      "selected_at": "2026-07-01T05:36:03.285Z",
+      "updated_at": "2026-07-01T05:46:11.624Z",
+      "draft_ready_at": "2026-07-01T05:46:11.624Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-01/Google Nano Banana 2 Lite 更快更便宜，创作者该怎么用它省图像成本",
+      "meta_path": "drafts/2026-07-01/Google Nano Banana 2 Lite 更快更便宜，创作者该怎么用它省图像成本/Google Nano Banana 2 Lite 更快更便宜，创作者该怎么用它省图像成本.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-01/x-dotey-283d4bf7.md",
+      "file": "sources/2026-07-01/x-dotey-283d4bf7.md",
+      "slug": "每天-4500-次部署也没用",
+      "title": "每天 4500 次部署也没用：Claude Code 翻车给 AI 团队的一次产品复盘",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.036,
+      "reach_note": "Claude Code 和 Spotify 有品牌认知，失败复盘对团队立刻有检查价值。",
+      "selection_reason": "适合补足当天的风险复盘位，不是拉踩工具，而是把热闹数据转成团队可用的质量指标框架。",
+      "selected_at": "2026-07-01T05:36:03.285Z",
+      "updated_at": "2026-07-01T05:47:06.206Z",
+      "draft_ready_at": "2026-07-01T05:47:06.205Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-01/每天 4500 次部署也没用，Claude Code 翻车给 AI 团队的一次产品复盘",
+      "meta_path": "drafts/2026-07-01/每天 4500 次部署也没用，Claude Code 翻车给 AI 团队的一次产品复盘/每天 4500 次部署也没用，Claude Code 翻车给 AI 团队的一次产品复盘.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-01T05:36:03.283Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-01T05:36:03.284Z",
+      "topic_count": 6
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T05:36:03.284Z",
+      "topic_id": "sources/2026-07-01/x-emollick-3ddb7ced.md",
+      "slug": "Token-成本高不一定先限额"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T05:36:03.284Z",
+      "topic_id": "sources/2026-07-01/anthropic-python-sdk-releases-46830b51.md",
+      "slug": "Claude-Sonnet-5-进-Anthropic-SDK"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T05:36:03.285Z",
+      "topic_id": "sources/2026-07-01/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-最新版怎么开始用"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T05:36:03.285Z",
+      "topic_id": "sources/2026-07-01/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-0-值不值得升"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T05:36:03.285Z",
+      "topic_id": "sources/2026-07-01/techcrunch-ai-9e47277c.md",
+      "slug": "Google-Nano-Banana-2-Lite-省图像成本"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-01T05:36:03.285Z",
+      "topic_id": "sources/2026-07-01/x-dotey-283d4bf7.md",
+      "slug": "每天-4500-次部署也没用"
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-01T05:37:05.929Z",
+      "topic_id": "sources/2026-07-01/x-emollick-3ddb7ced.md",
+      "slug": "Token-成本高不一定先限额",
+      "error": "generated markdown for Token 成本高，不一定该先限额：团队用 AI 前要先做三类决策 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T05:38:00.907Z",
+      "topic_id": "sources/2026-07-01/x-emollick-3ddb7ced.md",
+      "slug": "Token-成本高不一定先限额",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T05:39:25.088Z",
+      "topic_id": "sources/2026-07-01/anthropic-python-sdk-releases-46830b51.md",
+      "slug": "Claude-Sonnet-5-进-Anthropic-SDK",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T05:42:38.224Z",
+      "topic_id": "sources/2026-07-01/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-最新版怎么开始用",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T05:43:37.433Z",
+      "topic_id": "sources/2026-07-01/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-0-值不值得升",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T05:46:11.624Z",
+      "topic_id": "sources/2026-07-01/techcrunch-ai-9e47277c.md",
+      "slug": "Google-Nano-Banana-2-Lite-省图像成本",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-01T05:47:06.206Z",
+      "topic_id": "sources/2026-07-01/x-dotey-283d4bf7.md",
+      "slug": "每天-4500-次部署也没用",
+      "error": ""
+    }
+  ]
+}
