@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-03",
+  "created_at": "2026-07-02T23:16:43.032Z",
+  "updated_at": "2026-07-02T23:32:44.108Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-03/techcrunch-ai-d01b2b5a.md",
+      "file": "sources/2026-07-03/techcrunch-ai-d01b2b5a.md",
+      "slug": "Meta 闲置 AI 算力和云成本战",
+      "title": "Meta 想把闲置 AI 算力卖出去：这不是需求见顶，而是云成本战开始了",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.028,
+      "reach_note": "Meta 是强品牌，算力成本是明确利益点，读者可据此调整云资源观察清单。",
+      "selection_reason": "它提供当天需要的商业趋势题，不落到融资新闻，而是能服务 AI 成本和基础设施决策。",
+      "selected_at": "2026-07-02T23:16:43.032Z",
+      "updated_at": "2026-07-02T23:19:30.743Z",
+      "draft_ready_at": "2026-07-02T23:19:30.742Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-03/Meta 想把闲置 AI 算力卖出去：这不是需求见顶，而是云成本战开始了",
+      "meta_path": "drafts/2026-07-03/Meta 想把闲置 AI 算力卖出去：这不是需求见顶，而是云成本战开始了/Meta 想把闲置 AI 算力卖出去：这不是需求见顶，而是云成本战开始了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-03/arxiv-321c80b6.md",
+      "file": "sources/2026-07-03/arxiv-321c80b6.md",
+      "slug": "代码 Agent 跑分不一定可信",
+      "title": "代码 Agent 跑分不一定可信：740 个优化任务暴露了什么坑",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.03,
+      "reach_note": "Coding Agent 是强关注品牌词，风险点直接影响工具选型和团队预算。",
+      "selection_reason": "它能补齐当天选题里的风险复盘维度，不是普通论文摘抄，而是能指导读者重新审视 Agent 评测结论。",
+      "selected_at": "2026-07-02T23:16:43.033Z",
+      "updated_at": "2026-07-02T23:21:57.306Z",
+      "draft_ready_at": "2026-07-02T23:21:57.305Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-03/代码 Agent 跑分不一定可信：740 个优化任务暴露了什么坑",
+      "meta_path": "drafts/2026-07-03/代码 Agent 跑分不一定可信：740 个优化任务暴露了什么坑/代码 Agent 跑分不一定可信：740 个优化任务暴露了什么坑.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-03/x-shao__meng-418fc110.md",
+      "file": "sources/2026-07-03/x-shao__meng-418fc110.md",
+      "slug": "让 Codex 写出更像资深设计工程师的 UI",
+      "title": "让 Codex 写出更像资深设计工程师的 UI：这套 Design Skills 值得抄作业",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.029,
+      "reach_note": "Codex 有品牌认知，设计质量是明确利益点，读者能直接借鉴 Skill 结构。",
+      "selection_reason": "这篇能把 Agent 话题带到创作者和产品体验场景，避免当天内容全是模型和框架。",
+      "selected_at": "2026-07-02T23:16:43.033Z",
+      "updated_at": "2026-07-02T23:22:58.009Z",
+      "draft_ready_at": "2026-07-02T23:22:58.008Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-03/让 Codex 写出更像资深设计工程师的 UI，这套 Design Skills 值得抄作业",
+      "meta_path": "drafts/2026-07-03/让 Codex 写出更像资深设计工程师的 UI，这套 Design Skills 值得抄作业/让 Codex 写出更像资深设计工程师的 UI，这套 Design Skills 值得抄作业.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-03/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-03/vllm-releases-d6f25b58.md",
+      "slug": "vLLM 0240 值不值得升",
+      "title": "vLLM 0.24.0 值不值得升：MiniMax-M3、DeepSeek-V4 和 AMD 推理优化一次看懂",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.067,
+      "reach_note": "vLLM、DeepSeek、MiniMax 都有认知度，升级判断和部署验证很可操作。",
+      "selection_reason": "这是高质量 release 主源，信息密度高，适合做成模型部署读者真正需要的升级取舍文章。",
+      "selected_at": "2026-07-02T23:16:43.033Z",
+      "updated_at": "2026-07-02T23:25:03.239Z",
+      "draft_ready_at": "2026-07-02T23:25:03.239Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-03/vLLM 0.24.0 值不值得升，MiniMax-M3、DeepSeek-V4 和 AMD 推理优化一次看懂",
+      "meta_path": "drafts/2026-07-03/vLLM 0.24.0 值不值得升，MiniMax-M3、DeepSeek-V4 和 AMD 推理优化一次看懂/vLLM 0.24.0 值不值得升，MiniMax-M3、DeepSeek-V4 和 AMD 推理优化一次看懂.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-03/techcrunch-ai-9e47277c.md",
+      "file": "sources/2026-07-03/techcrunch-ai-9e47277c.md",
+      "slug": "Google Nano Banana 2 Lite 更快更便宜",
+      "title": "Google Nano Banana 2 Lite 更快更便宜：创作者该怎么改出图流程",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.062,
+      "reach_note": "Google 品牌强，快和便宜是明确利益点，创作者能立即调整工作流。",
+      "selection_reason": "这是非开发者向的高传播题，适合公众号和小红书都做成成本收益清晰的实用内容。",
+      "selected_at": "2026-07-02T23:16:43.034Z",
+      "updated_at": "2026-07-02T23:27:31.080Z",
+      "draft_ready_at": "2026-07-02T23:27:31.079Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-03/Google Nano Banana 2 Lite 更快更便宜：创作者该怎么改出图流程",
+      "meta_path": "drafts/2026-07-03/Google Nano Banana 2 Lite 更快更便宜：创作者该怎么改出图流程/Google Nano Banana 2 Lite 更快更便宜：创作者该怎么改出图流程.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-03/github-trending-978e35c6.md",
+      "file": "sources/2026-07-03/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 新版本把联网读取变成按需取证",
+      "title": "Hermes Agent 新版本：把联网读取从烧 token 变成按需取证",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,agent_like_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 80,
+      "recent_similarity": 0.045,
+      "reach_note": "NousResearch/Hermes 属重点生态，版本变化明确，读者可以直接去仓库试用。",
+      "selection_reason": "这是当天最贴合 PromptIO 定位的 openclaw/NousResearch 生态题，既有品牌连续性，也能转成可操作的联网 Agent 使用指南。",
+      "selected_at": "2026-07-02T23:16:43.034Z",
+      "updated_at": "2026-07-02T23:30:13.505Z",
+      "draft_ready_at": "2026-07-02T23:30:13.504Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-03/Hermes Agent 新版本：把联网读取从烧 token 变成按需取证",
+      "meta_path": "drafts/2026-07-03/Hermes Agent 新版本：把联网读取从烧 token 变成按需取证/Hermes Agent 新版本：把联网读取从烧 token 变成按需取证.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-03/openai-blog-5d9de7a5.md",
+      "file": "sources/2026-07-03/openai-blog-5d9de7a5.md",
+      "slug": "OpenAI 长任务 Codex 用法",
+      "title": "OpenAI 的长任务 Codex 用法：怎么让项目不死在一次 prompt 里",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,agent_like_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 116,
+      "recent_similarity": 0.026,
+      "reach_note": "OpenAI 和 Codex 品牌强，长任务不中断是明确利益点，读者能直接照着改流程。",
+      "selection_reason": "这是官方来源且实操性强，适合做成高收藏的开发者工作法，但不会让当天清单型内容超量。",
+      "selected_at": "2026-07-02T23:16:43.035Z",
+      "updated_at": "2026-07-02T23:32:44.108Z",
+      "draft_ready_at": "2026-07-02T23:32:44.085Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-03/OpenAI 的长任务 Codex 用法，怎么让项目不死在一次 prompt 里",
+      "meta_path": "drafts/2026-07-03/OpenAI 的长任务 Codex 用法，怎么让项目不死在一次 prompt 里/OpenAI 的长任务 Codex 用法，怎么让项目不死在一次 prompt 里.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-02T23:16:43.032Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-02T23:16:43.032Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-02T23:16:43.032Z",
+      "topic_id": "sources/2026-07-03/techcrunch-ai-d01b2b5a.md",
+      "slug": "Meta 闲置 AI 算力和云成本战"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-02T23:16:43.033Z",
+      "topic_id": "sources/2026-07-03/arxiv-321c80b6.md",
+      "slug": "代码 Agent 跑分不一定可信"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-02T23:16:43.033Z",
+      "topic_id": "sources/2026-07-03/x-shao__meng-418fc110.md",
+      "slug": "让 Codex 写出更像资深设计工程师的 UI"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-02T23:16:43.033Z",
+      "topic_id": "sources/2026-07-03/vllm-releases-d6f25b58.md",
+      "slug": "vLLM 0240 值不值得升"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-02T23:16:43.034Z",
+      "topic_id": "sources/2026-07-03/techcrunch-ai-9e47277c.md",
+      "slug": "Google Nano Banana 2 Lite 更快更便宜"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-02T23:16:43.034Z",
+      "topic_id": "sources/2026-07-03/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 新版本把联网读取变成按需取证"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-02T23:16:43.035Z",
+      "topic_id": "sources/2026-07-03/openai-blog-5d9de7a5.md",
+      "slug": "OpenAI 长任务 Codex 用法"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-02T23:19:30.743Z",
+      "topic_id": "sources/2026-07-03/techcrunch-ai-d01b2b5a.md",
+      "slug": "Meta 闲置 AI 算力和云成本战",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-02T23:21:57.306Z",
+      "topic_id": "sources/2026-07-03/arxiv-321c80b6.md",
+      "slug": "代码 Agent 跑分不一定可信",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-02T23:22:58.009Z",
+      "topic_id": "sources/2026-07-03/x-shao__meng-418fc110.md",
+      "slug": "让 Codex 写出更像资深设计工程师的 UI",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-02T23:25:03.239Z",
+      "topic_id": "sources/2026-07-03/vllm-releases-d6f25b58.md",
+      "slug": "vLLM 0240 值不值得升",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-02T23:27:31.080Z",
+      "topic_id": "sources/2026-07-03/techcrunch-ai-9e47277c.md",
+      "slug": "Google Nano Banana 2 Lite 更快更便宜",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-02T23:30:13.505Z",
+      "topic_id": "sources/2026-07-03/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 新版本把联网读取变成按需取证",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-02T23:32:44.108Z",
+      "topic_id": "sources/2026-07-03/openai-blog-5d9de7a5.md",
+      "slug": "OpenAI 长任务 Codex 用法",
+      "error": ""
+    }
+  ]
+}
