@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-06",
+  "created_at": "2026-07-05T23:08:34.511Z",
+  "updated_at": "2026-07-05T23:17:39.415Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-06/x-leerob-9724e0b0.md",
+      "file": "sources/2026-07-06/x-leerob-9724e0b0.md",
+      "slug": "为什么 AI 写作总差一口气",
+      "title": "为什么 AI 写作总差一口气：它适合当编辑，不适合替你想观点",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.035,
+      "reach_note": "AI 写作是大众高频场景，反常识观点明确，读者能立刻调整自己的创作流程。",
+      "selection_reason": "这是少数面向创作者而非开发者的强共鸣题，能平衡当天技术选题密度。",
+      "selected_at": "2026-07-05T23:08:34.512Z",
+      "updated_at": "2026-07-05T23:09:29.455Z",
+      "draft_ready_at": "2026-07-05T23:09:29.454Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-06/为什么 AI 写作总差一口气：它适合当编辑，不适合替你想观点",
+      "meta_path": "drafts/2026-07-06/为什么 AI 写作总差一口气：它适合当编辑，不适合替你想观点/为什么 AI 写作总差一口气：它适合当编辑，不适合替你想观点.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-06/x-GaryMarcus-cf47e8c0.md",
+      "file": "sources/2026-07-06/x-GaryMarcus-cf47e8c0.md",
+      "slug": "AI 比员工还贵之后公司该先算哪三笔账",
+      "title": "AI 比员工还贵之后，公司该先算哪三笔账",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.027,
+      "reach_note": "成本焦虑有明确利益点，团队可以立刻拿来复盘 AI 工具采购。",
+      "selection_reason": "它补上产品商业视角，适合做成不追热点但很容易被管理者转发的选题。",
+      "selected_at": "2026-07-05T23:08:34.512Z",
+      "updated_at": "2026-07-05T23:10:29.961Z",
+      "draft_ready_at": "2026-07-05T23:10:29.960Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-06/AI 比员工还贵之后，公司该先算哪三笔账",
+      "meta_path": "drafts/2026-07-06/AI 比员工还贵之后，公司该先算哪三笔账/AI 比员工还贵之后，公司该先算哪三笔账.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-06/transformers-releases-25627478.md",
+      "file": "sources/2026-07-06/transformers-releases-25627478.md",
+      "slug": "Transformers 513 支持 Kimi K25 到 K27",
+      "title": "Transformers 5.13 支持 Kimi K2.5 到 K2.7，本地试多模态 Agent 更近了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.056,
+      "reach_note": "Hugging Face、Transformers、Kimi 都有认知度，版本更新能直接指导读者升级和试模型。",
+      "selection_reason": "这是模型部署读者能马上行动的版本变化，比单纯模型新闻更适合做成可验证的升级解读。",
+      "selected_at": "2026-07-05T23:08:34.512Z",
+      "updated_at": "2026-07-05T23:11:54.712Z",
+      "draft_ready_at": "2026-07-05T23:11:54.711Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-06/Transformers 5.13 支持 Kimi K2.5 到 K2.7，本地试多模态 Agent 更近了",
+      "meta_path": "drafts/2026-07-06/Transformers 5.13 支持 Kimi K2.5 到 K2.7，本地试多模态 Agent 更近了/Transformers 5.13 支持 Kimi K2.5 到 K2.7，本地试多模态 Agent 更近了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-06/arxiv-976f3f78.md",
+      "file": "sources/2026-07-06/arxiv-976f3f78.md",
+      "slug": "AI 编码 Agent 把风险拆进多次 PR",
+      "title": "AI 编码 Agent 最危险的不是一次作恶，而是把问题拆进多次 PR",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.037,
+      "reach_note": "AI 编码 Agent 是高认知主题，风险场景具体，团队可立即改审查流程。",
+      "selection_reason": "当天需要一篇风险提醒，这个题不是泛泛谈安全，而是直接命中长期 Agent 工作流的真实盲点。",
+      "selected_at": "2026-07-05T23:08:34.512Z",
+      "updated_at": "2026-07-05T23:13:00.524Z",
+      "draft_ready_at": "2026-07-05T23:13:00.524Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-06/AI 编码 Agent 最危险的不是一次作恶，而是把问题拆进多次 PR",
+      "meta_path": "drafts/2026-07-06/AI 编码 Agent 最危险的不是一次作恶，而是把问题拆进多次 PR/AI 编码 Agent 最危险的不是一次作恶，而是把问题拆进多次 PR.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-06/x-dotey-ecd32ded.md",
+      "file": "sources/2026-07-06/x-dotey-ecd32ded.md",
+      "slug": "PPT 动画也能交给 Skill 了",
+      "title": "PPT 动画也能交给 Skill 了：baoyu-design 这次更新适合谁试",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.031,
+      "reach_note": "PPT 是高频需求，Skill 更新有明确可操作入口，动画能力带来直接效率收益。",
+      "selection_reason": "这是当天少见的创作者工作流版本更新，能把 AI 内容生产从写文扩展到演示文稿。",
+      "selected_at": "2026-07-05T23:08:34.513Z",
+      "updated_at": "2026-07-05T23:13:55.599Z",
+      "draft_ready_at": "2026-07-05T23:13:55.599Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-06/PPT 动画也能交给 Skill 了，baoyu-design 这次更新适合谁试",
+      "meta_path": "drafts/2026-07-06/PPT 动画也能交给 Skill 了，baoyu-design 这次更新适合谁试/PPT 动画也能交给 Skill 了，baoyu-design 这次更新适合谁试.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-06/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-06/vllm-releases-d6f25b58.md",
+      "slug": "vLLM 024 给 DeepSeek-V4 和 MiniMax-M3 补生产级优化",
+      "title": "vLLM 0.24.0 给 DeepSeek-V4 和 MiniMax-M3 补了一轮生产级优化",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.051,
+      "reach_note": "vLLM、DeepSeek、MiniMax 品牌明确，升级收益和部署判断都很具体。",
+      "selection_reason": "部署读者关心的不是发布本身，而是该不该升、哪些后端收益最大，这条 release 信息量足够支撑判断。",
+      "selected_at": "2026-07-05T23:08:34.513Z",
+      "updated_at": "2026-07-05T23:15:02.631Z",
+      "draft_ready_at": "2026-07-05T23:15:02.631Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-06/vLLM 0.24.0 给 DeepSeek-V4 和 MiniMax-M3 补了一轮生产级优化",
+      "meta_path": "drafts/2026-07-06/vLLM 0.24.0 给 DeepSeek-V4 和 MiniMax-M3 补了一轮生产级优化/vLLM 0.24.0 给 DeepSeek-V4 和 MiniMax-M3 补了一轮生产级优化.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-06/github-trending-978e35c6.md",
+      "file": "sources/2026-07-06/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 联网提速后最值得重写的资料整理任务",
+      "title": "Hermes Agent 联网提速后，最值得重写的是这类资料整理任务",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,agent_like_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 126,
+      "recent_similarity": 0.048,
+      "reach_note": "Hermes/NousResearch 属重点生态，有明确提速和降成本利益点，读者可直接从 GitHub 项目开始验证。",
+      "selection_reason": "这是当天最贴合 PromptIO 定位的核心生态题，既有品牌连续性，也能落到具体工作流改造。",
+      "selected_at": "2026-07-05T23:08:34.513Z",
+      "updated_at": "2026-07-05T23:17:39.415Z",
+      "draft_ready_at": "2026-07-05T23:17:39.415Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-06/Hermes Agent 联网提速后，最值得重写的是这类资料整理任务",
+      "meta_path": "drafts/2026-07-06/Hermes Agent 联网提速后，最值得重写的是这类资料整理任务/Hermes Agent 联网提速后，最值得重写的是这类资料整理任务.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-05T23:08:34.511Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-05T23:08:34.511Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-05T23:08:34.512Z",
+      "topic_id": "sources/2026-07-06/x-leerob-9724e0b0.md",
+      "slug": "为什么 AI 写作总差一口气"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-05T23:08:34.512Z",
+      "topic_id": "sources/2026-07-06/x-GaryMarcus-cf47e8c0.md",
+      "slug": "AI 比员工还贵之后公司该先算哪三笔账"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-05T23:08:34.512Z",
+      "topic_id": "sources/2026-07-06/transformers-releases-25627478.md",
+      "slug": "Transformers 513 支持 Kimi K25 到 K27"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-05T23:08:34.512Z",
+      "topic_id": "sources/2026-07-06/arxiv-976f3f78.md",
+      "slug": "AI 编码 Agent 把风险拆进多次 PR"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-05T23:08:34.513Z",
+      "topic_id": "sources/2026-07-06/x-dotey-ecd32ded.md",
+      "slug": "PPT 动画也能交给 Skill 了"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-05T23:08:34.513Z",
+      "topic_id": "sources/2026-07-06/vllm-releases-d6f25b58.md",
+      "slug": "vLLM 024 给 DeepSeek-V4 和 MiniMax-M3 补生产级优化"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-05T23:08:34.513Z",
+      "topic_id": "sources/2026-07-06/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 联网提速后最值得重写的资料整理任务"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-05T23:09:29.455Z",
+      "topic_id": "sources/2026-07-06/x-leerob-9724e0b0.md",
+      "slug": "为什么 AI 写作总差一口气",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-05T23:10:29.961Z",
+      "topic_id": "sources/2026-07-06/x-GaryMarcus-cf47e8c0.md",
+      "slug": "AI 比员工还贵之后公司该先算哪三笔账",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-05T23:11:54.712Z",
+      "topic_id": "sources/2026-07-06/transformers-releases-25627478.md",
+      "slug": "Transformers 513 支持 Kimi K25 到 K27",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-05T23:13:00.524Z",
+      "topic_id": "sources/2026-07-06/arxiv-976f3f78.md",
+      "slug": "AI 编码 Agent 把风险拆进多次 PR",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-05T23:13:55.599Z",
+      "topic_id": "sources/2026-07-06/x-dotey-ecd32ded.md",
+      "slug": "PPT 动画也能交给 Skill 了",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-05T23:15:02.631Z",
+      "topic_id": "sources/2026-07-06/vllm-releases-d6f25b58.md",
+      "slug": "vLLM 024 给 DeepSeek-V4 和 MiniMax-M3 补生产级优化",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-05T23:17:39.415Z",
+      "topic_id": "sources/2026-07-06/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 联网提速后最值得重写的资料整理任务",
+      "error": ""
+    }
+  ]
+}
