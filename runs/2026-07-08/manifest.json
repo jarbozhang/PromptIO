@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-08",
+  "created_at": "2026-07-07T23:17:00.994Z",
+  "updated_at": "2026-07-07T23:29:42.372Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-08/x-leerob-9724e0b0.md",
+      "file": "sources/2026-07-08/x-leerob-9724e0b0.md",
+      "slug": "为什么-AI-写不出顶级文章",
+      "title": "为什么 AI 写不出顶级文章：创作者该把模型用在审稿，而不是代笔",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.072,
+      "reach_note": "AI 写作是大众高认知场景，反常识观点有传播点，读者能马上调整审稿和改稿流程。",
+      "selection_reason": "这是当天较好的创作者场景题，能避免全是开发工具，同时给出非常具体的内容生产取舍。",
+      "selected_at": "2026-07-07T23:17:00.995Z",
+      "updated_at": "2026-07-07T23:17:59.487Z",
+      "draft_ready_at": "2026-07-07T23:17:59.487Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-08/为什么 AI 写不出顶级文章，创作者该把模型用在审稿而不是代笔",
+      "meta_path": "drafts/2026-07-08/为什么 AI 写不出顶级文章，创作者该把模型用在审稿而不是代笔/为什么 AI 写不出顶级文章，创作者该把模型用在审稿而不是代笔.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-08/x-fchollet-1ec88440.md",
+      "file": "sources/2026-07-08/x-fchollet-1ec88440.md",
+      "slug": "别再只看模型跑分了每个评测都该写上单次成本",
+      "title": "别再只看模型跑分了：为什么每个 AI 评测都该写上单次成本",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "trend_argument",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.039,
+      "reach_note": "模型评测和成本是明确利益点，读者能立刻用在选型、评测表和团队预算讨论里。",
+      "selection_reason": "它提供了一个强判断，能和当天版本更新、工具实操形成差异，也适合做成观点型公众号文章。",
+      "selected_at": "2026-07-07T23:17:00.995Z",
+      "updated_at": "2026-07-07T23:18:58.081Z",
+      "draft_ready_at": "2026-07-07T23:18:58.081Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-08/别再只看模型跑分了，每个 AI 评测都该写上单次成本",
+      "meta_path": "drafts/2026-07-08/别再只看模型跑分了，每个 AI 评测都该写上单次成本/别再只看模型跑分了，每个 AI 评测都该写上单次成本.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-08/x-IndieDevHailey-3971ffa6.md",
+      "file": "sources/2026-07-08/x-IndieDevHailey-3971ffa6.md",
+      "slug": "把-40-个营销-Skill-塞进-AI-工具",
+      "title": "把 40 个营销 Skill 塞进 AI 工具：独立开发者可以少花哪些外包钱",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.03,
+      "reach_note": "省钱省时是明确利益点，Markdown skills 可直接安装尝试，适合独立开发者和小团队。",
+      "selection_reason": "它把 AI 从写代码延伸到增长和商业执行，适合公众号写案例链条，小红书写成创业者可收藏的工具发现。",
+      "selected_at": "2026-07-07T23:17:00.995Z",
+      "updated_at": "2026-07-07T23:19:50.753Z",
+      "draft_ready_at": "2026-07-07T23:19:50.752Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-08/把 40 个营销 Skill 塞进 AI 工具，独立开发者可以少花哪些外包钱",
+      "meta_path": "drafts/2026-07-08/把 40 个营销 Skill 塞进 AI 工具，独立开发者可以少花哪些外包钱/把 40 个营销 Skill 塞进 AI 工具，独立开发者可以少花哪些外包钱.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-08/techcrunch-ai-88a9e7b8.md",
+      "file": "sources/2026-07-08/techcrunch-ai-88a9e7b8.md",
+      "slug": "用-Google-也可能在训练-AI-该检查哪些隐私开关",
+      "title": "用 Google 也可能在训练它的 AI：普通用户该检查哪些隐私开关",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.074,
+      "reach_note": "Google 是强品牌，隐私数据使用是高利益点，读者能马上打开账号设置检查。",
+      "selection_reason": "这是当天少数面向普通用户也有直接行动价值的风险题，能平衡开发者工具类选题过多的问题。",
+      "selected_at": "2026-07-07T23:17:00.996Z",
+      "updated_at": "2026-07-07T23:22:15.753Z",
+      "draft_ready_at": "2026-07-07T23:22:15.751Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-08/用 Google 也可能在训练它的 AI：普通用户该检查哪些隐私开关",
+      "meta_path": "drafts/2026-07-08/用 Google 也可能在训练它的 AI：普通用户该检查哪些隐私开关/用 Google 也可能在训练它的 AI：普通用户该检查哪些隐私开关.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-08/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-08/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-0-MiniMax-M3-和-DeepSeek-V4-部署重点",
+      "title": "vLLM 0.24.0：MiniMax-M3 和 DeepSeek-V4 部署者该看哪几项变化",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.07,
+      "reach_note": "vLLM、DeepSeek、MiniMax 都有识别度，升级决策和部署兼容性是明确可操作利益点。",
+      "selection_reason": "这类内容对正在跑开源模型的读者很实用，能够从发布说明中提炼成升级判断，而不是只复述版本号。",
+      "selected_at": "2026-07-07T23:17:00.996Z",
+      "updated_at": "2026-07-07T23:24:53.732Z",
+      "draft_ready_at": "2026-07-07T23:24:53.731Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-08/模型部署者看 vLLM 0.24.0，MiniMax-M3 和 DeepSeek-V4 哪些变化值得升级",
+      "meta_path": "drafts/2026-07-08/模型部署者看 vLLM 0.24.0，MiniMax-M3 和 DeepSeek-V4 哪些变化值得升级/模型部署者看 vLLM 0.24.0，MiniMax-M3 和 DeepSeek-V4 哪些变化值得升级.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-08/github-trending-978e35c6.md",
+      "file": "sources/2026-07-08/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版本联网读取提速后能做什么",
+      "title": "Hermes Agent 新版本：联网读取提速后，Agent 真正能做哪些长网页任务",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 84,
+      "recent_similarity": 0.068,
+      "reach_note": "Hermes/openclaw 生态有明确品牌加成，联网提速和降成本是强利益点，读者能直接去 GitHub 试用。",
+      "selection_reason": "这是当天最贴合 PromptIO 长期跟踪线的题目，既有新版本变化，也有明确的使用启发，适合做成公众号版本解读和小红书实操卡片。",
+      "selected_at": "2026-07-07T23:17:00.996Z",
+      "updated_at": "2026-07-07T23:28:38.968Z",
+      "draft_ready_at": "2026-07-07T23:28:38.968Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-08/长网页读取提速后，Hermes Agent 真正能做哪些任务",
+      "meta_path": "drafts/2026-07-08/长网页读取提速后，Hermes Agent 真正能做哪些任务/长网页读取提速后，Hermes Agent 真正能做哪些任务.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-08/transformers-releases-25627478.md",
+      "file": "sources/2026-07-08/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-0-支持-Kimi-K2-5-到-K2-7",
+      "title": "Transformers v5.13.0 支持 Kimi K2.5 到 K2.7：本地试多模态 Agent 的入口来了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,agent_like_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 126,
+      "recent_similarity": 0.073,
+      "reach_note": "Transformers、Kimi 都有品牌认知，升级后可直接在本地或现有推理链路里验证新模型支持。",
+      "selection_reason": "比普通 GitHub Trending 更有版本事实密度，也贴近中文读者对 Kimi、开源模型和本地部署的即时兴趣。",
+      "selected_at": "2026-07-07T23:17:00.996Z",
+      "updated_at": "2026-07-07T23:29:42.372Z",
+      "draft_ready_at": "2026-07-07T23:29:42.371Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-08/本地试多模态 Agent，Transformers v5.13.0 已支持 Kimi K2.5 到 K2.7",
+      "meta_path": "drafts/2026-07-08/本地试多模态 Agent，Transformers v5.13.0 已支持 Kimi K2.5 到 K2.7/本地试多模态 Agent，Transformers v5.13.0 已支持 Kimi K2.5 到 K2.7.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-07T23:17:00.994Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-07T23:17:00.995Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-07T23:17:00.995Z",
+      "topic_id": "sources/2026-07-08/x-leerob-9724e0b0.md",
+      "slug": "为什么-AI-写不出顶级文章"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-07T23:17:00.995Z",
+      "topic_id": "sources/2026-07-08/x-fchollet-1ec88440.md",
+      "slug": "别再只看模型跑分了每个评测都该写上单次成本"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-07T23:17:00.995Z",
+      "topic_id": "sources/2026-07-08/x-IndieDevHailey-3971ffa6.md",
+      "slug": "把-40-个营销-Skill-塞进-AI-工具"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-07T23:17:00.996Z",
+      "topic_id": "sources/2026-07-08/techcrunch-ai-88a9e7b8.md",
+      "slug": "用-Google-也可能在训练-AI-该检查哪些隐私开关"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-07T23:17:00.996Z",
+      "topic_id": "sources/2026-07-08/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-0-MiniMax-M3-和-DeepSeek-V4-部署重点"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-07T23:17:00.996Z",
+      "topic_id": "sources/2026-07-08/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版本联网读取提速后能做什么"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-07T23:17:00.996Z",
+      "topic_id": "sources/2026-07-08/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-0-支持-Kimi-K2-5-到-K2-7"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-07T23:17:59.488Z",
+      "topic_id": "sources/2026-07-08/x-leerob-9724e0b0.md",
+      "slug": "为什么-AI-写不出顶级文章",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-07T23:18:58.081Z",
+      "topic_id": "sources/2026-07-08/x-fchollet-1ec88440.md",
+      "slug": "别再只看模型跑分了每个评测都该写上单次成本",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-07T23:19:50.753Z",
+      "topic_id": "sources/2026-07-08/x-IndieDevHailey-3971ffa6.md",
+      "slug": "把-40-个营销-Skill-塞进-AI-工具",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-07T23:22:15.753Z",
+      "topic_id": "sources/2026-07-08/techcrunch-ai-88a9e7b8.md",
+      "slug": "用-Google-也可能在训练-AI-该检查哪些隐私开关",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-07T23:24:53.732Z",
+      "topic_id": "sources/2026-07-08/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-0-MiniMax-M3-和-DeepSeek-V4-部署重点",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-07T23:26:03.959Z",
+      "topic_id": "sources/2026-07-08/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版本联网读取提速后能做什么",
+      "error": "generated markdown for Hermes Agent 新版本：联网读取提速后，Agent 真正能做哪些长网页任务 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-07T23:28:38.968Z",
+      "topic_id": "sources/2026-07-08/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版本联网读取提速后能做什么",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-07T23:29:42.372Z",
+      "topic_id": "sources/2026-07-08/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-0-支持-Kimi-K2-5-到-K2-7",
+      "error": ""
+    }
+  ]
+}
