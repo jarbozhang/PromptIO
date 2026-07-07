@@ -1,0 +1,24 @@
+---
+title: 'TREK: Distill to Explore, Reinforce to Refine'
+url: 'https://arxiv.org/abs/2607.05339v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Yuanda Xu
+  - Zhengze Zhou
+  - Kayhan Behdin
+  - Jelena Markovic-Voronov
+  - Hejian Sang
+categories:
+  - cs.LG
+  - cs.AI
+  - stat.ML
+  - cs.LG
+published: '2026-07-06T17:21:16Z'
+fetched_at: '2026-07-07T23:02:35.327Z'
+---
+Group Relative Policy Optimization (GRPO) is effective when the current policy already samples useful reasoning trajectories, but it stalls on hard prompts whose correct solution modes lie outside the student's on-policy support. We propose TREK (Teacher-Routed Exploration via Forward KL), a simple staged procedure that uses distillation not for imitation but for exploration support expansion. A key advantage of TREK is its generality: because it only consumes verified output trajectories, it can use an external black-box teacher, a white-box teacher, or the same model given additional inference-time context, and it can efficiently identify which hard-prompt samples are most worth consolidating even when teacher internals are unavailable. TREK first identifies prompts where the unaided student has very low pass rate, queries a proposal source to produce verified candidate solutions, keeps the top-$r$ proposals ranked by current student likelihood, applies a short forward-KL phase to pull those verified modes into the student's support, and then returns to standard on-policy GRPO refinement. On mathematical reasoning, TREK with DeepSeek-V4 proposals improves Qwen3 models across all tested scales on AIME 2024 and AIME 2025; for Qwen3-8B, it improves AIME 2025 from 36.9 to 40.3 and AIME 2024 from 47.9 to 51.1 (avg@16), while the self-context variant reaches 38.5 and 49.6 without an external teacher. On agentic tasks, TREK raises ALFWorld success rate from 75.8 to 82.8 and Scienc
+
+Authors: Yuanda Xu, Zhengze Zhou, Kayhan Behdin, Jelena Markovic-Voronov, Hejian Sang
+Categories: cs.LG, cs.AI, stat.ML, cs.LG
