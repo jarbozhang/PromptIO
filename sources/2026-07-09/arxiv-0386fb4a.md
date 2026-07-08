@@ -1,0 +1,25 @@
+---
+title: >-
+  Bridging Physical Reasoning and Task Generalization via Visual Action Outcome
+  Reasoning Alignment
+url: 'https://arxiv.org/abs/2607.06522v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Han-Jun Ko
+  - Jr-Jen Chen
+  - Haobo Yuan
+  - Hsin-Ying Lee
+  - Tiancheng Shen
+categories:
+  - cs.AI
+  - cs.CV
+  - cs.AI
+published: '2026-07-07T17:27:59Z'
+fetched_at: '2026-07-08T23:03:06.328Z'
+---
+Vision-language models (VLMs) struggle to generalize in interactive physical reasoning, particularly under unseen tasks and environments. Two key failure modes are prominent: hallucinated chain-of-thought (CoT) reasoning that contradicts physical reality, and misalignment between the model's reasoning and actions. We present VAORA (Visual Action Outcome Reasoning Alignment), a novel reward design that directly addresses both issues. VAORA introduces two complementary rewards: Visual Alignment Reward, which anchors VLM reasoning to the visual context independent of the agent action itself, and Visual-Action Alignment Reward, which grounds reasoning in the visual outcome induced by the model's action. Together, these rewards suppress hallucinated CoT and reduce the gap between reasoning and behavior. To improve training stability, we further employ smooth, dense rewards by estimating success probabilities using a pre-trained in-domain expert agent. Experiments on PHYRE and Virtual Tool support our performances across novel-task and unseen-environment settings, confirming that grounded and generalizable physical intelligence can be induced through VAORA.
+
+Authors: Han-Jun Ko, Jr-Jen Chen, Haobo Yuan, Hsin-Ying Lee, Tiancheng Shen
+Categories: cs.AI, cs.CV, cs.AI
