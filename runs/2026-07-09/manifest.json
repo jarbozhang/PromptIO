@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-09",
+  "created_at": "2026-07-08T23:17:03.706Z",
+  "updated_at": "2026-07-08T23:31:38.191Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-09/x-IndieDevHailey-3971ffa6.md",
+      "file": "sources/2026-07-09/x-IndieDevHailey-3971ffa6.md",
+      "slug": "40个Marketing-Skills-替代增长顾问前先做落地页体检",
+      "title": "40 个 Marketing Skills 能不能替代增长顾问？独立开发者先用它做一次落地页体检",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.056,
+      "reach_note": "省钱、省时间和可直接安装使用是核心利益点，适合创业者和内容产品读者转发收藏。",
+      "selection_reason": "它补足当天产品商业与创作者之间的实操选题，但不写成违规运营教程，重点放在落地页、定价和增长判断。",
+      "selected_at": "2026-07-08T23:17:03.707Z",
+      "updated_at": "2026-07-08T23:18:02.446Z",
+      "draft_ready_at": "2026-07-08T23:18:02.445Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-09/40 个 Marketing Skills 能不能替代增长顾问？独立开发者先用它做一次落地页体检",
+      "meta_path": "drafts/2026-07-09/40 个 Marketing Skills 能不能替代增长顾问？独立开发者先用它做一次落地页体检/40 个 Marketing Skills 能不能替代增长顾问？独立开发者先用它做一次落地页体检.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-09/techcrunch-ai-c1f06809.md",
+      "file": "sources/2026-07-09/techcrunch-ai-c1f06809.md",
+      "slug": "OpenAI-新语音模型实时翻译和会议陪练",
+      "title": "OpenAI 新语音模型来了：实时翻译和会议陪练，终于能少被打断",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.028,
+      "reach_note": "OpenAI 品牌强，实时语音和翻译有明确利益点，读者能立刻打开语音场景测试。",
+      "selection_reason": "这是 A 级版本源，适合做公众号和小红书都能传播的实用新功能解读，也能补足当天非开发者选题。",
+      "selected_at": "2026-07-08T23:17:03.707Z",
+      "updated_at": "2026-07-08T23:21:19.193Z",
+      "draft_ready_at": "2026-07-08T23:21:19.193Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-09/OpenAI 新语音模型来了：实时翻译和会议陪练，终于能少被打断",
+      "meta_path": "drafts/2026-07-09/OpenAI 新语音模型来了：实时翻译和会议陪练，终于能少被打断/OpenAI 新语音模型来了：实时翻译和会议陪练，终于能少被打断.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-09/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-09/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-MiniMax-M3-DeepSeek-V4-升级判断",
+      "title": "vLLM 0.24 把 MiniMax-M3 和 DeepSeek-V4 又往前推了一步：部署团队该不该升级",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.069,
+      "reach_note": "vLLM、DeepSeek、MiniMax 都有品牌识别，升级与部署判断是明确可执行动作。",
+      "selection_reason": "A 级 release 细节充足，适合给模型部署读者做取舍判断，并与 Transformers 形成不同层级的技术选题。",
+      "selected_at": "2026-07-08T23:17:03.708Z",
+      "updated_at": "2026-07-08T23:22:43.995Z",
+      "draft_ready_at": "2026-07-08T23:22:43.994Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-09/vLLM 0.24 把 MiniMax-M3 和 DeepSeek-V4 又往前推了一步：部署团队该不该升级",
+      "meta_path": "drafts/2026-07-09/vLLM 0.24 把 MiniMax-M3 和 DeepSeek-V4 又往前推了一步：部署团队该不该升级/vLLM 0.24 把 MiniMax-M3 和 DeepSeek-V4 又往前推了一步：部署团队该不该升级.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-09/github-trending-978e35c6.md",
+      "file": "sources/2026-07-09/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版联网提速后最该试读网页",
+      "title": "Hermes Agent 新版联网提速后，中文读者最该试的不是聊天，而是读网页",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.07,
+      "reach_note": "Hermes/openclaw 生态有本号品牌加成，且网页读取提速和降成本直接对应可操作收益。",
+      "selection_reason": "NousResearch 与 openclaw 生态相关度高，GitHub 主源可作事实入口，X 侧场景能补充读者为什么要关心联网效率。",
+      "selected_at": "2026-07-08T23:17:03.708Z",
+      "updated_at": "2026-07-08T23:25:57.223Z",
+      "draft_ready_at": "2026-07-08T23:25:57.222Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-09/Hermes Agent 新版联网提速后，中文读者最该试的不是聊天，而是读网页",
+      "meta_path": "drafts/2026-07-09/Hermes Agent 新版联网提速后，中文读者最该试的不是聊天，而是读网页/Hermes Agent 新版联网提速后，中文读者最该试的不是聊天，而是读网页.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-09/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-07-09/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code-和-Codex-安全任务反打复盘",
+      "title": "Claude Code 和 Codex 被安全任务反打：用代码 Agent 做审计前要先关哪几扇门",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.03,
+      "reach_note": "Claude Code/Codex 品牌强，风险与发布前安全检查有明确利益点，开发者能马上调整权限配置。",
+      "selection_reason": "同组 AI Now 来源里这篇 exploit brief 最适合作事实主线，能满足当天至少一篇风险复盘，也避免把安全议题写成泛泛政策评论。",
+      "selected_at": "2026-07-08T23:17:03.708Z",
+      "updated_at": "2026-07-08T23:30:32.149Z",
+      "draft_ready_at": "2026-07-08T23:30:32.148Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-09/Claude Code 和 Codex 被安全任务反打：用代码 Agent 做审计前要先关哪几扇门",
+      "meta_path": "drafts/2026-07-09/Claude Code 和 Codex 被安全任务反打：用代码 Agent 做审计前要先关哪几扇门/Claude Code 和 Codex 被安全任务反打：用代码 Agent 做审计前要先关哪几扇门.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-09/transformers-releases-25627478.md",
+      "file": "sources/2026-07-09/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-支持-Kimi-K2-5-到-K2-7",
+      "title": "Transformers v5.13 支持 Kimi K2.5 到 K2.7：本地跑多模态 Agent 前先看这版",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "title_pattern_repeat_in_batch,agent_like_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 126,
+      "recent_similarity": 0.061,
+      "reach_note": "Hugging Face/Transformers 与 Kimi 都有识别度，本地部署和升级验证具备明确可操作性。",
+      "selection_reason": "release 信息量足，包含模型新增和能力方向，适合做一篇可执行的版本上手稿，而不是泛泛模型新闻。",
+      "selected_at": "2026-07-08T23:17:03.708Z",
+      "updated_at": "2026-07-08T23:31:38.191Z",
+      "draft_ready_at": "2026-07-08T23:31:38.190Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-09/Transformers v5.13 支持 Kimi K2.5 到 K2.7：本地跑多模态 Agent 前先看这版",
+      "meta_path": "drafts/2026-07-09/Transformers v5.13 支持 Kimi K2.5 到 K2.7：本地跑多模态 Agent 前先看这版/Transformers v5.13 支持 Kimi K2.5 到 K2.7：本地跑多模态 Agent 前先看这版.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-08T23:17:03.706Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-08T23:17:03.707Z",
+      "topic_count": 6
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-08T23:17:03.707Z",
+      "topic_id": "sources/2026-07-09/x-IndieDevHailey-3971ffa6.md",
+      "slug": "40个Marketing-Skills-替代增长顾问前先做落地页体检"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-08T23:17:03.707Z",
+      "topic_id": "sources/2026-07-09/techcrunch-ai-c1f06809.md",
+      "slug": "OpenAI-新语音模型实时翻译和会议陪练"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-08T23:17:03.708Z",
+      "topic_id": "sources/2026-07-09/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-MiniMax-M3-DeepSeek-V4-升级判断"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-08T23:17:03.708Z",
+      "topic_id": "sources/2026-07-09/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版联网提速后最该试读网页"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-08T23:17:03.708Z",
+      "topic_id": "sources/2026-07-09/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code-和-Codex-安全任务反打复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-08T23:17:03.708Z",
+      "topic_id": "sources/2026-07-09/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-支持-Kimi-K2-5-到-K2-7"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-08T23:18:02.446Z",
+      "topic_id": "sources/2026-07-09/x-IndieDevHailey-3971ffa6.md",
+      "slug": "40个Marketing-Skills-替代增长顾问前先做落地页体检",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-08T23:21:19.193Z",
+      "topic_id": "sources/2026-07-09/techcrunch-ai-c1f06809.md",
+      "slug": "OpenAI-新语音模型实时翻译和会议陪练",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-08T23:22:43.995Z",
+      "topic_id": "sources/2026-07-09/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-MiniMax-M3-DeepSeek-V4-升级判断",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-08T23:25:57.223Z",
+      "topic_id": "sources/2026-07-09/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版联网提速后最该试读网页",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-08T23:28:13.773Z",
+      "topic_id": "sources/2026-07-09/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code-和-Codex-安全任务反打复盘",
+      "error": "generated markdown for Claude Code 和 Codex 被安全任务反打，用代码 Agent 做审计前要先关哪几扇门 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-08T23:30:32.149Z",
+      "topic_id": "sources/2026-07-09/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code-和-Codex-安全任务反打复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-08T23:31:38.191Z",
+      "topic_id": "sources/2026-07-09/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-支持-Kimi-K2-5-到-K2-7",
+      "error": ""
+    }
+  ]
+}
