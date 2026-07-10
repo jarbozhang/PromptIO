@@ -1,0 +1,24 @@
+---
+title: >-
+  Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and
+  Lineage-Grounded Idea Generation
+url: 'https://arxiv.org/abs/2607.08758v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Yifan Zhou
+  - Qihao Yang
+  - Yan Li
+  - Donggang Li
+  - Xiru Hu
+categories:
+  - cs.AI
+  - cs.AI
+published: '2026-07-09T17:55:53Z'
+fetched_at: '2026-07-10T23:02:58.059Z'
+---
+Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say little about whether AI systems can follow this inheritance structure. We present IdeaGene-Bench (IG-Bench), a benchmark for scientific lineage reasoning and lineage-grounded idea generation. IG-Bench is organized around the IdeaGene framework: each paper or proposal is represented as a set of minimal, typed, evidence-grounded Idea Genome objects, and a GenomeDiff aligns these objects to record inheritance, mutation, loss, external import, and novel insertion under six operational evolutionary dynamics. The benchmark contains 1,961 golden lineage traces, 1,085 curated Idea Genome objects, and 920 pairwise GenomeDiff records across 10 scientific domains. It supports two evaluations. IG-Exam (42 task types, 1,029 instances) tests closed-form lineage reasoning across Idea Genome abstraction, inheritance tracing, evolutionary reasoning, and lineage verification. IG-Arena evaluates generation with a lineage-conditioned Population-Evolution Score(PES), asking whether a proposal can be inserted as a coherent descendant of a given lineage population: it should inherit the right Idea Genome objects, vary meaningfully from nearby work, and offer selection value for future research. Experiments on 14 LLM-based scientists expose a compositional bottleneck. The strongest system reaches only 27.3
+
+Authors: Yifan Zhou, Qihao Yang, Yan Li, Donggang Li, Xiru Hu
+Categories: cs.AI, cs.AI

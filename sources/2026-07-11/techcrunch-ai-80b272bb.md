@@ -1,0 +1,11 @@
+---
+title: Apple sues OpenAI over alleged trade secret theft
+url: >-
+  https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/
+source: TechCrunch AI
+source_type: rss
+language: en
+published: '2026-07-10T21:00:29.000Z'
+fetched_at: '2026-07-10T23:00:50.573Z'
+---
+Apple alleges the misconduct was directed by OpenAi's senior leadership, including a long-time former employee.
