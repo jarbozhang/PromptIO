@@ -1,0 +1,20 @@
+---
+title: 'SLORR: Simple and Efficient In-Training Low-Rank Regularization'
+url: 'https://arxiv.org/abs/2607.08754v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - David González-Martínez
+  - Shiwei Liu
+categories:
+  - cs.LG
+  - cs.AI
+  - cs.LG
+published: '2026-07-09T17:51:50Z'
+fetched_at: '2026-07-11T23:02:41.600Z'
+---
+Low-rank factorization is widely used to compress neural networks, but modern models are often not naturally amenable to aggressive factorization without significant accuracy loss. Existing training-time low-rank regularizers can improve compressibility, but they often require SVDs of large weight matrices, modify the model architecture (introducing additional trainable parameters), or rely on stateful cached quantities. To address these limitations, we introduce SLORR, a simple, stateless, and architecture-preserving framework for in-training low-rank regularization, instantiated with two main variants based on the Hoyer sparsity metric and the nuclear norm. SLORR directly regularizes the original weight matrices using GPU-friendly approximations for the forward and backward passes of the regularizers, for which we provide approximation guarantees. We first evaluate SLORR on ImageNet-1K across short-horizon continued training of ResNet-50, ViT-B/16, and ViT-L/16, and pretraining of ResNet-18, where SLORR induces compressibility while introducing less than 8% training overhead. We further evaluate SLORR-Hoyer in LLM pretraining at 135M and 560M scales: SLORR-trained compressed models preserve performance substantially better than unregularized models while adding less than 1% average training overhead.
+
+Authors: David González-Martínez, Shiwei Liu
+Categories: cs.LG, cs.AI, cs.LG
