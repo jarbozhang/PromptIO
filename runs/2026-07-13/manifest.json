@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-13",
+  "created_at": "2026-07-12T23:09:07.940Z",
+  "updated_at": "2026-07-12T23:23:28.210Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-13/x-leerob-9724e0b0.md",
+      "file": "sources/2026-07-13/x-leerob-9724e0b0.md",
+      "slug": "AI写作不该替你思考",
+      "title": "AI 写不出真正的好文章？问题可能不是提示词，而是你让它负责了思考",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.054,
+      "reach_note": "提升文章质量是明确利益，读者可以立即调整 AI 在写作流程中的职责。",
+      "selection_reason": "它提供了区别于工具教程的反常识判断，能回应创作者的普遍挫败感，并转化成可实际采用的人机写作分工。",
+      "selected_at": "2026-07-12T23:09:07.942Z",
+      "updated_at": "2026-07-12T23:10:29.445Z",
+      "draft_ready_at": "2026-07-12T23:10:29.443Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-13/AI 写不出真正的好文章？问题可能不是提示词，而是你让它负责了思考",
+      "meta_path": "drafts/2026-07-13/AI 写不出真正的好文章？问题可能不是提示词，而是你让它负责了思考/AI 写不出真正的好文章？问题可能不是提示词，而是你让它负责了思考.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-13/x-shao__meng-e906d885.md",
+      "file": "sources/2026-07-13/x-shao__meng-e906d885.md",
+      "slug": "13个常用动效名词",
+      "title": "别再用一大段话描述动画：记住这 13 个动效名词就够了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "reference_card",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.065,
+      "reach_note": "减少沟通返工是明确利益，13 个可直接复用的术语让读者看完就能应用。",
+      "selection_reason": "内容具体且适合图文展示，能服务设计、视频和产品创作者，也能平衡当天偏开发者的选题结构。",
+      "selected_at": "2026-07-12T23:09:07.942Z",
+      "updated_at": "2026-07-12T23:11:44.104Z",
+      "draft_ready_at": "2026-07-12T23:11:44.103Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-13/别再用一大段话描述动画：记住这 13 个动效名词就够了",
+      "meta_path": "drafts/2026-07-13/别再用一大段话描述动画：记住这 13 个动效名词就够了/别再用一大段话描述动画：记住这 13 个动效名词就够了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-13/anthropic-python-sdk-releases-1e2931c2.md",
+      "file": "sources/2026-07-13/anthropic-python-sdk-releases-1e2931c2.md",
+      "slug": "Anthropic-SDK网页抓取与异步修复",
+      "title": "Anthropic Python SDK 新增网页抓取：升级前先修掉这个异步计数坑",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.034,
+      "reach_note": "Anthropic 品牌明确，网页抓取是直接利益点，Python 用户可以立即升级并验证异步调用。",
+      "selection_reason": "版本同时包含新能力和明确缺陷修复，比单纯发布新闻更有操作价值，适合做成紧凑的升级简报。",
+      "selected_at": "2026-07-12T23:09:07.942Z",
+      "updated_at": "2026-07-12T23:13:06.192Z",
+      "draft_ready_at": "2026-07-12T23:13:06.192Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-13/Anthropic Python SDK 新增网页抓取：升级前先修掉这个异步计数坑",
+      "meta_path": "drafts/2026-07-13/Anthropic Python SDK 新增网页抓取：升级前先修掉这个异步计数坑/Anthropic Python SDK 新增网页抓取：升级前先修掉这个异步计数坑.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-13/transformers-releases-25627478.md",
+      "file": "sources/2026-07-13/transformers-releases-25627478.md",
+      "slug": "Kimi-K2.7进入Transformers-5.13",
+      "title": "Kimi K2.7 进入 Transformers 5.13：本地运行前先看这次架构更新",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.057,
+      "reach_note": "Kimi 与 Hugging Face 具备品牌认知，本地运行利益明确，开发者升级后即可动手验证。",
+      "selection_reason": "官方 release 信息充足，既有明确版本变化，也能延伸出本地部署和兼容性实测，适合中文读者立即尝试。",
+      "selected_at": "2026-07-12T23:09:07.943Z",
+      "updated_at": "2026-07-12T23:15:40.983Z",
+      "draft_ready_at": "2026-07-12T23:15:40.983Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-13/Kimi K2.7 进入 Transformers 5.13，本地运行前先看这次架构更新",
+      "meta_path": "drafts/2026-07-13/Kimi K2.7 进入 Transformers 5.13，本地运行前先看这次架构更新/Kimi K2.7 进入 Transformers 5.13，本地运行前先看这次架构更新.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-13/x-dotey-05c5d447.md",
+      "file": "sources/2026-07-13/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Work-Codex选择指南",
+      "title": "ChatGPT、Work、Codex 到底怎么选？按交付物而不是功能名做决定",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 60,
+      "recent_similarity": 0.053,
+      "reach_note": "ChatGPT 和 Codex 品牌认知高，减少选错工具和浪费额度是直接利益，读者可马上套用选择框架。",
+      "selection_reason": "用户对新产品线的混淆已经形成真实决策问题，材料包含清晰场景，并可由 OpenAI 的产品说明补强事实。",
+      "selected_at": "2026-07-12T23:09:07.943Z",
+      "updated_at": "2026-07-12T23:16:49.013Z",
+      "draft_ready_at": "2026-07-12T23:16:49.012Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-13/ChatGPT、Work、Codex 到底怎么选？按交付物而不是功能名做决定",
+      "meta_path": "drafts/2026-07-13/ChatGPT、Work、Codex 到底怎么选？按交付物而不是功能名做决定/ChatGPT、Work、Codex 到底怎么选？按交付物而不是功能名做决定.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-13/github-trending-978e35c6.md",
+      "file": "sources/2026-07-13/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版上手路线",
+      "title": "Hermes Agent 刚更新：把“越用越懂你”落到本地的上手路线",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 118,
+      "recent_similarity": 0.053,
+      "reach_note": "NousResearch 生态有品牌加成，“本地上手”和长期个性化同时提供明确利益点与行动入口。",
+      "selection_reason": "这是当天最契合 PromptIO 定位的生态更新，既能追踪 Hermes 新变化，也能给出从 README、安装到首次任务的可验证使用路线。",
+      "selected_at": "2026-07-12T23:09:07.944Z",
+      "updated_at": "2026-07-12T23:21:58.852Z",
+      "draft_ready_at": "2026-07-12T23:21:58.851Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-13/Hermes Agent 刚更新：把“越用越懂你”落到本地的上手路线",
+      "meta_path": "drafts/2026-07-13/Hermes Agent 刚更新：把“越用越懂你”落到本地的上手路线/Hermes Agent 刚更新：把“越用越懂你”落到本地的上手路线.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-13/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-07-13/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex远程执行风险复盘",
+      "title": "让 Claude Code 和 Codex 审陌生仓库前，先防住这条远程执行链",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.05,
+      "reach_note": "Claude Code、Codex 都是高认知品牌，风险后果具体，读者可立即收紧权限和隔离审查环境。",
+      "selection_reason": "同一研究有技术简报、政策简报和汇总材料互相印证，事实厚度足，且能转化为开发者马上可执行的安全动作。",
+      "selected_at": "2026-07-12T23:09:07.944Z",
+      "updated_at": "2026-07-12T23:23:28.210Z",
+      "draft_ready_at": "2026-07-12T23:23:28.210Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-13/让 Claude Code 和 Codex 审陌生仓库前，先防住这条远程执行链",
+      "meta_path": "drafts/2026-07-13/让 Claude Code 和 Codex 审陌生仓库前，先防住这条远程执行链/让 Claude Code 和 Codex 审陌生仓库前，先防住这条远程执行链.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-12T23:09:07.940Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-12T23:09:07.942Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-12T23:09:07.942Z",
+      "topic_id": "sources/2026-07-13/x-leerob-9724e0b0.md",
+      "slug": "AI写作不该替你思考"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-12T23:09:07.942Z",
+      "topic_id": "sources/2026-07-13/x-shao__meng-e906d885.md",
+      "slug": "13个常用动效名词"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-12T23:09:07.942Z",
+      "topic_id": "sources/2026-07-13/anthropic-python-sdk-releases-1e2931c2.md",
+      "slug": "Anthropic-SDK网页抓取与异步修复"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-12T23:09:07.943Z",
+      "topic_id": "sources/2026-07-13/transformers-releases-25627478.md",
+      "slug": "Kimi-K2.7进入Transformers-5.13"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-12T23:09:07.943Z",
+      "topic_id": "sources/2026-07-13/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Work-Codex选择指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-12T23:09:07.944Z",
+      "topic_id": "sources/2026-07-13/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版上手路线"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-12T23:09:07.944Z",
+      "topic_id": "sources/2026-07-13/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex远程执行风险复盘"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-12T23:10:29.445Z",
+      "topic_id": "sources/2026-07-13/x-leerob-9724e0b0.md",
+      "slug": "AI写作不该替你思考",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-12T23:11:44.104Z",
+      "topic_id": "sources/2026-07-13/x-shao__meng-e906d885.md",
+      "slug": "13个常用动效名词",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-12T23:13:06.192Z",
+      "topic_id": "sources/2026-07-13/anthropic-python-sdk-releases-1e2931c2.md",
+      "slug": "Anthropic-SDK网页抓取与异步修复",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-12T23:15:40.983Z",
+      "topic_id": "sources/2026-07-13/transformers-releases-25627478.md",
+      "slug": "Kimi-K2.7进入Transformers-5.13",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-12T23:16:49.013Z",
+      "topic_id": "sources/2026-07-13/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Work-Codex选择指南",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-12T23:18:07.663Z",
+      "topic_id": "sources/2026-07-13/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版上手路线",
+      "error": "generated markdown for Hermes Agent 刚更新：把“越用越懂你”落到本地的上手路线 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-12T23:21:58.852Z",
+      "topic_id": "sources/2026-07-13/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版上手路线",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-12T23:23:28.210Z",
+      "topic_id": "sources/2026-07-13/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex远程执行风险复盘",
+      "error": ""
+    }
+  ]
+}
