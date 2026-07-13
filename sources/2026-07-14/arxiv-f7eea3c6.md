@@ -1,0 +1,24 @@
+---
+title: Scalable Visual Pretraining for Language Intelligence
+url: 'https://arxiv.org/abs/2607.09657v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Yiming Zhang
+  - Zhonghan Zhao
+  - Wenwei Zhang
+  - Haiteng Zhao
+  - Tianyang Lin
+categories:
+  - cs.CV
+  - cs.AI
+  - cs.MM
+  - cs.CV
+published: '2026-07-10T17:57:03Z'
+fetched_at: '2026-07-13T23:03:29.897Z'
+---
+The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or completely captured by text alone. Yet current pretraining approaches discard these visual cues by converting visually rich sources, such as documents and web pages, into plain text for learning language intelligence. This paper challenges the default assumption that language models must be trained on text-only representations and shows that Visual Pretraining is a scalable learner for foundation model intelligence. To this end, we conduct a systematic study of unsupervised visual pretraining paradigms that directly leverage visual documents without text extraction. Across multiple backbones and benchmarks, visual pretraining on the same underlying corpora consistently outperforms text-only pretraining, offering an efficient pathway to scalable language intelligence.
+
+Authors: Yiming Zhang, Zhonghan Zhao, Wenwei Zhang, Haiteng Zhao, Tianyang Lin
+Categories: cs.CV, cs.AI, cs.MM, cs.CV
