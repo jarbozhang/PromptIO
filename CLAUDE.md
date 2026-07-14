@@ -8,6 +8,7 @@
 
 - **pipeline.js** — RSS/GitHub/arXiv 采集脚本 (fetch-only)
 - **fetch-x.js** — X 账号推文补采集（bird CLI + `config/sources.yaml` 的 `x_accounts`）
+- **fetch-sopilot.js** — 优先读取 SoPilot 中文 AI 热帖，逐条补充 X 原帖详情和高信息量评论
 - **Claude Code 会话** — 评分、生成、gates 全部直接完成
 - **Git 作为内容数据库** — 每篇内容是 markdown 文件，frontmatter 管理状态
 - **状态机** — draft → approved → published (或 rejected / publish_failed)
@@ -26,13 +27,14 @@
 1. npm run pipeline              # RSS/GitHub/arXiv 采集
 2. npm run fetch:x -- --date YYYY-MM-DD  # 按 config/sources.yaml 中 x_accounts 补 X 角度源
    默认过滤：近14天 + likes>=50 + 非回复/转推 + 不含 Reddit/HN/OpenRouter
-3. npm run draft:daily -- --date YYYY-MM-DD  # 先做 source 分层/配额，再选题生成
+3. npm run fetch:sopilot -- --date YYYY-MM-DD  # 重点巡检 SoPilot 热帖，并逐条读取原帖详情和评论
+4. npm run draft:daily -- --date YYYY-MM-DD  # 先做 source 分层/配额，再选题生成
    输入门：Reddit/HN/OpenRouter 不进入公开生成链路；GitHub 正常使用
    质量层：A 可直接选题，B 需补官方证据，C 只作背景，D 丢弃
    来源角色：fact/version 作事实主源，angle 只提供场景，evidence/adoption/background 辅助判断
    选题去重：同一实体/同一产品线默认只保留一篇，版本更新和仓库入口能合并就合并
-4. 生成完成后逐篇看质量：标题是否有中文收益点，正文是否有扫读层级，是否泄漏内部规则，是否同批文章复用句式
-5. commit
+5. 生成完成后逐篇看质量：标题是否有中文收益点，正文是否有扫读层级，是否泄漏内部规则，是否同批文章复用句式
+6. commit
 ```
 
 ## 命令
@@ -40,6 +42,7 @@
 ```bash
 npm run pipeline    # RSS/GitHub/arXiv 采集（不含 X 抓取、评分、生成）
 npm run fetch:x     # X 账号补采集：默认近14天、likes>=50、最多250条
+npm run fetch:sopilot # SoPilot 中文 AI 热帖 + 原帖详情 + 评论补采集
 npm run draft:daily # 每日选题和文章生成
 npm run publish     # 发布 approved 状态的文章到公众号
 npm run setup       # 初始化配置

@@ -759,6 +759,7 @@ function sourceBucket(item) {
   const haystack = sourceHaystack(item);
   const sourceLine = `${item.file} ${item.source} ${item.sourceType} ${item.url}`;
   if (/github.*releases|-releases-|releases\/tag|github release|release rss|releases?$/i.test(sourceLine)) return 'release';
+  if (/sopilot-hot|sopilot hot tweets|sopilot-hot-tweet/i.test(sourceLine)) return 'sopilot-hot';
   if (/x-home-|home timeline/i.test(sourceLine)) return 'x-home';
   if (/^x @/i.test(item.source || '') || /^x-[^-]+-/i.test(path.basename(item.file || ''))) return 'x-account';
   if (/github-trending|source_type:\s*github|github\.com/i.test(sourceLine)) return 'github-repo';
@@ -776,6 +777,7 @@ function sourceRole(bucket) {
       return 'version';
     case 'x-account':
     case 'x-home':
+    case 'sopilot-hot':
       return 'angle';
     case 'research':
       return 'evidence';
@@ -798,6 +800,7 @@ function sourceFamily(item) {
   if (bucket === 'release') return `release:${githubRepo || basename}`;
   if (bucket === 'x-account') return `x-account:${xHandle || basename.replace(/-[a-f0-9]+$/i, '')}`;
   if (bucket === 'x-home') return `x-home:${basename.replace(/^x-home-/, '').replace(/-[a-f0-9]+$/i, '')}`;
+  if (bucket === 'sopilot-hot') return `sopilot-hot:${String(item.url || basename).match(/status\/(\d+)/)?.[1] || basename}`;
   if (bucket === 'rss') return `rss:${String(item.source || basename).toLowerCase()}`;
   if (bucket === 'research') return `research:${String(item.source || 'arxiv').toLowerCase()}`;
   if (bucket === 'product-discovery') return `product:${String(item.source || basename).toLowerCase()}`;
@@ -815,6 +818,8 @@ function sourceFamilyLimit(item) {
       return 4;
     case 'x-home':
       return 3;
+    case 'sopilot-hot':
+      return 8;
     case 'rss':
       return 5;
     case 'research':
@@ -840,6 +845,7 @@ function sourceQualityScore(item, { bucket, textLength, haystack, risks }) {
   if (bucket === 'release') score += 20;
   if (bucket === 'research') score += 14;
   if (bucket === 'x-account') score += 12;
+  if (bucket === 'sopilot-hot') score += 16;
   if (bucket === 'x-home') score -= 4;
   if (bucket === 'product-discovery') score -= 12;
 
@@ -856,14 +862,14 @@ function isDirectTopicSource({ item, bucket, textLength, haystack, qualityScore 
   if (qualityScore >= 70 && textLength >= 80) return true;
   if (bucket === 'github-repo' && (stars >= 1000 || /openclaw|hermes|nousresearch|dify|transformers|vllm/i.test(haystack))) return true;
   if (bucket === 'release' && /openclaw|hermes|nousresearch|transformers|vllm|langchain|openai|anthropic/i.test(haystack) && textLength >= 120) return true;
-  if (bucket === 'x-account' && textLength >= 320 && /workflow|agent|codex|github|diff|review|mcp|rag|工作流|验证|交付|开源/i.test(haystack)) return true;
+  if (['x-account', 'sopilot-hot'].includes(bucket) && textLength >= 320 && /workflow|agent|codex|github|diff|review|mcp|rag|工作流|验证|交付|开源/i.test(haystack)) return true;
   if (bucket === 'ecosystem-data' && textLength >= 80) return true;
   return false;
 }
 
 function isEvidenceSource({ bucket, textLength, haystack, qualityScore }) {
   if (qualityScore >= 35 && textLength >= 80) return true;
-  if (['release', 'research', 'x-account', 'github-repo'].includes(bucket) && textLength >= 80) return true;
+  if (['release', 'research', 'x-account', 'sopilot-hot', 'github-repo'].includes(bucket) && textLength >= 80) return true;
   if (bucket === 'product-discovery' && textLength >= 40) return true;
   if (/official|blog|release|paper|github|文档|官方/.test(haystack) && textLength >= 120) return true;
   return false;
@@ -873,6 +879,7 @@ function roundRobinByBucket(items) {
   const order = [
     'github-repo',
     'release',
+    'sopilot-hot',
     'x-account',
     'research',
     'ecosystem-data',
@@ -969,7 +976,7 @@ export function buildSelectionPrompt({ date, count, min, max, sources }) {
     '- 优先中文读者能立刻动手的东西，尤其是工具、模型、API、省钱、开发者工作流、开源生态、openclaw/NousResearch 生态。',
     '- openclaw 或 Hermes 相关题目必须从新版本切入，覆盖解决的问题、新增能力、启发和怎么开始使用。',
     '- 使用 source 的 quality_tier 和 source_role：A 可直接选题；B 只能作为需要补官方证据的候选；C 只作背景，除非没有更强素材不要选。',
-    '- source_role=fact/version 的 GitHub、release、官方文档可作事实主源；source_role=angle 的 X 内容只能提供场景和问题意识，不能替代官方事实；source_role=evidence/adoption/background 只能辅助判断。',
+    '- source_role=fact/version 的 GitHub、release、官方文档可作事实主源；source_role=angle 的 X/SoPilot 热帖及评论只能提供场景、热度和问题意识，不能替代官方事实；source_role=evidence/adoption/background 只能辅助判断。',
     '- 最终候选不要被单一来源类型占满，优先组合 fact、version、angle、evidence、adoption，让同一天文章既有项目、版本变化、方法论，也有使用场景。',
     '- 最终候选也不要被单一内容版型占满。每天优先覆盖 4 种以上 content_lane，至少 4 种 content_archetype；工具配方/检查清单最多 3 篇。',
     '- 同一天标题或主角里 Agent/Codex/MCP/Skill/工作流/助手 相关最多 3 篇；开发者工具/部署/模型类最多占 count-2 篇，至少留 2 篇给创作者、产品商业、风险复盘、趋势观点或普通用户场景。',

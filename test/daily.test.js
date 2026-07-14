@@ -105,7 +105,7 @@ describe('daily.js topic selection', () => {
     assert.ok(prompt.includes('quality_tier:'));
     assert.ok(prompt.includes('source_role:'));
     assert.ok(prompt.includes('A 可直接选题'));
-    assert.ok(prompt.includes('X 内容只能提供场景和问题意识'));
+    assert.ok(prompt.includes('X/SoPilot 热帖及评论只能提供场景、热度和问题意识'));
     assert.ok(!prompt.includes('正文必须标注信息边界'));
     assert.ok(prompt.includes('sources/2026-05-27/b.md'));
   });
@@ -149,6 +149,18 @@ describe('daily.js topic selection', () => {
     assert.equal(xAccount.sourceBucket, 'x-account');
     assert.equal(xAccount.sourceRole, 'angle');
     assert.equal(xAccount.qualityTier, 'A');
+
+    const sopilot = classifySource({
+      file: 'sources/2026-05-27/sopilot-hot-123-abc.md',
+      title: '中文 AI 热帖与评论',
+      source: 'SoPilot Hot Tweets / X @tester',
+      sourceType: 'sopilot-hot-tweet',
+      url: 'https://x.com/tester/status/123',
+      text: '原帖详情与评论对话提供中文用户的真实问题、实测反馈、工作流和验证线索。'.repeat(8),
+    });
+    assert.equal(sopilot.sourceBucket, 'sopilot-hot');
+    assert.equal(sopilot.sourceRole, 'angle');
+    assert.notEqual(sopilot.qualityTier, 'D');
   });
 
   it('selectSourceSummariesForPrompt: keeps source diversity before truncation', () => {
