@@ -1,0 +1,24 @@
+---
+title: >-
+  Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and
+  Execution
+url: 'https://arxiv.org/abs/2607.13034v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Junjie Yin
+  - Xinyu Feng
+categories:
+  - cs.AI
+  - cs.CL
+  - cs.SE
+  - eess.SY
+  - cs.AI
+published: '2026-07-14T17:59:31Z'
+fetched_at: '2026-07-15T23:03:05.474Z'
+---
+Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edit into a small code-base audit. We argue the missing capability is task-aware execution-scope estimation: judging a task's difficulty, the information it truly needs, and the shortest reliable path before committing budget. We formalize minimum-sufficient execution and the Agent Cognitive Redundancy Ratio (ACRR), and propose E3 (Estimate, Execute, Expand): the agent estimates an initial operating point, executes a minimum viable path, and expands scope only when verification fails. On MSE-Bench--a deterministic benchmark of 121 edits in a capability-controlled simulator--E3 matches the strongest baseline's 100% success while cutting cost by 85%, tokens by 91%, and inspected files by 92%, and further beats a strong adaptive retrieval baseline by 16%; the gains survive held-out instruction wording and essentially every cost weighting. A companion real-model harness (LLM-Case) corroborates the effect on a live gpt-4o agent editing a real open-source library, with every candidate patch graded by actually running the project's real pytest suite against a measured oracle: the over-reading is milder but real, and E3 is the leanest and fastest policy at comparable task success--its one sho
+
+Authors: Junjie Yin, Xinyu Feng
+Categories: cs.AI, cs.CL, cs.SE, eess.SY, cs.AI

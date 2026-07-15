@@ -1,0 +1,24 @@
+---
+title: >-
+  Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language
+  Model
+url: 'https://arxiv.org/abs/2607.13013v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Harsha Vardhan Khurdula
+  - Abhinav Kumar Singh
+  - Yoeven D Khemlani
+  - Vineet Agarwal
+categories:
+  - cs.AI
+  - cs.SD
+  - cs.AI
+published: '2026-07-14T17:53:22Z'
+fetched_at: '2026-07-15T23:03:05.476Z'
+---
+Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole transcript in parallel over a small number of denoising steps. We train an audio-native interface for DiffusionGemma, a 26B mixture-of-experts model that generates text by uniform, random-token discrete diffusion rather than the absorbing-mask scheme common to recent diffusion language models. A frozen Whisper encoder supplies acoustic features, a lightweight projector maps them into the model embedding space, and low-rank adapters let the frozen backbone attend to the new modality. About 42M parameters are trained, which is 0.16 percent of the backbone. We find that the natural training objectives fail to ground the audio because their gradient reaches the projector only through attention that has already dismissed it. A connectionist temporal classification loss applied through the frozen output head breaks this deadlock. The resulting model reaches 6.6 percent word error rate on LibriSpeech test-clean, transcribes in roughly eight parallel steps regardless of utterance length, and uses a single adapter trained on six languages, which we evaluate here on English, Hindi, and Mandarin.
+
+Authors: Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Khemlani, Vineet Agarwal
+Categories: cs.AI, cs.SD, cs.AI

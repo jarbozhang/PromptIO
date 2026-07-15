@@ -45,6 +45,7 @@ npm run fetch:x     # X 账号补采集：默认近14天、likes>=50、最多250
 npm run fetch:sopilot # SoPilot 中文 AI 热帖 + 原帖详情 + 评论补采集
 npm run draft:daily # 每日选题和文章生成
 npm run publish     # 发布 approved 状态的文章到公众号
+npm run publish:wechat-browser -- <draft-dir> # 生成安全的公众号浏览器预览；加 --submit 才保存到草稿箱
 npm run setup       # 初始化配置
 npm test            # 运行测试
 ```
