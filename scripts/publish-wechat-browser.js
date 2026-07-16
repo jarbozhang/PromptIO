@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import net from 'node:net';
-import { spawn } from 'node:child_process';
+import { spawn, execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import matter from 'gray-matter';
 
@@ -34,6 +34,37 @@ function required(args, flag) {
   return value;
 }
 
+export function resolveWechatMediaAssets(draftDir, meta) {
+  const cover = meta.wechat_cover || meta.cover;
+  const coverRel = typeof cover === 'string' ? cover : cover?.path;
+  const coverStatus = typeof cover === 'object' ? cover?.status : '';
+  if (!coverRel || (coverStatus && !['ready', 'generated', 'approved'].includes(String(coverStatus)))) {
+    throw new Error('publish gate blocked: dedicated WeChat cover must be ready and have a path');
+  }
+  const coverPath = path.resolve(draftDir, coverRel);
+  if (!inside(draftDir, coverPath) || !fs.existsSync(coverPath)) throw new Error('publish gate blocked: cover file missing or outside draft');
+  const bodyImages = (Array.isArray(meta.body_images) ? meta.body_images : []).map((item, index) => {
+    const rel = typeof item === 'string' ? item : item?.path;
+    if (!rel) throw new Error(`publish gate blocked: body image ${index + 1} has no path`);
+    const resolved = path.resolve(draftDir, rel);
+    if (!inside(draftDir, resolved) || !fs.existsSync(resolved)) throw new Error(`publish gate blocked: body image ${index + 1} missing or outside draft`);
+    if (resolved === coverPath) throw new Error('publish gate blocked: WeChat cover and body images must be separate assets');
+    return { ...(typeof item === 'object' ? item : {}), path: resolved };
+  });
+  return { coverPath, bodyImages };
+}
+
+export function verifyWechatBodyImages(expected, remote) {
+  const configured = Array.isArray(expected) ? expected : [];
+  const actual = Array.isArray(remote) ? remote : [];
+  const valid = actual.filter(item => /^https:\/\/(?:[^/]+\.)?qpic\.cn\//.test(String(item.src || '')) && Number(item.width) > 0 && Number(item.height) > 0);
+  const matched = configured.every(item => valid.some(remoteItem => String(remoteItem.previousHeading || '').trim() === String(item.after_heading || '').trim()));
+  if (valid.length !== configured.length || !matched) {
+    throw new Error(`WeChat body image verification failed: expected ${configured.length}, found ${valid.length}`);
+  }
+  return { verified: true, count: valid.length };
+}
+
 export function inspectDraftForBrowserPublish(ref) {
   const draftDir = resolveDraftDir(ref);
   const markdownPath = findMarkdown(draftDir);
@@ -43,18 +74,12 @@ export function inspectDraftForBrowserPublish(ref) {
   if (!['primary', 'compliant'].includes(String(meta.platforms?.wechat || ''))) {
     throw new Error('publish gate blocked: platforms.wechat must be primary or compliant');
   }
-  const coverRel = typeof meta.cover === 'string' ? meta.cover : meta.cover?.path;
-  const coverStatus = typeof meta.cover === 'object' ? meta.cover?.status : '';
-  if (!coverRel || (coverStatus && !['ready', 'generated', 'approved'].includes(String(coverStatus)))) {
-    throw new Error('publish gate blocked: cover must be ready and have a path');
-  }
-  const coverPath = path.resolve(draftDir, coverRel);
-  if (!inside(draftDir, coverPath) || !fs.existsSync(coverPath)) throw new Error('publish gate blocked: cover file missing or outside draft');
+  const { coverPath, bodyImages } = resolveWechatMediaAssets(draftDir, meta);
   const title = String(meta.wechat_title || meta.title || '').trim();
   if (!title) throw new Error('publish gate blocked: title is required');
   if (Array.from(title).length > 64) throw new Error('publish gate blocked: title exceeds 64 characters');
   const summary = String(meta.description || meta.summary || firstParagraph(parsed.content)).trim().slice(0, 120);
-  return { draftDir, markdownPath, markdown: parsed.content.trim(), meta, title, summary, author: String(meta.author || 'PromptIO'), coverPath };
+  return { draftDir, markdownPath, markdown: parsed.content.trim(), meta, title, summary, author: String(meta.author || 'PromptIO'), coverPath, bodyImages };
 }
 
 function resolveDraftDir(ref) {
@@ -165,14 +190,37 @@ async function waitUntil(fn, timeout, message) {
   throw new Error(message);
 }
 
+export function findRunningChromeCdp(processes, profile) {
+  const normalized = path.resolve(profile);
+  for (const line of String(processes || '').split(/\r?\n/)) {
+    if (!line.includes('Google Chrome') || !line.includes(`--user-data-dir=${normalized}`)) continue;
+    const match = line.match(/--remote-debugging-port=(\d+)/);
+    if (match) return { port: Number(match[1]) };
+  }
+  return null;
+}
+
+function runningChromeCdp(profile) {
+  try {
+    return findRunningChromeCdp(execFileSync('pgrep', ['-fal', 'Google Chrome'], { encoding: 'utf8' }), profile);
+  } catch {
+    return null;
+  }
+}
+
 async function launchWechat(profile) {
   if (!fs.existsSync(CHROME)) throw new Error(`Chrome not found: ${CHROME}`);
   fs.mkdirSync(profile, { recursive: true });
+  const running = runningChromeCdp(profile);
+  if (running) {
+    const version = await waitJson(`http://127.0.0.1:${running.port}/json/version`, 5000);
+    return { cdp: await Cdp.connect(version.webSocketDebuggerUrl), chrome: null, reused: true };
+  }
   const port = await freePort();
   const chrome = spawn(CHROME, [`--remote-debugging-port=${port}`, `--user-data-dir=${profile}`, '--start-maximized', WECHAT_ORIGIN], { stdio: 'ignore' });
   chrome.unref();
   const version = await waitJson(`http://127.0.0.1:${port}/json/version`);
-  return { cdp: await Cdp.connect(version.webSocketDebuggerUrl), chrome };
+  return { cdp: await Cdp.connect(version.webSocketDebuggerUrl), chrome, reused: false };
 }
 
 async function attachWechat(cdp) {
@@ -185,18 +233,52 @@ async function attachWechat(cdp) {
   return { targetId: page.targetId, sessionId: attached.sessionId };
 }
 
+export function isWechatLoggedInSnapshot({ href, body = '' }) {
+  const url = new URL(String(href));
+  return url.origin === WECHAT_ORIGIN && url.pathname.startsWith('/cgi-bin/') && Boolean(url.searchParams.get('token')) && !String(body).includes('请重新登录');
+}
+
+export function buildWechatHomeUrl(href) {
+  const url = new URL(String(href));
+  const token = url.searchParams.get('token');
+  if (url.origin !== WECHAT_ORIGIN || !token) throw new Error('WeChat session has no active token');
+  return `${WECHAT_ORIGIN}/cgi-bin/home?t=home/index&lang=zh_CN&token=${encodeURIComponent(token)}`;
+}
+
+export function buildWechatEditorUrl(href) {
+  const url = new URL(String(href));
+  const token = url.searchParams.get('token');
+  if (url.origin !== WECHAT_ORIGIN || !token) throw new Error('WeChat session has no active token');
+  return `${WECHAT_ORIGIN}/cgi-bin/appmsg?t=media/appmsg_edit_v2&action=edit&isNew=1&type=77&createType=0&token=${encodeURIComponent(token)}&lang=zh_CN`;
+}
+
+export function hasWechatCover({ backgroundImage = '', emptyLabelDisplay = '' }) {
+  return /url\(["']?https:\/\/[^)]+/.test(String(backgroundImage)) && String(backgroundImage) !== 'none';
+}
+
+export function findNewWechatEditorTarget(targetInfos, initialTargets) {
+  return targetInfos.find(target => {
+    if (target.type !== 'page' || !target.url.includes('mp.weixin.qq.com/cgi-bin/appmsg')) return false;
+    const oldUrl = initialTargets.get(target.targetId);
+    return oldUrl !== target.url;
+  });
+}
+
 async function saveBrowserDraft(draft, htmlPath, profile) {
   const { cdp } = await launchWechat(profile);
   try {
     let session = await attachWechat(cdp);
     console.log('[wechat] 请在打开的独立 Chrome 中扫码登录公众号（等待 3 分钟）…');
-    await waitUntil(async () => String(await evaluate(cdp, session.sessionId, 'location.href')).includes('/cgi-bin/'), 180000, 'WeChat login timeout');
-    await evaluate(cdp, session.sessionId, `location.href=${JSON.stringify(`${WECHAT_ORIGIN}/cgi-bin/home?t=home/index`)}`);
+    const loggedInHref = await waitUntil(async () => {
+      const snapshot = await evaluate(cdp, session.sessionId, `({href:location.href,body:(document.body?.innerText||'').slice(0,200)})`);
+      return isWechatLoggedInSnapshot(snapshot) ? snapshot.href : '';
+    }, 180000, 'WeChat login timeout');
+    const homeUrl = buildWechatHomeUrl(loggedInHref);
+    if (loggedInHref !== homeUrl) await evaluate(cdp, session.sessionId, `location.href=${JSON.stringify(homeUrl)}`);
     await waitUntil(() => evaluate(cdp, session.sessionId, `!!document.querySelector('.new-creation__menu')`), 40000, 'WeChat home menu did not load');
-    const initial = new Set((await cdp.send('Target.getTargets')).targetInfos.map(t => t.targetId));
-    const clicked = await evaluate(cdp, session.sessionId, `(function(){for(const el of document.querySelectorAll('.new-creation__menu-item')){if((el.innerText||'').trim().includes('文章')){el.click();return true}}return false})()`);
-    if (!clicked) throw new Error('WeChat article menu not found');
-    const targetId = await waitUntil(async () => (await cdp.send('Target.getTargets')).targetInfos.find(t => t.type === 'page' && !initial.has(t.targetId) && t.url.includes('mp.weixin.qq.com'))?.targetId, 30000, 'WeChat editor tab did not open');
+    const editorUrl = buildWechatEditorUrl(loggedInHref);
+    const made = await cdp.send('Target.createTarget', { url: editorUrl });
+    const targetId = made.targetId;
     const attached = await cdp.send('Target.attachToTarget', { targetId, flatten: true }); session = { targetId, sessionId: attached.sessionId };
     await cdp.send('Runtime.enable', {}, session.sessionId);
     await waitUntil(() => evaluate(cdp, session.sessionId, `!!document.querySelector('#title')&&!!document.querySelector('.rich_media_content .ProseMirror')`), 30000, 'WeChat editor did not load');
@@ -204,19 +286,48 @@ async function saveBrowserDraft(draft, htmlPath, profile) {
     const payload = { title: draft.title, author: draft.author, summary: draft.summary, html };
     const inserted = await evaluate(cdp, session.sessionId, `(function(p){const set=(sel,v)=>{const e=document.querySelector(sel);if(!e)return false;e.focus();e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));return true};set('#title',p.title);set('#author',p.author);set('#js_description',p.summary);const editor=document.querySelector('.rich_media_content .ProseMirror');const doc=new DOMParser().parseFromString(p.html,'text/html');const output=doc.querySelector('#output');editor.focus();editor.innerHTML=output?output.innerHTML:doc.body.innerHTML;editor.dispatchEvent(new InputEvent('input',{bubbles:true,inputType:'insertHTML'}));return {title:document.querySelector('#title')?.value||'',text:(editor.innerText||'').trim().length}})(${JSON.stringify(payload)})`);
     if (inserted.title !== draft.title || inserted.text < 20) throw new Error(`editor verification failed: ${JSON.stringify(inserted)}`);
-    const coverInput = await cdp.send('DOM.getDocument', { depth: -1, pierce: true }, session.sessionId).then(doc => cdp.send('DOM.querySelector', { nodeId: doc.root.nodeId, selector: 'input[type=file][accept*=image]' }, session.sessionId));
-    if (!coverInput.nodeId) throw new Error('WeChat cover upload input not found');
+    if (draft.bodyImages.length) {
+      const bodyDoc = await cdp.send('DOM.getDocument', { depth: -1, pierce: true }, session.sessionId);
+      const bodyInput = await cdp.send('DOM.querySelector', { nodeId: bodyDoc.root.nodeId, selector: 'input[type=file][name=file]' }, session.sessionId);
+      if (!bodyInput.nodeId) throw new Error('WeChat body image upload input not found');
+      for (const [index, image] of draft.bodyImages.entries()) {
+        const positioned = await evaluate(cdp, session.sessionId, `(function(heading){const editor=document.querySelector('.rich_media_content .ProseMirror');const target=[...editor.querySelectorAll('h2')].find(e=>(e.innerText||'').trim()===heading);if(!target)return null;const range=document.createRange(),selection=getSelection();range.setStartAfter(target);range.collapse(true);selection.removeAllRanges();selection.addRange(range);editor.focus();return [...editor.querySelectorAll('img[src]')].length})(${JSON.stringify(image.after_heading || '')})`);
+        if (positioned === null) throw new Error(`WeChat body image heading not found: ${image.after_heading || index + 1}`);
+        await cdp.send('DOM.setFileInputFiles', { nodeId: bodyInput.nodeId, files: [image.path] }, session.sessionId);
+        await waitUntil(async () => Number(await evaluate(cdp, session.sessionId, `[...document.querySelector('.rich_media_content .ProseMirror').querySelectorAll('img[src]')].length`)) > positioned, 30000, `WeChat body image ${index + 1} upload timeout`);
+      }
+    }
+    const coverButton = await evaluate(cdp, session.sessionId, `(function(){const el=document.querySelector('.js_cover_btn_area');if(!el)return null;const r=el.getBoundingClientRect();return {x:r.left+r.width/2,y:r.top+r.height/2}})()`);
+    if (!coverButton) throw new Error('WeChat cover selector not found');
+    await cdp.send('Input.dispatchMouseEvent', { type: 'mousePressed', x: coverButton.x, y: coverButton.y, button: 'left', clickCount: 1 }, session.sessionId);
+    await cdp.send('Input.dispatchMouseEvent', { type: 'mouseReleased', x: coverButton.x, y: coverButton.y, button: 'left', clickCount: 1 }, session.sessionId);
+    await waitUntil(() => evaluate(cdp, session.sessionId, `!!document.querySelector('.weui-desktop-dialog .weui-desktop-upload input[type=file]')`), 10000, 'WeChat cover upload dialog did not open');
+    const coverDoc = await cdp.send('DOM.getDocument', { depth: -1, pierce: true }, session.sessionId);
+    const coverInput = await cdp.send('DOM.querySelector', { nodeId: coverDoc.root.nodeId, selector: '.weui-desktop-dialog .weui-desktop-upload input[type=file]' }, session.sessionId);
+    if (!coverInput.nodeId) throw new Error('WeChat cover dialog upload input not found');
     await cdp.send('DOM.setFileInputFiles', { nodeId: coverInput.nodeId, files: [draft.coverPath] }, session.sessionId);
-    await new Promise(r => setTimeout(r, 3000));
+    await waitUntil(() => evaluate(cdp, session.sessionId, `[...document.querySelectorAll('.weui-desktop-dialog .weui-desktop-img-picker__item')].some(e=>e.classList.contains('selected'))`), 30000, 'WeChat cover upload did not become selectable');
+    const next = await evaluate(cdp, session.sessionId, `(function(){const e=[...document.querySelectorAll('.weui-desktop-dialog button')].find(e=>(e.innerText||'').trim()==='下一步'&&!e.disabled);if(!e)return false;e.click();return true})()`);
+    if (!next) throw new Error('WeChat cover next button not found');
+    await waitUntil(() => evaluate(cdp, session.sessionId, `[...document.querySelectorAll('.weui-desktop-dialog button')].some(e=>(e.innerText||'').trim()==='确认')`), 15000, 'WeChat cover crop dialog did not load');
+    const confirmed = await evaluate(cdp, session.sessionId, `(function(){const e=[...document.querySelectorAll('.weui-desktop-dialog button')].find(e=>(e.innerText||'').trim()==='确认');if(!e)return false;e.click();return true})()`);
+    if (!confirmed) throw new Error('WeChat cover confirm button not found');
+    const coverState = await waitUntil(async () => {
+      const state = await evaluate(cdp, session.sessionId, `({backgroundImage:getComputedStyle(document.querySelector('.js_cover_preview_new')).backgroundImage,emptyLabelDisplay:getComputedStyle(document.querySelector('.js_share_type_none_image')).display})`);
+      return hasWechatCover(state) ? state : null;
+    }, 30000, 'WeChat cover was not applied');
     await evaluate(cdp, session.sessionId, `document.querySelector('#js_submit button')?.click()`);
     const appmsgid = await waitUntil(async () => { const href = String(await evaluate(cdp, session.sessionId, 'location.href')); return new URL(href).searchParams.get('appmsgid') || ''; }, 60000, 'WeChat draft save did not return appmsgid');
-    return { status: 'draft_created', appmsgid };
+    await new Promise(resolve => setTimeout(resolve, 3000));
+    const remoteBodyImages = await evaluate(cdp, session.sessionId, `[...document.querySelector('.rich_media_content .ProseMirror').querySelectorAll('img[src]')].map(e=>({src:e.src,width:e.naturalWidth,height:e.naturalHeight,previousHeading:e.parentElement?.previousElementSibling?.innerText||''}))`);
+    const bodyVerification = verifyWechatBodyImages(draft.bodyImages, remoteBodyImages);
+    return { status: 'draft_created', appmsgid, coverVerified: Boolean(coverState), bodyImagesVerified: bodyVerification.verified, bodyImageCount: bodyVerification.count };
   } finally { cdp.close(); }
 }
 
 function updatePublishState(draft, result) {
   const parsed = matter(fs.readFileSync(draft.markdownPath, 'utf8'));
-  parsed.data.publish = { ...(parsed.data.publish || {}), wechat_browser: { status: result.status, appmsgid: result.appmsgid, verified_at: new Date().toISOString() } };
+  parsed.data.publish = { ...(parsed.data.publish || {}), wechat_browser: { status: result.status, appmsgid: result.appmsgid, cover_verified: result.coverVerified === true, body_images_verified: result.bodyImagesVerified === true, body_image_count: Number(result.bodyImageCount || 0), verified_at: new Date().toISOString() } };
   fs.writeFileSync(draft.markdownPath, matter.stringify(parsed.content, parsed.data));
 }
 

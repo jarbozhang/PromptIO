@@ -3,11 +3,20 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+import matter from 'gray-matter';
 import {
   parseArgs,
   inspectDraftForBrowserPublish,
   assertAllowedWechatUrl,
   buildWechatBrowserHtml,
+  findRunningChromeCdp,
+  isWechatLoggedInSnapshot,
+  buildWechatHomeUrl,
+  findNewWechatEditorTarget,
+  buildWechatEditorUrl,
+  hasWechatCover,
+  resolveWechatMediaAssets,
+  verifyWechatBodyImages,
 } from '../scripts/publish-wechat-browser.js';
 
 function makeDraft(frontmatter = '') {
@@ -76,6 +85,103 @@ describe('safe WeChat browser publisher', () => {
     assert.doesNotThrow(() => assertAllowedWechatUrl('file:///tmp/article.html'));
     assert.throws(() => assertAllowedWechatUrl('https://api.telegram.org/bot-secret'), /blocked outbound URL/);
     assert.throws(() => assertAllowedWechatUrl('https://evil.example/'), /blocked outbound URL/);
+  });
+
+  it('reuses the CDP port of an existing Chrome process for the same profile', () => {
+    const profile = '/Users/demo/Library/Application Support/PromptIO/wechat-chrome-profile';
+    const processes = [
+      `123 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --remote-debugging-port=61121 --user-data-dir=${profile} --start-maximized`,
+      '456 unrelated process',
+    ].join('\n');
+    assert.deepEqual(findRunningChromeCdp(processes, profile), { port: 61121 });
+    assert.equal(findRunningChromeCdp(processes, '/tmp/other-profile'), null);
+  });
+
+  it('requires a valid token and rejects the re-login page as logged out', () => {
+    assert.equal(isWechatLoggedInSnapshot({ href: 'https://mp.weixin.qq.com/cgi-bin/home?t=home/index&token=123', body: '首页 新的创作' }), true);
+    assert.equal(isWechatLoggedInSnapshot({ href: 'https://mp.weixin.qq.com/cgi-bin/home?t=home/index', body: '请重新登录' }), false);
+  });
+
+  it('preserves the active WeChat token when navigating home', () => {
+    assert.equal(buildWechatHomeUrl('https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=420100578'), 'https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=420100578');
+    assert.throws(() => buildWechatHomeUrl('https://mp.weixin.qq.com/cgi-bin/home?t=home/index'), /active token/);
+  });
+
+  it('detects a WeChat editor even when Chrome reuses a pre-existing blank tab', () => {
+    const initial = new Map([
+      ['home', 'https://mp.weixin.qq.com/cgi-bin/home?t=home/index&token=1'],
+      ['blank', 'about:blank'],
+    ]);
+    const targets = [
+      { targetId: 'home', type: 'page', url: 'https://mp.weixin.qq.com/cgi-bin/home?t=home/index&token=1' },
+      { targetId: 'blank', type: 'page', url: 'https://mp.weixin.qq.com/cgi-bin/appmsg?t=media/appmsg_edit_v2&action=edit&token=1' },
+    ];
+    assert.equal(findNewWechatEditorTarget(targets, initial)?.targetId, 'blank');
+  });
+
+  it('builds a same-origin editor URL with the active token', () => {
+    assert.equal(buildWechatEditorUrl('https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=420100578'), 'https://mp.weixin.qq.com/cgi-bin/appmsg?t=media/appmsg_edit_v2&action=edit&isNew=1&type=77&createType=0&token=420100578&lang=zh_CN');
+  });
+
+  it('does not treat a generic editor image upload as a configured cover', () => {
+    assert.equal(hasWechatCover({ backgroundImage: 'none', emptyLabelDisplay: 'block' }), false);
+    assert.equal(hasWechatCover({ backgroundImage: 'url("https://mmbiz.qpic.cn/cover.jpg")', emptyLabelDisplay: 'block' }), true);
+  });
+
+  it('requires a dedicated WeChat cover and keeps body images separate', () => {
+    const { root, draftDir } = makeDraft([
+      'wechat_cover:',
+      '  status: approved',
+      '  path: wechat-cover.png',
+      'body_images:',
+      '  - path: body-1.png',
+      '    after_heading: 正文',
+      '  - path: body-2.png',
+      '    after_heading: 结论',
+    ].join('\n'));
+    try {
+      fs.writeFileSync(path.join(draftDir, 'wechat-cover.png'), Buffer.from('cover'));
+      fs.writeFileSync(path.join(draftDir, 'body-1.png'), Buffer.from('body1'));
+      fs.writeFileSync(path.join(draftDir, 'body-2.png'), Buffer.from('body2'));
+      const parsed = matter(fs.readFileSync(path.join(draftDir, 'demo.md'), 'utf8'));
+      const media = resolveWechatMediaAssets(draftDir, parsed.data);
+      assert.equal(media.coverPath, path.join(draftDir, 'wechat-cover.png'));
+      assert.deepEqual(media.bodyImages.map(x => x.path), [path.join(draftDir, 'body-1.png'), path.join(draftDir, 'body-2.png')]);
+      assert.notEqual(media.coverPath, media.bodyImages[0].path);
+    } finally {
+      fs.rmSync(root, { recursive: true, force: true });
+    }
+  });
+
+  it('rejects reusing the cover as an in-article image', () => {
+    const { root, draftDir } = makeDraft([
+      'wechat_cover:',
+      '  status: approved',
+      '  path: cover.png',
+      'body_images:',
+      '  - path: cover.png',
+      '    after_heading: 正文',
+    ].join('\n'));
+    try {
+      const parsed = matter(fs.readFileSync(path.join(draftDir, 'demo.md'), 'utf8'));
+      assert.throws(() => resolveWechatMediaAssets(draftDir, parsed.data), /must be separate/);
+    } finally {
+      fs.rmSync(root, { recursive: true, force: true });
+    }
+  });
+
+  it('verifies every configured body image exists remotely at its heading', () => {
+    const expected = [
+      { after_heading: '十个版本为什么越选越平' },
+      { after_heading: '把模型停在编辑席' },
+    ];
+    const remote = [
+      { src: 'https://mmbiz.qpic.cn/a.png', width: 1080, height: 720, previousHeading: '十个版本为什么越选越平' },
+      { src: 'https://mmbiz.qpic.cn/b.png', width: 1080, height: 720, previousHeading: '把模型停在编辑席' },
+    ];
+    assert.deepEqual(verifyWechatBodyImages(expected, remote), { verified: true, count: 2 });
+    assert.throws(() => verifyWechatBodyImages(expected, remote.slice(0, 1)), /body image verification failed/);
+    assert.throws(() => verifyWechatBodyImages(expected, [{ ...remote[0], src: 'data:image/png;base64,abc' }, remote[1]]), /body image verification failed/);
   });
 
   it('builds self-contained WeChat HTML without remote scripts or secret fields', () => {
