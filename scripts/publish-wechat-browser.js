@@ -115,8 +115,18 @@ export function assertAllowedWechatUrl(value) {
   throw new Error(`blocked outbound URL: ${url.origin}`);
 }
 
+export function stripInternalPublishAnnotations(markdown) {
+  const lines = String(markdown || '').split(/\r?\n/);
+  const internalHeading = lines.findIndex(line => /^#{1,3}\s+相关链接\s*$/.test(line.trim()));
+  const visible = internalHeading >= 0 ? lines.slice(0, internalHeading) : lines;
+  return visible
+    .filter(line => !/^\s*<!--\s*(?:REACH|QA|INTERNAL)\s*:/i.test(line))
+    .join('\n')
+    .trim();
+}
+
 export function buildWechatBrowserHtml(draft, { theme = 'grace', color = '#2563eb' } = {}) {
-  const body = markdownToHtml(draft.markdown);
+  const body = markdownToHtml(stripInternalPublishAnnotations(draft.markdown));
   const css = themeCss(theme, color);
   return `<!doctype html><html><head><meta charset="utf-8"><title>${esc(draft.title)}</title><meta name="author" content="${esc(draft.author)}"><meta name="description" content="${esc(draft.summary)}"><style>${css}</style></head><body><article id="output">${body}</article></body></html>`;
 }

@@ -188,9 +188,13 @@ describe('safe WeChat browser publisher', () => {
     const { root, draftDir } = makeDraft();
     try {
       const draft = inspectDraftForBrowserPublish(draftDir);
-      const html = buildWechatBrowserHtml(draft, { theme: 'grace', color: '#2563eb' });
+      const html = buildWechatBrowserHtml({
+        ...draft,
+        markdown: `${draft.markdown}\n\n## 相关链接\n\n- [@leerob 的原始讨论](https://x.com/leerob/status/1)\n\n<!-- REACH: 7/10 | 品牌✗ 利益点✓ 可操作✓ -->`,
+      }, { theme: 'grace', color: '#2563eb' });
       assert.match(html, /id="output"/);
       assert.match(html, /<strong>重点<\/strong>/);
+      assert.doesNotMatch(html, /相关链接|leerob|REACH:|品牌✗/);
       assert.doesNotMatch(html, /<script|TELEGRAM|APP_SECRET|ssh/i);
       assert.doesNotMatch(html, /https:\/\/api\.telegram\.org/i);
     } finally {
