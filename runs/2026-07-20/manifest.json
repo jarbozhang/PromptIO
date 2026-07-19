@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-20",
+  "created_at": "2026-07-19T23:08:13.864Z",
+  "updated_at": "2026-07-19T23:15:04.126Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-20/x-xiangxiang103-f433fe41.md",
+      "file": "sources/2026-07-20/x-xiangxiang103-f433fe41.md",
+      "slug": "用OpenAI搭建本地智能衣橱",
+      "title": "用 OpenAI 给衣服自动建档：这个开源衣橱还能生成真人搭配预览",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.057,
+      "reach_note": "OpenAI 品牌、开源工具和可立即运行的穿搭管理场景同时具备传播与实操价值。",
+      "selection_reason": "它把图像 API 落到普通用户能理解的生活场景，并提供可运行代码和本地数据目录，适合公众号实测与小红书效果展示。",
+      "selected_at": "2026-07-19T23:08:13.865Z",
+      "updated_at": "2026-07-19T23:09:06.035Z",
+      "draft_ready_at": "2026-07-19T23:09:06.034Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/用 OpenAI 给衣服自动建档：这个开源衣橱还能生成真人搭配预览",
+      "meta_path": "drafts/2026-07-20/用 OpenAI 给衣服自动建档：这个开源衣橱还能生成真人搭配预览/用 OpenAI 给衣服自动建档：这个开源衣橱还能生成真人搭配预览.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/arxiv-0124286f.md",
+      "file": "sources/2026-07-20/arxiv-0124286f.md",
+      "slug": "旧模型原地扩充中文词表",
+      "title": "中文为什么更费 Token？一项新方法让旧模型原地扩充词表",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.032,
+      "reach_note": "省 Token 的利益点明确，使用本地模型的读者可以立即测量中文分词膨胀并评估改造收益。",
+      "selection_reason": "论文对应中文读者长期承受但不易察觉的成本问题，兼具研究新意和可验证的工程决策价值。",
+      "selected_at": "2026-07-19T23:08:13.865Z",
+      "updated_at": "2026-07-19T23:10:12.542Z",
+      "draft_ready_at": "2026-07-19T23:10:12.541Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/中文为什么更费 Token？一项新方法让旧模型原地扩充词表",
+      "meta_path": "drafts/2026-07-20/中文为什么更费 Token？一项新方法让旧模型原地扩充词表/中文为什么更费 Token？一项新方法让旧模型原地扩充词表.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "file": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "slug": "Hermes-Studio-0.6.31工作流回放与安全升级",
+      "title": "Hermes Studio v0.6.31：工作流终于能回放，文件预览和凭证保护也补齐了",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.041,
+      "reach_note": "Hermes 属于重点生态，新版本同时提供可立即体验的工作流回放、文件预览和安全能力。",
+      "selection_reason": "版本包含 25 个 PR 和多项可感知变化，既适合做完整版本解读，也能让现有用户快速决定是否升级。",
+      "selected_at": "2026-07-19T23:08:13.866Z",
+      "updated_at": "2026-07-19T23:11:04.963Z",
+      "draft_ready_at": "2026-07-19T23:11:04.962Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/Hermes Studio v0.6.31：工作流终于能回放，文件预览和凭证保护也补齐了",
+      "meta_path": "drafts/2026-07-20/Hermes Studio v0.6.31：工作流终于能回放，文件预览和凭证保护也补齐了/Hermes Studio v0.6.31：工作流终于能回放，文件预览和凭证保护也补齐了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-07-20/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex仓库审计风险复盘",
+      "title": "用 Claude Code 和 Codex 审计陌生仓库，为什么反而可能触发远程代码执行",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.066,
+      "reach_note": "Claude Code 与 Codex 具有品牌认知，风险直接关系本机安全，并有可立即采用的隔离措施。",
+      "selection_reason": "它揭示了代码审计场景中容易被忽略的信任边界，适合从真实攻击链出发形成高价值安全复盘。",
+      "selected_at": "2026-07-19T23:08:13.866Z",
+      "updated_at": "2026-07-19T23:12:08.443Z",
+      "draft_ready_at": "2026-07-19T23:12:08.420Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/用 Claude Code 和 Codex 审计陌生仓库，为什么反而可能触发远程代码执行",
+      "meta_path": "drafts/2026-07-20/用 Claude Code 和 Codex 审计陌生仓库，为什么反而可能触发远程代码执行/用 Claude Code 和 Codex 审计陌生仓库，为什么反而可能触发远程代码执行.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/openai-blog-18ab2ec4.md",
+      "file": "sources/2026-07-20/openai-blog-18ab2ec4.md",
+      "slug": "OpenAI代码榜单纠偏指南",
+      "title": "OpenAI 发现代码榜单里的噪声：选模型别再只看 SWE-Bench 分数",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.026,
+      "reach_note": "OpenAI 品牌带来关注度，读者可立即调整代码模型的评测和采购方法。",
+      "selection_reason": "这是对主流选型习惯的反常识纠偏，既有官方分析支撑，也能转化为个人和团队可执行的评测方法。",
+      "selected_at": "2026-07-19T23:08:13.866Z",
+      "updated_at": "2026-07-19T23:13:09.820Z",
+      "draft_ready_at": "2026-07-19T23:13:09.820Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/OpenAI 发现代码榜单里的噪声：选模型别再只看 SWE-Bench 分数",
+      "meta_path": "drafts/2026-07-20/OpenAI 发现代码榜单里的噪声：选模型别再只看 SWE-Bench 分数/OpenAI 发现代码榜单里的噪声：选模型别再只看 SWE-Bench 分数.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/openai-blog-b57416a8.md",
+      "file": "sources/2026-07-20/openai-blog-b57416a8.md",
+      "slug": "Cars24用OpenAI找回流失线索",
+      "title": "每月处理 100 万分钟对话后，Cars24 如何用 OpenAI 找回 12% 流失线索",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.07,
+      "reach_note": "OpenAI 品牌与找回 12% 流失线索的明确收益结合，企业读者可据此重画自己的转化流程。",
+      "selection_reason": "案例拥有具体规模和业务结果，适合从商业价值而非技术炫技切入，也能为客服、销售和产品团队提供衡量模板。",
+      "selected_at": "2026-07-19T23:08:13.866Z",
+      "updated_at": "2026-07-19T23:14:09.698Z",
+      "draft_ready_at": "2026-07-19T23:14:09.698Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/每月处理 100 万分钟对话后，Cars24 如何用 OpenAI 找回 12% 流失线索",
+      "meta_path": "drafts/2026-07-20/每月处理 100 万分钟对话后，Cars24 如何用 OpenAI 找回 12% 流失线索/每月处理 100 万分钟对话后，Cars24 如何用 OpenAI 找回 12% 流失线索.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/anthropic-python-sdk-releases-3afc102f.md",
+      "file": "sources/2026-07-20/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117.0安全更新",
+      "title": "Claude Python SDK 0.117.0：MCP 隧道上线，报错栈不再泄露凭证",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.065,
+      "reach_note": "Claude 品牌明确，SDK 用户可立即升级并验证隧道能力与凭证保护。",
+      "selection_reason": "这是同时涉及新能力和安全修复的正式版本，变化具体、验证路径清晰，对 Python API 用户有直接价值。",
+      "selected_at": "2026-07-19T23:08:13.867Z",
+      "updated_at": "2026-07-19T23:15:04.126Z",
+      "draft_ready_at": "2026-07-19T23:15:04.126Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/Claude Python SDK 0.117.0：MCP 隧道上线，报错栈不再泄露凭证",
+      "meta_path": "drafts/2026-07-20/Claude Python SDK 0.117.0：MCP 隧道上线，报错栈不再泄露凭证/Claude Python SDK 0.117.0：MCP 隧道上线，报错栈不再泄露凭证.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-19T23:08:13.864Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-19T23:08:13.865Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.865Z",
+      "topic_id": "sources/2026-07-20/x-xiangxiang103-f433fe41.md",
+      "slug": "用OpenAI搭建本地智能衣橱"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.865Z",
+      "topic_id": "sources/2026-07-20/arxiv-0124286f.md",
+      "slug": "旧模型原地扩充中文词表"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.866Z",
+      "topic_id": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "slug": "Hermes-Studio-0.6.31工作流回放与安全升级"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.866Z",
+      "topic_id": "sources/2026-07-20/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex仓库审计风险复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.866Z",
+      "topic_id": "sources/2026-07-20/openai-blog-18ab2ec4.md",
+      "slug": "OpenAI代码榜单纠偏指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.866Z",
+      "topic_id": "sources/2026-07-20/openai-blog-b57416a8.md",
+      "slug": "Cars24用OpenAI找回流失线索"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.867Z",
+      "topic_id": "sources/2026-07-20/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117.0安全更新"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:09:06.035Z",
+      "topic_id": "sources/2026-07-20/x-xiangxiang103-f433fe41.md",
+      "slug": "用OpenAI搭建本地智能衣橱",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:10:12.542Z",
+      "topic_id": "sources/2026-07-20/arxiv-0124286f.md",
+      "slug": "旧模型原地扩充中文词表",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:11:04.963Z",
+      "topic_id": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "slug": "Hermes-Studio-0.6.31工作流回放与安全升级",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:12:08.443Z",
+      "topic_id": "sources/2026-07-20/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex仓库审计风险复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:13:09.820Z",
+      "topic_id": "sources/2026-07-20/openai-blog-18ab2ec4.md",
+      "slug": "OpenAI代码榜单纠偏指南",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:14:09.698Z",
+      "topic_id": "sources/2026-07-20/openai-blog-b57416a8.md",
+      "slug": "Cars24用OpenAI找回流失线索",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:15:04.126Z",
+      "topic_id": "sources/2026-07-20/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117.0安全更新",
+      "error": ""
+    }
+  ]
+}
