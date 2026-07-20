@@ -4,11 +4,19 @@ import {
   parseSoPilotDescription,
   rankReplies,
   hotTweetToMarkdown,
+  requireNonEmptyFeed,
 } from '../scripts/fetch-sopilot.js';
 
 const description = `上下文越长不一定越好。\n\n❤️ 30  🔁 3  💬 5  🔖 42  👀 14649\n预测爆火概率:100%，预测浏览量:178000，预测评论浏览量:2700\n原推链接: https://x.com/FinanceYF5/status/2076916584938189192`;
 
 describe('SoPilot hot tweet source ingestion', () => {
+  it('treats an empty feed as degraded instead of a successful 0/0 fetch', () => {
+    assert.throws(
+      () => requireNonEmptyFeed([], '2026-07-20'),
+      /SoPilot feed returned 0 items/
+    );
+  });
+
   it('parses the original X URL and SoPilot trend metrics', () => {
     const parsed = parseSoPilotDescription(description);
     assert.equal(parsed.originalUrl, 'https://x.com/FinanceYF5/status/2076916584938189192');

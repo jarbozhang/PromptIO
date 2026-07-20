@@ -1,0 +1,17 @@
+{
+  "l4_pass": true,
+  "l4_issues": [],
+  "l1_violations": 0,
+  "l1_details": [],
+  "l2_score": 8,
+  "l2_reasons": "开头直接用效果图和可编辑数据的差异建立兴趣点，仓库拆解版型与题材匹配。",
+  "l3_score": 8,
+  "l3_reasons": "核心判断有仓库结构、配置、构建数据、工作流规则和文件路径支撑，并明确区分构建验证与完整图像实测。",
+  "l5_score": 8,
+  "l5_reasons": "标题利益点明确，正文给出仓库地址、安装命令、环境变量、参考照位置和最小验证建议。",
+  "l6_pass": true,
+  "l6_issues": [],
+  "xhs_pass": true,
+  "overall_pass": true,
+  "summary": "文章整体通过：仓库依据充分、结构清晰、边界说明自然且具备可执行路径。"
+}

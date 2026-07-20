@@ -148,6 +148,13 @@ export function hotTweetToMarkdown({ rssItem, parsed, tweet, replies, fetchedAt 
   });
 }
 
+export function requireNonEmptyFeed(items, date = '') {
+  if (!Array.isArray(items) || items.length === 0) {
+    throw new Error(`SoPilot feed returned 0 items${date ? ` for ${date}` : ''}; refusing to report a successful 0/0 fetch`);
+  }
+  return items;
+}
+
 function birdJson(args, timeoutMs) {
   const output = execFileSync('bird', [...args, '--json', '--plain'], {
     cwd: ROOT,
@@ -174,6 +181,7 @@ export async function run(opts) {
   const parser = new Parser({ timeout: 30000 });
   const feed = await parser.parseURL(opts.feedUrl);
   const items = opts.limit > 0 ? (feed.items || []).slice(0, opts.limit) : (feed.items || []);
+  requireNonEmptyFeed(items, opts.date);
   const sourcesDir = path.join(ROOT, 'sources', opts.date);
   fs.mkdirSync(sourcesDir, { recursive: true });
   const fetchedAt = new Date().toISOString();

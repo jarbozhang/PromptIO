@@ -510,6 +510,31 @@ export function readRecentDraftProfiles({ date, days = 7, root = ROOT } = {}) {
   return profiles;
 }
 
+export function sourceIdentity(file = '') {
+  return path.basename(String(file || '')).replace(/\.md$/i, '');
+}
+
+export function readRecentTopicSourceKeys({ date, days = 7, root = ROOT } = {}) {
+  const keys = new Set();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(date || ''))) return keys;
+
+  for (let offset = 1; offset <= days; offset++) {
+    const filepath = path.join(root, 'topics', `${shiftDate(date, -offset)}.json`);
+    if (!fs.existsSync(filepath)) continue;
+    let parsed;
+    try {
+      parsed = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+    } catch {
+      throw new Error(`invalid recent topics file: ${filepath}`);
+    }
+    for (const topic of parsed.topics || []) {
+      const key = sourceIdentity(topic.file);
+      if (key) keys.add(key);
+    }
+  }
+  return keys;
+}
+
 function shiftDate(date, deltaDays) {
   const d = new Date(`${date}T00:00:00.000Z`);
   d.setUTCDate(d.getUTCDate() + deltaDays);
@@ -995,14 +1020,20 @@ export function buildSelectionPrompt({ date, count, min, max, sources }) {
   ].join('\n');
 }
 
+export function filterRecentlySelectedSources(sources, recentSourceKeys = new Set()) {
+  return sources.filter(item => !recentSourceKeys.has(sourceIdentity(item.file)));
+}
+
 export function normalizeSelection(selection, sources, opts) {
   const byFile = new Map(sources.map(item => [item.file, item]));
   const seen = new Set();
   const topics = [];
+  const recentSourceKeys = readRecentTopicSourceKeys({ date: opts.date, days: 7 });
 
   for (const item of selection.topics || []) {
     const file = String(item.file || '').trim();
     if (!byFile.has(file) || seen.has(file)) continue;
+    if (recentSourceKeys.has(sourceIdentity(file))) continue;
     const source = byFile.get(file);
     const sanitized = {
       title: String(item.title || source.title || '').trim(),
@@ -1118,7 +1149,12 @@ export function applyTopicMetadata(metaPath, topic) {
 }
 
 export async function run(opts) {
-  const sources = collectSourceSummaries(opts.date, opts.sourcesLimit);
+  const collectedSources = collectSourceSummaries(opts.date, opts.sourcesLimit);
+  const recentSourceKeys = readRecentTopicSourceKeys({ date: opts.date, days: 7 });
+  const sources = filterRecentlySelectedSources(collectedSources, recentSourceKeys);
+  if (sources.length < opts.min) {
+    throw new Error(`only ${sources.length} sources remain after excluding topics used in the previous 7 days; expected at least ${opts.min}`);
+  }
   const selection = opts.topicsFile
     ? readTopicsFile(opts.topicsFile)
     : extractJson(await callTextLLM(buildSelectionPrompt({

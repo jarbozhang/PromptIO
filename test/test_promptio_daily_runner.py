@@ -22,6 +22,18 @@ class PromptIODailyRunnerTests(unittest.TestCase):
         env = mocked_run.call_args.kwargs['env']
         self.assertEqual(env['CODEX_TIMEOUT_MS'], '900000')
 
+    def test_sopilot_zero_of_zero_is_a_hard_failure(self):
+        runner = load_runner()
+        with self.assertRaisesRegex(RuntimeError, 'SoPilot fetch degraded'):
+            runner.validate_sopilot_output('SoPilot: saved 0/0 hot tweets (0 failures)')
+
+    def test_sopilot_nonempty_summary_is_accepted(self):
+        runner = load_runner()
+        self.assertEqual(
+            runner.validate_sopilot_output('SoPilot: saved 17/17 hot tweets (0 failures)'),
+            {'saved': 17, 'seen': 17, 'failed': 0},
+        )
+
 
 if __name__ == '__main__':
     unittest.main()

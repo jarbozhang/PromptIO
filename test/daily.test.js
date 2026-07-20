@@ -13,6 +13,9 @@ import {
   recordManifestSelection,
   recordManifestDraftReady,
   recordManifestDraftFailed,
+  readRecentTopicSourceKeys,
+  sourceIdentity,
+  filterRecentlySelectedSources,
 } from '../scripts/daily.js';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -87,6 +90,35 @@ describe('daily.js CLI', () => {
 });
 
 describe('daily.js topic selection', () => {
+  it('blocks an exact source reused by a recent daily topic even when its title is rewritten', () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), 'promptio-recent-source-'));
+    fs.mkdirSync(path.join(root, 'topics'), { recursive: true });
+    fs.writeFileSync(path.join(root, 'topics', '2026-07-19.json'), JSON.stringify({
+      topics: [{
+        file: 'sources/2026-07-19/openai-blog-b57416a8.md',
+        title: 'OpenAI 如何支撑每月百万分钟对话',
+      }],
+    }));
+    try {
+      const keys = readRecentTopicSourceKeys({ date: '2026-07-20', days: 7, root });
+      assert.equal(keys.has(sourceIdentity('sources/2026-07-20/openai-blog-b57416a8.md')), true);
+      assert.equal(keys.has(sourceIdentity('sources/2026-07-20/arxiv-new-topic.md')), false);
+    } finally {
+      fs.rmSync(root, { recursive: true, force: true });
+    }
+  });
+
+  it('removes recently selected sources before they are shown to the LLM selector', () => {
+    const recent = new Set(['openai-blog-b57416a8']);
+    assert.deepEqual(
+      filterRecentlySelectedSources([
+        { file: 'sources/2026-07-20/openai-blog-b57416a8.md' },
+        { file: 'sources/2026-07-20/arxiv-new-topic.md' },
+      ], recent).map(item => item.file),
+      ['sources/2026-07-20/arxiv-new-topic.md']
+    );
+  });
+
   it('buildSelectionPrompt: includes JSON contract and source files', () => {
     const prompt = buildSelectionPrompt({
       date: '2026-05-27',

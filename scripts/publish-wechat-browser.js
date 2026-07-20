@@ -307,13 +307,11 @@ async function saveBrowserDraft(draft, htmlPath, profile) {
         await waitUntil(async () => Number(await evaluate(cdp, session.sessionId, `[...document.querySelector('.rich_media_content .ProseMirror').querySelectorAll('img[src]')].length`)) > positioned, 30000, `WeChat body image ${index + 1} upload timeout`);
       }
     }
-    const coverButton = await evaluate(cdp, session.sessionId, `(function(){const el=document.querySelector('.js_cover_btn_area');if(!el)return null;const r=el.getBoundingClientRect();return {x:r.left+r.width/2,y:r.top+r.height/2}})()`);
-    if (!coverButton) throw new Error('WeChat cover selector not found');
-    await cdp.send('Input.dispatchMouseEvent', { type: 'mousePressed', x: coverButton.x, y: coverButton.y, button: 'left', clickCount: 1 }, session.sessionId);
-    await cdp.send('Input.dispatchMouseEvent', { type: 'mouseReleased', x: coverButton.x, y: coverButton.y, button: 'left', clickCount: 1 }, session.sessionId);
-    await waitUntil(() => evaluate(cdp, session.sessionId, `!!document.querySelector('.weui-desktop-dialog .weui-desktop-upload input[type=file]')`), 10000, 'WeChat cover upload dialog did not open');
+    const coverOpened = await evaluate(cdp, session.sessionId, `(function(){const direct=document.querySelector('#js_cover_null .js_imagedialog');if(direct){direct.click();return true}const area=document.querySelector('.js_cover_btn_area');if(!area)return false;area.click();setTimeout(()=>document.querySelector('#js_cover_null .js_imagedialog')?.click(),100);return true})()`);
+    if (!coverOpened) throw new Error('WeChat cover selector not found');
+    await waitUntil(() => evaluate(cdp, session.sessionId, `!!document.querySelector('.weui-desktop-dialog input[type=file][accept*="image"]')`), 10000, 'WeChat cover upload dialog did not open');
     const coverDoc = await cdp.send('DOM.getDocument', { depth: -1, pierce: true }, session.sessionId);
-    const coverInput = await cdp.send('DOM.querySelector', { nodeId: coverDoc.root.nodeId, selector: '.weui-desktop-dialog .weui-desktop-upload input[type=file]' }, session.sessionId);
+    const coverInput = await cdp.send('DOM.querySelector', { nodeId: coverDoc.root.nodeId, selector: '.weui-desktop-dialog input[type=file][accept*="image"]' }, session.sessionId);
     if (!coverInput.nodeId) throw new Error('WeChat cover dialog upload input not found');
     await cdp.send('DOM.setFileInputFiles', { nodeId: coverInput.nodeId, files: [draft.coverPath] }, session.sessionId);
     await waitUntil(() => evaluate(cdp, session.sessionId, `[...document.querySelectorAll('.weui-desktop-dialog .weui-desktop-img-picker__item')].some(e=>e.classList.contains('selected'))`), 30000, 'WeChat cover upload did not become selectable');
