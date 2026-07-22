@@ -1,0 +1,13 @@
+---
+title: Anthropic’s $1.5 billion book piracy settlement approved by judge
+url: >-
+  https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved
+source: The Verge AI
+source_type: rss
+language: en
+published: '2026-07-21T16:53:37.000Z'
+fetched_at: '2026-07-22T11:00:24.723Z'
+---
+A federal judge has signed off on Anthropic's $1.5 billion class action settlement with authors who accused the company of training its AI models on copyrighted books, as reported earlier by Reuters. In an order on Monday, Judge Araceli Martínez-Olguín writes that the settlement will provide "meaningful relief," offering authors around $3,000 for each book allegedly pirated by Anthropic.
+The $1.5 billion settlement is the "largest known copyright recovery in history," according to the law firm representing the plaintiffs. A group of authors - Andrea Bartz, Charles Graeber, and Kirk Wallace Johnson - first filed a copyright lawsuit against A …
+Read the full story at The Verge.
