@@ -1,0 +1,25 @@
+---
+title: >-
+  Interval and fuzzy physics-augmented neural networks (iPANN and fPANN) for
+  uncertainty quantification and propagation in constitutive modeling
+url: 'https://arxiv.org/abs/2607.20339v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Somesh Pratap Singh
+  - Govinda Anantha Padmanabha
+  - Jingye Tan
+  - Steven Yang
+  - Reese E. Jones
+categories:
+  - cs.LG
+  - physics.comp-ph
+  - cs.LG
+published: '2026-07-22T16:26:59Z'
+fetched_at: '2026-07-23T11:02:10.168Z'
+---
+Constitutive modeling under uncertainty remains a central challenge for reliable mechanics simulations, particularly when the available stress-deformation data are sparse, noisy, or heterogeneous. We propose interval and fuzzy physics-augmented neural networks (iPANNs and fPANNs) for uncertainty-aware hyperelastic constitutive modeling. iPANNs learn sparse lower, mean, and upper free energy density branches whose stresses, obtained by automatic differentiation, ultimately enclose noisy stress observations. In contrast to this deterministic interval description, fPANNs embed the learned iPANN branches into a fuzzy-set representation through alpha-cut interpolation, yielding a nested family of admissible responses. iPANNs and fPANNs encode mechanistic constraints - preserving objectivity, consistency and promoting polyconvexity - and smoothed L0 regularization promotes interpretable energy representations. The bound models are trained through a two-stage transfer-learning procedure in which a sparse mean constitutive response is learned first and then fine-tuned into lower and upper energy branches. We evaluate the framework on synthetic isotropic hyperelastic data with heteroscedastic noise, varying random realizations, shifted noise means, and varying noise magnitudes. The results show that the learned bounds enclose noisy stress observations while generalizing to the test set. Further, we examine the propagation of uncertainty through the mean, upper and lower bound predicti
+
+Authors: Somesh Pratap Singh, Govinda Anantha Padmanabha, Jingye Tan, Steven Yang, Reese E. Jones
+Categories: cs.LG, physics.comp-ph, cs.LG
