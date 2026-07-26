@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-25",
+  "created_at": "2026-07-25T11:19:36.514Z",
+  "updated_at": "2026-07-25T11:27:37.243Z",
+  "source_count": 147,
+  "topics": [
+    {
+      "id": "sources/2026-07-25/x-dotey-c7165c07.md",
+      "file": "sources/2026-07-25/x-dotey-c7165c07.md",
+      "slug": "BaoCut 0.8.2视频画面翻译实操",
+      "title": "BaoCut 0.8.2 实操：把视频画面文字翻译后直接导入剪映",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.028,
+      "reach_note": "剪映具有品牌认知，自动翻译能明显节省人工处理时间，升级 BaoCut 后即可动手测试。",
+      "selection_reason": "它解决的是创作者非常具体的画面文字翻译问题，操作路径完整，也能产出适合公众号和小红书展示的前后对比。",
+      "selected_at": "2026-07-25T11:19:36.515Z",
+      "updated_at": "2026-07-25T11:21:39.008Z",
+      "draft_ready_at": "2026-07-25T11:21:39.008Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-25/BaoCut 0.8.2 实操：把视频画面文字翻译后直接导入剪映",
+      "meta_path": "drafts/2026-07-25/BaoCut 0.8.2 实操：把视频画面文字翻译后直接导入剪映/BaoCut 0.8.2 实操：把视频画面文字翻译后直接导入剪映.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-25/ai-now-institute-dbb3bfe8.md",
+      "file": "sources/2026-07-25/ai-now-institute-dbb3bfe8.md",
+      "slug": "防御型AI反伤用户安全审查",
+      "title": "OpenAI、Anthropic 的防御型 AI 也可能反伤用户：上线前先做这轮安全审查",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.048,
+      "reach_note": "OpenAI 和 Anthropic 具有品牌认知，降低系统被反向利用的风险利益明确，团队可据此检查部署权限。",
+      "selection_reason": "该题提供当天必需的安全视角，重点不是渲染风险，而是把研究结论转成产品和安全团队可执行的控制措施。",
+      "selected_at": "2026-07-25T11:19:36.515Z",
+      "updated_at": "2026-07-25T11:22:34.871Z",
+      "draft_ready_at": "2026-07-25T11:22:34.870Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-25/OpenAI、Anthropic 的防御型 AI 也可能反伤用户：上线前先做这轮安全审查",
+      "meta_path": "drafts/2026-07-25/OpenAI、Anthropic 的防御型 AI 也可能反伤用户：上线前先做这轮安全审查/OpenAI、Anthropic 的防御型 AI 也可能反伤用户：上线前先做这轮安全审查.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-25/x-tychozzz-f52350f1.md",
+      "file": "sources/2026-07-25/x-tychozzz-f52350f1.md",
+      "slug": "Google AI资本开支回本判断",
+      "title": "Google 把 AI 资本开支推向新高：产品团队该盯的不是 GPU，而是需求能否回本",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.03,
+      "reach_note": "Google 具备品牌认知，成本与回本直接关联团队利益，读者可用文中的指标复核自身 AI 项目。",
+      "selection_reason": "它把宏观资本开支转化为产品和采购决策问题，能补足当天工具类内容之外的商业判断。",
+      "selected_at": "2026-07-25T11:19:36.515Z",
+      "updated_at": "2026-07-25T11:23:45.900Z",
+      "draft_ready_at": "2026-07-25T11:23:45.900Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-25/Google 把 AI 资本开支推向新高，产品团队该盯的不是 GPU，而是需求能否回本",
+      "meta_path": "drafts/2026-07-25/Google 把 AI 资本开支推向新高，产品团队该盯的不是 GPU，而是需求能否回本/Google 把 AI 资本开支推向新高，产品团队该盯的不是 GPU，而是需求能否回本.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-25/vllm-releases-60d6ae5a.md",
+      "file": "sources/2026-07-25/vllm-releases-60d6ae5a.md",
+      "slug": "vLLM 0.26.0部署DeepSeek-V4指南",
+      "title": "vLLM 0.26.0 更新：部署 DeepSeek-V4 前最值得验证的性能变化",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.044,
+      "reach_note": "DeepSeek 具备品牌认知，新版包含明确性能收益，模型部署者可以升级并复测现有服务。",
+      "selection_reason": "官方 release 信息充足，版本变化集中在真实部署成本与性能上，适合转化为可执行的升级决策。",
+      "selected_at": "2026-07-25T11:19:36.516Z",
+      "updated_at": "2026-07-25T11:24:43.059Z",
+      "draft_ready_at": "2026-07-25T11:24:43.058Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-25/vLLM 0.26.0 更新：部署 DeepSeek-V4 前最值得验证的性能变化",
+      "meta_path": "drafts/2026-07-25/vLLM 0.26.0 更新：部署 DeepSeek-V4 前最值得验证的性能变化/vLLM 0.26.0 更新：部署 DeepSeek-V4 前最值得验证的性能变化.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-25/sopilot-hot-2080779170754548009-6684af14.md",
+      "file": "sources/2026-07-25/sopilot-hot-2080779170754548009-6684af14.md",
+      "slug": "Codex假新闻扩散复盘",
+      "title": "一条 Codex 假新闻如何扩散：内容团队发布前该加哪道核查闸门",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.028,
+      "reach_note": "Codex 具备品牌认知，减少误发和返工是明确利益点，编辑可直接采用核查流程。",
+      "selection_reason": "相比继续传播未经核实的功能传闻，复盘错误如何发生更有长期价值，也能给创作者提供立即可用的发布规范。",
+      "selected_at": "2026-07-25T11:19:36.516Z",
+      "updated_at": "2026-07-25T11:25:36.869Z",
+      "draft_ready_at": "2026-07-25T11:25:36.869Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-25/一条 Codex 假新闻如何扩散，内容团队发布前该加哪道核查闸门",
+      "meta_path": "drafts/2026-07-25/一条 Codex 假新闻如何扩散，内容团队发布前该加哪道核查闸门/一条 Codex 假新闻如何扩散，内容团队发布前该加哪道核查闸门.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-25/the-verge-ai-668dd796.md",
+      "file": "sources/2026-07-25/the-verge-ai-668dd796.md",
+      "slug": "Claude Opus 5同价升级值不值得切换",
+      "title": "Claude Opus 5 同价升级：先用这 3 类真实任务判断值不值得切换",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.036,
+      "reach_note": "Claude 具备品牌认知，同价升级带来明确利益点，读者还能按任务测试后决定是否切换。",
+      "selection_reason": "这是当天信息最完整的新模型发布主线，既有价格与能力变化，也能落到实际选型和成本判断。",
+      "selected_at": "2026-07-25T11:19:36.517Z",
+      "updated_at": "2026-07-25T11:26:38.746Z",
+      "draft_ready_at": "2026-07-25T11:26:38.746Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-25/Claude Opus 5 同价升级，先用这 3 类真实任务判断值不值得切换",
+      "meta_path": "drafts/2026-07-25/Claude Opus 5 同价升级，先用这 3 类真实任务判断值不值得切换/Claude Opus 5 同价升级，先用这 3 类真实任务判断值不值得切换.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-25/sopilot-hot-2080835429121839323-a6950465.md",
+      "file": "sources/2026-07-25/sopilot-hot-2080835429121839323-a6950465.md",
+      "slug": "Claude Code和Codex提示词减法实验",
+      "title": "Claude Code、Codex 的提示词不是越长越好：删规则前先做一次对照实验",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 74,
+      "recent_similarity": 0.03,
+      "reach_note": "Claude Code 和 Codex 具备品牌认知，减少 Token 与规则维护是明确利益点，读者可立即做对照实验。",
+      "selection_reason": "它提供了与“上下文越多越可靠”相反但可验证的判断，能引导读者用实验优化现有项目，而不是照搬新的提示词模板。",
+      "selected_at": "2026-07-25T11:19:36.517Z",
+      "updated_at": "2026-07-25T11:27:37.242Z",
+      "draft_ready_at": "2026-07-25T11:27:37.242Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-25/Claude Code、Codex 的提示词不是越长越好：删规则前先做一次对照实验",
+      "meta_path": "drafts/2026-07-25/Claude Code、Codex 的提示词不是越长越好：删规则前先做一次对照实验/Claude Code、Codex 的提示词不是越长越好：删规则前先做一次对照实验.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-25T11:19:36.514Z",
+      "source_count": 147
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-25T11:19:36.515Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-25T11:19:36.515Z",
+      "topic_id": "sources/2026-07-25/x-dotey-c7165c07.md",
+      "slug": "BaoCut 0.8.2视频画面翻译实操"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-25T11:19:36.515Z",
+      "topic_id": "sources/2026-07-25/ai-now-institute-dbb3bfe8.md",
+      "slug": "防御型AI反伤用户安全审查"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-25T11:19:36.515Z",
+      "topic_id": "sources/2026-07-25/x-tychozzz-f52350f1.md",
+      "slug": "Google AI资本开支回本判断"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-25T11:19:36.516Z",
+      "topic_id": "sources/2026-07-25/vllm-releases-60d6ae5a.md",
+      "slug": "vLLM 0.26.0部署DeepSeek-V4指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-25T11:19:36.516Z",
+      "topic_id": "sources/2026-07-25/sopilot-hot-2080779170754548009-6684af14.md",
+      "slug": "Codex假新闻扩散复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-25T11:19:36.517Z",
+      "topic_id": "sources/2026-07-25/the-verge-ai-668dd796.md",
+      "slug": "Claude Opus 5同价升级值不值得切换"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-25T11:19:36.517Z",
+      "topic_id": "sources/2026-07-25/sopilot-hot-2080835429121839323-a6950465.md",
+      "slug": "Claude Code和Codex提示词减法实验"
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-25T11:20:37.692Z",
+      "topic_id": "sources/2026-07-25/x-dotey-c7165c07.md",
+      "slug": "BaoCut 0.8.2视频画面翻译实操",
+      "error": "generated markdown for BaoCut 0.8.2 实操，把视频画面文字翻译后直接导入剪映 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-25T11:21:39.008Z",
+      "topic_id": "sources/2026-07-25/x-dotey-c7165c07.md",
+      "slug": "BaoCut 0.8.2视频画面翻译实操",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-25T11:22:34.871Z",
+      "topic_id": "sources/2026-07-25/ai-now-institute-dbb3bfe8.md",
+      "slug": "防御型AI反伤用户安全审查",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-25T11:23:45.900Z",
+      "topic_id": "sources/2026-07-25/x-tychozzz-f52350f1.md",
+      "slug": "Google AI资本开支回本判断",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-25T11:24:43.059Z",
+      "topic_id": "sources/2026-07-25/vllm-releases-60d6ae5a.md",
+      "slug": "vLLM 0.26.0部署DeepSeek-V4指南",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-25T11:25:36.869Z",
+      "topic_id": "sources/2026-07-25/sopilot-hot-2080779170754548009-6684af14.md",
+      "slug": "Codex假新闻扩散复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-25T11:26:38.746Z",
+      "topic_id": "sources/2026-07-25/the-verge-ai-668dd796.md",
+      "slug": "Claude Opus 5同价升级值不值得切换",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-25T11:27:37.243Z",
+      "topic_id": "sources/2026-07-25/sopilot-hot-2080835429121839323-a6950465.md",
+      "slug": "Claude Code和Codex提示词减法实验",
+      "error": ""
+    }
+  ]
+}
