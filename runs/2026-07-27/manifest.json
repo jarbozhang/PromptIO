@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-27",
+  "created_at": "2026-07-27T11:18:52.742Z",
+  "updated_at": "2026-07-27T11:25:19.845Z",
+  "source_count": 145,
+  "topics": [
+    {
+      "id": "sources/2026-07-27/x-axiaisacat-4273ec31.md",
+      "file": "sources/2026-07-27/x-axiaisacat-4273ec31.md",
+      "slug": "OpenCut免费开源视频剪辑实测",
+      "title": "OpenCut 免费开源视频剪辑：本地处理、跨平台和 AI 脚本值不值得试",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.031,
+      "reach_note": "免费和立即可试满足明确利益点与可操作性，本地处理也回应创作者的隐私需求。",
+      "selection_reason": "它为创作者提供了开发工具之外的当天可用选题，适合通过真实成片过程呈现优势和限制，而不是停留在项目功能罗列。",
+      "selected_at": "2026-07-27T11:18:52.742Z",
+      "updated_at": "2026-07-27T11:19:47.175Z",
+      "draft_ready_at": "2026-07-27T11:19:47.175Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-27/OpenCut 免费开源视频剪辑：本地处理、跨平台和 AI 脚本值不值得试",
+      "meta_path": "drafts/2026-07-27/OpenCut 免费开源视频剪辑：本地处理、跨平台和 AI 脚本值不值得试/OpenCut 免费开源视频剪辑：本地处理、跨平台和 AI 脚本值不值得试.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-27/x-leerob-fd0fb8e8.md",
+      "file": "sources/2026-07-27/x-leerob-fd0fb8e8.md",
+      "slug": "企业AI模型托管成本决策",
+      "title": "别再只争论开源还是闭源：企业选 AI 模型真正要算的是托管成本",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.028,
+      "reach_note": "省成本的利益点明确，企业读者可以直接用决策框架核算自建与托管方案。",
+      "selection_reason": "这一角度能纠正只看模型权重许可的常见误区，把热门争论落到预算、控制权和组织能力三个可执行决策上。",
+      "selected_at": "2026-07-27T11:18:52.743Z",
+      "updated_at": "2026-07-27T11:20:46.149Z",
+      "draft_ready_at": "2026-07-27T11:20:46.149Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-27/别再只争论开源还是闭源：企业选 AI 模型真正要算的是托管成本",
+      "meta_path": "drafts/2026-07-27/别再只争论开源还是闭源：企业选 AI 模型真正要算的是托管成本/别再只争论开源还是闭源：企业选 AI 模型真正要算的是托管成本.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-27/x-chenchengpro-a3f83c29.md",
+      "file": "sources/2026-07-27/x-chenchengpro-a3f83c29.md",
+      "slug": "Claude-Code系统提示词抓包验证",
+      "title": "Claude Code 真删了 80% 系统提示词吗？我抓包后发现版本对不上",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.033,
+      "reach_note": "Claude Code 品牌明确，读者可以立即抓包或切换环境变量验证结论。",
+      "selection_reason": "素材包含具体版本、字符数、路由条件和可复现实验，既能纠正传播中的版本误读，也能沉淀一套验证 CLI 宣传口径的方法。",
+      "selected_at": "2026-07-27T11:18:52.743Z",
+      "updated_at": "2026-07-27T11:21:41.224Z",
+      "draft_ready_at": "2026-07-27T11:21:41.224Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-27/Claude Code 真删了 80% 系统提示词吗？我抓包后发现版本对不上",
+      "meta_path": "drafts/2026-07-27/Claude Code 真删了 80% 系统提示词吗？我抓包后发现版本对不上/Claude Code 真删了 80% 系统提示词吗？我抓包后发现版本对不上.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-27/sopilot-hot-2081580611853017514-f421c3b8.md",
+      "file": "sources/2026-07-27/sopilot-hot-2081580611853017514-f421c3b8.md",
+      "slug": "Sora-App产品误判复盘",
+      "title": "OpenAI 为什么没复制出下一个 TikTok：Sora App 的产品误判复盘",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.032,
+      "reach_note": "OpenAI、Sora 和 TikTok 提供强品牌认知，产品团队可将复盘结论用于内容产品立项与留存设计。",
+      "selection_reason": "选题不依赖功能发布，而是提供一条完整的产品失败假设和可迁移判断，能补足当天的商业与普通用户场景。",
+      "selected_at": "2026-07-27T11:18:52.743Z",
+      "updated_at": "2026-07-27T11:22:30.488Z",
+      "draft_ready_at": "2026-07-27T11:22:30.487Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-27/OpenAI 为什么没复制出下一个 TikTok？Sora App 的产品误判复盘",
+      "meta_path": "drafts/2026-07-27/OpenAI 为什么没复制出下一个 TikTok？Sora App 的产品误判复盘/OpenAI 为什么没复制出下一个 TikTok？Sora App 的产品误判复盘.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-27/transformers-releases-25627478.md",
+      "file": "sources/2026-07-27/transformers-releases-25627478.md",
+      "slug": "Transformers-5.13支持Kimi新模型",
+      "title": "Hugging Face Transformers 5.13 支持 Kimi 2.5—2.7：本地跑新模型先看这份升级指南",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.032,
+      "reach_note": "Hugging Face 与 Kimi 都有品牌认知，升级后可以立即尝试本地加载新模型。",
+      "selection_reason": "官方版本记录信息充足，既命中中文读者熟悉的 Kimi，也提供明确的安装和部署动作，适合作为当天的模型生态更新。",
+      "selected_at": "2026-07-27T11:18:52.744Z",
+      "updated_at": "2026-07-27T11:23:22.927Z",
+      "draft_ready_at": "2026-07-27T11:23:22.927Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-27/Hugging Face Transformers 5.13 支持 Kimi 2.5—2.7：本地跑新模型先看这份升级指南",
+      "meta_path": "drafts/2026-07-27/Hugging Face Transformers 5.13 支持 Kimi 2.5—2.7：本地跑新模型先看这份升级指南/Hugging Face Transformers 5.13 支持 Kimi 2.5—2.7：本地跑新模型先看这份升级指南.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-27/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-07-27/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex远程执行风险",
+      "title": "Claude Code 和 Codex 扫代码也可能中招：一次远程执行攻击如何反利用安全工具",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.053,
+      "reach_note": "Claude Code、Codex 品牌与远程执行风险形成强利益点，开发者可以立刻收紧扫描环境权限。",
+      "selection_reason": "这是与日常代码审查直接相关的高影响安全场景，能够把抽象的提示注入风险转化为清晰攻击链和可执行防护措施。",
+      "selected_at": "2026-07-27T11:18:52.744Z",
+      "updated_at": "2026-07-27T11:24:33.168Z",
+      "draft_ready_at": "2026-07-27T11:24:33.168Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-27/Claude Code 和 Codex 扫代码也可能中招：一次远程执行攻击如何反利用安全工具",
+      "meta_path": "drafts/2026-07-27/Claude Code 和 Codex 扫代码也可能中招：一次远程执行攻击如何反利用安全工具/Claude Code 和 Codex 扫代码也可能中招：一次远程执行攻击如何反利用安全工具.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-27/anthropic-python-sdk-releases-3afc102f.md",
+      "file": "sources/2026-07-27/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Anthropic-SDK-0.117新功能",
+      "title": "Anthropic Python SDK 0.117 上线：MCP Tunnels、Dreaming 和凭据防泄漏怎么用",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.054,
+      "reach_note": "Anthropic 品牌加上可直接升级验证的新 API 与安全修复，兼具认知度和可操作性。",
+      "selection_reason": "官方 release 同时覆盖新能力和凭据安全，适合做一篇信息密度高、读者升级后马上能验证的版本简报。",
+      "selected_at": "2026-07-27T11:18:52.744Z",
+      "updated_at": "2026-07-27T11:25:19.845Z",
+      "draft_ready_at": "2026-07-27T11:25:19.844Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-27/Anthropic Python SDK 0.117 上线，MCP Tunnels、Dreaming 和凭据防泄漏怎么用",
+      "meta_path": "drafts/2026-07-27/Anthropic Python SDK 0.117 上线，MCP Tunnels、Dreaming 和凭据防泄漏怎么用/Anthropic Python SDK 0.117 上线，MCP Tunnels、Dreaming 和凭据防泄漏怎么用.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-27T11:18:52.742Z",
+      "source_count": 145
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-27T11:18:52.742Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-27T11:18:52.742Z",
+      "topic_id": "sources/2026-07-27/x-axiaisacat-4273ec31.md",
+      "slug": "OpenCut免费开源视频剪辑实测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-27T11:18:52.743Z",
+      "topic_id": "sources/2026-07-27/x-leerob-fd0fb8e8.md",
+      "slug": "企业AI模型托管成本决策"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-27T11:18:52.743Z",
+      "topic_id": "sources/2026-07-27/x-chenchengpro-a3f83c29.md",
+      "slug": "Claude-Code系统提示词抓包验证"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-27T11:18:52.743Z",
+      "topic_id": "sources/2026-07-27/sopilot-hot-2081580611853017514-f421c3b8.md",
+      "slug": "Sora-App产品误判复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-27T11:18:52.744Z",
+      "topic_id": "sources/2026-07-27/transformers-releases-25627478.md",
+      "slug": "Transformers-5.13支持Kimi新模型"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-27T11:18:52.744Z",
+      "topic_id": "sources/2026-07-27/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex远程执行风险"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-27T11:18:52.744Z",
+      "topic_id": "sources/2026-07-27/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Anthropic-SDK-0.117新功能"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-27T11:19:47.175Z",
+      "topic_id": "sources/2026-07-27/x-axiaisacat-4273ec31.md",
+      "slug": "OpenCut免费开源视频剪辑实测",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-27T11:20:46.149Z",
+      "topic_id": "sources/2026-07-27/x-leerob-fd0fb8e8.md",
+      "slug": "企业AI模型托管成本决策",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-27T11:21:41.224Z",
+      "topic_id": "sources/2026-07-27/x-chenchengpro-a3f83c29.md",
+      "slug": "Claude-Code系统提示词抓包验证",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-27T11:22:30.488Z",
+      "topic_id": "sources/2026-07-27/sopilot-hot-2081580611853017514-f421c3b8.md",
+      "slug": "Sora-App产品误判复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-27T11:23:22.927Z",
+      "topic_id": "sources/2026-07-27/transformers-releases-25627478.md",
+      "slug": "Transformers-5.13支持Kimi新模型",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-27T11:24:33.168Z",
+      "topic_id": "sources/2026-07-27/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex远程执行风险",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-27T11:25:19.845Z",
+      "topic_id": "sources/2026-07-27/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Anthropic-SDK-0.117新功能",
+      "error": ""
+    }
+  ]
+}
