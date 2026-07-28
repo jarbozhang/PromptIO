@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-28",
+  "created_at": "2026-07-28T11:10:03.136Z",
+  "updated_at": "2026-07-28T11:16:47.426Z",
+  "source_count": 141,
+  "topics": [
+    {
+      "id": "sources/2026-07-28/arxiv-27adeda2.md",
+      "file": "sources/2026-07-28/arxiv-27adeda2.md",
+      "slug": "彭博Causal-TS时间序列因果分析",
+      "title": "彭博开源 Causal-TS：用一套 Python 流程找出时间序列里的因果关系",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.028,
+      "reach_note": "彭博提供品牌认知，开源 Python 工具降低试用成本，读者可以安装后直接运行合成数据示例。",
+      "selection_reason": "论文同时提供可安装库、命令行、GPU 加速和 DoWhy 集成，素材足以支撑一篇从最小示例到适用边界的实操文章。",
+      "selected_at": "2026-07-28T11:10:03.137Z",
+      "updated_at": "2026-07-28T11:10:54.792Z",
+      "draft_ready_at": "2026-07-28T11:10:54.792Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-28/彭博开源 Causal-TS，用一套 Python 流程找出时间序列里的因果关系",
+      "meta_path": "drafts/2026-07-28/彭博开源 Causal-TS，用一套 Python 流程找出时间序列里的因果关系/彭博开源 Causal-TS，用一套 Python 流程找出时间序列里的因果关系.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-28/github-trending-feb34faf.md",
+      "file": "sources/2026-07-28/github-trending-feb34faf.md",
+      "slug": "n8n连接400多种服务的取舍",
+      "title": "n8n 为什么又火了：不用重写系统，也能把 400 多种服务串起来",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.03,
+      "reach_note": "n8n 在自动化用户中认知度较高，自托管带来成本和数据控制利益，读者可以马上用现有服务搭建最小流程。",
+      "selection_reason": "项目持续活跃且拥有大量集成，适合写成工具选择背后的取舍判断，同时为当天选题补充普通团队和内容生产场景。",
+      "selected_at": "2026-07-28T11:10:03.137Z",
+      "updated_at": "2026-07-28T11:11:48.945Z",
+      "draft_ready_at": "2026-07-28T11:11:48.945Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-28/n8n 为什么又火了：不用重写系统，也能把 400 多种服务串起来",
+      "meta_path": "drafts/2026-07-28/n8n 为什么又火了：不用重写系统，也能把 400 多种服务串起来/n8n 为什么又火了：不用重写系统，也能把 400 多种服务串起来.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-28/sopilot-hot-2081945874909827416-01405614.md",
+      "file": "sources/2026-07-28/sopilot-hot-2081945874909827416-01405614.md",
+      "slug": "Seedance-2.0发型变装提示词拆解",
+      "title": "Seedance 2.0 发型变装视频怎么做：拆解一条可直接改写的 10 秒提示词",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.026,
+      "reach_note": "Seedance 2.0 具备产品热度，一条提示词即可复用多个主题，读者能立即改图、改分镜并生成视频。",
+      "selection_reason": "源材料给出了完整的时长、镜头、转场和分镜细节，特别适合从成片倒推提示词结构，而不是泛泛介绍视频模型。",
+      "selected_at": "2026-07-28T11:10:03.138Z",
+      "updated_at": "2026-07-28T11:12:41.800Z",
+      "draft_ready_at": "2026-07-28T11:12:41.800Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-28/Seedance 2.0 发型变装视频怎么做：拆解一条可直接改写的 10 秒提示词",
+      "meta_path": "drafts/2026-07-28/Seedance 2.0 发型变装视频怎么做：拆解一条可直接改写的 10 秒提示词/Seedance 2.0 发型变装视频怎么做：拆解一条可直接改写的 10 秒提示词.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-28/sopilot-hot-2081953568144146704-c69f81ef.md",
+      "file": "sources/2026-07-28/sopilot-hot-2081953568144146704-c69f81ef.md",
+      "slug": "Claude分享链接隐私排查",
+      "title": "Claude 分享链接可能泄露隐私：现在就检查这 5 类敏感对话",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.026,
+      "reach_note": "Claude 是高认知品牌，隐私泄露涉及直接损失，读者也能马上检查和撤销自己的分享链接。",
+      "selection_reason": "风险与普通用户直接相关，且能转化为明确的自查和补救动作，比单纯讨论厂商责任更有实际价值。",
+      "selected_at": "2026-07-28T11:10:03.138Z",
+      "updated_at": "2026-07-28T11:13:30.155Z",
+      "draft_ready_at": "2026-07-28T11:13:30.154Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-28/Claude 分享链接可能泄露隐私：现在就检查这 5 类敏感对话",
+      "meta_path": "drafts/2026-07-28/Claude 分享链接可能泄露隐私：现在就检查这 5 类敏感对话/Claude 分享链接可能泄露隐私：现在就检查这 5 类敏感对话.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-28/mit-technology-review-ai-bd9265e4.md",
+      "file": "sources/2026-07-28/mit-technology-review-ai-bd9265e4.md",
+      "slug": "OpenAI模型越过沙箱事故复盘",
+      "title": "OpenAI 模型越过沙箱寻找评测答案：这次事故给开发团队什么警告",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.058,
+      "reach_note": "OpenAI 带来品牌关注，越权行为关系真实安全损失，开发团队可以据此立即复查沙箱和凭证隔离。",
+      "selection_reason": "MIT Technology Review 的完整报道可与当天多条安全讨论互相印证，适合做有事实链条和工程启示的事故复盘。",
+      "selected_at": "2026-07-28T11:10:03.138Z",
+      "updated_at": "2026-07-28T11:14:40.767Z",
+      "draft_ready_at": "2026-07-28T11:14:40.767Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-28/OpenAI 模型越过沙箱寻找评测答案，这次事故给开发团队什么警告",
+      "meta_path": "drafts/2026-07-28/OpenAI 模型越过沙箱寻找评测答案，这次事故给开发团队什么警告/OpenAI 模型越过沙箱寻找评测答案，这次事故给开发团队什么警告.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-28/vllm-releases-0026251e.md",
+      "file": "sources/2026-07-28/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1部署修复解读",
+      "title": "vLLM 0.25.1 修了两个隐蔽故障：部署 Qwen、Gemma 前建议升级",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.036,
+      "reach_note": "vLLM、Qwen 和 Gemma 对模型部署读者有认知度，版本修复能避免启动失败和错误输出，并可立即升级验证。",
+      "selection_reason": "这是信息明确的官方补丁版本，既包含可复现故障，也有清晰的受影响场景，适合做短而实用的版本解读。",
+      "selected_at": "2026-07-28T11:10:03.138Z",
+      "updated_at": "2026-07-28T11:15:44.531Z",
+      "draft_ready_at": "2026-07-28T11:15:44.531Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-28/vLLM 0.25.1 修了两个隐蔽故障：部署 Qwen、Gemma 前建议升级",
+      "meta_path": "drafts/2026-07-28/vLLM 0.25.1 修了两个隐蔽故障：部署 Qwen、Gemma 前建议升级/vLLM 0.25.1 修了两个隐蔽故障：部署 Qwen、Gemma 前建议升级.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-28/sopilot-hot-2081973671728693286-3b549ed0.md",
+      "file": "sources/2026-07-28/sopilot-hot-2081973671728693286-3b549ed0.md",
+      "slug": "Codex-200美元套餐到底值不值",
+      "title": "Codex 200 美元套餐到底值不值？先算清额度，再决定要不要升级",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 106,
+      "recent_similarity": 0.051,
+      "reach_note": "Codex 有明确品牌认知，套餐成本直接关系省钱，而且读者可以立即检查自己的用量并核算单次任务成本。",
+      "selection_reason": "多条当天讨论都指向额度重置、消耗速度和套餐价值，适合合并成一篇真正帮助读者做订阅决策的选型文章。",
+      "selected_at": "2026-07-28T11:10:03.139Z",
+      "updated_at": "2026-07-28T11:16:47.426Z",
+      "draft_ready_at": "2026-07-28T11:16:47.425Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-28/Codex 200 美元套餐到底值不值？先算清额度，再决定要不要升级",
+      "meta_path": "drafts/2026-07-28/Codex 200 美元套餐到底值不值？先算清额度，再决定要不要升级/Codex 200 美元套餐到底值不值？先算清额度，再决定要不要升级.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-28T11:10:03.136Z",
+      "source_count": 141
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-28T11:10:03.137Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-28T11:10:03.137Z",
+      "topic_id": "sources/2026-07-28/arxiv-27adeda2.md",
+      "slug": "彭博Causal-TS时间序列因果分析"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-28T11:10:03.137Z",
+      "topic_id": "sources/2026-07-28/github-trending-feb34faf.md",
+      "slug": "n8n连接400多种服务的取舍"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-28T11:10:03.138Z",
+      "topic_id": "sources/2026-07-28/sopilot-hot-2081945874909827416-01405614.md",
+      "slug": "Seedance-2.0发型变装提示词拆解"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-28T11:10:03.138Z",
+      "topic_id": "sources/2026-07-28/sopilot-hot-2081953568144146704-c69f81ef.md",
+      "slug": "Claude分享链接隐私排查"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-28T11:10:03.138Z",
+      "topic_id": "sources/2026-07-28/mit-technology-review-ai-bd9265e4.md",
+      "slug": "OpenAI模型越过沙箱事故复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-28T11:10:03.138Z",
+      "topic_id": "sources/2026-07-28/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1部署修复解读"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-28T11:10:03.139Z",
+      "topic_id": "sources/2026-07-28/sopilot-hot-2081973671728693286-3b549ed0.md",
+      "slug": "Codex-200美元套餐到底值不值"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-28T11:10:54.792Z",
+      "topic_id": "sources/2026-07-28/arxiv-27adeda2.md",
+      "slug": "彭博Causal-TS时间序列因果分析",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-28T11:11:48.945Z",
+      "topic_id": "sources/2026-07-28/github-trending-feb34faf.md",
+      "slug": "n8n连接400多种服务的取舍",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-28T11:12:41.800Z",
+      "topic_id": "sources/2026-07-28/sopilot-hot-2081945874909827416-01405614.md",
+      "slug": "Seedance-2.0发型变装提示词拆解",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-28T11:13:30.155Z",
+      "topic_id": "sources/2026-07-28/sopilot-hot-2081953568144146704-c69f81ef.md",
+      "slug": "Claude分享链接隐私排查",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-28T11:14:40.767Z",
+      "topic_id": "sources/2026-07-28/mit-technology-review-ai-bd9265e4.md",
+      "slug": "OpenAI模型越过沙箱事故复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-28T11:15:44.531Z",
+      "topic_id": "sources/2026-07-28/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1部署修复解读",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-28T11:16:47.426Z",
+      "topic_id": "sources/2026-07-28/sopilot-hot-2081973671728693286-3b549ed0.md",
+      "slug": "Codex-200美元套餐到底值不值",
+      "error": ""
+    }
+  ]
+}
