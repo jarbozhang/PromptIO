@@ -1,5 +1,5 @@
 ---
-title: PDF 转 Markdown 真能省 80% Token？别先省钱，再丢掉图表信息
+title: PDF 转 Markdown 真能省 80% Token？省下成本，别赔掉图表信息
 status: draft
 date: '2026-07-29'
 source: manual
@@ -23,16 +23,37 @@ platforms:
   wechat: primary
   xhs: primary
   x: blocked
-xhs_title: PDF 转 Markdown 真能省 80% Token？别先省钱，再丢掉图表信息
-wechat_title: ''
+xhs_title: PDF 转 Markdown 真能省 80% Token？省下成本，别赔掉图表信息
+wechat_title: PDF 转 Markdown 真能省 80% Token？省下成本，别赔掉图表信息
+description: PDF 转 Markdown 可能显著降低输入成本，但纯文本、复杂表格和图文报告不能用同一种处理方式。本文给出一套兼顾 Token 与信息保真度的选择方法。
+qa:
+  overall_pass: true
+  l6_pass: true
+  xhs_pass: true
+  reviewed_at: '2026-07-29T21:20:00+08:00'
+  note: 人工复核通过；80% 为待验证的来源主张，正文已明确限定条件并避免夸大。
 cover:
-  status: skipped
+  status: approved
+  path: assets/wechat-cover.png
+body_images:
+  - path: assets/body-input-choice.png
+    after_heading: 误解不在转换，而在把所有 PDF 当成一种文件
+  - path: assets/body-table-risk.png
+    after_heading: 复杂表格，省下的 Token 可能变成错误的关系
 recent_similarity: 0.026
 reach_note: 省 Token 是明确利益点，读者可以立刻用自己的 PDF 对照测试两种处理方式。
 selection_reason: 当天素材同时存在省成本主张和信息损耗反例，适合做有条件结论，而不是重复未经区分的节省比例。
+publish:
+  wechat_browser:
+    status: draft_created
+    appmsgid: '100000102'
+    cover_verified: true
+    body_images_verified: true
+    body_image_count: 2
+    verified_at: '2026-07-30T10:24:00+08:00'
 ---
 
-# PDF 转 Markdown 真能省 80% Token？别先省钱，再丢掉图表信息
+# PDF 转 Markdown 真能省 80% Token？省下成本，别赔掉图表信息
 
 如果你经常把论文、财报或项目文档交给模型分析，PDF 转 Markdown 确实可能压低 Token 消耗。但我不会把它设成所有文件的默认动作。
 
