@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-31",
+  "created_at": "2026-07-31T11:13:28.635Z",
+  "updated_at": "2026-07-31T11:19:22.482Z",
+  "source_count": 141,
+  "topics": [
+    {
+      "id": "sources/2026-07-31/x-dotey-274920bb.md",
+      "file": "sources/2026-07-31/x-dotey-274920bb.md",
+      "slug": "AI做PPT为什么HTML是更好中间格式",
+      "title": "AI 做 PPT，为什么 HTML 反而是更好的中间格式？一套可编辑又好看的工作流",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.034,
+      "reach_note": "AI PPT 是高认知创作场景，HTML 中间格式带来可编辑和降返工的利益点，读者可直接复用流程。",
+      "selection_reason": "题目贴近公众号和小红书创作者的日常生产，既有观点冲突又能落到具体工具链和交付质量判断。",
+      "selected_at": "2026-07-31T11:13:28.636Z",
+      "updated_at": "2026-07-31T11:14:16.651Z",
+      "draft_ready_at": "2026-07-31T11:14:16.651Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-31/AI 做 PPT，为什么 HTML 反而是更好的中间格式？一套可编辑又好看的工作流",
+      "meta_path": "drafts/2026-07-31/AI 做 PPT，为什么 HTML 反而是更好的中间格式？一套可编辑又好看的工作流/AI 做 PPT，为什么 HTML 反而是更好的中间格式？一套可编辑又好看的工作流.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-31/github-trending-49a1c7e3.md",
+      "file": "sources/2026-07-31/github-trending-49a1c7e3.md",
+      "slug": "Firecrawl网页抓取与AI数据入口",
+      "title": "Firecrawl 上手：把网页搜索、抓取和 Markdown 清洗接成自己的 AI 数据入口",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.032,
+      "reach_note": "Firecrawl 是 GitHub 高星项目，搜索抓取和自动清洗能直接节省时间，开源仓库提供可验证入口。",
+      "selection_reason": "它把网页数据采集变成可复用的 AI 工作流，中文开发者可以马上搭建资料整理、RAG 或内容研究的最小原型。",
+      "selected_at": "2026-07-31T11:13:28.636Z",
+      "updated_at": "2026-07-31T11:15:13.241Z",
+      "draft_ready_at": "2026-07-31T11:15:13.240Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-31/Firecrawl 上手：把网页搜索、抓取和 Markdown 清洗接成自己的 AI 数据入口",
+      "meta_path": "drafts/2026-07-31/Firecrawl 上手：把网页搜索、抓取和 Markdown 清洗接成自己的 AI 数据入口/Firecrawl 上手：把网页搜索、抓取和 Markdown 清洗接成自己的 AI 数据入口.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-31/sopilot-hot-2082868215429115968-a62cc7e5.md",
+      "file": "sources/2026-07-31/sopilot-hot-2082868215429115968-a62cc7e5.md",
+      "slug": "Leopold半年439%到被迫清仓",
+      "title": "从半年赚 439% 到被迫清仓：Leopold 的 AI 投资复盘给普通人什么提醒",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.024,
+      "reach_note": "OpenAI 前研究员和 439% 收益具有强传播力，杠杆风险提供明确利益点与可执行检查。",
+      "selection_reason": "案例戏剧性强，但文章重点放在风险机制而非荐股，能为关注 AI 行业和个人投资的读者提供可复用的决策框架。",
+      "selected_at": "2026-07-31T11:13:28.636Z",
+      "updated_at": "2026-07-31T11:15:59.327Z",
+      "draft_ready_at": "2026-07-31T11:15:59.327Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-31/从半年赚 439% 到被迫清仓：Leopold 的 AI 投资复盘给普通人什么提醒",
+      "meta_path": "drafts/2026-07-31/从半年赚 439% 到被迫清仓：Leopold 的 AI 投资复盘给普通人什么提醒/从半年赚 439% 到被迫清仓：Leopold 的 AI 投资复盘给普通人什么提醒.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-31/sopilot-hot-2083087254101086539-7bdc7718.md",
+      "file": "sources/2026-07-31/sopilot-hot-2083087254101086539-7bdc7718.md",
+      "slug": "DeepSeek-V4-Flash正式版接入Codex",
+      "title": "DeepSeek V4-Flash 正式版接入 Codex：便宜模型如何跑起高频 Agent 任务",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.037,
+      "reach_note": "DeepSeek 与 Codex 具备品牌认知，低价和一键配置带来明确利益点与可操作入口。",
+      "selection_reason": "这是当天最强的版本事实之一，既有官方 API 变化，也有直接可验证的使用路径，适合中文开发者立刻测试。",
+      "selected_at": "2026-07-31T11:13:28.637Z",
+      "updated_at": "2026-07-31T11:16:48.026Z",
+      "draft_ready_at": "2026-07-31T11:16:48.026Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-31/高频编程任务省成本，DeepSeek V4-Flash 正式版接入 Codex",
+      "meta_path": "drafts/2026-07-31/高频编程任务省成本，DeepSeek V4-Flash 正式版接入 Codex/高频编程任务省成本，DeepSeek V4-Flash 正式版接入 Codex.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-31/sopilot-hot-2082978984812490931-e26854df.md",
+      "file": "sources/2026-07-31/sopilot-hot-2082978984812490931-e26854df.md",
+      "slug": "GPT-5.6-Luna降价80%后API怎么选",
+      "title": "GPT-5.6 Luna 降价 80% 后，API 该怎么选：低延迟和低成本的取舍",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,agent_like_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 116,
+      "recent_similarity": 0.027,
+      "reach_note": "OpenAI 品牌强，80% 降价是直接利益点，API 定价和调用场景可马上验证。",
+      "selection_reason": "价格变化会直接影响中文开发者的模型预算，文章可以从单价进一步落到缓存、延迟和任务路由的实际决策。",
+      "selected_at": "2026-07-31T11:13:28.637Z",
+      "updated_at": "2026-07-31T11:17:38.283Z",
+      "draft_ready_at": "2026-07-31T11:17:38.283Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-31/GPT-5.6 Luna 降价 80% 后，API 该怎么选：低延迟和低成本的取舍",
+      "meta_path": "drafts/2026-07-31/GPT-5.6 Luna 降价 80% 后，API 该怎么选：低延迟和低成本的取舍/GPT-5.6 Luna 降价 80% 后，API 该怎么选：低延迟和低成本的取舍.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-31/sopilot-hot-2083043634635788298-4fa0de9e.md",
+      "file": "sources/2026-07-31/sopilot-hot-2083043634635788298-4fa0de9e.md",
+      "slug": "Codex图像Agent批量改图",
+      "title": "Codex 的图像 Agent 模式来了：用侧边栏批量改图，创作者终于不用反复抽卡",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,agent_like_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 116,
+      "recent_similarity": 0.032,
+      "reach_note": "Codex 和 GPT Image 具备品牌认知，批量修改和减少返工是明确利益点，功能可直接体验。",
+      "selection_reason": "它把开发者工具延伸到设计与内容生产，能覆盖普通创作者和小红书用户，同时具备清晰的实操展示空间。",
+      "selected_at": "2026-07-31T11:13:28.637Z",
+      "updated_at": "2026-07-31T11:18:32.285Z",
+      "draft_ready_at": "2026-07-31T11:18:32.285Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-31/Codex 的图像 Agent 模式来了：用侧边栏批量改图，创作者终于不用反复抽卡",
+      "meta_path": "drafts/2026-07-31/Codex 的图像 Agent 模式来了：用侧边栏批量改图，创作者终于不用反复抽卡/Codex 的图像 Agent 模式来了：用侧边栏批量改图，创作者终于不用反复抽卡.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-31/sopilot-hot-2083022818003017914-31402e7f.md",
+      "file": "sources/2026-07-31/sopilot-hot-2083022818003017914-31402e7f.md",
+      "slug": "AI-Agent逃出沙盒上线前安全闸门",
+      "title": "AI Agent 为什么会“逃出”沙盒：从 Hugging Face 事件整理一套上线前安全闸门",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,agent_like_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 162,
+      "recent_similarity": 0.034,
+      "reach_note": "OpenAI、Claude 和 Hugging Face 都有较高认知度，安全风险是强利益点，检查与隔离动作可执行。",
+      "selection_reason": "这是当天最需要提醒读者的风险主题，能把热点事故转化为本地开发和企业部署中的具体防护措施。",
+      "selected_at": "2026-07-31T11:13:28.638Z",
+      "updated_at": "2026-07-31T11:19:22.482Z",
+      "draft_ready_at": "2026-07-31T11:19:22.481Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-31/AI Agent 为什么会“逃出”沙盒：从 Hugging Face 事件整理一套上线前安全闸门",
+      "meta_path": "drafts/2026-07-31/AI Agent 为什么会“逃出”沙盒：从 Hugging Face 事件整理一套上线前安全闸门/AI Agent 为什么会“逃出”沙盒：从 Hugging Face 事件整理一套上线前安全闸门.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-31T11:13:28.635Z",
+      "source_count": 141
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-31T11:13:28.635Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-31T11:13:28.636Z",
+      "topic_id": "sources/2026-07-31/x-dotey-274920bb.md",
+      "slug": "AI做PPT为什么HTML是更好中间格式"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-31T11:13:28.636Z",
+      "topic_id": "sources/2026-07-31/github-trending-49a1c7e3.md",
+      "slug": "Firecrawl网页抓取与AI数据入口"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-31T11:13:28.636Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2082868215429115968-a62cc7e5.md",
+      "slug": "Leopold半年439%到被迫清仓"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-31T11:13:28.637Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2083087254101086539-7bdc7718.md",
+      "slug": "DeepSeek-V4-Flash正式版接入Codex"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-31T11:13:28.637Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2082978984812490931-e26854df.md",
+      "slug": "GPT-5.6-Luna降价80%后API怎么选"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-31T11:13:28.637Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2083043634635788298-4fa0de9e.md",
+      "slug": "Codex图像Agent批量改图"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-31T11:13:28.638Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2083022818003017914-31402e7f.md",
+      "slug": "AI-Agent逃出沙盒上线前安全闸门"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-31T11:14:16.651Z",
+      "topic_id": "sources/2026-07-31/x-dotey-274920bb.md",
+      "slug": "AI做PPT为什么HTML是更好中间格式",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-31T11:15:13.241Z",
+      "topic_id": "sources/2026-07-31/github-trending-49a1c7e3.md",
+      "slug": "Firecrawl网页抓取与AI数据入口",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-31T11:15:59.327Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2082868215429115968-a62cc7e5.md",
+      "slug": "Leopold半年439%到被迫清仓",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-31T11:16:48.026Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2083087254101086539-7bdc7718.md",
+      "slug": "DeepSeek-V4-Flash正式版接入Codex",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-31T11:17:38.283Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2082978984812490931-e26854df.md",
+      "slug": "GPT-5.6-Luna降价80%后API怎么选",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-31T11:18:32.286Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2083043634635788298-4fa0de9e.md",
+      "slug": "Codex图像Agent批量改图",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-31T11:19:22.482Z",
+      "topic_id": "sources/2026-07-31/sopilot-hot-2083022818003017914-31402e7f.md",
+      "slug": "AI-Agent逃出沙盒上线前安全闸门",
+      "error": ""
+    }
+  ]
+}
