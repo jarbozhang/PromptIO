@@ -1,0 +1,10 @@
+---
+title: Languages as designed latent spaces
+url: 'https://blog.jsbarretto.com/post/languages-as-latent-spaces'
+source: Lobsters AI
+source_type: rss
+language: en
+published: '2026-07-25T15:13:27.000Z'
+fetched_at: '2026-07-31T11:00:58.128Z'
+---
+Comments
