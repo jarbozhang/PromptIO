@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-02",
+  "created_at": "2026-08-02T11:09:25.373Z",
+  "updated_at": "2026-08-02T11:18:00.374Z",
+  "source_count": 140,
+  "topics": [
+    {
+      "id": "sources/2026-08-02/transformers-releases-4c3b3f15.md",
+      "file": "sources/2026-08-02/transformers-releases-4c3b3f15.md",
+      "slug": "Hugging-Face损坏版本复盘",
+      "title": "Hugging Face 撤回损坏版本：升级 Transformers 前必须检查的三个信号",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.028,
+      "reach_note": "Hugging Face 品牌明确，避坑收益直接，Python 用户可以马上检查锁文件和安装版本。",
+      "selection_reason": "官方发布记录提供了清晰的事故与修复事实，适合从一次真实发布失误提炼团队可复用的依赖治理经验。",
+      "selected_at": "2026-08-02T11:09:25.374Z",
+      "updated_at": "2026-08-02T11:10:15.480Z",
+      "draft_ready_at": "2026-08-02T11:10:15.480Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-02/Hugging Face 撤回损坏版本：升级 Transformers 前必须检查的三个信号",
+      "meta_path": "drafts/2026-08-02/Hugging Face 撤回损坏版本：升级 Transformers 前必须检查的三个信号/Hugging Face 撤回损坏版本：升级 Transformers 前必须检查的三个信号.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-02/x-karpathy-949d982f.md",
+      "file": "sources/2026-08-02/x-karpathy-949d982f.md",
+      "slug": "Karpathy的10美元3D创作实验",
+      "title": "Karpathy 花约 10 美元让模型写出 5500 行 3D 场景：创作者该学的不是提示词",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.031,
+      "reach_note": "Karpathy 具有认知度，约 10 美元完成大型定制作品的利益点鲜明，也能启发读者马上试做小场景。",
+      "selection_reason": "它不是普通生成效果展示，而是一个关于创作成本边界变化的完整案例，能连接个人创作者、互动内容和小型产品原型。",
+      "selected_at": "2026-08-02T11:09:25.374Z",
+      "updated_at": "2026-08-02T11:11:05.429Z",
+      "draft_ready_at": "2026-08-02T11:11:05.429Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-02/Karpathy 花约 10 美元让模型写出 5500 行 3D 场景：创作者该学的不是提示词",
+      "meta_path": "drafts/2026-08-02/Karpathy 花约 10 美元让模型写出 5500 行 3D 场景：创作者该学的不是提示词/Karpathy 花约 10 美元让模型写出 5500 行 3D 场景：创作者该学的不是提示词.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-02/arxiv-0d2013f4.md",
+      "file": "sources/2026-08-02/arxiv-0d2013f4.md",
+      "slug": "88款AI产品系统提示词审计",
+      "title": "审计了 88 款 AI 产品后，他们发现系统提示词正在悄悄替用户做决定",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.023,
+      "reach_note": "88 款产品的规模形成利益与可信度信号，产品团队可以直接套用审计维度检查现有提示词。",
+      "selection_reason": "论文覆盖 88 款商业产品和 3249 条指令，素材厚度足以支撑一篇兼具研究发现与产品治理方法的文章。",
+      "selected_at": "2026-08-02T11:09:25.375Z",
+      "updated_at": "2026-08-02T11:12:11.022Z",
+      "draft_ready_at": "2026-08-02T11:12:11.006Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-02/审计了 88 款 AI 产品后，他们发现系统提示词正在悄悄替用户做决定",
+      "meta_path": "drafts/2026-08-02/审计了 88 款 AI 产品后，他们发现系统提示词正在悄悄替用户做决定/审计了 88 款 AI 产品后，他们发现系统提示词正在悄悄替用户做决定.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-02/ai-now-institute-dbb3bfe8.md",
+      "file": "sources/2026-08-02/ai-now-institute-dbb3bfe8.md",
+      "slug": "防御型AI反伤用户复盘",
+      "title": "OpenAI、Anthropic 的防御型 AI 为何会反伤用户？一次真实攻击链复盘",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.062,
+      "reach_note": "OpenAI 与 Anthropic 提供品牌认知，避免系统被反向利用是强利益点，团队可立即审查权限和隔离策略。",
+      "selection_reason": "题目有明确攻击机制和现实防护动作，能纠正“用于安全的 AI 自然更安全”这一危险直觉，也补足当天的风险内容。",
+      "selected_at": "2026-08-02T11:09:25.375Z",
+      "updated_at": "2026-08-02T11:13:11.021Z",
+      "draft_ready_at": "2026-08-02T11:13:11.021Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-02/OpenAI、Anthropic 的防御型 AI 为何会反伤用户？一次真实攻击链复盘",
+      "meta_path": "drafts/2026-08-02/OpenAI、Anthropic 的防御型 AI 为何会反伤用户？一次真实攻击链复盘/OpenAI、Anthropic 的防御型 AI 为何会反伤用户？一次真实攻击链复盘.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-02/sopilot-hot-2083808984486855124-6c7aedf7.md",
+      "file": "sources/2026-08-02/sopilot-hot-2083808984486855124-6c7aedf7.md",
+      "slug": "DeepSeek-V4-Flash翻译实测",
+      "title": "DeepSeek V4 Flash 翻译实测：60 分钟压到 3 分钟，单篇不到一毛钱",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.036,
+      "reach_note": "DeepSeek 有品牌认知，时间与成本收益明确，读者能立即用真实文本复测。",
+      "selection_reason": "同时具备省钱、提速和明确使用场景，评论中的质量质疑也能转化为有价值的验收方法，而不是只宣传低价。",
+      "selected_at": "2026-08-02T11:09:25.375Z",
+      "updated_at": "2026-08-02T11:15:11.040Z",
+      "draft_ready_at": "2026-08-02T11:15:11.040Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-02/DeepSeek V4 Flash 翻译实测：60 分钟压到 3 分钟，单篇不到一毛钱",
+      "meta_path": "drafts/2026-08-02/DeepSeek V4 Flash 翻译实测：60 分钟压到 3 分钟，单篇不到一毛钱/DeepSeek V4 Flash 翻译实测：60 分钟压到 3 分钟，单篇不到一毛钱.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-02/sopilot-hot-2083656053397631390-fb9d1620.md",
+      "file": "sources/2026-08-02/sopilot-hot-2083656053397631390-fb9d1620.md",
+      "slug": "AI产品如何降低模型租金",
+      "title": "AI 产品不必永远给 OpenAI 交租：模型路由如何把增长从成本变成优势",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.034,
+      "reach_note": "OpenAI 品牌带来认知，降低模型账单是明确利益点，团队可以立即按任务拆分并核算成本。",
+      "selection_reason": "素材提供了从调用量越大成本越高，到数据和专用模型形成正循环的商业判断，适合写成产品负责人可执行的成本战略。",
+      "selected_at": "2026-08-02T11:09:25.375Z",
+      "updated_at": "2026-08-02T11:17:05.875Z",
+      "draft_ready_at": "2026-08-02T11:17:05.874Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-02/AI 产品不必永远给 OpenAI 交租：模型路由如何把增长从成本变成优势",
+      "meta_path": "drafts/2026-08-02/AI 产品不必永远给 OpenAI 交租：模型路由如何把增长从成本变成优势/AI 产品不必永远给 OpenAI 交租：模型路由如何把增长从成本变成优势.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-02/vllm-releases-60d6ae5a.md",
+      "file": "sources/2026-08-02/vllm-releases-60d6ae5a.md",
+      "slug": "vLLM-0.26升级指南",
+      "title": "vLLM 0.26 值得升级吗？DeepSeek V4 推理提速与兼容变化一次看懂",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 74,
+      "recent_similarity": 0.042,
+      "reach_note": "DeepSeek 提供品牌与性能利益点，已有 vLLM 部署的读者可以直接升级压测。",
+      "selection_reason": "这是信息量充足的官方版本主源，既有具体性能改动，也有明确的部署验证动作，适合做高密度版本解读。",
+      "selected_at": "2026-08-02T11:09:25.376Z",
+      "updated_at": "2026-08-02T11:18:00.374Z",
+      "draft_ready_at": "2026-08-02T11:18:00.374Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-02/vLLM 0.26 值得升级吗？DeepSeek V4 推理提速与兼容变化一次看懂",
+      "meta_path": "drafts/2026-08-02/vLLM 0.26 值得升级吗？DeepSeek V4 推理提速与兼容变化一次看懂/vLLM 0.26 值得升级吗？DeepSeek V4 推理提速与兼容变化一次看懂.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-02T11:09:25.373Z",
+      "source_count": 140
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-02T11:09:25.374Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-02T11:09:25.374Z",
+      "topic_id": "sources/2026-08-02/transformers-releases-4c3b3f15.md",
+      "slug": "Hugging-Face损坏版本复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-02T11:09:25.374Z",
+      "topic_id": "sources/2026-08-02/x-karpathy-949d982f.md",
+      "slug": "Karpathy的10美元3D创作实验"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-02T11:09:25.375Z",
+      "topic_id": "sources/2026-08-02/arxiv-0d2013f4.md",
+      "slug": "88款AI产品系统提示词审计"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-02T11:09:25.375Z",
+      "topic_id": "sources/2026-08-02/ai-now-institute-dbb3bfe8.md",
+      "slug": "防御型AI反伤用户复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-02T11:09:25.375Z",
+      "topic_id": "sources/2026-08-02/sopilot-hot-2083808984486855124-6c7aedf7.md",
+      "slug": "DeepSeek-V4-Flash翻译实测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-02T11:09:25.375Z",
+      "topic_id": "sources/2026-08-02/sopilot-hot-2083656053397631390-fb9d1620.md",
+      "slug": "AI产品如何降低模型租金"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-02T11:09:25.376Z",
+      "topic_id": "sources/2026-08-02/vllm-releases-60d6ae5a.md",
+      "slug": "vLLM-0.26升级指南"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-02T11:10:15.480Z",
+      "topic_id": "sources/2026-08-02/transformers-releases-4c3b3f15.md",
+      "slug": "Hugging-Face损坏版本复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-02T11:11:05.429Z",
+      "topic_id": "sources/2026-08-02/x-karpathy-949d982f.md",
+      "slug": "Karpathy的10美元3D创作实验",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-02T11:12:11.022Z",
+      "topic_id": "sources/2026-08-02/arxiv-0d2013f4.md",
+      "slug": "88款AI产品系统提示词审计",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-02T11:13:11.021Z",
+      "topic_id": "sources/2026-08-02/ai-now-institute-dbb3bfe8.md",
+      "slug": "防御型AI反伤用户复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-02T11:15:11.040Z",
+      "topic_id": "sources/2026-08-02/sopilot-hot-2083808984486855124-6c7aedf7.md",
+      "slug": "DeepSeek-V4-Flash翻译实测",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-08-02T11:16:12.656Z",
+      "topic_id": "sources/2026-08-02/sopilot-hot-2083656053397631390-fb9d1620.md",
+      "slug": "AI产品如何降低模型租金",
+      "error": "generated markdown for AI 产品不必永远给 OpenAI 交租：模型路由如何把增长从成本变成优势 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-02T11:17:05.875Z",
+      "topic_id": "sources/2026-08-02/sopilot-hot-2083656053397631390-fb9d1620.md",
+      "slug": "AI产品如何降低模型租金",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-02T11:18:00.374Z",
+      "topic_id": "sources/2026-08-02/vllm-releases-60d6ae5a.md",
+      "slug": "vLLM-0.26升级指南",
+      "error": ""
+    }
+  ]
+}
