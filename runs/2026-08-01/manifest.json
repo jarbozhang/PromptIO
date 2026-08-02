@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-01",
+  "created_at": "2026-08-01T11:18:41.293Z",
+  "updated_at": "2026-08-01T11:21:57.237Z",
+  "source_count": 139,
+  "topics": [
+    {
+      "id": "sources/2026-08-01/sopilot-hot-2083456971475390706-99649014.md",
+      "file": "sources/2026-08-01/sopilot-hot-2083456971475390706-99649014.md",
+      "slug": "不到12GB内存运行MiniCPM-o-4.5",
+      "title": "不到 12GB 内存也能跑多模态模型：MiniCPM-o 4.5 揭示端侧 AI 的下一步",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "trend_argument",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.027,
+      "reach_note": "MiniCPM 与端侧 AI 具备中文读者认知，不到 12GB 内存是清晰利益点，本地运行方向也可立即验证。",
+      "selection_reason": "它为当天提供模型价格战之外的趋势判断，并把宏观的“智能普及”落到硬件预算、隐私和任务迁移决策上。",
+      "selected_at": "2026-08-01T11:18:41.294Z",
+      "updated_at": "2026-08-01T11:19:27.500Z",
+      "draft_ready_at": "2026-08-01T11:19:27.500Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-01/不到 12GB 内存也能跑多模态模型：MiniCPM-o 4.5 揭示端侧 AI 的下一步",
+      "meta_path": "drafts/2026-08-01/不到 12GB 内存也能跑多模态模型：MiniCPM-o 4.5 揭示端侧 AI 的下一步/不到 12GB 内存也能跑多模态模型：MiniCPM-o 4.5 揭示端侧 AI 的下一步.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-01/github-trending-f4dc7845.md",
+      "file": "sources/2026-08-01/github-trending-f4dc7845.md",
+      "slug": "免费提示词库prompts-chat使用与自托管",
+      "title": "16 万星的免费提示词库 prompts.chat：什么时候直接用，什么时候应该自己托管",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.037,
+      "reach_note": "ChatGPT 具备品牌认知，免费开源是明确利益点，读者可以立即访问项目或部署自己的提示词库。",
+      "selection_reason": "它面向创作者和普通用户，不依赖复杂开发背景，同时具备免费、可试用和隐私自托管三个传播抓手。",
+      "selected_at": "2026-08-01T11:18:41.294Z",
+      "updated_at": "2026-08-01T11:20:27.108Z",
+      "draft_ready_at": "2026-08-01T11:20:27.108Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-01/16 万星的免费提示词库 prompts.chat：什么时候直接用，什么时候应该自己托管",
+      "meta_path": "drafts/2026-08-01/16 万星的免费提示词库 prompts.chat：什么时候直接用，什么时候应该自己托管/16 万星的免费提示词库 prompts.chat：什么时候直接用，什么时候应该自己托管.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-01/x-dotey-7bdc7718.md",
+      "file": "sources/2026-08-01/x-dotey-7bdc7718.md",
+      "slug": "DeepSeek-V4-Flash一条命令接入Codex",
+      "title": "DeepSeek V4-Flash 正式版接入 Codex：一条命令切换，编程成本降到什么程度",
+      "status": "draft_ready",
+      "reach": 10,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.056,
+      "reach_note": "DeepSeek 与 Codex 都有品牌认知，标题同时给出低成本利益点和可立即执行的接入动作。",
+      "selection_reason": "这是当天最强的版本与省钱选题，既有明确的新能力，也能直接转化成配置、试跑和成本判断。",
+      "selected_at": "2026-08-01T11:18:41.294Z",
+      "updated_at": "2026-08-01T11:21:27.518Z",
+      "draft_ready_at": "2026-08-01T11:21:27.517Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-01/DeepSeek V4-Flash 正式版接入 Codex：一条命令切换，编程成本降到什么程度",
+      "meta_path": "drafts/2026-08-01/DeepSeek V4-Flash 正式版接入 Codex：一条命令切换，编程成本降到什么程度/DeepSeek V4-Flash 正式版接入 Codex：一条命令切换，编程成本降到什么程度.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-01/openai-python-sdk-releases-65a1a29f.md",
+      "file": "sources/2026-08-01/openai-python-sdk-releases-65a1a29f.md",
+      "slug": "OpenAI-Python-SDK-2.52升级要点",
+      "title": "OpenAI Python SDK 2.52.0 值得升级：内容溯源、重试等待和 mTLS 配置一次看懂",
+      "status": "draft_failed",
+      "reach": 7,
+      "content_lane": "version-update",
+      "content_archetype": "reference_card",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.042,
+      "reach_note": "OpenAI 提供品牌认知，版本修复直接关系接口稳定性，并可通过升级与回归请求立即验证。",
+      "selection_reason": "官方 release 是可靠事实主源，三个变化分别覆盖可信内容、限流恢复和密钥传输，实用密度高于普通补丁新闻。",
+      "selected_at": "2026-08-01T11:18:41.295Z",
+      "updated_at": "2026-08-01T11:21:57.237Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "2026-08-01T11:21:57.237Z",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": "codex failed with exit code 1: OpenAI Codex v0.145.0\n--------\nworkdir: /Users/jiabozhang/Documents/CA001/openclaw/PromptIO\nmodel: gpt-5.6-sol\nprovider: OpenAI\napproval: never\nsandbox: read-only\nreasoning effort: low\nreasoning summaries: none\nsession id: 019fbd0e-f104-7e72-b2ec-58691226e39e\n--------\nuser\n你是 PromptIO 的中文内容生成代理。用户已经指定了一篇文章作为源材料，你要生成一份可同时用于公众号和小红书的主稿。\n\n必须只返回 JSON，不要解释，不要使用 markdown code fence。\n\nJSON schema:\n{\n  \"title\": \"默认主标题，必须按小红书标题要求生成，可同时作为公众号标题\",\n  \"slug\": \"中文可读目录名，优先接近最终标题，不要纯英文，不要纯拼音\",\n  \"reach\": 1,\n  \"tags\": [\"tag\"],\n  \"wechat\": \"# 标题\\n\\n主稿 markdown\",\n  \"wechat_title\": \"可选，公众号备用标题；没有更合适标题时留空\",\n  \"xhs_title\": \"小红书发布标题，默认应与 title 完全一致\",\n  \"cover_prompt\": \"给 gpt-image-2 的英文封面图提示词，不要让图中出现任何文字\"\n}\n\n主稿要求:\n- 严格遵守下面的 wechat.md 写作规范。\n- 以 H1 开头，不要 YAML frontmatter。\n- 相关链接和 REACH/QA 等内部标记只保留在 Markdown/元数据中，发布适配器会剥离；不得把它们作为读者可见正文。\n- 事实必须来自源材料，不能编造实测、价格、发布日期或社区反馈。\n- 如果源材料不足以支撑亲测视角，不要写成亲测，改用 narrative 或 analytical。\n- 内部写作约束不能进入正文。不要把“[redacted] / [redacted] / [redacted] / [redacted]信息边界 / [redacted]”等 prompt 规则写给读者。\n"
+    },
+    {
+      "id": "sources/2026-08-01/openai-blog-07a59789.md",
+      "file": "sources/2026-08-01/openai-blog-07a59789.md",
+      "slug": "OpenAI模型评测安全事故复盘",
+      "title": "OpenAI 模型评测为何变成安全事故：一次 Hugging Face 事件留下的部署教训",
+      "status": "topics_selected",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.047,
+      "reach_note": "OpenAI 与 Hugging Face 都有品牌认知，事故直接涉及代码和凭据风险，读者可据此检查自己的评测环境。",
+      "selection_reason": "它提供当天必需的风险复盘，并能把抽象安全讨论转化为模型评测和工具调用环境的具体防线。",
+      "selected_at": "2026-08-01T11:18:41.295Z",
+      "updated_at": "2026-08-01T11:18:41.295Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-01/openai-blog-232de1e5.md",
+      "file": "sources/2026-08-01/openai-blog-232de1e5.md",
+      "slug": "两个设置让OpenAI跑分翻三倍",
+      "title": "OpenAI 只改两个设置，ARC-AGI-3 成绩翻三倍：模型跑分不只是在测模型",
+      "status": "topics_selected",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "myth_busting",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 98,
+      "recent_similarity": 0.043,
+      "reach_note": "OpenAI 带来品牌认知，两个设置产生三倍变化是强利益点，读者可据此检查自己的评测参数。",
+      "selection_reason": "它不是又一篇跑分新闻，而是能帮助读者重新判断模型榜单、评测公平性和 API 配置价值的反常识题目。",
+      "selected_at": "2026-08-01T11:18:41.295Z",
+      "updated_at": "2026-08-01T11:18:41.295Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-01/sopilot-hot-2083238711949734224-66ad0fc9.md",
+      "file": "sources/2026-08-01/sopilot-hot-2083238711949734224-66ad0fc9.md",
+      "slug": "用Codex给3D游戏做可视化编辑器",
+      "title": "别再用文字调整 3D 场景：我让 Codex 给游戏做了一个可视化编辑器",
+      "status": "topics_selected",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.027,
+      "reach_note": "Codex 具备品牌认知，可视化编辑器带来明确省时收益，读者也能照着为自己的交互项目增加同类界面。",
+      "selection_reason": "它把热门工具落到具体创作场景，既适合公众号讲完整开发链条，也适合小红书展示前后效果。",
+      "selected_at": "2026-08-01T11:18:41.296Z",
+      "updated_at": "2026-08-01T11:18:41.296Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-01T11:18:41.293Z",
+      "source_count": 139
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-01T11:18:41.294Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-01T11:18:41.294Z",
+      "topic_id": "sources/2026-08-01/sopilot-hot-2083456971475390706-99649014.md",
+      "slug": "不到12GB内存运行MiniCPM-o-4.5"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-01T11:18:41.294Z",
+      "topic_id": "sources/2026-08-01/github-trending-f4dc7845.md",
+      "slug": "免费提示词库prompts-chat使用与自托管"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-01T11:18:41.294Z",
+      "topic_id": "sources/2026-08-01/x-dotey-7bdc7718.md",
+      "slug": "DeepSeek-V4-Flash一条命令接入Codex"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-01T11:18:41.295Z",
+      "topic_id": "sources/2026-08-01/openai-python-sdk-releases-65a1a29f.md",
+      "slug": "OpenAI-Python-SDK-2.52升级要点"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-01T11:18:41.295Z",
+      "topic_id": "sources/2026-08-01/openai-blog-07a59789.md",
+      "slug": "OpenAI模型评测安全事故复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-01T11:18:41.295Z",
+      "topic_id": "sources/2026-08-01/openai-blog-232de1e5.md",
+      "slug": "两个设置让OpenAI跑分翻三倍"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-01T11:18:41.296Z",
+      "topic_id": "sources/2026-08-01/sopilot-hot-2083238711949734224-66ad0fc9.md",
+      "slug": "用Codex给3D游戏做可视化编辑器"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-01T11:19:27.500Z",
+      "topic_id": "sources/2026-08-01/sopilot-hot-2083456971475390706-99649014.md",
+      "slug": "不到12GB内存运行MiniCPM-o-4.5",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-01T11:20:27.108Z",
+      "topic_id": "sources/2026-08-01/github-trending-f4dc7845.md",
+      "slug": "免费提示词库prompts-chat使用与自托管",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-01T11:21:27.518Z",
+      "topic_id": "sources/2026-08-01/x-dotey-7bdc7718.md",
+      "slug": "DeepSeek-V4-Flash一条命令接入Codex",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-08-01T11:21:40.690Z",
+      "topic_id": "sources/2026-08-01/openai-python-sdk-releases-65a1a29f.md",
+      "slug": "OpenAI-Python-SDK-2.52升级要点",
+      "error": "codex failed with exit code 1: OpenAI Codex v0.145.0\n--------\nworkdir: /Users/jiabozhang/Documents/CA001/openclaw/PromptIO\nmodel: gpt-5.6-sol\nprovider: OpenAI\napproval: never\nsandbox: read-only\nreasoning effort: low\nreasoning summaries: none\nsession id: 019fbd0e-bd42-7980-b7a8-42b25298eb05\n--------\nuser\n你是 PromptIO 的中文内容生成代理。用户已经指定了一篇文章作为源材料，你要生成一份可同时用于公众号和小红书的主稿。\n\n必须只返回 JSON，不要解释，不要使用 markdown code fence。\n\nJSON schema:\n{\n  \"title\": \"默认主标题，必须按小红书标题要求生成，可同时作为公众号标题\",\n  \"slug\": \"中文可读目录名，优先接近最终标题，不要纯英文，不要纯拼音\",\n  \"reach\": 1,\n  \"tags\": [\"tag\"],\n  \"wechat\": \"# 标题\\n\\n主稿 markdown\",\n  \"wechat_title\": \"可选，公众号备用标题；没有更合适标题时留空\",\n  \"xhs_title\": \"小红书发布标题，默认应与 title 完全一致\",\n  \"cover_prompt\": \"给 gpt-image-2 的英文封面图提示词，不要让图中出现任何文字\"\n}\n\n主稿要求:\n- 严格遵守下面的 wechat.md 写作规范。\n- 以 H1 开头，不要 YAML frontmatter。\n- 相关链接和 REACH/QA 等内部标记只保留在 Markdown/元数据中，发布适配器会剥离；不得把它们作为读者可见正文。\n- 事实必须来自源材料，不能编造实测、价格、发布日期或社区反馈。\n- 如果源材料不足以支撑亲测视角，不要写成亲测，改用 narrative 或 analytical。\n- 内部写作约束不能进入正文。不要把“[redacted] / [redacted] / [redacted] / [redacted]信息边界 / [redacted]”等 prompt 规则写给读者。\n"
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-08-01T11:21:57.237Z",
+      "topic_id": "sources/2026-08-01/openai-python-sdk-releases-65a1a29f.md",
+      "slug": "OpenAI-Python-SDK-2.52升级要点",
+      "error": "codex failed with exit code 1: OpenAI Codex v0.145.0\n--------\nworkdir: /Users/jiabozhang/Documents/CA001/openclaw/PromptIO\nmodel: gpt-5.6-sol\nprovider: OpenAI\napproval: never\nsandbox: read-only\nreasoning effort: low\nreasoning summaries: none\nsession id: 019fbd0e-f104-7e72-b2ec-58691226e39e\n--------\nuser\n你是 PromptIO 的中文内容生成代理。用户已经指定了一篇文章作为源材料，你要生成一份可同时用于公众号和小红书的主稿。\n\n必须只返回 JSON，不要解释，不要使用 markdown code fence。\n\nJSON schema:\n{\n  \"title\": \"默认主标题，必须按小红书标题要求生成，可同时作为公众号标题\",\n  \"slug\": \"中文可读目录名，优先接近最终标题，不要纯英文，不要纯拼音\",\n  \"reach\": 1,\n  \"tags\": [\"tag\"],\n  \"wechat\": \"# 标题\\n\\n主稿 markdown\",\n  \"wechat_title\": \"可选，公众号备用标题；没有更合适标题时留空\",\n  \"xhs_title\": \"小红书发布标题，默认应与 title 完全一致\",\n  \"cover_prompt\": \"给 gpt-image-2 的英文封面图提示词，不要让图中出现任何文字\"\n}\n\n主稿要求:\n- 严格遵守下面的 wechat.md 写作规范。\n- 以 H1 开头，不要 YAML frontmatter。\n- 相关链接和 REACH/QA 等内部标记只保留在 Markdown/元数据中，发布适配器会剥离；不得把它们作为读者可见正文。\n- 事实必须来自源材料，不能编造实测、价格、发布日期或社区反馈。\n- 如果源材料不足以支撑亲测视角，不要写成亲测，改用 narrative 或 analytical。\n- 内部写作约束不能进入正文。不要把“[redacted] / [redacted] / [redacted] / [redacted]信息边界 / [redacted]”等 prompt 规则写给读者。\n"
+    }
+  ]
+}
