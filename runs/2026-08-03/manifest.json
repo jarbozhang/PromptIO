@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-03",
+  "created_at": "2026-08-03T11:18:54.148Z",
+  "updated_at": "2026-08-03T11:25:15.798Z",
+  "source_count": 141,
+  "topics": [
+    {
+      "id": "sources/2026-08-03/x-shao__meng-78dab662.md",
+      "file": "sources/2026-08-03/x-shao__meng-78dab662.md",
+      "slug": "19条规则提升界面高级感",
+      "title": "界面总差一点高级感？用 19 条规则把细节问题逐个找出来",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.021,
+      "reach_note": "提升界面质感是清晰利益点，19 条可量化规则能够直接用于正在制作的网页和产品。",
+      "selection_reason": "源材料细节充足、演示性强，能产出前后对照明显的实操内容，也为当天选题补充设计与创作者场景。",
+      "selected_at": "2026-08-03T11:18:54.149Z",
+      "updated_at": "2026-08-03T11:19:47.826Z",
+      "draft_ready_at": "2026-08-03T11:19:47.826Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-03/界面总差一点高级感？用 19 条规则把细节问题逐个找出来",
+      "meta_path": "drafts/2026-08-03/界面总差一点高级感？用 19 条规则把细节问题逐个找出来/界面总差一点高级感？用 19 条规则把细节问题逐个找出来.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-03/github-trending-978e35c6.md",
+      "file": "sources/2026-08-03/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-8月新版上手",
+      "title": "Hermes Agent 8月新版观察：它解决了什么，又该怎么开始用",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.039,
+      "reach_note": "NousResearch/Hermes 是重点生态品牌，新版本信息明确，而且读者可以直接进入 GitHub 验证并开始使用。",
+      "selection_reason": "项目热度高且与 openclaw 生态高度相关，适合做一篇兼顾版本变化、实际问题和上手路径的更新解读。",
+      "selected_at": "2026-08-03T11:18:54.149Z",
+      "updated_at": "2026-08-03T11:20:35.420Z",
+      "draft_ready_at": "2026-08-03T11:20:35.419Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-03/Hermes Agent 8月新版观察，它解决了什么，又该怎么开始用",
+      "meta_path": "drafts/2026-08-03/Hermes Agent 8月新版观察，它解决了什么，又该怎么开始用/Hermes Agent 8月新版观察，它解决了什么，又该怎么开始用.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-03/mit-technology-review-ai-e4b3c3d5.md",
+      "file": "sources/2026-08-03/mit-technology-review-ai-e4b3c3d5.md",
+      "slug": "OpenAI模型越界攻击复盘",
+      "title": "OpenAI 模型为何会为完成任务而越界：一次真实攻击的失败复盘",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.043,
+      "reach_note": "OpenAI 和 Hugging Face 具备品牌认知，真实安全事故关系到代码与数据风险，并能转化为立即可执行的权限收缩措施。",
+      "selection_reason": "当天素材中少有的完整风险案例，既有传播性，也能让使用自动执行系统的团队建立具体防线。",
+      "selected_at": "2026-08-03T11:18:54.150Z",
+      "updated_at": "2026-08-03T11:21:38.637Z",
+      "draft_ready_at": "2026-08-03T11:21:38.637Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-03/OpenAI 模型为何会为完成任务而越界：一次真实攻击的失败复盘",
+      "meta_path": "drafts/2026-08-03/OpenAI 模型为何会为完成任务而越界：一次真实攻击的失败复盘/OpenAI 模型为何会为完成任务而越界：一次真实攻击的失败复盘.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-03/sopilot-hot-2084084984051036435-4c309384.md",
+      "file": "sources/2026-08-03/sopilot-hot-2084084984051036435-4c309384.md",
+      "slug": "用DeepSeek辅导孩子学编程",
+      "title": "用 DeepSeek 辅导孩子学编程，两年后最重要的不是答案而是克制",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.028,
+      "reach_note": "DeepSeek、Kimi 等品牌认知度高，家长能获得省辅导成本的具体方法，并可马上调整孩子使用 AI 的方式。",
+      "selection_reason": "它把 AI 教育从泛泛而谈落到真实家庭实践，同时包含成功经验、纪律边界和反直觉教训，适合公众号与小红书双端表达。",
+      "selected_at": "2026-08-03T11:18:54.150Z",
+      "updated_at": "2026-08-03T11:22:38.281Z",
+      "draft_ready_at": "2026-08-03T11:22:38.281Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-03/用 DeepSeek 辅导孩子学编程，两年后最重要的不是答案而是克制",
+      "meta_path": "drafts/2026-08-03/用 DeepSeek 辅导孩子学编程，两年后最重要的不是答案而是克制/用 DeepSeek 辅导孩子学编程，两年后最重要的不是答案而是克制.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-03/vllm-releases-d5583501.md",
+      "file": "sources/2026-08-03/vllm-releases-d5583501.md",
+      "slug": "vLLM-0.25升级指南",
+      "title": "vLLM 0.25 升级指南：默认执行路径变了，部署前先看这几项",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.039,
+      "reach_note": "vLLM 在模型部署读者中认知度高，版本变化直接影响性能和兼容性，读者可以立即检查现有部署。",
+      "selection_reason": "release 信息完整且变化涉及默认行为，既有明确操作价值，也能避免用户未经验证直接升级造成服务异常。",
+      "selected_at": "2026-08-03T11:18:54.150Z",
+      "updated_at": "2026-08-03T11:23:33.802Z",
+      "draft_ready_at": "2026-08-03T11:23:33.802Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-03/vLLM 0.25 升级指南：默认执行路径变了，部署前先看这几项",
+      "meta_path": "drafts/2026-08-03/vLLM 0.25 升级指南：默认执行路径变了，部署前先看这几项/vLLM 0.25 升级指南：默认执行路径变了，部署前先看这几项.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-03/sopilot-hot-2084079456839201142-a9ea69d7.md",
+      "file": "sources/2026-08-03/sopilot-hot-2084079456839201142-a9ea69d7.md",
+      "slug": "云厂正在拿回AI主导权",
+      "title": "Google、微软和亚马逊正在拿回 AI 主导权：团队真正该锁定什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 98,
+      "recent_similarity": 0.03,
+      "reach_note": "Google、微软、亚马逊和 OpenAI 都有强品牌认知，结论直接影响企业采购、架构和供应商锁定成本。",
+      "selection_reason": "原帖提供了完整论证和财报数据线索，适合从行业新闻提升为可用于产品与技术决策的趋势判断。",
+      "selected_at": "2026-08-03T11:18:54.151Z",
+      "updated_at": "2026-08-03T11:24:38.626Z",
+      "draft_ready_at": "2026-08-03T11:24:38.626Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-03/Google、微软和亚马逊正在拿回 AI 主导权：团队真正该锁定什么",
+      "meta_path": "drafts/2026-08-03/Google、微软和亚马逊正在拿回 AI 主导权：团队真正该锁定什么/Google、微软和亚马逊正在拿回 AI 主导权：团队真正该锁定什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-03/alignment-forum-c42da68a.md",
+      "file": "sources/2026-08-03/alignment-forum-c42da68a.md",
+      "slug": "识别Claude的价值泄漏",
+      "title": "问 Claude 投资问题时，它可能悄悄偏向自己：如何识别价值泄漏",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "myth_busting",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.027,
+      "reach_note": "Claude 与 OpenAI 具备品牌认知，隐性偏差关系到投资和决策质量，读者可以立即用对照提问自行验证。",
+      "selection_reason": "主题反常识且有现实决策风险，能够把抽象的模型偏见研究转化为普通用户可执行的核验方法。",
+      "selected_at": "2026-08-03T11:18:54.151Z",
+      "updated_at": "2026-08-03T11:25:15.798Z",
+      "draft_ready_at": "2026-08-03T11:25:15.797Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-03/问 Claude 投资问题时，它可能悄悄偏向自己：如何识别价值泄漏",
+      "meta_path": "drafts/2026-08-03/问 Claude 投资问题时，它可能悄悄偏向自己：如何识别价值泄漏/问 Claude 投资问题时，它可能悄悄偏向自己：如何识别价值泄漏.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-03T11:18:54.148Z",
+      "source_count": 141
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-03T11:18:54.149Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-03T11:18:54.149Z",
+      "topic_id": "sources/2026-08-03/x-shao__meng-78dab662.md",
+      "slug": "19条规则提升界面高级感"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-03T11:18:54.149Z",
+      "topic_id": "sources/2026-08-03/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-8月新版上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-03T11:18:54.150Z",
+      "topic_id": "sources/2026-08-03/mit-technology-review-ai-e4b3c3d5.md",
+      "slug": "OpenAI模型越界攻击复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-03T11:18:54.150Z",
+      "topic_id": "sources/2026-08-03/sopilot-hot-2084084984051036435-4c309384.md",
+      "slug": "用DeepSeek辅导孩子学编程"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-03T11:18:54.150Z",
+      "topic_id": "sources/2026-08-03/vllm-releases-d5583501.md",
+      "slug": "vLLM-0.25升级指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-03T11:18:54.151Z",
+      "topic_id": "sources/2026-08-03/sopilot-hot-2084079456839201142-a9ea69d7.md",
+      "slug": "云厂正在拿回AI主导权"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-03T11:18:54.151Z",
+      "topic_id": "sources/2026-08-03/alignment-forum-c42da68a.md",
+      "slug": "识别Claude的价值泄漏"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-03T11:19:47.826Z",
+      "topic_id": "sources/2026-08-03/x-shao__meng-78dab662.md",
+      "slug": "19条规则提升界面高级感",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-03T11:20:35.420Z",
+      "topic_id": "sources/2026-08-03/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-8月新版上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-03T11:21:38.637Z",
+      "topic_id": "sources/2026-08-03/mit-technology-review-ai-e4b3c3d5.md",
+      "slug": "OpenAI模型越界攻击复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-03T11:22:38.281Z",
+      "topic_id": "sources/2026-08-03/sopilot-hot-2084084984051036435-4c309384.md",
+      "slug": "用DeepSeek辅导孩子学编程",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-03T11:23:33.802Z",
+      "topic_id": "sources/2026-08-03/vllm-releases-d5583501.md",
+      "slug": "vLLM-0.25升级指南",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-03T11:24:38.626Z",
+      "topic_id": "sources/2026-08-03/sopilot-hot-2084079456839201142-a9ea69d7.md",
+      "slug": "云厂正在拿回AI主导权",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-03T11:25:15.798Z",
+      "topic_id": "sources/2026-08-03/alignment-forum-c42da68a.md",
+      "slug": "识别Claude的价值泄漏",
+      "error": ""
+    }
+  ]
+}
