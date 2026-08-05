@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-05",
+  "created_at": "2026-08-05T11:10:40.955Z",
+  "updated_at": "2026-08-05T11:18:20.358Z",
+  "source_count": 139,
+  "topics": [
+    {
+      "id": "sources/2026-08-05/sopilot-hot-2084886656881213574-24739bd8.md",
+      "file": "sources/2026-08-05/sopilot-hot-2084886656881213574-24739bd8.md",
+      "slug": "豆包免费实时音视频的5个实用场景",
+      "title": "豆包免费上线实时音视频：拿起手机就能试的 5 个场景",
+      "status": "draft_ready",
+      "reach": 10,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.022,
+      "reach_note": "豆包和字节跳动认知度高，免费全量开放，并且更新 App 后即可直接体验。",
+      "selection_reason": "这是少见的低门槛多模态更新，公众号适合解释能力变化，小红书适合用真实场景展示效果与限制。",
+      "selected_at": "2026-08-05T11:10:40.956Z",
+      "updated_at": "2026-08-05T11:11:41.137Z",
+      "draft_ready_at": "2026-08-05T11:11:41.137Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-05/豆包免费上线实时音视频：拿起手机就能试的 5 个场景",
+      "meta_path": "drafts/2026-08-05/豆包免费上线实时音视频：拿起手机就能试的 5 个场景/豆包免费上线实时音视频：拿起手机就能试的 5 个场景.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-05/sopilot-hot-2084846354980073927-f1740ca8.md",
+      "file": "sources/2026-08-05/sopilot-hot-2084846354980073927-f1740ca8.md",
+      "slug": "开源项目商业化不是简单搬运",
+      "title": "把 GitHub 开源项目打包出售，真正能收费的不是“搬运”",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.022,
+      "reach_note": "GitHub 品牌、变现利益点和可执行的服务设计同时具备，也回应了读者最关心的合规风险。",
+      "selection_reason": "话题有传播力，但更有价值的切口是把信息差生意改写成可持续服务，避免鼓励侵权搬运或夸大收益。",
+      "selected_at": "2026-08-05T11:10:40.956Z",
+      "updated_at": "2026-08-05T11:13:14.451Z",
+      "draft_ready_at": "2026-08-05T11:13:14.451Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-05/把 GitHub 开源项目打包出售，真正能收费的不是“搬运”",
+      "meta_path": "drafts/2026-08-05/把 GitHub 开源项目打包出售，真正能收费的不是“搬运”/把 GitHub 开源项目打包出售，真正能收费的不是“搬运”.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-05/sopilot-hot-2084830877541142899-86d78215.md",
+      "file": "sources/2026-08-05/sopilot-hot-2084830877541142899-86d78215.md",
+      "slug": "用AI监控网页降价和补货",
+      "title": "用开源工具盯住降价和补货：网页一变化，AI 只推送重点",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.023,
+      "reach_note": "省钱和减少人工盯网页是明确利益点，项目可本地部署并立即配置监控任务。",
+      "selection_reason": "需求覆盖消费者、运营和开发者，结果容易截图展示，也能自然提醒登录自动化、通知权限和监控频率的边界。",
+      "selected_at": "2026-08-05T11:10:40.957Z",
+      "updated_at": "2026-08-05T11:14:17.832Z",
+      "draft_ready_at": "2026-08-05T11:14:17.832Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-05/用开源工具盯住降价和补货：网页一变化，AI 只推送重点",
+      "meta_path": "drafts/2026-08-05/用开源工具盯住降价和补货：网页一变化，AI 只推送重点/用开源工具盯住降价和补货：网页一变化，AI 只推送重点.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-05/transformers-releases-25627478.md",
+      "file": "sources/2026-08-05/transformers-releases-25627478.md",
+      "slug": "Kimi新模型进入Transformers",
+      "title": "Kimi K2.5 到 K2.7 进入 Transformers：本地部署前先看懂这次支持了什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.04,
+      "reach_note": "Kimi 是中文读者熟悉的品牌，新版 Transformers 提供了明确的本地加载和验证入口。",
+      "selection_reason": "官方 release 信息充足，既能解释长程编码和视觉能力，也能帮助准备本地推理的读者判断现在是否值得升级。",
+      "selected_at": "2026-08-05T11:10:40.957Z",
+      "updated_at": "2026-08-05T11:15:21.861Z",
+      "draft_ready_at": "2026-08-05T11:15:21.860Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-05/Kimi K2.5 到 K2.7 进入 Transformers，本地部署前看懂这次支持了什么",
+      "meta_path": "drafts/2026-08-05/Kimi K2.5 到 K2.7 进入 Transformers，本地部署前看懂这次支持了什么/Kimi K2.5 到 K2.7 进入 Transformers，本地部署前看懂这次支持了什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-05/vllm-releases-0026251e.md",
+      "file": "sources/2026-08-05/vllm-releases-0026251e.md",
+      "slug": "vLLM补丁修复启动与输出异常",
+      "title": "vLLM 这次补丁值得立刻升级：一个问题会阻塞启动，另一个可能悄悄破坏输出",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.033,
+      "reach_note": "避免服务无法启动和模型输出异常是明确利益点，vLLM 用户可通过升级与最小回归测试立即处理。",
+      "selection_reason": "发布说明提供了清晰根因和修复范围，能写成有技术细节、又能指导线上排查的故障复盘。",
+      "selected_at": "2026-08-05T11:10:40.957Z",
+      "updated_at": "2026-08-05T11:16:19.799Z",
+      "draft_ready_at": "2026-08-05T11:16:19.799Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-05/vLLM 这次补丁值得立刻升级，一个问题会阻塞启动，另一个可能悄悄破坏输出",
+      "meta_path": "drafts/2026-08-05/vLLM 这次补丁值得立刻升级，一个问题会阻塞启动，另一个可能悄悄破坏输出/vLLM 这次补丁值得立刻升级，一个问题会阻塞启动，另一个可能悄悄破坏输出.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-05/sopilot-hot-2084874555080745278-32fc806f.md",
+      "file": "sources/2026-08-05/sopilot-hot-2084874555080745278-32fc806f.md",
+      "slug": "自主AI任务的四道安全边界",
+      "title": "OpenAI 和 Anthropic 模型出现越权行动：给自主任务加上这四道边界",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.04,
+      "reach_note": "OpenAI 和 Anthropic 具备品牌认知，越权风险关系到真实资产，团队可立即检查权限与审批设置。",
+      "selection_reason": "相比泛泛讨论“模型失控”，权限边界和审计动作更能帮助正在使用自动执行能力的团队降低实际风险。",
+      "selected_at": "2026-08-05T11:10:40.957Z",
+      "updated_at": "2026-08-05T11:17:20.745Z",
+      "draft_ready_at": "2026-08-05T11:17:20.745Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-05/OpenAI 和 Anthropic 模型出现越权行动：给自主任务加上这四道边界",
+      "meta_path": "drafts/2026-08-05/OpenAI 和 Anthropic 模型出现越权行动：给自主任务加上这四道边界/OpenAI 和 Anthropic 模型出现越权行动：给自主任务加上这四道边界.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-05/x-chenchengpro-531d9737.md",
+      "file": "sources/2026-08-05/x-chenchengpro-531d9737.md",
+      "slug": "Skills中央仓库管理法",
+      "title": "Skills 装得越多越慢？一套中央仓库管理法解决同步和上下文膨胀",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "reference_card",
+      "diversity_note": "checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 106,
+      "recent_similarity": 0.034,
+      "reach_note": "直接命中 Codex 等代码工具用户的速度和维护成本痛点，并给出了可复用的仓库与同步方案。",
+      "selection_reason": "这不是单纯推荐更多扩展，而是解决扩展过多后的真实维护问题，适合沉淀成团队可以直接采用的目录约定。",
+      "selected_at": "2026-08-05T11:10:40.958Z",
+      "updated_at": "2026-08-05T11:18:20.358Z",
+      "draft_ready_at": "2026-08-05T11:18:20.358Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-05/Skills 装得越多越慢？一套中央仓库管理法解决同步和上下文膨胀",
+      "meta_path": "drafts/2026-08-05/Skills 装得越多越慢？一套中央仓库管理法解决同步和上下文膨胀/Skills 装得越多越慢？一套中央仓库管理法解决同步和上下文膨胀.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-05T11:10:40.955Z",
+      "source_count": 139
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-05T11:10:40.956Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-05T11:10:40.956Z",
+      "topic_id": "sources/2026-08-05/sopilot-hot-2084886656881213574-24739bd8.md",
+      "slug": "豆包免费实时音视频的5个实用场景"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-05T11:10:40.956Z",
+      "topic_id": "sources/2026-08-05/sopilot-hot-2084846354980073927-f1740ca8.md",
+      "slug": "开源项目商业化不是简单搬运"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-05T11:10:40.957Z",
+      "topic_id": "sources/2026-08-05/sopilot-hot-2084830877541142899-86d78215.md",
+      "slug": "用AI监控网页降价和补货"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-05T11:10:40.957Z",
+      "topic_id": "sources/2026-08-05/transformers-releases-25627478.md",
+      "slug": "Kimi新模型进入Transformers"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-05T11:10:40.957Z",
+      "topic_id": "sources/2026-08-05/vllm-releases-0026251e.md",
+      "slug": "vLLM补丁修复启动与输出异常"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-05T11:10:40.957Z",
+      "topic_id": "sources/2026-08-05/sopilot-hot-2084874555080745278-32fc806f.md",
+      "slug": "自主AI任务的四道安全边界"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-05T11:10:40.958Z",
+      "topic_id": "sources/2026-08-05/x-chenchengpro-531d9737.md",
+      "slug": "Skills中央仓库管理法"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-05T11:11:41.137Z",
+      "topic_id": "sources/2026-08-05/sopilot-hot-2084886656881213574-24739bd8.md",
+      "slug": "豆包免费实时音视频的5个实用场景",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-05T11:13:14.451Z",
+      "topic_id": "sources/2026-08-05/sopilot-hot-2084846354980073927-f1740ca8.md",
+      "slug": "开源项目商业化不是简单搬运",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-05T11:14:17.832Z",
+      "topic_id": "sources/2026-08-05/sopilot-hot-2084830877541142899-86d78215.md",
+      "slug": "用AI监控网页降价和补货",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-05T11:15:21.861Z",
+      "topic_id": "sources/2026-08-05/transformers-releases-25627478.md",
+      "slug": "Kimi新模型进入Transformers",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-05T11:16:19.799Z",
+      "topic_id": "sources/2026-08-05/vllm-releases-0026251e.md",
+      "slug": "vLLM补丁修复启动与输出异常",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-05T11:17:20.745Z",
+      "topic_id": "sources/2026-08-05/sopilot-hot-2084874555080745278-32fc806f.md",
+      "slug": "自主AI任务的四道安全边界",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-05T11:18:20.358Z",
+      "topic_id": "sources/2026-08-05/x-chenchengpro-531d9737.md",
+      "slug": "Skills中央仓库管理法",
+      "error": ""
+    }
+  ]
+}
