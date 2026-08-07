@@ -1,0 +1,14 @@
+---
+title: 'First Jeff, now this. Unprecedented times.'
+source: X @tunguz
+url: 'https://x.com/tunguz/status/2085112770090139847'
+date: 'Wed Aug 05 21:16:38 +0000 2026'
+likes: 115
+reposts: 0
+replies: 5
+source_type: x
+language: en
+account_name: Tomasz Tunguz
+fetched_at: '2026-08-06T11:13:27.401Z'
+---
+First Jeff, now this. Unprecedented times.
