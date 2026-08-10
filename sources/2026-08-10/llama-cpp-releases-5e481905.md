@@ -1,0 +1,52 @@
+---
+title: b10331
+url: 'https://github.com/ggml-org/llama.cpp/releases/tag/b10331'
+source: llama.cpp Releases
+source_type: rss
+language: en
+published: '2026-08-08T23:28:06.000Z'
+fetched_at: '2026-08-10T11:02:38.623Z'
+---
+server: report the isolate working directory from get_info (#26773)
+server: report the isolate working directory from get_info
+Without an explicit cwd, get_info fell back to the server process
+It now asks the isolate for its working directory in that case, and
+remove redundant comment
+Co-authored-by: Xuan-Son Nguyen thichthat@gmail.com
+Website:
+https://llama.app
+macOS/iOS:
+macOS Apple Silicon (arm64)
+macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED
+macOS Intel (x64)
+iOS XCFramework
+Linux:
+Ubuntu x64 (CPU)
+Ubuntu arm64 (CPU)
+Ubuntu s390x (CPU)
+Ubuntu x64 (Vulkan)
+Ubuntu arm64 (Vulkan)
+Ubuntu x64 (ROCm 7.2)
+Ubuntu x64 (OpenVINO)
+Ubuntu x64 (SYCL FP32)
+Ubuntu x64 (SYCL FP16)
+Android:
+Android arm64 (CPU)
+Windows:
+Windows x64 (CPU)
+Windows arm64 (CPU)
+Windows arm64 (OpenCL Adreno)
+Windows x64 (CUDA 12) - CUDA 12.4 DLLs
+Windows x64 (CUDA 13) - CUDA 13.3 DLLs
+Windows x64 (Vulkan)
+Windows x64 (OpenVINO)
+Windows x64 (SYCL)
+Windows x64 (HIP)
+openEuler:
+DISABLED
+openEuler x86 (310p)
+openEuler x86 (910b, ACL Graph)
+openEuler aarch64 (310p)
+openEuler aarch64 (910b, ACL Graph)
+UI:
+UI
