@@ -1,0 +1,16 @@
+---
+title: >-
+  We are doing a lot of stupid things because that’s the template for what doing
+  smart things was when we were growing up.
+source: X @tunguz
+url: 'https://x.com/tunguz/status/2086497291842756668'
+date: 'Sun Aug 09 16:58:14 +0000 2026'
+likes: 70
+reposts: 2
+replies: 7
+source_type: x
+language: en
+account_name: Tomasz Tunguz
+fetched_at: '2026-08-11T11:04:31.521Z'
+---
+We are doing a lot of stupid things because that’s the template for what doing smart things was when we were growing up.
