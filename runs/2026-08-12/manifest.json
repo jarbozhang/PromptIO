@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-12",
+  "created_at": "2026-08-12T11:19:05.669Z",
+  "updated_at": "2026-08-12T11:25:47.242Z",
+  "source_count": 145,
+  "topics": [
+    {
+      "id": "sources/2026-08-12/x-lxfater-b7a5608b.md",
+      "file": "sources/2026-08-12/x-lxfater-b7a5608b.md",
+      "slug": "OfficeCLI一条命令生成办公文档",
+      "title": "OfficeCLI 实测：用一条命令生成 PPT、Excel 和 Word，视觉复检才是关键",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.03,
+      "reach_note": "自动生成 PPT、Excel 和 Word 是明确省时利益，安装命令和可复现实测让读者能够立即动手。",
+      "selection_reason": "办公文档是开发者之外更广泛的高频场景，视觉能力参与复检也提供了区别于普通文档生成器的实测重点。",
+      "selected_at": "2026-08-12T11:19:05.670Z",
+      "updated_at": "2026-08-12T11:20:06.388Z",
+      "draft_ready_at": "2026-08-12T11:20:06.388Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-12/一条命令生成 PPT、Excel 和 Word，OfficeCLI 的关键是视觉复检",
+      "meta_path": "drafts/2026-08-12/一条命令生成 PPT、Excel 和 Word，OfficeCLI 的关键是视觉复检/一条命令生成 PPT、Excel 和 Word，OfficeCLI 的关键是视觉复检.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-12/sopilot-hot-2087424969869603182-ee2b5ec2.md",
+      "file": "sources/2026-08-12/sopilot-hot-2087424969869603182-ee2b5ec2.md",
+      "slug": "Manus收购拆分八个月复盘",
+      "title": "Manus 被收购又拆分：8 个月里产品、团队和交易分别发生了什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.028,
+      "reach_note": "Manus 具备较高品牌认知，交易撤销关系到创业者和从业者的实际利益，事件链可转化为具体决策经验。",
+      "selection_reason": "材料包含完整时间线和产品状态，能从热闹的交易故事进一步提炼团队、数据与产品连续性的实用教训。",
+      "selected_at": "2026-08-12T11:19:05.670Z",
+      "updated_at": "2026-08-12T11:21:08.251Z",
+      "draft_ready_at": "2026-08-12T11:21:08.250Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-12/Manus 被收购又拆分：8 个月里产品、团队和交易分别发生了什么",
+      "meta_path": "drafts/2026-08-12/Manus 被收购又拆分：8 个月里产品、团队和交易分别发生了什么/Manus 被收购又拆分：8 个月里产品、团队和交易分别发生了什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-12/sopilot-hot-2087377704286847246-11b7f481.md",
+      "file": "sources/2026-08-12/sopilot-hot-2087377704286847246-11b7f481.md",
+      "slug": "别把worktree设成默认",
+      "title": "别把 worktree 设成默认：什么任务值得隔离，什么任务直接开分支",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.036,
+      "reach_note": "减少依赖下载、磁盘占用和目录管理成本是明确利益，读者可立即调整项目的并行开发方式。",
+      "selection_reason": "它提供了反常识但具体的工程取舍，讨论热度和评论中的真实成本案例也足以支撑一篇不站队的决策备忘录。",
+      "selected_at": "2026-08-12T11:19:05.670Z",
+      "updated_at": "2026-08-12T11:22:08.233Z",
+      "draft_ready_at": "2026-08-12T11:22:08.233Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-12/别把 worktree 设成默认：什么任务值得隔离，什么任务直接开分支",
+      "meta_path": "drafts/2026-08-12/别把 worktree 设成默认：什么任务值得隔离，什么任务直接开分支/别把 worktree 设成默认：什么任务值得隔离，什么任务直接开分支.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-12/sopilot-hot-2087395756324147498-69298999.md",
+      "file": "sources/2026-08-12/sopilot-hot-2087395756324147498-69298999.md",
+      "slug": "隐藏推理被还原后的API安全检查",
+      "title": "OpenAI、Claude 的隐藏推理可能被还原：API 开发者该重新检查什么",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.033,
+      "reach_note": "OpenAI、Claude 都是高认知品牌，推理资产泄露是明确风险，API 团队可以立即检查响应处理与重放边界。",
+      "selection_reason": "同日多条材料指向同一研究事实，安全影响远超单个模型争议；合并去重后可形成一篇对 API 使用者真正有行动价值的风险审查。",
+      "selected_at": "2026-08-12T11:19:05.670Z",
+      "updated_at": "2026-08-12T11:23:01.671Z",
+      "draft_ready_at": "2026-08-12T11:23:01.671Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-12/OpenAI、Claude 的隐藏推理可能被还原：API 开发者该重新检查什么",
+      "meta_path": "drafts/2026-08-12/OpenAI、Claude 的隐藏推理可能被还原：API 开发者该重新检查什么/OpenAI、Claude 的隐藏推理可能被还原：API 开发者该重新检查什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-12/x-karpathy-949d982f.md",
+      "file": "sources/2026-08-12/x-karpathy-949d982f.md",
+      "slug": "Karpathy十美元生成一次性3D内容",
+      "title": "Karpathy 花约 10 美元让 Claude 写了两小时：一次性 3D 内容开始值得做了吗",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.036,
+      "reach_note": "Karpathy 和 Claude 提供品牌认知，约 10 美元完成定制 3D 场景是清晰利益，公开成品可直接体验和复刻。",
+      "selection_reason": "这个案例展示的不是常规跑分，而是过去因人工成本过高而不会被制作的内容如今开始可行，适合讨论创作边界和成本变化。",
+      "selected_at": "2026-08-12T11:19:05.671Z",
+      "updated_at": "2026-08-12T11:23:52.270Z",
+      "draft_ready_at": "2026-08-12T11:23:52.270Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-12/Karpathy 花约 10 美元让 Claude 写了两小时：一次性 3D 内容开始值得做了吗",
+      "meta_path": "drafts/2026-08-12/Karpathy 花约 10 美元让 Claude 写了两小时：一次性 3D 内容开始值得做了吗/Karpathy 花约 10 美元让 Claude 写了两小时：一次性 3D 内容开始值得做了吗.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-12/sopilot-hot-2087408637308531041-43c70e19.md",
+      "file": "sources/2026-08-12/sopilot-hot-2087408637308531041-43c70e19.md",
+      "slug": "把Claude-Code和Hermes放进云电脑",
+      "title": "把 Claude Code 和 Hermes 放进云电脑：Memoh 如何实现 7×24 小时协作",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.038,
+      "reach_note": "Claude Code、Hermes 具备品牌认知，云端持续运行有明确效率利益，项目也提供可直接体验的客户端和网页入口。",
+      "selection_reason": "它同时覆盖 openclaw、Hermes 关注人群和可落地的云端执行场景，既能写上手路径，也能讨论权限边界，而不是停留在产品介绍。",
+      "selected_at": "2026-08-12T11:19:05.671Z",
+      "updated_at": "2026-08-12T11:24:50.567Z",
+      "draft_ready_at": "2026-08-12T11:24:50.566Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-12/把 Claude Code 和 Hermes 放进云电脑：Memoh 如何实现 7×24 小时协作",
+      "meta_path": "drafts/2026-08-12/把 Claude Code 和 Hermes 放进云电脑：Memoh 如何实现 7×24 小时协作/把 Claude Code 和 Hermes 放进云电脑：Memoh 如何实现 7×24 小时协作.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-12/anthropic-python-sdk-releases-3afc102f.md",
+      "file": "sources/2026-08-12/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117更新解读",
+      "title": "Claude Python SDK 0.117.0 更新：MCP Tunnels、Dreaming 与凭证保护怎么用",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 108,
+      "recent_similarity": 0.038,
+      "reach_note": "Claude 品牌明确，新能力与凭证保护带来直接利益，Python 开发者升级后可以立即验证。",
+      "selection_reason": "这是 GitHub release 提供的事实主源，一次更新同时包含新能力和安全修复，适合做有代码验证路径的短版本解读。",
+      "selected_at": "2026-08-12T11:19:05.671Z",
+      "updated_at": "2026-08-12T11:25:47.242Z",
+      "draft_ready_at": "2026-08-12T11:25:47.241Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-12/Claude Python SDK 0.117.0 更新：MCP Tunnels、Dreaming 与凭证保护怎么用",
+      "meta_path": "drafts/2026-08-12/Claude Python SDK 0.117.0 更新：MCP Tunnels、Dreaming 与凭证保护怎么用/Claude Python SDK 0.117.0 更新：MCP Tunnels、Dreaming 与凭证保护怎么用.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-12T11:19:05.669Z",
+      "source_count": 145
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-12T11:19:05.669Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-12T11:19:05.670Z",
+      "topic_id": "sources/2026-08-12/x-lxfater-b7a5608b.md",
+      "slug": "OfficeCLI一条命令生成办公文档"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-12T11:19:05.670Z",
+      "topic_id": "sources/2026-08-12/sopilot-hot-2087424969869603182-ee2b5ec2.md",
+      "slug": "Manus收购拆分八个月复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-12T11:19:05.670Z",
+      "topic_id": "sources/2026-08-12/sopilot-hot-2087377704286847246-11b7f481.md",
+      "slug": "别把worktree设成默认"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-12T11:19:05.670Z",
+      "topic_id": "sources/2026-08-12/sopilot-hot-2087395756324147498-69298999.md",
+      "slug": "隐藏推理被还原后的API安全检查"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-12T11:19:05.671Z",
+      "topic_id": "sources/2026-08-12/x-karpathy-949d982f.md",
+      "slug": "Karpathy十美元生成一次性3D内容"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-12T11:19:05.671Z",
+      "topic_id": "sources/2026-08-12/sopilot-hot-2087408637308531041-43c70e19.md",
+      "slug": "把Claude-Code和Hermes放进云电脑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-12T11:19:05.671Z",
+      "topic_id": "sources/2026-08-12/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117更新解读"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-12T11:20:06.388Z",
+      "topic_id": "sources/2026-08-12/x-lxfater-b7a5608b.md",
+      "slug": "OfficeCLI一条命令生成办公文档",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-12T11:21:08.251Z",
+      "topic_id": "sources/2026-08-12/sopilot-hot-2087424969869603182-ee2b5ec2.md",
+      "slug": "Manus收购拆分八个月复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-12T11:22:08.233Z",
+      "topic_id": "sources/2026-08-12/sopilot-hot-2087377704286847246-11b7f481.md",
+      "slug": "别把worktree设成默认",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-12T11:23:01.671Z",
+      "topic_id": "sources/2026-08-12/sopilot-hot-2087395756324147498-69298999.md",
+      "slug": "隐藏推理被还原后的API安全检查",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-12T11:23:52.270Z",
+      "topic_id": "sources/2026-08-12/x-karpathy-949d982f.md",
+      "slug": "Karpathy十美元生成一次性3D内容",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-12T11:24:50.567Z",
+      "topic_id": "sources/2026-08-12/sopilot-hot-2087408637308531041-43c70e19.md",
+      "slug": "把Claude-Code和Hermes放进云电脑",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-12T11:25:47.242Z",
+      "topic_id": "sources/2026-08-12/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117更新解读",
+      "error": ""
+    }
+  ]
+}
