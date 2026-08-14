@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-14",
+  "created_at": "2026-08-14T11:19:41.396Z",
+  "updated_at": "2026-08-14T11:26:40.860Z",
+  "source_count": 148,
+  "topics": [
+    {
+      "id": "sources/2026-08-14/sopilot-hot-2088142739150090665-fea1c287.md",
+      "file": "sources/2026-08-14/sopilot-hot-2088142739150090665-fea1c287.md",
+      "slug": "GLM-5.3开源项目安全审计",
+      "title": "GLM-5.3 免费给开源项目查漏洞：维护者该怎么申请、验证和披露",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.022,
+      "reach_note": "智谱 GLM-5.3 具备品牌热度，免费额度是直接利益点，开源维护者可以申请并用于实际审计。",
+      "selection_reason": "该计划比单纯跑分更有行动价值，并有同日发布信息、能力数据和安全讨论相互印证。",
+      "selected_at": "2026-08-14T11:19:41.397Z",
+      "updated_at": "2026-08-14T11:20:38.610Z",
+      "draft_ready_at": "2026-08-14T11:20:38.610Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-14/GLM-5.3 免费给开源项目查漏洞：维护者该怎么申请、验证和披露",
+      "meta_path": "drafts/2026-08-14/GLM-5.3 免费给开源项目查漏洞：维护者该怎么申请、验证和披露/GLM-5.3 免费给开源项目查漏洞：维护者该怎么申请、验证和披露.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-14/google-ai-blog-3ce791ab.md",
+      "file": "sources/2026-08-14/google-ai-blog-3ce791ab.md",
+      "slug": "Google免费AI编程课程的学习路径",
+      "title": "Google 的 35.3 万人免费课程，透露了普通人学 AI 编程的有效路径",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.027,
+      "reach_note": "Google 品牌、免费学习机会和可执行课程路径三项齐备，对希望入门或补齐实践经验的读者吸引力强。",
+      "selection_reason": "官方课程复盘提供了真实参与规模和教学场景，能写成学习产品案例，也能给读者明确的行动参照。",
+      "selected_at": "2026-08-14T11:19:41.397Z",
+      "updated_at": "2026-08-14T11:22:00.903Z",
+      "draft_ready_at": "2026-08-14T11:22:00.903Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-14/Google 的 35.3 万人免费课程，透露了普通人学 AI 编程的有效路径",
+      "meta_path": "drafts/2026-08-14/Google 的 35.3 万人免费课程，透露了普通人学 AI 编程的有效路径/Google 的 35.3 万人免费课程，透露了普通人学 AI 编程的有效路径.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-14/anthropic-python-sdk-releases-3b3883cb.md",
+      "file": "sources/2026-08-14/anthropic-python-sdk-releases-3b3883cb.md",
+      "slug": "Claude-Python-SDK-0.122升级重点",
+      "title": "Claude Python SDK 0.122 发布：这几个异步与流式修复值得马上升级",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.04,
+      "reach_note": "Claude 品牌明确，升级动作可以立即执行，多项修复直接关系到异步客户端和工具调用稳定性。",
+      "selection_reason": "官方 release 提供了完整、具体的变更事实，适合转化为开发者能直接核对依赖和回归风险的版本简报。",
+      "selected_at": "2026-08-14T11:19:41.398Z",
+      "updated_at": "2026-08-14T11:22:46.444Z",
+      "draft_ready_at": "2026-08-14T11:22:46.444Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-14/Claude Python SDK 0.122 发布：这几个异步与流式修复值得马上升级",
+      "meta_path": "drafts/2026-08-14/Claude Python SDK 0.122 发布：这几个异步与流式修复值得马上升级/Claude Python SDK 0.122 发布：这几个异步与流式修复值得马上升级.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-14/x-tychozzz-5a593d4f.md",
+      "file": "sources/2026-08-14/x-tychozzz-5a593d4f.md",
+      "slug": "ChatGPT为什么写不出你的味道",
+      "title": "把旧稿全喂给 ChatGPT，为什么还是写不出你的味道",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.023,
+      "reach_note": "ChatGPT 品牌认知高，解决的是创作者普遍遇到的文风失真和无效 Token 消耗问题，分工方式可立即采用。",
+      "selection_reason": "它呈现了具体失败过程和替代方案，适合做反常识文章，也能平衡当天偏开发工具的选题结构。",
+      "selected_at": "2026-08-14T11:19:41.398Z",
+      "updated_at": "2026-08-14T11:23:53.138Z",
+      "draft_ready_at": "2026-08-14T11:23:53.138Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-14/把旧稿全喂给 ChatGPT，为什么还是写不出你的味道",
+      "meta_path": "drafts/2026-08-14/把旧稿全喂给 ChatGPT，为什么还是写不出你的味道/把旧稿全喂给 ChatGPT，为什么还是写不出你的味道.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-14/x-chenchengpro-9d06057c.md",
+      "file": "sources/2026-08-14/x-chenchengpro-9d06057c.md",
+      "slug": "QoderCLI跨会话协作实战",
+      "title": "两个终端不用再复制粘贴：QoderCLI 跨会话协作是怎么做出来的",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "developer-tooling",
+      "content_archetype": "case_story",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.047,
+      "reach_note": "省掉跨终端搬运上下文是明确利益点，功能已随版本上线，读者可以直接尝试和复用实现思路。",
+      "selection_reason": "材料包含开发耗时、代码规模、测试数量和评审过程，是少见的完整功能交付案例，而不只是功能宣传。",
+      "selected_at": "2026-08-14T11:19:41.398Z",
+      "updated_at": "2026-08-14T11:24:40.794Z",
+      "draft_ready_at": "2026-08-14T11:24:40.794Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-14/两个终端不用再复制粘贴：QoderCLI 跨会话协作是怎么做出来的",
+      "meta_path": "drafts/2026-08-14/两个终端不用再复制粘贴：QoderCLI 跨会话协作是怎么做出来的/两个终端不用再复制粘贴：QoderCLI 跨会话协作是怎么做出来的.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-14/sopilot-hot-2088019011561005382-2fcb3e4b.md",
+      "file": "sources/2026-08-14/sopilot-hot-2088019011561005382-2fcb3e4b.md",
+      "slug": "DeepSeek-Harness首个开源版怎么用",
+      "title": "DeepSeek Harness 首个开源版怎么用：普通开发者别急着装满插件",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.035,
+      "reach_note": "DeepSeek 品牌认知强，项目已经开源可试，读者还能据此避免为日常任务承担不必要的复杂度。",
+      "selection_reason": "源码分析、用户反馈和生态讨论足够丰富，既能讲清新版能力，也能给出明确的采用边界。",
+      "selected_at": "2026-08-14T11:19:41.398Z",
+      "updated_at": "2026-08-14T11:25:24.245Z",
+      "draft_ready_at": "2026-08-14T11:25:24.244Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-14/DeepSeek Harness 首个开源版怎么用：普通开发者别急着装满插件",
+      "meta_path": "drafts/2026-08-14/DeepSeek Harness 首个开源版怎么用：普通开发者别急着装满插件/DeepSeek Harness 首个开源版怎么用：普通开发者别急着装满插件.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-14/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-08-14/ai-now-institute-da82a4f2.md",
+      "slug": "代码审计工具的远程执行风险",
+      "title": "让 Codex 和 Claude Code 审计陌生仓库，为什么反而可能触发远程代码执行",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 108,
+      "recent_similarity": 0.041,
+      "reach_note": "OpenAI 与 Claude 品牌带来关注度，风险直接影响常见代码审计操作，读者可以立即调整运行环境和权限。",
+      "selection_reason": "同日材料包含漏洞说明、政策简报和风险综述，可交叉还原攻击路径并形成实用的安全结论。",
+      "selected_at": "2026-08-14T11:19:41.399Z",
+      "updated_at": "2026-08-14T11:26:40.860Z",
+      "draft_ready_at": "2026-08-14T11:26:40.843Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-14/让 Codex 和 Claude Code 审计陌生仓库，为什么反而可能触发远程代码执行",
+      "meta_path": "drafts/2026-08-14/让 Codex 和 Claude Code 审计陌生仓库，为什么反而可能触发远程代码执行/让 Codex 和 Claude Code 审计陌生仓库，为什么反而可能触发远程代码执行.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-14T11:19:41.396Z",
+      "source_count": 148
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-14T11:19:41.397Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-14T11:19:41.397Z",
+      "topic_id": "sources/2026-08-14/sopilot-hot-2088142739150090665-fea1c287.md",
+      "slug": "GLM-5.3开源项目安全审计"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-14T11:19:41.397Z",
+      "topic_id": "sources/2026-08-14/google-ai-blog-3ce791ab.md",
+      "slug": "Google免费AI编程课程的学习路径"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-14T11:19:41.398Z",
+      "topic_id": "sources/2026-08-14/anthropic-python-sdk-releases-3b3883cb.md",
+      "slug": "Claude-Python-SDK-0.122升级重点"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-14T11:19:41.398Z",
+      "topic_id": "sources/2026-08-14/x-tychozzz-5a593d4f.md",
+      "slug": "ChatGPT为什么写不出你的味道"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-14T11:19:41.398Z",
+      "topic_id": "sources/2026-08-14/x-chenchengpro-9d06057c.md",
+      "slug": "QoderCLI跨会话协作实战"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-14T11:19:41.398Z",
+      "topic_id": "sources/2026-08-14/sopilot-hot-2088019011561005382-2fcb3e4b.md",
+      "slug": "DeepSeek-Harness首个开源版怎么用"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-14T11:19:41.399Z",
+      "topic_id": "sources/2026-08-14/ai-now-institute-da82a4f2.md",
+      "slug": "代码审计工具的远程执行风险"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-14T11:20:38.610Z",
+      "topic_id": "sources/2026-08-14/sopilot-hot-2088142739150090665-fea1c287.md",
+      "slug": "GLM-5.3开源项目安全审计",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-14T11:22:00.903Z",
+      "topic_id": "sources/2026-08-14/google-ai-blog-3ce791ab.md",
+      "slug": "Google免费AI编程课程的学习路径",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-14T11:22:46.444Z",
+      "topic_id": "sources/2026-08-14/anthropic-python-sdk-releases-3b3883cb.md",
+      "slug": "Claude-Python-SDK-0.122升级重点",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-14T11:23:53.138Z",
+      "topic_id": "sources/2026-08-14/x-tychozzz-5a593d4f.md",
+      "slug": "ChatGPT为什么写不出你的味道",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-14T11:24:40.794Z",
+      "topic_id": "sources/2026-08-14/x-chenchengpro-9d06057c.md",
+      "slug": "QoderCLI跨会话协作实战",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-14T11:25:24.245Z",
+      "topic_id": "sources/2026-08-14/sopilot-hot-2088019011561005382-2fcb3e4b.md",
+      "slug": "DeepSeek-Harness首个开源版怎么用",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-14T11:26:40.860Z",
+      "topic_id": "sources/2026-08-14/ai-now-institute-da82a4f2.md",
+      "slug": "代码审计工具的远程执行风险",
+      "error": ""
+    }
+  ]
+}
