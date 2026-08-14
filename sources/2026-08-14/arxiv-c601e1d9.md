@@ -1,0 +1,24 @@
+---
+title: >-
+  Equivariant learning of a transferable three-dimensional classical density
+  functional
+url: 'https://arxiv.org/abs/2608.13506v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Bingqing Cheng
+categories:
+  - cond-mat.stat-mech
+  - cond-mat.soft
+  - cs.LG
+  - physics.chem-ph
+  - physics.comp-ph
+  - cond-mat.stat-mech
+published: '2026-08-13T17:32:45Z'
+fetched_at: '2026-08-14T11:02:34.377Z'
+---
+Liquids exhibit collective behavior that depends sensitively on thermodynamic conditions, interfaces and confinement, yet predicting each new state commonly requires a separate atomistic simulation. Classical density functional theory offers a reusable variational description, but its central excess free-energy functional is generally unknown, and learned approximations have largely remained restricted to planar or lower-dimensional settings. Here we show that this functional can be learned directly from fully three-dimensional equilibrium density fields while preserving spatial symmetry and variational consistency, without free-energy or chemical-potential labels. A single learned functional transfers across temperatures, system sizes and statistical ensembles, and recovers structure factors, the equation of state, liquid--vapor coexistence and interfacial broadening, none of which are used as training targets. Applied to complex three-dimensional geometries, it predicts the non-monotonic force associated with formation and rupture of a solvent-depleted bridge between colloids and adsorption in an interconnected gyroid pore. These results demonstrate that equilibrium density data can be converted into a transferable thermodynamic generator connecting microscopic liquid structure to response, phase behavior and collective phenomena.
+
+Authors: Bingqing Cheng
+Categories: cond-mat.stat-mech, cond-mat.soft, cs.LG, physics.chem-ph, physics.comp-ph, cond-mat.stat-mech
