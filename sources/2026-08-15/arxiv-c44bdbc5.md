@@ -1,0 +1,22 @@
+---
+title: Defensive Boosting for Online Probabilistic Forecasting
+url: 'https://arxiv.org/abs/2608.13554v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Georgy Noarov
+  - Aaron Roth
+categories:
+  - cs.LG
+  - cs.CC
+  - cs.DS
+  - stat.ML
+  - cs.LG
+published: '2026-08-13T17:59:35Z'
+fetched_at: '2026-08-15T11:02:18.840Z'
+---
+We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain two incomparable guarantees that existing online boosting techniques provide separately. Online gradient boosting competes in Brier score with the best predictor induced by the span of $H$ on every sequence, but promises nothing when the span does not contain an accurate predictor. Online weak-to-strong boosting drives classification error to zero under a weak-learning condition, but promises little when that condition fails. We give a simple defensive forecasting algorithm, the Defensive Booster, that obtains both guarantees. On every adaptive sequence, its Brier score is competitive with the best prediction induced by the span of $H$ at the same rate as online gradient boosting; simultaneously, whenever the realized transcript satisfies the smooth weak-learning condition, its Brier score and randomized classification error satisfy the same rate guarantee as online classification boosting. This is achieved by operationalizing the "dual view" of boosting: When the algorithm's randomized classification error is persistently high, its mistake weights form a smooth reweighting on which every weak hypothesis has low edge, yielding an ex-post hard-core certificate that the weak-learning condition fails. We also develop a strongly adaptive variant, which satisfies both guarantees on ever
+
+Authors: Georgy Noarov, Aaron Roth
+Categories: cs.LG, cs.CC, cs.DS, stat.ML, cs.LG
