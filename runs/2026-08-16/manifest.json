@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-16",
+  "created_at": "2026-08-16T11:19:49.865Z",
+  "updated_at": "2026-08-16T11:27:06.012Z",
+  "source_count": 146,
+  "topics": [
+    {
+      "id": "sources/2026-08-16/sopilot-hot-2088838461511839844-99a0bf4f.md",
+      "file": "sources/2026-08-16/sopilot-hot-2088838461511839844-99a0bf4f.md",
+      "slug": "BaoCut字幕处理从31分钟降到18分钟",
+      "title": "BaoCut 把字幕处理从 31 分钟降到 18 分钟：真正的瓶颈不是模型",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.038,
+      "reach_note": "明确展示节省时间和调用次数的收益，并提供 Mac、Windows 可验证的使用入口。",
+      "selection_reason": "有调用次数、耗时和长视频测试等具体数据，既服务内容创作者，也能提供关于输出格式和 token 成本的工程启发。",
+      "selected_at": "2026-08-16T11:19:49.866Z",
+      "updated_at": "2026-08-16T11:20:46.812Z",
+      "draft_ready_at": "2026-08-16T11:20:46.812Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-16/BaoCut 把字幕处理从 31 分钟降到 18 分钟：真正的瓶颈不是模型",
+      "meta_path": "drafts/2026-08-16/BaoCut 把字幕处理从 31 分钟降到 18 分钟：真正的瓶颈不是模型/BaoCut 把字幕处理从 31 分钟降到 18 分钟：真正的瓶颈不是模型.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-16/x-xiangxiang103-37a34f50.md",
+      "file": "sources/2026-08-16/x-xiangxiang103-37a34f50.md",
+      "slug": "GLM5.3安全验证失效复盘",
+      "title": "GLM 5.3 的安全验证为何会失效：别把本地工具结果当授权证明",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.044,
+      "reach_note": "GLM 提供品牌抓手，授权绕过关系到直接安全利益，开发者可以立刻审查验证链。",
+      "selection_reason": "问题不局限于单一命令，而是暴露了工具调用系统常见的信任边界缺陷，适合形成可迁移的安全审查方法。",
+      "selected_at": "2026-08-16T11:19:49.866Z",
+      "updated_at": "2026-08-16T11:21:55.702Z",
+      "draft_ready_at": "2026-08-16T11:21:55.701Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-16/GLM 5.3 的安全验证为何会失效：别把本地工具结果当授权证明",
+      "meta_path": "drafts/2026-08-16/GLM 5.3 的安全验证为何会失效：别把本地工具结果当授权证明/GLM 5.3 的安全验证为何会失效：别把本地工具结果当授权证明.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-16/sopilot-hot-2088801455499276485-856e639d.md",
+      "file": "sources/2026-08-16/sopilot-hot-2088801455499276485-856e639d.md",
+      "slug": "消费级显卡跑Qwen27B值不值",
+      "title": "消费级显卡跑 Qwen 27B 值不值：效果很强，但 120K 上下文吞掉了近一小时",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.032,
+      "reach_note": "Qwen 品牌明确，本地运行可立即尝试，耗时和硬件成本构成清晰的选型利益点。",
+      "selection_reason": "素材同时给出成功结果和性能代价，适合做真实选型而非只展示生成效果，也能提醒读者关注预填充与缓存成本。",
+      "selected_at": "2026-08-16T11:19:49.866Z",
+      "updated_at": "2026-08-16T11:22:51.264Z",
+      "draft_ready_at": "2026-08-16T11:22:51.263Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-16/消费级显卡跑 Qwen 27B 值不值：效果很强，但 120K 上下文吞掉了近一小时",
+      "meta_path": "drafts/2026-08-16/消费级显卡跑 Qwen 27B 值不值：效果很强，但 120K 上下文吞掉了近一小时/消费级显卡跑 Qwen 27B 值不值：效果很强，但 120K 上下文吞掉了近一小时.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-16/sopilot-hot-2088803072084504812-026f2992.md",
+      "file": "sources/2026-08-16/sopilot-hot-2088803072084504812-026f2992.md",
+      "slug": "Claude文本水印的三个边界",
+      "title": "Claude 文本水印会降低质量吗？创作者最该知道的三个边界",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.038,
+      "reach_note": "Claude 品牌认知高，内容归属关系到创作者利益，读者可据此调整检测和发布判断。",
+      "selection_reason": "源材料连接 Anthropic 技术说明与 SynthID-Text 原理，信息厚度足以纠正常见误解，并覆盖代码等关键例外。",
+      "selected_at": "2026-08-16T11:19:49.867Z",
+      "updated_at": "2026-08-16T11:23:51.873Z",
+      "draft_ready_at": "2026-08-16T11:23:51.873Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-16/Claude 文本水印会降低质量吗？创作者最该知道的三个边界",
+      "meta_path": "drafts/2026-08-16/Claude 文本水印会降低质量吗？创作者最该知道的三个边界/Claude 文本水印会降低质量吗？创作者最该知道的三个边界.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-16/sopilot-hot-2088837685964075352-325def62.md",
+      "file": "sources/2026-08-16/sopilot-hot-2088837685964075352-325def62.md",
+      "slug": "DeepSeek开源11套工程质量门禁",
+      "title": "DeepSeek 开源了内部工程规范：11 套质量门禁怎么接进你的项目",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.036,
+      "reach_note": "DeepSeek 品牌认知强，开源免费带来明确利益，规则可立即接入项目。",
+      "selection_reason": "素材包含具体的工程规范、适用场景和开源入口，能够写成有实际产出的上手文章，而不是泛泛介绍项目。",
+      "selected_at": "2026-08-16T11:19:49.867Z",
+      "updated_at": "2026-08-16T11:24:52.712Z",
+      "draft_ready_at": "2026-08-16T11:24:52.712Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-16/DeepSeek 开源了内部工程规范：11 套质量门禁怎么接进你的项目",
+      "meta_path": "drafts/2026-08-16/DeepSeek 开源了内部工程规范：11 套质量门禁怎么接进你的项目/DeepSeek 开源了内部工程规范：11 套质量门禁怎么接进你的项目.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-16/sopilot-hot-2088864705846935941-3c9fa15c.md",
+      "file": "sources/2026-08-16/sopilot-hot-2088864705846935941-3c9fa15c.md",
+      "slug": "Codex百万上下文为何不生效",
+      "title": "Codex 配成 105 万上下文为何仍只有约 27 万：订阅用户别被参数骗了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.03,
+      "reach_note": "Codex 品牌明确，避免为不可用容量付出成本，验证实际窗口的方法可以立即执行。",
+      "selection_reason": "这是订阅规格与真实运行能力之间的具体落差，直接影响长任务设计、成本预期和购买判断。",
+      "selected_at": "2026-08-16T11:19:49.867Z",
+      "updated_at": "2026-08-16T11:26:16.260Z",
+      "draft_ready_at": "2026-08-16T11:26:16.259Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-16/Codex 配成 105 万上下文为何仍只有约 27 万：订阅用户别被参数骗了",
+      "meta_path": "drafts/2026-08-16/Codex 配成 105 万上下文为何仍只有约 27 万：订阅用户别被参数骗了/Codex 配成 105 万上下文为何仍只有约 27 万：订阅用户别被参数骗了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-16/x-GoogleDeepMind-28acfcf0.md",
+      "file": "sources/2026-08-16/x-GoogleDeepMind-28acfcf0.md",
+      "slug": "Gemini3.7Flash接入决策",
+      "title": "Google Gemini 3.7 Flash 该不该现在接入：先看速度、价格和迁移成本",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 72,
+      "recent_similarity": 0.031,
+      "reach_note": "Google Gemini 具备品牌认知，API 可立即试用，价格变化带来明确的成本决策价值。",
+      "selection_reason": "官方能力入口与价格信号可以共同支撑一次接入决策，重点是帮助团队控制迁移成本，而非简单转述模型发布。",
+      "selected_at": "2026-08-16T11:19:49.868Z",
+      "updated_at": "2026-08-16T11:27:06.012Z",
+      "draft_ready_at": "2026-08-16T11:27:06.012Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-16/Google Gemini 3.7 Flash 该不该现在接入：先看速度、价格和迁移成本",
+      "meta_path": "drafts/2026-08-16/Google Gemini 3.7 Flash 该不该现在接入：先看速度、价格和迁移成本/Google Gemini 3.7 Flash 该不该现在接入：先看速度、价格和迁移成本.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-16T11:19:49.865Z",
+      "source_count": 146
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-16T11:19:49.865Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-16T11:19:49.866Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088838461511839844-99a0bf4f.md",
+      "slug": "BaoCut字幕处理从31分钟降到18分钟"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-16T11:19:49.866Z",
+      "topic_id": "sources/2026-08-16/x-xiangxiang103-37a34f50.md",
+      "slug": "GLM5.3安全验证失效复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-16T11:19:49.866Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088801455499276485-856e639d.md",
+      "slug": "消费级显卡跑Qwen27B值不值"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-16T11:19:49.867Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088803072084504812-026f2992.md",
+      "slug": "Claude文本水印的三个边界"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-16T11:19:49.867Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088837685964075352-325def62.md",
+      "slug": "DeepSeek开源11套工程质量门禁"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-16T11:19:49.867Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088864705846935941-3c9fa15c.md",
+      "slug": "Codex百万上下文为何不生效"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-16T11:19:49.868Z",
+      "topic_id": "sources/2026-08-16/x-GoogleDeepMind-28acfcf0.md",
+      "slug": "Gemini3.7Flash接入决策"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-16T11:20:46.812Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088838461511839844-99a0bf4f.md",
+      "slug": "BaoCut字幕处理从31分钟降到18分钟",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-16T11:21:55.702Z",
+      "topic_id": "sources/2026-08-16/x-xiangxiang103-37a34f50.md",
+      "slug": "GLM5.3安全验证失效复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-16T11:22:51.264Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088801455499276485-856e639d.md",
+      "slug": "消费级显卡跑Qwen27B值不值",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-16T11:23:51.873Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088803072084504812-026f2992.md",
+      "slug": "Claude文本水印的三个边界",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-16T11:24:52.712Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088837685964075352-325def62.md",
+      "slug": "DeepSeek开源11套工程质量门禁",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-16T11:26:16.260Z",
+      "topic_id": "sources/2026-08-16/sopilot-hot-2088864705846935941-3c9fa15c.md",
+      "slug": "Codex百万上下文为何不生效",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-16T11:27:06.012Z",
+      "topic_id": "sources/2026-08-16/x-GoogleDeepMind-28acfcf0.md",
+      "slug": "Gemini3.7Flash接入决策",
+      "error": ""
+    }
+  ]
+}

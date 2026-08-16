@@ -1,0 +1,17 @@
+---
+title: >-
+  I bumped up the context limit and let it have another go and it sure did
+  produce a beautiful (animated) circle https://t.co/8FCB1hPTMS
+  https://t.co/nyEJRLXwlh
+source: X @simonw
+url: 'https://x.com/simonw/status/2088670465057497143'
+date: 'Sat Aug 15 16:53:39 +0000 2026'
+likes: 62
+reposts: 0
+replies: 5
+source_type: x
+language: en
+account_name: Simon Willison
+fetched_at: '2026-08-16T11:13:21.830Z'
+---
+I bumped up the context limit and let it have another go and it sure did produce a beautiful (animated) circle https://t.co/8FCB1hPTMS https://t.co/nyEJRLXwlh
