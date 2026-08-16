@@ -1,0 +1,10 @@
+---
+title: '[AINews] AMD buys Taalas'
+url: 'https://www.latent.space/p/ainews-amd-buys-taalas'
+source: Latent Space
+source_type: rss
+language: en
+published: '2026-08-07T05:13:46.000Z'
+fetched_at: '2026-08-16T11:01:57.345Z'
+---
+The Inference Inflection is HEATING up.

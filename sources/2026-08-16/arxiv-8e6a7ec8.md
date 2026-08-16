@@ -1,0 +1,24 @@
+---
+title: >-
+  Measuring Task-Agnostic Training Data Influence Across Language Model
+  Pretraining
+url: 'https://arxiv.org/abs/2608.13515v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Yuto Nishida
+  - Hirokazu Kiyomaru
+  - Yusuke Oda
+  - Takashi Kodama
+  - Chaoran Liu
+categories:
+  - cs.CL
+  - cs.CL
+published: '2026-08-13T17:36:49Z'
+fetched_at: '2026-08-16T11:02:34.637Z'
+---
+Measuring training data influence consistently across language model pretraining is challenging. It is difficult to select downstream tasks or validation sets representative of a model's general capabilities, and reliance on task performance at intermediate checkpoints complicates comparisons across training. We propose a measure of training data influence that does not require selecting a downstream task or validation set as the attribution target. Specifically, we define an example's influence by how much its gradient update reduces the squared distance to the final parameters of a given pretraining run, and estimate this quantity from intermediate checkpoints without retraining. Applying the method to 18 configurations from the Pythia and PolyPythia suites, we find systematic temporal changes in influential data. Early in training, literature-related data are more strongly aligned with the trajectory toward the final parameters, whereas STEM data become more strongly aligned in later stages. This qualitative crossover is broadly consistent across model configurations. Our results provide a tractable trajectory-level view of how influential data change throughout pretraining, complementing influence analyses defined with respect to specific downstream tasks or validation sets.
+
+Authors: Yuto Nishida, Hirokazu Kiyomaru, Yusuke Oda, Takashi Kodama, Chaoran Liu
+Categories: cs.CL, cs.CL
