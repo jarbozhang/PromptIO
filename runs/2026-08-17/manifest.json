@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-17",
+  "created_at": "2026-08-17T11:11:34.963Z",
+  "updated_at": "2026-08-17T11:18:49.733Z",
+  "source_count": 146,
+  "topics": [
+    {
+      "id": "sources/2026-08-17/x-dotey-99a0bf4f.md",
+      "file": "sources/2026-08-17/x-dotey-99a0bf4f.md",
+      "slug": "BaoCut把7小时访谈润色压到42分钟",
+      "title": "BaoCut 把 7 小时访谈润色压到 42 分钟：真正的优化不是多开几个模型",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.056,
+      "reach_note": "42 分钟和约 0.4 元每小时形成明确利益点，字幕创作者还能立刻测试相同优化思路。",
+      "selection_reason": "案例包含清晰的失败路径、根因和量化结果，能给内容工具开发者及重度字幕用户提供可迁移的成本优化方法。",
+      "selected_at": "2026-08-17T11:11:34.964Z",
+      "updated_at": "2026-08-17T11:12:32.002Z",
+      "draft_ready_at": "2026-08-17T11:12:32.002Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-17/BaoCut 把 7 小时访谈润色压到 42 分钟：真正的优化不是多开几个模型",
+      "meta_path": "drafts/2026-08-17/BaoCut 把 7 小时访谈润色压到 42 分钟：真正的优化不是多开几个模型/BaoCut 把 7 小时访谈润色压到 42 分钟：真正的优化不是多开几个模型.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-17/sopilot-hot-2089031648314806479-0dd4b25a.md",
+      "file": "sources/2026-08-17/sopilot-hot-2089031648314806479-0dd4b25a.md",
+      "slug": "Dayflow自动复盘怎样兼顾效率和隐私",
+      "title": "开源 Dayflow 自动复盘一天：Mac 屏幕记录怎样兼顾效率和隐私",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.033,
+      "reach_note": "开源免费和自动生成周报是明确利益点，Mac 用户可以下载后立即用本地模型试跑。",
+      "selection_reason": "它解决的是普通知识工作者每天都会遇到的回忆与复盘问题，同时本地模型支持为隐私敏感用户提供了可操作的选择。",
+      "selected_at": "2026-08-17T11:11:34.964Z",
+      "updated_at": "2026-08-17T11:13:26.279Z",
+      "draft_ready_at": "2026-08-17T11:13:26.279Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-17/开源 Dayflow 自动复盘一天：Mac 屏幕记录怎样兼顾效率和隐私",
+      "meta_path": "drafts/2026-08-17/开源 Dayflow 自动复盘一天：Mac 屏幕记录怎样兼顾效率和隐私/开源 Dayflow 自动复盘一天：Mac 屏幕记录怎样兼顾效率和隐私.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-17/x-shao__meng-0fecd861.md",
+      "file": "sources/2026-08-17/x-shao__meng-0fecd861.md",
+      "slug": "吴恩达AI工程师技能图谱",
+      "title": "吴恩达看了 1 万份招聘需求：AI 工程师最该补的不是提示词",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.023,
+      "reach_note": "吴恩达具备品牌认知，职业竞争力是明确利益点，读者可以立刻据此调整学习计划。",
+      "selection_reason": "该题能纠正只追逐提示词和新工具的学习偏差，并把大规模岗位分析转化为更可靠的职业行动建议。",
+      "selected_at": "2026-08-17T11:11:34.964Z",
+      "updated_at": "2026-08-17T11:14:14.879Z",
+      "draft_ready_at": "2026-08-17T11:14:14.879Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-17/吴恩达看了 1 万份招聘需求，AI 工程师最该补的不是提示词",
+      "meta_path": "drafts/2026-08-17/吴恩达看了 1 万份招聘需求，AI 工程师最该补的不是提示词/吴恩达看了 1 万份招聘需求，AI 工程师最该补的不是提示词.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-17/sopilot-hot-2089173058821230631-9a52945a.md",
+      "file": "sources/2026-08-17/sopilot-hot-2089173058821230631-9a52945a.md",
+      "slug": "Omarchy让旧笔记本复活前先判断",
+      "title": "DHH 的 Omarchy 能让旧笔记本复活吗？安装前先判断这四件事",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.037,
+      "reach_note": "DHH 与旧电脑复活带来品牌和省钱利益点，ISO 镜像也提供了可立即验证的入口。",
+      "selection_reason": "题目同时具备省钱吸引力和明确的安装决策，评论中的兼容性反馈还能避免读者为了追新而付出不必要的迁移成本。",
+      "selected_at": "2026-08-17T11:11:34.965Z",
+      "updated_at": "2026-08-17T11:15:15.495Z",
+      "draft_ready_at": "2026-08-17T11:15:15.495Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-17/DHH 的 Omarchy 能让旧笔记本复活吗？安装前先判断这四件事",
+      "meta_path": "drafts/2026-08-17/DHH 的 Omarchy 能让旧笔记本复活吗？安装前先判断这四件事/DHH 的 Omarchy 能让旧笔记本复活吗？安装前先判断这四件事.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-17/sopilot-hot-2089020417688350857-9fa7e390.md",
+      "file": "sources/2026-08-17/sopilot-hot-2089020417688350857-9fa7e390.md",
+      "slug": "DeepSeek调价后怎样安排任务更省钱",
+      "title": "DeepSeek API 今日调价：峰谷计费后，怎样重新安排任务更省钱",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.035,
+      "reach_note": "DeepSeek 是高认知品牌，涨价触及直接利益，读者可以立即调整调用时间和任务结构。",
+      "selection_reason": "价格变化已经影响真实账单和订阅额度，适合做成一份围绕成本决策的实用分析，而不是停留在涨价新闻本身。",
+      "selected_at": "2026-08-17T11:11:34.965Z",
+      "updated_at": "2026-08-17T11:16:07.584Z",
+      "draft_ready_at": "2026-08-17T11:16:07.584Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-17/DeepSeek API 今日调价：峰谷计费后，怎样重新安排任务更省钱",
+      "meta_path": "drafts/2026-08-17/DeepSeek API 今日调价：峰谷计费后，怎样重新安排任务更省钱/DeepSeek API 今日调价：峰谷计费后，怎样重新安排任务更省钱.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-17/sopilot-hot-2089199996159598689-90fcb37b.md",
+      "file": "sources/2026-08-17/sopilot-hot-2089199996159598689-90fcb37b.md",
+      "slug": "Codex开放100万上下文该不该开",
+      "title": "Codex 开放 100 万上下文：这三行配置该不该开？",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.029,
+      "reach_note": "Codex 品牌认知强，配置可立即尝试，同时直接关系到大型项目效果和 token 成本。",
+      "selection_reason": "这是当天讨论度最高且行动路径明确的版本变化之一，既能给出配置方法，也能解释产品默认值背后的性能、价格和压缩取舍。",
+      "selected_at": "2026-08-17T11:11:34.965Z",
+      "updated_at": "2026-08-17T11:17:48.281Z",
+      "draft_ready_at": "2026-08-17T11:17:48.281Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-17/Codex 开放 100 万上下文：这三行配置该不该开？",
+      "meta_path": "drafts/2026-08-17/Codex 开放 100 万上下文：这三行配置该不该开？/Codex 开放 100 万上下文：这三行配置该不该开？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-17/sopilot-hot-2089197131643166927-be5e9631.md",
+      "file": "sources/2026-08-17/sopilot-hot-2089197131643166927-be5e9631.md",
+      "slug": "DeepSeek-Harness插件安装前先看权限",
+      "title": "DeepSeek Harness 插件风险已经出现：安装前先看清这几类权限",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 108,
+      "recent_similarity": 0.036,
+      "reach_note": "DeepSeek 品牌自带关注度，插件风险关系代码和凭据安全，读者可立即检查已安装插件权限。",
+      "selection_reason": "DeepSeek Harness 插件数量快速增长时，安全判断比单纯盘点插件更有长期价值，也补足当天必须具备的风险提醒题目。",
+      "selected_at": "2026-08-17T11:11:34.966Z",
+      "updated_at": "2026-08-17T11:18:49.733Z",
+      "draft_ready_at": "2026-08-17T11:18:49.733Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-17/DeepSeek Harness 插件风险已经出现：安装前先看清这几类权限",
+      "meta_path": "drafts/2026-08-17/DeepSeek Harness 插件风险已经出现：安装前先看清这几类权限/DeepSeek Harness 插件风险已经出现：安装前先看清这几类权限.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-17T11:11:34.963Z",
+      "source_count": 146
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-17T11:11:34.964Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-17T11:11:34.964Z",
+      "topic_id": "sources/2026-08-17/x-dotey-99a0bf4f.md",
+      "slug": "BaoCut把7小时访谈润色压到42分钟"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-17T11:11:34.964Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089031648314806479-0dd4b25a.md",
+      "slug": "Dayflow自动复盘怎样兼顾效率和隐私"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-17T11:11:34.964Z",
+      "topic_id": "sources/2026-08-17/x-shao__meng-0fecd861.md",
+      "slug": "吴恩达AI工程师技能图谱"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-17T11:11:34.965Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089173058821230631-9a52945a.md",
+      "slug": "Omarchy让旧笔记本复活前先判断"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-17T11:11:34.965Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089020417688350857-9fa7e390.md",
+      "slug": "DeepSeek调价后怎样安排任务更省钱"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-17T11:11:34.965Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089199996159598689-90fcb37b.md",
+      "slug": "Codex开放100万上下文该不该开"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-17T11:11:34.966Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089197131643166927-be5e9631.md",
+      "slug": "DeepSeek-Harness插件安装前先看权限"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-17T11:12:32.002Z",
+      "topic_id": "sources/2026-08-17/x-dotey-99a0bf4f.md",
+      "slug": "BaoCut把7小时访谈润色压到42分钟",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-17T11:13:26.279Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089031648314806479-0dd4b25a.md",
+      "slug": "Dayflow自动复盘怎样兼顾效率和隐私",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-17T11:14:14.879Z",
+      "topic_id": "sources/2026-08-17/x-shao__meng-0fecd861.md",
+      "slug": "吴恩达AI工程师技能图谱",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-17T11:15:15.495Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089173058821230631-9a52945a.md",
+      "slug": "Omarchy让旧笔记本复活前先判断",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-17T11:16:07.585Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089020417688350857-9fa7e390.md",
+      "slug": "DeepSeek调价后怎样安排任务更省钱",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-17T11:17:48.281Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089199996159598689-90fcb37b.md",
+      "slug": "Codex开放100万上下文该不该开",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-17T11:18:49.733Z",
+      "topic_id": "sources/2026-08-17/sopilot-hot-2089197131643166927-be5e9631.md",
+      "slug": "DeepSeek-Harness插件安装前先看权限",
+      "error": ""
+    }
+  ]
+}
