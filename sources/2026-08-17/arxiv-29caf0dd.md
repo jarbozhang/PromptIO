@@ -1,0 +1,21 @@
+---
+title: Learning-to-Transition for Large-scale and High-Order MIMO Detection
+url: 'https://arxiv.org/abs/2608.14511v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Yubo Zhang
+  - Yiyao Liu
+  - Xiaodong Wang
+categories:
+  - cs.IT
+  - cs.AI
+  - cs.IT
+published: '2026-08-14T17:29:07Z'
+fetched_at: '2026-08-17T11:03:44.072Z'
+---
+High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper develops a learning-to-transition (L2T) framework that formulates MIMO detection as a stochastic sequence of complete-vector transitions. At each transition, a channel-coupled Transformer updates both the instance embedding and the sampling policy, while a blockwise autoregressive factorization captures inter-stream dependence with moderate sequential complexity. For hard-output detection, a transition network is applied recursively and trained through a residual-to-BER curriculum, which first learns the MIMO search geometry from the exact residual metric and then aligns the policy with transmitted-bit accuracy. For soft-output reception, the well-trained hard policy is cloned at the parameter level into every layer of an untied soft-input soft-output iterative detection and decoding (IDD) receiver. This tied-to-untied transfer preserves the learned zero-prior search dynamics while enabling layer- and round-specific specialization under decoder feedback. Within each IDD round, decoder priors tilt candidate generation according to Bayes' rule, and likelihood-weighted terminal hypotheses produce posterior and extrinsic log-likelihood ratios for LDPC decoding. A multi-stage training strategy further stabilizes the hard-to-soft transfer by progressively exposing the receiver to synthetic 
+
+Authors: Yubo Zhang, Yiyao Liu, Xiaodong Wang
+Categories: cs.IT, cs.AI, cs.IT
