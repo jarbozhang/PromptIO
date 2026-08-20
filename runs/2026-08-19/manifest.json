@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-19",
+  "created_at": "2026-08-19T11:12:08.825Z",
+  "updated_at": "2026-08-19T11:19:08.141Z",
+  "source_count": 148,
+  "topics": [
+    {
+      "id": "sources/2026-08-19/x-dotey-ce940a82.md",
+      "file": "sources/2026-08-19/x-dotey-ce940a82.md",
+      "slug": "豆包手机远程操控电脑实测",
+      "title": "豆包手机远程操控电脑实测：通勤路上找文件、盯任务，哪些事适合交给它",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.037,
+      "reach_note": "豆包是高认知品牌，手机远程处理电脑任务有明确省时价值，读者可直接在手机和电脑端尝试。",
+      "selection_reason": "它把电脑端能力延伸到了普通用户熟悉的手机入口，既有新功能体验，也有办公和内容生产中的具体使用场景。",
+      "selected_at": "2026-08-19T11:12:08.825Z",
+      "updated_at": "2026-08-19T11:12:51.561Z",
+      "draft_ready_at": "2026-08-19T11:12:51.560Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-19/豆包手机远程操控电脑实测：通勤路上找文件、盯任务，哪些事适合交给它",
+      "meta_path": "drafts/2026-08-19/豆包手机远程操控电脑实测：通勤路上找文件、盯任务，哪些事适合交给它/豆包手机远程操控电脑实测：通勤路上找文件、盯任务，哪些事适合交给它.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-19/sopilot-hot-2089752349216752092-b90b7f50.md",
+      "file": "sources/2026-08-19/sopilot-hot-2089752349216752092-b90b7f50.md",
+      "slug": "伯克利免费AI公开课四模块学习路线",
+      "title": "伯克利免费公开课怎么学：用 4 个模块补齐 2026 年 AI 系统能力",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "research-security",
+      "content_archetype": "reference_card",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.019,
+      "reach_note": "伯克利与多家知名 AI 品牌提供认知度，课程免费且讲座和幻灯片可立即学习。",
+      "selection_reason": "完整公开课程比零散论文推荐更容易形成连续行动，适合中文读者快速建立系统化知识框架。",
+      "selected_at": "2026-08-19T11:12:08.826Z",
+      "updated_at": "2026-08-19T11:13:33.749Z",
+      "draft_ready_at": "2026-08-19T11:13:33.748Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-19/伯克利免费公开课怎么学：用 4 个模块补齐 2026 年 AI 系统能力",
+      "meta_path": "drafts/2026-08-19/伯克利免费公开课怎么学：用 4 个模块补齐 2026 年 AI 系统能力/伯克利免费公开课怎么学：用 4 个模块补齐 2026 年 AI 系统能力.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-19/sopilot-hot-2089826515500548225-9c0de041.md",
+      "file": "sources/2026-08-19/sopilot-hot-2089826515500548225-9c0de041.md",
+      "slug": "GLM-5.3价格不变先测单任务成本",
+      "title": "GLM-5.3 API 上线：价格不变，先用这套方法测清一次任务到底省多少",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.03,
+      "reach_note": "GLM 新 API 具备品牌认知和直接可调用入口，价格不变带来清晰的升级利益点。",
+      "selection_reason": "同价升级对高频 API 用户有直接成本价值，也能借此把模型选择从单纯看榜单转向衡量真实任务成本。",
+      "selected_at": "2026-08-19T11:12:08.826Z",
+      "updated_at": "2026-08-19T11:14:17.639Z",
+      "draft_ready_at": "2026-08-19T11:14:17.639Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-19/GLM-5.3 API 上线，价格不变，先用这套方法测清一次任务到底省多少",
+      "meta_path": "drafts/2026-08-19/GLM-5.3 API 上线，价格不变，先用这套方法测清一次任务到底省多少/GLM-5.3 API 上线，价格不变，先用这套方法测清一次任务到底省多少.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-19/sopilot-hot-2089781911279587338-f0ed5322.md",
+      "file": "sources/2026-08-19/sopilot-hot-2089781911279587338-f0ed5322.md",
+      "slug": "30元实测DeepSeek低价Token套餐",
+      "title": "30 元能跑多少 DeepSeek？实测国家超算互联网的低价 Token 套餐",
+      "status": "draft_ready",
+      "reach": 10,
+      "content_lane": "product-business",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.029,
+      "reach_note": "DeepSeek 品牌、30 元低价利益点和可立即开通测试的入口三项齐全。",
+      "selection_reason": "这是当天最强的省钱型线索之一，读者可以马上验证并得到自己的成本数据；通过实测还能避免只依据转述价格做采购决定。",
+      "selected_at": "2026-08-19T11:12:08.826Z",
+      "updated_at": "2026-08-19T11:15:20.052Z",
+      "draft_ready_at": "2026-08-19T11:15:20.052Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-19/30元能跑多少DeepSeek？先算清低价Token套餐",
+      "meta_path": "drafts/2026-08-19/30元能跑多少DeepSeek？先算清低价Token套餐/30元能跑多少DeepSeek？先算清低价Token套餐.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-19/sopilot-hot-2089945776114053132-8173b034.md",
+      "file": "sources/2026-08-19/sopilot-hot-2089945776114053132-8173b034.md",
+      "slug": "OpenAI与Anthropic收入数字四个口径",
+      "title": "OpenAI 和 Anthropic 的收入数字为什么总打架？看懂 ARR 前先核对这 4 个口径",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.033,
+      "reach_note": "OpenAI 与 Anthropic 具备高品牌认知，识别失真商业数据能直接减少采购和判断误差。",
+      "selection_reason": "当天大量收入线索互相矛盾，最有价值的写法不是重复胜负叙事，而是提供一套读者以后也能复用的数据核验方法。",
+      "selected_at": "2026-08-19T11:12:08.827Z",
+      "updated_at": "2026-08-19T11:16:12.452Z",
+      "draft_ready_at": "2026-08-19T11:16:12.451Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-19/OpenAI 和 Anthropic 的收入数字为什么总打架？看懂 ARR 前先核对这 4 个口径",
+      "meta_path": "drafts/2026-08-19/OpenAI 和 Anthropic 的收入数字为什么总打架？看懂 ARR 前先核对这 4 个口径/OpenAI 和 Anthropic 的收入数字为什么总打架？看懂 ARR 前先核对这 4 个口径.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-19/sopilot-hot-2089922874945703973-ce5c43ab.md",
+      "file": "sources/2026-08-19/sopilot-hot-2089922874945703973-ce5c43ab.md",
+      "slug": "Codex清理临时文件事故与权限边界",
+      "title": "Codex 一次“清理临时文件”差点删掉主目录：事故链条和三道保命边界",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.031,
+      "reach_note": "Codex 品牌和避免数据丢失的强利益点明确，读者可立即调整权限与任务描述。",
+      "selection_reason": "真实破坏性操作比泛泛的安全提醒更有教育价值，既能解释根因，也能转化为所有代码工具通用的权限管理方法。",
+      "selected_at": "2026-08-19T11:12:08.827Z",
+      "updated_at": "2026-08-19T11:17:08.632Z",
+      "draft_ready_at": "2026-08-19T11:17:08.632Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-19/Codex 一次“清理临时文件”差点删掉主目录，事故链条和三道保命边界",
+      "meta_path": "drafts/2026-08-19/Codex 一次“清理临时文件”差点删掉主目录，事故链条和三道保命边界/Codex 一次“清理临时文件”差点删掉主目录，事故链条和三道保命边界.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-19/github-trending-978e35c6.md",
+      "file": "sources/2026-08-19/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版从初始化到长期记忆",
+      "title": "Hermes Agent 新版怎么用：从初始化到长期记忆，搭一套真正能持续成长的个人系统",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 72,
+      "recent_similarity": 0.038,
+      "reach_note": "Hermes 属于重点生态品牌，新版能力与明确上手路径同时满足品牌认知、利益点和可操作性。",
+      "selection_reason": "项目更新活跃且有 GitHub 主源，社区四个月的重度使用经验又提供了足够具体的场景，适合合并成一篇兼顾版本变化与实际使用的解读。",
+      "selected_at": "2026-08-19T11:12:08.827Z",
+      "updated_at": "2026-08-19T11:19:08.141Z",
+      "draft_ready_at": "2026-08-19T11:19:08.140Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-19/Hermes Agent 新版怎么用：从初始化到长期记忆，搭一套真正能持续成长的个人系统",
+      "meta_path": "drafts/2026-08-19/Hermes Agent 新版怎么用：从初始化到长期记忆，搭一套真正能持续成长的个人系统/Hermes Agent 新版怎么用：从初始化到长期记忆，搭一套真正能持续成长的个人系统.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-19T11:12:08.825Z",
+      "source_count": 148
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-19T11:12:08.825Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-19T11:12:08.825Z",
+      "topic_id": "sources/2026-08-19/x-dotey-ce940a82.md",
+      "slug": "豆包手机远程操控电脑实测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-19T11:12:08.826Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089752349216752092-b90b7f50.md",
+      "slug": "伯克利免费AI公开课四模块学习路线"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-19T11:12:08.826Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089826515500548225-9c0de041.md",
+      "slug": "GLM-5.3价格不变先测单任务成本"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-19T11:12:08.826Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089781911279587338-f0ed5322.md",
+      "slug": "30元实测DeepSeek低价Token套餐"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-19T11:12:08.827Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089945776114053132-8173b034.md",
+      "slug": "OpenAI与Anthropic收入数字四个口径"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-19T11:12:08.827Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089922874945703973-ce5c43ab.md",
+      "slug": "Codex清理临时文件事故与权限边界"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-19T11:12:08.827Z",
+      "topic_id": "sources/2026-08-19/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版从初始化到长期记忆"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-19T11:12:51.561Z",
+      "topic_id": "sources/2026-08-19/x-dotey-ce940a82.md",
+      "slug": "豆包手机远程操控电脑实测",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-19T11:13:33.749Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089752349216752092-b90b7f50.md",
+      "slug": "伯克利免费AI公开课四模块学习路线",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-19T11:14:17.639Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089826515500548225-9c0de041.md",
+      "slug": "GLM-5.3价格不变先测单任务成本",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-19T11:15:20.052Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089781911279587338-f0ed5322.md",
+      "slug": "30元实测DeepSeek低价Token套餐",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-19T11:16:12.452Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089945776114053132-8173b034.md",
+      "slug": "OpenAI与Anthropic收入数字四个口径",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-19T11:17:08.632Z",
+      "topic_id": "sources/2026-08-19/sopilot-hot-2089922874945703973-ce5c43ab.md",
+      "slug": "Codex清理临时文件事故与权限边界",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-08-19T11:18:08.486Z",
+      "topic_id": "sources/2026-08-19/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版从初始化到长期记忆",
+      "error": "generated markdown for Hermes Agent 新版怎么用：从初始化到长期记忆，搭一套真正能持续成长的个人系统 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-19T11:19:08.142Z",
+      "topic_id": "sources/2026-08-19/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版从初始化到长期记忆",
+      "error": ""
+    }
+  ]
+}

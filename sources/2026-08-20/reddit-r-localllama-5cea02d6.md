@@ -1,0 +1,19 @@
+---
+title: 'Qwen3.8-23B-Mini-Me: A Depth-Pruned Qwen3.8-27B (to ~22.7BB)'
+url: >-
+  https://www.reddit.com/r/LocalLLaMA/comments/1vt2jef/qwen3823bminime_a_depthpruned_qwen3827b_to_227bb/
+source: Reddit r/LocalLLaMA
+source_type: rss
+language: en
+published: '2026-08-19T23:19:16.000Z'
+fetched_at: '2026-08-20T11:01:24.242Z'
+---
+I've been working on a depth pruning approach and decided to try it out on the new Qwen3.8-27B model. I managed to get the model down to about 22.7B params without severe reasoning degradation. No fine-tuning was done, just strategic removal of layers.
+ It's been working well for my use cases in coding, agentic use, and multi-turn chats, so I figured I'd shared it with the community. I have not run benchmarks so I'm not going to claim this model is better than anything else out there. It's just a smaller version of the 27B dense that is slightly worse at some things but has a smaller footprint and runs faster.
+ If you would like to use it, there are bf16, q8, and q4 versions available. I would also recommend probing and testing it to make sure it's up to the standards of your projects or use cases.
+ Let me know what you think if you do use it, I would appreciate the feedback!
+ Edit: Only have MLX versions at the moment
+ Edit 2: I'd recommend using the same exact recommend chat settings the original model uses, I've had no looping or issues with those settings: https://huggingface.co/Qwen/Qwen3.8-27B
+ Edit 3: For some context, it handles standard coding problems well; where it falters compared to the original model is in edge cases or with prompts that are slightly underspecified (where the original model has more capability to correctly infer decisions in underspecified prompts)
+    submitted by    /u/peplo1214  
+ [link]   [comments]
