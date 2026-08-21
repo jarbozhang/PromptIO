@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-21",
+  "created_at": "2026-08-21T11:11:42.654Z",
+  "updated_at": "2026-08-21T11:17:36.253Z",
+  "source_count": 149,
+  "topics": [
+    {
+      "id": "sources/2026-08-21/sopilot-hot-2090568966188212622-48c840c2.md",
+      "file": "sources/2026-08-21/sopilot-hot-2090568966188212622-48c840c2.md",
+      "slug": "商汤SenseNova中文海报实测",
+      "title": "商汤开源 SenseNova U1.5：中文海报和局部改图可以这样试",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.03,
+      "reach_note": "商汤具备品牌认知，Apache 2.0 开源且可直接测试图片生成和编辑。",
+      "selection_reason": "统一视觉理解、生成与精确编辑对应设计师和内容创作者的真实痛点，比单纯转述模型参数更容易形成可复用的创作方法。",
+      "selected_at": "2026-08-21T11:11:42.655Z",
+      "updated_at": "2026-08-21T11:12:26.511Z",
+      "draft_ready_at": "2026-08-21T11:12:26.511Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-21/商汤开源 SenseNova U1.5：中文海报和局部改图可以这样试",
+      "meta_path": "drafts/2026-08-21/商汤开源 SenseNova U1.5：中文海报和局部改图可以这样试/商汤开源 SenseNova U1.5：中文海报和局部改图可以这样试.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-21/sopilot-hot-2090549027435954617-ce37df5b.md",
+      "file": "sources/2026-08-21/sopilot-hot-2090549027435954617-ce37df5b.md",
+      "slug": "252美元训练迷你Kimi复盘",
+      "title": "252 美元训练迷你 Kimi：最值钱的不是成功，而是这 13 次失败",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.025,
+      "reach_note": "Kimi 品牌加上明确的 252 美元成本锚点，为想训练模型的读者提供可操作的预算与避坑依据。",
+      "selection_reason": "素材包含完整实验日志、成本、训练指标和失败记录，既有技术深度，也能帮助读者在投入算力前做出更现实的判断。",
+      "selected_at": "2026-08-21T11:11:42.656Z",
+      "updated_at": "2026-08-21T11:13:19.082Z",
+      "draft_ready_at": "2026-08-21T11:13:19.081Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-21/252 美元训练迷你 Kimi：最值钱的不是成功，而是这 13 次失败",
+      "meta_path": "drafts/2026-08-21/252 美元训练迷你 Kimi：最值钱的不是成功，而是这 13 次失败/252 美元训练迷你 Kimi：最值钱的不是成功，而是这 13 次失败.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-21/sopilot-hot-2090701734138274062-819c22e2.md",
+      "file": "sources/2026-08-21/sopilot-hot-2090701734138274062-819c22e2.md",
+      "slug": "同花顺A股数据API上手",
+      "title": "同花顺开放 A 股数据 API：不用自己维护爬虫了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.029,
+      "reach_note": "同花顺是高认知品牌，少维护爬虫是明确利益点，读者拿到 Key 后即可运行查询。",
+      "selection_reason": "官方数据入口直击量化和金融分析中的数据维护成本，也能延伸到研究脚本与自动化分析，实用范围清晰。",
+      "selected_at": "2026-08-21T11:11:42.657Z",
+      "updated_at": "2026-08-21T11:14:03.489Z",
+      "draft_ready_at": "2026-08-21T11:14:03.489Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-21/同花顺开放 A 股数据 API：不用自己维护爬虫了",
+      "meta_path": "drafts/2026-08-21/同花顺开放 A 股数据 API：不用自己维护爬虫了/同花顺开放 A 股数据 API：不用自己维护爬虫了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-21/sopilot-hot-2090636759637930434-a1b6874d.md",
+      "file": "sources/2026-08-21/sopilot-hot-2090636759637930434-a1b6874d.md",
+      "slug": "Codex额度消耗排查",
+      "title": "Codex 额度突然不耐用？先查清每个任务到底消耗了多少",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.037,
+      "reach_note": "Codex 有明确品牌认知，排查额度消耗直接关系订阅成本，读者可以立即核对自己的使用记录。",
+      "selection_reason": "多条用户反馈指向同一问题，这条来源给出了可验证入口，适合从情绪争论转向数据排查，并合并当天其他额度讨论避免重复选题。",
+      "selected_at": "2026-08-21T11:11:42.657Z",
+      "updated_at": "2026-08-21T11:14:54.218Z",
+      "draft_ready_at": "2026-08-21T11:14:54.217Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-21/Codex 额度突然不耐用？先查清每个任务到底消耗了多少",
+      "meta_path": "drafts/2026-08-21/Codex 额度突然不耐用？先查清每个任务到底消耗了多少/Codex 额度突然不耐用？先查清每个任务到底消耗了多少.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-21/sopilot-hot-2090569830286205306-489f95fa.md",
+      "file": "sources/2026-08-21/sopilot-hot-2090569830286205306-489f95fa.md",
+      "slug": "Claude免费课程学习路线",
+      "title": "Claude Academy 免费开放：这套课程最值得先学哪几门？",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "checklist_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 50,
+      "recent_similarity": 0.028,
+      "reach_note": "Claude 品牌、免费利益点和可立即开始学习三个要素齐全。",
+      "selection_reason": "免费官方教育资源覆盖普通用户和开发者，行动门槛低；同时可以借课程设计观察 AI 公司如何通过教育建立长期使用习惯。",
+      "selected_at": "2026-08-21T11:11:42.657Z",
+      "updated_at": "2026-08-21T11:15:46.924Z",
+      "draft_ready_at": "2026-08-21T11:15:46.924Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-21/Claude Academy 免费开放：这套课程最值得先学哪几门？",
+      "meta_path": "drafts/2026-08-21/Claude Academy 免费开放：这套课程最值得先学哪几门？/Claude Academy 免费开放：这套课程最值得先学哪几门？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-21/sopilot-hot-2090498060962914785-d8f67189.md",
+      "file": "sources/2026-08-21/sopilot-hot-2090498060962914785-d8f67189.md",
+      "slug": "DeepSeek大肥鱼桌面挂件",
+      "title": "DeepSeek 免费桌面挂件：把大肥鱼放到电脑上还能敲两下",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 96,
+      "recent_similarity": 0.024,
+      "reach_note": "DeepSeek 品牌、免费利益点和可立即下载安装三个要素齐全。",
+      "selection_reason": "这是当天少见的普通用户轻量场景，互动数据强、上手成本低，也能为创作者提供品牌角色和桌面内容传播的案例。",
+      "selected_at": "2026-08-21T11:11:42.658Z",
+      "updated_at": "2026-08-21T11:16:32.567Z",
+      "draft_ready_at": "2026-08-21T11:16:32.567Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-21/DeepSeek 免费桌面挂件：把大肥鱼放到电脑上还能敲两下",
+      "meta_path": "drafts/2026-08-21/DeepSeek 免费桌面挂件：把大肥鱼放到电脑上还能敲两下/DeepSeek 免费桌面挂件：把大肥鱼放到电脑上还能敲两下.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-21/deepmind-blog-618d4dfa.md",
+      "file": "sources/2026-08-21/deepmind-blog-618d4dfa.md",
+      "slug": "Google手语输入隐私边界",
+      "title": "Google 把手语输入带到 Pixel：便利背后有哪些隐私边界？",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 96,
+      "recent_similarity": 0.029,
+      "reach_note": "Google 和 Pixel 提供品牌认知，手语直接转文字带来明确便利，目标用户可在支持设备上实际使用。",
+      "selection_reason": "官方博客与配套说明能够互相印证，议题兼顾无障碍技术的现实价值和数据处理边界，为当天内容补充普通用户与安全视角。",
+      "selected_at": "2026-08-21T11:11:42.658Z",
+      "updated_at": "2026-08-21T11:17:36.253Z",
+      "draft_ready_at": "2026-08-21T11:17:36.253Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-21/Google 把手语输入带到 Pixel：便利背后有哪些隐私边界？",
+      "meta_path": "drafts/2026-08-21/Google 把手语输入带到 Pixel：便利背后有哪些隐私边界？/Google 把手语输入带到 Pixel：便利背后有哪些隐私边界？.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-21T11:11:42.654Z",
+      "source_count": 149
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-21T11:11:42.655Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-21T11:11:42.655Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090568966188212622-48c840c2.md",
+      "slug": "商汤SenseNova中文海报实测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-21T11:11:42.656Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090549027435954617-ce37df5b.md",
+      "slug": "252美元训练迷你Kimi复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-21T11:11:42.657Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090701734138274062-819c22e2.md",
+      "slug": "同花顺A股数据API上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-21T11:11:42.657Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090636759637930434-a1b6874d.md",
+      "slug": "Codex额度消耗排查"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-21T11:11:42.657Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090569830286205306-489f95fa.md",
+      "slug": "Claude免费课程学习路线"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-21T11:11:42.658Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090498060962914785-d8f67189.md",
+      "slug": "DeepSeek大肥鱼桌面挂件"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-21T11:11:42.658Z",
+      "topic_id": "sources/2026-08-21/deepmind-blog-618d4dfa.md",
+      "slug": "Google手语输入隐私边界"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-21T11:12:26.511Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090568966188212622-48c840c2.md",
+      "slug": "商汤SenseNova中文海报实测",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-21T11:13:19.082Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090549027435954617-ce37df5b.md",
+      "slug": "252美元训练迷你Kimi复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-21T11:14:03.489Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090701734138274062-819c22e2.md",
+      "slug": "同花顺A股数据API上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-21T11:14:54.218Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090636759637930434-a1b6874d.md",
+      "slug": "Codex额度消耗排查",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-21T11:15:46.924Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090569830286205306-489f95fa.md",
+      "slug": "Claude免费课程学习路线",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-21T11:16:32.567Z",
+      "topic_id": "sources/2026-08-21/sopilot-hot-2090498060962914785-d8f67189.md",
+      "slug": "DeepSeek大肥鱼桌面挂件",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-21T11:17:36.253Z",
+      "topic_id": "sources/2026-08-21/deepmind-blog-618d4dfa.md",
+      "slug": "Google手语输入隐私边界",
+      "error": ""
+    }
+  ]
+}
