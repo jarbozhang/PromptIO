@@ -1,0 +1,21 @@
+---
+title: Dynamic Resource Allocation for Ensemble Determinization MCTS
+url: 'https://arxiv.org/abs/2607.13007v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Jakub Kowalski
+  - Adam Ciężkowski
+  - Artur Krzyżyński
+  - Mark H. M. Winands
+categories:
+  - cs.AI
+  - cs.AI
+published: '2026-07-14T17:51:15Z'
+fetched_at: '2026-07-15T23:03:05.476Z'
+---
+Simulation-based algorithms are especially suited for high-uncertainty environments such as adversarial board games with significant elements of randomness and hidden information. In particular, several Monte Carlo Tree Search (MCTS) variants are commonly used in such domains. In this paper, we propose a series of enhancements for Ensemble Determinization MCTS, introducing two axes for dynamic resource allocation. First, Dynamic Number of Determinizations, increases or decreases the number of currently used determinization trees depending on the behavior of so-far search. Second, Dynamic Simulation Allocation, splits the simulation budget nonuniformly across the determinization trees, using simulation-to-simulation decisions to choose the tree with potentially the best knowledge gain. As benchmark domains, we used three popular tabletop games: Jaipur, Lost Cities, and Splendor. Testing our proposed enhancements in iteration- and time-based settings showed that particular configurations yield a statistically significant increase in the algorithm's strength.
+
+Authors: Jakub Kowalski, Adam Ciężkowski, Artur Krzyżyński, Mark H. M. Winands
+Categories: cs.AI, cs.AI

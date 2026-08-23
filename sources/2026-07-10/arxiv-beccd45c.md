@@ -1,0 +1,24 @@
+---
+title: >-
+  Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient
+  Diffusion RLHF
+url: 'https://arxiv.org/abs/2607.07693v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Eric Zhu
+  - Abhinav Shrivastava
+  - Soumik Mukhopadhyay
+categories:
+  - cs.LG
+  - cs.AI
+  - cs.CV
+  - cs.LG
+published: '2026-07-08T17:49:49Z'
+fetched_at: '2026-07-09T23:02:05.092Z'
+---
+Reinforcement learning from human feedback (RLHF) has emerged as a powerful paradigm for aligning generative models with human preferences. However, applying RLHF to diffusion models remains highly feedback inefficient, as existing approaches typically require large amounts of human or reward model evaluations. This limitation reduces the practicality of diffusion RLHF in realworld settings where feedback is the primary bottleneck. In this paper, we propose two complementary strategies that substantially improve the feedback efficiency of diffusion RLHF while preserving generalization to unseen prompts. Our key observation is that reward information in diffusion trajectories is unevenly distributed: not all denoising timesteps or trajectories contribute equally to learning from a reward signal. By emphasizing informative timesteps and trajectories during optimization, we obtain more effective gradient updates. First, we introduce a per-timestep weighting scheme that reweights denoising steps during policy optimization. We theoretically connect this weighting to the optimal convergence properties of proximal policy optimization (PPO) and approximate the resulting weighting trend empirically. Second, we introduce a replay mechanism that prioritizes informative trajectories, enabling the model to reuse past samples instead of repeatedly querying new rewards. Together, these strategies significantly improve the feedback efficiency of diffusion RLHF. Under identical hyperparameter
+
+Authors: Eric Zhu, Abhinav Shrivastava, Soumik Mukhopadhyay
+Categories: cs.LG, cs.AI, cs.CV, cs.LG

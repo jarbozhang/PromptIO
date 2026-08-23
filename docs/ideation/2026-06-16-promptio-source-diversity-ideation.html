@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>PromptIO 素材入口多样性 Ideation</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --paper: #ffffff;
+      --ink: #172033;
+      --muted: #536070;
+      --line: #d8dee9;
+      --soft: #eef4ff;
+      --soft-2: #eefdf6;
+      --warn: #fff7df;
+      --accent: #2454d6;
+      --good: #116b49;
+      --risk: #9a4a00;
+      --bad: #a43131;
+      --code: #0f172a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 15px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    .page {
+      width: min(940px, calc(100vw - 40px));
+      margin: 36px auto 56px;
+    }
+    header {
+      border: 1px solid var(--line);
+      background: var(--paper);
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: 0 12px 34px rgba(24, 39, 75, 0.06);
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: 32px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 21px;
+      line-height: 1.3;
+      letter-spacing: 0;
+    }
+    h3 {
+      margin: 0 0 8px;
+      font-size: 17px;
+      letter-spacing: 0;
+    }
+    p { max-width: 76ch; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      color: var(--code);
+      background: #edf2f7;
+      border: 1px solid #d7e0ea;
+      border-radius: 6px;
+      padding: 1px 5px;
+      font-size: 0.92em;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #cbd7ef;
+      background: var(--soft);
+      color: #1d3e92;
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 650;
+    }
+    section {
+      margin-top: 18px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      border-radius: 14px;
+      padding: 24px;
+    }
+    .callout {
+      border: 1px solid #d2ddf4;
+      background: var(--soft);
+      color: #1c3367;
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin: 14px 0;
+    }
+    .warning {
+      border-color: #ead295;
+      background: var(--warn);
+      color: #6d4200;
+    }
+    .good {
+      border-color: #b8e3cf;
+      background: var(--soft-2);
+      color: #135d43;
+    }
+    .grid {
+      display: grid;
+      gap: 12px;
+    }
+    .grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .metric {
+      border: 1px solid var(--line);
+      background: #fbfdff;
+      border-radius: 12px;
+      padding: 14px;
+    }
+    .metric b {
+      display: block;
+      font-size: 23px;
+      line-height: 1.2;
+    }
+    .metric span { color: var(--muted); font-size: 13px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0 8px;
+      font-size: 14px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 9px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      color: #29344a;
+      background: #f4f7fb;
+      font-weight: 700;
+    }
+    .idea-nav {
+      display: grid;
+      gap: 8px;
+      margin: 10px 0 18px;
+    }
+    .idea-nav a {
+      display: block;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 8px 10px;
+      background: #fbfdff;
+      color: var(--ink);
+    }
+    article.idea {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px;
+      margin: 14px 0;
+      background: #ffffff;
+    }
+    .rank {
+      display: inline-flex;
+      width: 28px;
+      height: 28px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      color: #fff;
+      background: var(--accent);
+      font-weight: 800;
+      margin-right: 8px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0 0;
+    }
+    .tag {
+      border-radius: 999px;
+      padding: 3px 8px;
+      border: 1px solid #d7e0ea;
+      background: #f8fafc;
+      color: #344054;
+      font-size: 12px;
+      font-weight: 650;
+    }
+    .tag.good { border-color: #b8e3cf; background: #ecfdf5; color: var(--good); }
+    .tag.risk { border-color: #eed6a5; background: #fff7df; color: var(--risk); }
+    .tag.bad { border-color: #f2bcbc; background: #fff0f0; color: var(--bad); }
+    .small { color: var(--muted); font-size: 13px; }
+    ul, ol { padding-left: 1.3rem; }
+    .composition-signal {
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+      margin: 24px 0 0;
+    }
+    @media (max-width: 760px) {
+      .page { width: min(100vw - 24px, 940px); margin-top: 18px; }
+      header, section { padding: 18px; }
+      .grid.cols-3, .grid.cols-2 { grid-template-columns: 1fr; }
+      h1 { font-size: 25px; }
+      table { display: block; overflow-x: auto; white-space: nowrap; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">ce-ideate</p>
+      <h1>PromptIO 素材入口多样性复盘</h1>
+      <p>这份文档回答一个具体问题：现在内容到底从哪些来源来，配置里预期有哪些，实际进入选题池和最终文章的又有哪些，以及怎样把它扩成一个合格的内容入口。</p>
+      <div class="meta">
+        <span class="pill">date: <time datetime="2026-06-16">2026-06-16</time></span>
+        <span class="pill">topic: promptio-source-diversity</span>
+        <span class="pill">mode: repo-grounded</span>
+        <span class="pill">focus: 素材来源、实际使用、多样性缺口、备用入口</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Grounding Context</h2>
+      <div class="callout warning">
+        <strong>核心判断：</strong>素材多样性的问题不在“配置里来源太少”，而在“真正自动跑、进入 selector prompt、最终入选”的来源高度集中。最近三天最终 15 个选题里，GitHub 类来源占 12 个，X 占 2 个，RSS 占 1 个；中文平台、PyPI、arXiv、Product Hunt、政策/商业/应用场景源几乎没有进入最终稿。
+      </div>
+
+      <div class="grid cols-3">
+        <div class="metric"><b>51</b><span>config 里的 RSS 源</span></div>
+        <div class="metric"><b>59</b><span>config 里的 X 账号</span></div>
+        <div class="metric"><b>15 / 12</b><span>近三天最终选题 / 其中 GitHub 类选题</span></div>
+      </div>
+
+      <h3>代码里的预期来源</h3>
+      <table>
+        <thead>
+          <tr><th>来源层</th><th>配置/脚本</th><th>设计意图</th><th>当前状态</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>RSS</td>
+            <td><code>config/sources.yaml</code> 的 <code>sources</code>，由 <code>scripts/pipeline.js</code> 抓取</td>
+            <td>英文科技媒体、公司博客、个人博客、newsletter、政策、GitHub release、Product Hunt</td>
+            <td>自动主路径，但大量源 403/404/解析失败；成功源也常批量返回 10-20 条旧内容，容易变成噪音池</td>
+          </tr>
+          <tr>
+            <td>GitHub Search API</td>
+            <td><code>scripts/pipeline.js</code> 内置 <code>topic:llm</code> / <code>topic:ai</code> / <code>topic:machine-learning</code> 查询</td>
+            <td>用 repo star、push、topics 抓工具爆发早信号</td>
+            <td>自动主路径；排序权重高，是最终选题最大来源</td>
+          </tr>
+          <tr>
+            <td>arXiv</td>
+            <td><code>scripts/pipeline.js</code> 抓 <code>cs.AI/cs.CL/cs.LG</code></td>
+            <td>论文和研究趋势</td>
+            <td>每天约 20 条，但几乎不入选；对小红书“能马上动手”的转译成本高</td>
+          </tr>
+          <tr>
+            <td>GitHub Trending 页面</td>
+            <td><code>npm run fetch:trending</code></td>
+            <td>补足 GitHub Search API 之外的当日热门 repo</td>
+            <td>需要额外运行；06-15/06-16 有进池，最终各入选 1 个</td>
+          </tr>
+          <tr>
+            <td>X 账号和 Home timeline</td>
+            <td><code>config/sources.yaml</code> 的 <code>x_accounts</code>，依赖 bird/浏览器会话</td>
+            <td>KOL 观点、中文 AI 圈、工具实操、公司更新</td>
+            <td>需要手动/会话抓取；06-16 保存 213 条，最终入选 2 条</td>
+          </tr>
+          <tr>
+            <td>TrendRadar 中文平台</td>
+            <td><code>npm run fetch:trendradar</code></td>
+            <td>知乎、B站、微博、抖音等中文热点，解决“读者需求”信号缺失</td>
+            <td>06-16 实际失败：依赖 <code>/tmp/TrendRadar</code> Docker DB，未产出 source</td>
+          </tr>
+          <tr>
+            <td>PyPI Trends</td>
+            <td><code>npm run fetch:pypi</code></td>
+            <td>判断哪些 AI 包真实被开发者使用</td>
+            <td>06-16 产出 1 条汇总；受 pypistats 429 影响，未入选</td>
+          </tr>
+          <tr>
+            <td>OpenRouter</td>
+            <td><code>npm run fetch:openrouter</code></td>
+            <td>过去用于模型价格/上新信号</td>
+            <td>已被判定为敏感源；应保留为内部观察或彻底禁用，不进入发布选题</td>
+          </tr>
+          <tr>
+            <td>TrustMRR OpenClaw Ecosystem</td>
+            <td><code>web_sources</code></td>
+            <td>OpenClaw 生态创业公司营收排行榜</td>
+            <td>配置存在，但没有自动采集脚本；实际未进入 06-14~06-16 sources</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>最近三天实际来源分布</h3>
+      <table>
+        <thead>
+          <tr><th>日期</th><th>落盘 source 总数</th><th>过滤后可发布</th><th>进入 selector 前 160 的结构</th><th>最终入选来源</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2026-06-14</td>
+            <td>509</td>
+            <td>440</td>
+            <td>RSS 118、GitHub Search 22、GitHub Release RSS 18、arXiv 2</td>
+            <td>1 篇，GitHub Search 1</td>
+          </tr>
+          <tr>
+            <td>2026-06-15</td>
+            <td>563</td>
+            <td>461</td>
+            <td>RSS 99、GitHub Search 22、GitHub Trending Page 19、GitHub Release RSS 18、arXiv 2</td>
+            <td>7 篇，GitHub Search 5、GitHub Trending Page 1、RSS 1</td>
+          </tr>
+          <tr>
+            <td>2026-06-16</td>
+            <td>745</td>
+            <td>673</td>
+            <td>RSS 83、GitHub Search 21、X 24、GitHub Trending Page 12、GitHub Release RSS 19、PyPI 1</td>
+            <td>7 篇，GitHub Search 4、GitHub Trending Page 1、X 2</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>外部接口核对</h3>
+      <ul>
+        <li>GitHub REST API 可作为 repo、release、issue、PR、contents、statistics 的官方入口；现有脚本只用了 search repositories 的一小块能力。</li>
+        <li>arXiv 官方 API 支持程序化读取论文元数据，但官方示例建议请求之间等待 3 秒，适合低频研究源，不适合高频热榜。</li>
+        <li>Product Hunt API 2.0 是 GraphQL，公共内容可用 client-level token 读取；它比 RSS 更适合拿 votes、topics、tagline 等结构化字段。</li>
+        <li>RSSHub 有知乎、B站等社交媒体 routes，但部分 route 标注反爬严格或需要自建 Cookie；它适合做备用和重点账号订阅，不适合作为无状态公共热榜依赖。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Topic Axes</h2>
+      <div class="grid cols-2">
+        <div class="metric"><b>来源覆盖</b><span>当前有哪些 source 类，哪些只是配置存在，哪些真正进了 selector 和最终稿。</span></div>
+        <div class="metric"><b>选题入口</b><span>source 如何排序、过滤、截断，为什么 673 条可发素材只剩少数类型被看见。</span></div>
+        <div class="metric"><b>内容形态</b><span>不同来源应该贡献事实、需求、观点、应用场景还是采用信号。</span></div>
+        <div class="metric"><b>备用与降级</b><span>某一类来源失败时，如何保持内容模式不变薄、不重复、不误触平台规则。</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Ranked Ideas</h2>
+      <div class="idea-nav">
+        <a href="#idea-1">1. 把素材池改成“来源配额 + 入口健康表”</a>
+        <a href="#idea-2">2. 从单 source 选题升级为 story package</a>
+        <a href="#idea-3">3. 中文需求源单独建一条稳定采集链</a>
+        <a href="#idea-4">4. 把 GitHub 拆成五种信号，而不是一个大类</a>
+        <a href="#idea-5">5. 让 X 只负责角度和反馈，不负责事实主线</a>
+        <a href="#idea-6">6. 建一个“备用源货架”，按内容形态而不是平台名接入</a>
+        <a href="#idea-7">7. 给 selector 加多样性闸门，防止每日稿件同质化</a>
+      </div>
+
+      <article id="idea-1" class="idea">
+        <h3><span class="rank">1</span>把素材池改成“来源配额 + 入口健康表”</h3>
+        <p><strong>Description:</strong> 每日生成前先写入 <code>runs/{date}/manifest.json</code> 的 <code>source_health</code> 和 <code>source_mix</code>：配置数量、实际落盘数量、过滤后可发布数量、进入 selector 数量、最终入选数量。然后按来源类别给 selector 前 160 条做软配额，避免 GitHub 和少数高权重 RSS 挤掉中文需求源、应用源和采用信号。</p>
+        <p><strong>Axis:</strong> 选题入口</p>
+        <p><strong>Basis:</strong> direct: 06-16 可发布 source 为 673 条，但进入 selector 前 160 后只剩 RSS 83、GitHub 33、X 24、Release RSS 19、PyPI 1；最终入选 GitHub 5、X 2。<code>scripts/daily.js</code> 先按 <code>sourcePriority()</code> 排序再 <code>slice(0, limit)</code>。</p>
+        <p><strong>Rationale:</strong> 当前“素材很多”是表象，真正决定文章的入口是排序后的前 160。没有配额，任何新增源都可能只是落盘好看，实际被截断。</p>
+        <p><strong>Downsides:</strong> 需要先定义来源 taxonomy；配额过硬会牺牲当天真正好的 GitHub 爆点，所以应该是软配额和健康报告，不是机械均分。</p>
+        <div class="tags"><span class="tag good">Confidence 92%</span><span class="tag">Complexity Medium</span></div>
+      </article>
+
+      <article id="idea-2" class="idea">
+        <h3><span class="rank">2</span>从单 source 选题升级为 story package</h3>
+        <p><strong>Description:</strong> selector 不再只输出一个 <code>file</code>，而是输出 <code>primary_source</code>、<code>corroborating_sources</code>、<code>demand_signal</code>、<code>use_case_signal</code>、<code>missing_evidence</code>。一篇文章至少有事实源和读者需求源两个层次；没有需求源时，只能写短评或工具卡，不写“值得你马上用”的强行动稿。</p>
+        <p><strong>Axis:</strong> 内容形态</p>
+        <p><strong>Basis:</strong> direct: 2026-06-14 既有 ideation 已指出“选题单位与证据要求冲突，schema 以单个 source file 为单位，导致证据厚度没有成为数据结构”。最近 06-15/06-16 的 Dify、n8n、Ollama、Hermes 多数都是单 GitHub source 驱动。</p>
+        <p><strong>Rationale:</strong> 多样性不只是多抓平台，而是让每篇文章有多种证据角色：官方事实、社区反馈、中文需求、可复现入口、反例或坑点。否则新增 100 个源也会被模型压成同一种“仓库摘要”。</p>
+        <p><strong>Downsides:</strong> 会增加选题阶段复杂度；早期可以只要求 1 个 primary + 1 个 supporting，不必一次做完整 claim ledger。</p>
+        <div class="tags"><span class="tag good">Confidence 90%</span><span class="tag">Complexity Medium</span></div>
+      </article>
+
+      <article id="idea-3" class="idea">
+        <h3><span class="rank">3</span>中文需求源单独建一条稳定采集链</h3>
+        <p><strong>Description:</strong> 把中文平台从“可选补充”提升为每日入口的一等公民。第一阶段不追求全平台评论抓取，只抓平台热榜和重点账号标题：知乎热榜/问题、B站 AI 区视频标题、微博热搜/话题、掘金/少数派/InfoQ 中文技术文章、即刻/公众号人工清单。每条只作为需求信号，不直接复述平台争议。</p>
+        <p><strong>Axis:</strong> 来源覆盖</p>
+        <p><strong>Basis:</strong> direct: <code>CLAUDE.md</code> 写明定位已转为“帮中国 AI 用户发现能立刻动手的东西”，但 06-16 TrendRadar 失败，最终没有任何中文平台热榜 source 入选。external: RSSHub 社交媒体 routes 覆盖知乎和 B站，但部分 route 需要 Cookie 或有反爬标记，适合自建备用。</p>
+        <p><strong>Rationale:</strong> 小红书文章需要“读者为什么关心”的场景感。GitHub 能给事实，中文平台能给需求语言和痛点词。缺少这层，标题和结构容易都长成工具说明书。</p>
+        <p><strong>Downsides:</strong> 平台抓取要注意合规和稳定性；应先抓公开热榜/标题级元数据，避免采集个人隐私或诱导互动内容。</p>
+        <div class="tags"><span class="tag good">Confidence 88%</span><span class="tag">Complexity Medium</span></div>
+      </article>
+
+      <article id="idea-4" class="idea">
+        <h3><span class="rank">4</span>把 GitHub 拆成五种信号，而不是一个大类</h3>
+        <p><strong>Description:</strong> GitHub 仍然是可访问、可核验、平台安全的主源，但需要拆开：Trending 爆发、Release 新能力、README 能力边界、Issue/PR 真实问题、Discussions/Examples 使用方式。openclaw/Hermes 这类重点项目，应固定走“release → README → issue/PR → examples”的 package，而不是只读 trending 摘要。</p>
+        <p><strong>Axis:</strong> 内容形态</p>
+        <p><strong>Basis:</strong> direct: 06-15/06-16 最终 14 篇中 GitHub 类来源 12 篇；其中 openclaw、Hermes、Ollama、Dify、n8n 重复出现。external: GitHub 官方 REST API 提供 repository、release、issue、pull request、contents、statistics 等端点，现有 pipeline 主要只用 search repositories。</p>
+        <p><strong>Rationale:</strong> 不是少用 GitHub，而是别让 GitHub 只贡献“项目名 + stars + description”。拆成信号后，同一个仓库也能写出版本变化、使用边界、问题修复、迁移路径、生态插件等不同角度。</p>
+        <p><strong>Downsides:</strong> 需要更多 API 调用和缓存；对无关仓库不能全量深挖，应只对入围候选或 watchlist 做二次展开。</p>
+        <div class="tags"><span class="tag good">Confidence 87%</span><span class="tag">Complexity Medium</span></div>
+      </article>
+
+      <article id="idea-5" class="idea">
+        <h3><span class="rank">5</span>让 X 只负责角度和反馈，不负责事实主线</h3>
+        <p><strong>Description:</strong> X 来源按角色分层：官方账号给 announcement，研究者给解释框架，中文 KOL 给使用场景，home timeline 给热点线索。写作时 X 只能作为“有人这样理解/这样用”的角度来源，事实必须回到 GitHub、官方文档、release、API 文档或可核验页面。</p>
+        <p><strong>Axis:</strong> 内容形态</p>
+        <p><strong>Basis:</strong> direct: 06-16 保存 X 213 条，但最终只入选 2 条；<code>x-home-*</code> 文件大量存在，来源混杂，从 AI KOL 到非 AI 账号都有。当前 selector 没有明确区分账号类型和信号角色。</p>
+        <p><strong>Rationale:</strong> X 很适合补“为什么现在有人关心”，但如果让它直接当主事实，文章容易变成转述动态或观点拼贴。角色分层后，它能提升多样性，又不会降低可信度。</p>
+        <p><strong>Downsides:</strong> 需要维护账号标签和质量评分；home timeline 噪音大，必须比账号 watchlist 更低权重。</p>
+        <div class="tags"><span class="tag">Confidence 78%</span><span class="tag">Complexity Low</span></div>
+      </article>
+
+      <article id="idea-6" class="idea">
+        <h3><span class="rank">6</span>建一个“备用源货架”，按内容形态而不是平台名接入</h3>
+        <p><strong>Description:</strong> 备用源不要简单追加平台列表，而要按缺失的内容形态补：产品发现、采用数据、中文需求、官方变更、教程案例、监管/商业信号。每个形态至少有主源和备用源，且定义失败时的降级内容模式。</p>
+        <p><strong>Axis:</strong> 备用与降级</p>
+        <p><strong>Basis:</strong> direct: 06-16 TrendRadar 失败、PyPI 部分 429、多个 RSS 404/403，实际内容仍能生成但变成 GitHub/X 主导。external: Product Hunt API 2.0 提供 GraphQL 和公开内容 token；arXiv API 可程序化读取论文；RSSHub 可为部分中文平台生成 feed。</p>
+        <p><strong>Rationale:</strong> 备用源的目标不是“今天多几条素材”，而是防止某个入口失败时内容模式塌缩。例如中文需求源失败，就不要写“大家都在用”；只写工具更新和验证路径。</p>
+        <p><strong>Downsides:</strong> 源越多，越需要维护健康检查和去重。没有 source health 的备用源只会增加噪音。</p>
+        <div class="tags"><span class="tag">Confidence 82%</span><span class="tag">Complexity Medium</span></div>
+      </article>
+
+      <article id="idea-7" class="idea">
+        <h3><span class="rank">7</span>给 selector 加多样性闸门，防止每日稿件同质化</h3>
+        <p><strong>Description:</strong> topic selection 后加一个 diversity pass：同一天最多 3 篇同一 source class，最多 2 篇同一主题簇，至少 2 篇非 GitHub 主源，至少 1 篇中文需求信号支撑；如果不满足，就要求 selector 重新选或降低当天篇数。</p>
+        <p><strong>Axis:</strong> 选题入口</p>
+        <p><strong>Basis:</strong> direct: 06-15 七篇里 6 篇 GitHub 类，06-16 七篇里 5 篇 GitHub 类；Dify、n8n、Ollama、Hermes、OpenClaw 连续出现，结构相近。</p>
+        <p><strong>Rationale:</strong> 目前 REACH 分数会把“中文读者能动手的开源工具”全部推高，结果不是没好题，而是好题长得太像。多样性闸门让编辑口径从“逐题高分”转成“当天内容组合合格”。</p>
+        <p><strong>Downsides:</strong> 当天好素材很少时可能牺牲质量；因此闸门应该允许“降低篇数”，而不是强行填满 7 篇。</p>
+        <div class="tags"><span class="tag good">Confidence 89%</span><span class="tag">Complexity Low</span></div>
+      </article>
+    </section>
+
+    <section>
+      <h2>预期、实际、可加入备用源</h2>
+      <h3>当前预期来源</h3>
+      <ul>
+        <li><strong>主事实源：</strong>RSS、GitHub Search/Trending、arXiv、GitHub Releases、官方博客。</li>
+        <li><strong>观点和使用反馈：</strong>X 账号列表、X home timeline。</li>
+        <li><strong>中文需求：</strong>TrendRadar 计划覆盖知乎/B站/微博/抖音等，但当前没有稳定落地。</li>
+        <li><strong>采用信号：</strong>PyPI 下载趋势；配置里没有 npm、Hugging Face downloads、Docker pulls、VS Code marketplace 等。</li>
+        <li><strong>商业/产品信号：</strong>Product Hunt RSS、VC 博客、TrustMRR，但目前没有结构化抓取和入选保障。</li>
+      </ul>
+
+      <h3>当前实际来源</h3>
+      <ul>
+        <li><strong>真正自动稳定：</strong>RSS、GitHub Search API、arXiv。</li>
+        <li><strong>额外运行才有：</strong>GitHub Trending 页面、PyPI、X、TrendRadar。</li>
+        <li><strong>已不适合发布面：</strong>Reddit、HN、OpenRouter。它们可以内部观察，但不能进入标题、正文、frontmatter 或相关链接。</li>
+        <li><strong>最终支配文章：</strong>GitHub。06-15 和 06-16 两天 14 篇中，GitHub 类来源 11 篇，X 2 篇，RSS 1 篇。</li>
+      </ul>
+
+      <h3>建议加入的备用源货架</h3>
+      <table>
+        <thead>
+          <tr><th>缺口</th><th>主源</th><th>备用源</th><th>进入文章的角色</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>中文读者需求</td>
+            <td>TrendRadar 直接 API 或稳定本地 DB</td>
+            <td>RSSHub 自建：知乎热榜/问题、B站 UP、微博热搜；手动白名单导入</td>
+            <td>标题语言、痛点词、读者为什么关心</td>
+          </tr>
+          <tr>
+            <td>开源项目深度</td>
+            <td>GitHub Search + Trending</td>
+            <td>GitHub Releases、Issues、PRs、Discussions、Contents API、watchlist repos</td>
+            <td>事实主线、版本变化、解决的问题、使用边界</td>
+          </tr>
+          <tr>
+            <td>采用数据</td>
+            <td>PyPI Trends</td>
+            <td>npm downloads、Hugging Face model/download stats、Docker Hub pulls、VS Code marketplace installs</td>
+            <td>“这个东西是否真的有人用”的证据</td>
+          </tr>
+          <tr>
+            <td>产品发现</td>
+            <td>Product Hunt RSS</td>
+            <td>Product Hunt GraphQL API、HackerNoon/Dev.to/RSSHub tech routes、工具目录白名单</td>
+            <td>新产品、新使用场景、非 GitHub 工具</td>
+          </tr>
+          <tr>
+            <td>教程和案例</td>
+            <td>X KOL watchlist</td>
+            <td>掘金、少数派、InfoQ、B站教程 UP、GitHub examples/docs</td>
+            <td>怎么开始、坑点、真实工作流</td>
+          </tr>
+          <tr>
+            <td>商业/生态</td>
+            <td>TrustMRR OpenClaw Ecosystem</td>
+            <td>公司 changelog、pricing page diff、公开 customer story、GitHub sponsors/marketplace</td>
+            <td>生态热度、商业化路径、谁在用</td>
+          </tr>
+          <tr>
+            <td>研究趋势</td>
+            <td>arXiv</td>
+            <td>Papers With Code、Hugging Face Papers、官方论文博客、会议 accepted paper feed</td>
+            <td>只在能转成工具/路线图/可验证实验时入选</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Rejection Summary</h2>
+      <table>
+        <thead>
+          <tr><th>#</th><th>被否决方向</th><th>原因</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>继续扩大 RSS 列表</td><td>当前 51 个 RSS 已有大量失败和重复旧内容；不解决健康检查、截断和配额，只会扩大噪音。</td></tr>
+          <tr><td>2</td><td>重新启用 Reddit/HN/OpenRouter 作为发布源</td><td>与现有平台风险规则冲突；可以内部观察，不能进入发布面。</td></tr>
+          <tr><td>3</td><td>单纯降低 GitHub 权重</td><td>GitHub 是最可核验、最安全的主源；问题不是 GitHub 太多，而是没有拆信号角色和配套需求源。</td></tr>
+          <tr><td>4</td><td>每天强制固定 7 篇</td><td>当来源多样性不足时，强行填满会制造同质化；应允许当天降到 3-5 篇高质量组合。</td></tr>
+          <tr><td>5</td><td>用大模型自己补“社区声音”</td><td>没有真实来源时会编造反馈；source health 应直接约束内容模式。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Sources & References</h2>
+      <ul>
+        <li><code>config/sources.yaml</code>：RSS、X、web_sources、dev_sources 配置。</li>
+        <li><code>scripts/pipeline.js</code>：自动抓 RSS、GitHub Search API、arXiv。</li>
+        <li><code>scripts/daily.js</code>：过滤敏感源、按 <code>sourcePriority()</code> 排序、截断 selector source 列表。</li>
+        <li><code>logs/2026-06-16.md</code>：TrendRadar 失败、GitHub Trending、PyPI、X 抓取结果。</li>
+        <li><code>topics/2026-06-14.json</code>、<code>topics/2026-06-15.json</code>、<code>topics/2026-06-16.json</code>：最终入选来源。</li>
+        <li><a href="https://docs.github.com/en/rest">GitHub REST API documentation</a>：repo、release、issue、PR、contents、statistics 等官方 API。</li>
+        <li><a href="https://info.arxiv.org/help/api/user-manual.html">arXiv API User's Manual</a>：程序化读取论文元数据。</li>
+        <li><a href="https://api.producthunt.com/v2/docs">Product Hunt API 2.0 Documentation</a>：GraphQL 产品数据入口。</li>
+        <li><a href="https://rsshub.netlify.app/routes/social-media">RSSHub social-media routes</a>：知乎、B站等路线和 Cookie/反爬约束。</li>
+      </ul>
+    </section>
+
+    <footer class="composition-signal">Composed 2026-06-16T18:25:08+0800 by ce-ideate from PromptIO local sources and official API documentation.</footer>
+  </main>
+</body>
+</html>

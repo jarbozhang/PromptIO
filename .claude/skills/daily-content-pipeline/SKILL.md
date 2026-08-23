@@ -9,16 +9,17 @@ description: >
 
 # Daily Content Pipeline
 
-自动化 AI 内容管线，7 步完成从采集到生成（含 wiki 维护）。
+自动化 AI 内容管线，7 步完成从采集到生成、验证和通知（含 wiki 维护）。
 
 ## 执行模式
 
-**全程无人值守。** 触发本 skill 后，所有步骤连续执行直到 Step 6 commit 完成，**任何中间步骤都不停下等用户确认**：
+**全程无人值守。** 触发本 skill 后，所有步骤连续执行直到 Step 7 最终验证和通知完成，**任何中间步骤都不停下等用户确认**：
 - Step 3 选题输出后**直接进入** Step 3.5，不展示候选给用户审核
 - Step 4 写作子代理直接并行启动
-- Step 4.5 QA 将 L6 小红书规则作为主稿硬门槛；如有 needs_review 也不暂停，只在 meta.yaml 标记，Step 6 commit 仍照常
+- Step 4.5 QA 将 L6 小红书规则作为主稿硬门槛；如有 needs_review 也不暂停，只在 markdown frontmatter 标记，后续验证和 commit 仍照常
 - 不再生成单独的小红书版本；主稿就是公众号/X/小红书共用的唯一版本
 - Step 5 wiki 三类子代理并行后直接 commit
+- Step 7 最终验证完成后，如配置了 `BARK_NOTIFY_URL`，发 Bark 通知给用户
 
 质量保证依赖：Step 3 合规预检 + Step 4.5 QA 三轮质修循环（含 L6 小红书硬门槛）+ Step 5c 主角过滤。这三道关之外不再设人工把关。
 
@@ -32,7 +33,7 @@ description: >
 
 ## 完整流程
 
-依次执行以下 6 步。每步完成后汇报结果，遇到错误时诊断但不中断整体流程。
+依次执行以下 7 步。每步完成后汇报结果，遇到错误时诊断但不中断整体流程。
 
 ### Step 1: RSS/GitHub/arXiv 采集
 
@@ -42,7 +43,7 @@ npm run pipeline
 
 这会运行 `scripts/pipeline.js`，采集 `config/sources.yaml` 中定义的所有 RSS 源、GitHub Trending 和 arXiv 论文，保存到 `sources/{date}/`，并自动 commit。
 
-记录采集条目数，报告失败的源（常见的 Reddit 403、MIT Tech Review 超时可忽略）。
+记录采集条目数，报告失败的源（常见的 RSS 403、MIT Tech Review 超时可忽略）。
 
 ### Step 1b: 脚本信号源采集
 
@@ -50,19 +51,17 @@ npm run pipeline
 
 ```bash
 npm run fetch:trending      # GitHub Trending 每日热门 AI 项目（抓取 trending 页面 + API 补充 topics）
-npm run fetch:openrouter    # OpenRouter 新增模型监控（对比上次快照，只输出新增）
 npm run fetch:pypi          # PyPI AI 包下载趋势（10 个核心包，检测增速异常 >20%）
 npm run fetch:trendradar    # 中文平台热点（知乎/B站/微博/抖音等 11 个平台，AI 关键词过滤）
 ```
 
 **注意事项：**
 - `fetch:trending` 抓取 3 个页面（all/python/jupyter-notebook），用 AI 关键词过滤
-- `fetch:openrouter` 首次运行会建立基线快照（存在 `data/openrouter-models.json`），后续只报告新增模型
 - `fetch:pypi` 有 rate limit（pypistats.org），脚本内置 3s 间隔，偶尔仍有 429 失败属正常
 - PyPI 趋势数据存在 `data/pypi-trends.json`，增速 >20% 的包会单独生成 spike 文件
 - `fetch:trendradar` 依赖 TrendRadar Docker 容器（`/tmp/TrendRadar/`），首次运行会自动触发容器抓取。输出前缀 `trendradar-`
 
-四个脚本的输出都保存到 `sources/{date}/`，文件名前缀分别为 `github-trending-`、`openrouter-new-model-`、`pypi-trends-` / `pypi-spike-`、`trendradar-`。
+这些脚本的输出都保存到 `sources/{date}/`，文件名前缀分别为 `github-trending-`、`pypi-trends-` / `pypi-spike-`、`trendradar-`。
 
 ### Step 2: X 推文抓取
 
@@ -150,14 +149,14 @@ bird home --following -n 50 --json  # Following 关注流
 **去重：** 优先使用 wiki/coverage/article-registry.md 进行去重。同时读取最近 3 天的 `drafts/` 目录名作为补充。
 
 **评分标准（读取 `config/prompts/scoring.md` 获取完整版）：**
-- actionability (1-10): 中国用户看完能否立刻动手？
-- novelty (1-10): 对中国目标读者的新鲜度
+- actionability (1-10): 读者看完能否立刻动手？
+- novelty (1-10): 对目标读者的新鲜度
 - reach (1-10): 中文社交平台传播潜力（REACH 三要素）
 - depth_potential (1-10): 能否加入独特的实操洞察
 
 **公式：** `score = actionability * 0.35 + novelty * 0.25 + reach * 0.25 + depth_potential * 0.15`
 
-**合规前置检查（强制）：** 对每个候选选题，用 Bash 调用 `scripts/lib/l1-replace.js` 的 `checkCompliance(title + source 摘要)`：
+**合规前置检查（强制）：** 对每个候选选题，用 Bash 调用 `scripts/lib/l1-replace.js` 的 `checkCompliance(title + source 摘要)`，并用 `scripts/daily.js` 的敏感来源过滤逻辑排除 Reddit、Hacker News/HN、OpenRouter 相关 source。GitHub、官方文档、release note、issue/PR 可以正常使用：
 
 ```bash
 node -e "
@@ -179,12 +178,23 @@ console.log(JSON.stringify({ skip, reasons }));
 **选题数量：不固定，质量优先。** 只选 REACH >= 7 的选题，目标 10-20 篇。
 
 **REACH >= 7 的三要素（必须至少满足 2 个）：**
-1. 品牌认知：标题里有**中国读者认识的**品牌/人名（Google、OpenAI、DeepSeek、微信、Karpathy、雷军）
+1. 品牌认知：标题里有**中文读者认识的**品牌/人名（Google、OpenAI、DeepSeek、微信、Karpathy、雷军）
 2. 利益点：标题里有明确的好处（"免费""省X元""月入X""一键""不需要""白嫖"）
 3. 可操作：读者看完能立刻动手试（下载 app、跑命令、打开网页、扫码体验）
 
+**小红书历史数据校准（2026-06-15 后强制应用）：**
+
+- 高流量稳定模式不是“英文项目名 + 技术摘要”，而是“中文读者场景 + 可收藏路线图 + 低成本可复现”。标题前 18 个字优先放中文场景或收益，英文项目名只作为信号。
+- 高收藏结构优先级：适合谁、怎么选、下一步动作、坑点、可验证入口、最小步骤。工具目录、项目作者名、纯项目介绍要降权。
+- 行动段要贴合具体选题，不要让同一批文章反复出现“今晚可以这样...”“今晚能做什么”“今晚想动手”这类模板标题或段落。标题应从对象里长出来，例如“用测试仓库验证长期记忆”“把 reset 留给交付段”“先跑一个重复任务收件箱”。
+- 工具、教程、工作流、路线图、选型、交付类文章不能只有连续自然段。必须有 H2 层级、可收藏清单、最小步骤和明确避坑判断；否则即使事实正确，也按“平铺说明文”降权。
+- GitHub Trending 和英文论文必须二次翻译成读者问题，例如“中小团队怎么交付 AI 应用”“个人开发者怎么降低试错成本”，不要只复述仓库描述。
+- 本地可跑、免费/低成本、中文路线图、可复现步骤是强加分项；如果源材料没有支撑，宁可明确边界，也不要编造亲测。
+- 三类硬风险继续前置：拉踩评测、访问绕过教程、玄学。高需求但敏感的话题必须加安全壳，例如模拟盘、风险边界、不承诺收益、不教实盘。
+- openclaw / Hermes 选题必须优先看最新 GitHub release、README、issue/PR 和官方文档，角度必须覆盖“新版本解决了什么问题 / 新增了什么能力 / 有什么启发 / 怎么开始使用”。
+
 **REACH < 7 的典型特征（直接排除）：**
-- 标题里的品牌中国读者不认识（Holo3、Astral、MemPalace）
+- 标题里的品牌目标读者不认识（Holo3、Astral、MemPalace）
 - 纯观点/行业分析/趋势解读，读者看完没有可操作的事
 - 深度技术对比/论文拆解，标题用技术术语（"p95 延迟""754B 参数"）
 - 纯融资新闻/人事变动
@@ -203,49 +213,27 @@ console.log(JSON.stringify({ skip, reasons }));
 
 **自动直通：** 选题输出后直接进入 Step 3.5，**不等待用户确认**。用户已明确管线是无人值守跑完整流程；Step 4.5 QA 循环（含 L6 小红书规则）+ Step 5 wiki 子代理已经覆盖了内容质量、合规、覆盖度三道关，不需要选题阶段的人工把关。如果选题需要回退，由 Step 4.5 needs_review 或 commit 前自检兜底。
 
-### Step 3.5: last30days 社区反馈拉取（每个 REACH>=7 选题）
+### Step 3.5: GitHub 与中文平台反馈补强（每个 REACH>=7 选题）
 
-Step 4 启动写作子代理之前，对**每个选题**跑一次 last30days 拉真实社区反馈，作为写作时的"多平台真实反馈"素材源。
+Step 4 启动写作前，对每个选题补一层真实反馈，但**不要生成额外文件**，只把可用结论放进选题 angle 或写作 prompt。
 
-**为什么做：** X 数据源因 Chrome cookies 失效一直挂，导致文章里的"社区声音"段落偏单薄；last30days 用 Reddit/HN/GitHub 三条公开免费源，能补上这个洞。
+**允许使用：**
+- GitHub release、issue、PR、discussion、README、stars/forks 变化
+- X 讨论串（已有 source 文件或 bird 抓到的内容）
+- 知乎/B站/微博/抖音等中文平台热点摘要（来自 TrendRadar 或已有 source）
+- 官方文档、官方博客、开发者 changelog
 
-**调用：**
+**禁止使用或提及：**
+- Reddit
+- Hacker News/HN
+- OpenRouter
+- “外网/国内/国外/境外/海外”二分表达
 
-对每个选题，用 Bash 调用 last30days：
-
-```bash
-TOPIC="选题主关键词"  # 如 "DeepSeek V4" / "Qwen3.6" / "openclaw security"
-SLUG="选题对应的 slug"
-OUT_DIR="drafts/{date}/${SLUG}"
-mkdir -p "$OUT_DIR"
-
-cd ~/.claude/skills/last30days && \
-  uv run python skills/last30days/scripts/last30days.py "$TOPIC" \
-    --search reddit,hn,github \
-    --quick \
-    --emit md \
-    --days 30 \
-  > "$OLDPWD/$OUT_DIR/community-research.md" 2>&1
-```
-
-输出落地到 `drafts/{date}/{slug}/community-research.md`，文件含：
-- Reddit thread 列表（标题/upvote/comment/链接）
-- HN story 列表
-- GitHub issue/PR 信号
-- Top voices（活跃 subreddit / 用户）
-
-**注意：** last30days 的输出有"PASS-THROUGH FOOTER"和"EVIDENCE FOR SYNTHESIS"两块，写作子代理读时只用 EVIDENCE 块作为素材，不要把 footer 的"emoji-tree stats"塞进文章正文。
-
-**失败处理：**
-- last30days 返回非零或超时（>120s）→ soft-fail，写一行 `# last30days unavailable` 到 community-research.md，写作子代理仍然能跑（fallback 到现有 source 材料）
-- 选题主关键词太抽象（如"AI 安全"）→ last30days 会输出"keyword-search fallback"提示，仍可用，但社区声音质量会偏低
-
-**成本：** 全免费（Reddit/HN/GitHub 公开 API），不需要 SCRAPECREATORS_API_KEY 或 LLM API key。X/YouTube/TikTok/Polymarket 这些线需要付费 API key，本管线暂不接入。
-
-**Step 4 子代理 prompt 改动：**
-
-每个写作子代理的"源材料"清单里，除原 source 文件外，新增一行：
-- `community-research`: `drafts/{date}/{slug}/community-research.md`（last30days 拉的真实社区反馈，**优先**用作"多平台真实反馈"段的素材源）
+**落地方式：**
+- 不写 `community-research.md`
+- 不在 drafts 目录额外保留素材文件
+- 如有 GitHub 反馈，写入 `angle` 的内部要求，例如“写作时引用 release note 里的 X 修复和 Y 新功能”
+- 如没有可靠反馈，不要虚构“社区讨论”，直接写事实链和行动建议
 
 ### Step 4: 文章并行生成
 
@@ -258,18 +246,23 @@ cd ~/.claude/skills/last30days && \
 3. 源材料：列出要读取的 source 文件路径 + 需要 WebFetch 的 URL
 4. 写作指南：指向 `config/prompts/wechat.md`
 5. 重要规则：
-   - 社区声音用"多平台真实反馈"统一呈现（GitHub/X/知乎/B站，不限语言）
+   - 社区声音只在有真实来源时写，优先 GitHub/X/知乎/B站；不要使用或提及敏感社区源
    - 不要虚构你不确定的细节，所有数据必须来自源材料
-   - 文章文件以 H1 标题开头（与 meta.yaml title 一致），空一行后接正文
-   - meta.yaml 的 title 是唯一标题源
+   - 文章文件以 frontmatter + H1 标题开头，frontmatter 的 title 是唯一标题源
    - 文章末尾（REACH 注释之前）加 Obsidian Dataview 内联字段关联区块
+   - 按小红书历史数据校准写成收藏型结构，至少自然覆盖“适合谁 / 怎么做 / 坑点 / 下一步动作 / 交付形态”中的 3 项
+   - 工具/教程/工作流/路线图/选型/交付类文章必须至少有 3 个 `##` 二级标题、1 个可收藏清单或步骤清单、1 段明确判断或避坑；二级标题要写成读者任务，不要写成概念目录
+   - 同一批文章的行动段标题不能批量复用同一时间词和同一动词模板，尤其不要写成“今晚可以这样...”“今晚能做什么”“今晚想动手”等固定句式
+   - 标题和开头必须先给中文读者价值，再给英文项目名、仓库信息或技术术语
+   - openclaw/Hermes 文章必须从新版本切入，覆盖解决的问题、新增能力、启发和使用入口
+   - 最终可见内容不能出现 Reddit、Hacker News/HN、OpenRouter，也不能用“外网/国内/国外/境外/海外”二分表达
 6. 输出路径：
    - 文章：`drafts/{date}/{slug}/{slug}.md`（文件名与文件夹同名，不叫 article.md）
-   - 元数据：`drafts/{date}/{slug}/meta.yaml`
+   - 不写 `meta.yaml`、`xhs-version.md`、`publish/`、`community-research.md`
 
-**slug 命名规则：** **中文字符 + 英文品牌** kebab-case，**禁止纯拼音**。英文品牌/产品名保留原样（OpenAI、Claude、Cursor、Kimi、NotebookLM、Firecrawl 等），数字保留阿拉伯数字（600亿、44），标点全换成 `-`，大写转小写。示例：`karpathy差点被黑客搞了-npm包安全吗`、`notebooklm-白嫖google算力-claude省17倍token`、`爱奇艺ai艺人库百位演员入驻-ai抢演员饭碗`。**反例（禁止）**：`anthropic-mythos-yi-zhou-si-lian-zha-nsa-pentagon-altman-heike`（纯拼音）。
+**slug 命名规则：** 使用中文可读目录名，优先接近最终标题。英文品牌/产品名保留原样（OpenAI、Claude、Cursor、Kimi、NotebookLM、Firecrawl 等），数字保留阿拉伯数字。禁止纯英文、纯拼音或难读 hash。示例：`普通人怎么搭自己的跨平台 AI 助手，openclaw 冲上 GitHub Trending`、`会成长的开源 Agent 值不值得试，NousResearch Hermes Agent 怎么看`。
 
-**meta.yaml 格式（title 是唯一标题源）：**
+**markdown frontmatter 格式（title 是唯一标题源）：**
 
 ```yaml
 title: "最终发布标题"
@@ -308,7 +301,7 @@ xhs_blocked_reason: ""
 - `needs_review` = 3 轮质修后仍未达标，带 issues 进入人工审核
 - `failed_qa` = QA agent 错误（超时/不可解析），带 error 进入人工审核
 
-**文章文件格式：** 以 H1 标题开头（与 meta.yaml title 一致），空一行后接正文。
+**文章文件格式：** 以 YAML frontmatter 开头，随后用 H1 标题开头（与 frontmatter title 一致），空一行后接正文。每个文章目录只保留这一份 markdown。
 
 文章末尾加 Obsidian 关联区块和 REACH 评分：
 ```
@@ -349,14 +342,14 @@ console.log(JSON.stringify({ replacements_count: replacements.length, details: r
 "
 ```
 
-记录 `replacements_count` 供后续写入 meta.yaml。
+记录 `replacements_count` 供后续写入 markdown frontmatter。
 
 **4.5b 独立 QA 检查**
 
 启动一个新的子代理（Agent tool, mode: bypassPermissions），传入以下内容：
 
 1. **System prompt**：读取 `config/prompts/qa-check.md` 的完整内容
-2. **文章文本**：读取 L1 替换后的文章 markdown（仅正文，不含 meta.yaml）
+2. **文章文本**：读取 L1 替换后的文章 markdown（正文和 frontmatter 分开处理，QA 只看正文）
 3. **文章原型**：工具实测/现象解读/论文拆解/社区事件/方法论（从选题信息中传入，影响 L3 专项检查）
 4. **指令**：按 qa-check.md 的格式输出 JSON 结果
 
@@ -369,7 +362,7 @@ console.log(JSON.stringify({ replacements_count: replacements.length, details: r
 - `overall_pass == false` → 进入质修循环（4.5d）
 - JSON 不可解析且 2 次重试均失败 → 消耗 1 轮内容修改配额
 
-**L6 是主稿硬门槛，但不是默认丢弃门槛。** 小红书合规不再通过派生版兜底；一篇文章如果 `l6_pass == false`，`overall_pass` 必须为 false，并进入同一个质修循环，直接修主稿。引流、AI 标识、自动化风险、虚假夸张、拉踩对比、境外访问行动建议等问题都先改写修复；只有玄学完全禁区、违法低俗、隐私攻击等删除后主线仍不成立，或 3 轮质修后仍不通过，才标记 `platforms.xhs = blocked`。
+**L6 是主稿硬门槛，但不是默认丢弃门槛。** 小红书合规不再通过派生版兜底；一篇文章如果 `l6_pass == false`，`overall_pass` 必须为 false，并进入同一个质修循环，直接修主稿。引流、AI 标识、自动化风险、虚假夸张、拉踩对比、访问绕过行动建议等问题都先改写修复；只有玄学完全禁区、违法低俗、隐私攻击等删除后主线仍不成立，或 3 轮质修后仍不通过，才标记 `platforms.xhs = blocked`。
 
 **4.5d 质修循环（最多 3 轮）**
 
@@ -388,9 +381,9 @@ console.log(JSON.stringify({ replacements_count: replacements.length, details: r
 
 **3 轮后仍未通过** → 标记为 `needs_review`，保留最后一轮的 issues 列表。不要把可修复的 L6 问题直接舍弃；必须已经尝试主稿改写。
 
-**4.5e 写入 QA 结果到 meta.yaml**
+**4.5e 写入 QA 结果到 markdown frontmatter**
 
-将质检结果写入对应文章的 meta.yaml `qa` 字段：
+将质检结果写入对应文章 markdown 的 frontmatter `qa` 字段：
 
 ```yaml
 qa:
@@ -418,7 +411,7 @@ xhs_blocked_reason: ""    # 可选，仅 platforms.xhs=blocked 时填写
 - `wechat.primary` 主版本（主 slug.md）直接发公众号
 - `xhs.primary` 主版本直接发小红书，且主版本必须已通过 L6
 - `xhs.blocked` 不发小红书（3 轮质修后仍未通过 L6、玄学等强制排除情况、或 QA 基础设施失败）
-- **向后兼容**：读取 meta.yaml 时，如 `platforms` 或 `platforms.xhs` 字段不存在，按 `xhs: blocked` 处理（保守兜底，历史 drafts 不会被误发）
+- **向后兼容**：读取 frontmatter 时，如 `platforms` 或 `platforms.xhs` 字段不存在，按 `xhs: blocked` 处理（保守兜底，历史 drafts 不会被误发）
 
 **所有文章质检完成后，汇报质检结果：**
 - 通过的文章数 / 总数
@@ -472,20 +465,20 @@ platforms:
 
 **5c-1. 生成补全任务清单：**
 
-对今天每篇 drafts 文章，读 `drafts/{date}/{slug}/meta.yaml` 和文章末尾的 Obsidian 关联区块（`相关实体::` 和 `相关主题::` 行）。聚合得到两份清单：
+对今天每篇 drafts 文章，读 `drafts/{date}/{slug}/{slug}.md` 的 frontmatter 和文章末尾的 Obsidian 关联区块（`相关实体::` 和 `相关主题::` 行）。聚合得到两份清单：
 
 - `entity_targets`：每项 `{slug, kind: companies|people|products, articles: [{date, slug, title, reach, voice, 该篇切入角度一句话, is_protagonist: bool}]}`
 - `topic_targets`：每项 `{slug, articles: [{date, slug, title, reach, voice, 该篇切入角度一句话, is_protagonist: bool}]}`
 
 实体页落地路径根据 kind：`wiki/entities/companies/{slug}.md` / `wiki/entities/people/{slug}.md` / `wiki/entities/products/{slug}.md`。主题页统一在 `wiki/topics/{slug}.md`。
 
-**主角过滤（强制）：** 文章作者写作时倾向把"国产对照方"也列进 `相关实体::`（如 anthropic 文章把 alibaba/baidu/xiaomi/tencent 都加进去），导致中国公司实体页被国外公司文章污染。在 5c-2 追加前**必须判断 is_protagonist**：
+**主角过滤（强制）：** 文章作者写作时倾向把"对照方"也列进 `相关实体::`（如 anthropic 文章把 alibaba/baidu/xiaomi/tencent 都加进去），导致实体页被非主角文章污染。在 5c-2 追加前**必须判断 is_protagonist**：
 
 - `is_protagonist = true` 当：
   - 实体名或其主力产品名出现在文章 `title` 里（如"阿里 Qwen"对 alibaba、"百度 CoBuddy"对 baidu、"小米 MiMo"对 xiaomi、"腾讯 Hy3"对 tencent），或
   - 文章 frontmatter `tags` 列表里含该实体名/产品名，或
   - 文章 hook 段（H1 后首段）直接讨论该实体（非对照）
-- `is_protagonist = false` 当：实体仅在文章中以"国产对照方/降权对照/国内同类"角色出现，标题里没有该实体的品牌词
+- `is_protagonist = false` 当：实体仅在文章中以"对照方/降权对照/同类产品"角色出现，标题里没有该实体的品牌词
 
 **只追加 `is_protagonist == true` 的文章。** 主题页的判断同理：主题在标题或 tags 出现 = 主角。
 
@@ -544,7 +537,7 @@ git add sources/{date}/ drafts/{date}/ logs/{date}.md data/ wiki/
 git commit -m "generate: {date} ({N} drafts, REACH>=7, RSS+X+signals)
 
 - {R} RSS/GitHub/arXiv items via pipeline.js
-- {T} GitHub Trending AI repos, {O} new OpenRouter models, PyPI trends checked
+- {T} GitHub Trending AI repos, PyPI trends checked
 - {X} X tweets from {M} accounts (likes>50, 14d window)
 - {N} drafts scored and generated in parallel (REACH>=7 only)
 - Topics: {逗号分隔的简短主题列表}
@@ -556,6 +549,61 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 Co-Authored-By: Happy <yesreply@happy.engineering>"
 ```
 
+### Step 7: 最终验证与 Bark 通知
+
+Commit 后做一次收口验证，确认这轮输出真的可用：
+
+```bash
+npm test
+node --input-type=module -e "
+import { scanPublishSurface } from './scripts/lib/l1-replace.js';
+import fs from 'node:fs';
+import path from 'node:path';
+const date = '{date}';
+const targets = [path.join('drafts', date), path.join('topics', date + '.json')];
+let files = [];
+for (const target of targets) {
+  if (!fs.existsSync(target)) continue;
+  const stat = fs.statSync(target);
+  if (stat.isFile()) files.push(target);
+  else {
+    for (const dirent of fs.readdirSync(target, { withFileTypes: true })) {
+      const dir = path.join(target, dirent.name);
+      if (!dirent.isDirectory()) continue;
+      const md = fs.readdirSync(dir).filter(name => name.endsWith('.md'));
+      if (md.length !== 1) throw new Error(dir + ' should contain exactly one md file');
+      files.push(path.join(dir, md[0]));
+    }
+  }
+}
+const findings = files.flatMap(file => scanPublishSurface(fs.readFileSync(file, 'utf8')).map(hit => ({ file, ...hit })));
+if (findings.length) {
+  console.error(JSON.stringify(findings, null, 2));
+  process.exit(1);
+}
+console.log('publish surface clean:', files.length, 'files');
+"
+```
+
+如果本轮执行了每日生成，还要检查 `runs/{date}/manifest.json` 中所有入选 topic 都是 `draft_ready`，且 `draft_failed_at` 为空。
+
+**Bark 通知：** 不要把 Bark token 写进仓库。用户本机或运行环境配置：
+
+```bash
+export BARK_NOTIFY_URL="https://bark.example.com:8888/<key>"
+```
+
+最终验证完成后执行：
+
+```bash
+npm run notify:bark -- \
+  --title "PromptIO Daily 完成" \
+  --body "{date} 已生成 {N} 篇，测试通过，发布面扫描通过" \
+  --soft-fail
+```
+
+`BARK_NOTIFY_URL` 也可以使用 URL 模板，例如 `https://host/<key>/{title}/{body}`，脚本会自动替换并处理中文编码。通知失败不反向判定内容失败，但最终汇报里要说明。
+
 ## 单步执行
 
 用户可能只要求执行某一步：
@@ -566,7 +614,8 @@ Co-Authored-By: Happy <yesreply@happy.engineering>"
 - "更新wiki" / "wiki update" / "wiki lint" → 只执行 Step 5
 - "补全 wiki 历史" / "wiki 回填" / "扫描 wiki 缺漏" → 只执行 Step 5h
 - "commit" → 只执行 Step 6
-- "fetch:trending" / "fetch:openrouter" / "fetch:pypi" → 只执行对应的脚本信号源
+- "验证" / "最终验证" / "通知我" / "bark" → 只执行 Step 7
+- "fetch:trending" / "fetch:pypi" → 只执行对应的脚本信号源
 
 ## Wiki Lint（定期维护）
 
@@ -581,6 +630,8 @@ Co-Authored-By: Happy <yesreply@happy.engineering>"
 ## 常见问题
 
 - **bird 认证失败：** Safari cookies 警告可忽略，通常 Chrome cookies 能工作。如果全部失败，提示用户在 Chrome 中登录 x.com
-- **某些 RSS 源 403/404：** Reddit、TLDR AI 经常失败，不影响整体流程
+- **某些 RSS 源 403/404：** 单个源失败不影响整体流程；敏感来源即使抓到也不能进入选题和发布面
 - **子代理 WebFetch 失败：** 子代理应基于已有 source 文件内容写作，WebFetch 是补充而非必须
 - **选题不够 10 个：** 正常现象。质量优先，REACH < 7 的不选，宁可当天只出 3-5 篇
+- **文章平淡、全是段落：** 通常是工具/教程题被标成 analytical，或写作 agent 没有按收藏型结构输出。回到 Step 4 重写，必须补 `##` 层级、清单、最小步骤和避坑判断。
+- **Bark 通知失败：** 检查 `BARK_NOTIFY_URL` 是否只配置到 key endpoint，或是否使用 `{title}` / `{body}` 模板。通知失败不影响内容产物，但要在最终汇报里说明。

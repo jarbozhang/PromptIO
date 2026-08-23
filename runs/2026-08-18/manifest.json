@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-18",
+  "created_at": "2026-08-18T11:11:53.750Z",
+  "updated_at": "2026-08-18T11:18:57.830Z",
+  "source_count": 147,
+  "topics": [
+    {
+      "id": "sources/2026-08-18/transformers-releases-2eed06f9.md",
+      "file": "sources/2026-08-18/transformers-releases-2eed06f9.md",
+      "slug": "Meta-30B多模态模型本地运行指南",
+      "title": "Meta 30B 多模态模型进入 Transformers：本地运行前先算清显存与隐私收益",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.035,
+      "reach_note": "Meta 和 Transformers 具备品牌认知，本地运行带来明确隐私利益，开发者可以直接验证部署条件。",
+      "selection_reason": "相比单纯介绍新模型，这个角度能帮助读者提前评估硬件门槛、许可证和适用任务，避免盲目下载。",
+      "selected_at": "2026-08-18T11:11:53.751Z",
+      "updated_at": "2026-08-18T11:13:23.809Z",
+      "draft_ready_at": "2026-08-18T11:13:23.808Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-18/Meta 30B 多模态模型进入 Transformers：本地运行前先算清显存与隐私收益",
+      "meta_path": "drafts/2026-08-18/Meta 30B 多模态模型进入 Transformers：本地运行前先算清显存与隐私收益/Meta 30B 多模态模型进入 Transformers：本地运行前先算清显存与隐私收益.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-18/sopilot-hot-2089567241180467630-cc962655.md",
+      "file": "sources/2026-08-18/sopilot-hot-2089567241180467630-cc962655.md",
+      "slug": "企业微信开放十大办公能力",
+      "title": "企业微信开放十大办公能力：自建 AI 如何接入文档、邮件和日程",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.031,
+      "reach_note": "企业微信是高认知品牌，新能力面向不同规模组织开放，并提供可立即体验的入口。",
+      "selection_reason": "它把自建 AI 与常用办公数据连接起来，既有明确使用场景，也涉及企业真正关心的权限和落地成本。",
+      "selected_at": "2026-08-18T11:11:53.751Z",
+      "updated_at": "2026-08-18T11:14:13.274Z",
+      "draft_ready_at": "2026-08-18T11:14:13.274Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-18/企业微信开放十大办公能力：自建 AI 如何接入文档、邮件和日程",
+      "meta_path": "drafts/2026-08-18/企业微信开放十大办公能力：自建 AI 如何接入文档、邮件和日程/企业微信开放十大办公能力：自建 AI 如何接入文档、邮件和日程.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-18/sopilot-hot-2089597210979865012-211966b3.md",
+      "file": "sources/2026-08-18/sopilot-hot-2089597210979865012-211966b3.md",
+      "slug": "Seedance-2.5导演Skill实测",
+      "title": "Seedance 2.5 导演 Skill 开源：一句话扩成剧情后，真正该检查什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.031,
+      "reach_note": "Seedance 具备品牌热度，项目免费开源，视频创作者可以立即下载并用自己的故事测试。",
+      "selection_reason": "题目服务于视频创作者的具体生产环节，既有可操作入口，也能产出适合公众号和小红书展示的前后对比。",
+      "selected_at": "2026-08-18T11:11:53.751Z",
+      "updated_at": "2026-08-18T11:15:16.157Z",
+      "draft_ready_at": "2026-08-18T11:15:16.153Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-18/Seedance 2.5 导演 Skill 开源：一句话扩成剧情后，真正该检查什么",
+      "meta_path": "drafts/2026-08-18/Seedance 2.5 导演 Skill 开源：一句话扩成剧情后，真正该检查什么/Seedance 2.5 导演 Skill 开源：一句话扩成剧情后，真正该检查什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-18/x-simonw-027fb33d.md",
+      "file": "sources/2026-08-18/x-simonw-027fb33d.md",
+      "slug": "千问3.8-27B本地选型",
+      "title": "千问 3.8 27B 能否成为本地常用模型：先看 17GB 量化版的真实任务表现",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.04,
+      "reach_note": "千问品牌认知明确，本地运行可减少持续调用费用，具备条件的读者能立即下载量化模型测试。",
+      "selection_reason": "现有素材同时提供本地运行体验、量化体积和实际任务案例，适合把模型热度转化为可验证的选型判断。",
+      "selected_at": "2026-08-18T11:11:53.751Z",
+      "updated_at": "2026-08-18T11:16:06.230Z",
+      "draft_ready_at": "2026-08-18T11:16:06.229Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-18/千问 3.8 27B 能否成为本地常用模型，先看 17GB 量化版的真实任务表现",
+      "meta_path": "drafts/2026-08-18/千问 3.8 27B 能否成为本地常用模型，先看 17GB 量化版的真实任务表现/千问 3.8 27B 能否成为本地常用模型，先看 17GB 量化版的真实任务表现.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-18/sopilot-hot-2089564843510767780-64955ffc.md",
+      "file": "sources/2026-08-18/sopilot-hot-2089564843510767780-64955ffc.md",
+      "slug": "DeepSeek-Harness-rc7升级解读",
+      "title": "DeepSeek Harness rc.7 值得升级吗：Bash 卡顿修复，插件和任务面板也补齐了",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.038,
+      "reach_note": "DeepSeek 品牌认知高，版本直接解决卡顿问题，现有用户可以立即升级验证。",
+      "selection_reason": "更新同时覆盖性能、稳定性和扩展能力，读者能据此判断是否升级，而不是只看功能罗列。",
+      "selected_at": "2026-08-18T11:11:53.752Z",
+      "updated_at": "2026-08-18T11:17:11.980Z",
+      "draft_ready_at": "2026-08-18T11:17:11.980Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-18/DeepSeek Harness rc.7 值得升级吗：Bash 卡顿修复，插件和任务面板也补齐了",
+      "meta_path": "drafts/2026-08-18/DeepSeek Harness rc.7 值得升级吗：Bash 卡顿修复，插件和任务面板也补齐了/DeepSeek Harness rc.7 值得升级吗：Bash 卡顿修复，插件和任务面板也补齐了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-18/sopilot-hot-2089480175981301976-9d9d9d30.md",
+      "file": "sources/2026-08-18/sopilot-hot-2089480175981301976-9d9d9d30.md",
+      "slug": "AI订阅降档决策",
+      "title": "别为了用完额度熬夜：AI 订阅到底该不该降档",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.027,
+      "reach_note": "OpenAI、Claude 等订阅具有品牌认知，降档能直接省钱，读者可立即核对自己的使用记录。",
+      "selection_reason": "它回应了付费用户普遍存在但很少被正面讨论的消费误区，兼具传播性、普通用户价值和明确决策方法。",
+      "selected_at": "2026-08-18T11:11:53.752Z",
+      "updated_at": "2026-08-18T11:18:05.965Z",
+      "draft_ready_at": "2026-08-18T11:18:05.965Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-18/别为了用完额度熬夜，AI 订阅到底该不该降档",
+      "meta_path": "drafts/2026-08-18/别为了用完额度熬夜，AI 订阅到底该不该降档/别为了用完额度熬夜，AI 订阅到底该不该降档.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-18/sopilot-hot-2089541899766186061-5474e190.md",
+      "file": "sources/2026-08-18/sopilot-hot-2089541899766186061-5474e190.md",
+      "slug": "Codex高频痛点复盘",
+      "title": "1242 条 Codex 反馈暴露了什么：卡顿、时区和质量控制才是高频痛点",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.035,
+      "reach_note": "Codex 品牌认知高，问题直接关系任务失败和返工，现有用户可据此调整使用方式。",
+      "selection_reason": "高互动反馈提供了密集的真实场景，适合从产品宣传之外观察工具进入生产环境后的摩擦点。",
+      "selected_at": "2026-08-18T11:11:53.753Z",
+      "updated_at": "2026-08-18T11:18:57.830Z",
+      "draft_ready_at": "2026-08-18T11:18:57.830Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-18/1242 条 Codex 反馈暴露了什么：卡顿、时区和质量控制才是高频痛点",
+      "meta_path": "drafts/2026-08-18/1242 条 Codex 反馈暴露了什么：卡顿、时区和质量控制才是高频痛点/1242 条 Codex 反馈暴露了什么：卡顿、时区和质量控制才是高频痛点.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-18T11:11:53.750Z",
+      "source_count": 147
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-18T11:11:53.750Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-18T11:11:53.751Z",
+      "topic_id": "sources/2026-08-18/transformers-releases-2eed06f9.md",
+      "slug": "Meta-30B多模态模型本地运行指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-18T11:11:53.751Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089567241180467630-cc962655.md",
+      "slug": "企业微信开放十大办公能力"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-18T11:11:53.751Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089597210979865012-211966b3.md",
+      "slug": "Seedance-2.5导演Skill实测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-18T11:11:53.751Z",
+      "topic_id": "sources/2026-08-18/x-simonw-027fb33d.md",
+      "slug": "千问3.8-27B本地选型"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-18T11:11:53.752Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089564843510767780-64955ffc.md",
+      "slug": "DeepSeek-Harness-rc7升级解读"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-18T11:11:53.752Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089480175981301976-9d9d9d30.md",
+      "slug": "AI订阅降档决策"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-18T11:11:53.753Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089541899766186061-5474e190.md",
+      "slug": "Codex高频痛点复盘"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-18T11:13:23.809Z",
+      "topic_id": "sources/2026-08-18/transformers-releases-2eed06f9.md",
+      "slug": "Meta-30B多模态模型本地运行指南",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-18T11:14:13.274Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089567241180467630-cc962655.md",
+      "slug": "企业微信开放十大办公能力",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-18T11:15:16.157Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089597210979865012-211966b3.md",
+      "slug": "Seedance-2.5导演Skill实测",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-18T11:16:06.230Z",
+      "topic_id": "sources/2026-08-18/x-simonw-027fb33d.md",
+      "slug": "千问3.8-27B本地选型",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-18T11:17:11.980Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089564843510767780-64955ffc.md",
+      "slug": "DeepSeek-Harness-rc7升级解读",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-18T11:18:05.965Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089480175981301976-9d9d9d30.md",
+      "slug": "AI订阅降档决策",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-18T11:18:57.830Z",
+      "topic_id": "sources/2026-08-18/sopilot-hot-2089541899766186061-5474e190.md",
+      "slug": "Codex高频痛点复盘",
+      "error": ""
+    }
+  ]
+}

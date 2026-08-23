@@ -35,6 +35,12 @@
 
 ## 单日记录
 
+- **2026-06-21**：RSS 侧 MIT Technology Review TLS 断开，多源 404/403/401 与 XML malformed 继续存在；Reddit LocalLLaMA 成功但规则排除公开链路，MachineLearning 429；bird X 保存 141 条（576 seen / 9 failures），noaborhymes、SergeyLevine、Seb_Bubeck、rasaborshka、TimDettmers 不存在或查找失败，HuggingFace/GoogleDeepMind/AnthropicAI/OpenAI 后段 429；本轮用 curated source 补 no-mistakes、Ollama、Confucius4-TTS、Hugging Face ARD、Hugging Face agentic benchmark 事实锚点。
+- **2026-06-20**：RSS 侧 MIT Technology Review TLS 断开，多源 404/403/401 与 XML malformed 继续存在；HN 502；Reddit LocalLLaMA 成功但规则排除公开链路，MachineLearning 429；bird X 保存 135 条（571 seen / 9 failures），noaborhymes、SergeyLevine、Seb_Bubeck、rasaborshka、TimDettmers 不存在或查找失败，HuggingFace/GoogleDeepMind/AnthropicAI/OpenAI 后段 429；本轮用 curated source 补 Hermes v0.17、OpenClaw 2026.6.9-beta.1、Codex thread handoff、GLM-5.2、Open Notebook v1.10、Elastic Agent Memory、DeepMind AI Control Roadmap 事实锚点。
+- **2026-06-19**：RSS 侧 MIT Technology Review TLS 断开，多源 404/403/401 与 XML malformed 继续存在；Reddit LocalLLaMA 成功但规则排除公开链路，MachineLearning 429；bird X 保存 143 条（575 seen / 9 failures），noaborhymes、SergeyLevine、Seb_Bubeck、rasaborshka、TimDettmers 不存在或查找失败，HuggingFace/GoogleDeepMind/AnthropicAI/OpenAI 后段 429；本轮用 curated source 补 Codex、Claude Code Artifacts、baoyu-design、Adobe、MosaicLeaks、ARD、Probe-and-Refine 事实锚点。
+- **2026-06-18**：RSS 侧 MIT Technology Review TLS 断开，多源 404/403/401 与 XML malformed 继续存在；HN 502；Reddit LocalLLaMA 成功但被规则排除公开链路，MachineLearning 429；bird X 保存 134 条（567 seen / 9 failures），noaborhymes、SergeyLevine、Seb_Bubeck、rasaborshka、TimDettmers 不存在或查找失败，HuggingFace/GoogleDeepMind/AnthropicAI/OpenAI 后段 429；本轮用 curated release source 补 OpenClaw/Hermes/Firecrawl 官方事实。
+- **2026-06-17**：RSS 侧 MIT Technology Review TLS 断开，多源 404/403/401 与 XML malformed 继续存在；HN 502；Reddit LocalLLaMA 成功但被规则排除公开链路，MachineLearning 429；bird X 保存 115 条后后段触发 429，13 个账号失败或不存在；TrendRadar/PyPI 未在本轮追加运行。
+- **2026-06-16**：TrendRadar Docker 路径缺失（/tmp/TrendRadar/docker）soft-fail；MIT Technology Review TLS 断开；多个官方 blog/RSS 404 或 403；PyPI ollama/autogen/dspy-ai 返回 429；bird X 抓取成功保存 213 条来源。
 - **2026-05-11**：bird CLI Chrome Safe Storage exit 36 + 无 SWEETISTICS_API_KEY，X 抓取跳过；TrendRadar Docker 目录缺失；Mistral / Perplexity / Stability / Chip Huyen / Lilian Weng / Hamel Husain 6 个源 404
 - **2026-05-10**：同 5/11 X 跳过原因；bird CLI 仍失败
 - **2026-05-08**：bird CLI（X 抓取）继续 cookies 缺失，Reddit RSS 部分 403，TrendRadar Docker 目录缺失（/tmp/TrendRadar/docker），pypi 1 个 429。**Step 2 X 抓取本期跳过，由 Step 3.5 last30days 补社区反馈。**

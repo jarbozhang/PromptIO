@@ -24,6 +24,7 @@
 | 2026-04-28 | [[hermes-agent-12万星-nousresearch持久成长agent-openclaw生态\|Hermes Agent 已经 12 万星了，NousResearch 这个 agent 真的会和你一起长大]] | 8 |
 | 2026-05-07 | [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | 9 |
 | 2026-05-12 | [[hermes-agent-146k-一天涨2000星-nous-research-持久成长\|NousResearch hermes-agent 146k 星了，一天涨 2065 星到底在涨什么]] | 10 |
+| 2026-06-16 | [[个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了|个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了]] | 9 |
 
 ## 相关主题
 

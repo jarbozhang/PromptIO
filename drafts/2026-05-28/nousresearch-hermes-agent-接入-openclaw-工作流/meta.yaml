@@ -1,0 +1,45 @@
+title: NousResearch 的 Hermes Agent 上榜，怎么把它接进 openclaw 工作流
+status: draft
+date: '2026-05-28'
+source: manual
+source_file: sources/2026-05-28/github-trending-978e35c6.md
+source_title: 'NousResearch/hermes-agent: The agent that grows with you'
+source_url: https://github.com/NousResearch/hermes-agent
+angle: >-
+  面向已经在用 Codex、Claude Code 或 openclaw 的开发者，文章应实测 Hermes Agent 的安装、任务记忆、工具调用和 clawdbot/moltbot
+  相关用法；如果只依据 GitHub 摘要和 README，必须明确标注能力边界，避免夸大。
+voice: analytical
+reach: 10
+tags:
+  - Hermes Agent
+  - openclaw
+  - Codex
+  - Claude Code
+  - AI Agent
+  - NousResearch
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: nousresearch-hermes-agent-接入-openclaw-工作流.md
+xhs_title: Hermes Agent 上榜后，openclaw 用户该先看迁移和记忆边界
+cover:
+  status: failed
+  model: gpt-image-2
+  prompt: >-
+    Horizontal technology media cover for a 900x383 WeChat crop, a realistic developer workstation
+    with abstract terminal panels connected by glowing workflow lines, symbolic memory cards, tool
+    nodes, and a clean agent core receiving migrated configuration blocks from an open claw-shaped
+    workflow structure, precise modern lighting, deep technical atmosphere, no readable text, no
+    logos, no QR codes, no UI screenshots.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: OPENAI_API_KEY is not set
+reach_note: NousResearch/openclaw 生态品牌 + 开源可动手 + agent 工作流收益明确。
+selection_reason: 命中本号核心生态，且读者可以直接克隆项目试跑，适合做成公众号深度实测和小红书步骤卡片。

@@ -1,0 +1,43 @@
+title: n8n + AI，不用写全套后端，也能搭一个自动化工作流
+status: draft
+date: '2026-05-28'
+source: manual
+source_file: sources/2026-05-28/github-trending-feb34faf.md
+source_title: >-
+  n8n-io/n8n: Fair-code workflow automation platform with native AI capabilities. Combine visual
+  building with custom code, self-host or cloud, 400+ integrations.
+source_url: https://github.com/n8n-io/n8n
+angle: 围绕自托管、400+ 集成和 AI 节点，设计一个合规的个人或团队效率场景，比如日报汇总、工单分发、内容素材整理，避免写成账号托管或批量运营教程。
+voice: first-person
+reach: 8
+tags:
+  - n8n
+  - AI自动化
+  - 自托管
+  - 工作流
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: n8n-ai-自托管-自动化工作流.md
+xhs_title: n8n + AI，不写全套后端也能做团队自动化工作流
+cover:
+  status: failed
+  model: gpt-image-2
+  prompt: >-
+    A horizontal technology media cover for WeChat 900x383 crop, showing a self-hosted automation
+    workflow control room: interconnected workflow nodes, a small private server rack, AI processing
+    modules, and team productivity streams for daily reports, ticket routing, and content material
+    sorting. Clean modern editorial style, realistic 3D with subtle depth, teal and graphite accents
+    with warm highlights, no readable text, no logos, no QR codes, no UI screenshots.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: OPENAI_API_KEY is not set
+reach_note: n8n 品牌在自动化圈有认知 + 自托管省钱 + 工作流可立刻搭建。
+selection_reason: n8n 的操作感强，适合用截图和流程图拆成小红书内容，也适合公众号补充部署和避坑。

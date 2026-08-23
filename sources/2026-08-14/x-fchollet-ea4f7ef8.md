@@ -1,0 +1,16 @@
+---
+title: >-
+  Builders respect builders. The loudest, most toxic haters are almost always
+  the ones who have never built a thing -- the Nobody McPoasters.
+source: X @fchollet
+url: 'https://x.com/fchollet/status/2086842810204913772'
+date: 'Mon Aug 10 15:51:12 +0000 2026'
+likes: 722
+reposts: 32
+replies: 49
+source_type: x
+language: en
+account_name: François Chollet
+fetched_at: '2026-08-14T11:13:14.717Z'
+---
+Builders respect builders. The loudest, most toxic haters are almost always the ones who have never built a thing -- the Nobody McPoasters.

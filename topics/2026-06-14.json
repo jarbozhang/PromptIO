@@ -1,0 +1,16 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T14:05:09.984Z",
+  "topics": [
+    {
+      "file": "sources/2026-06-14/github-trending-0bd21c2c.md",
+      "title": "openclaw 冲上 GitHub Trending：如何搭一个自己的跨平台 AI 助手",
+      "slug": "openclaw-cross-platform-ai-assistant",
+      "angle": "从中国 AI 用户最关心的“能不能自己部署、数据能不能自己管、日常任务能不能自动化”切入，写成一篇 openclaw 上手与场景判断稿。源材料偏短，正文必须明确标注信息边界：基于 GitHub Trending 摘要和仓库公开信息，不扩写未验证功能。",
+      "voice": "analytical",
+      "reach": 8,
+      "reach_note": "命中 openclaw 核心生态品牌，有“自己的跨平台 AI 助手”利益点，读者可直接打开仓库尝试。",
+      "reason": "openclaw 是本号核心生态，且主题天然适合公众号做上手框架、小红书做“我为什么要试一个个人 AI 助手”的实操种草。相比泛 Agent 新闻，它更贴近读者可立即动手的工具选择。"
+    }
+  ]
+}

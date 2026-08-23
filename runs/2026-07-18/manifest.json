@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-18",
+  "created_at": "2026-07-17T23:16:33.901Z",
+  "updated_at": "2026-07-17T23:22:40.156Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-18/techcrunch-ai-c27a3acd.md",
+      "file": "sources/2026-07-18/techcrunch-ai-c27a3acd.md",
+      "slug": "Google-Vids个人AI分身",
+      "title": "Google Vids 新增个人 AI 分身：哪些视频值得交给它做",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.05,
+      "reach_note": "Google 品牌与免出镜视频利益点清晰，已有入口的读者可以直接制作样片验证效果。",
+      "selection_reason": "这是普通用户和内容创作者都容易理解的新功能，适合用实际视频任务检验价值，而不是停留在功能转述。",
+      "selected_at": "2026-07-17T23:16:33.902Z",
+      "updated_at": "2026-07-17T23:17:25.380Z",
+      "draft_ready_at": "2026-07-17T23:17:25.379Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-18/Google Vids 新增个人 AI 分身，哪些视频值得交给它做",
+      "meta_path": "drafts/2026-07-18/Google Vids 新增个人 AI 分身，哪些视频值得交给它做/Google Vids 新增个人 AI 分身，哪些视频值得交给它做.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-18/x-dotey-c9f9f7b1.md",
+      "file": "sources/2026-07-18/x-dotey-c9f9f7b1.md",
+      "slug": "Qwen3-ASR本地字幕方案",
+      "title": "Qwen3 ASR 本地做字幕：时间戳、中文混排和说话人识别怎么选",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.026,
+      "reach_note": "Qwen 品牌、本地低成本和可直接搭建的字幕流程同时具备，创作者可以马上试用。",
+      "selection_reason": "它击中了字幕时间戳不准、中英混排和多人识别三个真实痛点，适合公众号深度稿和小红书效果对比。",
+      "selected_at": "2026-07-17T23:16:33.902Z",
+      "updated_at": "2026-07-17T23:18:25.948Z",
+      "draft_ready_at": "2026-07-17T23:18:25.948Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-18/Qwen3 ASR 本地做字幕，时间戳、中文混排和说话人识别怎么选",
+      "meta_path": "drafts/2026-07-18/Qwen3 ASR 本地做字幕，时间戳、中文混排和说话人识别怎么选/Qwen3 ASR 本地做字幕，时间戳、中文混排和说话人识别怎么选.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-18/x-dotey-7f32442b.md",
+      "file": "sources/2026-07-18/x-dotey-7f32442b.md",
+      "slug": "Kimi-K2.5重做三块地基",
+      "title": "Kimi K2.5 重做 Transformer 三块地基：开源团队能学到什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "trend_argument",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.034,
+      "reach_note": "Kimi 品牌认知度高，开源组件提供明确利益点，技术团队可以沿发布内容复现实验。",
+      "selection_reason": "素材信息密度高，不只是发布新闻，还能形成关于开源模型如何继续提升效率的具体判断。",
+      "selected_at": "2026-07-17T23:16:33.902Z",
+      "updated_at": "2026-07-17T23:19:16.861Z",
+      "draft_ready_at": "2026-07-17T23:19:16.861Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-18/Kimi K2.5 重做 Transformer 三块地基：开源团队能学到什么",
+      "meta_path": "drafts/2026-07-18/Kimi K2.5 重做 Transformer 三块地基：开源团队能学到什么/Kimi K2.5 重做 Transformer 三块地基：开源团队能学到什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-18/anthropic-python-sdk-releases-3afc102f.md",
+      "file": "sources/2026-07-18/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Anthropic-SDK-0.117升级判断",
+      "title": "Anthropic Python SDK 0.117.0：MCP Tunnels 与凭证保护值得升级吗",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.04,
+      "reach_note": "Anthropic 品牌明确，新能力和安全修复与现有 Python 项目直接相关，开发者可以立即升级验证。",
+      "selection_reason": "官方 release 同时包含功能与安全变化，适合写成有明确升级结论的版本决策稿。",
+      "selected_at": "2026-07-17T23:16:33.902Z",
+      "updated_at": "2026-07-17T23:20:11.915Z",
+      "draft_ready_at": "2026-07-17T23:20:11.914Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-18/Anthropic Python SDK 0.117.0：MCP Tunnels 与凭证保护值得升级吗",
+      "meta_path": "drafts/2026-07-18/Anthropic Python SDK 0.117.0：MCP Tunnels 与凭证保护值得升级吗/Anthropic Python SDK 0.117.0：MCP Tunnels 与凭证保护值得升级吗.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-18/github-trending-978e35c6.md",
+      "file": "sources/2026-07-18/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版怎么用",
+      "title": "Hermes Agent 新版怎么用：让个人 AI 在使用中积累能力",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.058,
+      "reach_note": "NousResearch 生态辨识度高，开源可用，读者可以直接查看新版代码并尝试部署。",
+      "selection_reason": "Hermes 是重点跟踪项目，最新代码更新、超高关注度和明确的个人使用场景兼具传播力与实操价值。",
+      "selected_at": "2026-07-17T23:16:33.903Z",
+      "updated_at": "2026-07-17T23:20:58.190Z",
+      "draft_ready_at": "2026-07-17T23:20:58.190Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-18/Hermes Agent 新版怎么用：让个人 AI 在使用中积累能力",
+      "meta_path": "drafts/2026-07-18/Hermes Agent 新版怎么用：让个人 AI 在使用中积累能力/Hermes Agent 新版怎么用：让个人 AI 在使用中积累能力.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-18/x-dotey-177e4e69.md",
+      "file": "sources/2026-07-18/x-dotey-177e4e69.md",
+      "slug": "Codex误删主目录复盘",
+      "title": "Codex 误删整个主目录之后：完全访问模式到底该怎么开",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.038,
+      "reach_note": "OpenAI 与 Codex 具备强品牌认知，数据丢失风险利益点突出，读者能立即检查本机权限配置。",
+      "selection_reason": "事故影响直观且有真实用户经历相互印证，能把抽象的 AI 编程安全转化为具体配置决策。",
+      "selected_at": "2026-07-17T23:16:33.903Z",
+      "updated_at": "2026-07-17T23:21:49.986Z",
+      "draft_ready_at": "2026-07-17T23:21:49.986Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-18/Codex 误删整个主目录之后：完全访问模式到底该怎么开",
+      "meta_path": "drafts/2026-07-18/Codex 误删整个主目录之后：完全访问模式到底该怎么开/Codex 误删整个主目录之后：完全访问模式到底该怎么开.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-18/openai-blog-b57416a8.md",
+      "file": "sources/2026-07-18/openai-blog-b57416a8.md",
+      "slug": "Cars24找回流失线索案例",
+      "title": "OpenAI 语音与聊天方案每月处理百万分钟：Cars24 如何找回 12% 流失线索",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.022,
+      "reach_note": "OpenAI 品牌和找回 12% 流失线索的商业利益点突出，团队可据此检查自己的客户承接流程。",
+      "selection_reason": "案例有明确规模和业务结果，能为产品、销售及客服团队提供比单纯模型评测更有价值的落地参照。",
+      "selected_at": "2026-07-17T23:16:33.903Z",
+      "updated_at": "2026-07-17T23:22:40.156Z",
+      "draft_ready_at": "2026-07-17T23:22:40.155Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-18/OpenAI 语音与聊天方案每月处理百万分钟，Cars24 如何找回 12% 流失线索",
+      "meta_path": "drafts/2026-07-18/OpenAI 语音与聊天方案每月处理百万分钟，Cars24 如何找回 12% 流失线索/OpenAI 语音与聊天方案每月处理百万分钟，Cars24 如何找回 12% 流失线索.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-17T23:16:33.901Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-17T23:16:33.901Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-17T23:16:33.902Z",
+      "topic_id": "sources/2026-07-18/techcrunch-ai-c27a3acd.md",
+      "slug": "Google-Vids个人AI分身"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-17T23:16:33.902Z",
+      "topic_id": "sources/2026-07-18/x-dotey-c9f9f7b1.md",
+      "slug": "Qwen3-ASR本地字幕方案"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-17T23:16:33.902Z",
+      "topic_id": "sources/2026-07-18/x-dotey-7f32442b.md",
+      "slug": "Kimi-K2.5重做三块地基"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-17T23:16:33.902Z",
+      "topic_id": "sources/2026-07-18/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Anthropic-SDK-0.117升级判断"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-17T23:16:33.903Z",
+      "topic_id": "sources/2026-07-18/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版怎么用"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-17T23:16:33.903Z",
+      "topic_id": "sources/2026-07-18/x-dotey-177e4e69.md",
+      "slug": "Codex误删主目录复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-17T23:16:33.903Z",
+      "topic_id": "sources/2026-07-18/openai-blog-b57416a8.md",
+      "slug": "Cars24找回流失线索案例"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-17T23:17:25.380Z",
+      "topic_id": "sources/2026-07-18/techcrunch-ai-c27a3acd.md",
+      "slug": "Google-Vids个人AI分身",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-17T23:18:25.948Z",
+      "topic_id": "sources/2026-07-18/x-dotey-c9f9f7b1.md",
+      "slug": "Qwen3-ASR本地字幕方案",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-17T23:19:16.861Z",
+      "topic_id": "sources/2026-07-18/x-dotey-7f32442b.md",
+      "slug": "Kimi-K2.5重做三块地基",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-17T23:20:11.915Z",
+      "topic_id": "sources/2026-07-18/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Anthropic-SDK-0.117升级判断",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-17T23:20:58.190Z",
+      "topic_id": "sources/2026-07-18/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版怎么用",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-17T23:21:49.986Z",
+      "topic_id": "sources/2026-07-18/x-dotey-177e4e69.md",
+      "slug": "Codex误删主目录复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-17T23:22:40.156Z",
+      "topic_id": "sources/2026-07-18/openai-blog-b57416a8.md",
+      "slug": "Cars24找回流失线索案例",
+      "error": ""
+    }
+  ]
+}

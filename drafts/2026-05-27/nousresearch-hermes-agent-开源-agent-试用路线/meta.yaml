@@ -1,0 +1,37 @@
+title: NousResearch 的 hermes-agent 火了：一个会随你成长的开源 Agent 怎么用
+status: draft
+date: '2026-05-27'
+source: manual
+source_file: sources/2026-05-27/github-trending-978e35c6.md
+source_title: 'NousResearch/hermes-agent: The agent that grows with you'
+source_url: https://github.com/NousResearch/hermes-agent
+angle: 从中国开发者视角拆解 hermes-agent 能接入哪些编码、记忆和工作流场景，并给出第一步试用路线。源材料较短，成稿必须标注信息边界，避免把仓库简介扩写成未验证能力。
+voice: analytical
+reach: 1
+tags:
+  - 开源Agent
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: nousresearch-hermes-agent-开源-agent-试用路线.md
+cover:
+  status: skipped
+  model: gpt-image-2
+  prompt: >-
+    A horizontal technology media cover image for WeChat, 900x383 crop composition, showing an open
+    source AI coding agent concept as a small luminous modular assistant growing beside a developer
+    workstation, with Python code structures, memory nodes, workflow pipelines, Git branch shapes,
+    and connected model blocks subtly integrated into the scene. Futuristic but concrete, clean
+    editorial lighting, deep workspace perspective, no readable text, no logos, no QR codes, no UI
+    screenshots, no letters or numbers.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: ''
+xhs_title: NousResearch 的 hermes-agent 火了：一个会随你成长的开源 Agent 怎么用

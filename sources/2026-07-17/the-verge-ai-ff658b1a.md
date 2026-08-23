@@ -1,0 +1,14 @@
+---
+title: OpenAI finally launches hardware… for Codex
+url: >-
+  https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch
+source: The Verge AI
+source_type: rss
+language: en
+published: '2026-07-15T16:00:00.000Z'
+fetched_at: '2026-07-16T23:00:13.246Z'
+---
+OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. 
+The device, a square-shaped block of buttons called Codex Micro, is a collaboration between the AI company and keyboard maker Work Louder. OpenAI said it is a limited-run collaboration that will give users more ways to monitor and manage their agents. 
+The pad closely resembles Work Louder's Creator Micro 2, and marketing images show what appears to be an identical  …
+Read the full story at The Verge.

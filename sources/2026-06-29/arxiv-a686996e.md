@@ -1,0 +1,24 @@
+---
+title: >-
+  AI Healthcare Chatbots as Information Infrastructure: A Large-Scale Study of
+  User-Reported Breakdowns
+url: 'https://arxiv.org/abs/2606.27302v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Muhammad Hassan
+  - Ramazan Yener
+  - Ece Gumusel
+  - Masooda Bashir
+categories:
+  - cs.HC
+  - cs.AI
+  - cs.HC
+published: '2026-06-25T17:24:26Z'
+fetched_at: '2026-06-28T23:02:11.931Z'
+---
+AI healthcare chatbots are increasingly used to support health information seeking and self-management, yet their performance and impact on users remains to be studied. This study examines over 15,000 user reviews from 59 AI healthcare chatbot apps to explore how these systems function in everyday informational and emotional contexts. Topic modeling and interpretive analysis identify three recurring breakdowns: access barriers and service unreliability, user experience and interaction quality, and billing and customer support issues. Privacy and security concerns are associated with the most negative experiences. By framing AI healthcare chatbots as information infrastructures, our findings highlight how failures in access, usability, and trust affect users, offering actionable insights for designers, policymakers, and information professionals aiming to improve digital health systems.
+
+Authors: Muhammad Hassan, Ramazan Yener, Ece Gumusel, Masooda Bashir
+Categories: cs.HC, cs.AI, cs.HC

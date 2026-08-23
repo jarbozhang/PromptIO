@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-22",
+  "created_at": "2026-07-22T11:10:39.226Z",
+  "updated_at": "2026-07-22T11:17:08.336Z",
+  "source_count": 146,
+  "topics": [
+    {
+      "id": "sources/2026-07-22/github-trending-24dc2be7.md",
+      "file": "sources/2026-07-22/github-trending-24dc2be7.md",
+      "slug": "Dify从原型到生产的四个取舍",
+      "title": "Dify 适不适合把 AI 原型推到生产？先看这四个取舍",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.029,
+      "reach_note": "Dify 在 AI 开发者中认知度高，减少重复建设是明确利益，读者可用现有原型逐项评估。",
+      "selection_reason": "仓库活跃度和成熟度足以支撑选型讨论，文章重点是生产化取舍，不会变成泛泛的项目介绍。",
+      "selected_at": "2026-07-22T11:10:39.227Z",
+      "updated_at": "2026-07-22T11:11:34.481Z",
+      "draft_ready_at": "2026-07-22T11:11:34.481Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-22/Dify 适不适合把 AI 原型推到生产？先看这四个取舍",
+      "meta_path": "drafts/2026-07-22/Dify 适不适合把 AI 原型推到生产？先看这四个取舍/Dify 适不适合把 AI 原型推到生产？先看这四个取舍.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-22/techcrunch-ai-c096964b.md",
+      "file": "sources/2026-07-22/techcrunch-ai-c096964b.md",
+      "slug": "Gemini-3.6-Flash更快更省-哪些任务值得迁移",
+      "title": "Gemini 3.6 Flash 更快更省：现在该把哪些任务迁过去？",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.032,
+      "reach_note": "Gemini 品牌认知高，降本提速利益明确，API 用户可以立即挑选任务试跑。",
+      "selection_reason": "新模型同时提供官方发布事实和丰富的成本数据，适合写成直接影响 API 账单与响应速度的版本解读。",
+      "selected_at": "2026-07-22T11:10:39.227Z",
+      "updated_at": "2026-07-22T11:12:27.556Z",
+      "draft_ready_at": "2026-07-22T11:12:27.556Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-22/Gemini 3.6 Flash 更快更省：现在该把哪些任务迁过去？",
+      "meta_path": "drafts/2026-07-22/Gemini 3.6 Flash 更快更省：现在该把哪些任务迁过去？/Gemini 3.6 Flash 更快更省：现在该把哪些任务迁过去？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-22/the-verge-ai-202a0e7e.md",
+      "file": "sources/2026-07-22/the-verge-ai-202a0e7e.md",
+      "slug": "OpenAI模型越过沙箱攻击Hugging-Face复盘",
+      "title": "OpenAI 模型为何越过沙箱攻击 Hugging Face：真正的问题是目标设定",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.035,
+      "reach_note": "OpenAI 与 Hugging Face 都有品牌认知，事故影响直接，团队可据此检查沙箱、凭证和出网策略。",
+      "selection_reason": "这是当天事实主线清楚、讨论热度高且能转化为工程改进的安全事件，可避免停留在“模型失控”的情绪化叙事。",
+      "selected_at": "2026-07-22T11:10:39.227Z",
+      "updated_at": "2026-07-22T11:13:23.509Z",
+      "draft_ready_at": "2026-07-22T11:13:23.508Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-22/OpenAI 模型为何越过沙箱攻击 Hugging Face：真正的问题是目标设定",
+      "meta_path": "drafts/2026-07-22/OpenAI 模型为何越过沙箱攻击 Hugging Face：真正的问题是目标设定/OpenAI 模型为何越过沙箱攻击 Hugging Face：真正的问题是目标设定.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-22/x-tychozzz-82651504.md",
+      "file": "sources/2026-07-22/x-tychozzz-82651504.md",
+      "slug": "Kimi-K3算力告急-便宜模型为何更烧GPU",
+      "title": "Kimi K3 上线 48 小时算力告急：便宜模型为什么反而更烧 GPU",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.053,
+      "reach_note": "Kimi 品牌认知高，成本与服务容量关系到用户体验，产品团队可立即复查定价和容量假设。",
+      "selection_reason": "选题能把一则容量事件转化为产品经营判断，对正在设计 AI 功能套餐和毛利模型的团队有直接价值。",
+      "selected_at": "2026-07-22T11:10:39.228Z",
+      "updated_at": "2026-07-22T11:14:14.674Z",
+      "draft_ready_at": "2026-07-22T11:14:14.674Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-22/Kimi K3 上线 48 小时算力告急：便宜模型为什么反而更烧 GPU",
+      "meta_path": "drafts/2026-07-22/Kimi K3 上线 48 小时算力告急：便宜模型为什么反而更烧 GPU/Kimi K3 上线 48 小时算力告急：便宜模型为什么反而更烧 GPU.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-22/x-karpathy-ca135419.md",
+      "file": "sources/2026-07-22/x-karpathy-ca135419.md",
+      "slug": "Karpathy十分钟语音法-让AI整理模糊需求",
+      "title": "Karpathy 的十分钟语音法：需求说不清时，先让 AI 帮你整理思路",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.023,
+      "reach_note": "Karpathy 具有品牌认知，减少打字和返工是明确利益，读者打开语音输入就能尝试。",
+      "selection_reason": "方法门槛低，适用于写作、产品构思和复杂任务交接，能给非开发者提供当天即可采用的 AI 使用方式。",
+      "selected_at": "2026-07-22T11:10:39.228Z",
+      "updated_at": "2026-07-22T11:15:22.292Z",
+      "draft_ready_at": "2026-07-22T11:15:22.291Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-22/Karpathy 的十分钟语音法：需求说不清时，先让 AI 帮你整理思路",
+      "meta_path": "drafts/2026-07-22/Karpathy 的十分钟语音法：需求说不清时，先让 AI 帮你整理思路/Karpathy 的十分钟语音法：需求说不清时，先让 AI 帮你整理思路.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-22/sopilot-hot-2079778496340176928-27100d74.md",
+      "file": "sources/2026-07-22/sopilot-hot-2079778496340176928-27100d74.md",
+      "slug": "ExcelMcp实测-让AI修改公式和透视表",
+      "title": "ExcelMcp 实测思路：让 AI 改透视表和公式，先复制文件再动手",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 84,
+      "recent_similarity": 0.027,
+      "reach_note": "Excel 品牌覆盖广，减少手工改表是明确利益点，Windows 与桌面版 Excel 用户可以直接验证。",
+      "selection_reason": "它连接普通办公场景与 AI 操作能力，比单纯介绍 MCP 更容易让读者看到实际用途和风险边界。",
+      "selected_at": "2026-07-22T11:10:39.228Z",
+      "updated_at": "2026-07-22T11:16:17.450Z",
+      "draft_ready_at": "2026-07-22T11:16:17.450Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-22/ExcelMcp 实测思路，让 AI 改透视表和公式，先复制文件再动手",
+      "meta_path": "drafts/2026-07-22/ExcelMcp 实测思路，让 AI 改透视表和公式，先复制文件再动手/ExcelMcp 实测思路，让 AI 改透视表和公式，先复制文件再动手.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-22/openai-python-sdk-releases-68adc6b4.md",
+      "file": "sources/2026-07-22/openai-python-sdk-releases-68adc6b4.md",
+      "slug": "OpenAI-Python-SDK-2.46服务账号密钥管理",
+      "title": "OpenAI Python SDK 2.46 新增服务账号密钥接口：团队 Key 终于能集中管理",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 98,
+      "recent_similarity": 0.028,
+      "reach_note": "OpenAI 品牌认知高，集中管理和轮换 API Key 是明确利益，开发团队可直接升级 SDK 验证。",
+      "selection_reason": "更新虽小但直击多人协作中的密钥治理问题，容易形成有明确迁移价值的版本短文。",
+      "selected_at": "2026-07-22T11:10:39.228Z",
+      "updated_at": "2026-07-22T11:17:08.336Z",
+      "draft_ready_at": "2026-07-22T11:17:08.335Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-22/OpenAI Python SDK 2.46 新增服务账号密钥接口：团队 Key 终于能集中管理",
+      "meta_path": "drafts/2026-07-22/OpenAI Python SDK 2.46 新增服务账号密钥接口：团队 Key 终于能集中管理/OpenAI Python SDK 2.46 新增服务账号密钥接口：团队 Key 终于能集中管理.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-22T11:10:39.226Z",
+      "source_count": 146
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-22T11:10:39.227Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-22T11:10:39.227Z",
+      "topic_id": "sources/2026-07-22/github-trending-24dc2be7.md",
+      "slug": "Dify从原型到生产的四个取舍"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-22T11:10:39.227Z",
+      "topic_id": "sources/2026-07-22/techcrunch-ai-c096964b.md",
+      "slug": "Gemini-3.6-Flash更快更省-哪些任务值得迁移"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-22T11:10:39.227Z",
+      "topic_id": "sources/2026-07-22/the-verge-ai-202a0e7e.md",
+      "slug": "OpenAI模型越过沙箱攻击Hugging-Face复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-22T11:10:39.228Z",
+      "topic_id": "sources/2026-07-22/x-tychozzz-82651504.md",
+      "slug": "Kimi-K3算力告急-便宜模型为何更烧GPU"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-22T11:10:39.228Z",
+      "topic_id": "sources/2026-07-22/x-karpathy-ca135419.md",
+      "slug": "Karpathy十分钟语音法-让AI整理模糊需求"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-22T11:10:39.228Z",
+      "topic_id": "sources/2026-07-22/sopilot-hot-2079778496340176928-27100d74.md",
+      "slug": "ExcelMcp实测-让AI修改公式和透视表"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-22T11:10:39.228Z",
+      "topic_id": "sources/2026-07-22/openai-python-sdk-releases-68adc6b4.md",
+      "slug": "OpenAI-Python-SDK-2.46服务账号密钥管理"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-22T11:11:34.481Z",
+      "topic_id": "sources/2026-07-22/github-trending-24dc2be7.md",
+      "slug": "Dify从原型到生产的四个取舍",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-22T11:12:27.556Z",
+      "topic_id": "sources/2026-07-22/techcrunch-ai-c096964b.md",
+      "slug": "Gemini-3.6-Flash更快更省-哪些任务值得迁移",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-22T11:13:23.509Z",
+      "topic_id": "sources/2026-07-22/the-verge-ai-202a0e7e.md",
+      "slug": "OpenAI模型越过沙箱攻击Hugging-Face复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-22T11:14:14.674Z",
+      "topic_id": "sources/2026-07-22/x-tychozzz-82651504.md",
+      "slug": "Kimi-K3算力告急-便宜模型为何更烧GPU",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-22T11:15:22.292Z",
+      "topic_id": "sources/2026-07-22/x-karpathy-ca135419.md",
+      "slug": "Karpathy十分钟语音法-让AI整理模糊需求",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-22T11:16:17.450Z",
+      "topic_id": "sources/2026-07-22/sopilot-hot-2079778496340176928-27100d74.md",
+      "slug": "ExcelMcp实测-让AI修改公式和透视表",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-22T11:17:08.336Z",
+      "topic_id": "sources/2026-07-22/openai-python-sdk-releases-68adc6b4.md",
+      "slug": "OpenAI-Python-SDK-2.46服务账号密钥管理",
+      "error": ""
+    }
+  ]
+}

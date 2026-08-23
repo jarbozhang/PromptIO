@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-12",
+  "created_at": "2026-07-11T23:10:45.331Z",
+  "updated_at": "2026-07-11T23:24:37.056Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-12/transformers-releases-4c3b3f15.md",
+      "file": "sources/2026-07-12/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers-5.10发布事故复盘",
+      "title": "Hugging Face 撤回 Transformers 5.10.0：升级前先查这次损坏分支事故",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.054,
+      "reach_note": "Hugging Face 是开发者熟悉的品牌，避开错误版本有直接利益，检查依赖和锁定版本可以马上执行。",
+      "selection_reason": "这不是普通更新摘要，而是一次有明确根因、影响和修复动作的发布事故，适合沉淀成团队依赖管理经验。",
+      "selected_at": "2026-07-11T23:10:45.332Z",
+      "updated_at": "2026-07-11T23:12:18.920Z",
+      "draft_ready_at": "2026-07-11T23:12:18.919Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-12/Hugging Face 撤回 Transformers 5.10.0：升级前先查这次损坏分支事故",
+      "meta_path": "drafts/2026-07-12/Hugging Face 撤回 Transformers 5.10.0：升级前先查这次损坏分支事故/Hugging Face 撤回 Transformers 5.10.0：升级前先查这次损坏分支事故.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-12/x-shao__meng-e906d885.md",
+      "file": "sources/2026-07-12/x-shao__meng-e906d885.md",
+      "slug": "13个Motion动效名让AI一次听懂",
+      "title": "做视频别再说“从右边滑入”：13 个 Motion 动效名让 AI 一次听懂",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "reference_card",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.027,
+      "reach_note": "减少沟通和返工是明确利益点，13 个术语可以立即用于提示词和设计需求。",
+      "selection_reason": "它解决的是创作者普遍存在的表达损耗，内容直观、适合收藏，也能同时服务视频、设计和前端场景。",
+      "selected_at": "2026-07-11T23:10:45.332Z",
+      "updated_at": "2026-07-11T23:13:51.851Z",
+      "draft_ready_at": "2026-07-11T23:13:51.850Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-12/做视频别再说“从右边滑入”：13 个 Motion 动效名让 AI 一次听懂",
+      "meta_path": "drafts/2026-07-12/做视频别再说“从右边滑入”：13 个 Motion 动效名让 AI 一次听懂/做视频别再说“从右边滑入”：13 个 Motion 动效名让 AI 一次听懂.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-12/llama-cpp-releases-f45ab024.md",
+      "file": "sources/2026-07-12/llama-cpp-releases-f45ab024.md",
+      "slug": "llama.cpp新版跑DeepSeek-OCR长图识别",
+      "title": "llama.cpp b9963 支持 DeepSeek OCR 多图块：长图和扫描件本地识别怎么试",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.032,
+      "reach_note": "DeepSeek 具备品牌认知，本地 OCR 能减少接口成本，读者可以直接下载新版并用自己的扫描件测试。",
+      "selection_reason": "版本变化具体且可验证，长图、票据和文档识别也是个人知识库与内容生产中的高频需求。",
+      "selected_at": "2026-07-11T23:10:45.332Z",
+      "updated_at": "2026-07-11T23:15:09.762Z",
+      "draft_ready_at": "2026-07-11T23:15:09.762Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-12/llama.cpp b9963 支持 DeepSeek OCR 多图块：长图和扫描件本地识别怎么试",
+      "meta_path": "drafts/2026-07-12/llama.cpp b9963 支持 DeepSeek OCR 多图块：长图和扫描件本地识别怎么试/llama.cpp b9963 支持 DeepSeek OCR 多图块：长图和扫描件本地识别怎么试.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-12/x-leerob-9724e0b0.md",
+      "file": "sources/2026-07-12/x-leerob-9724e0b0.md",
+      "slug": "AI写作别再让模型互评",
+      "title": "AI 写作别再让 10 个模型互评：把它当审稿人，成稿反而更像你",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.047,
+      "reach_note": "提升文章质量是明确利益点，把模型改作审稿人是一项可以立刻尝试的具体动作。",
+      "selection_reason": "它能纠正创作者常见的“多生成、多投票就会更好”误区，同时给出保留个人判断和表达的方法。",
+      "selected_at": "2026-07-11T23:10:45.332Z",
+      "updated_at": "2026-07-11T23:16:54.439Z",
+      "draft_ready_at": "2026-07-11T23:16:54.439Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-12/AI 写作别再让 10 个模型互评：把它当审稿人，成稿反而更像你",
+      "meta_path": "drafts/2026-07-12/AI 写作别再让 10 个模型互评：把它当审稿人，成稿反而更像你/AI 写作别再让 10 个模型互评：把它当审稿人，成稿反而更像你.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-12/github-trending-f4dc7845.md",
+      "file": "sources/2026-07-12/github-trending-f4dc7845.md",
+      "slug": "prompts.chat免费自托管提示词库",
+      "title": "团队提示词别再散落：用 prompts.chat 免费自托管一套可搜索的提示词库",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.048,
+      "reach_note": "免费和私有部署是明确利益点，读者可以立即安装并迁移现有提示词。",
+      "selection_reason": "它同时解决提示词难查找、难复用和团队隐私问题，适合内容团队与小型研发团队直接落地。",
+      "selected_at": "2026-07-11T23:10:45.333Z",
+      "updated_at": "2026-07-11T23:18:47.189Z",
+      "draft_ready_at": "2026-07-11T23:18:47.188Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-12/团队提示词别再散落：用 prompts.chat 免费自托管一套可搜索的提示词库",
+      "meta_path": "drafts/2026-07-12/团队提示词别再散落：用 prompts.chat 免费自托管一套可搜索的提示词库/团队提示词别再散落：用 prompts.chat 免费自托管一套可搜索的提示词库.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-12/github-trending-978e35c6.md",
+      "file": "sources/2026-07-12/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent七月新版上手",
+      "title": "NousResearch Hermes Agent 7 月新版：先跑通一个会随你成长的个人智能体",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 60,
+      "recent_similarity": 0.042,
+      "reach_note": "NousResearch 与 openclaw 生态具备品牌认知，个人智能体可以立即安装试用，长期积累能力也有明确利益点。",
+      "selection_reason": "这是本号重点生态的持续更新，既有版本新鲜度，也能落到读者可以亲手验证的使用路径。",
+      "selected_at": "2026-07-11T23:10:45.333Z",
+      "updated_at": "2026-07-11T23:22:46.971Z",
+      "draft_ready_at": "2026-07-11T23:22:46.971Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-12/NousResearch Hermes Agent 7 月新版：先跑通一个会随你成长的个人智能体",
+      "meta_path": "drafts/2026-07-12/NousResearch Hermes Agent 7 月新版：先跑通一个会随你成长的个人智能体/NousResearch Hermes Agent 7 月新版：先跑通一个会随你成长的个人智能体.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-12/x-dotey-05c5d447.md",
+      "file": "sources/2026-07-12/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Work-Codex怎么选",
+      "title": "ChatGPT、Work、Codex 到底怎么选？按交付物分工，别再浪费额度",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 118,
+      "recent_similarity": 0.029,
+      "reach_note": "OpenAI 与 ChatGPT 具备高品牌认知，减少额度浪费是明确利益点，读者能按手头任务立即选择模式。",
+      "selection_reason": "产品合并后最直接的用户问题不是功能列表，而是该把哪类任务交给哪个入口，这个选题能给出清晰决策依据。",
+      "selected_at": "2026-07-11T23:10:45.333Z",
+      "updated_at": "2026-07-11T23:24:37.056Z",
+      "draft_ready_at": "2026-07-11T23:24:37.055Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-12/ChatGPT、Work、Codex 到底怎么选？按交付物分工，别再浪费额度",
+      "meta_path": "drafts/2026-07-12/ChatGPT、Work、Codex 到底怎么选？按交付物分工，别再浪费额度/ChatGPT、Work、Codex 到底怎么选？按交付物分工，别再浪费额度.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-11T23:10:45.331Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-11T23:10:45.332Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-11T23:10:45.332Z",
+      "topic_id": "sources/2026-07-12/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers-5.10发布事故复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-11T23:10:45.332Z",
+      "topic_id": "sources/2026-07-12/x-shao__meng-e906d885.md",
+      "slug": "13个Motion动效名让AI一次听懂"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-11T23:10:45.332Z",
+      "topic_id": "sources/2026-07-12/llama-cpp-releases-f45ab024.md",
+      "slug": "llama.cpp新版跑DeepSeek-OCR长图识别"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-11T23:10:45.332Z",
+      "topic_id": "sources/2026-07-12/x-leerob-9724e0b0.md",
+      "slug": "AI写作别再让模型互评"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-11T23:10:45.333Z",
+      "topic_id": "sources/2026-07-12/github-trending-f4dc7845.md",
+      "slug": "prompts.chat免费自托管提示词库"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-11T23:10:45.333Z",
+      "topic_id": "sources/2026-07-12/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent七月新版上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-11T23:10:45.333Z",
+      "topic_id": "sources/2026-07-12/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Work-Codex怎么选"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-11T23:12:18.920Z",
+      "topic_id": "sources/2026-07-12/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers-5.10发布事故复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-11T23:13:51.851Z",
+      "topic_id": "sources/2026-07-12/x-shao__meng-e906d885.md",
+      "slug": "13个Motion动效名让AI一次听懂",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-11T23:15:09.762Z",
+      "topic_id": "sources/2026-07-12/llama-cpp-releases-f45ab024.md",
+      "slug": "llama.cpp新版跑DeepSeek-OCR长图识别",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-11T23:16:54.439Z",
+      "topic_id": "sources/2026-07-12/x-leerob-9724e0b0.md",
+      "slug": "AI写作别再让模型互评",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-11T23:18:47.189Z",
+      "topic_id": "sources/2026-07-12/github-trending-f4dc7845.md",
+      "slug": "prompts.chat免费自托管提示词库",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-11T23:22:46.971Z",
+      "topic_id": "sources/2026-07-12/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent七月新版上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-11T23:24:37.056Z",
+      "topic_id": "sources/2026-07-12/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Work-Codex怎么选",
+      "error": ""
+    }
+  ]
+}

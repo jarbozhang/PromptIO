@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-20",
+  "created_at": "2026-08-20T11:19:51.714Z",
+  "updated_at": "2026-08-20T11:27:53.794Z",
+  "source_count": 150,
+  "topics": [
+    {
+      "id": "sources/2026-08-20/arxiv-bada1985.md",
+      "file": "sources/2026-08-20/arxiv-bada1985.md",
+      "slug": "同一AI任务连续跑十次",
+      "title": "别只看 AI 跑分：同一任务连续跑十次，可能更接近真实能力",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.042,
+      "reach_note": "减少选型误判是明确利益点，重复测试方法简单，读者可用现有任务立即验证。",
+      "selection_reason": "这一反常识角度能补足当天的研究与观点内容，并把论文主张落到普通团队可以执行的模型评估方法上。",
+      "selected_at": "2026-08-20T11:19:51.715Z",
+      "updated_at": "2026-08-20T11:21:19.302Z",
+      "draft_ready_at": "2026-08-20T11:21:19.302Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-20/别只看 AI 跑分：同一任务连续跑十次，可能更接近真实能力",
+      "meta_path": "drafts/2026-08-20/别只看 AI 跑分：同一任务连续跑十次，可能更接近真实能力/别只看 AI 跑分：同一任务连续跑十次，可能更接近真实能力.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-20/sopilot-hot-2090218325838295350-b50aae51.md",
+      "file": "sources/2026-08-20/sopilot-hot-2090218325838295350-b50aae51.md",
+      "slug": "DeepSeek-Harness多模态更新",
+      "title": "DeepSeek Harness 多模态更新：现在能直接看截图排查问题了",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.035,
+      "reach_note": "DeepSeek 具备品牌认知，截图诊断是明确利益点，更新后可直接动手验证。",
+      "selection_reason": "这次变化补上了图片输入这一关键能力，同时给出了格式、容量限制和上下文管理等具体信息，适合做有实操价值的版本解读。",
+      "selected_at": "2026-08-20T11:19:51.715Z",
+      "updated_at": "2026-08-20T11:22:23.536Z",
+      "draft_ready_at": "2026-08-20T11:22:23.536Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-20/DeepSeek Harness 多模态更新：现在能直接看截图排查问题了",
+      "meta_path": "drafts/2026-08-20/DeepSeek Harness 多模态更新：现在能直接看截图排查问题了/DeepSeek Harness 多模态更新：现在能直接看截图排查问题了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-20/openai-blog-09f9dc1b.md",
+      "file": "sources/2026-08-20/openai-blog-09f9dc1b.md",
+      "slug": "Replit免费模式真实成本",
+      "title": "Replit 开放免费模式：用 OpenAI 把想法做成软件，还要付哪些成本？",
+      "status": "draft_ready",
+      "reach": 10,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.023,
+      "reach_note": "OpenAI 和 Replit 有品牌认知，“免费模式”利益明确，读者可直接创建项目验证。",
+      "selection_reason": "免费、可立即体验且能产出真实软件，传播要素完整；加入后续成本判断后，也能避免把产品发布稿写成单纯宣传。",
+      "selected_at": "2026-08-20T11:19:51.715Z",
+      "updated_at": "2026-08-20T11:23:27.682Z",
+      "draft_ready_at": "2026-08-20T11:23:27.681Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-20/Replit 开放免费模式：用 OpenAI 把想法做成软件，还要付哪些成本？",
+      "meta_path": "drafts/2026-08-20/Replit 开放免费模式：用 OpenAI 把想法做成软件，还要付哪些成本？/Replit 开放免费模式：用 OpenAI 把想法做成软件，还要付哪些成本？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-20/sopilot-hot-2090319669756371011-cb196901.md",
+      "file": "sources/2026-08-20/sopilot-hot-2090319669756371011-cb196901.md",
+      "slug": "别让AI经验困在公司电脑",
+      "title": "被锁在公司电脑里的 AI 经验，不真正属于你",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.027,
+      "reach_note": "Codex、Claude 提供品牌认知，避免经验归零是强利益点，读者可立即检查存储与备份方式。",
+      "selection_reason": "这是高频使用 AI 后容易被忽略的职业风险，既有真实场景冲突，也能沉淀出合规、可执行的个人知识管理方法。",
+      "selected_at": "2026-08-20T11:19:51.716Z",
+      "updated_at": "2026-08-20T11:24:36.560Z",
+      "draft_ready_at": "2026-08-20T11:24:36.542Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-20/被锁在公司电脑里的 AI 经验，不真正属于你",
+      "meta_path": "drafts/2026-08-20/被锁在公司电脑里的 AI 经验，不真正属于你/被锁在公司电脑里的 AI 经验，不真正属于你.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-20/x-shao__meng-f7e734f6.md",
+      "file": "sources/2026-08-20/x-shao__meng-f7e734f6.md",
+      "slug": "170万粉创作者的Codex内容系统",
+      "title": "170 万粉创作者如何用 Codex 重做选题、图表和缩略图",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.022,
+      "reach_note": "Codex 和百万粉案例自带认知与利益点，创作者可以选择其中一个环节立即复现。",
+      "selection_reason": "素材细节丰富，覆盖 API、图表、动画和缩略图等真实生产环节，适合转化为公众号深度案例和小红书场景化内容。",
+      "selected_at": "2026-08-20T11:19:51.716Z",
+      "updated_at": "2026-08-20T11:25:38.042Z",
+      "draft_ready_at": "2026-08-20T11:25:38.041Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-20/170 万粉创作者如何用 Codex 重做选题、图表和缩略图",
+      "meta_path": "drafts/2026-08-20/170 万粉创作者如何用 Codex 重做选题、图表和缩略图/170 万粉创作者如何用 Codex 重做选题、图表和缩略图.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-20/sopilot-hot-2090167925131157597-75e4fa70.md",
+      "file": "sources/2026-08-20/sopilot-hot-2090167925131157597-75e4fa70.md",
+      "slug": "AI先吃掉哪类SaaS",
+      "title": "AI 会先吃掉哪类 SaaS？看收费对象，不要只看功能",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,recent_entity_saturation",
+      "diversity_penalty": 64,
+      "recent_similarity": 0.032,
+      "reach_note": "Anthropic、Shopify、SAP 提供品牌认知，判断产品壁垒能直接辅助创业和采购决策。",
+      "selection_reason": "它不是泛泛讨论 AI 替代软件，而是把价值来源拆成订阅、交易、数据和迁移成本，能形成对产品负责人有用的决策框架。",
+      "selected_at": "2026-08-20T11:19:51.716Z",
+      "updated_at": "2026-08-20T11:26:46.302Z",
+      "draft_ready_at": "2026-08-20T11:26:46.302Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-20/AI 会先吃掉哪类 SaaS？看收费对象，不要只看功能",
+      "meta_path": "drafts/2026-08-20/AI 会先吃掉哪类 SaaS？看收费对象，不要只看功能/AI 会先吃掉哪类 SaaS？看收费对象，不要只看功能.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-20/anthropic-python-sdk-releases-047a05bd.md",
+      "file": "sources/2026-08-20/anthropic-python-sdk-releases-047a05bd.md",
+      "slug": "Anthropic-SDK托管Agent新能力",
+      "title": "Anthropic Python SDK 0.125.0：托管 Agent 终于能配置搜索、沙箱与记忆",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.038,
+      "reach_note": "Anthropic 有品牌认知，新能力直接影响开发效率，Python 用户可升级后验证。",
+      "selection_reason": "这是当天发布的官方 SDK 版本事实源，变化集中且行动路径明确，适合面向正在构建长任务应用的开发者。",
+      "selected_at": "2026-08-20T11:19:51.717Z",
+      "updated_at": "2026-08-20T11:27:53.794Z",
+      "draft_ready_at": "2026-08-20T11:27:53.794Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-20/Anthropic Python SDK 0.125.0：托管 Agent 终于能配置搜索、沙箱与记忆",
+      "meta_path": "drafts/2026-08-20/Anthropic Python SDK 0.125.0：托管 Agent 终于能配置搜索、沙箱与记忆/Anthropic Python SDK 0.125.0：托管 Agent 终于能配置搜索、沙箱与记忆.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-20T11:19:51.714Z",
+      "source_count": 150
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-20T11:19:51.714Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-20T11:19:51.715Z",
+      "topic_id": "sources/2026-08-20/arxiv-bada1985.md",
+      "slug": "同一AI任务连续跑十次"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-20T11:19:51.715Z",
+      "topic_id": "sources/2026-08-20/sopilot-hot-2090218325838295350-b50aae51.md",
+      "slug": "DeepSeek-Harness多模态更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-20T11:19:51.715Z",
+      "topic_id": "sources/2026-08-20/openai-blog-09f9dc1b.md",
+      "slug": "Replit免费模式真实成本"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-20T11:19:51.716Z",
+      "topic_id": "sources/2026-08-20/sopilot-hot-2090319669756371011-cb196901.md",
+      "slug": "别让AI经验困在公司电脑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-20T11:19:51.716Z",
+      "topic_id": "sources/2026-08-20/x-shao__meng-f7e734f6.md",
+      "slug": "170万粉创作者的Codex内容系统"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-20T11:19:51.716Z",
+      "topic_id": "sources/2026-08-20/sopilot-hot-2090167925131157597-75e4fa70.md",
+      "slug": "AI先吃掉哪类SaaS"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-20T11:19:51.717Z",
+      "topic_id": "sources/2026-08-20/anthropic-python-sdk-releases-047a05bd.md",
+      "slug": "Anthropic-SDK托管Agent新能力"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-20T11:21:19.302Z",
+      "topic_id": "sources/2026-08-20/arxiv-bada1985.md",
+      "slug": "同一AI任务连续跑十次",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-20T11:22:23.537Z",
+      "topic_id": "sources/2026-08-20/sopilot-hot-2090218325838295350-b50aae51.md",
+      "slug": "DeepSeek-Harness多模态更新",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-20T11:23:27.682Z",
+      "topic_id": "sources/2026-08-20/openai-blog-09f9dc1b.md",
+      "slug": "Replit免费模式真实成本",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-20T11:24:36.560Z",
+      "topic_id": "sources/2026-08-20/sopilot-hot-2090319669756371011-cb196901.md",
+      "slug": "别让AI经验困在公司电脑",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-20T11:25:38.042Z",
+      "topic_id": "sources/2026-08-20/x-shao__meng-f7e734f6.md",
+      "slug": "170万粉创作者的Codex内容系统",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-20T11:26:46.302Z",
+      "topic_id": "sources/2026-08-20/sopilot-hot-2090167925131157597-75e4fa70.md",
+      "slug": "AI先吃掉哪类SaaS",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-20T11:27:53.794Z",
+      "topic_id": "sources/2026-08-20/anthropic-python-sdk-releases-047a05bd.md",
+      "slug": "Anthropic-SDK托管Agent新能力",
+      "error": ""
+    }
+  ]
+}

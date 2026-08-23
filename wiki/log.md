@@ -3,6 +3,103 @@
 追加式记录，最新在前。
 
 
+## [2026-06-21] generate | 7 drafts, reviewed topics, official/curated anchors
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 528 items；GitHub Trending 21 AI repos；bird X 补采集 141 tweets（576 seen / 9 failures，后段触发 429）；sources/2026-06-21 共 674 个 md；新增 no-mistakes、Ollama、Confucius4-TTS、Hugging Face ARD、Hugging Face agentic benchmark 五份 curated source。
+- **新增 7 篇文章**：
+  - #1 AI 写代码太快，PR 闸门得先自动跑起来（REACH 8 first-person，no-mistakes / disposable worktree / PR gate）
+  - #2 Agent 犯错以后，别急着往 AGENTS.md 里加规则（REACH 8 first-person，事故复盘 / 测试 / review / 项目约定）
+  - #3 本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短（REACH 9 first-person，本地模型入口 / REST API / agent 集成）
+  - #4 部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项（REACH 7 analytical，DeepSeek-V4 / MRv2 / Rust frontend / KV cache offloading）
+  - #5 一段参考音频换 14 种语言，子曰 4.0 TTS 开源了（REACH 8 first-person，Confucius4-TTS / 跨语言 TTS / 本地部署）
+  - #6 MCP 工具越来越多，Agent 不能全靠你手动装（REACH 8 first-person，ARD / ai-catalog.json / POST /search / 工具发现）
+  - #7 你的 CLI 不适合 Agent，可能会多烧 6 倍 token（REACH 8 first-person，agentic benchmark / CLI / Skill / 文档和测试）
+- **voice 分布**：first-person 6 / analytical 1 / narrative 0 / retro 0。
+- **QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；无 publish 子目录；发布面扫描 0 命中；npm test 129/129 pass。
+- **质量处理**：初始 selector 命中 OpenClaw、Codex Handoff、Ollama、vLLM 等近两日已写或重复线，本轮改用 reviewed topics；X angle 只作问题意识，no-mistakes / Ollama / 子曰 TTS / ARD / agentic benchmark 均补官方或 README 事实锚点；生成后移除隐藏 REACH 注释，并做去模板化微调。
+- **发现的后续改进**：selector 仍会优先吸附历史高权重实体，需要引入最近 3-5 天实体/标题惩罚；curated source 手工成本高，可把 GitHub README 和官方博客空正文补抓做成脚本；manifest 的旧 dry-run 选题已 superseded，但可在最终摘要里只展示 active batch。
+
+## [2026-06-20] generate | 7 drafts, reviewed topics, official/curated anchors
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集 135 tweets（571 seen / 9 failures，后段触发 429）；sources/2026-06-20 共 650 个 md；新增 Hermes v0.17、OpenClaw 2026.6.9-beta.1、Codex thread handoff、GLM-5.2、Open Notebook v1.10、Elastic Agent Memory、DeepMind AI Control Roadmap 七份 curated source。
+- **新增 7 篇文章**：
+  - #1 Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径（REACH 9 first-person，Hermes Reach Release / 入口 / 后台子任务 / Skills Hub）
+  - #2 OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线（REACH 9 first-person，消息交付 / agent recovery / Codex 集成）
+  - #3 Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上（REACH 9 first-person，thread handoff / remote host / worktree）
+  - #4 长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文（REACH 8 first-person，1M context / effort level / 长任务 benchmark）
+  - #5 自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了（REACH 8 first-person，资料 ingest / retry / search fallback / context control）
+  - #6 别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计（REACH 8 retro，长期记忆 / hybrid retrieval / DLS 隔离）
+  - #7 DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾（REACH 8 first-person，Agent 安全 / supervisor / 权限控制）
+- **voice 分布**：first-person 6 / narrative 0 / analytical 0 / retro 1。
+- **QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；无 publish 子目录；发布面扫描 0 命中；npm test 129/129 pass。
+- **质量处理**：初始 selector 又命中近几日高频/已写线（Hermes 泛介绍、vLLM、no-mistakes、Codex Record、chatgpt-imagegen），本轮全部替换为 reviewed topics；生成后移除隐藏 REACH 注释，并按 humanizer 规则压低“我会/我建议/不是而是/真正”等复用句式。
+- **发现的后续改进**：自动 selector 仍然容易被高优先级旧实体吸引，需要引入最近 3-5 天标题/实体历史惩罚；source 质量层应把 release 正文自动摘要到 curated/fact 层，减少手工补源；X 抓取仍需无效账号清理和 429 backoff。
+
+## [2026-06-19] generate | 7 drafts, reviewed topics, official/curated anchors
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 528 items；GitHub Trending 21 AI repos；bird X 补采集 143 tweets（575 seen / 9 failures，后段触发 429）；sources/2026-06-19 共 678 个 md；新增 Codex Record & Replay、Claude Code Artifacts、baoyu-design、Adobe、MosaicLeaks、ARD、Probe-and-Refine 七份 curated source。
+- **新增 7 篇文章**：
+  - #1 Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书（REACH 9 first-person，Record & Replay / Computer Use / Skill）
+  - #2 Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么（REACH 9 first-person，Claude Code 输出层 / 团队协作）
+  - #3 baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块（REACH 8 first-person，本地 Skill / PPTX / AI 配图）
+  - #4 Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文（REACH 8 narrative，Creative Cloud / Firefly / 项目上下文）
+  - #5 研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答（REACH 8 first-person，Deep Research / RAG 隐私 / 工具调用泄露）
+  - #6 MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口（REACH 8 first-person，ARD / 能力发现层）
+  - #7 AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产（REACH 8 first-person，AGENTS.md / coding agent guidance）
+- **voice 分布**：first-person 6 / narrative 1 / analytical 0 / retro 0。
+- **QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；发布面扫描 0 命中；npm test 129/129 pass。
+- **质量处理**：初始 selector 命中的 Hermes/no-mistakes/vLLM/OpenAI SDK/Ollama 与 06-17/06-18 重叠，本轮全部替换；RSS 中多篇空正文或短摘要源先补 curated official/source summary，再生成；生成后移除隐藏 REACH 注释。
+- **发现的后续改进**：X 抓取仍需清理无效账号和 429 backoff；The Verge / DeepMind / Hugging Face 这类源有时正文较短或为空，应继续自动补 fetch/curated 摘要；选题器仍偏好近两日高频实体，需要更强的历史去重惩罚。
+
+## [2026-06-18] generate | 7 drafts, reviewed topics, curated release sources
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集 134 tweets（567 seen / 9 failures，后段触发 429）；新增 OpenClaw v2026.6.8、Hermes Agent v0.16.0、Firecrawl v2.10 三份官方 release 摘要源；sources/2026-06-18 共 645 个 md。
+- **新增 7 篇文章**：
+  - #1 Agent 终于能交付给别人用了，Hermes v0.16.0 补上界面层（REACH 9 first-person，Hermes Agent 桌面版 / 中文界面 / 远程网关）
+  - #2 个人 AI 助手靠不靠谱，OpenClaw v2026.6.8 给了检查表（REACH 9 first-person，OpenClaw 可靠性 / 多通道交付）
+  - #3 Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流（REACH 8 first-person，资料采集 / Agent 工作流）
+  - #4 Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄（REACH 8 first-person，Skill 反馈闭环）
+  - #5 Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理（REACH 7 first-person，长推理研究 Agent）
+  - #6 Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活（REACH 8 first-person，文件夹协作 Agent）
+  - #7 Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品（REACH 7 narrative，实时语音翻译）
+- **voice 分布**：first-person 6 / narrative 1 / analytical 0 / retro 0。
+- **QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；发布面扫描 0 命中；npm test 129/129 pass。
+- **质量处理**：初始 selector 命中的 Ollama/vLLM/Codex 与 06-17 重叠，本轮用 reviewed topics 文件替换；OpenClaw/Hermes/Firecrawl 改用官方 release 摘要源补事实密度；生成后移除隐藏 REACH 注释和短链。
+- **发现的后续改进**：X 抓取仍需 backoff / invalid-account 清理；RSS 失效源继续产生噪音；release 类素材应稳定进入预摘要层，避免只靠 GitHub Trending 摘要生成平淡文章。
+
+## [2026-06-17] generate | 7 drafts, reviewed topics, X source recovery
+
+- **采集**：pipeline 保存 RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 补采集 115 tweets（517 seen / 13 failures，后段触发 429）；补充 OpenClaw v2026.6.8 官方 release/README 摘要源；sources/2026-06-17 共 631 个 md。
+- **新增 7 篇文章**：
+  - #1 个人 AI 助手更稳了，OpenClaw v2026.6.8 补齐多通道交付（REACH 9 first-person，OpenClaw release / 多通道可靠性）
+  - #2 Hermes Studio v0.6.15 长对话、技能命令和本地 Runtime 都更顺了（REACH 9 first-person，Hermes 新版本 / 本地 runtime）
+  - #3 OpenAI Python SDK 2.42.0，先看懂 spend_alerts，再给团队 API 花费上闸门（REACH 8 first-person，API 成本控制）
+  - #4 Codex 操控电脑的三种方式，什么时候用 Computer Use、Chrome 扩展和内置浏览器（REACH 9 analytical，Codex 自动化入口选择）
+  - #5 AI 写代码之后，怎么守住 PR 质量，no-mistakes 的本地闸门思路（REACH 8 first-person，代码交付门禁）
+  - #6 vLLM 0.23.0 更新，DeepSeek-V4 和 Qwen3 部署党该看哪些变化（REACH 8 analytical，推理部署升级清单）
+  - #7 Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen，本地模型玩家该怎么选第一套组合（REACH 9 first-person，本地模型选型）
+- **voice 分布**：first-person 5 / analytical 2 / retro 0。
+- **QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；发布面扫描 0 命中；npm test 129/129 pass。
+- **技能/流程更新**：新增 npm run fetch:x；daily 支持 --topics-file 审核后生成；选题 prompt 增加同实体/同产品线去重；发布面守卫新增 AI 辅助/非实测元叙事扫描；manifest 支持 superseded，避免多次 dry-run 的旧候选污染状态。
+- **发现的后续改进**：X 抓取需要 delay / 429 后停止策略；RSS 失效源仍需清理；长 X 帖和 release 源应先摘要再生成以缩短运行时间；manifest 可增加 reviewed_set_id 便于追踪最终选题批次。
+
+## [2026-06-16] generate | 7 drafts, REACH>=8, single XHS-safe main version
+
+- **采集**：RSS/GitHub/arXiv 508 new items；GitHub Trending 23 AI repos；PyPI trends 1 份摘要；bird X 保存 213 条来源；TrendRadar Docker 路径缺失 soft-fail；sources/2026-06-16 共 745 个 md
+- **新增 7 篇文章**：
+  - #1 个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了（REACH 9 first-person，Hermes Agent 新版本 / 长期工作流）
+  - #2 OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform（REACH 9 first-person，OpenClaw 最新仓库动态）
+  - #3 Codex 免费重置次数可以攒着用了，什么时候用最划算？（REACH 9 first-person，Codex 额度排班）
+  - #4 ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了（REACH 9 first-person，本地生图工具）
+  - #5 免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？（REACH 9 analytical，低成本原型入口）
+  - #6 本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek（REACH 8 first-person，本地模型选型）
+  - #7 用 n8n 搭一个自动化助手，400+ 集成别一上来全接（REACH 8 first-person，AI 工作流自动化）
+- **voice 分布**：first-person 6 / analytical 1 / retro 0
+- **QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；发布面扫描 0 命中；npm test 122/122 pass
+- **技能/规则更新**：生成提示和发布面守卫新增“内部写作约束泄漏”与敏感来源字面黑名单；manifest 失败错误改为脱敏摘要，避免历史错误文本污染发布面扫描
+- **实体/主题页同步**：新增/追加 openclaw、Hermes Agent、NousResearch、Codex、ChatGPT、Ollama、n8n、GitHub，以及 agent-frameworks、local-first-ai、local-inference、ai-workflows、developer-tools、ai-pricing、ai-productivity
+
+
 ## [2026-05-22] generate | 7 drafts, REACH>=7, single XHS-safe main version
 
 - **采集**：RSS/GitHub/arXiv 517 items；GitHub Trending 56 AI repos；OpenRouter 2 new（Qwen3.7 Max / Grok Build 0.1）；PyPI 部分 429；bird X 失败（cookies 全失效）

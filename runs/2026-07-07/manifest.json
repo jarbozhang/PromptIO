@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-07",
+  "created_at": "2026-07-06T23:16:19.870Z",
+  "updated_at": "2026-07-06T23:31:45.150Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-07/x-leerob-9724e0b0.md",
+      "file": "sources/2026-07-07/x-leerob-9724e0b0.md",
+      "slug": "AI-写作更适合批改而不是代写",
+      "title": "为什么 AI 写作总差一口气：创作者该把模型用在批改而不是代写",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.042,
+      "reach_note": "AI 写作是高认知话题，利益点是提高稿件质量，动作是改用审稿流程。",
+      "selection_reason": "这条适合做反常识观点，不依赖新产品发布，能覆盖创作者和普通内容生产场景。",
+      "selected_at": "2026-07-06T23:16:19.871Z",
+      "updated_at": "2026-07-06T23:18:15.782Z",
+      "draft_ready_at": "2026-07-06T23:18:15.781Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-07/为什么 AI 写作总差一口气：创作者该把模型用在批改而不是代写",
+      "meta_path": "drafts/2026-07-07/为什么 AI 写作总差一口气：创作者该把模型用在批改而不是代写/为什么 AI 写作总差一口气：创作者该把模型用在批改而不是代写.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-07/arxiv-976f3f78.md",
+      "file": "sources/2026-07-07/arxiv-976f3f78.md",
+      "slug": "AI-代码代理-分散攻击风险",
+      "title": "AI 写代码的真正风险：坏改动可能分散在好几个 PR 里",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.05,
+      "reach_note": "AI 写代码是强关注场景，风险清晰，团队可立刻调整 review 检查点。",
+      "selection_reason": "arXiv evidence 源具体且有安全价值，能为当天加入失败复盘和安全审查角度。",
+      "selected_at": "2026-07-06T23:16:19.871Z",
+      "updated_at": "2026-07-06T23:20:29.518Z",
+      "draft_ready_at": "2026-07-06T23:20:29.517Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-07/AI 写代码的真正风险，坏改动可能分散在好几个 PR 里",
+      "meta_path": "drafts/2026-07-07/AI 写代码的真正风险，坏改动可能分散在好几个 PR 里/AI 写代码的真正风险，坏改动可能分散在好几个 PR 里.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-07/techcrunch-ai-88a9e7b8.md",
+      "file": "sources/2026-07-07/techcrunch-ai-88a9e7b8.md",
+      "slug": "Google-AI-训练数据开关检查",
+      "title": "Google 的 AI 训练数据开关变了，普通用户现在该检查哪些设置",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.027,
+      "reach_note": "Google 品牌强，隐私风险有明确利益点，读者可马上检查设置。",
+      "selection_reason": "这是普通用户也关心的风险提醒，能补足当天不全是开发者工具的内容结构。",
+      "selected_at": "2026-07-06T23:16:19.872Z",
+      "updated_at": "2026-07-06T23:23:22.488Z",
+      "draft_ready_at": "2026-07-06T23:23:22.488Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-07/Google 的 AI 训练数据开关变了，普通用户现在该检查哪些设置",
+      "meta_path": "drafts/2026-07-07/Google 的 AI 训练数据开关变了，普通用户现在该检查哪些设置/Google 的 AI 训练数据开关变了，普通用户现在该检查哪些设置.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-07/openai-python-sdk-releases-052770e0.md",
+      "file": "sources/2026-07-07/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-Python-SDK-spend-alerts-用量闸门",
+      "title": "OpenAI Python SDK 2.42.0 加了 spend alerts，团队用量失控前该先装这道闸",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "reference_card",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.043,
+      "reach_note": "OpenAI 品牌强，省钱和成本控制利益点明确，升级检查可操作。",
+      "selection_reason": "官方 release 源明确，主题从版本更新转成成本治理，能避开纯工具介绍并提高实用性。",
+      "selected_at": "2026-07-06T23:16:19.872Z",
+      "updated_at": "2026-07-06T23:25:08.816Z",
+      "draft_ready_at": "2026-07-06T23:25:08.815Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-07/OpenAI Python SDK 2.42.0 加了 spend alerts，团队用量失控前该先装这道闸",
+      "meta_path": "drafts/2026-07-07/OpenAI Python SDK 2.42.0 加了 spend alerts，团队用量失控前该先装这道闸/OpenAI Python SDK 2.42.0 加了 spend alerts，团队用量失控前该先装这道闸.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-07/github-trending-978e35c6.md",
+      "file": "sources/2026-07-07/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-联网读取值得重试",
+      "title": "Hermes Agent 更新后，联网读取为什么值得重新试一次",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.055,
+      "reach_note": "NousResearch/Hermes 属重点生态，且读者可以直接打开 GitHub 项目试用。",
+      "selection_reason": "Hermes Agent 是 openclaw/NousResearch 生态重点项目，GitHub fact 源质量高，适合做成一次新版本能力解读。",
+      "selected_at": "2026-07-06T23:16:19.872Z",
+      "updated_at": "2026-07-06T23:27:21.803Z",
+      "draft_ready_at": "2026-07-06T23:27:21.802Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-07/Hermes Agent 更新后，联网读取为什么值得重新试一次",
+      "meta_path": "drafts/2026-07-07/Hermes Agent 更新后，联网读取为什么值得重新试一次/Hermes Agent 更新后，联网读取为什么值得重新试一次.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-07/transformers-releases-25627478.md",
+      "file": "sources/2026-07-07/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-支持-Kimi-K2-系列",
+      "title": "Transformers v5.13 支持 Kimi K2.5 到 K2.7，本地模型玩家可以先看这三件事",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 84,
+      "recent_similarity": 0.056,
+      "reach_note": "Hugging Face/Transformers 和 Kimi 有品牌认知，升级动作明确可操作。",
+      "selection_reason": "官方 release 信息量足，兼具模型生态和实操入口，适合中文读者快速判断是否跟进。",
+      "selected_at": "2026-07-06T23:16:19.872Z",
+      "updated_at": "2026-07-06T23:28:21.381Z",
+      "draft_ready_at": "2026-07-06T23:28:21.380Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-07/Transformers v5.13 支持 Kimi K2.5 到 K2.7，本地模型玩家可以先看这三件事",
+      "meta_path": "drafts/2026-07-07/Transformers v5.13 支持 Kimi K2.5 到 K2.7，本地模型玩家可以先看这三件事/Transformers v5.13 支持 Kimi K2.5 到 K2.7，本地模型玩家可以先看这三件事.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-07/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-07/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-DeepSeek-V4-MiniMax-M3-升级判断",
+      "title": "vLLM 0.24.0：DeepSeek-V4 和 MiniMax-M3 部署者该不该升级",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 84,
+      "recent_similarity": 0.062,
+      "reach_note": "vLLM、DeepSeek、MiniMax 都有明确品牌，升级部署是直接动作。",
+      "selection_reason": "这是高质量官方版本源，覆盖模型部署读者最关心的性能、兼容和升级取舍。",
+      "selected_at": "2026-07-06T23:16:19.873Z",
+      "updated_at": "2026-07-06T23:31:45.150Z",
+      "draft_ready_at": "2026-07-06T23:31:45.150Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-07/部署 DeepSeek-V4 和 MiniMax-M3，要不要升 vLLM 0.24.0",
+      "meta_path": "drafts/2026-07-07/部署 DeepSeek-V4 和 MiniMax-M3，要不要升 vLLM 0.24.0/部署 DeepSeek-V4 和 MiniMax-M3，要不要升 vLLM 0.24.0.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-06T23:16:19.870Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-06T23:16:19.871Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-06T23:16:19.871Z",
+      "topic_id": "sources/2026-07-07/x-leerob-9724e0b0.md",
+      "slug": "AI-写作更适合批改而不是代写"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-06T23:16:19.871Z",
+      "topic_id": "sources/2026-07-07/arxiv-976f3f78.md",
+      "slug": "AI-代码代理-分散攻击风险"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-06T23:16:19.872Z",
+      "topic_id": "sources/2026-07-07/techcrunch-ai-88a9e7b8.md",
+      "slug": "Google-AI-训练数据开关检查"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-06T23:16:19.872Z",
+      "topic_id": "sources/2026-07-07/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-Python-SDK-spend-alerts-用量闸门"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-06T23:16:19.872Z",
+      "topic_id": "sources/2026-07-07/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-联网读取值得重试"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-06T23:16:19.872Z",
+      "topic_id": "sources/2026-07-07/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-支持-Kimi-K2-系列"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-06T23:16:19.873Z",
+      "topic_id": "sources/2026-07-07/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-DeepSeek-V4-MiniMax-M3-升级判断"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-06T23:18:15.782Z",
+      "topic_id": "sources/2026-07-07/x-leerob-9724e0b0.md",
+      "slug": "AI-写作更适合批改而不是代写",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-06T23:20:29.518Z",
+      "topic_id": "sources/2026-07-07/arxiv-976f3f78.md",
+      "slug": "AI-代码代理-分散攻击风险",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-06T23:23:22.488Z",
+      "topic_id": "sources/2026-07-07/techcrunch-ai-88a9e7b8.md",
+      "slug": "Google-AI-训练数据开关检查",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-06T23:24:17.785Z",
+      "topic_id": "sources/2026-07-07/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-Python-SDK-spend-alerts-用量闸门",
+      "error": "generated markdown for 团队用量失控前，先给 OpenAI Python SDK 装预算闸门 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-06T23:25:08.816Z",
+      "topic_id": "sources/2026-07-07/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-Python-SDK-spend-alerts-用量闸门",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-06T23:27:21.803Z",
+      "topic_id": "sources/2026-07-07/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-联网读取值得重试",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-06T23:28:21.381Z",
+      "topic_id": "sources/2026-07-07/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-支持-Kimi-K2-系列",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-06T23:31:45.150Z",
+      "topic_id": "sources/2026-07-07/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0-24-DeepSeek-V4-MiniMax-M3-升级判断",
+      "error": ""
+    }
+  ]
+}

@@ -7,7 +7,8 @@
 ## 架构
 
 - **pipeline.js** — RSS/GitHub/arXiv 采集脚本 (fetch-only)
-- **agent-browser** — X 账号推文抓取（Claude Code 会话内用 skill 调用）
+- **fetch-x.js** — X 账号推文补采集（bird CLI + `config/sources.yaml` 的 `x_accounts`）
+- **fetch-sopilot.js** — 优先读取 SoPilot 中文 AI 热帖，逐条补充 X 原帖详情和高信息量评论
 - **Claude Code 会话** — 评分、生成、gates 全部直接完成
 - **Git 作为内容数据库** — 每篇内容是 markdown 文件，frontmatter 管理状态
 - **状态机** — draft → approved → published (或 rejected / publish_failed)
@@ -17,28 +18,44 @@
 - Node.js (ESM)
 - rss-parser (RSS 采集)
 - gray-matter (frontmatter 解析)
-- agent-browser skill (X 推文抓取)
+- bird CLI (X 推文抓取)
 - Claude Code 会话 (选题评分 + 文章生成 + gates)
 
 ## 每日流程
 
 ```
 1. npm run pipeline              # RSS/GitHub/arXiv 采集
-2. bird search "from:{handle}" 抓取 X  # 按 config/sources.yaml 中 x_accounts 列表
-   过滤：近14天 + likes>50            # bird CLI 读 Chrome cookies 认证，无需 API key
-3. Claude Code 评分 top 10       # 从全部 sources 中选题，去重已有 drafts
-4. 10 个子代理并行生成文章         # 保存到 drafts/{date}/
-5. commit
+2. npm run fetch:x -- --date YYYY-MM-DD  # 按 config/sources.yaml 中 x_accounts 补 X 角度源
+   默认过滤：近14天 + likes>=50 + 非回复/转推 + 不含 Reddit/HN/OpenRouter
+3. npm run fetch:sopilot -- --date YYYY-MM-DD  # 重点巡检 SoPilot 热帖，并逐条读取原帖详情和评论
+4. npm run draft:daily -- --date YYYY-MM-DD  # 先做 source 分层/配额，再选题生成
+   输入门：Reddit/HN/OpenRouter 不进入公开生成链路；GitHub 正常使用
+   质量层：A 可直接选题，B 需补官方证据，C 只作背景，D 丢弃
+   来源角色：fact/version 作事实主源，angle 只提供场景，evidence/adoption/background 辅助判断
+   选题去重：同一实体/同一产品线默认只保留一篇，版本更新和仓库入口能合并就合并
+5. 生成完成后逐篇看质量：标题是否有中文收益点，正文是否有扫读层级，是否泄漏内部规则，是否同批文章复用句式
+6. commit
 ```
 
 ## 命令
 
 ```bash
 npm run pipeline    # RSS/GitHub/arXiv 采集（不含 X 抓取、评分、生成）
+npm run fetch:x     # X 账号补采集：默认近14天、likes>=50、最多250条
+npm run fetch:sopilot # SoPilot 中文 AI 热帖 + 原帖详情 + 评论补采集
+npm run draft:daily # 每日选题和文章生成
 npm run publish     # 发布 approved 状态的文章到公众号
+npm run publish:wechat-browser -- <draft-dir> # 生成安全的公众号浏览器预览；加 --submit 才保存到草稿箱
 npm run setup       # 初始化配置
 npm test            # 运行测试
 ```
+
+## Run Manifest / 发布闸门
+
+- `npm run draft:daily` 会把每日选题和草稿生成状态写入 `runs/{date}/manifest.json`，用于恢复失败选题；它不替代 `topics/{date}.json`、draft markdown 或 `meta.yaml`。
+- `npm run publish` 采用 meta-first 发布闸门：先读 `meta.yaml` 的 `qa` 与 `platforms`，缺失或未通过时默认不可发布；dry-run 仍可生成预览，但 summary 会标记 `publishable: false`。
+- legacy draft 如需越过闸门，必须显式传 `--manual-bypass "reason"`，原因会写入 publish summary。
+- 详细操作见 `docs/run-manifest.md`。
 
 ## 目录结构
 
@@ -71,7 +88,7 @@ npm test            # 运行测试
 文章结构：
 1. 为什么你应该关注这件事（hook）
 2. 把事情讲清楚（技术拆解 + 背景补充）
-3. 社区声音（多平台真实反馈）
+3. 场景/反馈（只写有一手来源的 GitHub issue/PR、X 讨论、知乎/B站等；不写 Reddit/HN）
 4. 我的判断（必须有立场）
 5. 行动建议（可选）
 
@@ -86,6 +103,7 @@ npm test            # 运行测试
 
 3 次违规已导致小红书账号警告。小红书合规采用**选题硬排除 + 主稿改写优先**两段式：
 
+- **Reddit / Hacker News / HN / OpenRouter** → 只允许内部观察，不进入标题、正文、frontmatter、slug、topics JSON 或相关链接
 - **封建迷信**（算命/风水/八字/占卜/运势）→ 选题门 `checkCompliance()` 自动 skip
 - **境外软件访问教程**（翻墙/梯子/Clash/ChatGPT web 注册）→ 选题门 skip，写作层禁用词
 - **纯拉踩标题**（X 干翻/吊打/订阅可以退了/变笨了）→ 选题门 skip，写作层禁用句式

@@ -1,0 +1,24 @@
+---
+title: >-
+  EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object
+  Goal Navigation
+url: 'https://arxiv.org/abs/2606.18235v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Qi Chai
+  - Wenhao Shen
+  - Nanjie Yao
+  - Yue Xia
+  - Kaiyong Zhao
+categories:
+  - cs.AI
+  - cs.AI
+published: '2026-06-16T17:56:57Z'
+fetched_at: '2026-06-17T03:04:24.950Z'
+---
+Zero-Shot Object-Goal Navigation (ZS-OGN) requires embodied agents to explore and locate target objects without any prior training. To this end, recent methods leverage foundation models. But they typically rely on static priors and lack adaptation, which leads to repeated errors and costly trial and error. In this paper, we propose a self-evolving ZS-OGN framework that enables continuous test-time improvement. Specifically, we build an agentic rule memory by extracting actionable knowledge from past trajectories. Then, we propose a retrieval strategy based on upper confidence bound, selecting effective rules by balancing semantic relevance and historical success. In addition, we introduce a memory-guided preflection module that forecasts potential outcomes before action, reducing inefficient exploration. Extensive experiments show that our method outperforms existing zero-shot baselines, achieving a 10.1\% improvement in success rate with fewer unnecessary steps.
+
+Authors: Qi Chai, Wenhao Shen, Nanjie Yao, Yue Xia, Kaiyong Zhao
+Categories: cs.AI, cs.AI

@@ -1,0 +1,69 @@
+# NousResearch 的 Hermes Agent 上榜，怎么把它接进 openclaw 工作流
+
+Hermes Agent 这次从 GitHub Trending 进入很多开发者视野，不是因为它又包了一层聊天界面，而是因为它把记忆、skills、工具调用和 openclaw 迁移放进了同一条工程链路。
+
+这里要先划边界。本文为 AI 辅助整理，关键事实已按 GitHub 仓库页、README 和官方文档核对。由于没有在本机完成安装、迁移和长任务验证，下面不写成亲测结论，也不写社区口碑。
+
+截至源材料，NousResearch/hermes-agent 是 Python 项目，仓库创建于 2025 年 7 月 22 日，最后推送在 2026 年 5 月 28 日，GitHub 页面显示 170k stars、28.5k forks。README 给它的定位很直接，the agent that grows with you。
+
+对已经在用 Codex、Claude Code 或 openclaw 的人，真正该看的不是它能不能聊天，而是它能不能接住已有工作流。
+
+## 安装和模型入口
+
+README 给的安装路径很短。Linux、macOS、WSL2、Termux 走 `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`，随后 `source ~/.zshrc` 或 `source ~/.bashrc`，再跑 `hermes`。
+
+Windows 原生路径仍标着 early beta。README 也把 WSL2 描述成更稳的 Windows 方案，所以生产环境别把 Windows 原生当默认选择。
+
+模型入口用 `hermes model` 配。README 列出的 provider 包括 Nous Portal、OpenRouter、Xiaomi MiMo、z.ai/GLM、Kimi/Moonshot、MiniMax、Hugging Face、OpenAI 和自定义 endpoint。对国内开发者，优先看自己已有的 API 和本地 endpoint，不要为了试一个 agent 重新改整套模型账单结构。
+
+## 工具调用要小步开
+
+Hermes 的 tools 文档把能力拆成 web、terminal、file、browser、memory、session_search、cronjob、delegation 等 toolsets。对 Codex 和 Claude Code 用户，第一轮试用建议只开 `web,terminal,skills`，再按项目需要加 `memory` 和 `session_search`。
+
+它支持的终端后端有 local、Docker、SSH、Singularity、Modal、Daytona。默认 local 最快，但迁移已有 openclaw 工作流时，Docker 或 SSH 更适合做隔离层。尤其是会改文件、跑命令、装依赖的任务，不要一开始就让 agent 贴着自己的主力环境跑。
+
+如果你平时已经把 Codex 当代码执行层，把 Claude Code 当复杂修改层，Hermes 更适合放在外层，负责记忆、工具配置、定时任务和跨会话调度。别急着把它理解成替代品，它更像一个带长期状态的 agent 工作台。
+
+## 记忆是核心，但不是无限上下文
+
+官方记忆文档把常驻记忆拆成两个文件，`MEMORY.md` 记录环境、项目约定和踩过的坑，约 2200 字符，`USER.md` 记录用户偏好，约 1375 字符。两者都放在 `~/.hermes/memories/`。
+
+关键细节是，记忆在会话开始时作为冻结快照注入系统提示词。会话中新增或修改记忆会落盘，但要到下一个会话才进入提示词。这对习惯用 openclaw 长期积累偏好的人很重要，因为它不是把历史聊天一股脑塞进去，而是逼你维护少量高密度事实。
+
+`session_search` 走另一条路。官方文档写明 CLI 和消息会话会存到 `~/.hermes/state.db`，用 SQLite FTS5 做全文检索。适合问几周前是不是讨论过某个问题，不适合替代核心项目约定。
+
+## skills 才是迁移后的生产力部分
+
+Hermes 的 skills 放在 `~/.hermes/skills/`，安装的 skill 会自动变成 slash command。比如官方文档里的 `/github-pr-workflow`、`/plan` 这类命令，本质是让 agent 按需加载程序性知识，而不是每次都把长提示词复制进聊天框。
+
+如果你的 openclaw 里已经沉淀了发布流程、代码审查习惯、回滚标准，迁移时不要只看 MEMORY 和 USER。真正要检查的是这些 skills 到 Hermes 后，是否还匹配它的 toolsets、终端后端和审批规则。
+
+## clawdbot 和 moltbot 用户看这里
+
+`hermes claw migrate` 是 openclaw 用户最该先看的命令。CLI 参考写明，它默认从 `~/.openclaw` 读取并写入 `~/.hermes`，也会自动识别旧目录 `~/.clawdbot`、`~/.moltbot`，以及配置文件 `clawdbot.json`、`moltbot.json`。
+
+稳妥起步不是直接迁，而是先跑 `hermes claw migrate --dry-run`。迁移覆盖 30 多类内容，包括 SOUL.md、MEMORY.md、USER.md、AGENTS.md、skills、默认模型、MCP servers、approval rules、gateway config 等。cron jobs、plugins、hooks、webhooks、多 agent 配置等会进入人工复核范围。
+
+还有一个安全边界，preset 不会自动导入 secrets。要迁 API keys 必须显式加 `--migrate-secrets`。建议第一轮只用 `--preset user-data` 看人设、记忆和 skills 是否干净，再决定是否碰凭据。
+
+README 还列了 HermesClaw，定位是社区微信桥，可以让 Hermes Agent 和 OpenClaw 跑在同一个微信账号上。这个项目适合已经在做消息入口的人研究，但它是社区桥接，不等于官方迁移器的一部分。
+
+## 建议的接入顺序
+
+我认为最稳的路径是三步。跑 `hermes claw migrate --dry-run` 看迁移计划。新建空 repo，只开 `web,terminal,skills,memory` 跑文档整理、测试生成或 issue 归档。确认记忆写入没有污染后，再迁 AGENTS.md 和常用 skills。
+
+不要一上来把真实生产仓库、secrets、cron 和自动化派发全塞进去。Hermes Agent 最有价值的地方，是把长期工作习惯变成可迁移的状态；它最容易出问题的地方，也正是状态太多、权限太大、边界太早放开。
+
+已经在用 openclaw 的开发者，下一步不是换掉熟悉的 agent，而是把 dry-run 输出当作一次体检。它会告诉你，自己的工作流到底沉淀在记忆里，还是散落在几个没人敢动的配置文件里。
+
+## 相关链接
+
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+- [Hermes Agent 官方文档](https://hermes-agent.nousresearch.com/docs/)
+- [CLI Commands Reference](https://hermes-agent.nousresearch.com/docs/reference/cli-commands)
+- [Tools and Toolsets](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools)
+- [Persistent Memory](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory)
+- [Skills System](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills)
+- [HermesClaw 社区桥接项目](https://github.com/AaronWong1999/hermesclaw)
+
+<!-- REACH: 7/10 | 品牌✓ 利益点✓ 可操作✓ -->

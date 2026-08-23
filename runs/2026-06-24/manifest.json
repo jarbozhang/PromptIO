@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-24",
+  "created_at": "2026-06-24T01:38:01.197Z",
+  "updated_at": "2026-06-24T02:18:29.998Z",
+  "source_count": 500,
+  "topics": [
+    {
+      "id": "sources/2026-06-24/deepmind-blog-6c3ecf06.md",
+      "file": "sources/2026-06-24/deepmind-blog-6c3ecf06.md",
+      "slug": "AI-Control上线前控制层",
+      "title": "Google DeepMind 的 AI Control Roadmap：上线前怎么加控制层",
+      "status": "superseded",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.04,
+      "reach_note": "Google DeepMind 品牌强，风险控制利益点明确，团队能转成上线检查动作。",
+      "selection_reason": "当天需要一篇风险提醒型内容，这个官方来源比单点漏洞更适合做方法论；它能让读者从“能不能跑”转向“能不能受控地跑”。",
+      "selected_at": "2026-06-24T01:38:01.198Z",
+      "updated_at": "2026-06-24T01:44:14.214Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/langchain-releases-0dd4d4c6.md",
+      "file": "sources/2026-06-24/langchain-releases-0dd4d4c6.md",
+      "slug": "LangChain工具调用加strict-True升级前先跑这张兼容性清单",
+      "title": "LangChain 工具调用加 strict=True，升级前先跑这张兼容性清单",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "lane_repeat:developer-tooling,same_entity_in_batch,title_pattern_repeat_in_batch,agent_like_daily_cap,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 224,
+      "recent_similarity": 0.025,
+      "reach_note": "LangChain 和工具调用是开发者高频痛点，strict=True 是可立刻检查的升级点。",
+      "selection_reason": "它虽是版本更新，但能转成升级前兼容性清单，比普通 release 解读更实用。",
+      "selected_at": "2026-06-24T01:38:01.198Z",
+      "updated_at": "2026-06-24T02:18:29.998Z",
+      "draft_ready_at": "2026-06-24T02:18:29.997Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-24/LangChain 工具调用加 strict=True，升级前先跑这张兼容性清单",
+      "meta_path": "drafts/2026-06-24/LangChain 工具调用加 strict=True，升级前先跑这张兼容性清单/LangChain 工具调用加 strict=True，升级前先跑这张兼容性清单.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/techcrunch-ai-492604e8.md",
+      "file": "sources/2026-06-24/techcrunch-ai-492604e8.md",
+      "slug": "Claude-Tag进Slack",
+      "title": "Claude Tag 进 Slack：团队要不要让 AI 常驻频道",
+      "status": "superseded",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.034,
+      "reach_note": "Claude 与 Slack 都有品牌认知，团队管理员能据此评估迁移和权限配置。",
+      "selection_reason": "它代表 AI 从单人工具进入组织协作界面，适合写成采购和试点判断；同时能提醒读者把权限、数据边界和共享上下文放在同一张表里看。",
+      "selected_at": "2026-06-24T01:38:01.198Z",
+      "updated_at": "2026-06-24T01:44:14.214Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/github-trending-978e35c6.md",
+      "file": "sources/2026-06-24/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版本怎么追",
+      "title": "Hermes Agent 新版本怎么追：从 openclaw 生态里跑起一个会成长的 Agent",
+      "status": "superseded",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.043,
+      "reach_note": "Hermes/openclaw 生态有明确品牌加成，读者能立刻 clone 仓库并验证入口。",
+      "selection_reason": "openclaw 和 NousResearch 生态是本号重点线索，GitHub fact 源适合做版本入口解读；既有项目关注度，也有可动手的安装和试跑路径。",
+      "selected_at": "2026-06-24T01:38:01.198Z",
+      "updated_at": "2026-06-24T01:44:14.214Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/openai-blog-a55ebd41.md",
+      "file": "sources/2026-06-24/openai-blog-a55ebd41.md",
+      "slug": "ChatGPT-Enterprise用量别等月底看账单先搭一套花费预警流程",
+      "title": "ChatGPT Enterprise 用量别等月底看账单，先搭一套花费预警流程",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "reference_card",
+      "diversity_note": "checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 60,
+      "recent_similarity": 0.039,
+      "reach_note": "企业 AI 成本治理是明确痛点，读者可保存为管理员检查清单。",
+      "selection_reason": "把 OpenAI 公告改成成本治理模板，避免新闻化。",
+      "selected_at": "2026-06-24T01:38:01.198Z",
+      "updated_at": "2026-06-24T01:59:38.936Z",
+      "draft_ready_at": "2026-06-24T01:59:38.935Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-24/ChatGPT Enterprise 用量别等月底看账单，先搭一套花费预警流程",
+      "meta_path": "drafts/2026-06-24/ChatGPT Enterprise 用量别等月底看账单，先搭一套花费预警流程/ChatGPT Enterprise 用量别等月底看账单，先搭一套花费预警流程.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/vllm-releases-9b0ff932.md",
+      "file": "sources/2026-06-24/vllm-releases-9b0ff932.md",
+      "slug": "vLLM-023升级要点",
+      "title": "vLLM 0.23 怎么升级：DeepSeek-V4 和 Qwen3 部署的两个关键变化",
+      "status": "superseded",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.059,
+      "reach_note": "vLLM、DeepSeek、Qwen 都是高认知品牌，升级路径明确且直接影响推理稳定性。",
+      "selection_reason": "这是信息量充足的 release 主源，适合服务正在部署开源模型的读者；它不是泛泛新闻，而是能转成升级判断和回滚策略。",
+      "selected_at": "2026-06-24T01:38:01.199Z",
+      "updated_at": "2026-06-24T01:44:14.214Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/replicate-blog-e84ce6e4.md",
+      "file": "sources/2026-06-24/replicate-blog-e84ce6e4.md",
+      "slug": "有声视频提示词别只写画面Grok-Imagine要先约束镜头和声音",
+      "title": "有声视频提示词别只写画面，Grok Imagine 要先约束镜头和声音",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "reference_card",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.019,
+      "reach_note": "视频提示词模板天然适合收藏，Grok Imagine 的同步音频和动作控制有强传播点。",
+      "selection_reason": "这是今天的创作者实战题，能平衡开发者工具选题。",
+      "selected_at": "2026-06-24T01:38:01.199Z",
+      "updated_at": "2026-06-24T01:49:40.336Z",
+      "draft_ready_at": "2026-06-24T01:49:40.335Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-24/有声视频提示词别只写画面，Grok Imagine 要先约束镜头和声音",
+      "meta_path": "drafts/2026-06-24/有声视频提示词别只写画面，Grok Imagine 要先约束镜头和声音/有声视频提示词别只写画面，Grok Imagine 要先约束镜头和声音.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/x-chenchengpro-ee4bc478.md",
+      "file": "sources/2026-06-24/x-chenchengpro-ee4bc478.md",
+      "slug": "别手写Agent规则了用GitHub-issue反馈让Skill自己迭代",
+      "title": "别手写 Agent 规则了，用 GitHub issue 反馈让 Skill 自己迭代",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.041,
+      "reach_note": "GitHub issue、Skill、自动 triage、反馈闭环都非常适合开发者收藏和转发。",
+      "selection_reason": "这是今天最强的实战工作流之一，能延续昨天 skill 逻辑但换成更具体的 GitHub issue 场景。",
+      "selected_at": "2026-06-24T01:44:14.215Z",
+      "updated_at": "2026-06-24T01:47:48.835Z",
+      "draft_ready_at": "2026-06-24T01:47:48.835Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-24/别手写 Agent 规则了，用 GitHub issue 反馈让 Skill 自己迭代",
+      "meta_path": "drafts/2026-06-24/别手写 Agent 规则了，用 GitHub issue 反馈让 Skill 自己迭代/别手写 Agent 规则了，用 GitHub issue 反馈让 Skill 自己迭代.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/github-trending-feb34faf.md",
+      "file": "sources/2026-06-24/github-trending-feb34faf.md",
+      "slug": "想把AI工作流自动化n8n可以先从这三个节点开始搭",
+      "title": "想把 AI 工作流自动化，n8n 可以先从这三个节点开始搭",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.036,
+      "reach_note": "n8n、自动化、自托管、MCP 都是可收藏关键词，适合小团队拿去搭流程。",
+      "selection_reason": "它补充低代码自动化方向，避免今天全是模型和企业公告。",
+      "selected_at": "2026-06-24T01:44:14.216Z",
+      "updated_at": "2026-06-24T01:54:37.771Z",
+      "draft_ready_at": "2026-06-24T01:54:37.770Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-24/想把 AI 工作流自动化，n8n 可以先从这三个节点开始搭",
+      "meta_path": "drafts/2026-06-24/想把 AI 工作流自动化，n8n 可以先从这三个节点开始搭/想把 AI 工作流自动化，n8n 可以先从这三个节点开始搭.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/latent-space-5472663c.md",
+      "file": "sources/2026-06-24/latent-space-5472663c.md",
+      "slug": "别让坏测试环境训练坏Agent-RL环境上线前先查这几项",
+      "title": "别让坏测试环境训练坏 Agent，RL 环境上线前先查这几项",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,recent_title_pattern_saturation",
+      "diversity_penalty": 56,
+      "recent_similarity": 0.025,
+      "reach_note": "RL 环境和 Agent eval 偏专业，但检查表对做训练、评测和自动化的团队有高收藏价值。",
+      "selection_reason": "这篇提供方法论深度，避免批次全部是工具教程。",
+      "selected_at": "2026-06-24T01:44:14.216Z",
+      "updated_at": "2026-06-24T01:57:28.996Z",
+      "draft_ready_at": "2026-06-24T01:57:28.996Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-24/别让坏测试环境训练坏 Agent，RL 环境上线前先查这几项",
+      "meta_path": "drafts/2026-06-24/别让坏测试环境训练坏 Agent，RL 环境上线前先查这几项/别让坏测试环境训练坏 Agent，RL 环境上线前先查这几项.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-24/x-dotey-dc9bce54.md",
+      "file": "sources/2026-06-24/x-dotey-dc9bce54.md",
+      "slug": "让Claude常驻Slack前先把频道权限和交付边界画清楚",
+      "title": "让 Claude 常驻 Slack 前，先把频道权限和交付边界画清楚",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "developer-tooling",
+      "content_archetype": "reference_card",
+      "diversity_note": "lane_repeat:developer-tooling,archetype_repeat:reference_card,title_pattern_repeat_in_batch,agent_like_daily_cap,checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 166,
+      "recent_similarity": 0.031,
+      "reach_note": "Slack、Claude、团队协作都有高认知度，权限边界和交付边界适合收藏转发给管理者和团队负责人。",
+      "selection_reason": "它能把企业 AI 新闻改成可执行的上线检查卡，符合小红书收藏型选题。",
+      "selected_at": "2026-06-24T01:44:14.217Z",
+      "updated_at": "2026-06-24T02:02:34.814Z",
+      "draft_ready_at": "2026-06-24T02:02:34.813Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-24/让 Claude 常驻 Slack 前，先把频道权限和交付边界画清楚",
+      "meta_path": "drafts/2026-06-24/让 Claude 常驻 Slack 前，先把频道权限和交付边界画清楚/让 Claude 常驻 Slack 前，先把频道权限和交付边界画清楚.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-24T01:38:01.197Z",
+      "source_count": 500
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-24T01:38:01.197Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:38:01.198Z",
+      "topic_id": "sources/2026-06-24/deepmind-blog-6c3ecf06.md",
+      "slug": "AI-Control上线前控制层"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:38:01.198Z",
+      "topic_id": "sources/2026-06-24/langchain-releases-0dd4d4c6.md",
+      "slug": "LangChain工具调用strict升级"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:38:01.198Z",
+      "topic_id": "sources/2026-06-24/techcrunch-ai-492604e8.md",
+      "slug": "Claude-Tag进Slack"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:38:01.198Z",
+      "topic_id": "sources/2026-06-24/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent新版本怎么追"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:38:01.199Z",
+      "topic_id": "sources/2026-06-24/openai-blog-a55ebd41.md",
+      "slug": "OpenAI企业账单怎么提前管住"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:38:01.199Z",
+      "topic_id": "sources/2026-06-24/vllm-releases-9b0ff932.md",
+      "slug": "vLLM-023升级要点"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:38:01.199Z",
+      "topic_id": "sources/2026-06-24/replicate-blog-e84ce6e4.md",
+      "slug": "Grok-Imagine有声视频提示词"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-24T01:44:14.214Z",
+      "source_count": 500
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-24T01:44:14.214Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:44:14.215Z",
+      "topic_id": "sources/2026-06-24/x-chenchengpro-ee4bc478.md",
+      "slug": "别手写Agent规则了用GitHub-issue反馈让Skill自己迭代"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:44:14.215Z",
+      "topic_id": "sources/2026-06-24/replicate-blog-e84ce6e4.md",
+      "slug": "有声视频提示词别只写画面Grok-Imagine要先约束镜头和声音"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:44:14.216Z",
+      "topic_id": "sources/2026-06-24/github-trending-feb34faf.md",
+      "slug": "想把AI工作流自动化n8n可以先从这三个节点开始搭"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:44:14.216Z",
+      "topic_id": "sources/2026-06-24/latent-space-5472663c.md",
+      "slug": "别让坏测试环境训练坏Agent-RL环境上线前先查这几项"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:44:14.217Z",
+      "topic_id": "sources/2026-06-24/openai-blog-a55ebd41.md",
+      "slug": "ChatGPT-Enterprise用量别等月底看账单先搭一套花费预警流程"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:44:14.217Z",
+      "topic_id": "sources/2026-06-24/x-dotey-dc9bce54.md",
+      "slug": "让Claude常驻Slack前先把频道权限和交付边界画清楚"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:44:14.217Z",
+      "topic_id": "sources/2026-06-24/langchain-releases-0dd4d4c6.md",
+      "slug": "LangChain工具调用加strict-True升级前先跑这张兼容性清单"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-24T01:45:08.084Z",
+      "source_count": 500
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-24T01:45:08.085Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:45:08.085Z",
+      "topic_id": "sources/2026-06-24/x-chenchengpro-ee4bc478.md",
+      "slug": "别手写Agent规则了用GitHub-issue反馈让Skill自己迭代"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:45:08.086Z",
+      "topic_id": "sources/2026-06-24/replicate-blog-e84ce6e4.md",
+      "slug": "有声视频提示词别只写画面Grok-Imagine要先约束镜头和声音"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:45:08.086Z",
+      "topic_id": "sources/2026-06-24/github-trending-feb34faf.md",
+      "slug": "想把AI工作流自动化n8n可以先从这三个节点开始搭"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:45:08.086Z",
+      "topic_id": "sources/2026-06-24/latent-space-5472663c.md",
+      "slug": "别让坏测试环境训练坏Agent-RL环境上线前先查这几项"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:45:08.087Z",
+      "topic_id": "sources/2026-06-24/openai-blog-a55ebd41.md",
+      "slug": "ChatGPT-Enterprise用量别等月底看账单先搭一套花费预警流程"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:45:08.087Z",
+      "topic_id": "sources/2026-06-24/x-dotey-dc9bce54.md",
+      "slug": "让Claude常驻Slack前先把频道权限和交付边界画清楚"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-24T01:45:08.087Z",
+      "topic_id": "sources/2026-06-24/langchain-releases-0dd4d4c6.md",
+      "slug": "LangChain工具调用加strict-True升级前先跑这张兼容性清单"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-24T01:47:48.835Z",
+      "topic_id": "sources/2026-06-24/x-chenchengpro-ee4bc478.md",
+      "slug": "别手写Agent规则了用GitHub-issue反馈让Skill自己迭代",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-24T01:49:40.336Z",
+      "topic_id": "sources/2026-06-24/replicate-blog-e84ce6e4.md",
+      "slug": "有声视频提示词别只写画面Grok-Imagine要先约束镜头和声音",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-24T01:54:37.771Z",
+      "topic_id": "sources/2026-06-24/github-trending-feb34faf.md",
+      "slug": "想把AI工作流自动化n8n可以先从这三个节点开始搭",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-24T01:57:28.996Z",
+      "topic_id": "sources/2026-06-24/latent-space-5472663c.md",
+      "slug": "别让坏测试环境训练坏Agent-RL环境上线前先查这几项",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-24T01:59:38.936Z",
+      "topic_id": "sources/2026-06-24/openai-blog-a55ebd41.md",
+      "slug": "ChatGPT-Enterprise用量别等月底看账单先搭一套花费预警流程",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-24T02:02:34.814Z",
+      "topic_id": "sources/2026-06-24/x-dotey-dc9bce54.md",
+      "slug": "让Claude常驻Slack前先把频道权限和交付边界画清楚",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-06-24T02:08:20.750Z",
+      "topic_id": "sources/2026-06-24/langchain-releases-0dd4d4c6.md",
+      "slug": "LangChain工具调用加strict-True升级前先跑这张兼容性清单",
+      "error": "generated markdown for LangChain 工具调用加 strict=True，升级前先跑这张兼容性清单 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-24T02:18:29.998Z",
+      "topic_id": "sources/2026-06-24/langchain-releases-0dd4d4c6.md",
+      "slug": "LangChain工具调用加strict-True升级前先跑这张兼容性清单",
+      "error": ""
+    }
+  ]
+}

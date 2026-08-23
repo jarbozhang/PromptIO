@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-13",
+  "created_at": "2026-08-13T11:14:34.115Z",
+  "updated_at": "2026-08-13T11:28:57.066Z",
+  "source_count": 145,
+  "topics": [
+    {
+      "id": "sources/2026-08-13/sopilot-hot-2087745161564492144-cd19048c.md",
+      "file": "sources/2026-08-13/sopilot-hot-2087745161564492144-cd19048c.md",
+      "slug": "用Seedance制作婚礼人生电影",
+      "title": "用 Seedance 2.5 制作婚礼人生电影：AI 视频开始卖“独家记忆”了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.025,
+      "reach_note": "婚礼纪念片有明确情绪利益和付费场景，创作者可以立即用现有照片与视频工具制作样片。",
+      "selection_reason": "它把生成视频从炫技变成了可售卖的具体服务，覆盖普通用户与创作者场景，也为当天偏重开发工具的内容组合补充了真实商业案例。",
+      "selected_at": "2026-08-13T11:14:34.116Z",
+      "updated_at": "2026-08-13T11:17:07.469Z",
+      "draft_ready_at": "2026-08-13T11:17:07.468Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-13/用 Seedance 2.5 制作婚礼人生电影：AI 视频开始卖“独家记忆”了",
+      "meta_path": "drafts/2026-08-13/用 Seedance 2.5 制作婚礼人生电影：AI 视频开始卖“独家记忆”了/用 Seedance 2.5 制作婚礼人生电影：AI 视频开始卖“独家记忆”了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-13/x-dotey-a5f996f3.md",
+      "file": "sources/2026-08-13/x-dotey-a5f996f3.md",
+      "slug": "视频编辑器跨平台技术选型复盘",
+      "title": "视频编辑器该选 Electron、Swift 还是 Rust+GPUI？一次真实跨平台迁移的取舍",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.033,
+      "reach_note": "跨平台与性能优化对应明确的开发成本利益，读者可以用同样的 PoC 方法验证自己的桌面产品选型。",
+      "selection_reason": "这是一条信息密度充足的真实工程复盘，重点不是比较模型高低，而是展示 AI 降低编码成本后，架构迁移和测试验收为何仍是产品决策核心。",
+      "selected_at": "2026-08-13T11:14:34.116Z",
+      "updated_at": "2026-08-13T11:19:47.003Z",
+      "draft_ready_at": "2026-08-13T11:19:47.002Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-13/视频编辑器该选 Electron、Swift 还是 Rust+GPUI？一次真实跨平台迁移的取舍",
+      "meta_path": "drafts/2026-08-13/视频编辑器该选 Electron、Swift 还是 Rust+GPUI？一次真实跨平台迁移的取舍/视频编辑器该选 Electron、Swift 还是 Rust+GPUI？一次真实跨平台迁移的取舍.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-13/sopilot-hot-2087715625963778428-0b45004f.md",
+      "file": "sources/2026-08-13/sopilot-hot-2087715625963778428-0b45004f.md",
+      "slug": "OpenSEO自部署数据化增长实战",
+      "title": "把 SEO 从猜关键词变成查数据：OpenSEO 自部署半个月后的真实用法",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.031,
+      "reach_note": "开源自部署兼具省钱利益和立即可操作性，内容团队可以直接接入现有站点数据验证效果。",
+      "selection_reason": "来源包含团队连续使用半个月的具体场景，而不是单纯仓库介绍；它同时服务独立开发者、内容创作者和增长团队，并带有值得展开的数据合规提醒。",
+      "selected_at": "2026-08-13T11:14:34.116Z",
+      "updated_at": "2026-08-13T11:20:38.168Z",
+      "draft_ready_at": "2026-08-13T11:20:38.166Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-13/把 SEO 从猜关键词变成查数据：OpenSEO 自部署半个月后的真实用法",
+      "meta_path": "drafts/2026-08-13/把 SEO 从猜关键词变成查数据：OpenSEO 自部署半个月后的真实用法/把 SEO 从猜关键词变成查数据：OpenSEO 自部署半个月后的真实用法.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-13/arxiv-36a7f07a.md",
+      "file": "sources/2026-08-13/arxiv-36a7f07a.md",
+      "slug": "第三方Skill资源放大攻击审查",
+      "title": "安装第三方 Skill 前先看这一点：它可能不偷数据，却让任务成本不断膨胀",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.032,
+      "reach_note": "第三方 Skill 的隐性费用是直接利益风险，使用相关工具的读者可以马上审查依赖、预算和调用记录。",
+      "selection_reason": "论文给出了完整攻击机制，能把抽象的安全研究转化为现实的成本控制问题；它也补足了当天必须具备的风险与安全内容。",
+      "selected_at": "2026-08-13T11:14:34.117Z",
+      "updated_at": "2026-08-13T11:22:29.691Z",
+      "draft_ready_at": "2026-08-13T11:22:29.690Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-13/安装第三方 Skill 前先看这一点：它可能不偷数据，却让任务成本不断膨胀",
+      "meta_path": "drafts/2026-08-13/安装第三方 Skill 前先看这一点：它可能不偷数据，却让任务成本不断膨胀/安装第三方 Skill 前先看这一点：它可能不偷数据，却让任务成本不断膨胀.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-13/x-chenchengpro-91d4d7ad.md",
+      "file": "sources/2026-08-13/x-chenchengpro-91d4d7ad.md",
+      "slug": "Claude-Code跨会话通信实测",
+      "title": "Claude Code 2.1.224 支持跨会话通信：两个终端终于不用来回复制上下文",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.04,
+      "reach_note": "Claude Code 是高认知品牌，跨会话协作能直接省掉上下文搬运，升级后即可动手尝试。",
+      "selection_reason": "来源提供了明确版本号、配置项和五步操作，适合做成可复现教程；跨会话通信也是当天多个开发者讨论共同指向的新能力。",
+      "selected_at": "2026-08-13T11:14:34.117Z",
+      "updated_at": "2026-08-13T11:24:59.253Z",
+      "draft_ready_at": "2026-08-13T11:24:59.252Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-13/Claude Code 2.1.224 支持跨会话通信，两个终端终于不用来回复制上下文",
+      "meta_path": "drafts/2026-08-13/Claude Code 2.1.224 支持跨会话通信，两个终端终于不用来回复制上下文/Claude Code 2.1.224 支持跨会话通信，两个终端终于不用来回复制上下文.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-13/sopilot-hot-2087810963907186747-1c7c55a0.md",
+      "file": "sources/2026-08-13/sopilot-hot-2087810963907186747-1c7c55a0.md",
+      "slug": "DeepSeek-V4-Pro上线数小时后表现突变",
+      "title": "DeepSeek V4 Pro 上线数小时后表现突变：新模型发布为何会像一次部署事故",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.042,
+      "reach_note": "DeepSeek 具备强品牌认知，版本异常直接影响 API 成本与交付，读者可以立即复测并设置回退。",
+      "selection_reason": "当天关于 V4 Pro 的多个独立测试和页面变化形成了完整事故链，比单纯转述跑分更有判断价值，也能帮助正在接入新版的团队避免直接切换生产流量。",
+      "selected_at": "2026-08-13T11:14:34.117Z",
+      "updated_at": "2026-08-13T11:27:02.356Z",
+      "draft_ready_at": "2026-08-13T11:27:02.355Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-13/DeepSeek V4 Pro 上线数小时后表现突变：新模型发布为何会像一次部署事故",
+      "meta_path": "drafts/2026-08-13/DeepSeek V4 Pro 上线数小时后表现突变：新模型发布为何会像一次部署事故/DeepSeek V4 Pro 上线数小时后表现突变：新模型发布为何会像一次部署事故.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-13/sopilot-hot-2087746772177461604-9bad4ff3.md",
+      "file": "sources/2026-08-13/sopilot-hot-2087746772177461604-9bad4ff3.md",
+      "slug": "Codex额度重置的真实价值",
+      "title": "Codex 额度重置到底值多少？别看百分比，先算清三笔账",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 118,
+      "recent_similarity": 0.04,
+      "reach_note": "Codex 品牌认知高，额度直接关系订阅成本，用户可立即根据用量决定保留、降级或调整任务安排。",
+      "selection_reason": "当天有活跃用户里程碑、额度重置和用户实际到账反馈相互印证，适合从争议转向可计算的消费决策，而不是简单评价平台是否厚道。",
+      "selected_at": "2026-08-13T11:14:34.117Z",
+      "updated_at": "2026-08-13T11:28:57.066Z",
+      "draft_ready_at": "2026-08-13T11:28:57.065Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-13/Codex 额度重置到底值多少？别看百分比，先算清三笔账",
+      "meta_path": "drafts/2026-08-13/Codex 额度重置到底值多少？别看百分比，先算清三笔账/Codex 额度重置到底值多少？别看百分比，先算清三笔账.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-13T11:14:34.115Z",
+      "source_count": 145
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-13T11:14:34.115Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-13T11:14:34.116Z",
+      "topic_id": "sources/2026-08-13/sopilot-hot-2087745161564492144-cd19048c.md",
+      "slug": "用Seedance制作婚礼人生电影"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-13T11:14:34.116Z",
+      "topic_id": "sources/2026-08-13/x-dotey-a5f996f3.md",
+      "slug": "视频编辑器跨平台技术选型复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-13T11:14:34.116Z",
+      "topic_id": "sources/2026-08-13/sopilot-hot-2087715625963778428-0b45004f.md",
+      "slug": "OpenSEO自部署数据化增长实战"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-13T11:14:34.117Z",
+      "topic_id": "sources/2026-08-13/arxiv-36a7f07a.md",
+      "slug": "第三方Skill资源放大攻击审查"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-13T11:14:34.117Z",
+      "topic_id": "sources/2026-08-13/x-chenchengpro-91d4d7ad.md",
+      "slug": "Claude-Code跨会话通信实测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-13T11:14:34.117Z",
+      "topic_id": "sources/2026-08-13/sopilot-hot-2087810963907186747-1c7c55a0.md",
+      "slug": "DeepSeek-V4-Pro上线数小时后表现突变"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-13T11:14:34.117Z",
+      "topic_id": "sources/2026-08-13/sopilot-hot-2087746772177461604-9bad4ff3.md",
+      "slug": "Codex额度重置的真实价值"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-13T11:17:07.469Z",
+      "topic_id": "sources/2026-08-13/sopilot-hot-2087745161564492144-cd19048c.md",
+      "slug": "用Seedance制作婚礼人生电影",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-13T11:19:47.003Z",
+      "topic_id": "sources/2026-08-13/x-dotey-a5f996f3.md",
+      "slug": "视频编辑器跨平台技术选型复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-13T11:20:38.168Z",
+      "topic_id": "sources/2026-08-13/sopilot-hot-2087715625963778428-0b45004f.md",
+      "slug": "OpenSEO自部署数据化增长实战",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-13T11:22:29.691Z",
+      "topic_id": "sources/2026-08-13/arxiv-36a7f07a.md",
+      "slug": "第三方Skill资源放大攻击审查",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-08-13T11:23:34.407Z",
+      "topic_id": "sources/2026-08-13/x-chenchengpro-91d4d7ad.md",
+      "slug": "Claude-Code跨会话通信实测",
+      "error": "generated markdown for Claude Code 2.1.224 支持跨会话通信，两个终端终于不用来回复制上下文 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-13T11:24:59.253Z",
+      "topic_id": "sources/2026-08-13/x-chenchengpro-91d4d7ad.md",
+      "slug": "Claude-Code跨会话通信实测",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-13T11:27:02.356Z",
+      "topic_id": "sources/2026-08-13/sopilot-hot-2087810963907186747-1c7c55a0.md",
+      "slug": "DeepSeek-V4-Pro上线数小时后表现突变",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-13T11:28:57.066Z",
+      "topic_id": "sources/2026-08-13/sopilot-hot-2087746772177461604-9bad4ff3.md",
+      "slug": "Codex额度重置的真实价值",
+      "error": ""
+    }
+  ]
+}

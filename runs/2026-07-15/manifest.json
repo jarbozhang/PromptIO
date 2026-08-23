@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-15",
+  "created_at": "2026-07-14T23:12:53.767Z",
+  "updated_at": "2026-07-14T23:27:24.484Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-15/x-dotey-ddfd4ca8.md",
+      "file": "sources/2026-07-15/x-dotey-ddfd4ca8.md",
+      "slug": "电报体省Token实测",
+      "title": "“电报体”真能省 65% Token 吗？240 次编程任务只省了 8.5%",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.039,
+      "reach_note": "省 Token 是明确利益点，65% 与 8.5% 的反差有传播力，读者也能按相同口径立即复测。",
+      "selection_reason": "素材包含 86 个任务、约 240 次计费试验和真实成本，足以拆穿只看输出 Token 的常见误区，并给出更可靠的省钱判断。",
+      "selected_at": "2026-07-14T23:12:53.768Z",
+      "updated_at": "2026-07-14T23:14:35.855Z",
+      "draft_ready_at": "2026-07-14T23:14:35.855Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-15/“电报体”真能省 65% Token 吗？240 次编程任务只省了 8.5%",
+      "meta_path": "drafts/2026-07-15/“电报体”真能省 65% Token 吗？240 次编程任务只省了 8.5%/“电报体”真能省 65% Token 吗？240 次编程任务只省了 8.5%.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-15/the-verge-ai-9dc0222d.md",
+      "file": "sources/2026-07-15/the-verge-ai-9dc0222d.md",
+      "slug": "Grok-Build代码库上传事故",
+      "title": "Grok Build 曾上传整个代码库：接入编程工具前，先做一次数据边界审计",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.033,
+      "reach_note": "Grok 品牌、避免代码和凭据泄露的强利益点，以及可立即执行的数据边界审计，传播要素完整。",
+      "selection_reason": "事件涉及整个代码库及历史秘密，风险具体且后果直接；文章可以把一次产品事故转化为所有编程工具都适用的防护方法。",
+      "selected_at": "2026-07-14T23:12:53.768Z",
+      "updated_at": "2026-07-14T23:16:23.482Z",
+      "draft_ready_at": "2026-07-14T23:16:23.481Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-15/Grok Build 曾上传整个代码库：接入编程工具前，先做一次数据边界审计",
+      "meta_path": "drafts/2026-07-15/Grok Build 曾上传整个代码库：接入编程工具前，先做一次数据边界审计/Grok Build 曾上传整个代码库：接入编程工具前，先做一次数据边界审计.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-15/x-leerob-9724e0b0.md",
+      "file": "sources/2026-07-15/x-leerob-9724e0b0.md",
+      "slug": "把大模型从代笔改成编辑",
+      "title": "别再让大模型直接替你写成稿：把它改成编辑，文章反而更像你",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.057,
+      "reach_note": "减少 AI 味和修改时间是明确利益点，读者可以立刻把模型从代笔切换为校对与批评角色。",
+      "selection_reason": "它回应了内容创作者普遍遇到的成稿同质化问题，并提供了比继续堆提示词更实用的角色调整方法。",
+      "selected_at": "2026-07-14T23:12:53.768Z",
+      "updated_at": "2026-07-14T23:17:58.376Z",
+      "draft_ready_at": "2026-07-14T23:17:58.376Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-15/别再让大模型直接替你写成稿：把它改成编辑，文章反而更像你",
+      "meta_path": "drafts/2026-07-15/别再让大模型直接替你写成稿：把它改成编辑，文章反而更像你/别再让大模型直接替你写成稿：把它改成编辑，文章反而更像你.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-15/transformers-releases-25627478.md",
+      "file": "sources/2026-07-15/transformers-releases-25627478.md",
+      "slug": "Transformers-5.13支持Kimi-K2.5到2.7",
+      "title": "Hugging Face Transformers 5.13 已支持 Kimi K2.5 到 2.7：升级后直接跑新架构",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.063,
+      "reach_note": "Hugging Face 与 Kimi 都有品牌认知，新模型支持是明确利益点，现有用户升级后即可验证。",
+      "selection_reason": "官方 release 信息充足，覆盖多个 Kimi 新版本和具体能力变化，既有新鲜度，也能自然落到升级实测。",
+      "selected_at": "2026-07-14T23:12:53.769Z",
+      "updated_at": "2026-07-14T23:20:00.392Z",
+      "draft_ready_at": "2026-07-14T23:20:00.392Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-15/Hugging Face Transformers 5.13 已支持 Kimi K2.5 到 2.7：升级后直接跑新架构",
+      "meta_path": "drafts/2026-07-15/Hugging Face Transformers 5.13 已支持 Kimi K2.5 到 2.7：升级后直接跑新架构/Hugging Face Transformers 5.13 已支持 Kimi K2.5 到 2.7：升级后直接跑新架构.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-15/openai-python-sdk-releases-052770e0.md",
+      "file": "sources/2026-07-15/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-SDK-2.42支出告警",
+      "title": "OpenAI Python SDK 2.42 加入支出告警：把 API 超支拦在账单前",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "reference_card",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.031,
+      "reach_note": "OpenAI 品牌、控制 API 超支的直接利益点，以及升级 SDK 后可配置验证，三个传播要素齐全。",
+      "selection_reason": "支出告警直接对应团队最敏感的 API 成本问题，虽然版本说明简短，但可以转化为明确的预算控制动作。",
+      "selected_at": "2026-07-14T23:12:53.769Z",
+      "updated_at": "2026-07-14T23:21:41.766Z",
+      "draft_ready_at": "2026-07-14T23:21:41.765Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-15/OpenAI Python SDK 2.42 加入支出告警：把 API 超支拦在账单前",
+      "meta_path": "drafts/2026-07-15/OpenAI Python SDK 2.42 加入支出告警：把 API 超支拦在账单前/OpenAI Python SDK 2.42 加入支出告警：把 API 超支拦在账单前.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-15/vllm-releases-0026251e.md",
+      "file": "sources/2026-07-15/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1修复启动与量化错误",
+      "title": "vLLM 0.25.1 修掉两类隐蔽故障：没装 FFmpeg 也能启动，量化输出不再悄悄出错",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.044,
+      "reach_note": "vLLM 品牌认知，加上避免服务启动失败和错误输出的利益点，部署用户可以立即升级验证。",
+      "selection_reason": "这是可能阻塞启动或污染结果的真实故障，不只是常规更新；受影响条件和修复方式都足够具体。",
+      "selected_at": "2026-07-14T23:12:53.769Z",
+      "updated_at": "2026-07-14T23:23:41.832Z",
+      "draft_ready_at": "2026-07-14T23:23:41.832Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-15/vLLM 0.25.1 修掉两类隐蔽故障：没装 FFmpeg 也能启动，量化输出不再悄悄出错",
+      "meta_path": "drafts/2026-07-15/vLLM 0.25.1 修掉两类隐蔽故障：没装 FFmpeg 也能启动，量化输出不再悄悄出错/vLLM 0.25.1 修掉两类隐蔽故障：没装 FFmpeg 也能启动，量化输出不再悄悄出错.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-15/github-trending-978e35c6.md",
+      "file": "sources/2026-07-15/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent七月新版不再从零教",
+      "title": "Hermes Agent 7 月最新版：不必每次从零教，先跑通一个会积累能力的个人任务",
+      "status": "draft_ready",
+      "reach": 10,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 84,
+      "recent_similarity": 0.066,
+      "reach_note": "NousResearch、Hermes 品牌认知，加上减少重复配置的利益点，读者可直接从仓库安装验证。",
+      "selection_reason": "Hermes 是重点生态项目，仓库刚刚更新且关注度高；最新版能力、解决的问题和实际使用路径都有明确的读者价值。",
+      "selected_at": "2026-07-14T23:12:53.770Z",
+      "updated_at": "2026-07-14T23:27:24.484Z",
+      "draft_ready_at": "2026-07-14T23:27:24.484Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-15/Hermes Agent 7 月最新版：不必每次从零教，先跑通一个会积累能力的个人任务",
+      "meta_path": "drafts/2026-07-15/Hermes Agent 7 月最新版：不必每次从零教，先跑通一个会积累能力的个人任务/Hermes Agent 7 月最新版：不必每次从零教，先跑通一个会积累能力的个人任务.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-14T23:12:53.767Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-14T23:12:53.767Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-14T23:12:53.768Z",
+      "topic_id": "sources/2026-07-15/x-dotey-ddfd4ca8.md",
+      "slug": "电报体省Token实测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-14T23:12:53.768Z",
+      "topic_id": "sources/2026-07-15/the-verge-ai-9dc0222d.md",
+      "slug": "Grok-Build代码库上传事故"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-14T23:12:53.768Z",
+      "topic_id": "sources/2026-07-15/x-leerob-9724e0b0.md",
+      "slug": "把大模型从代笔改成编辑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-14T23:12:53.769Z",
+      "topic_id": "sources/2026-07-15/transformers-releases-25627478.md",
+      "slug": "Transformers-5.13支持Kimi-K2.5到2.7"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-14T23:12:53.769Z",
+      "topic_id": "sources/2026-07-15/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-SDK-2.42支出告警"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-14T23:12:53.769Z",
+      "topic_id": "sources/2026-07-15/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1修复启动与量化错误"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-14T23:12:53.770Z",
+      "topic_id": "sources/2026-07-15/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent七月新版不再从零教"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-14T23:14:35.855Z",
+      "topic_id": "sources/2026-07-15/x-dotey-ddfd4ca8.md",
+      "slug": "电报体省Token实测",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-14T23:16:23.482Z",
+      "topic_id": "sources/2026-07-15/the-verge-ai-9dc0222d.md",
+      "slug": "Grok-Build代码库上传事故",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-14T23:17:58.377Z",
+      "topic_id": "sources/2026-07-15/x-leerob-9724e0b0.md",
+      "slug": "把大模型从代笔改成编辑",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-14T23:20:00.392Z",
+      "topic_id": "sources/2026-07-15/transformers-releases-25627478.md",
+      "slug": "Transformers-5.13支持Kimi-K2.5到2.7",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-14T23:21:41.766Z",
+      "topic_id": "sources/2026-07-15/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-SDK-2.42支出告警",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-14T23:23:41.832Z",
+      "topic_id": "sources/2026-07-15/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1修复启动与量化错误",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-14T23:27:24.484Z",
+      "topic_id": "sources/2026-07-15/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent七月新版不再从零教",
+      "error": ""
+    }
+  ]
+}

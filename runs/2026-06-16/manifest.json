@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-16",
+  "created_at": "2026-06-16T06:46:14.610Z",
+  "updated_at": "2026-06-16T07:28:21.553Z",
+  "source_count": 220,
+  "topics": [
+    {
+      "id": "sources/2026-06-16/github-trending-978e35c6.md",
+      "file": "sources/2026-06-16/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-长期工作流实战",
+      "title": "NousResearch 的 Hermes Agent 又更新了：把个人 AI 助手从脚本变成长期工作流",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "NousResearch 和 Hermes 命中重点生态，GitHub 可直接查看和运行，个人 agent 工作流有明确实操价值。",
+      "selection_reason": "Hermes Agent 同时关联 clawdbot、moltbot、openclaw、Codex 等关键词，适合做成中文读者能立刻跟着搭建的 agent 工作流选题。",
+      "selected_at": "2026-06-16T06:46:14.610Z",
+      "updated_at": "2026-06-16T06:50:35.688Z",
+      "draft_ready_at": "2026-06-16T06:50:35.687Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-16/个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了",
+      "meta_path": "drafts/2026-06-16/个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了/个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-16/github-trending-0bd21c2c.md",
+      "file": "sources/2026-06-16/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw-个人AI助手最新更新",
+      "title": "OpenClaw 最新仓库更新：为什么个人 AI 助手开始强调 Any OS、Any Platform",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "OpenClaw 是重点生态，品牌强、GitHub 入口可操作，个人 AI 助手场景容易传播。",
+      "selection_reason": "OpenClaw 是本号核心生态，适合持续跟进新能力、架构变化和实际可用性，比泛泛报道 agent 概念更有长期价值。",
+      "selected_at": "2026-06-16T06:46:14.611Z",
+      "updated_at": "2026-06-16T07:11:28.792Z",
+      "draft_ready_at": "2026-06-16T07:11:28.791Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-16/OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform",
+      "meta_path": "drafts/2026-06-16/OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform/OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-16/x-OpenAI-f6aa4591.md",
+      "file": "sources/2026-06-16/x-OpenAI-f6aa4591.md",
+      "slug": "Codex-免费重置次数怎么用最划算",
+      "title": "Codex 免费重置次数可以攒着用了：什么时候用最划算？",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "OpenAI 和 Codex 品牌强，免费 reset 是明确利益点，用户能马上检查账号并调整使用策略。",
+      "selection_reason": "这不是普通产品新闻，而是直接影响 Codex 用户成本和工作流安排的小改动，适合公众号讲判断，小红书讲省额度技巧。",
+      "selected_at": "2026-06-16T06:46:14.611Z",
+      "updated_at": "2026-06-16T07:13:53.738Z",
+      "draft_ready_at": "2026-06-16T07:13:53.737Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-16/Codex 免费重置次数可以攒着用了，什么时候用最划算？",
+      "meta_path": "drafts/2026-06-16/Codex 免费重置次数可以攒着用了，什么时候用最划算？/Codex 免费重置次数可以攒着用了，什么时候用最划算？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-16/x-chenchengpro-8121dfe9.md",
+      "file": "sources/2026-06-16/x-chenchengpro-8121dfe9.md",
+      "slug": "ChatGPT订阅直接生图工具",
+      "title": "ChatGPT 订阅也能直接生图：chatgpt-imagegen 把 Pro 会员价值榨出来了",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "ChatGPT 和 Codex 认知强，不用 API key 是明确利益点，开源工具可立即尝试。",
+      "selection_reason": "它击中 AI 绘图用户最敏感的成本和配置痛点，适合做成可复制的工具体验文。",
+      "selected_at": "2026-06-16T06:46:14.611Z",
+      "updated_at": "2026-06-16T07:20:55.273Z",
+      "draft_ready_at": "2026-06-16T07:20:55.272Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-16/ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了",
+      "meta_path": "drafts/2026-06-16/ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了/ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-16/github-trending-f844f009.md",
+      "file": "sources/2026-06-16/github-trending-f844f009.md",
+      "slug": "免费LLM-API资源清单",
+      "title": "免费 LLM API 资源清单又火了：哪些适合个人项目先跑起来？",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "免费 API 是强利益点，GitHub 清单可直接打开筛选，适合个人开发者马上动手。",
+      "selection_reason": "免费模型 API 对中文读者有强吸引力，也能自然延展到预算有限时如何搭建 AI 应用原型。",
+      "selected_at": "2026-06-16T06:46:14.611Z",
+      "updated_at": "2026-06-16T07:24:14.510Z",
+      "draft_ready_at": "2026-06-16T07:24:14.510Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-16/免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？",
+      "meta_path": "drafts/2026-06-16/免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？/免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-16/github-trending-6eec8646.md",
+      "file": "sources/2026-06-16/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑国产模型指南",
+      "title": "Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek：本地跑模型怎么选第一台机器？",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "Ollama、DeepSeek、Qwen 等品牌认知强，本地运行可操作，省调用成本的利益点明确。",
+      "selection_reason": "本地模型部署是读者能立刻实践的高频需求，Ollama 的品牌认知和可操作性足够支撑公众号与小红书双端内容。",
+      "selected_at": "2026-06-16T06:46:14.612Z",
+      "updated_at": "2026-06-16T07:27:08.844Z",
+      "draft_ready_at": "2026-06-16T07:27:08.844Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-16/本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek",
+      "meta_path": "drafts/2026-06-16/本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek/本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-16/github-trending-feb34faf.md",
+      "file": "sources/2026-06-16/github-trending-feb34faf.md",
+      "slug": "n8n-AI工作流自动化实战",
+      "title": "n8n 的 AI 工作流怎么落地：用 400+ 集成搭一个自己的自动化助手",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "n8n 在自动化圈层有认知，400+ 集成和自托管带来利益点，读者能直接搭工作流。",
+      "selection_reason": "n8n 比纯 agent 框架更容易让非专业开发者上手，适合转化为具体的工作流案例和模板。",
+      "selected_at": "2026-06-16T06:46:14.612Z",
+      "updated_at": "2026-06-16T07:28:21.553Z",
+      "draft_ready_at": "2026-06-16T07:28:21.553Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-16/用 n8n 搭一个自动化助手，400+ 集成别一上来全接",
+      "meta_path": "drafts/2026-06-16/用 n8n 搭一个自动化助手，400+ 集成别一上来全接/用 n8n 搭一个自动化助手，400+ 集成别一上来全接.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-16T06:46:14.610Z",
+      "source_count": 220
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T06:46:14.610Z",
+      "topic_id": "sources/2026-06-16/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-长期工作流实战"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T06:46:14.611Z",
+      "topic_id": "sources/2026-06-16/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw-个人AI助手最新更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T06:46:14.611Z",
+      "topic_id": "sources/2026-06-16/x-OpenAI-f6aa4591.md",
+      "slug": "Codex-免费重置次数怎么用最划算"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T06:46:14.611Z",
+      "topic_id": "sources/2026-06-16/x-chenchengpro-8121dfe9.md",
+      "slug": "ChatGPT订阅直接生图工具"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T06:46:14.611Z",
+      "topic_id": "sources/2026-06-16/github-trending-f844f009.md",
+      "slug": "免费LLM-API资源清单"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T06:46:14.612Z",
+      "topic_id": "sources/2026-06-16/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑国产模型指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-16T06:46:14.612Z",
+      "topic_id": "sources/2026-06-16/github-trending-feb34faf.md",
+      "slug": "n8n-AI工作流自动化实战"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T06:50:35.688Z",
+      "topic_id": "sources/2026-06-16/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-长期工作流实战",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-06-16T06:54:24.616Z",
+      "topic_id": "sources/2026-06-16/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw-个人AI助手最新更新",
+      "error": "generated markdown contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T07:11:28.792Z",
+      "topic_id": "sources/2026-06-16/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw-个人AI助手最新更新",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T07:13:53.738Z",
+      "topic_id": "sources/2026-06-16/x-OpenAI-f6aa4591.md",
+      "slug": "Codex-免费重置次数怎么用最划算",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-06-16T07:16:10.323Z",
+      "topic_id": "sources/2026-06-16/x-chenchengpro-8121dfe9.md",
+      "slug": "ChatGPT订阅直接生图工具",
+      "error": "generated markdown contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T07:20:55.273Z",
+      "topic_id": "sources/2026-06-16/x-chenchengpro-8121dfe9.md",
+      "slug": "ChatGPT订阅直接生图工具",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T07:24:14.510Z",
+      "topic_id": "sources/2026-06-16/github-trending-f844f009.md",
+      "slug": "免费LLM-API资源清单",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T07:27:08.844Z",
+      "topic_id": "sources/2026-06-16/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑国产模型指南",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-16T07:28:21.553Z",
+      "topic_id": "sources/2026-06-16/github-trending-feb34faf.md",
+      "slug": "n8n-AI工作流自动化实战",
+      "error": ""
+    }
+  ]
+}

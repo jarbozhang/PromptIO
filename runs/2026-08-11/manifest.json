@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-11",
+  "created_at": "2026-08-11T11:13:38.545Z",
+  "updated_at": "2026-08-11T11:21:24.416Z",
+  "source_count": 143,
+  "topics": [
+    {
+      "id": "sources/2026-08-11/sopilot-hot-2087031590715039748-5019a09f.md",
+      "file": "sources/2026-08-11/sopilot-hot-2087031590715039748-5019a09f.md",
+      "slug": "Coze-CLI本地技能目录污染复盘",
+      "title": "安装 Coze CLI 后发生了什么：一次本地技能目录污染复盘",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.033,
+      "reach_note": "字节跳动扣子具有品牌认知，风险直接影响本地开发环境，读者可以立即核查安装记录和目录变化。",
+      "selection_reason": "具备明确受影响对象、可验证技术路径和现实安全后果，能补足当天必须具备的风险复盘内容。",
+      "selected_at": "2026-08-11T11:13:38.546Z",
+      "updated_at": "2026-08-11T11:14:38.254Z",
+      "draft_ready_at": "2026-08-11T11:14:38.254Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-11/安装 Coze CLI 后发生了什么：一次本地技能目录污染复盘",
+      "meta_path": "drafts/2026-08-11/安装 Coze CLI 后发生了什么：一次本地技能目录污染复盘/安装 Coze CLI 后发生了什么：一次本地技能目录污染复盘.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-11/sopilot-hot-2086933133208006689-0878825a.md",
+      "file": "sources/2026-08-11/sopilot-hot-2086933133208006689-0878825a.md",
+      "slug": "百万美元Token实验团队未必更快",
+      "title": "100 万美元 Token 实验后的反常识结论：AI 用得越多，团队未必越快",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.032,
+      "reach_note": "百万美元成本是强利益信号，结论直接关联团队预算与工作负担，管理者可以据此审视自己的投入方式。",
+      "selection_reason": "这不是单纯讨论模型能力，而是用一线团队实验揭示组织效率的边际瓶颈，能为当天内容补充产品与管理视角。",
+      "selected_at": "2026-08-11T11:13:38.547Z",
+      "updated_at": "2026-08-11T11:15:36.554Z",
+      "draft_ready_at": "2026-08-11T11:15:36.554Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-11/100 万美元 Token 实验后的反常识结论：AI 用得越多，团队未必越快",
+      "meta_path": "drafts/2026-08-11/100 万美元 Token 实验后的反常识结论：AI 用得越多，团队未必越快/100 万美元 Token 实验后的反常识结论：AI 用得越多，团队未必越快.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-11/x-IndieDevHailey-58fc67b5.md",
+      "file": "sources/2026-08-11/x-IndieDevHailey-58fc67b5.md",
+      "slug": "Google-LangExtract提取可回溯数据",
+      "title": "Google LangExtract 实测：把合同和会议纪要变成可回溯数据",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.028,
+      "reach_note": "Google 品牌、免费开源和几分钟可安装三个要素齐全，文档处理用户能够立即试用。",
+      "selection_reason": "直接解决结构化提取的高频劳动，结果还能回溯核对，兼具省时利益点和足够的实测深度。",
+      "selected_at": "2026-08-11T11:13:38.547Z",
+      "updated_at": "2026-08-11T11:16:26.556Z",
+      "draft_ready_at": "2026-08-11T11:16:26.556Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-11/合同和会议纪要变成可回溯数据，Google LangExtract 怎么跑",
+      "meta_path": "drafts/2026-08-11/合同和会议纪要变成可回溯数据，Google LangExtract 怎么跑/合同和会议纪要变成可回溯数据，Google LangExtract 怎么跑.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-11/sopilot-hot-2087040669974200733-0da7582b.md",
+      "file": "sources/2026-08-11/sopilot-hot-2087040669974200733-0da7582b.md",
+      "slug": "OpenAI开源计划六个月Pro申请判断",
+      "title": "OpenAI 开源计划值不值得申请：六个月 ChatGPT Pro 的真实门槛",
+      "status": "draft_ready",
+      "reach": 10,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.027,
+      "reach_note": "OpenAI 品牌、价值明确的六个月 Pro 权益和可立即申请的入口同时具备。",
+      "selection_reason": "利益点强且行动路径清楚，但重点落在资格判断和诚实呈现贡献，避免把选题写成制造项目或刷指标的投机教程。",
+      "selected_at": "2026-08-11T11:13:38.547Z",
+      "updated_at": "2026-08-11T11:18:28.913Z",
+      "draft_ready_at": "2026-08-11T11:18:28.913Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-11/OpenAI 开源计划值不值得申请：六个月 ChatGPT Pro 的真实门槛",
+      "meta_path": "drafts/2026-08-11/OpenAI 开源计划值不值得申请：六个月 ChatGPT Pro 的真实门槛/OpenAI 开源计划值不值得申请：六个月 ChatGPT Pro 的真实门槛.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-11/x-dotey-ad56c737.md",
+      "file": "sources/2026-08-11/x-dotey-ad56c737.md",
+      "slug": "Claude文本水印写作者该担心什么",
+      "title": "Claude 文本水印来了：写作者真正需要担心什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.032,
+      "reach_note": "Claude 品牌认知高，变化影响日常内容交付，读者可以立即调整稿件留痕和素材管理方式。",
+      "selection_reason": "它连接模型政策与普通创作者的实际工作，适合纠正“检测到水印就等于全文由 AI 创作”等过度判断。",
+      "selected_at": "2026-08-11T11:13:38.547Z",
+      "updated_at": "2026-08-11T11:19:23.567Z",
+      "draft_ready_at": "2026-08-11T11:19:23.566Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-11/Claude 文本水印来了：写作者真正需要担心什么",
+      "meta_path": "drafts/2026-08-11/Claude 文本水印来了：写作者真正需要担心什么/Claude 文本水印来了：写作者真正需要担心什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-11/github-trending-978e35c6.md",
+      "file": "sources/2026-08-11/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-8月新版本怎样越用越懂你",
+      "title": "Hermes Agent 8 月新版本：怎样让个人智能体真正越用越懂你",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 72,
+      "recent_similarity": 0.033,
+      "reach_note": "Hermes 属于重点生态项目，新版本有明确能力增量，读者可以直接从 GitHub 仓库开始验证。",
+      "selection_reason": "同时具备版本新鲜度、开源可操作性和长期个人智能体价值，适合做当天的核心生态选题。",
+      "selected_at": "2026-08-11T11:13:38.548Z",
+      "updated_at": "2026-08-11T11:20:27.456Z",
+      "draft_ready_at": "2026-08-11T11:20:27.456Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-11/Hermes Agent 8 月新版本：怎样让个人智能体真正越用越懂你",
+      "meta_path": "drafts/2026-08-11/Hermes Agent 8 月新版本：怎样让个人智能体真正越用越懂你/Hermes Agent 8 月新版本：怎样让个人智能体真正越用越懂你.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-11/vllm-releases-b8548f88.md",
+      "file": "sources/2026-08-11/vllm-releases-b8548f88.md",
+      "slug": "vLLM-0.27部署Kimi-K3和Qwen3.5",
+      "title": "vLLM 0.27.0 上手判断：Kimi K3、Qwen3.5 现在怎么部署更稳",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 72,
+      "recent_similarity": 0.033,
+      "reach_note": "Kimi、Qwen 品牌认知较高，新版本支持可直接转化为部署动作和升级判断。",
+      "selection_reason": "这是信息量充足的正式 release，既有新模型支持，也有破坏性环境变化，能提供明确的升级取舍。",
+      "selected_at": "2026-08-11T11:13:38.548Z",
+      "updated_at": "2026-08-11T11:21:24.416Z",
+      "draft_ready_at": "2026-08-11T11:21:24.415Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-11/vLLM 0.27.0 上手判断：Kimi K3、Qwen3.5 现在怎么部署更稳",
+      "meta_path": "drafts/2026-08-11/vLLM 0.27.0 上手判断：Kimi K3、Qwen3.5 现在怎么部署更稳/vLLM 0.27.0 上手判断：Kimi K3、Qwen3.5 现在怎么部署更稳.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-11T11:13:38.545Z",
+      "source_count": 143
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-11T11:13:38.546Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-11T11:13:38.546Z",
+      "topic_id": "sources/2026-08-11/sopilot-hot-2087031590715039748-5019a09f.md",
+      "slug": "Coze-CLI本地技能目录污染复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-11T11:13:38.547Z",
+      "topic_id": "sources/2026-08-11/sopilot-hot-2086933133208006689-0878825a.md",
+      "slug": "百万美元Token实验团队未必更快"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-11T11:13:38.547Z",
+      "topic_id": "sources/2026-08-11/x-IndieDevHailey-58fc67b5.md",
+      "slug": "Google-LangExtract提取可回溯数据"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-11T11:13:38.547Z",
+      "topic_id": "sources/2026-08-11/sopilot-hot-2087040669974200733-0da7582b.md",
+      "slug": "OpenAI开源计划六个月Pro申请判断"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-11T11:13:38.547Z",
+      "topic_id": "sources/2026-08-11/x-dotey-ad56c737.md",
+      "slug": "Claude文本水印写作者该担心什么"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-11T11:13:38.548Z",
+      "topic_id": "sources/2026-08-11/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-8月新版本怎样越用越懂你"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-11T11:13:38.548Z",
+      "topic_id": "sources/2026-08-11/vllm-releases-b8548f88.md",
+      "slug": "vLLM-0.27部署Kimi-K3和Qwen3.5"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-11T11:14:38.254Z",
+      "topic_id": "sources/2026-08-11/sopilot-hot-2087031590715039748-5019a09f.md",
+      "slug": "Coze-CLI本地技能目录污染复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-11T11:15:36.554Z",
+      "topic_id": "sources/2026-08-11/sopilot-hot-2086933133208006689-0878825a.md",
+      "slug": "百万美元Token实验团队未必更快",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-11T11:16:26.556Z",
+      "topic_id": "sources/2026-08-11/x-IndieDevHailey-58fc67b5.md",
+      "slug": "Google-LangExtract提取可回溯数据",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-08-11T11:17:33.818Z",
+      "topic_id": "sources/2026-08-11/sopilot-hot-2087040669974200733-0da7582b.md",
+      "slug": "OpenAI开源计划六个月Pro申请判断",
+      "error": "generated markdown for OpenAI 开源计划值不值得申请：六个月 ChatGPT Pro 的真实门槛 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-11T11:18:28.913Z",
+      "topic_id": "sources/2026-08-11/sopilot-hot-2087040669974200733-0da7582b.md",
+      "slug": "OpenAI开源计划六个月Pro申请判断",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-11T11:19:23.567Z",
+      "topic_id": "sources/2026-08-11/x-dotey-ad56c737.md",
+      "slug": "Claude文本水印写作者该担心什么",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-11T11:20:27.457Z",
+      "topic_id": "sources/2026-08-11/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-8月新版本怎样越用越懂你",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-11T11:21:24.416Z",
+      "topic_id": "sources/2026-08-11/vllm-releases-b8548f88.md",
+      "slug": "vLLM-0.27部署Kimi-K3和Qwen3.5",
+      "error": ""
+    }
+  ]
+}

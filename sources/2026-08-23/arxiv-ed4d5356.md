@@ -1,0 +1,21 @@
+---
+title: >-
+  ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language
+  Models
+url: 'https://arxiv.org/abs/2608.20338v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Sahil Kale
+  - Ian Harris
+categories:
+  - cs.CL
+  - cs.CL
+published: '2026-08-20T17:59:57Z'
+fetched_at: '2026-08-23T11:02:37.243Z'
+---
+Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement of unlearning, namely the ability to eliminate harmful behaviors while preserving benign and beneficial knowledge. We argue that effective unlearning must operate at the level of concepts, ensuring complete removal of unsafe applications while maintaining their correct and useful usage, thereby achieving conceptually meaningful and complete unlearning. To better evaluate unlearning techniques from such a practical viewpoint, we introduce the notion of dual-use concepts: concepts that can be used in both harmful and benign contexts. Building on these concepts, we construct a benchmark called ConceptGuard where forget and retain sets are explicitly complementary in concept usage. Our benchmark uniquely enables unlearning to be explored and gauged at the level of concepts, instead of sparse facts, and evaluation is intent-sensitive with the goal of maximizing contextual separation to promote safer behavior. We demonstrate that current unlearning techniques perform poorly under this setting, showing weak contextual separation alongside poor performance in ROUGE and concept-level metrics
+
+Authors: Sahil Kale, Ian Harris
+Categories: cs.CL, cs.CL

@@ -1,6 +1,30 @@
 # 主题饱和度分析
 
-基于 338 篇文章（2026-04-08 至 2026-05-22）的主题分布。**5/22 单批 7 篇后总计 338 篇。**
+基于 345 篇文章（2026-04-08 至 2026-06-16）的主题分布。**6/16 单批 7 篇后总计 345 篇。**
+
+## 6/16 7 篇主题分布
+
+| 文章 | REACH | voice | 主题 |
+|------|-------|-------|------|
+| 个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了 | 9 | first-person | agent-frameworks/Agent 框架 / local-first-ai/本地优先 AI |
+| OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform | 9 | first-person | agent-frameworks/Agent 框架 / local-first-ai/本地优先 AI |
+| Codex 免费重置次数可以攒着用了，什么时候用最划算？ | 9 | first-person | ai-coding-tools/AI 编程工具 |
+| ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了 | 9 | first-person | ai-productivity/AI 生产力 / developer-tools/开发者工具 |
+| 免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？ | 9 | analytical | developer-tools/开发者工具 / ai-pricing/AI 定价 |
+| 本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek | 8 | first-person | local-inference/本地推理 / local-first-ai/本地优先 AI |
+| 用 n8n 搭一个自动化助手，400+ 集成别一上来全接 | 8 | first-person | ai-workflows/AI 工作流 / agent-frameworks/Agent 框架 |
+
+**6/16 主题计数变化（人工估算）**：
+
+- **Agent 框架**：继续高饱和（+Hermes Agent / OpenClaw / n8n）。本次纳入原因是优先品牌新版本与可交付工作流，不做泛泛工具盘点。
+- **本地优先 AI**：新增主题线（+Hermes Agent / OpenClaw / Ollama），聚焦本地记忆、个人数据边界和长期运行。
+- **AI 编程工具**：+1（Codex reset 额度排班，属于产品机制变化，不是工具横评）。
+- **开发者工具**：+2（chatgpt-imagegen / 免费 LLM API 清单）。
+- **AI 定价**：+1（免费 LLM API 清单，强调配额和数据边界）。
+- **本地推理**：+1（Ollama 选型，强调第一台机器和真实任务验证）。
+- **AI 工作流**：+1（n8n 从触发器、模型节点、通知输出拆成可交付工作流）。
+
+**警告/降权说明**：Agent 框架、AI 编程工具、AI 定价仍然高饱和；后续只有新版本明确解决问题、新增能力可验证、或能形成交付清单的选题才继续纳入。Reddit/HN/OpenRouter 不再作为可见来源或传播卖点进入正文/标题/元数据。
 
 
 ## 5/22 7 篇主题分布

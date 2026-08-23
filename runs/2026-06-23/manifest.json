@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-23",
+  "created_at": "2026-06-23T02:58:47.318Z",
+  "updated_at": "2026-06-23T03:22:11.545Z",
+  "source_count": 500,
+  "topics": [
+    {
+      "id": "sources/2026-06-23/x-mattshumer_-78060db5.md",
+      "file": "sources/2026-06-23/x-mattshumer_-78060db5.md",
+      "slug": "提示词不是咒语真正有用的是给AI一条质量验收线",
+      "title": "提示词不是咒语，真正有用的是给 AI 一条质量验收线",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "reference_card",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.031,
+      "reach_note": "提示词模板和验收标准天然适合收藏，能覆盖设计、前端、内容和运营任务。",
+      "selection_reason": "它能把观点变成可复用模板，比单纯讲 AI 能力更适合小红书。",
+      "selected_at": "2026-06-23T02:58:47.318Z",
+      "updated_at": "2026-06-23T03:01:55.853Z",
+      "draft_ready_at": "2026-06-23T03:01:55.852Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-23/提示词不是咒语，真正有用的是给 AI 一条质量验收线",
+      "meta_path": "drafts/2026-06-23/提示词不是咒语，真正有用的是给 AI 一条质量验收线/提示词不是咒语，真正有用的是给 AI 一条质量验收线.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-23/eugene-yan-b48f231e.md",
+      "file": "sources/2026-06-23/eugene-yan-b48f231e.md",
+      "slug": "产品经理也能做AI评测先用三步搭一个最小eval流程",
+      "title": "产品经理也能做 AI 评测，先用三步搭一个最小 eval 流程",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.033,
+      "reach_note": "评测是 AI 产品团队的高频痛点，三步法可收藏、可复用，适合转发给产品和研发同事。",
+      "selection_reason": "这篇能从新闻解读切到实操清单，解决小红书转发收藏弱的问题。",
+      "selected_at": "2026-06-23T02:58:47.319Z",
+      "updated_at": "2026-06-23T03:05:08.467Z",
+      "draft_ready_at": "2026-06-23T03:05:08.467Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-23/产品经理也能做 AI 评测，先用三步搭一个最小 eval 流程",
+      "meta_path": "drafts/2026-06-23/产品经理也能做 AI 评测，先用三步搭一个最小 eval 流程/产品经理也能做 AI 评测，先用三步搭一个最小 eval 流程.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-23/github-trending-f4dc7845.md",
+      "file": "sources/2026-06-23/github-trending-f4dc7845.md",
+      "slug": "团队提示词别散在聊天记录里可以先自托管一个prompts-chat",
+      "title": "团队提示词别散在聊天记录里，可以先自托管一个 prompts.chat",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "reference_card",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.028,
+      "reach_note": "提示词库、团队协作、自托管和隐私都是小团队会收藏的实际问题。",
+      "selection_reason": "它把 GitHub trending 项目转成团队知识管理实操，收藏价值高。",
+      "selected_at": "2026-06-23T02:58:47.319Z",
+      "updated_at": "2026-06-23T03:07:13.011Z",
+      "draft_ready_at": "2026-06-23T03:07:13.011Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-23/团队提示词别散在聊天记录里，可以先自托管一个 prompts.chat",
+      "meta_path": "drafts/2026-06-23/团队提示词别散在聊天记录里，可以先自托管一个 prompts.chat/团队提示词别散在聊天记录里，可以先自托管一个 prompts.chat.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-23/github-trending-5c33f43b.md",
+      "file": "sources/2026-06-23/github-trending-5c33f43b.md",
+      "slug": "自托管AI工作台怎么搭Open-WebUI这几个入口最值得先配",
+      "title": "自托管 AI 工作台怎么搭，Open WebUI 这几个入口最值得先配",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 72,
+      "recent_similarity": 0.028,
+      "reach_note": "自托管 AI UI、Ollama、MCP、RAG 都是可收藏关键词，读者能按配置顺序行动。",
+      "selection_reason": "保留今天最有工具属性的选题，并把角度从新闻改为搭建清单。",
+      "selected_at": "2026-06-23T02:58:47.320Z",
+      "updated_at": "2026-06-23T03:11:04.400Z",
+      "draft_ready_at": "2026-06-23T03:11:04.400Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-23/自托管 AI 工作台怎么搭，Open WebUI 这几个入口最值得先配",
+      "meta_path": "drafts/2026-06-23/自托管 AI 工作台怎么搭，Open WebUI 这几个入口最值得先配/自托管 AI 工作台怎么搭，Open WebUI 这几个入口最值得先配.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-23/x-gxjdian-3e031317.md",
+      "file": "sources/2026-06-23/x-gxjdian-3e031317.md",
+      "slug": "改图别只写提示词先用批注图把需求喂给Codex",
+      "title": "改图别只写提示词，先用批注图把需求喂给 Codex",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 72,
+      "recent_similarity": 0.022,
+      "reach_note": "改图是小红书高收藏场景，批注图流程简单直观，适合转发给设计、运营和自媒体团队。",
+      "selection_reason": "这是今天最适合小红书的实战题之一，步骤清楚，收藏价值强。",
+      "selected_at": "2026-06-23T02:58:47.321Z",
+      "updated_at": "2026-06-23T03:12:22.401Z",
+      "draft_ready_at": "2026-06-23T03:12:22.401Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-23/改图别只写提示词，先用批注图把需求喂给 Codex",
+      "meta_path": "drafts/2026-06-23/改图别只写提示词，先用批注图把需求喂给 Codex/改图别只写提示词，先用批注图把需求喂给 Codex.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-23/eugene-yan-353e6edb.md",
+      "file": "sources/2026-06-23/eugene-yan-353e6edb.md",
+      "slug": "每天自动整理行业新闻可以用MCP-Q和tmux搭一个轻量Agent",
+      "title": "每天自动整理行业新闻，可以用 MCP、Q 和 tmux 搭一个轻量 Agent",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "lane_repeat:developer-tooling,archetype_repeat:hands_on_recipe,same_entity_in_batch,title_pattern_repeat_in_batch,checklist_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 160,
+      "recent_similarity": 0.04,
+      "reach_note": "内容运营、研究员、投资和产品团队都有每日信息整理需求，MCP 和 tmux 组合有实操感。",
+      "selection_reason": "它直接命中用户当前的文章生成工作流，也容易引发收藏。",
+      "selected_at": "2026-06-23T02:58:47.321Z",
+      "updated_at": "2026-06-23T03:14:29.721Z",
+      "draft_ready_at": "2026-06-23T03:14:29.721Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-23/每天自动整理行业新闻，可以用 MCP、Q 和 tmux 搭一个轻量 Agent",
+      "meta_path": "drafts/2026-06-23/每天自动整理行业新闻，可以用 MCP、Q 和 tmux 搭一个轻量 Agent/每天自动整理行业新闻，可以用 MCP、Q 和 tmux 搭一个轻量 Agent.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-23/replicate-blog-61515651.md",
+      "file": "sources/2026-06-23/replicate-blog-61515651.md",
+      "slug": "模型太多不知道选哪个可以先把Replicate-MCP接进工作流",
+      "title": "模型太多不知道选哪个，可以先把 Replicate MCP 接进工作流",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "lane_repeat:developer-tooling,archetype_repeat:hands_on_recipe,same_entity_in_batch,title_pattern_repeat_in_batch,agent_like_daily_cap,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 248,
+      "recent_similarity": 0.032,
+      "reach_note": "MCP、模型选择、Claude/Cursor/VS Code 都是高兴趣点，读者能直接收藏为工具接入思路。",
+      "selection_reason": "它是清晰的工具接入题，比算力新闻和企业公告更接近读者动作。",
+      "selected_at": "2026-06-23T02:58:47.321Z",
+      "updated_at": "2026-06-23T03:22:11.545Z",
+      "draft_ready_at": "2026-06-23T03:22:11.544Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-23/模型太多不知道选哪个，可以先把 Replicate MCP 接进工作流",
+      "meta_path": "drafts/2026-06-23/模型太多不知道选哪个，可以先把 Replicate MCP 接进工作流/模型太多不知道选哪个，可以先把 Replicate MCP 接进工作流.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-23T02:58:47.318Z",
+      "source_count": 500
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-23T02:58:47.318Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T02:58:47.318Z",
+      "topic_id": "sources/2026-06-23/x-mattshumer_-78060db5.md",
+      "slug": "提示词不是咒语真正有用的是给AI一条质量验收线"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T02:58:47.319Z",
+      "topic_id": "sources/2026-06-23/eugene-yan-b48f231e.md",
+      "slug": "产品经理也能做AI评测先用三步搭一个最小eval流程"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T02:58:47.319Z",
+      "topic_id": "sources/2026-06-23/github-trending-f4dc7845.md",
+      "slug": "团队提示词别散在聊天记录里可以先自托管一个prompts-chat"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T02:58:47.320Z",
+      "topic_id": "sources/2026-06-23/github-trending-5c33f43b.md",
+      "slug": "自托管AI工作台怎么搭Open-WebUI这几个入口最值得先配"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T02:58:47.321Z",
+      "topic_id": "sources/2026-06-23/x-gxjdian-3e031317.md",
+      "slug": "改图别只写提示词先用批注图把需求喂给Codex"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T02:58:47.321Z",
+      "topic_id": "sources/2026-06-23/eugene-yan-353e6edb.md",
+      "slug": "每天自动整理行业新闻可以用MCP-Q和tmux搭一个轻量Agent"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T02:58:47.321Z",
+      "topic_id": "sources/2026-06-23/replicate-blog-61515651.md",
+      "slug": "模型太多不知道选哪个可以先把Replicate-MCP接进工作流"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-23T03:00:22.365Z",
+      "source_count": 500
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-23T03:00:22.366Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T03:00:22.367Z",
+      "topic_id": "sources/2026-06-23/x-mattshumer_-78060db5.md",
+      "slug": "提示词不是咒语真正有用的是给AI一条质量验收线"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T03:00:22.367Z",
+      "topic_id": "sources/2026-06-23/eugene-yan-b48f231e.md",
+      "slug": "产品经理也能做AI评测先用三步搭一个最小eval流程"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T03:00:22.367Z",
+      "topic_id": "sources/2026-06-23/github-trending-f4dc7845.md",
+      "slug": "团队提示词别散在聊天记录里可以先自托管一个prompts-chat"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T03:00:22.368Z",
+      "topic_id": "sources/2026-06-23/github-trending-5c33f43b.md",
+      "slug": "自托管AI工作台怎么搭Open-WebUI这几个入口最值得先配"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T03:00:22.368Z",
+      "topic_id": "sources/2026-06-23/x-gxjdian-3e031317.md",
+      "slug": "改图别只写提示词先用批注图把需求喂给Codex"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T03:00:22.368Z",
+      "topic_id": "sources/2026-06-23/eugene-yan-353e6edb.md",
+      "slug": "每天自动整理行业新闻可以用MCP-Q和tmux搭一个轻量Agent"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-23T03:00:22.368Z",
+      "topic_id": "sources/2026-06-23/replicate-blog-61515651.md",
+      "slug": "模型太多不知道选哪个可以先把Replicate-MCP接进工作流"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-23T03:01:55.853Z",
+      "topic_id": "sources/2026-06-23/x-mattshumer_-78060db5.md",
+      "slug": "提示词不是咒语真正有用的是给AI一条质量验收线",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-23T03:05:08.467Z",
+      "topic_id": "sources/2026-06-23/eugene-yan-b48f231e.md",
+      "slug": "产品经理也能做AI评测先用三步搭一个最小eval流程",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-23T03:07:13.011Z",
+      "topic_id": "sources/2026-06-23/github-trending-f4dc7845.md",
+      "slug": "团队提示词别散在聊天记录里可以先自托管一个prompts-chat",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-23T03:11:04.400Z",
+      "topic_id": "sources/2026-06-23/github-trending-5c33f43b.md",
+      "slug": "自托管AI工作台怎么搭Open-WebUI这几个入口最值得先配",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-23T03:12:22.401Z",
+      "topic_id": "sources/2026-06-23/x-gxjdian-3e031317.md",
+      "slug": "改图别只写提示词先用批注图把需求喂给Codex",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-23T03:14:29.721Z",
+      "topic_id": "sources/2026-06-23/eugene-yan-353e6edb.md",
+      "slug": "每天自动整理行业新闻可以用MCP-Q和tmux搭一个轻量Agent",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-23T03:22:11.545Z",
+      "topic_id": "sources/2026-06-23/replicate-blog-61515651.md",
+      "slug": "模型太多不知道选哪个可以先把Replicate-MCP接进工作流",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T05:08:25.661Z",
+  "topics": [
+    {
+      "file": "sources/2026-06-20/hermes-agent-017-curated.md",
+      "title": "Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径",
+      "slug": "Hermes v0.17 更新了什么",
+      "angle": "从 v0.17.0 的 Reach Release 切入，不再重复介绍 Hermes 是什么，而是拆它这次新增的入口、后台子任务、图片编辑、自动化蓝图、Skills Hub、记忆工具和成本控制。落点是一份 Agent 应用从个人可用走向可交付前的检查清单。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "Hermes 是长期跟踪重点，版本变化具体，读者能按清单检查自己的 Agent。",
+      "reason": "这是 06-19 新 release，能回答用户要求的“新版本解决了哪些问题、新增了哪些功能、怎么使用”。"
+    },
+    {
+      "file": "sources/2026-06-20/openclaw-2026-6-9-beta-curated.md",
+      "title": "OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线",
+      "slug": "OpenClaw 2026.6.9 beta 个人助手交付不掉线",
+      "angle": "从上一版讲功能，这一版讲稳定交付。重点写 Telegram rich delivery、agent recovery、Codex 集成、official provider plugins、ClawHub skill provenance、secrets redaction 这些变化为什么是在补“交给别人用”的地基。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "OpenClaw 是长期跟踪重点，版本新，能转成可执行的发布前检查表。",
+      "reason": "和 06-18 的 2026.6.8 不重复，这篇聚焦 2026.6.9-beta.1 的交付通道、恢复和安全。"
+    },
+    {
+      "file": "sources/2026-06-20/codex-thread-handoff-curated.md",
+      "title": "Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上",
+      "slug": "Codex 会话交给远程主机继续跑",
+      "angle": "从长任务开发的真实割裂感切入，讲 thread handoff 在 local host 和 remote host 之间移动 thread 与 Git state。重点写 matching project、worktree、SSH host、凭据和正在运行任务会被 interrupt 的边界，而不是把它写成远程开发宣传稿。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "Codex 品牌强，官方新能力，开发者能按步骤检查自己是否适合用。",
+      "reason": "这是 06-18 Codex app 26.616 后续官方文档确认的能力，和昨天 Record & Replay 的主题不同。"
+    },
+    {
+      "file": "sources/2026-06-20/glm-52-long-horizon-curated.md",
+      "title": "GLM-5.2 开源后，长任务 Agent 选模型要看这三个指标",
+      "slug": "GLM-5.2 长任务 Agent 选模型指标",
+      "angle": "从 1M context 不等于长期稳定交付切入，拆 GLM-5.2 的 long-horizon training、effort level、IndexShare、MTP speculative decoding，以及 FrontierSWE、PostTrainBench、SWE-Marathon 这些更贴近长任务的指标。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "GLM 品牌认知强，开源模型可操作，指标有明确选型价值。",
+      "reason": "补充模型线，避免今日全是 Agent 工具更新，同时用官方 Hugging Face 文章做主源。"
+    },
+    {
+      "file": "sources/2026-06-20/open-notebook-110-curated.md",
+      "title": "自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了",
+      "slug": "Open Notebook v1.10 先把检索和重试做稳",
+      "angle": "避开“第二大脑”口号，写 v1.10.0 真正有用的工程细节：LaTeX、bulk context controls、failed source retry、搜索 fallback、404/422、API timeout、数据库 migration 和安全补丁。落点是自建资料库验收表。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "自托管资料库场景明确，读者能用这份清单判断自己的知识库是否可靠。",
+      "reason": "这是 06-18 新 release，来源为 GitHub release，能把工具文写得更具体而不是营销化。"
+    },
+    {
+      "file": "sources/2026-06-20/elastic-agent-memory-curated.md",
+      "title": "别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计",
+      "slug": "Elastic 给 Agent 长期记忆一套架构",
+      "angle": "从 1M context 仍然不是 memory system 切入，把 Elasticsearch 的三类记忆、hybrid retrieval、RRF、reranker、supersession、decay、DLS 隔离和 0.89 R@10 翻译成工程检查清单。",
+      "voice": "retro",
+      "reach": 8,
+      "reach_note": "Agent memory、RAG 和 Elasticsearch 都有可操作价值，适合收藏型技术笔记。",
+      "reason": "补一篇方法论深度，帮助今天的文章不只停留在版本新闻。"
+    },
+    {
+      "file": "sources/2026-06-20/deepmind-ai-control-curated.md",
+      "title": "DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾",
+      "slug": "DeepMind AI Control Roadmap 给 Agent 上线前打勾",
+      "angle": "从 Agent 上线前的权限控制切入，写 threat modeling、supervisor、detection/prevention/response、coverage/recall/time-to-response。重点是把 DeepMind 的安全框架翻成开发者能执行的权限和监控清单。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "DeepMind 品牌强，Agent 安全是高关注问题，读者能直接转成上线 checklist。",
+      "reason": "补齐安全与控制层，和 OpenClaw/Hermes 的产品化更新形成互补。"
+    }
+  ]
+}

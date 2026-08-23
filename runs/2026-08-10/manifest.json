@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-10",
+  "created_at": "2026-08-10T11:09:52.095Z",
+  "updated_at": "2026-08-10T11:18:25.010Z",
+  "source_count": 135,
+  "topics": [
+    {
+      "id": "sources/2026-08-10/x-dotey-1a58eba3.md",
+      "file": "sources/2026-08-10/x-dotey-1a58eba3.md",
+      "slug": "先改原型再写代码",
+      "title": "先改原型再写代码：我用 Git Diff 让产品设计和实际功能始终同步",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.044,
+      "reach_note": "低成本验证产品设计是明确利益点，读者可以立刻在现有 Git 项目中照着实践。",
+      "selection_reason": "它把原型、设计评审和代码实现串成了完整场景链条，对独立开发者和产品团队都有直接价值。",
+      "selected_at": "2026-08-10T11:09:52.096Z",
+      "updated_at": "2026-08-10T11:10:49.980Z",
+      "draft_ready_at": "2026-08-10T11:10:49.980Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-10/先改原型再写代码：我用 Git Diff 让产品设计和实际功能始终同步",
+      "meta_path": "drafts/2026-08-10/先改原型再写代码：我用 Git Diff 让产品设计和实际功能始终同步/先改原型再写代码：我用 Git Diff 让产品设计和实际功能始终同步.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-10/sopilot-hot-2086607225460764688-5d6d3e54.md",
+      "file": "sources/2026-08-10/sopilot-hot-2086607225460764688-5d6d3e54.md",
+      "slug": "拆解95分钟AI电影开源资产",
+      "title": "一部 95 分钟 AI 电影公开全部素材：创作者最值得拆的不是提示词",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.027,
+      "reach_note": "AI 长片和公开素材具备传播点，创作者能够直接查看资产并复用制作方法。",
+      "selection_reason": "选题兼具视觉传播力和可拆解的生产资料，能为公众号提供深度案例，也适合小红书展示具体制作环节。",
+      "selected_at": "2026-08-10T11:09:52.097Z",
+      "updated_at": "2026-08-10T11:11:48.467Z",
+      "draft_ready_at": "2026-08-10T11:11:48.467Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-10/一部 95 分钟 AI 电影公开全部素材：创作者最值得拆的不是提示词",
+      "meta_path": "drafts/2026-08-10/一部 95 分钟 AI 电影公开全部素材：创作者最值得拆的不是提示词/一部 95 分钟 AI 电影公开全部素材：创作者最值得拆的不是提示词.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-10/transformers-releases-2eed06f9.md",
+      "file": "sources/2026-08-10/transformers-releases-2eed06f9.md",
+      "slug": "Meta-30B多模态模型本地上手",
+      "title": "Meta 30B 多模态模型开放下载：如何用 Muse Glimmer 搭一套本地智能应用",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.038,
+      "reach_note": "Meta 品牌明确，模型可下载部署，并提供隐私友好的本地运行利益点。",
+      "selection_reason": "这是当天信息充分的官方版本主源，既有明确的新模型变化，也能延伸到文档分析、编程和个人智能应用等实际场景。",
+      "selected_at": "2026-08-10T11:09:52.097Z",
+      "updated_at": "2026-08-10T11:13:28.430Z",
+      "draft_ready_at": "2026-08-10T11:13:28.430Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-10/Meta 30B 多模态模型开放下载：如何用 Muse Glimmer 搭一套本地智能应用",
+      "meta_path": "drafts/2026-08-10/Meta 30B 多模态模型开放下载：如何用 Muse Glimmer 搭一套本地智能应用/Meta 30B 多模态模型开放下载：如何用 Muse Glimmer 搭一套本地智能应用.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-10/arxiv-6d02ea45.md",
+      "file": "sources/2026-08-10/arxiv-6d02ea45.md",
+      "slug": "AI编程上下文省Token方法",
+      "title": "AI 编程上下文为什么越用越贵：一项研究把 Token 消耗降了 17%–26%",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.029,
+      "reach_note": "17%–26% 的成本下降是明确利益点，读者可以据此调整长任务的上下文管理方式。",
+      "selection_reason": "论文提供跨七个 OpenAI 模型的量化结果，能支撑“上下文并非越多越好”的反常识判断，并落到实际省钱动作。",
+      "selected_at": "2026-08-10T11:09:52.098Z",
+      "updated_at": "2026-08-10T11:14:29.102Z",
+      "draft_ready_at": "2026-08-10T11:14:29.101Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-10/AI 编程上下文为什么越用越贵：一项研究把 Token 消耗降了 17%–26%",
+      "meta_path": "drafts/2026-08-10/AI 编程上下文为什么越用越贵：一项研究把 Token 消耗降了 17%–26%/AI 编程上下文为什么越用越贵：一项研究把 Token 消耗降了 17%–26%.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-10/sopilot-hot-2086629275210576360-2bcc6b82.md",
+      "file": "sources/2026-08-10/sopilot-hot-2086629275210576360-2bcc6b82.md",
+      "slug": "DeepSeek低价后还要不要本地部署",
+      "title": "DeepSeek API 已经足够便宜，本地部署还值得吗？",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.04,
+      "reach_note": "DeepSeek 品牌加上省钱利益点突出，读者可以立即按自己的调用量重新核算方案。",
+      "selection_reason": "低价正在改变部署决策，但隐私和并发不能被一句“便宜”抹平，适合写成有明确结论条件的选型备忘录。",
+      "selected_at": "2026-08-10T11:09:52.098Z",
+      "updated_at": "2026-08-10T11:15:54.844Z",
+      "draft_ready_at": "2026-08-10T11:15:54.844Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-10/DeepSeek API 已经足够便宜，本地部署还值得吗？",
+      "meta_path": "drafts/2026-08-10/DeepSeek API 已经足够便宜，本地部署还值得吗？/DeepSeek API 已经足够便宜，本地部署还值得吗？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-10/sopilot-hot-2086701559736570127-4eac7939.md",
+      "file": "sources/2026-08-10/sopilot-hot-2086701559736570127-4eac7939.md",
+      "slug": "Codex误删磁盘事故复盘",
+      "title": "Codex 一次误操作删掉两个磁盘：Full Access 到底应该怎么开",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 84,
+      "recent_similarity": 0.031,
+      "reach_note": "Codex 品牌具有关注度，磁盘数据损失利益点强，读者可以立即调整权限和备份方式。",
+      "selection_reason": "事故后果具体且讨论中包含根因和修复线索，适合做一篇能直接改变使用习惯的风险复盘。",
+      "selected_at": "2026-08-10T11:09:52.098Z",
+      "updated_at": "2026-08-10T11:16:48.241Z",
+      "draft_ready_at": "2026-08-10T11:16:48.241Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-10/Codex 一次误操作删掉两个磁盘：Full Access 到底应该怎么开",
+      "meta_path": "drafts/2026-08-10/Codex 一次误操作删掉两个磁盘：Full Access 到底应该怎么开/Codex 一次误操作删掉两个磁盘：Full Access 到底应该怎么开.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-10/github-trending-f4dc7845.md",
+      "file": "sources/2026-08-10/github-trending-f4dc7845.md",
+      "slug": "自建ChatGPT提示词库",
+      "title": "把公司的提示词库留在自己服务器：这个开源 ChatGPT 提示词库可以直接部署",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 98,
+      "recent_similarity": 0.028,
+      "reach_note": "ChatGPT 品牌、免费开源和可直接自建三项兼具，行动入口清晰。",
+      "selection_reason": "项目本身成熟且代码可验证，既能满足个人收藏需求，也能解决团队提示词资产管理和隐私控制问题。",
+      "selected_at": "2026-08-10T11:09:52.099Z",
+      "updated_at": "2026-08-10T11:18:25.010Z",
+      "draft_ready_at": "2026-08-10T11:18:25.010Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-10/把公司的提示词库留在自己服务器：这个开源 ChatGPT 提示词库可以直接部署",
+      "meta_path": "drafts/2026-08-10/把公司的提示词库留在自己服务器：这个开源 ChatGPT 提示词库可以直接部署/把公司的提示词库留在自己服务器：这个开源 ChatGPT 提示词库可以直接部署.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-10T11:09:52.095Z",
+      "source_count": 135
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-10T11:09:52.096Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-10T11:09:52.096Z",
+      "topic_id": "sources/2026-08-10/x-dotey-1a58eba3.md",
+      "slug": "先改原型再写代码"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-10T11:09:52.097Z",
+      "topic_id": "sources/2026-08-10/sopilot-hot-2086607225460764688-5d6d3e54.md",
+      "slug": "拆解95分钟AI电影开源资产"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-10T11:09:52.097Z",
+      "topic_id": "sources/2026-08-10/transformers-releases-2eed06f9.md",
+      "slug": "Meta-30B多模态模型本地上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-10T11:09:52.098Z",
+      "topic_id": "sources/2026-08-10/arxiv-6d02ea45.md",
+      "slug": "AI编程上下文省Token方法"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-10T11:09:52.098Z",
+      "topic_id": "sources/2026-08-10/sopilot-hot-2086629275210576360-2bcc6b82.md",
+      "slug": "DeepSeek低价后还要不要本地部署"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-10T11:09:52.098Z",
+      "topic_id": "sources/2026-08-10/sopilot-hot-2086701559736570127-4eac7939.md",
+      "slug": "Codex误删磁盘事故复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-10T11:09:52.099Z",
+      "topic_id": "sources/2026-08-10/github-trending-f4dc7845.md",
+      "slug": "自建ChatGPT提示词库"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-10T11:10:49.980Z",
+      "topic_id": "sources/2026-08-10/x-dotey-1a58eba3.md",
+      "slug": "先改原型再写代码",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-10T11:11:48.467Z",
+      "topic_id": "sources/2026-08-10/sopilot-hot-2086607225460764688-5d6d3e54.md",
+      "slug": "拆解95分钟AI电影开源资产",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-10T11:13:28.430Z",
+      "topic_id": "sources/2026-08-10/transformers-releases-2eed06f9.md",
+      "slug": "Meta-30B多模态模型本地上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-10T11:14:29.102Z",
+      "topic_id": "sources/2026-08-10/arxiv-6d02ea45.md",
+      "slug": "AI编程上下文省Token方法",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-10T11:15:54.844Z",
+      "topic_id": "sources/2026-08-10/sopilot-hot-2086629275210576360-2bcc6b82.md",
+      "slug": "DeepSeek低价后还要不要本地部署",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-10T11:16:48.242Z",
+      "topic_id": "sources/2026-08-10/sopilot-hot-2086701559736570127-4eac7939.md",
+      "slug": "Codex误删磁盘事故复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-10T11:18:25.010Z",
+      "topic_id": "sources/2026-08-10/github-trending-f4dc7845.md",
+      "slug": "自建ChatGPT提示词库",
+      "error": ""
+    }
+  ]
+}

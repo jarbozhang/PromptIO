@@ -1,0 +1,551 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-20",
+  "created_at": "2026-07-19T23:08:13.864Z",
+  "updated_at": "2026-07-20T06:42:16.001Z",
+  "source_count": 145,
+  "topics": [
+    {
+      "id": "sources/2026-07-20/x-xiangxiang103-f433fe41.md",
+      "file": "sources/2026-07-20/x-xiangxiang103-f433fe41.md",
+      "slug": "用OpenAI搭建本地智能衣橱",
+      "title": "用 OpenAI 给衣服自动建档：这个开源衣橱还能生成真人搭配预览",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.057,
+      "reach_note": "OpenAI 品牌、开源工具和可立即运行的穿搭管理场景同时具备传播与实操价值。",
+      "selection_reason": "它把图像 API 落到普通用户能理解的生活场景，并提供可运行代码和本地数据目录，适合公众号实测与小红书效果展示。",
+      "selected_at": "2026-07-19T23:08:13.865Z",
+      "updated_at": "2026-07-19T23:09:06.035Z",
+      "draft_ready_at": "2026-07-19T23:09:06.034Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/用 OpenAI 给衣服自动建档：这个开源衣橱还能生成真人搭配预览",
+      "meta_path": "drafts/2026-07-20/用 OpenAI 给衣服自动建档：这个开源衣橱还能生成真人搭配预览/用 OpenAI 给衣服自动建档：这个开源衣橱还能生成真人搭配预览.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/arxiv-0124286f.md",
+      "file": "sources/2026-07-20/arxiv-0124286f.md",
+      "slug": "旧模型原地扩充中文词表",
+      "title": "中文为什么更费 Token？一项新方法让旧模型原地扩充词表",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.032,
+      "reach_note": "省 Token 的利益点明确，使用本地模型的读者可以立即测量中文分词膨胀并评估改造收益。",
+      "selection_reason": "论文对应中文读者长期承受但不易察觉的成本问题，兼具研究新意和可验证的工程决策价值。",
+      "selected_at": "2026-07-19T23:08:13.865Z",
+      "updated_at": "2026-07-19T23:10:12.542Z",
+      "draft_ready_at": "2026-07-19T23:10:12.541Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/中文为什么更费 Token？一项新方法让旧模型原地扩充词表",
+      "meta_path": "drafts/2026-07-20/中文为什么更费 Token？一项新方法让旧模型原地扩充词表/中文为什么更费 Token？一项新方法让旧模型原地扩充词表.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "file": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "slug": "Hermes-Studio-v0.6.31工作流回放与安全升级",
+      "title": "Hermes Studio v0.6.31 上线：工作流终于能回放，文件预览和凭证安全也补齐了",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.046,
+      "reach_note": "Hermes 属于重点生态，新版能力明确，现有用户升级后可立即验证工作流回放和文件预览。",
+      "selection_reason": "一次更新同时改善调试、内容处理和凭证安全，既适合公众号做版本解读，也适合小红书展示可见的新功能。",
+      "selected_at": "2026-07-19T23:08:13.866Z",
+      "updated_at": "2026-07-20T06:34:32.989Z",
+      "draft_ready_at": "2026-07-20T06:34:32.989Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/Hermes Studio v0.6.31 上线：工作流终于能回放，文件预览和凭证安全也补齐了",
+      "meta_path": "drafts/2026-07-20/Hermes Studio v0.6.31 上线：工作流终于能回放，文件预览和凭证安全也补齐了/Hermes Studio v0.6.31 上线：工作流终于能回放，文件预览和凭证安全也补齐了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-07-20/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex仓库审计风险复盘",
+      "title": "用 Claude Code 和 Codex 审计陌生仓库，为什么反而可能触发远程代码执行",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.066,
+      "reach_note": "Claude Code 与 Codex 具有品牌认知，风险直接关系本机安全，并有可立即采用的隔离措施。",
+      "selection_reason": "它揭示了代码审计场景中容易被忽略的信任边界，适合从真实攻击链出发形成高价值安全复盘。",
+      "selected_at": "2026-07-19T23:08:13.866Z",
+      "updated_at": "2026-07-19T23:12:08.443Z",
+      "draft_ready_at": "2026-07-19T23:12:08.420Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/用 Claude Code 和 Codex 审计陌生仓库，为什么反而可能触发远程代码执行",
+      "meta_path": "drafts/2026-07-20/用 Claude Code 和 Codex 审计陌生仓库，为什么反而可能触发远程代码执行/用 Claude Code 和 Codex 审计陌生仓库，为什么反而可能触发远程代码执行.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/openai-blog-18ab2ec4.md",
+      "file": "sources/2026-07-20/openai-blog-18ab2ec4.md",
+      "slug": "OpenAI代码榜单纠偏指南",
+      "title": "OpenAI 发现代码榜单里的噪声：选模型别再只看 SWE-Bench 分数",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.026,
+      "reach_note": "OpenAI 品牌带来关注度，读者可立即调整代码模型的评测和采购方法。",
+      "selection_reason": "这是对主流选型习惯的反常识纠偏，既有官方分析支撑，也能转化为个人和团队可执行的评测方法。",
+      "selected_at": "2026-07-19T23:08:13.866Z",
+      "updated_at": "2026-07-19T23:13:09.820Z",
+      "draft_ready_at": "2026-07-19T23:13:09.820Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/OpenAI 发现代码榜单里的噪声：选模型别再只看 SWE-Bench 分数",
+      "meta_path": "drafts/2026-07-20/OpenAI 发现代码榜单里的噪声：选模型别再只看 SWE-Bench 分数/OpenAI 发现代码榜单里的噪声：选模型别再只看 SWE-Bench 分数.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/openai-blog-b57416a8.md",
+      "file": "sources/2026-07-20/openai-blog-b57416a8.md",
+      "slug": "Cars24用OpenAI找回流失线索",
+      "title": "每月处理 100 万分钟对话后，Cars24 如何用 OpenAI 找回 12% 流失线索",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.07,
+      "reach_note": "OpenAI 品牌与找回 12% 流失线索的明确收益结合，企业读者可据此重画自己的转化流程。",
+      "selection_reason": "案例拥有具体规模和业务结果，适合从商业价值而非技术炫技切入，也能为客服、销售和产品团队提供衡量模板。",
+      "selected_at": "2026-07-19T23:08:13.866Z",
+      "updated_at": "2026-07-19T23:14:09.698Z",
+      "draft_ready_at": "2026-07-19T23:14:09.698Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/每月处理 100 万分钟对话后，Cars24 如何用 OpenAI 找回 12% 流失线索",
+      "meta_path": "drafts/2026-07-20/每月处理 100 万分钟对话后，Cars24 如何用 OpenAI 找回 12% 流失线索/每月处理 100 万分钟对话后，Cars24 如何用 OpenAI 找回 12% 流失线索.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/anthropic-python-sdk-releases-3afc102f.md",
+      "file": "sources/2026-07-20/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117.0安全更新",
+      "title": "Claude Python SDK 0.117.0：MCP 隧道上线，报错栈不再泄露凭证",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.065,
+      "reach_note": "Claude 品牌明确，SDK 用户可立即升级并验证隧道能力与凭证保护。",
+      "selection_reason": "这是同时涉及新能力和安全修复的正式版本，变化具体、验证路径清晰，对 Python API 用户有直接价值。",
+      "selected_at": "2026-07-19T23:08:13.867Z",
+      "updated_at": "2026-07-19T23:15:04.126Z",
+      "draft_ready_at": "2026-07-19T23:15:04.126Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/Claude Python SDK 0.117.0：MCP 隧道上线，报错栈不再泄露凭证",
+      "meta_path": "drafts/2026-07-20/Claude Python SDK 0.117.0：MCP 隧道上线，报错栈不再泄露凭证/Claude Python SDK 0.117.0：MCP 隧道上线，报错栈不再泄露凭证.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/x-levelsio-53c114e5.md",
+      "file": "sources/2026-07-20/x-levelsio-53c114e5.md",
+      "slug": "清理搬运号后原创收入更稳定",
+      "title": "平台清理搬运号后，原创作者的收入为什么反而更稳定了",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.027,
+      "reach_note": "收入稳定是明确利益点，创作者可以立即据此调整选题来源、内容署名和原创资产沉淀方式。",
+      "selection_reason": "它为当天选题补足创作者与平台生态视角，且核心不是违规自动化，而是原创内容如何获得更稳定的长期回报。",
+      "selected_at": "2026-07-20T06:26:33.063Z",
+      "updated_at": "2026-07-20T06:30:18.513Z",
+      "draft_ready_at": "2026-07-20T06:30:18.513Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/平台清理搬运号后，原创作者的收入为什么反而更稳定了",
+      "meta_path": "drafts/2026-07-20/平台清理搬运号后，原创作者的收入为什么反而更稳定了/平台清理搬运号后，原创作者的收入为什么反而更稳定了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/sopilot-hot-2078941441351647714-8b83d16c.md",
+      "file": "sources/2026-07-20/sopilot-hot-2078941441351647714-8b83d16c.md",
+      "slug": "Kimi-K3两天用满GPU的算力悖论",
+      "title": "Kimi K3 两天用满 GPU：模型越便宜，为什么算力账单反而越大",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "opinion-trend",
+      "content_archetype": "trend_argument",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.022,
+      "reach_note": "Kimi 品牌和 GPU 容量事件自带关注度，产品与开发团队可据此重新估算推理容量和成本。",
+      "selection_reason": "素材提供了完整事件、反转逻辑和可证伪条件，适合写成有数据观察点的趋势判断，而非简单转述模型热度。",
+      "selected_at": "2026-07-20T06:26:33.064Z",
+      "updated_at": "2026-07-20T06:31:55.542Z",
+      "draft_ready_at": "2026-07-20T06:31:55.541Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/Kimi K3 两天用满 GPU：模型越便宜，为什么算力账单反而越大",
+      "meta_path": "drafts/2026-07-20/Kimi K3 两天用满 GPU：模型越便宜，为什么算力账单反而越大/Kimi K3 两天用满 GPU：模型越便宜，为什么算力账单反而越大.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/alignment-forum-8ce13074.md",
+      "file": "sources/2026-07-20/alignment-forum-8ce13074.md",
+      "slug": "模型蒸馏的隐藏特质继承",
+      "title": "模型蒸馏只过滤敏感文本还不够：Gemma、Qwen 和 Llama 实验揭示的隐藏继承",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.028,
+      "reach_note": "Gemma、Qwen、Llama 具有品牌认知，开放权重和复现实验为读者提供了可验证入口。",
+      "selection_reason": "长文包含跨模型实验、开放权重和明确方法，既有研究深度，也能直接指导模型团队完善蒸馏验收。",
+      "selected_at": "2026-07-20T06:26:33.064Z",
+      "updated_at": "2026-07-20T06:33:18.031Z",
+      "draft_ready_at": "2026-07-20T06:33:18.030Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/模型蒸馏只过滤敏感文本还不够：Gemma、Qwen 和 Llama 实验揭示的隐藏继承",
+      "meta_path": "drafts/2026-07-20/模型蒸馏只过滤敏感文本还不够：Gemma、Qwen 和 Llama 实验揭示的隐藏继承/模型蒸馏只过滤敏感文本还不够：Gemma、Qwen 和 Llama 实验揭示的隐藏继承.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/sopilot-hot-2079051286172103113-9fa18457.md",
+      "file": "sources/2026-07-20/sopilot-hot-2079051286172103113-9fa18457.md",
+      "slug": "Codex误删主目录事故复盘",
+      "title": "Codex 为什么开始严禁删除主目录：一次误删事故暴露的三层风险",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.057,
+      "reach_note": "Codex 品牌认知强，文件误删直接关系数据安全，读者可以立即调整运行目录和权限。",
+      "selection_reason": "事故后果具体且已有产品侧响应，能把抽象的 AI 安全问题转化为每位开发者都该执行的防护动作。",
+      "selected_at": "2026-07-20T06:26:33.065Z",
+      "updated_at": "2026-07-20T06:36:24.206Z",
+      "draft_ready_at": "2026-07-20T06:36:24.206Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/Codex 为什么开始严禁删除主目录：一次误删事故暴露的三层风险",
+      "meta_path": "drafts/2026-07-20/Codex 为什么开始严禁删除主目录：一次误删事故暴露的三层风险/Codex 为什么开始严禁删除主目录：一次误删事故暴露的三层风险.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-20/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0.24部署DeepSeek-V4",
+      "title": "用 vLLM 0.24 部署 DeepSeek V4：这次升级真正能省下哪些推理成本",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.039,
+      "reach_note": "DeepSeek 品牌加上明确的性能收益和可执行部署验证，满足品牌、利益点与可操作三项。",
+      "selection_reason": "release 信息量充足且包含具体优化数据，适合做成能实际跑基准、判断是否值得升级的部署文章。",
+      "selected_at": "2026-07-20T06:26:33.065Z",
+      "updated_at": "2026-07-20T06:37:24.310Z",
+      "draft_ready_at": "2026-07-20T06:37:24.310Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/用 vLLM 0.24 部署 DeepSeek V4：这次升级真正能省下哪些推理成本",
+      "meta_path": "drafts/2026-07-20/用 vLLM 0.24 部署 DeepSeek V4：这次升级真正能省下哪些推理成本/用 vLLM 0.24 部署 DeepSeek V4：这次升级真正能省下哪些推理成本.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-20/sopilot-hot-2078885188545950152-7f25f5b9.md",
+      "file": "sources/2026-07-20/sopilot-hot-2078885188545950152-7f25f5b9.md",
+      "slug": "每月21美元建站成本账",
+      "title": "每月约 21 美元能不能养活一个网站？我把 Codex、GitHub 和 Cloudflare 的账重新算了一遍",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.032,
+      "reach_note": "Codex、GitHub、Cloudflare 都有品牌认知，标题给出明确成本，读者可据此立即搭建或调整方案。",
+      "selection_reason": "成本数字具有传播力，同时能纠正“上线成本等于经营成本”的误区，兼顾个人创作者和独立开发者。",
+      "selected_at": "2026-07-20T06:26:33.065Z",
+      "updated_at": "2026-07-20T06:42:16.001Z",
+      "draft_ready_at": "2026-07-20T06:42:16.001Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-20/每月约 21 美元能不能养活一个网站？我把 Codex、GitHub 和 Cloudflare 的账重新算了一遍",
+      "meta_path": "drafts/2026-07-20/每月约 21 美元能不能养活一个网站？我把 Codex、GitHub 和 Cloudflare 的账重新算了一遍/每月约 21 美元能不能养活一个网站？我把 Codex、GitHub 和 Cloudflare 的账重新算了一遍.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-19T23:08:13.864Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-19T23:08:13.865Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.865Z",
+      "topic_id": "sources/2026-07-20/x-xiangxiang103-f433fe41.md",
+      "slug": "用OpenAI搭建本地智能衣橱"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.865Z",
+      "topic_id": "sources/2026-07-20/arxiv-0124286f.md",
+      "slug": "旧模型原地扩充中文词表"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.866Z",
+      "topic_id": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "slug": "Hermes-Studio-0.6.31工作流回放与安全升级"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.866Z",
+      "topic_id": "sources/2026-07-20/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex仓库审计风险复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.866Z",
+      "topic_id": "sources/2026-07-20/openai-blog-18ab2ec4.md",
+      "slug": "OpenAI代码榜单纠偏指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.866Z",
+      "topic_id": "sources/2026-07-20/openai-blog-b57416a8.md",
+      "slug": "Cars24用OpenAI找回流失线索"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-19T23:08:13.867Z",
+      "topic_id": "sources/2026-07-20/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117.0安全更新"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:09:06.035Z",
+      "topic_id": "sources/2026-07-20/x-xiangxiang103-f433fe41.md",
+      "slug": "用OpenAI搭建本地智能衣橱",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:10:12.542Z",
+      "topic_id": "sources/2026-07-20/arxiv-0124286f.md",
+      "slug": "旧模型原地扩充中文词表",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:11:04.963Z",
+      "topic_id": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "slug": "Hermes-Studio-0.6.31工作流回放与安全升级",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:12:08.443Z",
+      "topic_id": "sources/2026-07-20/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex仓库审计风险复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:13:09.820Z",
+      "topic_id": "sources/2026-07-20/openai-blog-18ab2ec4.md",
+      "slug": "OpenAI代码榜单纠偏指南",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:14:09.698Z",
+      "topic_id": "sources/2026-07-20/openai-blog-b57416a8.md",
+      "slug": "Cars24用OpenAI找回流失线索",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-19T23:15:04.126Z",
+      "topic_id": "sources/2026-07-20/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117.0安全更新",
+      "error": ""
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-07-20T06:26:33.062Z",
+      "source_count": 145
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-20T06:26:33.063Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:26:33.063Z",
+      "topic_id": "sources/2026-07-20/x-levelsio-53c114e5.md",
+      "slug": "清理搬运号后原创收入更稳定"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:26:33.064Z",
+      "topic_id": "sources/2026-07-20/sopilot-hot-2078941441351647714-8b83d16c.md",
+      "slug": "Kimi-K3两天用满GPU的算力悖论"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:26:33.064Z",
+      "topic_id": "sources/2026-07-20/alignment-forum-8ce13074.md",
+      "slug": "模型蒸馏的隐藏特质继承"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:26:33.064Z",
+      "topic_id": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "slug": "Hermes-Studio-v0.6.31工作流回放与安全升级"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:26:33.065Z",
+      "topic_id": "sources/2026-07-20/sopilot-hot-2079051286172103113-9fa18457.md",
+      "slug": "Codex误删主目录事故复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:26:33.065Z",
+      "topic_id": "sources/2026-07-20/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0.24部署DeepSeek-V4"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:26:33.065Z",
+      "topic_id": "sources/2026-07-20/sopilot-hot-2078885188545950152-7f25f5b9.md",
+      "slug": "每月21美元建站成本账"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-07-20T06:29:27.339Z",
+      "source_count": 145
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-20T06:29:27.340Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:29:27.340Z",
+      "topic_id": "sources/2026-07-20/x-levelsio-53c114e5.md",
+      "slug": "清理搬运号后原创收入更稳定"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:29:27.341Z",
+      "topic_id": "sources/2026-07-20/sopilot-hot-2078941441351647714-8b83d16c.md",
+      "slug": "Kimi-K3两天用满GPU的算力悖论"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:29:27.341Z",
+      "topic_id": "sources/2026-07-20/alignment-forum-8ce13074.md",
+      "slug": "模型蒸馏的隐藏特质继承"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:29:27.341Z",
+      "topic_id": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "slug": "Hermes-Studio-v0.6.31工作流回放与安全升级"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:29:27.342Z",
+      "topic_id": "sources/2026-07-20/sopilot-hot-2079051286172103113-9fa18457.md",
+      "slug": "Codex误删主目录事故复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:29:27.342Z",
+      "topic_id": "sources/2026-07-20/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0.24部署DeepSeek-V4"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-20T06:29:27.342Z",
+      "topic_id": "sources/2026-07-20/sopilot-hot-2078885188545950152-7f25f5b9.md",
+      "slug": "每月21美元建站成本账"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-20T06:30:18.514Z",
+      "topic_id": "sources/2026-07-20/x-levelsio-53c114e5.md",
+      "slug": "清理搬运号后原创收入更稳定",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-20T06:31:55.542Z",
+      "topic_id": "sources/2026-07-20/sopilot-hot-2078941441351647714-8b83d16c.md",
+      "slug": "Kimi-K3两天用满GPU的算力悖论",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-20T06:33:18.031Z",
+      "topic_id": "sources/2026-07-20/alignment-forum-8ce13074.md",
+      "slug": "模型蒸馏的隐藏特质继承",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-20T06:34:32.989Z",
+      "topic_id": "sources/2026-07-20/x-libapi_-edd3ec3f.md",
+      "slug": "Hermes-Studio-v0.6.31工作流回放与安全升级",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-20T06:36:24.206Z",
+      "topic_id": "sources/2026-07-20/sopilot-hot-2079051286172103113-9fa18457.md",
+      "slug": "Codex误删主目录事故复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-20T06:37:24.310Z",
+      "topic_id": "sources/2026-07-20/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0.24部署DeepSeek-V4",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-20T06:42:16.001Z",
+      "topic_id": "sources/2026-07-20/sopilot-hot-2078885188545950152-7f25f5b9.md",
+      "slug": "每月21美元建站成本账",
+      "error": ""
+    }
+  ]
+}

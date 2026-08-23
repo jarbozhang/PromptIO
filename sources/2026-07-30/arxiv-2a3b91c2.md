@@ -1,0 +1,26 @@
+---
+title: >-
+  MindForge: Teaching Small Language Models Whole-Life-Cycle Software
+  Engineering via Source-Free Program Synthesis
+url: 'https://arxiv.org/abs/2607.27146v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Yihao Chen
+  - Shi Chang
+  - Khaled Chawa
+  - Feng Lin
+  - Boyuan Chen
+categories:
+  - cs.SE
+  - cs.CL
+  - cs.LG
+  - cs.SE
+published: '2026-07-29T17:23:02Z'
+fetched_at: '2026-07-30T11:02:59.253Z'
+---
+Coding agents have made substantial progress on software engineering tasks that modify existing codebases, including bug fixing and feature implementation. However, constructing a complete program from scratch remains a major challenge: even the frontier models evaluated on ProgramBench fully resolve fewer than 1% of tasks. One obstacle is the lack of scalable training environments for this from-scratch setting, spanning the whole software engineering life cycle, as existing environment-construction frameworks focus only on a single phase in software development. To address this gap, we introduce MindForge, an automated pipeline that converts open-source command-line programs into source-free environments that expose only a compiled reference executable and its documentation. Using MindForge, we construct training environments from repositories disjoint from those in ProgramBench, and curate a high-quality data recipe consisting of program synthesis trajectories using GLM-5.2 as the teacher agent. Fine-tuning Qwen3.6-27B on these trajectories increases its ProgramBench average test pass rate from 37.98% to 49.51%, achieving performance comparable to substantially larger frontier models. Moreover, the fine-tuned model consistently improves over the base model across all seven unseen software engineering benchmarks, spanning long-horizon repository generation and translation, bug fixing, feature implementation, and cross-language issue resolution, with absolute gains of 31.00 p
+
+Authors: Yihao Chen, Shi Chang, Khaled Chawa, Feng Lin, Boyuan Chen
+Categories: cs.SE, cs.CL, cs.LG, cs.SE

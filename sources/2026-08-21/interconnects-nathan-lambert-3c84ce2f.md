@@ -1,0 +1,10 @@
+---
+title: I wrote an AI textbook — how long until AI can do it better?
+url: 'https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until'
+source: Interconnects (Nathan Lambert)
+source_type: rss
+language: en
+published: '2026-08-12T13:01:16.000Z'
+fetched_at: '2026-08-21T11:01:58.530Z'
+---
+Reflections on AI's writing ability and how AI models get more capable.

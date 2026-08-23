@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T09:24:50.283Z",
+  "topics": [
+    {
+      "file": "sources/2026-06-18/hermes-agent-release-2026-6-5-curated.md",
+      "title": "Hermes Agent v0.16.0 不只是 CLI 了，桌面版、中文界面和远程网关才是重点",
+      "slug": "Hermes Agent v0.16.0 不只是 CLI 了，桌面版、中文界面和远程网关才是重点",
+      "angle": "从 v0.16.0 的 Surface Release 切入，讲清 Hermes 为什么从高手工具走向可交付界面：桌面 app、浏览器管理台、简体中文界面、远程网关、多 Profile、技能瘦身和模型选择器。读者关心的是一个 Agent 产品从能跑到能交给别人用，中间还差哪些表面层和管理层。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "Hermes/NousResearch 是重点生态，新版本有明确版本号、官方 release、中文界面和桌面端利益点，适合写成迁移与采用清单。",
+      "reason": "相比昨天的 Hermes Studio 主题，这篇聚焦 Hermes Agent v0.16.0 的桌面化、管理面和中文体验，事实主源更强，读者行动不同。"
+    },
+    {
+      "file": "sources/2026-06-18/openclaw-release-2026-6-8-curated.md",
+      "title": "OpenClaw v2026.6.8 的重点不是炫功能，而是让个人 AI 助手更可靠",
+      "slug": "OpenClaw v2026.6.8 的重点不是炫功能，而是让个人 AI 助手更可靠",
+      "angle": "把 OpenClaw v2026.6.8 写成个人 AI 助手的可靠性检查表：消息通道是否稳、模型路由是否可控、usage 是否看得见、搜索默认值是否可预期、移动端和记忆状态是否能恢复。读者关心的是一个常驻助手能不能承接日常任务，而不是只看仓库星标。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "OpenClaw 是重点生态，v2026.6.8 有官方 release 和安装入口，可靠性清单能直接指导是否升级或试用。",
+      "reason": "昨天已经写过 OpenClaw 多通道交付，今天换成可靠性验收角度，覆盖 usage、搜索默认值、UI/mobile、memory/state 等更完整的版本变化。"
+    },
+    {
+      "file": "sources/2026-06-18/firecrawl-v2-10-curated.md",
+      "title": "Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流",
+      "slug": "Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流",
+      "angle": "从 v2.10 的 parse、lockdown、question、highlights、video 和 search domain filters 切入，做一份 Agent 网页资料入口选择清单。读者关心的是什么时候用 search，什么时候 scrape，什么时候 parse 本地文件，什么时候只要 evidence highlights。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "Firecrawl GitHub 认知强，v2.10 release 有明确 API 变化，能落到写作、调研、RAG 和 Agent 数据入口。",
+      "reason": "比 dry-run 的泛泛 Firecrawl 上手更具体，版本变化能支撑更有重点的文章。"
+    },
+    {
+      "file": "sources/2026-06-18/x-chenchengpro-ee4bc478.md",
+      "title": "Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄",
+      "slug": "Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄",
+      "angle": "用 Warp CEO 提到的双层循环做一个可复用方法：内循环负责每次 issue triage，外循环从点赞、纠正、标签漂移里提炼规则，再把 Skill 当文件开 PR 更新。读者关心的是如何让 Agent 技能从一次性 prompt 变成会复盘的工作流。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "Agent loop 和 Skill 自我改进是开发者高关注题，GitHub issue triage 是可落地场景。",
+      "reason": "这是今天 X 里最有方法论价值的中文素材，能补足 release 文章之外的工作流思考。"
+    },
+    {
+      "file": "sources/2026-06-18/x-hardmaru-62c43536.md",
+      "title": "Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理",
+      "slug": "Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理",
+      "angle": "从 Sakana Marlin 的 Ultra Deep Research 和最长 8 小时自主推理切入，讨论深度研究 Agent 和普通秒回助手的差异：假设形成、网页导航、矛盾处理、结构化报告和 slides。读者关心的是哪些任务值得交给长推理 Agent，哪些仍然不该交。",
+      "voice": "first-person",
+      "reach": 7,
+      "reach_note": "Sakana AI 有研究者认知，Hardmaru 一手发布信号强，长推理研究 Agent 是新鲜方向。",
+      "reason": "这篇能提供趋势判断，和工具上手类文章形成差异。"
+    },
+    {
+      "file": "sources/2026-06-18/venturebeat-ai-a102a18a.md",
+      "title": "Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活",
+      "slug": "Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活",
+      "angle": "从 Cowork 让 Claude Desktop 在文件夹里做非代码任务切入，讲它和 Claude Code 的关系：不是写代码，而是整理收据、做报告、清邮件、做资料归档。读者关心的是 Agent 什么时候能从开发者工具变成日常办公工具。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "Claude/Claude Code 品牌强，文件 Agent 的利益点清楚，适合写成办公场景清单。",
+      "reason": "这是今天 RSS 里最适合普通读者的 Agent 题，和代码工具主题拉开差异。"
+    },
+    {
+      "file": "sources/2026-06-18/x-jeffdean-f43b9700.md",
+      "title": "Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品",
+      "slug": "Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品",
+      "angle": "从 Jeff Dean 提到的 Gemini 3.5 Live Translate 支持 70+ 语言、进入 Google Translate 和 Live API 切入，写语音到语音翻译从 demo 走向日常产品的变化。读者关心的是会议、旅行、客服和跨语种协作里，实时翻译什么时候值得试。",
+      "voice": "narrative",
+      "reach": 7,
+      "reach_note": "Gemini 和 Google Translate 品牌认知强，70+ 语言和 Live API 有清晰产品入口。",
+      "reason": "同批文章需要一个非代码、非 Agent 框架题，语音翻译能扩展内容面。"
+    }
+  ]
+}

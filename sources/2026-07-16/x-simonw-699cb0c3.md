@@ -1,0 +1,19 @@
+---
+title: >-
+  New TIL: Using uvx in GitHub Actions in a cache-friendly way I finally found a
+  recipe that I like for running `uvx tool-name` in GitHub Actions without
+  downloading a fresh copy of 
+source: X @simonw
+url: 'https://x.com/simonw/status/2076836099910193484'
+date: 'Tue Jul 14 01:08:06 +0000 2026'
+likes: 335
+reposts: 35
+replies: 24
+source_type: x
+language: en
+account_name: Simon Willison
+fetched_at: '2026-07-15T23:04:51.646Z'
+---
+New TIL: Using uvx in GitHub Actions in a cache-friendly way
+
+I finally found a recipe that I like for running `uvx tool-name` in GitHub Actions without downloading a fresh copy of the package every time https://t.co/YgvhD1giFZ

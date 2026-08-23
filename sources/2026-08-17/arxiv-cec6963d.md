@@ -1,0 +1,20 @@
+---
+title: 'Split the Labor: Separating Evidence Interpretation from Decision Aggregation'
+url: 'https://arxiv.org/abs/2608.14509v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Zhelun Wu
+categories:
+  - cs.AI
+  - cs.CL
+  - cs.LG
+  - cs.AI
+published: '2026-08-14T17:24:55Z'
+fetched_at: '2026-08-17T11:03:44.073Z'
+---
+Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and context. Combining interpretations rewards fixed arithmetic, comparability across instances, and the option to return nothing. Once separated, the design problem becomes the interface between them. We propose a four-field evidence tuple (hypothesis, reliability bucket, rationale, provenance) and show that fixing it determines both halves. The separation also reveals a failure mode in how such systems combine, which we call count-scale drift. Thresholding a sum of unnormalized weights is exactly posterior thresholding, but at an operating point that slides with the number of sources consulted. The slide grows with reader reliability. When source reliabilities differ, the vote rule and the posterior order instances differently, and no threshold reconciles them. Pooling calibrated log-likelihood ratios addresses both problems. The fix is arithmetic rather than architectural, and applies to a class of rules beyond language models: score-summing triage engines, diagnostic panels scored by counting positives, and additive multi-signal detectors. We then instantiate the principle twice on one longitudinal corpus, once after outcomes resolve and once before. The same partition helps in both, at different granularities: over reading in the first, over learning capacity i
+
+Authors: Zhelun Wu
+Categories: cs.AI, cs.CL, cs.LG, cs.AI

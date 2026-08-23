@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-06",
+  "created_at": "2026-08-06T11:21:01.876Z",
+  "updated_at": "2026-08-06T11:37:38.508Z",
+  "source_count": 143,
+  "topics": [
+    {
+      "id": "sources/2026-08-06/sopilot-hot-2085189409083924545-8f31ea14.md",
+      "file": "sources/2026-08-06/sopilot-hot-2085189409083924545-8f31ea14.md",
+      "slug": "DeepSeek-API涨价前重算三笔成本",
+      "title": "DeepSeek API 预告涨价：现在就该重算哪三笔成本",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.035,
+      "reach_note": "DeepSeek 品牌、涨价带来的直接利益影响和可立即执行的成本测算同时具备。",
+      "selection_reason": "涨价会直接影响已经接入生产环境的读者，讨论热度高且行动窗口明确，适合提供迁移前的理性决策框架。",
+      "selected_at": "2026-08-06T11:21:01.877Z",
+      "updated_at": "2026-08-06T11:25:46.619Z",
+      "draft_ready_at": "2026-08-06T11:25:46.599Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-06/DeepSeek API 预告涨价，现在就该重算哪三笔成本",
+      "meta_path": "drafts/2026-08-06/DeepSeek API 预告涨价，现在就该重算哪三笔成本/DeepSeek API 预告涨价，现在就该重算哪三笔成本.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-06/ai-now-institute-db6bee5b.md",
+      "file": "sources/2026-08-06/ai-now-institute-db6bee5b.md",
+      "slug": "AI执行任务前的安全闸",
+      "title": "OpenAI、Anthropic 都踩过的坑：AI 执行任务前要加哪几道安全闸",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.046,
+      "reach_note": "OpenAI 与 Anthropic 提供品牌认知，读者可以立刻检查执行权限和隔离设置。",
+      "selection_reason": "该主题有政策简报、事故分析和后续讨论相互支撑，能够从真实失败链条提炼出具体防护动作，而不是泛泛谈安全。",
+      "selected_at": "2026-08-06T11:21:01.877Z",
+      "updated_at": "2026-08-06T11:28:36.168Z",
+      "draft_ready_at": "2026-08-06T11:28:36.168Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-06/OpenAI、Anthropic 都踩过的坑，AI 执行任务前要加哪几道安全闸",
+      "meta_path": "drafts/2026-08-06/OpenAI、Anthropic 都踩过的坑，AI 执行任务前要加哪几道安全闸/OpenAI、Anthropic 都踩过的坑，AI 执行任务前要加哪几道安全闸.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-06/google-ai-blog-3ce791ab.md",
+      "file": "sources/2026-08-06/google-ai-blog-3ce791ab.md",
+      "slug": "Google免费AI实战课怎么学",
+      "title": "Google 的免费 AI 实战课有 35 万人参加：普通人该怎么学才不白学",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.02,
+      "reach_note": "Google 品牌、免费利益点和可立即参与学习三项齐全。",
+      "selection_reason": "它面向更广泛的学习者，不局限于开发者新闻；35 万人参与也提供了清晰的采用信号，适合讲清楚如何从课程消费转向作品产出。",
+      "selected_at": "2026-08-06T11:21:01.877Z",
+      "updated_at": "2026-08-06T11:30:02.191Z",
+      "draft_ready_at": "2026-08-06T11:30:02.190Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-06/Google 的免费 AI 实战课有 35 万人参加：普通人该怎么学才不白学",
+      "meta_path": "drafts/2026-08-06/Google 的免费 AI 实战课有 35 万人参加：普通人该怎么学才不白学/Google 的免费 AI 实战课有 35 万人参加：普通人该怎么学才不白学.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-06/x-xiangxiang103-505a66c3.md",
+      "file": "sources/2026-08-06/x-xiangxiang103-505a66c3.md",
+      "slug": "Codex长任务新会话接力法",
+      "title": "Codex 长任务太乱又太贵？用新会话接力保留关键上下文",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.028,
+      "reach_note": "Codex 品牌与节省 token 的利益点明确，读者可以立即在现有长任务中尝试。",
+      "selection_reason": "这是具体且低门槛的成本控制技巧，也能服务内容制作等非编程场景；长上下文研究可补充其方法依据和适用边界。",
+      "selected_at": "2026-08-06T11:21:01.878Z",
+      "updated_at": "2026-08-06T11:31:28.368Z",
+      "draft_ready_at": "2026-08-06T11:31:28.367Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-06/Codex 长任务太乱又太贵？用新会话接力保留关键上下文",
+      "meta_path": "drafts/2026-08-06/Codex 长任务太乱又太贵？用新会话接力保留关键上下文/Codex 长任务太乱又太贵？用新会话接力保留关键上下文.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-06/github-trending-6eec8646.md",
+      "file": "sources/2026-08-06/github-trending-6eec8646.md",
+      "slug": "用Ollama本地跑Kimi-GLM和DeepSeek",
+      "title": "用 Ollama 在本地跑 Kimi、GLM 和 DeepSeek：先从一个最小任务开始",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.031,
+      "reach_note": "Kimi、GLM、DeepSeek 具备品牌认知，本地运行节省调用成本且可以马上动手。",
+      "selection_reason": "项目持续更新、入口可验证，覆盖多个中文读者熟悉的模型，适合产出有结果对照的本地运行实操。",
+      "selected_at": "2026-08-06T11:21:01.878Z",
+      "updated_at": "2026-08-06T11:32:31.802Z",
+      "draft_ready_at": "2026-08-06T11:32:31.802Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-06/用 Ollama 在本地跑 Kimi、GLM 和 DeepSeek：先从一个最小任务开始",
+      "meta_path": "drafts/2026-08-06/用 Ollama 在本地跑 Kimi、GLM 和 DeepSeek：先从一个最小任务开始/用 Ollama 在本地跑 Kimi、GLM 和 DeepSeek：先从一个最小任务开始.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-06/sopilot-hot-2085147881569177834-32fc2be8.md",
+      "file": "sources/2026-08-06/sopilot-hot-2085147881569177834-32fc2be8.md",
+      "slug": "同一个DeepSeek为何表现不同",
+      "title": "同一个 DeepSeek，换个运行框架为什么像换了模型",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.036,
+      "reach_note": "DeepSeek 品牌加上可复现测试，能帮助读者避免把运行框架的问题误判成模型能力问题。",
+      "selection_reason": "多个当天来源分别提供运行体验、上下文截断和系统提示变化的证据，足以支撑一个反常识判断：实际效果不只由模型决定。",
+      "selected_at": "2026-08-06T11:21:01.878Z",
+      "updated_at": "2026-08-06T11:33:39.157Z",
+      "draft_ready_at": "2026-08-06T11:33:39.157Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-06/同一个 DeepSeek，换个运行框架为什么像换了模型",
+      "meta_path": "drafts/2026-08-06/同一个 DeepSeek，换个运行框架为什么像换了模型/同一个 DeepSeek，换个运行框架为什么像换了模型.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-06/anthropic-python-sdk-releases-5ff135da.md",
+      "file": "sources/2026-08-06/anthropic-python-sdk-releases-5ff135da.md",
+      "slug": "Claude-Opus-5接入Python与工具动态切换",
+      "title": "Claude Opus 5 接入 Python：工具动态切换与自动回退怎么用",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.038,
+      "reach_note": "Claude 品牌认知强，升级 SDK 后可以立即验证新模型和工具切换能力。",
+      "selection_reason": "这是信息明确的官方版本记录，既有新模型，也有会影响应用可靠性的接口变化，适合做成版本变化表和最小验证示例。",
+      "selected_at": "2026-08-06T11:21:01.879Z",
+      "updated_at": "2026-08-06T11:37:38.508Z",
+      "draft_ready_at": "2026-08-06T11:37:38.508Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-06/Claude Opus 5 接入 Python：工具动态切换与自动回退怎么用",
+      "meta_path": "drafts/2026-08-06/Claude Opus 5 接入 Python：工具动态切换与自动回退怎么用/Claude Opus 5 接入 Python：工具动态切换与自动回退怎么用.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-06T11:21:01.876Z",
+      "source_count": 143
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-06T11:21:01.877Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-06T11:21:01.877Z",
+      "topic_id": "sources/2026-08-06/sopilot-hot-2085189409083924545-8f31ea14.md",
+      "slug": "DeepSeek-API涨价前重算三笔成本"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-06T11:21:01.877Z",
+      "topic_id": "sources/2026-08-06/ai-now-institute-db6bee5b.md",
+      "slug": "AI执行任务前的安全闸"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-06T11:21:01.878Z",
+      "topic_id": "sources/2026-08-06/google-ai-blog-3ce791ab.md",
+      "slug": "Google免费AI实战课怎么学"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-06T11:21:01.878Z",
+      "topic_id": "sources/2026-08-06/x-xiangxiang103-505a66c3.md",
+      "slug": "Codex长任务新会话接力法"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-06T11:21:01.878Z",
+      "topic_id": "sources/2026-08-06/github-trending-6eec8646.md",
+      "slug": "用Ollama本地跑Kimi-GLM和DeepSeek"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-06T11:21:01.878Z",
+      "topic_id": "sources/2026-08-06/sopilot-hot-2085147881569177834-32fc2be8.md",
+      "slug": "同一个DeepSeek为何表现不同"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-06T11:21:01.879Z",
+      "topic_id": "sources/2026-08-06/anthropic-python-sdk-releases-5ff135da.md",
+      "slug": "Claude-Opus-5接入Python与工具动态切换"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-06T11:25:46.619Z",
+      "topic_id": "sources/2026-08-06/sopilot-hot-2085189409083924545-8f31ea14.md",
+      "slug": "DeepSeek-API涨价前重算三笔成本",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-06T11:28:36.168Z",
+      "topic_id": "sources/2026-08-06/ai-now-institute-db6bee5b.md",
+      "slug": "AI执行任务前的安全闸",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-06T11:30:02.191Z",
+      "topic_id": "sources/2026-08-06/google-ai-blog-3ce791ab.md",
+      "slug": "Google免费AI实战课怎么学",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-06T11:31:28.368Z",
+      "topic_id": "sources/2026-08-06/x-xiangxiang103-505a66c3.md",
+      "slug": "Codex长任务新会话接力法",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-06T11:32:31.802Z",
+      "topic_id": "sources/2026-08-06/github-trending-6eec8646.md",
+      "slug": "用Ollama本地跑Kimi-GLM和DeepSeek",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-06T11:33:39.157Z",
+      "topic_id": "sources/2026-08-06/sopilot-hot-2085147881569177834-32fc2be8.md",
+      "slug": "同一个DeepSeek为何表现不同",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-06T11:37:38.508Z",
+      "topic_id": "sources/2026-08-06/anthropic-python-sdk-releases-5ff135da.md",
+      "slug": "Claude-Opus-5接入Python与工具动态切换",
+      "error": ""
+    }
+  ]
+}

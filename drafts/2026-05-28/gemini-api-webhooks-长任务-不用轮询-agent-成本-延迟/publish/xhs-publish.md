@@ -1,0 +1,88 @@
+# 小红书发布包
+
+## 标题
+Gemini API 加了 Webhooks，长任务可以少做轮询了
+
+## 正文
+如果你的产品里已经有图片生成、视频生成、文档解析、Batch API 或长链路 Agent，轮询不是一个小问题。
+
+每隔几秒 `GET /operations` 一次，看起来只是查状态。放到几千个并发任务里，它会变成持续的空请求、额外延迟、队列噪声和一堆没有业务价值的日志。
+
+Google 在 2026 年 5 月 4 日发布的 Gemini API Event-Driven Webhooks，解决的就是这个等待模型。官方给的定义很直接，Webhooks 是 push-based notification system，可以在任务完成时向你的服务器发送实时 HTTP POST payload。
+
+不是让你的系统反复问 done 了吗，而是让 Gemini API 在事件发生时推给你。
+
+轮询浪费在哪里，不要只看单次请求。假设一个任务跑 30 分钟，每 10 秒查一次状态，一个任务就是 180 次状态查询。1 万个任务就是 180 万次查询，其中绝大多数只会得到同一个答案，还没好。
+
+延迟也藏在轮询间隔里。任务可能在第 1 秒完成，但下一次查询在第 10 秒，产品层面仍然显示处理中。为了降低这段等待，你会把间隔调短，然后请求数继续膨胀。
+
+对 Agent 产品来说，成本不只是模型调用单价。还有为了等待任务完成而占着的 worker、状态查询任务、重试逻辑、告警、日志和数据库写入。Webhooks 的价值，是把这些等待从主路径里拿掉。
+
+Google 提到的场景包括 Deep Research、长视频生成，以及通过 Batch API 处理数千个 prompts。这类任务可能跑几分钟，也可能跑几小时。它们不适合让用户请求一直挂着，也不适合让后端用高频轮询硬撑。
+
+推荐的链路可以压得很简单。
+
+```text
+提交任务并带 webhook_config
+保存 job_id 和业务 id
+Gemini 完成后 POST 到 callback
+callback 验签并写入事件表
+内部 worker 取结果指针
+更新业务状态并通知前端
+```
+
+这里有两个接入方式。静态 webhook 放在项目级别配置，适合统一入站，比如所有 batch 完成事件都走同一个 callback。动态 webhook 放在单次请求里，通过 `webhook_config` 带 `uris` 和 `user_metadata`，适合把不同租户、不同流水线或临时任务路由到不同 endpoint。
+
+安全模型也分开。官方说明里，项目级静态 webhook 使用 HMAC，按请求动态 webhook 使用 JWKS。这个差异会影响密钥怎么保存、callback 怎么验签，以及多租户系统怎么隔离回调入口。
+
+Google 这次选择遵循 Standard Webhooks。每次请求会带 `webhook-signature`、`webhook-id`、`webhook-timestamp`。这三个头不是装饰，生产里要全部用起来。
+
+`webhook-signature` 用来验真，`webhook-timestamp` 用来降低重放风险，`webhook-id` 用来做幂等。官方还说明是 at-least-once delivery，并且失败通知会自动重试最长 24 小时。
+
+所以 webhook handler 不能假设只收到一次。它要假设同一个事件可能重复到达，也要假设业务处理可能在 Gemini 已经投递成功后失败。
+
+payload 也不是把大结果直接塞过来。Gemini Webhooks 走 thin payload 模型，回调里通常有 event type、version、timestamp 和 data。data 里可能是 batch id、`output_file_uri` 或错误信息。
+
+这对视频、批量推理和文档处理很关键。callback 只负责告诉你结果在哪里，真正下载结果、转存、解析、通知用户，应该交给后面的 worker。
+
+## 实现清单
+
+- 状态表，保存业务 id、Gemini job id、内部状态、结果 URI、更新时间和错误信息。
+
+- 事件表，保存 `webhook-id`、事件类型、任务 id、原始 payload hash、接收时间。重复事件直接返回成功，不再重复触发下游动作。
+
+- 验签顺序，先读取 raw body，再交给 Standard Webhooks 库或官方 JWKS 校验。不要先 JSON parse，再拿改过的 body 去验签。
+
+- 状态机，把 Gemini 原始事件转换成内部状态，比如 pending、running、succeeded、failed。前端和客户系统不要直接绑定外部事件名。
+
+- 快速 ACK，callback 完成验签、幂等检查、事件入库后尽快返回 2xx。下载结果、文档解析、用户通知都放到内部队列。
+
+- 失败重试，官方负责 webhook 投递重试，你的系统要负责 result fetch、转存和下游通知的重试。两边的重试不要混在一个 HTTP handler 里。
+
+- 低频对账，保留一个兜底任务扫描长时间 stuck 的 job。它不是主路径轮询，只用于发现 callback 服务宕机、内部队列失败或业务状态没落库。
+
+- 观测指标，记录验签失败数、重复事件数、callback 响应耗时、从事件到用户可见完成的耗时。Webhooks 降低轮询成本，但不会自动替你修好可观测性。
+
+这套架构不适合所有调用。普通 `generateContent` 能直接返回结果，或者 streaming response 能满足体验，就没必要引入 webhook。Webhooks 的适用边界，是任务生命周期明显长于一次请求，且用户不需要在连接里同步等待。
+
+还有一个现实边界，你需要一个稳定接收 HTTPS POST 的后端 endpoint。它要能保存 signing secret，要能保留 raw body，要能在业务系统短暂异常时保护事件不丢。没有这些基础，直接把轮询删掉反而会把问题藏到更难排查的地方。
+
+我认为这次更新的价值，不在少写几行 `GET`。它更像是 Gemini API 给长任务补上了一个生产系统应该有的事件出口。
+
+接下来可以做一个很小的改造。选一个已有的 batch、视频生成或文档解析链路，把高频轮询降级成兜底对账，把完成通知切到 webhook。上线前只验三件事，签名能挡住伪造请求，重复事件不会重复扣业务状态，结果处理失败能从内部队列恢复。
+
+本文为 AI 辅助整理，关键事实已按 Google AI Blog 和 Gemini API 文档核对。
+
+## 相关链接
+
+- [Google AI Blog 原文](//blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/)
+- [Gemini API Webhooks 文档](//ai.google.dev/gemini-api/docs/webhooks)
+- [Standard Webhooks 规范](//github.com/standard-webhooks/standard-webhooks)
+
+<!-- REACH: 8/10 | 品牌✓ 利益点✓ 可操作✓ -->
+
+## 标签
+#GeminiAPI #Webhooks #Agent #异步任务 #开发者
+
+## 发布入口
+https://creator.xiaohongshu.com/

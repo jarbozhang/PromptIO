@@ -1,0 +1,13 @@
+---
+title: Alexa Plus is getting an AI update to handle more complicated instructions
+url: >-
+  https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices
+source: The Verge AI
+source_type: rss
+language: en
+published: '2026-07-23T21:15:06.000Z'
+fetched_at: '2026-07-24T11:00:38.092Z'
+---
+Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to the correct device.
+In an example shared by Amazon, a person with a supported washing machine can say, "Alexa, my kid's soccer jersey could use a deep clean, but the tag says cold wash only." From there, Alexa Plus would navigate the washer's cycle options and choose the correct setting. The new integrations are powered  …
+Read the full story at The Verge.

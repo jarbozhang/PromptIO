@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-07",
+  "created_at": "2026-08-07T11:09:59.728Z",
+  "updated_at": "2026-08-07T11:18:28.585Z",
+  "source_count": 141,
+  "topics": [
+    {
+      "id": "sources/2026-08-07/sopilot-hot-2085637791355211983-6c3c3c38.md",
+      "file": "sources/2026-08-07/sopilot-hot-2085637791355211983-6c3c3c38.md",
+      "slug": "北京AI城市规划开源征集",
+      "title": "北京拿出43.6平方公里让 AI 参与规划：开发者可以这样提交方案",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.024,
+      "reach_note": "北京具有强认知度，真实城区规划带来明确利益点，读者还能通过项目仓库实际参与。",
+      "selection_reason": "题目把 AI 从聊天和写代码带进真实城市建设，兼具传播性、公共议题价值和清晰参与入口。",
+      "selected_at": "2026-08-07T11:09:59.729Z",
+      "updated_at": "2026-08-07T11:11:06.608Z",
+      "draft_ready_at": "2026-08-07T11:11:06.608Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-07/北京拿出43.6平方公里让 AI 参与规划：开发者可以这样提交方案",
+      "meta_path": "drafts/2026-08-07/北京拿出43.6平方公里让 AI 参与规划：开发者可以这样提交方案/北京拿出43.6平方公里让 AI 参与规划：开发者可以这样提交方案.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-07/x-axiaisacat-5a31b980.md",
+      "file": "sources/2026-08-07/x-axiaisacat-5a31b980.md",
+      "slug": "一个人用Toonflow做动画短剧",
+      "title": "一个人做2分钟动画短剧：用开源 Toonflow 跑通剧本到视频",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.028,
+      "reach_note": "开源和低成本构成明确利益点，创作者可以下载工具并用自己的短剧素材立即试做。",
+      "selection_reason": "这是面向非开发者的直接生产场景，成果可视化强，也能通过实测纠正“一键全自动”的营销预期。",
+      "selected_at": "2026-08-07T11:09:59.730Z",
+      "updated_at": "2026-08-07T11:12:27.748Z",
+      "draft_ready_at": "2026-08-07T11:12:27.748Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-07/一个人做2分钟动画短剧：用开源 Toonflow 跑通剧本到视频",
+      "meta_path": "drafts/2026-08-07/一个人做2分钟动画短剧：用开源 Toonflow 跑通剧本到视频/一个人做2分钟动画短剧：用开源 Toonflow 跑通剧本到视频.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-07/anthropic-python-sdk-releases-537951e7.md",
+      "file": "sources/2026-08-07/anthropic-python-sdk-releases-537951e7.md",
+      "slug": "Claude-Python-SDK-长上下文与二进制文件修复",
+      "title": "Claude Python SDK 0.119：长上下文溢出和二进制文件工具终于能正确处理",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.038,
+      "reach_note": "Claude 具备品牌认知，新版修复直接影响文件工具和长任务，Python 用户升级后即可验证。",
+      "selection_reason": "这是信息明确的官方版本源，两个变化都对应真实开发痛点，适合写成短而实用的升级解读。",
+      "selected_at": "2026-08-07T11:09:59.730Z",
+      "updated_at": "2026-08-07T11:13:11.933Z",
+      "draft_ready_at": "2026-08-07T11:13:11.933Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-07/Claude Python SDK 0.119：长上下文溢出和二进制文件工具终于能正确处理",
+      "meta_path": "drafts/2026-08-07/Claude Python SDK 0.119：长上下文溢出和二进制文件工具终于能正确处理/Claude Python SDK 0.119：长上下文溢出和二进制文件工具终于能正确处理.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-07/arstechnica-ai-043baf57.md",
+      "file": "sources/2026-08-07/arstechnica-ai-043baf57.md",
+      "slug": "OpenAI模型越过沙箱事故复盘",
+      "title": "OpenAI 模型越过沙箱之后：10天补丁窗口暴露了哪些安全缺口",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.035,
+      "reach_note": "OpenAI 带来品牌关注，事故直接关系代码执行安全，团队可据此检查自身隔离与监控措施。",
+      "selection_reason": "它提供了具体事件和补丁时间窗口，能够写出有因果链条的风险复盘，补足当天选题中的安全内容。",
+      "selected_at": "2026-08-07T11:09:59.730Z",
+      "updated_at": "2026-08-07T11:14:16.101Z",
+      "draft_ready_at": "2026-08-07T11:14:16.101Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-07/OpenAI 模型越过沙箱之后，10天补丁窗口暴露了哪些安全缺口",
+      "meta_path": "drafts/2026-08-07/OpenAI 模型越过沙箱之后，10天补丁窗口暴露了哪些安全缺口/OpenAI 模型越过沙箱之后，10天补丁窗口暴露了哪些安全缺口.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-07/techcrunch-ai-03225603.md",
+      "file": "sources/2026-08-07/techcrunch-ai-03225603.md",
+      "slug": "Google地图订餐订酒店体验",
+      "title": "Google Maps 不只负责导航了：订餐和订酒店值不值得交给它",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.026,
+      "reach_note": "Google Maps 具有广泛品牌认知，订餐和订酒店是明确利益点，读者可在功能开放后按真实任务验证。",
+      "selection_reason": "题目贴近普通用户的高频生活决策，同时能讨论平台从信息入口转向交易执行入口带来的便利与风险。",
+      "selected_at": "2026-08-07T11:09:59.731Z",
+      "updated_at": "2026-08-07T11:16:03.234Z",
+      "draft_ready_at": "2026-08-07T11:16:03.234Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-07/Google Maps 不只负责导航了：订餐和订酒店值不值得交给它",
+      "meta_path": "drafts/2026-08-07/Google Maps 不只负责导航了：订餐和订酒店值不值得交给它/Google Maps 不只负责导航了：订餐和订酒店值不值得交给它.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-07/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-08-07/vllm-releases-d6f25b58.md",
+      "slug": "DeepSeek-V4本地部署提速",
+      "title": "DeepSeek V4 本地部署迎来一轮提速：vLLM 0.24 值不值得升级",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.034,
+      "reach_note": "DeepSeek 品牌认知高，本地推理提速是明确利益点，已有正式版本可供部署用户升级验证。",
+      "selection_reason": "官方发布记录包含具体优化方向，既能满足 DeepSeek 热度，也能沉淀为部署决策而非只转述跑分。",
+      "selected_at": "2026-08-07T11:09:59.731Z",
+      "updated_at": "2026-08-07T11:17:35.317Z",
+      "draft_ready_at": "2026-08-07T11:17:35.316Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-07/DeepSeek V4 本地部署迎来一轮提速，vLLM 0.24 值不值得升级",
+      "meta_path": "drafts/2026-08-07/DeepSeek V4 本地部署迎来一轮提速，vLLM 0.24 值不值得升级/DeepSeek V4 本地部署迎来一轮提速，vLLM 0.24 值不值得升级.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-07/sopilot-hot-2085553932940857741-82a56545.md",
+      "file": "sources/2026-08-07/sopilot-hot-2085553932940857741-82a56545.md",
+      "slug": "Kimi新插件选用指南",
+      "title": "Kimi 新插件怎么选：WebBridge 与 Computer Use 分别适合哪些任务",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 72,
+      "recent_similarity": 0.032,
+      "reach_note": "Kimi 品牌认知明确，两款插件能直接安装试用，选型结论可立即减少配置和试错成本。",
+      "selection_reason": "讨论热度集中在两款插件的能力边界与兼容性，适合做有明确结论的选型稿，而不是重复产品宣传。",
+      "selected_at": "2026-08-07T11:09:59.731Z",
+      "updated_at": "2026-08-07T11:18:28.585Z",
+      "draft_ready_at": "2026-08-07T11:18:28.584Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-07/Kimi 新插件怎么选：WebBridge 与 Computer Use 分别适合哪些任务",
+      "meta_path": "drafts/2026-08-07/Kimi 新插件怎么选：WebBridge 与 Computer Use 分别适合哪些任务/Kimi 新插件怎么选：WebBridge 与 Computer Use 分别适合哪些任务.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-07T11:09:59.729Z",
+      "source_count": 141
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-07T11:09:59.729Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-07T11:09:59.729Z",
+      "topic_id": "sources/2026-08-07/sopilot-hot-2085637791355211983-6c3c3c38.md",
+      "slug": "北京AI城市规划开源征集"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-07T11:09:59.730Z",
+      "topic_id": "sources/2026-08-07/x-axiaisacat-5a31b980.md",
+      "slug": "一个人用Toonflow做动画短剧"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-07T11:09:59.730Z",
+      "topic_id": "sources/2026-08-07/anthropic-python-sdk-releases-537951e7.md",
+      "slug": "Claude-Python-SDK-长上下文与二进制文件修复"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-07T11:09:59.730Z",
+      "topic_id": "sources/2026-08-07/arstechnica-ai-043baf57.md",
+      "slug": "OpenAI模型越过沙箱事故复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-07T11:09:59.731Z",
+      "topic_id": "sources/2026-08-07/techcrunch-ai-03225603.md",
+      "slug": "Google地图订餐订酒店体验"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-07T11:09:59.731Z",
+      "topic_id": "sources/2026-08-07/vllm-releases-d6f25b58.md",
+      "slug": "DeepSeek-V4本地部署提速"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-07T11:09:59.731Z",
+      "topic_id": "sources/2026-08-07/sopilot-hot-2085553932940857741-82a56545.md",
+      "slug": "Kimi新插件选用指南"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-07T11:11:06.608Z",
+      "topic_id": "sources/2026-08-07/sopilot-hot-2085637791355211983-6c3c3c38.md",
+      "slug": "北京AI城市规划开源征集",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-07T11:12:27.748Z",
+      "topic_id": "sources/2026-08-07/x-axiaisacat-5a31b980.md",
+      "slug": "一个人用Toonflow做动画短剧",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-07T11:13:11.933Z",
+      "topic_id": "sources/2026-08-07/anthropic-python-sdk-releases-537951e7.md",
+      "slug": "Claude-Python-SDK-长上下文与二进制文件修复",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-07T11:14:16.101Z",
+      "topic_id": "sources/2026-08-07/arstechnica-ai-043baf57.md",
+      "slug": "OpenAI模型越过沙箱事故复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-07T11:16:03.234Z",
+      "topic_id": "sources/2026-08-07/techcrunch-ai-03225603.md",
+      "slug": "Google地图订餐订酒店体验",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-07T11:17:35.317Z",
+      "topic_id": "sources/2026-08-07/vllm-releases-d6f25b58.md",
+      "slug": "DeepSeek-V4本地部署提速",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-07T11:18:28.585Z",
+      "topic_id": "sources/2026-08-07/sopilot-hot-2085553932940857741-82a56545.md",
+      "slug": "Kimi新插件选用指南",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+title: 一行 curl 查全网 AI 模型价格，models.dev 适合做你的选型表
+status: draft
+date: '2026-05-27'
+source: manual
+source_file: sources/2026-05-27/hacker-news-algolia-ai-filter-b32ded44.md
+source_title: 'Models.dev: open-source database of AI model specs, pricing, and capabilities'
+source_url: https://github.com/anomalyco/models.dev
+angle: 写成模型选型和省钱工具稿：用 models.dev 的公开 API 拉取模型规格、价格和能力，再教读者做自己的 OpenAI、DeepSeek、Qwen、Gemini 对比表。
+voice: first-person
+reach: 8
+tags:
+  - AI模型
+  - 模型选型
+  - 开发工具
+  - API
+  - 成本优化
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: curl-查-ai模型价格-models-dev-选型表.md
+cover:
+  status: skipped
+  model: gpt-image-2
+  prompt: >-
+    Horizontal editorial technology cover for a Chinese tech newsletter, designed for a 900x383
+    final crop. Show a realistic developer desk with a laptop displaying an abstract non-readable
+    terminal glow, a translucent comparison grid made of floating panels, colored token stacks, tiny
+    server blocks, and price-tag shaped icons without any text. The scene should clearly suggest
+    comparing AI model pricing, context limits, and capabilities from a public API. Modern clean
+    lighting, sharp details, professional tech media style, no readable text, no logos, no QR codes,
+    no UI screenshots, no brand marks.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: ''
+xhs_title: 一行 curl 查全网 AI 模型价格，models.dev 适合做你的选型表

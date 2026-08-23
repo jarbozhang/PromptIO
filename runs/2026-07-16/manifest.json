@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-16",
+  "created_at": "2026-07-15T23:10:20.332Z",
+  "updated_at": "2026-07-15T23:52:18.734Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-16/x-leerob-9724e0b0.md",
+      "file": "sources/2026-07-16/x-leerob-9724e0b0.md",
+      "slug": "把AI从代笔改成校对",
+      "title": "AI 写作越改越像机器？把它从代笔改成校对，文章反而更像人",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.053,
+      "reach_note": "标题直指写作者普遍痛点，并给出从代笔切换到校对的立即可用方法。",
+      "selection_reason": "它提供了清晰的反常识判断和具体替代做法，能帮助公众号与小红书作者改善成稿，而不是继续堆提示词。",
+      "selected_at": "2026-07-15T23:10:20.333Z",
+      "updated_at": "2026-07-15T23:12:16.036Z",
+      "draft_ready_at": "2026-07-15T23:12:16.035Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-16/AI 写作越改越像机器？把它从代笔改成校对，文章反而更像人",
+      "meta_path": "drafts/2026-07-16/AI 写作越改越像机器？把它从代笔改成校对，文章反而更像人/AI 写作越改越像机器？把它从代笔改成校对，文章反而更像人.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-16/x-dotey-ac5854ef.md",
+      "file": "sources/2026-07-16/x-dotey-ac5854ef.md",
+      "slug": "视频字幕的省钱校对法",
+      "title": "视频字幕别再整段丢给模型：这个 CLI 加可视化校对法更省钱",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.029,
+      "reach_note": "省下长视频翻译费用是明确利益点，CLI 处理与可视化校对也能直接复用到现有字幕流程。",
+      "selection_reason": "素材给出了真实的失败尝试、成本问题和改造路径，适合写成有取舍、有结果的创作者案例，而不是泛泛介绍工具。",
+      "selected_at": "2026-07-15T23:10:20.333Z",
+      "updated_at": "2026-07-15T23:14:32.896Z",
+      "draft_ready_at": "2026-07-15T23:14:32.895Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-16/视频字幕别再整段丢给模型：这个 CLI 加可视化校对法更省钱",
+      "meta_path": "drafts/2026-07-16/视频字幕别再整段丢给模型：这个 CLI 加可视化校对法更省钱/视频字幕别再整段丢给模型：这个 CLI 加可视化校对法更省钱.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-16/github-trending-f4dc7845.md",
+      "file": "sources/2026-07-16/github-trending-f4dc7845.md",
+      "slug": "免费自托管团队提示词库",
+      "title": "提示词库别只放聊天收藏夹：免费自托管 prompts.chat，把团队资料留在本地",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.047,
+      "reach_note": "免费、资料留在本地是明确利益点，自托管仓库提供了可以立即验证的入口。",
+      "selection_reason": "项目同时覆盖个人创作者和团队场景，重点不只是收集提示词，而是解决散落、不可追踪和敏感内容混放的问题。",
+      "selected_at": "2026-07-15T23:10:20.333Z",
+      "updated_at": "2026-07-15T23:17:06.121Z",
+      "draft_ready_at": "2026-07-15T23:17:06.121Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-16/提示词库别只放聊天收藏夹，免费自托管 prompts.chat，把团队资料留在本地",
+      "meta_path": "drafts/2026-07-16/提示词库别只放聊天收藏夹，免费自托管 prompts.chat，把团队资料留在本地/提示词库别只放聊天收藏夹，免费自托管 prompts.chat，把团队资料留在本地.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-16/vllm-releases-0026251e.md",
+      "file": "sources/2026-07-16/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1升级避坑",
+      "title": "vLLM 0.25.1 值得立刻升级：一个启动阻塞，一个会悄悄污染输出",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.059,
+      "reach_note": "vLLM 用户可通过升级直接避开启动失败和错误输出，品牌、风险收益与可执行动作都很明确。",
+      "selection_reason": "这不是普通小版本播报，其中一个问题会阻塞服务，另一个可能产生难以察觉的错误结果，值得部署团队立即排查。",
+      "selected_at": "2026-07-15T23:10:20.334Z",
+      "updated_at": "2026-07-15T23:19:29.721Z",
+      "draft_ready_at": "2026-07-15T23:19:29.721Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-16/vLLM 0.25.1 值得立刻升级：一个启动阻塞，一个会悄悄污染输出",
+      "meta_path": "drafts/2026-07-16/vLLM 0.25.1 值得立刻升级：一个启动阻塞，一个会悄悄污染输出/vLLM 0.25.1 值得立刻升级：一个启动阻塞，一个会悄悄污染输出.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-16/github-trending-978e35c6.md",
+      "file": "sources/2026-07-16/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent最新版上手",
+      "title": "Hermes Agent 最新版怎么用：先跑通一个会持续成长的个人智能体",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.078,
+      "reach_note": "NousResearch 与 openclaw 生态自带关注度，新版能力有明确收益，读者可直接从 GitHub 安装验证。",
+      "selection_reason": "Hermes Agent 是本号重点生态项目，最新提交活跃且已有较大采用规模，适合做一篇兼顾版本变化与实际入口的更新解读。",
+      "selected_at": "2026-07-15T23:10:20.334Z",
+      "updated_at": "2026-07-15T23:23:05.209Z",
+      "draft_ready_at": "2026-07-15T23:23:05.209Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-16/Hermes Agent 最新版怎么用：先跑通一个会持续成长的个人智能体",
+      "meta_path": "drafts/2026-07-16/Hermes Agent 最新版怎么用：先跑通一个会持续成长的个人智能体/Hermes Agent 最新版怎么用：先跑通一个会持续成长的个人智能体.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-16/github-trending-6eec8646.md",
+      "file": "sources/2026-07-16/github-trending-6eec8646.md",
+      "slug": "用Ollama本地跑主流模型",
+      "title": "用 Ollama 本地跑 Kimi、GLM 和 DeepSeek：不配 API Key 也能开始",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.037,
+      "reach_note": "Ollama、Kimi、GLM、DeepSeek 都有品牌认知，本地运行能节省 API 成本，读者可以立即执行命令。",
+      "selection_reason": "它把多个热门模型收进同一个本地入口，既满足省钱需求，也能产出完整的安装、选型和故障排查实测。",
+      "selected_at": "2026-07-15T23:10:20.334Z",
+      "updated_at": "2026-07-15T23:32:46.085Z",
+      "draft_ready_at": "2026-07-15T23:32:46.084Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-16/用 Ollama 本地跑 Kimi、GLM 和 DeepSeek：不配 API Key 也能开始",
+      "meta_path": "drafts/2026-07-16/用 Ollama 本地跑 Kimi、GLM 和 DeepSeek：不配 API Key 也能开始/用 Ollama 本地跑 Kimi、GLM 和 DeepSeek：不配 API Key 也能开始.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-16/techcrunch-ai-c9ca9bb8.md",
+      "file": "sources/2026-07-16/techcrunch-ai-c9ca9bb8.md",
+      "slug": "Codex键盘值不值230美元",
+      "title": "OpenAI 230 美元 Codex 键盘值不值：先看它替你省了哪些操作",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 118,
+      "recent_similarity": 0.028,
+      "reach_note": "OpenAI 与 Codex 提供品牌认知，230 美元形成明确购买利益点，读者可以据此决定买或不买。",
+      "selection_reason": "硬件发布本身有新鲜度，但真正有价值的是算清它解决了什么操作摩擦，避免把限量联名误当成必需品。",
+      "selected_at": "2026-07-15T23:10:20.334Z",
+      "updated_at": "2026-07-15T23:52:18.734Z",
+      "draft_ready_at": "2026-07-15T23:52:18.733Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-16/OpenAI 230 美元 Codex 键盘值不值：先看它替你省了哪些操作",
+      "meta_path": "drafts/2026-07-16/OpenAI 230 美元 Codex 键盘值不值：先看它替你省了哪些操作/OpenAI 230 美元 Codex 键盘值不值：先看它替你省了哪些操作.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-15T23:10:20.332Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-15T23:10:20.333Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-15T23:10:20.333Z",
+      "topic_id": "sources/2026-07-16/x-leerob-9724e0b0.md",
+      "slug": "把AI从代笔改成校对"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-15T23:10:20.333Z",
+      "topic_id": "sources/2026-07-16/x-dotey-ac5854ef.md",
+      "slug": "视频字幕的省钱校对法"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-15T23:10:20.333Z",
+      "topic_id": "sources/2026-07-16/github-trending-f4dc7845.md",
+      "slug": "免费自托管团队提示词库"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-15T23:10:20.334Z",
+      "topic_id": "sources/2026-07-16/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1升级避坑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-15T23:10:20.334Z",
+      "topic_id": "sources/2026-07-16/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent最新版上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-15T23:10:20.334Z",
+      "topic_id": "sources/2026-07-16/github-trending-6eec8646.md",
+      "slug": "用Ollama本地跑主流模型"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-15T23:10:20.334Z",
+      "topic_id": "sources/2026-07-16/techcrunch-ai-c9ca9bb8.md",
+      "slug": "Codex键盘值不值230美元"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-15T23:12:16.036Z",
+      "topic_id": "sources/2026-07-16/x-leerob-9724e0b0.md",
+      "slug": "把AI从代笔改成校对",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-15T23:14:32.896Z",
+      "topic_id": "sources/2026-07-16/x-dotey-ac5854ef.md",
+      "slug": "视频字幕的省钱校对法",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-15T23:17:06.121Z",
+      "topic_id": "sources/2026-07-16/github-trending-f4dc7845.md",
+      "slug": "免费自托管团队提示词库",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-15T23:19:29.721Z",
+      "topic_id": "sources/2026-07-16/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1升级避坑",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-15T23:23:05.209Z",
+      "topic_id": "sources/2026-07-16/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent最新版上手",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-15T23:28:05.232Z",
+      "topic_id": "sources/2026-07-16/github-trending-6eec8646.md",
+      "slug": "用Ollama本地跑主流模型",
+      "error": "codex timed out after 300000ms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-15T23:32:46.085Z",
+      "topic_id": "sources/2026-07-16/github-trending-6eec8646.md",
+      "slug": "用Ollama本地跑主流模型",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-15T23:37:46.702Z",
+      "topic_id": "sources/2026-07-16/techcrunch-ai-c9ca9bb8.md",
+      "slug": "Codex键盘值不值230美元",
+      "error": "codex timed out after 300000ms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-15T23:52:18.734Z",
+      "topic_id": "sources/2026-07-16/techcrunch-ai-c9ca9bb8.md",
+      "slug": "Codex键盘值不值230美元",
+      "error": ""
+    }
+  ]
+}

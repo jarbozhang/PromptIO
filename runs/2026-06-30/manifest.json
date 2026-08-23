@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-30",
+  "created_at": "2026-06-29T23:08:22.896Z",
+  "updated_at": "2026-06-29T23:28:49.107Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-06-30/x-emollick-3ddb7ced.md",
+      "file": "sources/2026-06-30/x-emollick-3ddb7ced.md",
+      "slug": "团队 AI 成本高不一定是模型太贵可能是流程没改",
+      "title": "团队 AI 成本高，不一定是模型太贵，可能是流程没改",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.036,
+      "reach_note": "AI 成本是强利益点，团队管理者可直接用来调整预算、流程和使用规则。",
+      "selection_reason": "这篇补足产品商业视角，不依赖单个工具热度，能把读者从“省 token 小技巧”拉到组织决策层面。",
+      "selected_at": "2026-06-29T23:08:22.897Z",
+      "updated_at": "2026-06-29T23:09:57.646Z",
+      "draft_ready_at": "2026-06-29T23:09:57.646Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-30/团队 AI 成本高，不一定是模型太贵，可能是流程没改",
+      "meta_path": "drafts/2026-06-30/团队 AI 成本高，不一定是模型太贵，可能是流程没改/团队 AI 成本高，不一定是模型太贵，可能是流程没改.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-30/x-dotey-f76cfad8.md",
+      "file": "sources/2026-06-30/x-dotey-f76cfad8.md",
+      "slug": "Meta 脑机接口新进展：不开刀把脑电翻译成句子离普通人还有多远",
+      "title": "Meta 脑机接口新进展：不开刀把脑电翻译成句子，离普通人还有多远",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.026,
+      "reach_note": "Meta 品牌强，脑机接口自带传播性，开源代码和现实限制让读者有可验证入口。",
+      "selection_reason": "这是当天少数面向普通科技读者也有吸引力的非开发者题，适合做反常识科普，能提升每日内容的题材宽度。",
+      "selected_at": "2026-06-29T23:08:22.897Z",
+      "updated_at": "2026-06-29T23:12:37.350Z",
+      "draft_ready_at": "2026-06-29T23:12:37.350Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-30/Meta 脑机接口新进展：不开刀把脑电翻译成句子，离普通人还有多远",
+      "meta_path": "drafts/2026-06-30/Meta 脑机接口新进展：不开刀把脑电翻译成句子，离普通人还有多远/Meta 脑机接口新进展：不开刀把脑电翻译成句子，离普通人还有多远.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-30/deepmind-blog-6c3ecf06.md",
+      "file": "sources/2026-06-30/deepmind-blog-6c3ecf06.md",
+      "slug": "AI Agent 进公司前先照着 Google DeepMind 控制路线图查一遍",
+      "title": "AI Agent 进公司前，先照着 Google DeepMind 这张控制路线图查一遍",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.029,
+      "reach_note": "Google DeepMind 品牌强，安全治理是明确利益点，团队可据此立刻做引入前自查。",
+      "selection_reason": "当天 Agent 题材很多，这篇能承担风险提醒角色，避免全是工具上手，也适合做企业和团队读者会收藏的安全审查稿。",
+      "selected_at": "2026-06-29T23:08:22.897Z",
+      "updated_at": "2026-06-29T23:14:12.229Z",
+      "draft_ready_at": "2026-06-29T23:14:12.229Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-30/AI Agent 进公司前，先照着 Google DeepMind 这张控制路线图查一遍",
+      "meta_path": "drafts/2026-06-30/AI Agent 进公司前，先照着 Google DeepMind 这张控制路线图查一遍/AI Agent 进公司前，先照着 Google DeepMind 这张控制路线图查一遍.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-30/replicate-blog-663277fd.md",
+      "file": "sources/2026-06-30/replicate-blog-663277fd.md",
+      "slug": "一张参考图生成固定角色：创作者该怎么选图像模型",
+      "title": "一张参考图生成固定角色：创作者该怎么选图像模型",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.038,
+      "reach_note": "创作者有明确利益点，一张参考图生成固定角色可直接试，Replicate 提供可验证模型入口。",
+      "selection_reason": "这篇补足创作者工作流线，操作门槛低，适合公众号做选型指南，也适合小红书做案例型种草。",
+      "selected_at": "2026-06-29T23:08:22.898Z",
+      "updated_at": "2026-06-29T23:17:06.581Z",
+      "draft_ready_at": "2026-06-29T23:17:06.580Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-30/一张参考图生成固定角色：创作者该怎么选图像模型",
+      "meta_path": "drafts/2026-06-30/一张参考图生成固定角色：创作者该怎么选图像模型/一张参考图生成固定角色：创作者该怎么选图像模型.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-30/x-dotey-ff7ee15d.md",
+      "file": "sources/2026-06-30/x-dotey-ff7ee15d.md",
+      "slug": "RepoPrompt 开源后，写代码前最该补的是上下文工程",
+      "title": "RepoPrompt 开源后，写代码前最该补的是上下文工程",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.04,
+      "reach_note": "OpenAI、Claude、Codex、GitHub 等品牌认知强，Homebrew/GitHub 可操作，并有节省 token 和提升代码质量的利益点。",
+      "selection_reason": "它把开发者每天都遇到的“AI 看不懂代码库”问题讲成了可执行方法，且有开源入口和安装路径，适合公众号和小红书同时传播。",
+      "selected_at": "2026-06-29T23:08:22.898Z",
+      "updated_at": "2026-06-29T23:18:05.025Z",
+      "draft_ready_at": "2026-06-29T23:18:05.024Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-30/RepoPrompt 开源后，写代码前最该补的是上下文工程",
+      "meta_path": "drafts/2026-06-30/RepoPrompt 开源后，写代码前最该补的是上下文工程/RepoPrompt 开源后，写代码前最该补的是上下文工程.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-30/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-06-30/vllm-releases-d6f25b58.md",
+      "slug": "vLLM 0.24.0 值不值得升：MiniMax-M3、DeepSeek-V4 和 ROCm 优化一次看懂",
+      "title": "vLLM 0.24.0 值不值得升：MiniMax-M3、DeepSeek-V4 和 ROCm 优化一次看懂",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 72,
+      "recent_similarity": 0.063,
+      "reach_note": "vLLM、DeepSeek、MiniMax 都有认知度，release 可验证，升级决策有直接操作价值。",
+      "selection_reason": "这是当天模型部署线最扎实的版本主源，信息量足，能服务正在跑推理服务的读者，而不是停留在新闻转述。",
+      "selected_at": "2026-06-29T23:08:22.898Z",
+      "updated_at": "2026-06-29T23:20:34.997Z",
+      "draft_ready_at": "2026-06-29T23:20:34.997Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-30/本地推理服务要不要升 vLLM 0.24.0，MiniMax-M3、DeepSeek-V4 和 ROCm 一次看懂",
+      "meta_path": "drafts/2026-06-30/本地推理服务要不要升 vLLM 0.24.0，MiniMax-M3、DeepSeek-V4 和 ROCm 一次看懂/本地推理服务要不要升 vLLM 0.24.0，MiniMax-M3、DeepSeek-V4 和 ROCm 一次看懂.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-30/github-trending-978e35c6.md",
+      "file": "sources/2026-06-30/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 新版上手：把会成长的 AI Agent 接进 openclaw 工作流",
+      "title": "Hermes Agent 新版上手：把会成长的 AI Agent 接进 openclaw 工作流",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,agent_like_daily_cap,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 160,
+      "recent_similarity": 0.066,
+      "reach_note": "NousResearch/openclaw 是重点生态品牌，GitHub 可直接验证和上手，且能带来明确的 Agent 工作流收益。",
+      "selection_reason": "这是当天最贴合 PromptIO 定位的核心生态题，事实主源质量高，适合做版本变化、能力边界和上手路径的合并解读。",
+      "selected_at": "2026-06-29T23:08:22.898Z",
+      "updated_at": "2026-06-29T23:28:49.107Z",
+      "draft_ready_at": "2026-06-29T23:28:49.106Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-30/Hermes Agent 新版上手：把会成长的 AI Agent 接进 openclaw 工作流",
+      "meta_path": "drafts/2026-06-30/Hermes Agent 新版上手：把会成长的 AI Agent 接进 openclaw 工作流/Hermes Agent 新版上手：把会成长的 AI Agent 接进 openclaw 工作流.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-29T23:08:22.896Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-29T23:08:22.896Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-29T23:08:22.897Z",
+      "topic_id": "sources/2026-06-30/x-emollick-3ddb7ced.md",
+      "slug": "团队 AI 成本高不一定是模型太贵可能是流程没改"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-29T23:08:22.897Z",
+      "topic_id": "sources/2026-06-30/x-dotey-f76cfad8.md",
+      "slug": "Meta 脑机接口新进展：不开刀把脑电翻译成句子离普通人还有多远"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-29T23:08:22.897Z",
+      "topic_id": "sources/2026-06-30/deepmind-blog-6c3ecf06.md",
+      "slug": "AI Agent 进公司前先照着 Google DeepMind 控制路线图查一遍"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-29T23:08:22.898Z",
+      "topic_id": "sources/2026-06-30/replicate-blog-663277fd.md",
+      "slug": "一张参考图生成固定角色：创作者该怎么选图像模型"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-29T23:08:22.898Z",
+      "topic_id": "sources/2026-06-30/x-dotey-ff7ee15d.md",
+      "slug": "RepoPrompt 开源后，写代码前最该补的是上下文工程"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-29T23:08:22.898Z",
+      "topic_id": "sources/2026-06-30/vllm-releases-d6f25b58.md",
+      "slug": "vLLM 0.24.0 值不值得升：MiniMax-M3、DeepSeek-V4 和 ROCm 优化一次看懂"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-29T23:08:22.898Z",
+      "topic_id": "sources/2026-06-30/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 新版上手：把会成长的 AI Agent 接进 openclaw 工作流"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-29T23:09:57.647Z",
+      "topic_id": "sources/2026-06-30/x-emollick-3ddb7ced.md",
+      "slug": "团队 AI 成本高不一定是模型太贵可能是流程没改",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-29T23:12:37.350Z",
+      "topic_id": "sources/2026-06-30/x-dotey-f76cfad8.md",
+      "slug": "Meta 脑机接口新进展：不开刀把脑电翻译成句子离普通人还有多远",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-29T23:14:12.229Z",
+      "topic_id": "sources/2026-06-30/deepmind-blog-6c3ecf06.md",
+      "slug": "AI Agent 进公司前先照着 Google DeepMind 控制路线图查一遍",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-29T23:17:06.581Z",
+      "topic_id": "sources/2026-06-30/replicate-blog-663277fd.md",
+      "slug": "一张参考图生成固定角色：创作者该怎么选图像模型",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-29T23:18:05.025Z",
+      "topic_id": "sources/2026-06-30/x-dotey-ff7ee15d.md",
+      "slug": "RepoPrompt 开源后，写代码前最该补的是上下文工程",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-29T23:20:34.997Z",
+      "topic_id": "sources/2026-06-30/vllm-releases-d6f25b58.md",
+      "slug": "vLLM 0.24.0 值不值得升：MiniMax-M3、DeepSeek-V4 和 ROCm 优化一次看懂",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-06-29T23:25:35.040Z",
+      "topic_id": "sources/2026-06-30/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 新版上手：把会成长的 AI Agent 接进 openclaw 工作流",
+      "error": "codex timed out after 300000ms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-29T23:28:49.107Z",
+      "topic_id": "sources/2026-06-30/github-trending-978e35c6.md",
+      "slug": "Hermes Agent 新版上手：把会成长的 AI Agent 接进 openclaw 工作流",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+---
+title: 'I just don’t think we are ready for this https://t.co/zr6EsKpIq3'
+source: X @GaryMarcus
+url: 'https://x.com/GaryMarcus/status/2085451381868265481'
+date: 'Thu Aug 06 19:42:09 +0000 2026'
+likes: 204
+reposts: 29
+replies: 38
+source_type: x
+language: en
+account_name: Gary Marcus
+fetched_at: '2026-08-08T11:04:34.771Z'
+---
+I just don’t think we are ready for this https://t.co/zr6EsKpIq3

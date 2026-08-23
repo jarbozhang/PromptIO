@@ -1,0 +1,17 @@
+{
+  "l4_pass": true,
+  "l4_issues": [],
+  "l1_violations": 0,
+  "l1_details": [],
+  "l2_score": 8,
+  "l2_reasons": "开头从官网任务列表和交付演示切入，论证结构符合 analytical voice 和 decision_memo 版型。",
+  "l3_score": 8,
+  "l3_reasons": "以官网场景、连接对象、交付形态和公开访问量支撑判断，并明确区分事实与增长归因推断。",
+  "l5_score": 7,
+  "l5_reasons": "标题包含腾讯品牌，正文提供可立即执行的模板验证路径；主体偏产品增长分析，传播力略低于直接教程。",
+  "l6_pass": true,
+  "l6_issues": [],
+  "xhs_pass": true,
+  "overall_pass": true,
+  "summary": "文章整体通过：切入具体、判断克制、选型维度和验证路径清楚。"
+}

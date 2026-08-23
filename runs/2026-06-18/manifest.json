@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-18",
+  "created_at": "2026-06-18T09:11:08.262Z",
+  "updated_at": "2026-06-18T09:35:18.872Z",
+  "source_count": 300,
+  "topics": [
+    {
+      "id": "sources/2026-06-18/github-trending-0bd21c2c.md",
+      "file": "sources/2026-06-18/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw新版个人AI助手上手",
+      "title": "OpenClaw 新版上手：把个人 AI 助手放回自己的数据里",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "OpenClaw 是核心生态，个人助手和自有数据是明确利益点，读者可按仓库直接上手。",
+      "selection_reason": "适合写成从安装到第一个个人助手任务的上手稿，能把 OpenClaw 的定位从仓库名落到实际工作流。",
+      "selected_at": "2026-06-18T09:11:08.263Z",
+      "updated_at": "2026-06-18T09:23:47.172Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/github-trending-978e35c6.md",
+      "file": "sources/2026-06-18/github-trending-978e35c6.md",
+      "slug": "HermesAgent新版让Agent越用越懂你",
+      "title": "Hermes Agent 新版怎么用：让 Agent 记住你、接上 openclaw 工作流",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "Hermes 和 NousResearch 命中核心生态，成长型 Agent 有新鲜感，读者可用最小任务验证效果。",
+      "selection_reason": "NousResearch/Hermes 是本号重点生态，读者关心的不是概念，而是怎样让 Agent 在多次任务中积累规则并接入 clawdbot、moltbot 等场景。",
+      "selected_at": "2026-06-18T09:11:08.263Z",
+      "updated_at": "2026-06-18T09:23:47.172Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/github-trending-6eec8646.md",
+      "file": "sources/2026-06-18/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑KimiGLMDeepSeekQwen",
+      "title": "Ollama 今天最值得试的用法：本地跑 Kimi、GLM、DeepSeek 和 Qwen",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "Ollama 加 Kimi、GLM、DeepSeek、Qwen 品牌认知强，本地运行省成本，打开仓库就能装。",
+      "selection_reason": "本地模型运行一直有稳定需求，Ollama 把热门中文和编码模型放在同一入口，适合做省钱和模型切换的实操稿。",
+      "selected_at": "2026-06-18T09:11:08.264Z",
+      "updated_at": "2026-06-18T09:23:47.172Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/vllm-releases-9b0ff932.md",
+      "file": "sources/2026-06-18/vllm-releases-9b0ff932.md",
+      "slug": "vLLM零点二三DeepSeekV4部署清单",
+      "title": "vLLM 0.23.0 值得升级吗：DeepSeek-V4 部署要看的 5 个变化",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "vLLM 和 DeepSeek 都有开发者认知，升级点直接对应部署稳定性与性能，读者可在测试环境验证。",
+      "selection_reason": "DeepSeek-V4 部署稳定性和后端支持是开发者会遇到的真实问题，vLLM 版本变化可以整理成升级前检查清单。",
+      "selected_at": "2026-06-18T09:11:08.264Z",
+      "updated_at": "2026-06-18T09:23:47.172Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/x-dotey-9b5fb2d1.md",
+      "file": "sources/2026-06-18/x-dotey-9b5fb2d1.md",
+      "slug": "Codex操控电脑三种方式",
+      "title": "Codex 控电脑的三种方式：什么时候用 Computer Use、Chrome 扩展和内置浏览器",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "Codex/OpenAI 品牌强，三种入口解决怎么自动操作电脑的问题，读者能按场景马上选工具。",
+      "selection_reason": "很多人不知道 Codex 的三个入口边界，讲清 Computer Use、Chrome 扩展、内置浏览器的适用场景能直接减少误用。",
+      "selected_at": "2026-06-18T09:11:08.264Z",
+      "updated_at": "2026-06-18T09:23:47.172Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/github-trending-49a1c7e3.md",
+      "file": "sources/2026-06-18/github-trending-49a1c7e3.md",
+      "slug": "Firecrawl给Agent准备网页数据",
+      "title": "Firecrawl 上手：给 AI Agent 准备可用网页数据的最短路径",
+      "status": "superseded",
+      "reach": 7,
+      "reach_note": "Firecrawl 的利益点是把网页转成 Agent 可用数据，API 路径清楚，开发者能直接做 demo。",
+      "selection_reason": "Agent 真要干活需要可靠网页数据，Firecrawl 能从搜索、抓取、Markdown 这一层补齐输入，适合做一个资料采集最小 demo。",
+      "selected_at": "2026-06-18T09:11:08.265Z",
+      "updated_at": "2026-06-18T09:23:47.172Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/x-dotey-8dc80080.md",
+      "file": "sources/2026-06-18/x-dotey-8dc80080.md",
+      "slug": "一个Skill导出MP4动画视频",
+      "title": "一个 Skill 就能导出 MP4：AI 动画从提示词到视频的本地工作流",
+      "status": "superseded",
+      "reach": 7,
+      "reach_note": "MP4 导出和本地动画工作流利益点明确，读者能用 Skill 生成视频素材。",
+      "selection_reason": "公众号和小红书都需要可复用视频素材，这个主题能把 AI 动画从一次性网页预览变成可交付文件。",
+      "selected_at": "2026-06-18T09:11:08.265Z",
+      "updated_at": "2026-06-18T09:23:47.172Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/hermes-agent-release-2026-6-5-curated.md",
+      "file": "sources/2026-06-18/hermes-agent-release-2026-6-5-curated.md",
+      "slug": "Hermes Agent v0.16.0 不只是 CLI 了，桌面版、中文界面和远程网关才是重点",
+      "title": "Hermes Agent v0.16.0 不只是 CLI 了，桌面版、中文界面和远程网关才是重点",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "Hermes/NousResearch 是重点生态，新版本有明确版本号、官方 release、中文界面和桌面端利益点，适合写成迁移与采用清单。",
+      "selection_reason": "相比昨天的 Hermes Studio 主题，这篇聚焦 Hermes Agent v0.16.0 的桌面化、管理面和中文体验，事实主源更强，读者行动不同。",
+      "selected_at": "2026-06-18T09:23:47.172Z",
+      "updated_at": "2026-06-18T09:26:10.579Z",
+      "draft_ready_at": "2026-06-18T09:26:10.579Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-18/Agent 终于能交付给别人用了，Hermes v0.16.0 补上界面层",
+      "meta_path": "drafts/2026-06-18/Agent 终于能交付给别人用了，Hermes v0.16.0 补上界面层/Agent 终于能交付给别人用了，Hermes v0.16.0 补上界面层.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/openclaw-release-2026-6-8-curated.md",
+      "file": "sources/2026-06-18/openclaw-release-2026-6-8-curated.md",
+      "slug": "OpenClaw v2026.6.8 的重点不是炫功能，而是让个人 AI 助手更可靠",
+      "title": "OpenClaw v2026.6.8 的重点不是炫功能，而是让个人 AI 助手更可靠",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "OpenClaw 是重点生态，v2026.6.8 有官方 release 和安装入口，可靠性清单能直接指导是否升级或试用。",
+      "selection_reason": "昨天已经写过 OpenClaw 多通道交付，今天换成可靠性验收角度，覆盖 usage、搜索默认值、UI/mobile、memory/state 等更完整的版本变化。",
+      "selected_at": "2026-06-18T09:23:47.173Z",
+      "updated_at": "2026-06-18T09:27:29.226Z",
+      "draft_ready_at": "2026-06-18T09:27:29.226Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-18/个人 AI 助手靠不靠谱，OpenClaw v2026.6.8 给了检查表",
+      "meta_path": "drafts/2026-06-18/个人 AI 助手靠不靠谱，OpenClaw v2026.6.8 给了检查表/个人 AI 助手靠不靠谱，OpenClaw v2026.6.8 给了检查表.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/firecrawl-v2-10-curated.md",
+      "file": "sources/2026-06-18/firecrawl-v2-10-curated.md",
+      "slug": "Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流",
+      "title": "Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "Firecrawl GitHub 认知强，v2.10 release 有明确 API 变化，能落到写作、调研、RAG 和 Agent 数据入口。",
+      "selection_reason": "比 dry-run 的泛泛 Firecrawl 上手更具体，版本变化能支撑更有重点的文章。",
+      "selected_at": "2026-06-18T09:23:47.173Z",
+      "updated_at": "2026-06-18T09:28:44.063Z",
+      "draft_ready_at": "2026-06-18T09:28:44.063Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-18/Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流",
+      "meta_path": "drafts/2026-06-18/Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流/Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/x-chenchengpro-ee4bc478.md",
+      "file": "sources/2026-06-18/x-chenchengpro-ee4bc478.md",
+      "slug": "Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄",
+      "title": "Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "Agent loop 和 Skill 自我改进是开发者高关注题，GitHub issue triage 是可落地场景。",
+      "selection_reason": "这是今天 X 里最有方法论价值的中文素材，能补足 release 文章之外的工作流思考。",
+      "selected_at": "2026-06-18T09:23:47.173Z",
+      "updated_at": "2026-06-18T09:29:58.833Z",
+      "draft_ready_at": "2026-06-18T09:29:58.832Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-18/Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄",
+      "meta_path": "drafts/2026-06-18/Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄/Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/x-hardmaru-62c43536.md",
+      "file": "sources/2026-06-18/x-hardmaru-62c43536.md",
+      "slug": "Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理",
+      "title": "Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理",
+      "status": "draft_ready",
+      "reach": 7,
+      "reach_note": "Sakana AI 有研究者认知，Hardmaru 一手发布信号强，长推理研究 Agent 是新鲜方向。",
+      "selection_reason": "这篇能提供趋势判断，和工具上手类文章形成差异。",
+      "selected_at": "2026-06-18T09:23:47.174Z",
+      "updated_at": "2026-06-18T09:31:14.163Z",
+      "draft_ready_at": "2026-06-18T09:31:14.163Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-18/Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理",
+      "meta_path": "drafts/2026-06-18/Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理/Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/venturebeat-ai-a102a18a.md",
+      "file": "sources/2026-06-18/venturebeat-ai-a102a18a.md",
+      "slug": "Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活",
+      "title": "Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "Claude/Claude Code 品牌强，文件 Agent 的利益点清楚，适合写成办公场景清单。",
+      "selection_reason": "这是今天 RSS 里最适合普通读者的 Agent 题，和代码工具主题拉开差异。",
+      "selected_at": "2026-06-18T09:23:47.174Z",
+      "updated_at": "2026-06-18T09:33:21.489Z",
+      "draft_ready_at": "2026-06-18T09:33:21.489Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-18/Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活",
+      "meta_path": "drafts/2026-06-18/Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活/Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-18/x-jeffdean-f43b9700.md",
+      "file": "sources/2026-06-18/x-jeffdean-f43b9700.md",
+      "slug": "Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品",
+      "title": "Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品",
+      "status": "draft_ready",
+      "reach": 7,
+      "reach_note": "Gemini 和 Google Translate 品牌认知强，70+ 语言和 Live API 有清晰产品入口。",
+      "selection_reason": "同批文章需要一个非代码、非 Agent 框架题，语音翻译能扩展内容面。",
+      "selected_at": "2026-06-18T09:23:47.174Z",
+      "updated_at": "2026-06-18T09:35:18.872Z",
+      "draft_ready_at": "2026-06-18T09:35:18.872Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-18/Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品",
+      "meta_path": "drafts/2026-06-18/Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品/Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-18T09:11:08.262Z",
+      "source_count": 260
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-18T09:11:08.263Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:11:08.263Z",
+      "topic_id": "sources/2026-06-18/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw新版个人AI助手上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:11:08.263Z",
+      "topic_id": "sources/2026-06-18/github-trending-978e35c6.md",
+      "slug": "HermesAgent新版让Agent越用越懂你"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:11:08.264Z",
+      "topic_id": "sources/2026-06-18/github-trending-6eec8646.md",
+      "slug": "Ollama本地跑KimiGLMDeepSeekQwen"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:11:08.264Z",
+      "topic_id": "sources/2026-06-18/vllm-releases-9b0ff932.md",
+      "slug": "vLLM零点二三DeepSeekV4部署清单"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:11:08.264Z",
+      "topic_id": "sources/2026-06-18/x-dotey-9b5fb2d1.md",
+      "slug": "Codex操控电脑三种方式"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:11:08.265Z",
+      "topic_id": "sources/2026-06-18/github-trending-49a1c7e3.md",
+      "slug": "Firecrawl给Agent准备网页数据"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:11:08.265Z",
+      "topic_id": "sources/2026-06-18/x-dotey-8dc80080.md",
+      "slug": "一个Skill导出MP4动画视频"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-18T09:23:47.172Z",
+      "source_count": 300
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-18T09:23:47.172Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:23:47.172Z",
+      "topic_id": "sources/2026-06-18/hermes-agent-release-2026-6-5-curated.md",
+      "slug": "Hermes Agent v0.16.0 不只是 CLI 了，桌面版、中文界面和远程网关才是重点"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:23:47.173Z",
+      "topic_id": "sources/2026-06-18/openclaw-release-2026-6-8-curated.md",
+      "slug": "OpenClaw v2026.6.8 的重点不是炫功能，而是让个人 AI 助手更可靠"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:23:47.173Z",
+      "topic_id": "sources/2026-06-18/firecrawl-v2-10-curated.md",
+      "slug": "Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:23:47.173Z",
+      "topic_id": "sources/2026-06-18/x-chenchengpro-ee4bc478.md",
+      "slug": "Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:23:47.174Z",
+      "topic_id": "sources/2026-06-18/x-hardmaru-62c43536.md",
+      "slug": "Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:23:47.174Z",
+      "topic_id": "sources/2026-06-18/venturebeat-ai-a102a18a.md",
+      "slug": "Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:23:47.174Z",
+      "topic_id": "sources/2026-06-18/x-jeffdean-f43b9700.md",
+      "slug": "Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-18T09:24:50.284Z",
+      "source_count": 300
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-18T09:24:50.285Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:24:50.286Z",
+      "topic_id": "sources/2026-06-18/hermes-agent-release-2026-6-5-curated.md",
+      "slug": "Hermes Agent v0.16.0 不只是 CLI 了，桌面版、中文界面和远程网关才是重点"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:24:50.286Z",
+      "topic_id": "sources/2026-06-18/openclaw-release-2026-6-8-curated.md",
+      "slug": "OpenClaw v2026.6.8 的重点不是炫功能，而是让个人 AI 助手更可靠"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:24:50.286Z",
+      "topic_id": "sources/2026-06-18/firecrawl-v2-10-curated.md",
+      "slug": "Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:24:50.287Z",
+      "topic_id": "sources/2026-06-18/x-chenchengpro-ee4bc478.md",
+      "slug": "Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:24:50.287Z",
+      "topic_id": "sources/2026-06-18/x-hardmaru-62c43536.md",
+      "slug": "Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:24:50.288Z",
+      "topic_id": "sources/2026-06-18/venturebeat-ai-a102a18a.md",
+      "slug": "Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-18T09:24:50.289Z",
+      "topic_id": "sources/2026-06-18/x-jeffdean-f43b9700.md",
+      "slug": "Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-18T09:26:10.579Z",
+      "topic_id": "sources/2026-06-18/hermes-agent-release-2026-6-5-curated.md",
+      "slug": "Hermes Agent v0.16.0 不只是 CLI 了，桌面版、中文界面和远程网关才是重点",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-18T09:27:29.226Z",
+      "topic_id": "sources/2026-06-18/openclaw-release-2026-6-8-curated.md",
+      "slug": "OpenClaw v2026.6.8 的重点不是炫功能，而是让个人 AI 助手更可靠",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-18T09:28:44.063Z",
+      "topic_id": "sources/2026-06-18/firecrawl-v2-10-curated.md",
+      "slug": "Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-18T09:29:58.833Z",
+      "topic_id": "sources/2026-06-18/x-chenchengpro-ee4bc478.md",
+      "slug": "Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-18T09:31:14.163Z",
+      "topic_id": "sources/2026-06-18/x-hardmaru-62c43536.md",
+      "slug": "Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-18T09:33:21.489Z",
+      "topic_id": "sources/2026-06-18/venturebeat-ai-a102a18a.md",
+      "slug": "Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-18T09:35:18.872Z",
+      "topic_id": "sources/2026-06-18/x-jeffdean-f43b9700.md",
+      "slug": "Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品",
+      "error": ""
+    }
+  ]
+}

@@ -3,6 +3,115 @@
 全部已生成文章索引，按日期倒序。
 
 
+## 2026-06-21（7 篇，voice 分布 first-person 6 / narrative 0 / analytical 1 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[AI 写代码太快，PR 闸门得先自动跑起来|AI 写代码太快，PR 闸门得先自动跑起来]] | 8 | first-person | no-mistakes, Codex | [[ai-coding-tools|AI 编程工具]] / [[developer-tools|开发者工具]] |
+| [[Agent 犯错以后，别急着往 AGENTS.md 里加规则|Agent 犯错以后，别急着往 AGENTS.md 里加规则]] | 8 | first-person | AGENTS.md, Codex, Claude Code | [[ai-coding-tools|AI 编程工具]] / [[ai-methodology|AI 方法论]] |
+| [[本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短|本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短]] | 9 | first-person | [[ollama|Ollama]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]], Kimi | [[local-inference|本地推理]] / [[local-first-ai|本地优先 AI]] |
+| [[部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项|部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项]] | 7 | analytical | [[vllm|vLLM]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]] | [[local-inference|本地推理]] / [[ai-infra|AI 基础设施]] |
+| [[一段参考音频换 14 种语言，子曰 4.0 TTS 开源了|一段参考音频换 14 种语言，子曰 4.0 TTS 开源了]] | 8 | first-person | Confucius4-TTS, NetEase Youdao | 语音 AI / [[creator-economy|创作者经济]] |
+| [[MCP 工具越来越多，Agent 不能全靠你手动装|MCP 工具越来越多，Agent 不能全靠你手动装]] | 8 | first-person | Hugging Face, ARD, MCP, Skills, A2A | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[你的 CLI 不适合 Agent，可能会多烧 6 倍 token|你的 CLI 不适合 Agent，可能会多烧 6 倍 token]] | 8 | first-person | Hugging Face, Transformers, hf CLI | [[developer-tools|开发者工具]] / [[agent-frameworks|Agent 框架]] |
+
+**6/21 voice 分布**：first-person 6 / analytical 1。今天没有继续写 OpenClaw / Codex Handoff，避免和 06-20 重复；保留 vLLM/Ollama 是因为今天改用官方/README 事实源并切换成部署/本地入口角度。
+
+**6/21 QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；主稿默认可用于小红书；无 publish 子目录。发布面扫描 0 命中，未出现敏感来源字面、地域二分表达、短链、隐藏 REACH 注释或 AI 辅助元叙事。npm test 129/129 pass。
+
+**6/21 采集备注**：RSS/GitHub/arXiv 528 items；GitHub Trending 21 AI repos；bird X 保存 141 tweets；新增 5 份 curated source。初始 selector 与 06-20 重复较多，已通过 reviewed topics 替换。
+
+## 2026-06-20（7 篇，voice 分布 first-person 6 / narrative 0 / analytical 0 / retro 1）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径|Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径]] | 9 | first-person | [[hermes-agent|Hermes Agent]], [[nousresearch|NousResearch]] | [[agent-frameworks|Agent 框架]] / [[ai-workflows|AI 工作流]] |
+| [[OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线|OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线]] | 9 | first-person | [[openclaw-org|OpenClaw]], [[codex|Codex]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上|Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上]] | 9 | first-person | [[codex|Codex]], [[openai|OpenAI]] | [[ai-coding-tools|AI 编程工具]] / [[remote-development|远程开发]] |
+| [[长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文|长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文]] | 8 | first-person | GLM-5.2, Z.AI | [[open-models|开源模型]] / [[agent-frameworks|Agent 框架]] |
+| [[自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了|自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了]] | 8 | first-person | Open Notebook | [[ai-productivity|AI 生产力]] / [[local-first-ai|本地优先 AI]] |
+| [[别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计|别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计]] | 8 | retro | Elastic, Elasticsearch | [[agent-frameworks|Agent 框架]] / [[rag|RAG]] |
+| [[DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾|DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾]] | 8 | first-person | [[deepmind|DeepMind]], AI Control Roadmap | [[ai-safety|AI 安全]] / [[agent-frameworks|Agent 框架]] |
+
+**6/20 voice 分布**：first-person 6 / retro 1。今天继续使用 reviewed topics，避免 selector 自动重复近几日高频实体和已经写过的工具线。
+
+**6/20 QA 结果**：7/7 全部唯一主稿；每个中文文章目录只保留 1 个 md；主稿默认可用于小红书；无 publish 子目录。发布面扫描 0 命中，未出现敏感来源字面、地域二分表达、短链、隐藏 REACH 注释或 AI 辅助元叙事。npm test 129/129 pass。
+
+**6/20 采集备注**：RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 保存 135 tweets；新增 7 份 curated source。初始 selector 与 06-17/06-19 重复较多，已通过 reviewed topics 替换；生成后按 humanizer 规则做去模板化微修。
+
+## 2026-06-19（7 篇，voice 分布 first-person 6 / narrative 1 / analytical 0 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书|Codex 录一次操作就能生成 Skill，重复工作终于不用写成说明书]] | 9 | first-person | [[codex|Codex]], [[openai|OpenAI]] | [[ai-workflows|AI 工作流]] / [[developer-tools|开发者工具]] |
+| [[Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么|Claude Code Artifacts 把终端结果变成网页，团队终于能看见 Agent 干了什么]] | 9 | first-person | [[claude-code|Claude Code]], [[anthropic|Anthropic]] | [[ai-coding-tools|AI 编程工具]] / [[ai-productivity|AI 生产力]] |
+| [[baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块|baoyu-design 能自动给 PPT 配图了，Agent Skill 开始补上内容交付的最后一块]] | 8 | first-person | baoyu-design, Agent Skills | [[creator-economy|创作者经济]] / [[ai-workflows|AI 工作流]] |
+| [[Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文|Adobe 给 Photoshop 和 Premiere 加 AI 助手，创意软件开始记住项目上下文]] | 8 | narrative | Adobe, Firefly, Photoshop, Premiere | [[creator-economy|创作者经济]] / AI 产品 |
+| [[研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答|研究 Agent 也会泄密，MosaicLeaks 提醒我们别只盯着最终回答]] | 8 | first-person | Hugging Face, ServiceNow, MosaicLeaks | [[ai-safety|AI 安全]] / [[agent-frameworks|Agent 框架]] |
+| [[MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口|MCP、Skills、A2A 之后，Agent 还缺一个搜索能力的入口]] | 8 | first-person | Hugging Face, ARD, MCP, Skills, A2A | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产|AGENTS.md 不能只靠手感写，Probe-and-Refine 把仓库说明变成可测试资产]] | 8 | first-person | AGENTS.md, Probe-and-Refine, Qwen | [[ai-coding-tools|AI 编程工具]] / [[ai-methodology|AI 方法论]] |
+
+**6/19 voice 分布**：first-person 6 / narrative 1 / analytical 0 / retro 0。今天刻意避开近两日高频的 Hermes/OpenClaw/Ollama/vLLM/OpenAI SDK 线，把重点转向新功能、新标准、安全评测和可交付 Skill。
+
+**6/19 QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；主稿默认可用于小红书。发布面扫描 0 命中，未出现敏感来源字面、地域二分表达、短链、隐藏 REACH 注释或 AI 辅助元叙事。
+
+**6/19 采集备注**：RSS/GitHub/arXiv 528 items；GitHub Trending 21 AI repos；bird X 保存 143 tweets；补 7 份 curated source。初始 selector 与 06-17/06-18 重复较多，已通过 reviewed topics 替换。
+
+## 2026-06-18（7 篇，voice 分布 first-person 6 / narrative 1 / analytical 0 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[Agent 终于能交付给别人用了，Hermes v0.16.0 补上界面层|Agent 终于能交付给别人用了，Hermes v0.16.0 补上界面层]] | 9 | first-person | [[hermes-agent|Hermes Agent]], [[nousresearch|NousResearch]] | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[个人 AI 助手靠不靠谱，OpenClaw v2026.6.8 给了检查表|个人 AI 助手靠不靠谱，OpenClaw v2026.6.8 给了检查表]] | 9 | first-person | [[openclaw-org|OpenClaw]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流|Firecrawl v2.10 更像 Agent 的资料入口了，网页、文件、证据句都能进工作流]] | 8 | first-person | Firecrawl | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄|Agent Skill 怎么越用越准，Warp 这套 issue 反馈闭环值得抄]] | 8 | first-person | Warp, Agent Skills | [[ai-workflows|AI 工作流]] / [[agent-frameworks|Agent 框架]] |
+| [[Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理|Sakana Marlin 给了一个新信号，深度研究 Agent 开始按小时推理]] | 7 | first-person | Sakana AI, Marlin | [[agent-frameworks|Agent 框架]] / [[ai-research|AI 研究]] |
+| [[Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活|Claude Cowork 把 Claude Code 的思路搬到文件夹里，非程序员也能用 Agent 干活]] | 8 | first-person | [[anthropic|Anthropic]], Claude Cowork, [[claude-code|Claude Code]] | [[ai-productivity|AI 生产力]] / [[agent-frameworks|Agent 框架]] |
+| [[Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品|Gemini 3.5 Live Translate 的重点，是实时语音翻译终于开始进入日常产品]] | 7 | narrative | [[google|Google]], Gemini | AI 产品 / 语音 AI |
+
+**6/18 voice 分布**：first-person 6 / narrative 1 / analytical 0 / retro 0。本轮把重点放在“新版解决什么问题、能带来什么工作流变化”，减少泛泛评论。
+
+**6/18 QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；主稿默认可用于小红书。发布面扫描 0 命中，未出现敏感来源字面、地域二分表达、短链或 AI 辅助元叙事。
+
+**6/18 采集备注**：RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 保存 134 tweets；新增 3 份官方 release 摘要源。初始 selector 重复 06-17 的本地模型/部署/工具控制线，已通过 reviewed topics 替换。
+
+## 2026-06-17（7 篇，voice 分布 first-person 5 / narrative 0 / analytical 2 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[个人 AI 助手更稳了，OpenClaw v2026.6.8 补齐多通道交付|个人 AI 助手更稳了，OpenClaw v2026.6.8 补齐多通道交付]] | 9 | first-person | [[openclaw-org|OpenClaw]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[Hermes Studio v0.6.15 长对话、技能命令和本地 Runtime 都更顺了|Hermes Studio v0.6.15 长对话、技能命令和本地 Runtime 都更顺了]] | 9 | first-person | [[hermes-agent|Hermes]] | [[agent-frameworks|Agent 框架]] / [[developer-tools|开发者工具]] |
+| [[OpenAI Python SDK 2.42.0，先看懂 spend_alerts，再给团队 API 花费上闸门|OpenAI Python SDK 2.42.0，先看懂 spend_alerts，再给团队 API 花费上闸门]] | 8 | first-person | [[openai|OpenAI]] | [[ai-pricing|AI 定价]] / [[developer-tools|开发者工具]] |
+| [[Codex 操控电脑的三种方式，什么时候用 Computer Use、Chrome 扩展和内置浏览器|Codex 操控电脑的三种方式，什么时候用 Computer Use、Chrome 扩展和内置浏览器]] | 9 | analytical | [[codex|Codex]] | [[ai-coding-tools|AI 编程工具]] / [[developer-tools|开发者工具]] |
+| [[AI 写代码之后，怎么守住 PR 质量，no-mistakes 的本地闸门思路|AI 写代码之后，怎么守住 PR 质量，no-mistakes 的本地闸门思路]] | 8 | first-person | [[codex|Codex]] | [[ai-coding-tools|AI 编程工具]] / [[developer-tools|开发者工具]] |
+| [[vLLM 0.23.0 更新，DeepSeek-V4 和 Qwen3 部署党该看哪些变化|vLLM 0.23.0 更新，DeepSeek-V4 和 Qwen3 部署党该看哪些变化]] | 8 | analytical | [[vllm|vLLM]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]] | [[local-inference|本地推理]] |
+| [[Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen，本地模型玩家该怎么选第一套组合|Ollama 一次跑 Kimi、GLM、DeepSeek、Qwen，本地模型玩家该怎么选第一套组合]] | 9 | first-person | [[ollama|Ollama]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]] | [[local-inference|本地推理]] / [[local-first-ai|本地优先 AI]] |
+
+**6/17 voice 分布**：first-person 5 / analytical 2 / retro 0。今天引入 X 补采集和 topics-file 审核入口后，选题从 RSS 摘要主导转为 release / GitHub fact / X angle 混合。
+
+**6/17 QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；主稿默认可用于小红书。发布面扫描 0 命中，未出现 Reddit、Hacker News/HN、OpenRouter、地域二分表达或 AI 辅助元叙事。
+
+**6/17 采集备注**：RSS/GitHub/arXiv 508 items；GitHub Trending 21 AI repos；bird X 保存 115 tweets；补 OpenClaw v2026.6.8 官方 release/README 摘要源。X 后段触发 429，后续应加 delay 与限流停止策略。
+
+## 2026-06-16（7 篇，voice 分布 first-person 6 / narrative 0 / analytical 1 / retro 0）
+
+| 标题 | REACH | voice | 主要实体 | 主题 |
+|------|-------|-------|---------|------|
+| [[个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了|个人 AI 助手从脚本变长期工作流，NousResearch Hermes Agent 更新了]] | 9 | first-person | [[hermes-agent|Hermes Agent]], [[nousresearch|NousResearch]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform|OpenClaw 最新仓库更新，为什么个人 AI 助手开始强调 Any OS、Any Platform]] | 9 | first-person | [[openclaw-org|OpenClaw]] | [[agent-frameworks|Agent 框架]] / [[local-first-ai|本地优先 AI]] |
+| [[Codex 免费重置次数可以攒着用了，什么时候用最划算？|Codex 免费重置次数可以攒着用了，什么时候用最划算？]] | 9 | first-person | [[openai|OpenAI]], [[codex|Codex]] | [[ai-coding-tools|AI 编程工具]] |
+| [[ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了|ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了]] | 9 | first-person | [[chatgpt|ChatGPT]], [[codex|Codex]] | [[ai-productivity|AI 生产力]] / [[developer-tools|开发者工具]] |
+| [[免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？|免费 LLM API 资源清单又火了，哪些适合个人项目先跑起来？]] | 9 | analytical | [[github|GitHub]] | [[developer-tools|开发者工具]] / [[ai-pricing|AI 定价]] |
+| [[本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek|本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek]] | 8 | first-person | [[ollama|Ollama]], [[deepseek|DeepSeek]], [[qwen-family|Qwen]] | [[local-inference|本地推理]] / [[local-first-ai|本地优先 AI]] |
+| [[用 n8n 搭一个自动化助手，400+ 集成别一上来全接|用 n8n 搭一个自动化助手，400+ 集成别一上来全接]] | 8 | first-person | [[n8n|n8n]] | [[ai-workflows|AI 工作流]] / [[agent-frameworks|Agent 框架]] |
+
+**6/16 voice 分布**：first-person 6 / analytical 1 / retro 0。今天恢复 RSS/GitHub/arXiv + X + GitHub Trending + PyPI 信号后生成 7 篇，重点收敛到个人 agent 新版本、AI 编程额度策略、本地工具链和工作流自动化。
+
+**6/16 QA 结果**：7/7 全部唯一主稿；每个文章目录只保留 1 个 md；主稿默认可用于小红书。发布面扫描 0 命中，未出现 Reddit、Hacker News/HN、OpenRouter 及地域二分表达；内部写作约束泄漏守卫新增并通过测试。
+
+**6/16 采集备注**：RSS/GitHub/arXiv 保存 508 new items；GitHub Trending 保存 23 个 AI repo；PyPI 保存 1 份趋势摘要；bird X 保存 213 条来源；TrendRadar Docker 路径缺失 soft-fail。最终 sources 目录 745 个 md，选题使用 220 条高优先级摘要。
+
+
 ## 2026-05-22（7 篇，voice 分布 first-person 4 / narrative 0 / analytical 3 / retro 0）
 
 | 标题 | REACH | voice | 主要实体 | 主题 |

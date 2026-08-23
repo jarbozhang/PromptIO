@@ -1,0 +1,20 @@
+---
+title: Introducing Human-Centeredness in AI-Assisted Lexicography
+url: 'https://arxiv.org/abs/2607.11808v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Antonio San Martin
+  - Catherine Trekker
+categories:
+  - cs.CL
+  - cs.AI
+  - cs.CL
+published: '2026-07-13T17:00:39Z'
+fetched_at: '2026-07-14T23:03:22.243Z'
+---
+This paper proposes a human-centered artificial intelligence (HCAI) framework for AI-assisted lexicography. While generative AI offers significant opportunities to enhance lexicographic work, it also raises concerns regarding the future role of lexicographers and the preservation of linguistic and cultural diversity. Drawing on HCAI principles and previous applications in other language professions, the paper identifies four interrelated dimensions through which AI integration in lexicography can be understood and critically examined: the augmented lexicographer, the sociotechnical context of AI integration, bias, and the design of AI-powered lexicographic tools. The framework argues that AI should augment rather than replace lexicographers, combining high levels of automation with meaningful human control. It further emphasizes the importance of preserving professional agency, mitigating AI-generated biases, and designing tools around the needs of lexicographers. By doing so, the paper provides a foundation for future research and the beneficial integration of AI into lexicographic workflows.
+
+Authors: Antonio San Martin, Catherine Trekker
+Categories: cs.CL, cs.AI, cs.CL

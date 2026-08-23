@@ -1,0 +1,22 @@
+---
+title: 'AutoSynthesis: An agentic system for automated meta-analysis'
+url: 'https://arxiv.org/abs/2607.15247v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Moein Taherinezhad
+  - Sebastian Maier
+  - Gerardo Vitagliano
+  - Francesco Pierri
+  - Stefan Feuerriegel
+categories:
+  - cs.AI
+  - cs.AI
+published: '2026-07-16T17:45:27Z'
+fetched_at: '2026-07-19T23:02:36.422Z'
+---
+Evidence synthesis is crucial for turning primary research into reliable knowledge for science, medicine, education, and policy. Yet, quantitative evidence synthesis remains largely manual and difficult to scale. Here, we introduce AutoSynthesis, an end-to-end multi-agent system for automated meta-analysis. Given a research question in natural language, AutoSynthesis formulates a search strategy, retrieves scientific literature, screens candidate studies, assesses full-text eligibility, extracts quantitative statistics, computes standardized effect sizes, and finally performs random-effects meta-analysis. AutoSynthesis further supports heterogeneity analysis to examine how effect sizes vary across moderators, as well as risk-of-bias assessment. As output, AutoSynthesis produces a transparent report aligned with PRISMA guidelines. In our application, AutoSynthesis screened over 28 studies and extracted more than 20 quantitative claims. The pooled effect estimates produced by AutoSynthesis are similar to Hedges' $g$ of expert-conducted meta-analyses, indicating close agreement with manual evidence synthesis. Together, these results show that AutoSynthesis can make quantitative evidence synthesis more scalable, thereby supporting evidence-based decision-making across disciplines.
+
+Authors: Moein Taherinezhad, Sebastian Maier, Gerardo Vitagliano, Francesco Pierri, Stefan Feuerriegel
+Categories: cs.AI, cs.AI

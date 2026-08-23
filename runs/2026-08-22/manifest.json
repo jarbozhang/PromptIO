@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-22",
+  "created_at": "2026-08-22T11:13:07.252Z",
+  "updated_at": "2026-08-22T11:21:52.685Z",
+  "source_count": 149,
+  "topics": [
+    {
+      "id": "sources/2026-08-22/sopilot-hot-2090888011991151001-e93a3be7.md",
+      "file": "sources/2026-08-22/sopilot-hot-2090888011991151001-e93a3be7.md",
+      "slug": "8GB显存运行35B模型的FreeToken方案",
+      "title": "8GB 显存也能跑 35B 模型：FreeToken 把显卡、内存和 CPU 一起用起来",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.029,
+      "reach_note": "8GB 显存和 35B 模型形成明确利益点，开源项目允许读者按自己的硬件立即验证。",
+      "selection_reason": "消费级显卡运行大模型具有强传播力，且能落到硬件适配和部署决策，不只是转述论文指标。",
+      "selected_at": "2026-08-22T11:13:07.253Z",
+      "updated_at": "2026-08-22T11:15:10.918Z",
+      "draft_ready_at": "2026-08-22T11:15:10.917Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-22/8GB 显存也能跑 35B 模型：FreeToken 把显卡、内存和 CPU 一起用起来",
+      "meta_path": "drafts/2026-08-22/8GB 显存也能跑 35B 模型：FreeToken 把显卡、内存和 CPU 一起用起来/8GB 显存也能跑 35B 模型：FreeToken 把显卡、内存和 CPU 一起用起来.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-22/sopilot-hot-2090920477384720557-85153732.md",
+      "file": "sources/2026-08-22/sopilot-hot-2090920477384720557-85153732.md",
+      "slug": "Vercel网站AI可操作性测试",
+      "title": "用 Vercel 的 100 项测试检查网站：AI 能不能真正读懂并操作你的产品？",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "reference_card",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.035,
+      "reach_note": "Vercel 品牌明确，提升网站被 AI 发现和操作的能力有直接利益，CLI 可立即运行。",
+      "selection_reason": "它把抽象的机器可用性转成可测分数和具体修复项，适合站长、独立开发者和 SaaS 团队快速自查。",
+      "selected_at": "2026-08-22T11:13:07.253Z",
+      "updated_at": "2026-08-22T11:16:08.579Z",
+      "draft_ready_at": "2026-08-22T11:16:08.579Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-22/用 Vercel 的 100 项测试检查网站：AI 能不能真正读懂并操作你的产品？",
+      "meta_path": "drafts/2026-08-22/用 Vercel 的 100 项测试检查网站：AI 能不能真正读懂并操作你的产品？/用 Vercel 的 100 项测试检查网站：AI 能不能真正读懂并操作你的产品？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-22/sopilot-hot-2090960491648815553-ef4d23b9.md",
+      "file": "sources/2026-08-22/sopilot-hot-2090960491648815553-ef4d23b9.md",
+      "slug": "GPT-image2批量早餐海报提示词",
+      "title": "用 GPT-image2 一次做 10 张早餐海报：这套提示词如何保持统一又不重复",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.026,
+      "reach_note": "GPT-image2 有品牌认知，一次生成十张带来效率利益，完整提示词可直接试用。",
+      "selection_reason": "它面向设计和内容创作者，能产出直观的前后对比素材，也为当天选题补充了非开发者场景。",
+      "selected_at": "2026-08-22T11:13:07.253Z",
+      "updated_at": "2026-08-22T11:17:46.918Z",
+      "draft_ready_at": "2026-08-22T11:17:46.917Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-22/用 GPT-image2 一次做 10 张早餐海报，这套提示词如何保持统一又不重复",
+      "meta_path": "drafts/2026-08-22/用 GPT-image2 一次做 10 张早餐海报，这套提示词如何保持统一又不重复/用 GPT-image2 一次做 10 张早餐海报，这套提示词如何保持统一又不重复.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-22/venturebeat-ai-a102a18a.md",
+      "file": "sources/2026-08-22/venturebeat-ai-a102a18a.md",
+      "slug": "Claude-Cowork本地文件任务值不值得买",
+      "title": "Claude Cowork 不用写代码也能整理本地文件：什么任务值得每月花 100 美元？",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.034,
+      "reach_note": "Claude 品牌明确，“不用写代码”和节省重复劳动是利益点，读者可据任务频率做购买判断。",
+      "selection_reason": "题目把产品发布转成普通用户的付费决策，既覆盖实际办公场景，也避免只讲开发者工具。",
+      "selected_at": "2026-08-22T11:13:07.254Z",
+      "updated_at": "2026-08-22T11:18:48.634Z",
+      "draft_ready_at": "2026-08-22T11:18:48.633Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-22/Claude Cowork 不用写代码也能整理本地文件，每月 100 美元值不值？",
+      "meta_path": "drafts/2026-08-22/Claude Cowork 不用写代码也能整理本地文件，每月 100 美元值不值？/Claude Cowork 不用写代码也能整理本地文件，每月 100 美元值不值？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-22/openai-python-sdk-releases-0382a002.md",
+      "file": "sources/2026-08-22/openai-python-sdk-releases-0382a002.md",
+      "slug": "OpenAI-Python-SDK-3.3.1升级判断",
+      "title": "OpenAI Python SDK 3.3.1 修复依赖安全问题：项目该不该马上升级？",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.03,
+      "reach_note": "OpenAI 品牌具备认知度，安全升级有明确利益，Python 用户可立即检查版本并执行回归测试。",
+      "selection_reason": "官方 release 是可靠的版本事实主源，题目能帮助开发者把“例行升级”转成有边界的安全决策。",
+      "selected_at": "2026-08-22T11:13:07.254Z",
+      "updated_at": "2026-08-22T11:19:45.098Z",
+      "draft_ready_at": "2026-08-22T11:19:45.098Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-22/OpenAI Python SDK 3.3.1 修复依赖安全问题：项目该不该马上升级？",
+      "meta_path": "drafts/2026-08-22/OpenAI Python SDK 3.3.1 修复依赖安全问题：项目该不该马上升级？/OpenAI Python SDK 3.3.1 修复依赖安全问题：项目该不该马上升级？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-22/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-08-22/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex安全扫描反被入侵复盘",
+      "title": "让 Claude Code 和 Codex 扫漏洞，为什么反而可能被远程执行代码？",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 108,
+      "recent_similarity": 0.04,
+      "reach_note": "Claude Code 与 Codex 都有品牌认知，防止本机被入侵是强利益点，防护措施可立即落实。",
+      "selection_reason": "这是与日常代码审查直接相关的真实风险，适合用事故链条解释为什么“让 AI 检查不可信仓库”不能沿用普通开发权限。",
+      "selected_at": "2026-08-22T11:13:07.254Z",
+      "updated_at": "2026-08-22T11:20:54.860Z",
+      "draft_ready_at": "2026-08-22T11:20:54.859Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-22/让 Claude Code 和 Codex 扫漏洞，为什么反而可能被远程执行代码？",
+      "meta_path": "drafts/2026-08-22/让 Claude Code 和 Codex 扫漏洞，为什么反而可能被远程执行代码？/让 Claude Code 和 Codex 扫漏洞，为什么反而可能被远程执行代码？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-22/sopilot-hot-2090858863679750280-e7d21bf8.md",
+      "file": "sources/2026-08-22/sopilot-hot-2090858863679750280-e7d21bf8.md",
+      "slug": "DeepSeek新视觉模型视频抽帧实测",
+      "title": "DeepSeek 新视觉模型怎么读视频：别转 GIF，用两级抽帧更准",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 118,
+      "recent_similarity": 0.023,
+      "reach_note": "DeepSeek 品牌明确，视频分析有直接利益点，并提供可立即复现的抽帧方法。",
+      "selection_reason": "新模型能力与具体操作结合紧密，还包含 GIF 只识别首帧这一实测陷阱，适合同时生成教程型公众号文章和演示型小红书笔记。",
+      "selected_at": "2026-08-22T11:13:07.255Z",
+      "updated_at": "2026-08-22T11:21:52.685Z",
+      "draft_ready_at": "2026-08-22T11:21:52.684Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-22/DeepSeek 新视觉模型怎么读视频：别转 GIF，用两级抽帧更准",
+      "meta_path": "drafts/2026-08-22/DeepSeek 新视觉模型怎么读视频：别转 GIF，用两级抽帧更准/DeepSeek 新视觉模型怎么读视频：别转 GIF，用两级抽帧更准.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-22T11:13:07.252Z",
+      "source_count": 149
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-22T11:13:07.252Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-22T11:13:07.253Z",
+      "topic_id": "sources/2026-08-22/sopilot-hot-2090888011991151001-e93a3be7.md",
+      "slug": "8GB显存运行35B模型的FreeToken方案"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-22T11:13:07.253Z",
+      "topic_id": "sources/2026-08-22/sopilot-hot-2090920477384720557-85153732.md",
+      "slug": "Vercel网站AI可操作性测试"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-22T11:13:07.253Z",
+      "topic_id": "sources/2026-08-22/sopilot-hot-2090960491648815553-ef4d23b9.md",
+      "slug": "GPT-image2批量早餐海报提示词"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-22T11:13:07.254Z",
+      "topic_id": "sources/2026-08-22/venturebeat-ai-a102a18a.md",
+      "slug": "Claude-Cowork本地文件任务值不值得买"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-22T11:13:07.254Z",
+      "topic_id": "sources/2026-08-22/openai-python-sdk-releases-0382a002.md",
+      "slug": "OpenAI-Python-SDK-3.3.1升级判断"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-22T11:13:07.254Z",
+      "topic_id": "sources/2026-08-22/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex安全扫描反被入侵复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-22T11:13:07.255Z",
+      "topic_id": "sources/2026-08-22/sopilot-hot-2090858863679750280-e7d21bf8.md",
+      "slug": "DeepSeek新视觉模型视频抽帧实测"
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-08-22T11:14:03.771Z",
+      "topic_id": "sources/2026-08-22/sopilot-hot-2090888011991151001-e93a3be7.md",
+      "slug": "8GB显存运行35B模型的FreeToken方案",
+      "error": "generated markdown for 8GB 显存也能跑 35B 模型：FreeToken 把显卡、内存和 CPU 一起用起来 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-22T11:15:10.918Z",
+      "topic_id": "sources/2026-08-22/sopilot-hot-2090888011991151001-e93a3be7.md",
+      "slug": "8GB显存运行35B模型的FreeToken方案",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-22T11:16:08.579Z",
+      "topic_id": "sources/2026-08-22/sopilot-hot-2090920477384720557-85153732.md",
+      "slug": "Vercel网站AI可操作性测试",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-22T11:17:46.918Z",
+      "topic_id": "sources/2026-08-22/sopilot-hot-2090960491648815553-ef4d23b9.md",
+      "slug": "GPT-image2批量早餐海报提示词",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-22T11:18:48.634Z",
+      "topic_id": "sources/2026-08-22/venturebeat-ai-a102a18a.md",
+      "slug": "Claude-Cowork本地文件任务值不值得买",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-22T11:19:45.098Z",
+      "topic_id": "sources/2026-08-22/openai-python-sdk-releases-0382a002.md",
+      "slug": "OpenAI-Python-SDK-3.3.1升级判断",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-22T11:20:54.860Z",
+      "topic_id": "sources/2026-08-22/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex安全扫描反被入侵复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-22T11:21:52.685Z",
+      "topic_id": "sources/2026-08-22/sopilot-hot-2090858863679750280-e7d21bf8.md",
+      "slug": "DeepSeek新视觉模型视频抽帧实测",
+      "error": ""
+    }
+  ]
+}

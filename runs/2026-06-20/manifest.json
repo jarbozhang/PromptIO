@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-20",
+  "created_at": "2026-06-20T04:43:00.539Z",
+  "updated_at": "2026-06-20T05:20:54.783Z",
+  "source_count": 340,
+  "topics": [
+    {
+      "id": "sources/2026-06-20/github-trending-978e35c6.md",
+      "file": "sources/2026-06-20/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-最新更新把可成长的个人Agent跑起来",
+      "title": "Hermes Agent 最新更新：把可成长的个人 Agent 跑起来",
+      "status": "superseded",
+      "reach": 9,
+      "reach_note": "NousResearch/Hermes 是重点生态品牌，GitHub 仓库可直接查看和本地尝试，读者有明确上手路径。",
+      "selection_reason": "命中本号长期跟踪的 openclaw/NousResearch 生态，且具备工具、Agent、开发者工作流三重可操作性，适合做公众号版本解读和小红书上手清单。",
+      "selected_at": "2026-06-20T04:43:00.540Z",
+      "updated_at": "2026-06-20T05:07:08.391Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/vllm-releases-9b0ff932.md",
+      "file": "sources/2026-06-20/vllm-releases-9b0ff932.md",
+      "slug": "vLLM-0-23-0更新DeepSeek-V4部署党最该看的几项变化",
+      "title": "vLLM 0.23.0 更新：DeepSeek-V4 部署党最该看的几项变化",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "vLLM 和 DeepSeek 都有明确认知度，升级与部署验证是可立即执行的动作。",
+      "selection_reason": "这是强事实主源的版本更新，信息量足，适合服务本地推理、模型部署和企业内网推理读者，实操价值高于普通模型新闻。",
+      "selected_at": "2026-06-20T04:43:00.540Z",
+      "updated_at": "2026-06-20T05:07:08.391Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/transformers-releases-d8e34778.md",
+      "file": "sources/2026-06-20/transformers-releases-d8e34778.md",
+      "slug": "Transformers-5-12-0里MiniMax-M3-VL和PP-OCRv6怎么试",
+      "title": "Transformers 5.12.0：MiniMax-M3-VL 和 PP-OCRv6 值得怎么试",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "Hugging Face/Transformers 是高认知开发者品牌，新模型和 OCR 场景都有直接试用价值。",
+      "selection_reason": "版本源信息充足，覆盖开源生态和可动手模型测试，不只是发布新闻，能转成明确的升级与验证路线。",
+      "selected_at": "2026-06-20T04:43:00.540Z",
+      "updated_at": "2026-06-20T05:07:08.391Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/x-chenchengpro-8e23e575.md",
+      "file": "sources/2026-06-20/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes把AI代码PR前检查变成本地闸门",
+      "title": "AI 写代码太快后，no-mistakes 把 PR 前检查变成一道本地闸门",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "Codex、Claude Code、AI 写代码是高关注场景，PR 前自动检查能直接改造开发流程。",
+      "selection_reason": "虽然来源是场景角度，但内容足够工程化，能落到开发者每天都会遇到的 validate diff 问题，适合做方法论加工具拆解。",
+      "selected_at": "2026-06-20T04:43:00.540Z",
+      "updated_at": "2026-06-20T05:07:08.391Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/openai-blog-9b77dce7.md",
+      "file": "sources/2026-06-20/openai-blog-9b77dce7.md",
+      "slug": "OpenAI收购Ona后Codex长期云端环境意味着什么",
+      "title": "OpenAI 收购 Ona：Codex 的长期云端环境意味着什么",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "OpenAI 和 Codex 品牌强，长期云端环境直接对应开发者工作流升级。",
+      "selection_reason": "官方来源可作为事实主源，和当天多条 Codex 使用场景形成呼应，但不依赖传闻，适合写成可执行的工作流判断。",
+      "selected_at": "2026-06-20T04:43:00.541Z",
+      "updated_at": "2026-06-20T05:07:08.391Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/x-xiangxiang103-8687f367.md",
+      "file": "sources/2026-06-20/x-xiangxiang103-8687f367.md",
+      "slug": "Codex录制Skill把重复操作变成可复用自动化",
+      "title": "Codex 录制 Skill：不用写代码，把重复操作变成可复用自动化",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "Codex 品牌强，不写代码做自动化有明确利益点，符合条件的读者可以立即尝试。",
+      "selection_reason": "这是小红书友好的强实操题，能写成短教程和避坑清单，同时和 PromptIO 的 Skill 选题方向高度一致。",
+      "selected_at": "2026-06-20T04:43:00.541Z",
+      "updated_at": "2026-06-20T05:07:08.391Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/x-chenchengpro-9dcefe80.md",
+      "file": "sources/2026-06-20/x-chenchengpro-9dcefe80.md",
+      "slug": "chatgpt-imagegen用ChatGPT订阅在本地Agent里直接生图",
+      "title": "chatgpt-imagegen：用 ChatGPT 订阅在本地 Agent 里直接生图",
+      "status": "superseded",
+      "reach": 8,
+      "reach_note": "ChatGPT/Codex 认知度高，节省 API Key 配置和复用订阅价值是明确利益点，工具可立即尝试。",
+      "selection_reason": "命中省钱、工具、内容生产和 Skill 生态，适合公众号写完整上手路径，小红书写成“本地 Agent 生图工作流”清单。",
+      "selected_at": "2026-06-20T04:43:00.541Z",
+      "updated_at": "2026-06-20T05:07:08.391Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/hermes-agent-017-curated.md",
+      "file": "sources/2026-06-20/hermes-agent-017-curated.md",
+      "slug": "Hermes v0.17 更新了什么",
+      "title": "Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "Hermes 是长期跟踪重点，版本变化具体，读者能按清单检查自己的 Agent。",
+      "selection_reason": "这是 06-19 新 release，能回答用户要求的“新版本解决了哪些问题、新增了哪些功能、怎么使用”。",
+      "selected_at": "2026-06-20T05:07:08.391Z",
+      "updated_at": "2026-06-20T05:09:47.516Z",
+      "draft_ready_at": "2026-06-20T05:09:47.516Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-20/Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径",
+      "meta_path": "drafts/2026-06-20/Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径/Hermes v0.17 更新了什么，个人 Agent 开始长出真正的交付半径.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/openclaw-2026-6-9-beta-curated.md",
+      "file": "sources/2026-06-20/openclaw-2026-6-9-beta-curated.md",
+      "slug": "OpenClaw 2026.6.9 beta 个人助手交付不掉线",
+      "title": "OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "OpenClaw 是长期跟踪重点，版本新，能转成可执行的发布前检查表。",
+      "selection_reason": "和 06-18 的 2026.6.8 不重复，这篇聚焦 2026.6.9-beta.1 的交付通道、恢复和安全。",
+      "selected_at": "2026-06-20T05:07:08.391Z",
+      "updated_at": "2026-06-20T05:11:39.136Z",
+      "draft_ready_at": "2026-06-20T05:11:39.136Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-20/OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线",
+      "meta_path": "drafts/2026-06-20/OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线/OpenClaw 2026.6.9-beta.1，个人助手真正难的是交付不掉线.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/codex-thread-handoff-curated.md",
+      "file": "sources/2026-06-20/codex-thread-handoff-curated.md",
+      "slug": "Codex 会话交给远程主机继续跑",
+      "title": "Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上",
+      "status": "draft_ready",
+      "reach": 9,
+      "reach_note": "Codex 品牌强，官方新能力，开发者能按步骤检查自己是否适合用。",
+      "selection_reason": "这是 06-18 Codex app 26.616 后续官方文档确认的能力，和昨天 Record & Replay 的主题不同。",
+      "selected_at": "2026-06-20T05:07:08.392Z",
+      "updated_at": "2026-06-20T05:13:03.190Z",
+      "draft_ready_at": "2026-06-20T05:13:03.190Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-20/Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上",
+      "meta_path": "drafts/2026-06-20/Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上/Codex 会话可以交给远程主机继续跑，长任务终于不用困在一台电脑上.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/glm-52-long-horizon-curated.md",
+      "file": "sources/2026-06-20/glm-52-long-horizon-curated.md",
+      "slug": "GLM-5.2 长任务 Agent 选模型指标",
+      "title": "GLM-5.2 开源后，长任务 Agent 选模型要看这三个指标",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "GLM 品牌认知强，开源模型可操作，指标有明确选型价值。",
+      "selection_reason": "补充模型线，避免今日全是 Agent 工具更新，同时用官方 Hugging Face 文章做主源。",
+      "selected_at": "2026-06-20T05:07:08.392Z",
+      "updated_at": "2026-06-20T05:14:53.001Z",
+      "draft_ready_at": "2026-06-20T05:14:53.001Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-20/长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文",
+      "meta_path": "drafts/2026-06-20/长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文/长任务 Agent 选模型，别只看 GLM-5.2 的 1M 上下文.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/open-notebook-110-curated.md",
+      "file": "sources/2026-06-20/open-notebook-110-curated.md",
+      "slug": "Open Notebook v1.10 先把检索和重试做稳",
+      "title": "自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "自托管资料库场景明确，读者能用这份清单判断自己的知识库是否可靠。",
+      "selection_reason": "这是 06-18 新 release，来源为 GitHub release，能把工具文写得更具体而不是营销化。",
+      "selected_at": "2026-06-20T05:07:08.392Z",
+      "updated_at": "2026-06-20T05:16:44.289Z",
+      "draft_ready_at": "2026-06-20T05:16:44.288Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-20/自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了",
+      "meta_path": "drafts/2026-06-20/自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了/自托管资料库别只看聊天，Open Notebook v1.10 先把检索和重试做稳了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/elastic-agent-memory-curated.md",
+      "file": "sources/2026-06-20/elastic-agent-memory-curated.md",
+      "slug": "Elastic 给 Agent 长期记忆一套架构",
+      "title": "别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "Agent memory、RAG 和 Elasticsearch 都有可操作价值，适合收藏型技术笔记。",
+      "selection_reason": "补一篇方法论深度，帮助今天的文章不只停留在版本新闻。",
+      "selected_at": "2026-06-20T05:07:08.393Z",
+      "updated_at": "2026-06-20T05:19:26.557Z",
+      "draft_ready_at": "2026-06-20T05:19:26.557Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-20/别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计",
+      "meta_path": "drafts/2026-06-20/别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计/别再把聊天记录塞进 prompt 了，Agent 记忆要这样设计.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-20/deepmind-ai-control-curated.md",
+      "file": "sources/2026-06-20/deepmind-ai-control-curated.md",
+      "slug": "DeepMind AI Control Roadmap 给 Agent 上线前打勾",
+      "title": "DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾",
+      "status": "draft_ready",
+      "reach": 8,
+      "reach_note": "DeepMind 品牌强，Agent 安全是高关注问题，读者能直接转成上线 checklist。",
+      "selection_reason": "补齐安全与控制层，和 OpenClaw/Hermes 的产品化更新形成互补。",
+      "selected_at": "2026-06-20T05:07:08.393Z",
+      "updated_at": "2026-06-20T05:20:54.783Z",
+      "draft_ready_at": "2026-06-20T05:20:54.783Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-20/DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾",
+      "meta_path": "drafts/2026-06-20/DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾/DeepMind 这份 AI Control Roadmap，适合拿来给 Agent 上线前打勾.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-20T04:43:00.539Z",
+      "source_count": 340
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-20T04:43:00.539Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T04:43:00.540Z",
+      "topic_id": "sources/2026-06-20/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-最新更新把可成长的个人Agent跑起来"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T04:43:00.540Z",
+      "topic_id": "sources/2026-06-20/vllm-releases-9b0ff932.md",
+      "slug": "vLLM-0-23-0更新DeepSeek-V4部署党最该看的几项变化"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T04:43:00.540Z",
+      "topic_id": "sources/2026-06-20/transformers-releases-d8e34778.md",
+      "slug": "Transformers-5-12-0里MiniMax-M3-VL和PP-OCRv6怎么试"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T04:43:00.540Z",
+      "topic_id": "sources/2026-06-20/x-chenchengpro-8e23e575.md",
+      "slug": "no-mistakes把AI代码PR前检查变成本地闸门"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T04:43:00.541Z",
+      "topic_id": "sources/2026-06-20/openai-blog-9b77dce7.md",
+      "slug": "OpenAI收购Ona后Codex长期云端环境意味着什么"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T04:43:00.541Z",
+      "topic_id": "sources/2026-06-20/x-xiangxiang103-8687f367.md",
+      "slug": "Codex录制Skill把重复操作变成可复用自动化"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T04:43:00.541Z",
+      "topic_id": "sources/2026-06-20/x-chenchengpro-9dcefe80.md",
+      "slug": "chatgpt-imagegen用ChatGPT订阅在本地Agent里直接生图"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-20T05:07:08.390Z",
+      "source_count": 340
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-20T05:07:08.391Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:07:08.391Z",
+      "topic_id": "sources/2026-06-20/hermes-agent-017-curated.md",
+      "slug": "Hermes v0.17 更新了什么"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:07:08.391Z",
+      "topic_id": "sources/2026-06-20/openclaw-2026-6-9-beta-curated.md",
+      "slug": "OpenClaw 2026.6.9 beta 个人助手交付不掉线"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:07:08.392Z",
+      "topic_id": "sources/2026-06-20/codex-thread-handoff-curated.md",
+      "slug": "Codex 会话交给远程主机继续跑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:07:08.392Z",
+      "topic_id": "sources/2026-06-20/glm-52-long-horizon-curated.md",
+      "slug": "GLM-5.2 长任务 Agent 选模型指标"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:07:08.392Z",
+      "topic_id": "sources/2026-06-20/open-notebook-110-curated.md",
+      "slug": "Open Notebook v1.10 先把检索和重试做稳"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:07:08.393Z",
+      "topic_id": "sources/2026-06-20/elastic-agent-memory-curated.md",
+      "slug": "Elastic 给 Agent 长期记忆一套架构"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:07:08.393Z",
+      "topic_id": "sources/2026-06-20/deepmind-ai-control-curated.md",
+      "slug": "DeepMind AI Control Roadmap 给 Agent 上线前打勾"
+    },
+    {
+      "type": "sources_seen",
+      "at": "2026-06-20T05:08:25.661Z",
+      "source_count": 340
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-20T05:08:25.662Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:08:25.663Z",
+      "topic_id": "sources/2026-06-20/hermes-agent-017-curated.md",
+      "slug": "Hermes v0.17 更新了什么"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:08:25.663Z",
+      "topic_id": "sources/2026-06-20/openclaw-2026-6-9-beta-curated.md",
+      "slug": "OpenClaw 2026.6.9 beta 个人助手交付不掉线"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:08:25.663Z",
+      "topic_id": "sources/2026-06-20/codex-thread-handoff-curated.md",
+      "slug": "Codex 会话交给远程主机继续跑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:08:25.664Z",
+      "topic_id": "sources/2026-06-20/glm-52-long-horizon-curated.md",
+      "slug": "GLM-5.2 长任务 Agent 选模型指标"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:08:25.664Z",
+      "topic_id": "sources/2026-06-20/open-notebook-110-curated.md",
+      "slug": "Open Notebook v1.10 先把检索和重试做稳"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:08:25.664Z",
+      "topic_id": "sources/2026-06-20/elastic-agent-memory-curated.md",
+      "slug": "Elastic 给 Agent 长期记忆一套架构"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-20T05:08:25.665Z",
+      "topic_id": "sources/2026-06-20/deepmind-ai-control-curated.md",
+      "slug": "DeepMind AI Control Roadmap 给 Agent 上线前打勾"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-20T05:09:47.516Z",
+      "topic_id": "sources/2026-06-20/hermes-agent-017-curated.md",
+      "slug": "Hermes v0.17 更新了什么",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-20T05:11:39.136Z",
+      "topic_id": "sources/2026-06-20/openclaw-2026-6-9-beta-curated.md",
+      "slug": "OpenClaw 2026.6.9 beta 个人助手交付不掉线",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-20T05:13:03.190Z",
+      "topic_id": "sources/2026-06-20/codex-thread-handoff-curated.md",
+      "slug": "Codex 会话交给远程主机继续跑",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-20T05:14:53.001Z",
+      "topic_id": "sources/2026-06-20/glm-52-long-horizon-curated.md",
+      "slug": "GLM-5.2 长任务 Agent 选模型指标",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-20T05:16:44.289Z",
+      "topic_id": "sources/2026-06-20/open-notebook-110-curated.md",
+      "slug": "Open Notebook v1.10 先把检索和重试做稳",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-20T05:19:26.557Z",
+      "topic_id": "sources/2026-06-20/elastic-agent-memory-curated.md",
+      "slug": "Elastic 给 Agent 长期记忆一套架构",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-20T05:20:54.783Z",
+      "topic_id": "sources/2026-06-20/deepmind-ai-control-curated.md",
+      "slug": "DeepMind AI Control Roadmap 给 Agent 上线前打勾",
+      "error": ""
+    }
+  ]
+}

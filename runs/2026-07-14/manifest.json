@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-14",
+  "created_at": "2026-07-13T23:21:14.387Z",
+  "updated_at": "2026-07-13T23:39:43.609Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-14/x-IndieDevHailey-788eda76.md",
+      "file": "sources/2026-07-14/x-IndieDevHailey-788eda76.md",
+      "slug": "OpenReel-本地浏览器剪视频",
+      "title": "不上传素材也能剪 4K：用 OpenReel 在浏览器完成字幕、调色和导出",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.029,
+      "reach_note": "不上传、零安装、零水印和可立即试用构成明确利益点，即使不借助竞品对比也有传播价值。",
+      "selection_reason": "它直接回应创作者对素材隐私、安装成本和水印的顾虑，读者可以用自己的视频当场验证，而不必先迁移整套剪辑流程。",
+      "selected_at": "2026-07-13T23:21:14.388Z",
+      "updated_at": "2026-07-13T23:22:50.899Z",
+      "draft_ready_at": "2026-07-13T23:22:50.898Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-14/不上传素材也能剪 4K，用 OpenReel 在浏览器完成字幕、调色和导出",
+      "meta_path": "drafts/2026-07-14/不上传素材也能剪 4K，用 OpenReel 在浏览器完成字幕、调色和导出/不上传素材也能剪 4K，用 OpenReel 在浏览器完成字幕、调色和导出.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-14/x-leerob-9724e0b0.md",
+      "file": "sources/2026-07-14/x-leerob-9724e0b0.md",
+      "slug": "AI写作改用批评和对读",
+      "title": "我让 AI 写了 10 个版本，还是差最后一层：改用它做批评和对读",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.046,
+      "reach_note": "提升文章质量是明确利益点，批评、校对和对读三种用法可以直接用于下一篇稿件。",
+      "selection_reason": "这比继续堆提示词更能解释 AI 写作的能力边界，也给创作者留下了一套无需更换模型即可实践的新分工。",
+      "selected_at": "2026-07-13T23:21:14.388Z",
+      "updated_at": "2026-07-13T23:24:25.349Z",
+      "draft_ready_at": "2026-07-13T23:24:25.348Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-14/我让 AI 写了 10 个版本，还是差最后一层：改用它做批评和对读",
+      "meta_path": "drafts/2026-07-14/我让 AI 写了 10 个版本，还是差最后一层：改用它做批评和对读/我让 AI 写了 10 个版本，还是差最后一层：改用它做批评和对读.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-14/transformers-releases-4c3b3f15.md",
+      "file": "sources/2026-07-14/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers-5.10.0下架复盘",
+      "title": "Hugging Face 下架 Transformers 5.10.0：一次赶工发布如何发坏分支",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.053,
+      "reach_note": "Hugging Face 品牌、损坏版本带来的直接风险以及可立即执行的锁版本与回滚动作同时具备。",
+      "selection_reason": "官方主动披露的发布事故具有可靠细节，也能提醒模型开发者：依赖风险不仅来自代码缺陷，还可能来自打包和发布流程。",
+      "selected_at": "2026-07-13T23:21:14.388Z",
+      "updated_at": "2026-07-13T23:28:02.912Z",
+      "draft_ready_at": "2026-07-13T23:28:02.912Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-14/Hugging Face 下架 Transformers 5.10.0：一次赶工发布如何发坏分支",
+      "meta_path": "drafts/2026-07-14/Hugging Face 下架 Transformers 5.10.0：一次赶工发布如何发坏分支/Hugging Face 下架 Transformers 5.10.0：一次赶工发布如何发坏分支.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-14/github-trending-6eec8646.md",
+      "file": "sources/2026-07-14/github-trending-6eec8646.md",
+      "slug": "Ollama接入Kimi-GLM-DeepSeek",
+      "title": "用 Ollama 接入 Kimi K2.6、GLM 5.1 和 DeepSeek：下载前先按内存选模型",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.025,
+      "reach_note": "Ollama、Kimi、GLM 和 DeepSeek 都有认知度，本地接入与避免下载错误模型兼具利益点和即时操作性。",
+      "selection_reason": "统一入口降低了尝试新模型的切换成本，而先按硬件筛选能避免最常见的下载失败和运行卡顿，适合中文读者当天动手。",
+      "selected_at": "2026-07-13T23:21:14.389Z",
+      "updated_at": "2026-07-13T23:29:59.074Z",
+      "draft_ready_at": "2026-07-13T23:29:59.073Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-14/用 Ollama 接入 Kimi K2.6、GLM 5.1 和 DeepSeek：下载前先按内存选模型",
+      "meta_path": "drafts/2026-07-14/用 Ollama 接入 Kimi K2.6、GLM 5.1 和 DeepSeek：下载前先按内存选模型/用 Ollama 接入 Kimi K2.6、GLM 5.1 和 DeepSeek：下载前先按内存选模型.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-14/vllm-releases-d5583501.md",
+      "file": "sources/2026-07-14/vllm-releases-d5583501.md",
+      "slug": "vLLM-0.25升级前压测",
+      "title": "vLLM 0.25.0 默认启用 Model Runner V2：升级前该重跑哪些压测",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.045,
+      "reach_note": "vLLM 有明确品牌认知，避免升级回归是直接利益点，维护者可以立即在预发布环境重跑压测。",
+      "selection_reason": "这是会改变默认执行路径的实质更新，不是普通补丁。正在维护推理服务的团队需要尽快确认性能收益和兼容风险。",
+      "selected_at": "2026-07-13T23:21:14.389Z",
+      "updated_at": "2026-07-13T23:32:04.557Z",
+      "draft_ready_at": "2026-07-13T23:32:04.556Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-14/vLLM 0.25.0 默认启用 Model Runner V2，升级前该重跑哪些压测",
+      "meta_path": "drafts/2026-07-14/vLLM 0.25.0 默认启用 Model Runner V2，升级前该重跑哪些压测/vLLM 0.25.0 默认启用 Model Runner V2，升级前该重跑哪些压测.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-14/github-trending-978e35c6.md",
+      "file": "sources/2026-07-14/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-7月最新版上手",
+      "title": "Hermes Agent 7 月最新版：它解决了什么，怎么跑起第一个任务",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.066,
+      "reach_note": "Hermes 属于重点跟踪生态，版本变化有品牌关注度，读者可直接进入官方仓库验证并上手。",
+      "selection_reason": "Hermes Agent 与 openclaw 生态衔接紧密，最新代码仍在快速迭代。用版本变化和最小任务串联，比泛泛介绍项目更能帮助现有用户采取行动。",
+      "selected_at": "2026-07-13T23:21:14.389Z",
+      "updated_at": "2026-07-13T23:36:18.188Z",
+      "draft_ready_at": "2026-07-13T23:36:18.187Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-14/Hermes Agent 7 月最新版：它解决了什么，怎么跑起第一个任务",
+      "meta_path": "drafts/2026-07-14/Hermes Agent 7 月最新版：它解决了什么，怎么跑起第一个任务/Hermes Agent 7 月最新版：它解决了什么，怎么跑起第一个任务.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-14/x-dotey-05c5d447.md",
+      "file": "sources/2026-07-14/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Chat-Work-Codex怎么选",
+      "title": "ChatGPT 里的 Chat、Work、Codex 怎么选：先看你要答案、成品还是代码",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 118,
+      "recent_similarity": 0.06,
+      "reach_note": "ChatGPT 品牌认知高，选对模式能减少时间和额度浪费，读者可立即用手头任务完成判断。",
+      "selection_reason": "新模式增多后，最常见的浪费不是能力不足，而是把任务交给了错误入口。按交付物选择比背功能列表更适合个人和团队决策。",
+      "selected_at": "2026-07-13T23:21:14.389Z",
+      "updated_at": "2026-07-13T23:39:43.609Z",
+      "draft_ready_at": "2026-07-13T23:39:43.608Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-14/ChatGPT 里的 Chat、Work、Codex 怎么选：先看你要答案、成品还是代码",
+      "meta_path": "drafts/2026-07-14/ChatGPT 里的 Chat、Work、Codex 怎么选：先看你要答案、成品还是代码/ChatGPT 里的 Chat、Work、Codex 怎么选：先看你要答案、成品还是代码.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-13T23:21:14.387Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-13T23:21:14.387Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-13T23:21:14.388Z",
+      "topic_id": "sources/2026-07-14/x-IndieDevHailey-788eda76.md",
+      "slug": "OpenReel-本地浏览器剪视频"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-13T23:21:14.388Z",
+      "topic_id": "sources/2026-07-14/x-leerob-9724e0b0.md",
+      "slug": "AI写作改用批评和对读"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-13T23:21:14.388Z",
+      "topic_id": "sources/2026-07-14/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers-5.10.0下架复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-13T23:21:14.389Z",
+      "topic_id": "sources/2026-07-14/github-trending-6eec8646.md",
+      "slug": "Ollama接入Kimi-GLM-DeepSeek"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-13T23:21:14.389Z",
+      "topic_id": "sources/2026-07-14/vllm-releases-d5583501.md",
+      "slug": "vLLM-0.25升级前压测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-13T23:21:14.389Z",
+      "topic_id": "sources/2026-07-14/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-7月最新版上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-13T23:21:14.389Z",
+      "topic_id": "sources/2026-07-14/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Chat-Work-Codex怎么选"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-13T23:22:50.899Z",
+      "topic_id": "sources/2026-07-14/x-IndieDevHailey-788eda76.md",
+      "slug": "OpenReel-本地浏览器剪视频",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-13T23:24:25.349Z",
+      "topic_id": "sources/2026-07-14/x-leerob-9724e0b0.md",
+      "slug": "AI写作改用批评和对读",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-13T23:26:29.207Z",
+      "topic_id": "sources/2026-07-14/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers-5.10.0下架复盘",
+      "error": "generated markdown for Hugging Face 下架 Transformers 5.10.0：一次赶工发布如何发坏分支 contains blocked publish-surface terms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-13T23:28:02.913Z",
+      "topic_id": "sources/2026-07-14/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers-5.10.0下架复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-13T23:29:59.074Z",
+      "topic_id": "sources/2026-07-14/github-trending-6eec8646.md",
+      "slug": "Ollama接入Kimi-GLM-DeepSeek",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-13T23:32:04.557Z",
+      "topic_id": "sources/2026-07-14/vllm-releases-d5583501.md",
+      "slug": "vLLM-0.25升级前压测",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-13T23:36:18.188Z",
+      "topic_id": "sources/2026-07-14/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-7月最新版上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-13T23:39:43.609Z",
+      "topic_id": "sources/2026-07-14/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Chat-Work-Codex怎么选",
+      "error": ""
+    }
+  ]
+}

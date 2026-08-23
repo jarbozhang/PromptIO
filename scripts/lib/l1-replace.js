@@ -81,6 +81,42 @@ const MANUAL_REWRITE = [
   '荐股', '保本', '无风险收益', '包治', '根治', '治愈率', '疗效保证',
 ];
 
+// Final publish-surface guard. Unlike checkCompliance(), this scans the full
+// markdown including frontmatter and links because hidden metadata is still part
+// of the only file we keep per article.
+const PUBLISH_SURFACE_RULES = [
+  {
+    type: 'sensitive_source',
+    pattern: 'Reddit',
+    re: /\breddit\b|reddit\.com|\/r\/[a-z0-9_]+/gi,
+  },
+  {
+    type: 'sensitive_source',
+    pattern: 'Hacker News/HN',
+    re: /\bhacker news\b|\bhacker-news\b|news\.ycombinator\.com|\bshow hn\b|\bask hn\b|\bhn\b/gi,
+  },
+  {
+    type: 'sensitive_source',
+    pattern: 'OpenRouter',
+    re: /\bopenrouter\b|openrouter\.ai/gi,
+  },
+  {
+    type: 'domestic_foreign_framing',
+    pattern: '外网/国内/国外/境外/海外',
+    re: /外网|国内|国外|境外|海外/gi,
+  },
+  {
+    type: 'instruction_leak',
+    pattern: '内部写作约束泄漏',
+    re: /这篇只按|这篇不写|这篇我不写成|我这篇不写成|我不会把[^。；;\n]*(?:写成|当成)|我没有把[^。；;\n]*(?:写成|全部跑一遍)|先说明边界|本文只基于公开|只按公开.*确认的信息写|不补实测结果|不编安装参数|不替仓库脑补|源材料摘要较短|必须明确标注信息边界|正文必须标注|只基于公开.*可验证能力|不能编造实测|不要写成连续说明文|正文必须|本文为\s*AI\s*辅助整理|AI\s*辅助整理|不是[^。；;\n]*实测|不是[^。；;\n]*假装|假装已经[^。；;\n]*/gi,
+  },
+  {
+    type: 'formulaic_heading',
+    pattern: '模板化今晚行动段',
+    re: /^(?:#{2,3}\s*)?[^。\n]{0,18}今晚[^。\n]*(?:可以这样|能做什么|想动手|能做|可以做|就做|要开始|开始|演示|拿一个|动手|验证|跑起来|搭)[^。\n]*[。？?]?$/gmi,
+  },
+];
+
 // Regex to match fenced code blocks (``` ... ```) and inline code (` ... `)
 const CODE_BLOCK_RE = /```[\s\S]*?```|`[^`\n]+`/g;
 
@@ -244,6 +280,71 @@ export function applyCompliance(text) {
   const result = safeText.replace(/\x00CODE(\d+)\x00/g, (_, idx) => codeSlots[Number(idx)]);
 
   return { text: result, replacements };
+}
+
+export function scanPublishSurface(text) {
+  const raw = String(text || '');
+  const issues = [];
+
+  for (const rule of PUBLISH_SURFACE_RULES) {
+    rule.re.lastIndex = 0;
+    const matches = [...raw.matchAll(rule.re)];
+    for (const match of matches) {
+      issues.push({
+        type: rule.type,
+        pattern: rule.pattern,
+        matched_text: match[0],
+      });
+    }
+  }
+
+  return issues;
+}
+
+export function sanitizeInternalInstructions(text) {
+  let value = String(text || '');
+  const patterns = [
+    /[；;，,。]?\s*源材料摘要较短[，,]?\s*正文必须(?:明确)?标注[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*源材料摘要较短[。；;]?/g,
+    /[；;，,。]?\s*正文必须(?:明确)?[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*必须改成小红书可收藏结构[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*不要写成连续说明文[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*只按公开[^。；;]*确认的信息写[。；;]?/g,
+    /[；;，,。]?\s*只基于公开[^。；;]*可验证能力[。；;]?/g,
+    /[；;，,。]?\s*不补实测结果[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*不编安装参数[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*不替仓库脑补[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*本文只基于公开[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*本文为\s*AI\s*辅助整理[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*AI\s*辅助整理[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*(?:它|这|这个|这份[^。；;，,]*|这篇[^。；;，,]*)?不是[^。；;]*实测[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*(?:它|这|这个|这份[^。；;，,]*|这篇[^。；;，,]*)?不是[^。；;]*假装[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*假装已经[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*我没有把[^。；;]*(?:写成|全部跑一遍)[^。；;]*[。；;]?/g,
+    /[；;，,。]?\s*我不会把[^。；;]*(?:写成|当成)[^。；;]*[。；;]?/g,
+  ];
+
+  for (const pattern of patterns) value = value.replace(pattern, '。');
+
+  return value
+    .replace(/[。；;，,]\s*[。；;，,]+/g, '。')
+    .replace(/\s+/g, ' ')
+    .replace(/^[。；;，,\s]+/, '')
+    .replace(/[；;，,\s]+$/g, '')
+    .trim();
+}
+
+export function assertPublishSurfaceSafe(text, context = 'publish surface') {
+  const issues = scanPublishSurface(text);
+  if (!issues.length) return true;
+
+  const summary = issues
+    .slice(0, 8)
+    .map(issue => `${issue.type}:${issue.matched_text}`)
+    .join(', ');
+  const err = new Error(`${context} contains blocked publish-surface terms: ${summary}`);
+  err.issues = issues;
+  throw err;
 }
 
 function escapeRegExp(s) {

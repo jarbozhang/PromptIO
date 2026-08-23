@@ -1,0 +1,21 @@
+---
+title: >-
+  Complexity Bounds and Approaches to Learning Projected Gradient Descent Solver
+  Iterates
+url: 'https://arxiv.org/abs/2607.22467v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Anjian Li
+  - Ryne Beeson
+categories:
+  - cs.LG
+  - cs.LG
+published: '2026-07-24T16:31:30Z'
+fetched_at: '2026-07-27T11:02:38.254Z'
+---
+Data scarcity poses a fundamental challenge in training generative models to produce initial guesses for parametric optimization problems that are otherwise numerically expensive to solve. We therefore study a $k$-neighborhood data collection strategy that augments datasets of converged solutions with intermediate solver iterates, increasing the amount of training data without additional solver runs. To understand the benefits of this approach, we derive a generalization bound based on Rademacher complexity that reveals the role of the $k$-neighborhoods and related parameters. To achieve this result, we focus on one-sided box-constrained quadratic programs solved by projected gradient descent. We illustrate the behavior of this solver on two examples. The approach proposed in this paper enables a more capable DDDAS paradigm by improving the efficiency of the data-model-optimization loop. We finish by discussing two views of learning solver-iterate data and connect our analysis with GLENS, a new data-efficient global search method.
+
+Authors: Anjian Li, Ryne Beeson
+Categories: cs.LG, cs.LG

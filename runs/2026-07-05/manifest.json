@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-05",
+  "created_at": "2026-07-04T23:20:35.692Z",
+  "updated_at": "2026-07-04T23:39:55.825Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-05/replicate-blog-c2b1c193.md",
+      "file": "sources/2026-07-05/replicate-blog-c2b1c193.md",
+      "slug": "Recraft-V4可编辑SVG",
+      "title": "Recraft V4 上架 Replicate：AI 图能导出可编辑 SVG 了",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.059,
+      "reach_note": "Replicate/Recraft 有工具入口，可编辑 SVG 是明确利益点，设计读者能直接试。",
+      "selection_reason": "它比普通出图新闻更适合公众号和小红书：可编辑 SVG 连接了生成式图片和真实设计交付，读者能立刻用自己的素材验证。",
+      "selected_at": "2026-07-04T23:20:35.693Z",
+      "updated_at": "2026-07-04T23:22:40.762Z",
+      "draft_ready_at": "2026-07-04T23:22:40.761Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-05/Recraft V4 上架 Replicate：AI 图能导出可编辑 SVG 了",
+      "meta_path": "drafts/2026-07-05/Recraft V4 上架 Replicate：AI 图能导出可编辑 SVG 了/Recraft V4 上架 Replicate：AI 图能导出可编辑 SVG 了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-05/openai-python-sdk-releases-052770e0.md",
+      "file": "sources/2026-07-05/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-SDK账单报警",
+      "title": "OpenAI Python SDK 加账单报警：API 成本别等月底才发现",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "reference_card",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.038,
+      "reach_note": "OpenAI 品牌强，账单报警是明确省钱点，SDK 升级和配置动作清楚。",
+      "selection_reason": "API 成本控制是很多 AI 产品团队的真实痛点，这个版本点可以从发布信息延展成可执行的预算保护流程。",
+      "selected_at": "2026-07-04T23:20:35.693Z",
+      "updated_at": "2026-07-04T23:24:07.321Z",
+      "draft_ready_at": "2026-07-04T23:24:07.320Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-05/OpenAI Python SDK 加账单报警，API 成本别等月底才发现",
+      "meta_path": "drafts/2026-07-05/OpenAI Python SDK 加账单报警，API 成本别等月底才发现/OpenAI Python SDK 加账单报警，API 成本别等月底才发现.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-05/lobsters-ai-5d8627e5.md",
+      "file": "sources/2026-07-05/lobsters-ai-5d8627e5.md",
+      "slug": "Claude工具调用回归测试",
+      "title": "模型变强，工具调用反而更脆：Claude 接工具前先跑回归测试",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.036,
+      "reach_note": "Claude 有品牌认知，工具调用不稳定是明确风险点，回归测试可以马上落地。",
+      "selection_reason": "它适合写成失败复盘：越新的模型越需要旧系统重新验收，尤其是已经把工具调用接进生产链路的团队。",
+      "selected_at": "2026-07-04T23:20:35.694Z",
+      "updated_at": "2026-07-04T23:26:23.623Z",
+      "draft_ready_at": "2026-07-04T23:26:23.622Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-05/模型变强，工具调用反而更脆，Claude 接工具前先跑回归测试",
+      "meta_path": "drafts/2026-07-05/模型变强，工具调用反而更脆，Claude 接工具前先跑回归测试/模型变强，工具调用反而更脆，Claude 接工具前先跑回归测试.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-05/github-trending-978e35c6.md",
+      "file": "sources/2026-07-05/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent联网能力更新",
+      "title": "Hermes Agent 新版联网能力：把网页读快，把上下文省下来",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.062,
+      "reach_note": "Hermes/NousResearch 有明确品牌识别，省上下文和提速是直接利益点，GitHub 主仓库可上手。",
+      "selection_reason": "它把 Agent 联网的真实瓶颈讲得具体：不是能不能打开网页，而是如何把网页变成可控、低成本、可分页读取的工作材料。",
+      "selected_at": "2026-07-04T23:20:35.694Z",
+      "updated_at": "2026-07-04T23:33:40.156Z",
+      "draft_ready_at": "2026-07-04T23:33:40.155Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-05/Hermes Agent 新版联网能力：把网页读快，把上下文省下来",
+      "meta_path": "drafts/2026-07-05/Hermes Agent 新版联网能力：把网页读快，把上下文省下来/Hermes Agent 新版联网能力：把网页读快，把上下文省下来.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-05/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-05/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-024部署升级",
+      "title": "vLLM 0.24.0：MiniMax-M3 能跑了，DeepSeek-V4 部署也该升级",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.07,
+      "reach_note": "vLLM、DeepSeek、MiniMax 都有识别度，升级动作明确，适合部署读者立刻验证。",
+      "selection_reason": "这不是普通 release 摘要，而是能直接影响推理服务升级、模型支持和硬件后端选择的版本变化。",
+      "selected_at": "2026-07-04T23:20:35.694Z",
+      "updated_at": "2026-07-04T23:35:25.307Z",
+      "draft_ready_at": "2026-07-04T23:35:25.306Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-05/自建推理服务该升级了，vLLM 0.24.0 支持 MiniMax-M3 和 DeepSeek-V4 优化",
+      "meta_path": "drafts/2026-07-05/自建推理服务该升级了，vLLM 0.24.0 支持 MiniMax-M3 和 DeepSeek-V4 优化/自建推理服务该升级了，vLLM 0.24.0 支持 MiniMax-M3 和 DeepSeek-V4 优化.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-05/github-trending-f4dc7845.md",
+      "file": "sources/2026-07-05/github-trending-f4dc7845.md",
+      "slug": "prompts-chat自托管提示词库",
+      "title": "prompts.chat 免费自托管：团队提示词别再散在聊天记录里",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "reference_card",
+      "diversity_note": "same_entity_in_batch,checklist_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 86,
+      "recent_similarity": 0.031,
+      "reach_note": "免费、开源、自托管都有明确利益点，ChatGPT 提示词场景读者熟悉且能马上试。",
+      "selection_reason": "提示词管理是很多团队已经遇到但没有系统处理的问题，这个仓库能自然写成轻量级工作台搭建指南。",
+      "selected_at": "2026-07-04T23:20:35.694Z",
+      "updated_at": "2026-07-04T23:37:34.427Z",
+      "draft_ready_at": "2026-07-04T23:37:34.426Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-05/prompts.chat 免费自托管：团队提示词别再散在聊天记录里",
+      "meta_path": "drafts/2026-07-05/prompts.chat 免费自托管：团队提示词别再散在聊天记录里/prompts.chat 免费自托管：团队提示词别再散在聊天记录里.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-05/github-trending-0bd21c2c.md",
+      "file": "sources/2026-07-05/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw个人助手本地上手",
+      "title": "OpenClaw 新版个人 AI 助手：先看跨平台和数据归属这两件事",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "archetype_repeat:version_brief,title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 142,
+      "recent_similarity": 0.069,
+      "reach_note": "OpenClaw 是重点生态项目，跨平台和数据归属有明确利益点，读者能从 GitHub 入口开始试。",
+      "selection_reason": "它贴合中文读者对个人 AI 助手的核心疑问：能不能长期用、能不能接自己的数据、能不能不被单一平台绑住。",
+      "selected_at": "2026-07-04T23:20:35.694Z",
+      "updated_at": "2026-07-04T23:39:55.825Z",
+      "draft_ready_at": "2026-07-04T23:39:55.824Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-05/OpenClaw 新版个人 AI 助手，先看跨平台和数据归属这两件事",
+      "meta_path": "drafts/2026-07-05/OpenClaw 新版个人 AI 助手，先看跨平台和数据归属这两件事/OpenClaw 新版个人 AI 助手，先看跨平台和数据归属这两件事.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-04T23:20:35.692Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-04T23:20:35.693Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-04T23:20:35.693Z",
+      "topic_id": "sources/2026-07-05/replicate-blog-c2b1c193.md",
+      "slug": "Recraft-V4可编辑SVG"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-04T23:20:35.693Z",
+      "topic_id": "sources/2026-07-05/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-SDK账单报警"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-04T23:20:35.694Z",
+      "topic_id": "sources/2026-07-05/lobsters-ai-5d8627e5.md",
+      "slug": "Claude工具调用回归测试"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-04T23:20:35.694Z",
+      "topic_id": "sources/2026-07-05/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent联网能力更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-04T23:20:35.694Z",
+      "topic_id": "sources/2026-07-05/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-024部署升级"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-04T23:20:35.694Z",
+      "topic_id": "sources/2026-07-05/github-trending-f4dc7845.md",
+      "slug": "prompts-chat自托管提示词库"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-04T23:20:35.694Z",
+      "topic_id": "sources/2026-07-05/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw个人助手本地上手"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-04T23:22:40.762Z",
+      "topic_id": "sources/2026-07-05/replicate-blog-c2b1c193.md",
+      "slug": "Recraft-V4可编辑SVG",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-04T23:24:07.322Z",
+      "topic_id": "sources/2026-07-05/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-SDK账单报警",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-04T23:26:23.623Z",
+      "topic_id": "sources/2026-07-05/lobsters-ai-5d8627e5.md",
+      "slug": "Claude工具调用回归测试",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-04T23:31:23.663Z",
+      "topic_id": "sources/2026-07-05/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent联网能力更新",
+      "error": "codex timed out after 300000ms"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-04T23:33:40.156Z",
+      "topic_id": "sources/2026-07-05/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent联网能力更新",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-04T23:35:25.307Z",
+      "topic_id": "sources/2026-07-05/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-024部署升级",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-04T23:37:34.427Z",
+      "topic_id": "sources/2026-07-05/github-trending-f4dc7845.md",
+      "slug": "prompts-chat自托管提示词库",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-04T23:39:55.825Z",
+      "topic_id": "sources/2026-07-05/github-trending-0bd21c2c.md",
+      "slug": "OpenClaw个人助手本地上手",
+      "error": ""
+    }
+  ]
+}

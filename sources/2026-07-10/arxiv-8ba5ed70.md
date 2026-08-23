@@ -1,0 +1,22 @@
+---
+title: >-
+  Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous
+  Research Loops
+url: 'https://arxiv.org/abs/2607.07663v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Mingguang Chen
+  - Licheng Wang
+  - Bo Qu
+categories:
+  - cs.AI
+  - cs.AI
+published: '2026-07-08T17:19:50Z'
+fetched_at: '2026-07-09T23:02:05.099Z'
+---
+AI systems increasingly participate in their own improvement: revising their outputs, adapting their own harnesses during deployment, training on data they generate, and, increasingly, conducting AI research itself. This literature is described under a vocabulary ("self-refine," "self-reward," "self-play," "self-evolve") that conflates fundamentally different ambitions. We survey 1,250 arXiv papers (2024-2026) along two axes: what the system improves -- its behavior in deployment, its policy through training, its evaluator, or the research process itself -- and the degree of loop closure (human-in-the-loop to fully closed). The taxonomy separates bounded self-refinement -- convergent, evaluable, and already industrial practice -- from open-ended recursive self-improvement (RSI), which remains bounded by grounding requirements, collapse dynamics, and compute constraints on every measured axis. Its distinctive feature is a dedicated category for self-evaluation: every improvement loop is a claim that some signal can substitute for human judgment. We survey the evaluator design space -- judges, process reward models, verifiers, rubrics, meta-evaluation -- order the signals into a verification hierarchy from formal verifiers (strongest) to intrinsic self-assessment (weakest), and observe that demonstrated self-improvement strength tracks this hierarchy, that its failure modes (self-confirming loops, model collapse, diversity collapse) follow from its violations, and that the "res
+
+Authors: Mingguang Chen, Licheng Wang, Bo Qu
+Categories: cs.AI, cs.AI

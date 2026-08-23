@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-11",
+  "created_at": "2026-07-10T23:18:09.309Z",
+  "updated_at": "2026-07-10T23:35:48.842Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-11/transformers-releases-4c3b3f15.md",
+      "file": "sources/2026-07-11/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers损坏分支发布复盘",
+      "title": "Hugging Face Transformers 5.10.0 被撤回：一次损坏分支发布，如何守住依赖升级",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.033,
+      "reach_note": "Hugging Face 具备品牌认知，避免生产环境被错误版本拖垮是明确利益点，读者可立即检查依赖策略。",
+      "selection_reason": "官方发布记录直接承认错误并给出恢复版本，事故链完整，能沉淀为比普通版本新闻更有长期价值的工程经验。",
+      "selected_at": "2026-07-10T23:18:09.310Z",
+      "updated_at": "2026-07-10T23:19:36.678Z",
+      "draft_ready_at": "2026-07-10T23:19:36.678Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-11/Hugging Face Transformers 5.10.0 被撤回：一次损坏分支发布，如何守住依赖升级",
+      "meta_path": "drafts/2026-07-11/Hugging Face Transformers 5.10.0 被撤回：一次损坏分支发布，如何守住依赖升级/Hugging Face Transformers 5.10.0 被撤回：一次损坏分支发布，如何守住依赖升级.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-11/x-fchollet-1ec88440.md",
+      "file": "sources/2026-07-11/x-fchollet-1ec88440.md",
+      "slug": "用每个任务成本重做AI选型",
+      "title": "模型跑分高，不等于更省钱：用“每个任务成本”重做 AI 选型",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.038,
+      "reach_note": "降低 AI 预算是明确利益点，按真实任务计算单位成本是一套可以立即执行的选型方法。",
+      "selection_reason": "“准确率必须和边际成本一起看”能直接改变采购和模型路由决策，也能为读者提供一套可复用的评估框架。",
+      "selected_at": "2026-07-10T23:18:09.310Z",
+      "updated_at": "2026-07-10T23:21:13.642Z",
+      "draft_ready_at": "2026-07-10T23:21:13.642Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-11/模型跑分高，不等于更省钱：用“每个任务成本”重做 AI 选型",
+      "meta_path": "drafts/2026-07-11/模型跑分高，不等于更省钱：用“每个任务成本”重做 AI 选型/模型跑分高，不等于更省钱：用“每个任务成本”重做 AI 选型.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-11/x-leerob-9724e0b0.md",
+      "file": "sources/2026-07-11/x-leerob-9724e0b0.md",
+      "slug": "把AI从代写改成读者和编辑",
+      "title": "别再让 AI 一稿成文：把它当读者和编辑，文章反而更像人",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.052,
+      "reach_note": "“文章更像人”是明确创作收益，把 AI 从代写切换为审稿是当天就能尝试的动作。",
+      "selection_reason": "它击中了创作者普遍遇到的同质化问题，又给出了拼提示词之外的角色重构方法，适合形成有判断、有实验的反常识文章。",
+      "selected_at": "2026-07-10T23:18:09.310Z",
+      "updated_at": "2026-07-10T23:22:43.671Z",
+      "draft_ready_at": "2026-07-10T23:22:43.666Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-11/别再让 AI 一稿成文：把它当读者和编辑，文章反而更像人",
+      "meta_path": "drafts/2026-07-11/别再让 AI 一稿成文：把它当读者和编辑，文章反而更像人/别再让 AI 一稿成文：把它当读者和编辑，文章反而更像人.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-11/github-trending-f4dc7845.md",
+      "file": "sources/2026-07-11/github-trending-f4dc7845.md",
+      "slug": "prompts-chat提示词库自托管",
+      "title": "免费把提示词库装进团队环境：prompts.chat 自托管，敏感内容留在自己手里",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.044,
+      "reach_note": "免费与隐私是两个直接利益点，自托管仓库提供了可立即执行的安装入口。",
+      "selection_reason": "项目同时具备成熟社区资源、自托管能力和团队协作场景，比单纯罗列提示词更适合写成可复现的创作者工具实践。",
+      "selected_at": "2026-07-10T23:18:09.310Z",
+      "updated_at": "2026-07-10T23:24:15.509Z",
+      "draft_ready_at": "2026-07-10T23:24:15.509Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-11/免费把提示词库装进团队环境：prompts.chat 自托管，敏感内容留在自己手里",
+      "meta_path": "drafts/2026-07-11/免费把提示词库装进团队环境：prompts.chat 自托管，敏感内容留在自己手里/免费把提示词库装进团队环境：prompts.chat 自托管，敏感内容留在自己手里.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-11/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-11/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0.24升级部署DeepSeek与MiniMax",
+      "title": "vLLM 0.24.0 上手：DeepSeek V4 首 Token 再快 2%-4%，MiniMax M3 也能部署了",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.055,
+      "reach_note": "DeepSeek 和 MiniMax 提供品牌认知，2%-4% 延迟改善是明确利益点，升级与压测都可立即执行。",
+      "selection_reason": "正式版本包含具体模型支持和可量化性能改进，不只是常规依赖更新，适合转化为部署团队可验证的升级决策。",
+      "selected_at": "2026-07-10T23:18:09.311Z",
+      "updated_at": "2026-07-10T23:25:48.665Z",
+      "draft_ready_at": "2026-07-10T23:25:48.663Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-11/vLLM 0.24.0 上手，DeepSeek V4 首 Token 再快 2%-4%，MiniMax M3 也能部署了",
+      "meta_path": "drafts/2026-07-11/vLLM 0.24.0 上手，DeepSeek V4 首 Token 再快 2%-4%，MiniMax M3 也能部署了/vLLM 0.24.0 上手，DeepSeek V4 首 Token 再快 2%-4%，MiniMax M3 也能部署了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-11/github-trending-978e35c6.md",
+      "file": "sources/2026-07-11/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-7月更新与上手",
+      "title": "Hermes Agent 7 月更新：个人智能体如何越用越懂你，今天就能跑起来",
+      "status": "draft_failed",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.053,
+      "reach_note": "Hermes 命中重点生态品牌，“减少重复交代”是明确利益点，读者可立即从仓库安装验证。",
+      "selection_reason": "项目仍在高频更新，并与 openclaw、clawdbot、moltbot 生态直接关联，适合做一篇兼顾版本变化、使用路径和产品启发的更新解读。",
+      "selected_at": "2026-07-10T23:18:09.311Z",
+      "updated_at": "2026-07-10T23:35:48.842Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "2026-07-10T23:35:48.837Z",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": "codex timed out after 300000ms"
+    },
+    {
+      "id": "sources/2026-07-11/x-dotey-05c5d447.md",
+      "file": "sources/2026-07-11/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Work-Codex选择指南",
+      "title": "ChatGPT、Work、Codex 怎么选：按交付物分流，别再把任务放错入口",
+      "status": "topics_selected",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 118,
+      "recent_similarity": 0.034,
+      "reach_note": "ChatGPT 和 Codex 具备强品牌认知，减少返工是明确利益点，读者可用自己的任务立即套用选择方法。",
+      "selection_reason": "新产品合并后命名和能力边界容易混淆，这个选题能把发布信息转成普通用户和团队真正需要的购买与使用判断。",
+      "selected_at": "2026-07-10T23:18:09.311Z",
+      "updated_at": "2026-07-10T23:18:09.311Z",
+      "draft_ready_at": "",
+      "draft_failed_at": "",
+      "draft_dir": "",
+      "meta_path": "",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-10T23:18:09.309Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-10T23:18:09.309Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-10T23:18:09.310Z",
+      "topic_id": "sources/2026-07-11/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers损坏分支发布复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-10T23:18:09.310Z",
+      "topic_id": "sources/2026-07-11/x-fchollet-1ec88440.md",
+      "slug": "用每个任务成本重做AI选型"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-10T23:18:09.310Z",
+      "topic_id": "sources/2026-07-11/x-leerob-9724e0b0.md",
+      "slug": "把AI从代写改成读者和编辑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-10T23:18:09.310Z",
+      "topic_id": "sources/2026-07-11/github-trending-f4dc7845.md",
+      "slug": "prompts-chat提示词库自托管"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-10T23:18:09.311Z",
+      "topic_id": "sources/2026-07-11/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0.24升级部署DeepSeek与MiniMax"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-10T23:18:09.311Z",
+      "topic_id": "sources/2026-07-11/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-7月更新与上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-10T23:18:09.311Z",
+      "topic_id": "sources/2026-07-11/x-dotey-05c5d447.md",
+      "slug": "ChatGPT-Work-Codex选择指南"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-10T23:19:36.679Z",
+      "topic_id": "sources/2026-07-11/transformers-releases-4c3b3f15.md",
+      "slug": "Transformers损坏分支发布复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-10T23:21:13.642Z",
+      "topic_id": "sources/2026-07-11/x-fchollet-1ec88440.md",
+      "slug": "用每个任务成本重做AI选型",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-10T23:22:43.671Z",
+      "topic_id": "sources/2026-07-11/x-leerob-9724e0b0.md",
+      "slug": "把AI从代写改成读者和编辑",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-10T23:24:15.509Z",
+      "topic_id": "sources/2026-07-11/github-trending-f4dc7845.md",
+      "slug": "prompts-chat提示词库自托管",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-10T23:25:48.665Z",
+      "topic_id": "sources/2026-07-11/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-0.24升级部署DeepSeek与MiniMax",
+      "error": ""
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-10T23:30:48.705Z",
+      "topic_id": "sources/2026-07-11/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-7月更新与上手",
+      "error": "codex timed out after 300000ms"
+    },
+    {
+      "type": "draft_failed",
+      "at": "2026-07-10T23:35:48.842Z",
+      "topic_id": "sources/2026-07-11/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-7月更新与上手",
+      "error": "codex timed out after 300000ms"
+    }
+  ]
+}

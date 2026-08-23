@@ -1,6 +1,13 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { l1Replace, checkCompliance, applyCompliance } from '../scripts/lib/l1-replace.js';
+import {
+  l1Replace,
+  checkCompliance,
+  applyCompliance,
+  scanPublishSurface,
+  assertPublishSurfaceSafe,
+  sanitizeInternalInstructions,
+} from '../scripts/lib/l1-replace.js';
 
 describe('l1Replace — forbidden words (L1-1)', () => {
   it('replaces "说白了" with "坦率讲"', () => {
@@ -255,6 +262,89 @@ describe('applyCompliance — code block protection', () => {
     const { text, replacements } = applyCompliance('');
     assert.equal(text, '');
     assert.equal(replacements.length, 0);
+  });
+});
+
+describe('scanPublishSurface — final publish guard', () => {
+  it('flags sensitive source names and links in the full markdown', () => {
+    const issues = scanPublishSurface('---\nsource: OpenRouter\n---\n正文引用 Reddit 和 news.ycombinator.com');
+    assert.ok(issues.some(issue => issue.type === 'sensitive_source' && issue.matched_text === 'OpenRouter'));
+    assert.ok(issues.some(issue => issue.type === 'sensitive_source' && issue.matched_text === 'Reddit'));
+    assert.ok(issues.some(issue => issue.type === 'sensitive_source' && issue.matched_text === 'news.ycombinator.com'));
+  });
+
+  it('flags domestic/foreign framing terms', () => {
+    const issues = scanPublishSurface('这个工具有国内可访问入口，也适合外网资料整理');
+    assert.ok(issues.some(issue => issue.type === 'domestic_foreign_framing' && issue.matched_text === '国内'));
+    assert.ok(issues.some(issue => issue.type === 'domestic_foreign_framing' && issue.matched_text === '外网'));
+  });
+
+  it('flags leaked internal writing instructions in final markdown', () => {
+    const issues = scanPublishSurface('这篇只按公开仓库摘要能确认的信息写，不补实测结果，不编安装参数。');
+    assert.ok(issues.some(issue => issue.type === 'instruction_leak'));
+  });
+
+  it('flags prompt-like boundary disclaimers that should be rewritten naturally', () => {
+    const issues = scanPublishSurface('我这篇不写成亲测教程。先说明边界。源材料摘要较短，正文必须标注信息边界。');
+    assert.ok(issues.some(issue => issue.type === 'instruction_leak'));
+  });
+
+  it('flags first-person rule explanations that leaked into copy', () => {
+    const issues = scanPublishSurface('我没有把它写成已跑通实测，下面给你一条今晚能自己验证的路径。');
+    assert.ok(issues.some(issue => issue.type === 'instruction_leak'));
+  });
+
+  it('flags AI-assistance and non-test meta disclaimers', () => {
+    const issues = scanPublishSurface('本文为 AI 辅助整理。它不是跑分实测，也不是假装已经跑完所有场景。');
+    assert.ok(issues.some(issue => issue.type === 'instruction_leak'));
+  });
+
+  it('flags formulaic action headings without banning natural body copy', () => {
+    const issues = scanPublishSurface('## 今晚可以这样搭\n\n正文');
+    assert.ok(issues.some(issue => issue.type === 'formulaic_heading'));
+    assert.ok(scanPublishSurface('今晚能做什么？').some(issue => issue.type === 'formulaic_heading'));
+    assert.ok(scanPublishSurface('今晚想动手，我建议先跑一条最短路径。').some(issue => issue.type === 'formulaic_heading'));
+    assert.deepEqual(scanPublishSurface('正文里说今晚先跑一个低风险任务。'), []);
+  });
+
+  it('allows GitHub and neutral wording', () => {
+    assert.deepEqual(
+      scanPublishSurface('参考 GitHub release 和官方文档，本地运行即可复现'),
+      []
+    );
+  });
+
+  it('throws a useful error when publish surface is unsafe', () => {
+    assert.throws(
+      () => assertPublishSurfaceSafe('Hacker News 上的讨论', 'test article'),
+      /test article contains blocked publish-surface terms/
+    );
+  });
+});
+
+describe('sanitizeInternalInstructions', () => {
+  it('removes prompt-like constraints while keeping the useful angle', () => {
+    const text = sanitizeInternalInstructions(
+      '写成 Agent 开发者检查清单；源材料摘要较短，正文必须明确标注信息边界，并只基于公开仓库可验证能力。'
+    );
+    assert.equal(text, '写成 Agent 开发者检查清单。');
+    assert.deepEqual(scanPublishSurface(text), []);
+  });
+
+  it('removes leaked first-person instruction phrasing from metadata', () => {
+    const text = sanitizeInternalInstructions(
+      '写 Hermes 新版本；我没有把它写成已跑通实测，下面给你一条今晚能自己验证的路径。'
+    );
+    assert.equal(text, '写 Hermes 新版本。');
+    assert.deepEqual(scanPublishSurface(text), []);
+  });
+
+  it('removes AI-assistance and non-test meta disclaimers', () => {
+    const text = sanitizeInternalInstructions(
+      '信息来自 release；本文为 AI 辅助整理，关键事实已按来源核对。它不是跑分实测。'
+    );
+    assert.equal(text, '信息来自 release。');
+    assert.deepEqual(scanPublishSurface(text), []);
   });
 });
 

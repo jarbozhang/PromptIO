@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-19",
+  "created_at": "2026-07-18T23:07:58.570Z",
+  "updated_at": "2026-07-18T23:14:30.696Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-19/x-xiangxiang103-f433fe41.md",
+      "file": "sources/2026-07-19/x-xiangxiang103-f433fe41.md",
+      "slug": "用OpenAI搭建本地AI衣橱",
+      "title": "用 OpenAI 做一个本地 AI 衣橱：拍照建库、自动搭配还能预览试穿",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.026,
+      "reach_note": "OpenAI 品牌明确，衣橱整理和试穿预览利益直观，项目可克隆后立即运行。",
+      "selection_reason": "它把图像 API 落到了普通用户容易理解的生活场景，同时具备开源代码、本地数据和可复现实操路径。",
+      "selected_at": "2026-07-18T23:07:58.571Z",
+      "updated_at": "2026-07-18T23:08:51.537Z",
+      "draft_ready_at": "2026-07-18T23:08:51.536Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-19/用 OpenAI 做一个本地 AI 衣橱：拍照建库、自动搭配还能预览试穿",
+      "meta_path": "drafts/2026-07-19/用 OpenAI 做一个本地 AI 衣橱：拍照建库、自动搭配还能预览试穿/用 OpenAI 做一个本地 AI 衣橱：拍照建库、自动搭配还能预览试穿.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-19/vllm-releases-0026251e.md",
+      "file": "sources/2026-07-19/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1部署故障修复",
+      "title": "vLLM 0.25.1 紧急修复：模型启动被卡和静默算错，部署者该检查什么",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.074,
+      "reach_note": "直接命中模型无法启动与结果可能出错的利益点，部署者可立即升级并复测。",
+      "selection_reason": "官方补丁说明给出了清晰的故障条件、影响与修复方式，比泛泛介绍推理框架更有行动价值。",
+      "selected_at": "2026-07-18T23:07:58.571Z",
+      "updated_at": "2026-07-18T23:09:47.465Z",
+      "draft_ready_at": "2026-07-18T23:09:47.465Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-19/vLLM 0.25.1 紧急修复：模型启动被卡和静默算错，部署者该检查什么",
+      "meta_path": "drafts/2026-07-19/vLLM 0.25.1 紧急修复：模型启动被卡和静默算错，部署者该检查什么/vLLM 0.25.1 紧急修复：模型启动被卡和静默算错，部署者该检查什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-19/anthropic-python-sdk-releases-3afc102f.md",
+      "file": "sources/2026-07-19/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117更新解读",
+      "title": "Claude Python SDK 0.117 更新：MCP Tunnels、Dreaming 与密钥防泄漏怎么用",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.057,
+      "reach_note": "Claude 品牌认知强，SDK 可立即升级验证，新能力和密钥保护都有明确利益点。",
+      "selection_reason": "这是信息明确的官方版本源，同时覆盖新能力与安全修复，适合做成开发者当天就能执行的升级简报。",
+      "selected_at": "2026-07-18T23:07:58.571Z",
+      "updated_at": "2026-07-18T23:10:38.153Z",
+      "draft_ready_at": "2026-07-18T23:10:38.153Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-19/Claude Python SDK 0.117 更新：MCP Tunnels、Dreaming 与密钥防泄漏怎么用",
+      "meta_path": "drafts/2026-07-19/Claude Python SDK 0.117 更新：MCP Tunnels、Dreaming 与密钥防泄漏怎么用/Claude Python SDK 0.117 更新：MCP Tunnels、Dreaming 与密钥防泄漏怎么用.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-19/transformers-releases-25627478.md",
+      "file": "sources/2026-07-19/transformers-releases-25627478.md",
+      "slug": "Transformers-5.13支持Kimi新模型",
+      "title": "Transformers 5.13 支持 Kimi K2.5 到 K2.7：本地验证新模型先看这几项",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.063,
+      "reach_note": "Kimi 品牌、新版本能力和可立即升级测试同时成立。",
+      "selection_reason": "官方 release 信息充足，既有明确版本变化，也能落到中文读者关心的开源模型运行与兼容性问题。",
+      "selected_at": "2026-07-18T23:07:58.571Z",
+      "updated_at": "2026-07-18T23:11:32.268Z",
+      "draft_ready_at": "2026-07-18T23:11:32.268Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-19/Transformers 5.13 支持 Kimi K2.5 到 K2.7：本地验证新模型先看这几项",
+      "meta_path": "drafts/2026-07-19/Transformers 5.13 支持 Kimi K2.5 到 K2.7：本地验证新模型先看这几项/Transformers 5.13 支持 Kimi K2.5 到 K2.7：本地验证新模型先看这几项.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-19/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-07-19/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex安全扫描攻击复盘",
+      "title": "Claude Code 和 Codex 做安全扫描也会中招：一次远程代码执行攻击复盘",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 74,
+      "recent_similarity": 0.063,
+      "reach_note": "Claude Code 与 Codex 都有品牌认知，风险直接，读者可立即调整沙箱和权限设置。",
+      "selection_reason": "同主题有漏洞简报、政策说明和总览相互印证，适合形成扎实的安全复盘，而不是依赖单条风险传闻。",
+      "selected_at": "2026-07-18T23:07:58.571Z",
+      "updated_at": "2026-07-18T23:12:45.167Z",
+      "draft_ready_at": "2026-07-18T23:12:45.166Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-19/Claude Code 和 Codex 做安全扫描也会中招：一次远程代码执行攻击复盘",
+      "meta_path": "drafts/2026-07-19/Claude Code 和 Codex 做安全扫描也会中招：一次远程代码执行攻击复盘/Claude Code 和 Codex 做安全扫描也会中招：一次远程代码执行攻击复盘.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-19/x-dotey-5e8dde0e.md",
+      "file": "sources/2026-07-19/x-dotey-5e8dde0e.md",
+      "slug": "先做交互原型再让Claude写代码",
+      "title": "先做可交互原型，再让 Claude 写代码：产品文档为什么正在换形态",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 74,
+      "recent_similarity": 0.031,
+      "reach_note": "Claude 品牌与减少返工的利益点明确，读者可以立刻在下一个功能中试验原型优先的方法。",
+      "selection_reason": "它提出了一个可验证的产品协作变化，既适合创作者和产品经理，也能避免当天内容全部落入开发工具介绍。",
+      "selected_at": "2026-07-18T23:07:58.572Z",
+      "updated_at": "2026-07-18T23:13:32.013Z",
+      "draft_ready_at": "2026-07-18T23:13:32.013Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-19/先做可交互原型，再让 Claude 写代码：产品文档为什么正在换形态",
+      "meta_path": "drafts/2026-07-19/先做可交互原型，再让 Claude 写代码：产品文档为什么正在换形态/先做可交互原型，再让 Claude 写代码：产品文档为什么正在换形态.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-19/openai-blog-b57416a8.md",
+      "file": "sources/2026-07-19/openai-blog-b57416a8.md",
+      "slug": "OpenAI百万分钟对话产品拆解",
+      "title": "OpenAI 如何支撑每月百万分钟对话：Cars24 找回 12% 流失线索的产品拆解",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.045,
+      "reach_note": "OpenAI 品牌加上每月百万分钟和找回 12% 线索的量化收益，具备明确传播点。",
+      "selection_reason": "案例提供了规模和转化数据，能帮助产品与业务团队从实际回报出发设计对话系统，而不只讨论模型能力。",
+      "selected_at": "2026-07-18T23:07:58.572Z",
+      "updated_at": "2026-07-18T23:14:30.696Z",
+      "draft_ready_at": "2026-07-18T23:14:30.696Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-19/OpenAI 如何支撑每月百万分钟对话：Cars24 找回 12% 流失线索的产品拆解",
+      "meta_path": "drafts/2026-07-19/OpenAI 如何支撑每月百万分钟对话：Cars24 找回 12% 流失线索的产品拆解/OpenAI 如何支撑每月百万分钟对话：Cars24 找回 12% 流失线索的产品拆解.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-18T23:07:58.570Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-18T23:07:58.570Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-18T23:07:58.571Z",
+      "topic_id": "sources/2026-07-19/x-xiangxiang103-f433fe41.md",
+      "slug": "用OpenAI搭建本地AI衣橱"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-18T23:07:58.571Z",
+      "topic_id": "sources/2026-07-19/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1部署故障修复"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-18T23:07:58.571Z",
+      "topic_id": "sources/2026-07-19/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117更新解读"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-18T23:07:58.571Z",
+      "topic_id": "sources/2026-07-19/transformers-releases-25627478.md",
+      "slug": "Transformers-5.13支持Kimi新模型"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-18T23:07:58.571Z",
+      "topic_id": "sources/2026-07-19/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex安全扫描攻击复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-18T23:07:58.572Z",
+      "topic_id": "sources/2026-07-19/x-dotey-5e8dde0e.md",
+      "slug": "先做交互原型再让Claude写代码"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-18T23:07:58.572Z",
+      "topic_id": "sources/2026-07-19/openai-blog-b57416a8.md",
+      "slug": "OpenAI百万分钟对话产品拆解"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-18T23:08:51.537Z",
+      "topic_id": "sources/2026-07-19/x-xiangxiang103-f433fe41.md",
+      "slug": "用OpenAI搭建本地AI衣橱",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-18T23:09:47.465Z",
+      "topic_id": "sources/2026-07-19/vllm-releases-0026251e.md",
+      "slug": "vLLM-0.25.1部署故障修复",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-18T23:10:38.153Z",
+      "topic_id": "sources/2026-07-19/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Claude-Python-SDK-0.117更新解读",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-18T23:11:32.268Z",
+      "topic_id": "sources/2026-07-19/transformers-releases-25627478.md",
+      "slug": "Transformers-5.13支持Kimi新模型",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-18T23:12:45.167Z",
+      "topic_id": "sources/2026-07-19/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex安全扫描攻击复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-18T23:13:32.013Z",
+      "topic_id": "sources/2026-07-19/x-dotey-5e8dde0e.md",
+      "slug": "先做交互原型再让Claude写代码",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-18T23:14:30.696Z",
+      "topic_id": "sources/2026-07-19/openai-blog-b57416a8.md",
+      "slug": "OpenAI百万分钟对话产品拆解",
+      "error": ""
+    }
+  ]
+}

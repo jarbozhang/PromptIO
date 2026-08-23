@@ -1,0 +1,11 @@
+---
+title: 'Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber'
+url: >-
+  https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/
+source: DeepMind Blog
+source_type: rss
+language: en
+published: '2026-07-21T15:16:30.000Z'
+fetched_at: '2026-08-15T11:00:59.003Z'
+---
+We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.

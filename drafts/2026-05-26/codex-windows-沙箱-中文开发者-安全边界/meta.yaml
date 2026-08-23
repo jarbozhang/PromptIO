@@ -1,0 +1,42 @@
+title: Codex 补上 Windows 沙箱，开发者该关心的不是跑分
+status: draft
+date: '2026-05-26'
+source: manual
+source_file: sources/2026-05-22/openai-blog-49a108cb.md
+source_title: Building a safe, effective sandbox to enable Codex on Windows
+source_url: https://openai.com/index/building-codex-windows-sandbox
+angle: 面向中文开发者，解释 Codex Windows 沙箱的意义
+voice: ''
+reach: 1
+tags:
+  - OpenAI
+  - Codex
+  - Windows
+  - 沙箱
+  - AI 编程
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: codex-windows-沙箱-中文开发者-安全边界.md
+  xhs: xhs.md
+cover:
+  status: skipped
+  model: gpt-image-2
+  prompt: >-
+    Horizontal technology editorial cover for a WeChat article, designed for a 900 by 383 crop. A
+    developer laptop running a local coding workflow, surrounded by a transparent glass sandbox
+    boundary enforced by operating-system style security rings. Inside the boundary, small abstract
+    command processes connect to a file tree and a test runner. Outside the boundary, blocked
+    network cables and a firewall gate show outbound access being controlled. Clean realistic 3D
+    illustration, cool neutral lighting, concrete engineering details, no readable text, no logos,
+    no QR codes, no UI screenshots.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: ''

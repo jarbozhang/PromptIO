@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-29",
+  "created_at": "2026-06-28T23:16:28.491Z",
+  "updated_at": "2026-06-28T23:33:16.996Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-06-29/replicate-blog-663277fd.md",
+      "file": "sources/2026-06-29/replicate-blog-663277fd.md",
+      "slug": "一张参考图稳定生成同一个角色",
+      "title": "只给一张参考图，怎样稳定生成同一个角色？Replicate 这篇对比适合创作者收藏",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.025,
+      "reach_note": "角色一致性有明确创作利益点，Replicate 可直接打开测试。",
+      "selection_reason": "这是少数非开发者也能立刻动手的素材，适合补足当天创作者工作流内容。",
+      "selected_at": "2026-06-28T23:16:28.491Z",
+      "updated_at": "2026-06-28T23:18:41.686Z",
+      "draft_ready_at": "2026-06-28T23:18:41.685Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-29/只给一张参考图，怎样稳定生成同一个角色？Replicate 这篇对比适合创作者收藏",
+      "meta_path": "drafts/2026-06-29/只给一张参考图，怎样稳定生成同一个角色？Replicate 这篇对比适合创作者收藏/只给一张参考图，怎样稳定生成同一个角色？Replicate 这篇对比适合创作者收藏.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-29/openai-python-sdk-releases-052770e0.md",
+      "file": "sources/2026-06-29/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-Python-SDK-spend-alerts-花费告警",
+      "title": "OpenAI Python SDK 2.42.0 新增 spend_alerts：团队花费告警终于该接上了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.034,
+      "reach_note": "OpenAI 品牌强，成本告警有明确利益点，SDK 升级可操作。",
+      "selection_reason": "相比普通 SDK 小修，花费告警直接关系团队成本控制，适合转成面向开发者和产品负责人的决策备忘录。",
+      "selected_at": "2026-06-28T23:16:28.491Z",
+      "updated_at": "2026-06-28T23:21:43.959Z",
+      "draft_ready_at": "2026-06-28T23:21:43.959Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-29/OpenAI Python SDK 2.42.0 新增 spend_alerts：团队花费告警终于该接上了",
+      "meta_path": "drafts/2026-06-29/OpenAI Python SDK 2.42.0 新增 spend_alerts：团队花费告警终于该接上了/OpenAI Python SDK 2.42.0 新增 spend_alerts：团队花费告警终于该接上了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-29/github-trending-978e35c6.md",
+      "file": "sources/2026-06-29/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版把个人助手养成开源工作伙伴",
+      "title": "Hermes Agent 新版值得看：把个人助手养成可复用的开源工作伙伴",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.053,
+      "reach_note": "NousResearch/openclaw 生态有品牌加成，GitHub 仓库可直接验证和上手。",
+      "selection_reason": "命中本号长期跟踪的 openclaw / Hermes 生态，又是可下载、可验证、可继续跟踪的新版本题材，适合做成版本解读。",
+      "selected_at": "2026-06-28T23:16:28.492Z",
+      "updated_at": "2026-06-28T23:25:31.588Z",
+      "draft_ready_at": "2026-06-28T23:25:31.588Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-29/Hermes Agent 新版值得看：把个人助手养成可复用的开源工作伙伴",
+      "meta_path": "drafts/2026-06-29/Hermes Agent 新版值得看：把个人助手养成可复用的开源工作伙伴/Hermes Agent 新版值得看：把个人助手养成可复用的开源工作伙伴.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-29/techcrunch-ai-b18057ca.md",
+      "file": "sources/2026-06-29/techcrunch-ai-b18057ca.md",
+      "slug": "Anthropic-Mythos-部分恢复访问后的模型选型风险",
+      "title": "Anthropic Mythos 部分恢复访问：企业选模型时，不能只看能力榜了",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.04,
+      "reach_note": "Anthropic/Mythos 有品牌热度，访问恢复和选型风险与团队决策相关。",
+      "selection_reason": "这是当天少数适合做风险提醒的事实主源，能把模型发布新闻转成可执行的采购和架构检查。",
+      "selected_at": "2026-06-28T23:16:28.492Z",
+      "updated_at": "2026-06-28T23:28:17.817Z",
+      "draft_ready_at": "2026-06-28T23:28:17.816Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-29/Anthropic Mythos 部分恢复访问，企业选模型时不能只看能力榜了",
+      "meta_path": "drafts/2026-06-29/Anthropic Mythos 部分恢复访问，企业选模型时不能只看能力榜了/Anthropic Mythos 部分恢复访问，企业选模型时不能只看能力榜了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-29/vllm-releases-9b0ff932.md",
+      "file": "sources/2026-06-29/vllm-releases-9b0ff932.md",
+      "slug": "vLLM-0230-更新重点-DeepSeek-V4-和-Qwen3-部署",
+      "title": "vLLM 0.23.0 更新重点：DeepSeek-V4 和 Qwen3 部署用户该改什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.068,
+      "reach_note": "vLLM、DeepSeek、Qwen 都是高认知品牌，升级动作明确。",
+      "selection_reason": "这是高质量 release 主源，信息密度足，读者能直接对应自己的推理服务做升级决策。",
+      "selected_at": "2026-06-28T23:16:28.492Z",
+      "updated_at": "2026-06-28T23:31:06.820Z",
+      "draft_ready_at": "2026-06-28T23:31:06.820Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-29/部署 DeepSeek-V4 和 Qwen3，vLLM 0.23.0 该改什么",
+      "meta_path": "drafts/2026-06-29/部署 DeepSeek-V4 和 Qwen3，vLLM 0.23.0 该改什么/部署 DeepSeek-V4 和 Qwen3，vLLM 0.23.0 该改什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-06-29/transformers-releases-6e2be6a5.md",
+      "file": "sources/2026-06-29/transformers-releases-6e2be6a5.md",
+      "slug": "Transformers-5110-DiffusionGemma-DeepSeek-V32-升级判断",
+      "title": "Transformers 5.11.0 加入 DiffusionGemma 和 DeepSeek-V3.2：先别盲升，先看这三类项目",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "version-update",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 154,
+      "recent_similarity": 0.041,
+      "reach_note": "Hugging Face、DeepSeek 有品牌认知，升级判断对开发者可操作。",
+      "selection_reason": "Transformers release 信息量足，既有新模型也有生态影响，适合做成升级选型文章而不是简单新闻。",
+      "selected_at": "2026-06-28T23:16:28.492Z",
+      "updated_at": "2026-06-28T23:33:16.996Z",
+      "draft_ready_at": "2026-06-28T23:33:16.981Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-06-29/这三类项目先别盲升 Transformers 5.11.0，DiffusionGemma 和 DeepSeek-V3.2 要分开看",
+      "meta_path": "drafts/2026-06-29/这三类项目先别盲升 Transformers 5.11.0，DiffusionGemma 和 DeepSeek-V3.2 要分开看/这三类项目先别盲升 Transformers 5.11.0，DiffusionGemma 和 DeepSeek-V3.2 要分开看.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-06-28T23:16:28.491Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-06-28T23:16:28.491Z",
+      "topic_count": 6
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T23:16:28.491Z",
+      "topic_id": "sources/2026-06-29/replicate-blog-663277fd.md",
+      "slug": "一张参考图稳定生成同一个角色"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T23:16:28.491Z",
+      "topic_id": "sources/2026-06-29/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-Python-SDK-spend-alerts-花费告警"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T23:16:28.492Z",
+      "topic_id": "sources/2026-06-29/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版把个人助手养成开源工作伙伴"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T23:16:28.492Z",
+      "topic_id": "sources/2026-06-29/techcrunch-ai-b18057ca.md",
+      "slug": "Anthropic-Mythos-部分恢复访问后的模型选型风险"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T23:16:28.492Z",
+      "topic_id": "sources/2026-06-29/vllm-releases-9b0ff932.md",
+      "slug": "vLLM-0230-更新重点-DeepSeek-V4-和-Qwen3-部署"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-06-28T23:16:28.493Z",
+      "topic_id": "sources/2026-06-29/transformers-releases-6e2be6a5.md",
+      "slug": "Transformers-5110-DiffusionGemma-DeepSeek-V32-升级判断"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T23:18:41.686Z",
+      "topic_id": "sources/2026-06-29/replicate-blog-663277fd.md",
+      "slug": "一张参考图稳定生成同一个角色",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T23:21:43.960Z",
+      "topic_id": "sources/2026-06-29/openai-python-sdk-releases-052770e0.md",
+      "slug": "OpenAI-Python-SDK-spend-alerts-花费告警",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T23:25:31.588Z",
+      "topic_id": "sources/2026-06-29/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版把个人助手养成开源工作伙伴",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T23:28:17.817Z",
+      "topic_id": "sources/2026-06-29/techcrunch-ai-b18057ca.md",
+      "slug": "Anthropic-Mythos-部分恢复访问后的模型选型风险",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T23:31:06.820Z",
+      "topic_id": "sources/2026-06-29/vllm-releases-9b0ff932.md",
+      "slug": "vLLM-0230-更新重点-DeepSeek-V4-和-Qwen3-部署",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-06-28T23:33:16.996Z",
+      "topic_id": "sources/2026-06-29/transformers-releases-6e2be6a5.md",
+      "slug": "Transformers-5110-DiffusionGemma-DeepSeek-V32-升级判断",
+      "error": ""
+    }
+  ]
+}

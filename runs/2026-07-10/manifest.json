@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-10",
+  "created_at": "2026-07-09T23:05:19.675Z",
+  "updated_at": "2026-07-09T23:17:28.289Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-10/the-verge-ai-02d5110a.md",
+      "file": "sources/2026-07-10/the-verge-ai-02d5110a.md",
+      "slug": "Google-AI广告标注对创作者的影响",
+      "title": "Google 开始标注 AI 广告：做投放和内容的人要提前改素材说明了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.035,
+      "reach_note": "Google 和 YouTube 广告有强品牌认知，AI 标注影响创作者和投放人员的实际操作。",
+      "selection_reason": "这是非开发者也能关心的 AI 应用变化，能覆盖创作者、营销和普通用户场景，平衡当天内容结构。",
+      "selected_at": "2026-07-09T23:05:19.676Z",
+      "updated_at": "2026-07-09T23:07:01.919Z",
+      "draft_ready_at": "2026-07-09T23:07:01.919Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-10/Google 开始标注 AI 广告，做投放和内容的人要提前改素材说明了",
+      "meta_path": "drafts/2026-07-10/Google 开始标注 AI 广告，做投放和内容的人要提前改素材说明了/Google 开始标注 AI 广告，做投放和内容的人要提前改素材说明了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-10/techcrunch-ai-3579a3be.md",
+      "file": "sources/2026-07-10/techcrunch-ai-3579a3be.md",
+      "slug": "OpenAI关掉Atlas后的AI浏览器转向",
+      "title": "OpenAI 关掉 Atlas，不代表 AI 浏览器结束：真正的战场转向桌面入口",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.03,
+      "reach_note": "OpenAI 品牌强，Atlas 关闭有明确产品信号，读者能据此调整工具选择。",
+      "selection_reason": "它提供一个有讨论度的商业判断题，能和工具教程拉开形态，也避免当天全是开发者实操。",
+      "selected_at": "2026-07-09T23:05:19.677Z",
+      "updated_at": "2026-07-09T23:08:47.850Z",
+      "draft_ready_at": "2026-07-09T23:08:47.849Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-10/OpenAI 关掉 Atlas，不代表 AI 浏览器结束，真正的战场转向桌面入口",
+      "meta_path": "drafts/2026-07-10/OpenAI 关掉 Atlas，不代表 AI 浏览器结束，真正的战场转向桌面入口/OpenAI 关掉 Atlas，不代表 AI 浏览器结束，真正的战场转向桌面入口.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-10/github-trending-978e35c6.md",
+      "file": "sources/2026-07-10/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版本个人AI助手工作底座",
+      "title": "Hermes Agent 新版本值得看：把个人 AI 助手做成可持续成长的工作底座",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.048,
+      "reach_note": "NousResearch、Hermes、openclaw 都有明确品牌识别，GitHub 仓库可直接验证和上手。",
+      "selection_reason": "这是本号重点生态题，且具备版本更新、开源入口和可实践路径，适合做公众号解读和小红书快速种草。",
+      "selected_at": "2026-07-09T23:05:19.677Z",
+      "updated_at": "2026-07-09T23:11:02.206Z",
+      "draft_ready_at": "2026-07-09T23:11:02.187Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-10/Hermes Agent 新版本值得看，把个人 AI 助手做成可持续成长的工作底座",
+      "meta_path": "drafts/2026-07-10/Hermes Agent 新版本值得看，把个人 AI 助手做成可持续成长的工作底座/Hermes Agent 新版本值得看，把个人 AI 助手做成可持续成长的工作底座.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-10/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-07-10/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code-Codex-CLI远程执行风险复盘",
+      "title": "Claude Code 和 Codex CLI 被远程执行攻击点名：安全扫描为什么不能直接交给 AI Agent",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.047,
+      "reach_note": "Claude Code、Codex、远程执行风险有强品牌和强利益点，读者能立刻检查自己的使用方式。",
+      "selection_reason": "这是当天最有行动价值的风险题，可以把安全新闻转化为开发者工作流的具体防线。",
+      "selected_at": "2026-07-09T23:05:19.677Z",
+      "updated_at": "2026-07-09T23:13:56.621Z",
+      "draft_ready_at": "2026-07-09T23:13:56.620Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-10/安全扫描为什么不能直接交给 AI Agent，Claude Code 和 Codex CLI 被远程执行攻击点名",
+      "meta_path": "drafts/2026-07-10/安全扫描为什么不能直接交给 AI Agent，Claude Code 和 Codex CLI 被远程执行攻击点名/安全扫描为什么不能直接交给 AI Agent，Claude Code 和 Codex CLI 被远程执行攻击点名.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-10/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-10/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-024-MiniMax-M3-DeepSeekV4部署检查",
+      "title": "vLLM 0.24.0 的重点不是发版：MiniMax-M3 和 DeepSeek-V4 部署要重新检查了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.067,
+      "reach_note": "vLLM、DeepSeek、MiniMax 都有认知度，升级决策和部署验证具备明确操作价值。",
+      "selection_reason": "release 信息密度高，能做成实用的升级取舍备忘录，避免读者盲目追新导致推理服务不稳定。",
+      "selected_at": "2026-07-09T23:05:19.677Z",
+      "updated_at": "2026-07-09T23:14:50.021Z",
+      "draft_ready_at": "2026-07-09T23:14:50.021Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-10/vLLM 0.24.0 的重点不是发版，MiniMax-M3 和 DeepSeek-V4 部署要重新检查了",
+      "meta_path": "drafts/2026-07-10/vLLM 0.24.0 的重点不是发版，MiniMax-M3 和 DeepSeek-V4 部署要重新检查了/vLLM 0.24.0 的重点不是发版，MiniMax-M3 和 DeepSeek-V4 部署要重新检查了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-10/openai-blog-18ab2ec4.md",
+      "file": "sources/2026-07-10/openai-blog-18ab2ec4.md",
+      "slug": "OpenAI质疑SWE-Bench-Pro代码模型榜单",
+      "title": "OpenAI 质疑 SWE-Bench Pro：以后看代码模型榜单，先问这 5 个问题",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "myth_busting",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 108,
+      "recent_similarity": 0.028,
+      "reach_note": "OpenAI 和代码模型评测具备品牌认知，读者能马上用框架重看模型榜单。",
+      "selection_reason": "它不是普通新闻，而是能提高读者判断力的反常识题，适合公众号深拆，小红书可做成榜单避坑卡。",
+      "selected_at": "2026-07-09T23:05:19.678Z",
+      "updated_at": "2026-07-09T23:16:41.729Z",
+      "draft_ready_at": "2026-07-09T23:16:41.728Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-10/OpenAI 质疑 SWE-Bench Pro：以后看代码模型榜单，先问这 5 个问题",
+      "meta_path": "drafts/2026-07-10/OpenAI 质疑 SWE-Bench Pro：以后看代码模型榜单，先问这 5 个问题/OpenAI 质疑 SWE-Bench Pro：以后看代码模型榜单，先问这 5 个问题.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-10/transformers-releases-25627478.md",
+      "file": "sources/2026-07-10/transformers-releases-25627478.md",
+      "slug": "Transformers支持KimiK系列本地上手",
+      "title": "Transformers v5.13.0 支持 Kimi K2.5/K2.6/K2.7：本地跑多模态 Agent 模型的入口来了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "title_pattern_repeat_in_batch,agent_like_daily_cap,checklist_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 160,
+      "recent_similarity": 0.074,
+      "reach_note": "Transformers、Kimi 是高识别品牌，新增支持意味着读者可立刻尝试模型加载。",
+      "selection_reason": "它把模型新闻转成开发者可执行动作，适合中文读者用官方 release 验证能力，而不是只看模型宣传。",
+      "selected_at": "2026-07-09T23:05:19.678Z",
+      "updated_at": "2026-07-09T23:17:28.289Z",
+      "draft_ready_at": "2026-07-09T23:17:28.259Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-10/本地跑多模态 Agent，Transformers 终于接上 Kimi K 系列",
+      "meta_path": "drafts/2026-07-10/本地跑多模态 Agent，Transformers 终于接上 Kimi K 系列/本地跑多模态 Agent，Transformers 终于接上 Kimi K 系列.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-09T23:05:19.675Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-09T23:05:19.676Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-09T23:05:19.676Z",
+      "topic_id": "sources/2026-07-10/the-verge-ai-02d5110a.md",
+      "slug": "Google-AI广告标注对创作者的影响"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-09T23:05:19.677Z",
+      "topic_id": "sources/2026-07-10/techcrunch-ai-3579a3be.md",
+      "slug": "OpenAI关掉Atlas后的AI浏览器转向"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-09T23:05:19.677Z",
+      "topic_id": "sources/2026-07-10/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版本个人AI助手工作底座"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-09T23:05:19.677Z",
+      "topic_id": "sources/2026-07-10/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code-Codex-CLI远程执行风险复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-09T23:05:19.677Z",
+      "topic_id": "sources/2026-07-10/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-024-MiniMax-M3-DeepSeekV4部署检查"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-09T23:05:19.678Z",
+      "topic_id": "sources/2026-07-10/openai-blog-18ab2ec4.md",
+      "slug": "OpenAI质疑SWE-Bench-Pro代码模型榜单"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-09T23:05:19.678Z",
+      "topic_id": "sources/2026-07-10/transformers-releases-25627478.md",
+      "slug": "Transformers支持KimiK系列本地上手"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-09T23:07:01.919Z",
+      "topic_id": "sources/2026-07-10/the-verge-ai-02d5110a.md",
+      "slug": "Google-AI广告标注对创作者的影响",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-09T23:08:47.850Z",
+      "topic_id": "sources/2026-07-10/techcrunch-ai-3579a3be.md",
+      "slug": "OpenAI关掉Atlas后的AI浏览器转向",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-09T23:11:02.206Z",
+      "topic_id": "sources/2026-07-10/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-新版本个人AI助手工作底座",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-09T23:13:56.621Z",
+      "topic_id": "sources/2026-07-10/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code-Codex-CLI远程执行风险复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-09T23:14:50.021Z",
+      "topic_id": "sources/2026-07-10/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-024-MiniMax-M3-DeepSeekV4部署检查",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-09T23:16:41.729Z",
+      "topic_id": "sources/2026-07-10/openai-blog-18ab2ec4.md",
+      "slug": "OpenAI质疑SWE-Bench-Pro代码模型榜单",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-09T23:17:28.289Z",
+      "topic_id": "sources/2026-07-10/transformers-releases-25627478.md",
+      "slug": "Transformers支持KimiK系列本地上手",
+      "error": ""
+    }
+  ]
+}

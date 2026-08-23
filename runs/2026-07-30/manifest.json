@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-30",
+  "created_at": "2026-07-30T11:21:12.501Z",
+  "updated_at": "2026-07-30T11:27:51.787Z",
+  "source_count": 143,
+  "topics": [
+    {
+      "id": "sources/2026-07-30/sopilot-hot-2082680583097065774-9e5f1c52.md",
+      "file": "sources/2026-07-30/sopilot-hot-2082680583097065774-9e5f1c52.md",
+      "slug": "GPT-5.6两个API设置省Token",
+      "title": "GPT-5.6 分数从 13.3% 到 38.3%：真正省 Token 的是这两个 API 设置",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.03,
+      "reach_note": "GPT-5.6 品牌、显著分数变化和省 Token 利益点突出，读者还能立即核对 Responses API 与 compaction 设置。",
+      "selection_reason": "它揭示了模型表现差可能源于运行程序而非模型本身，并给出可验证的配置改动、成本数据和事故链条。",
+      "selected_at": "2026-07-30T11:21:12.502Z",
+      "updated_at": "2026-07-30T11:22:05.794Z",
+      "draft_ready_at": "2026-07-30T11:22:05.793Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-30/GPT-5.6 分数从 13.3% 到 38.3%：真正省 Token 的是这两个 API 设置",
+      "meta_path": "drafts/2026-07-30/GPT-5.6 分数从 13.3% 到 38.3%：真正省 Token 的是这两个 API 设置/GPT-5.6 分数从 13.3% 到 38.3%：真正省 Token 的是这两个 API 设置.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-30/x-dotey-65518369.md",
+      "file": "sources/2026-07-30/x-dotey-65518369.md",
+      "slug": "AI做PPT为什么选HTML和CSS",
+      "title": "AI 做 PPT，为什么 HTML + CSS 比直接生成图片更值得用",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.03,
+      "reach_note": "AI PPT 是广泛认知场景，可编辑和接近原生 PPTX 是明确利益点，读者可直接按 HTML 中间格式试做一页。",
+      "selection_reason": "素材来自两种实际方案的使用经验，核心是创作者真正关心的交付后能否修改，而不是单纯展示生成效果。",
+      "selected_at": "2026-07-30T11:21:12.502Z",
+      "updated_at": "2026-07-30T11:23:08.204Z",
+      "draft_ready_at": "2026-07-30T11:23:08.204Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-30/AI 做 PPT，为什么 HTML + CSS 比直接生成图片更值得用",
+      "meta_path": "drafts/2026-07-30/AI 做 PPT，为什么 HTML + CSS 比直接生成图片更值得用/AI 做 PPT，为什么 HTML + CSS 比直接生成图片更值得用.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-30/sopilot-hot-2082657327799488557-34179c31.md",
+      "file": "sources/2026-07-30/sopilot-hot-2082657327799488557-34179c31.md",
+      "slug": "微软AI财报的三个采购信号",
+      "title": "微软 AI 财报最该看哪三个数：企业采购正在从试点走向批量部署",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.027,
+      "reach_note": "微软品牌具备认知度，席位增长和部署周期缩短提供商业利益点，读者可据此调整企业产品的采购与落地指标。",
+      "selection_reason": "相比讨论股价涨跌，这组数据更适合提炼企业 AI 产品的采用阶段、付费验证方式和销售判断。",
+      "selected_at": "2026-07-30T11:21:12.502Z",
+      "updated_at": "2026-07-30T11:24:09.277Z",
+      "draft_ready_at": "2026-07-30T11:24:09.277Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-30/微软 AI 财报最该看哪三个数：企业采购正在从试点走向批量部署",
+      "meta_path": "drafts/2026-07-30/微软 AI 财报最该看哪三个数：企业采购正在从试点走向批量部署/微软 AI 财报最该看哪三个数：企业采购正在从试点走向批量部署.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-30/llama-cpp-releases-287e1a51.md",
+      "file": "sources/2026-07-30/llama-cpp-releases-287e1a51.md",
+      "slug": "llama.cpp修复Mac内存泄漏",
+      "title": "Mac 本地跑模型别忽略这次 llama.cpp 更新：一个无推理操作也会触发的内存泄漏",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.032,
+      "reach_note": "Mac 和 llama.cpp 对本地模型用户辨识度高，修复内存泄漏利益明确，并可通过升级与内存观测立即验证。",
+      "selection_reason": "这是有明确根因、修复提交和回归测试的版本事实，对频繁加载和卸载模型的桌面应用尤其有现实价值。",
+      "selected_at": "2026-07-30T11:21:12.503Z",
+      "updated_at": "2026-07-30T11:25:02.330Z",
+      "draft_ready_at": "2026-07-30T11:25:02.329Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-30/Mac 本地跑模型别忽略这次 llama.cpp 更新：一个无推理操作也会触发的内存泄漏",
+      "meta_path": "drafts/2026-07-30/Mac 本地跑模型别忽略这次 llama.cpp 更新：一个无推理操作也会触发的内存泄漏/Mac 本地跑模型别忽略这次 llama.cpp 更新：一个无推理操作也会触发的内存泄漏.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-30/sopilot-hot-2082677960839200811-fca64e77.md",
+      "file": "sources/2026-07-30/sopilot-hot-2082677960839200811-fca64e77.md",
+      "slug": "PayBox授权后的完整撤销方法",
+      "title": "授权 ChatGPT、Claude 之后后悔了？PayBox 权限这样完整撤销",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.03,
+      "reach_note": "ChatGPT、Claude 品牌认知高，降低数据与账户风险是直接利益点，撤销授权步骤可以立即执行。",
+      "selection_reason": "热点背后存在真实的授权与凭据暴露风险，整理完整撤销路径比继续传播领取活动更有长期价值。",
+      "selected_at": "2026-07-30T11:21:12.503Z",
+      "updated_at": "2026-07-30T11:25:51.116Z",
+      "draft_ready_at": "2026-07-30T11:25:51.116Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-30/授权 ChatGPT、Claude 之后后悔了？PayBox 权限这样完整撤销",
+      "meta_path": "drafts/2026-07-30/授权 ChatGPT、Claude 之后后悔了？PayBox 权限这样完整撤销/授权 ChatGPT、Claude 之后后悔了？PayBox 权限这样完整撤销.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-30/anthropic-python-sdk-releases-537951e7.md",
+      "file": "sources/2026-07-30/anthropic-python-sdk-releases-537951e7.md",
+      "slug": "Anthropic-SDK上下文溢出处理",
+      "title": "Anthropic Python SDK 0.119.0 值得马上升级：上下文溢出终于能明确处理",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.036,
+      "reach_note": "Anthropic 品牌明确，升级后可直接改善长上下文错误处理和二进制文件工具调用，兼具利益点与可操作性。",
+      "selection_reason": "两个改动都对应生产应用中的具体故障，适合转化为升级判断和兼容处理示例，而不只是复述版本号。",
+      "selected_at": "2026-07-30T11:21:12.503Z",
+      "updated_at": "2026-07-30T11:26:48.369Z",
+      "draft_ready_at": "2026-07-30T11:26:48.368Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-30/Anthropic Python SDK 0.119.0 值得马上升级：上下文溢出终于能明确处理",
+      "meta_path": "drafts/2026-07-30/Anthropic Python SDK 0.119.0 值得马上升级：上下文溢出终于能明确处理/Anthropic Python SDK 0.119.0 值得马上升级：上下文溢出终于能明确处理.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-30/sopilot-hot-2082723492219478415-d08cd1ea.md",
+      "file": "sources/2026-07-30/sopilot-hot-2082723492219478415-d08cd1ea.md",
+      "slug": "把Codex和Hermes记忆放进Memmy",
+      "title": "Codex、Claude Code 和 Hermes 的记忆终于能放在一起了：实测 Memmy",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "developer-tooling",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 108,
+      "recent_similarity": 0.037,
+      "reach_note": "Codex、Claude Code、Hermes 具备品牌认知，开源、赠送 Token 和跨工具复用记忆同时提供明确利益点与可操作入口。",
+      "selection_reason": "跨工具记忆割裂是高频真实痛点，项目同时提供桌面端、TUI 和 CLI，读者当天就能用自己的对话记录验证效果。",
+      "selected_at": "2026-07-30T11:21:12.504Z",
+      "updated_at": "2026-07-30T11:27:51.787Z",
+      "draft_ready_at": "2026-07-30T11:27:51.787Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-30/跨工具切换不用反复补上下文，Memmy 把 Codex、Claude Code 和 Hermes 记忆放在一起",
+      "meta_path": "drafts/2026-07-30/跨工具切换不用反复补上下文，Memmy 把 Codex、Claude Code 和 Hermes 记忆放在一起/跨工具切换不用反复补上下文，Memmy 把 Codex、Claude Code 和 Hermes 记忆放在一起.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-30T11:21:12.501Z",
+      "source_count": 143
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-30T11:21:12.502Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-30T11:21:12.502Z",
+      "topic_id": "sources/2026-07-30/sopilot-hot-2082680583097065774-9e5f1c52.md",
+      "slug": "GPT-5.6两个API设置省Token"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-30T11:21:12.502Z",
+      "topic_id": "sources/2026-07-30/x-dotey-65518369.md",
+      "slug": "AI做PPT为什么选HTML和CSS"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-30T11:21:12.502Z",
+      "topic_id": "sources/2026-07-30/sopilot-hot-2082657327799488557-34179c31.md",
+      "slug": "微软AI财报的三个采购信号"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-30T11:21:12.503Z",
+      "topic_id": "sources/2026-07-30/llama-cpp-releases-287e1a51.md",
+      "slug": "llama.cpp修复Mac内存泄漏"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-30T11:21:12.503Z",
+      "topic_id": "sources/2026-07-30/sopilot-hot-2082677960839200811-fca64e77.md",
+      "slug": "PayBox授权后的完整撤销方法"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-30T11:21:12.503Z",
+      "topic_id": "sources/2026-07-30/anthropic-python-sdk-releases-537951e7.md",
+      "slug": "Anthropic-SDK上下文溢出处理"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-30T11:21:12.504Z",
+      "topic_id": "sources/2026-07-30/sopilot-hot-2082723492219478415-d08cd1ea.md",
+      "slug": "把Codex和Hermes记忆放进Memmy"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-30T11:22:05.794Z",
+      "topic_id": "sources/2026-07-30/sopilot-hot-2082680583097065774-9e5f1c52.md",
+      "slug": "GPT-5.6两个API设置省Token",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-30T11:23:08.204Z",
+      "topic_id": "sources/2026-07-30/x-dotey-65518369.md",
+      "slug": "AI做PPT为什么选HTML和CSS",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-30T11:24:09.277Z",
+      "topic_id": "sources/2026-07-30/sopilot-hot-2082657327799488557-34179c31.md",
+      "slug": "微软AI财报的三个采购信号",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-30T11:25:02.330Z",
+      "topic_id": "sources/2026-07-30/llama-cpp-releases-287e1a51.md",
+      "slug": "llama.cpp修复Mac内存泄漏",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-30T11:25:51.116Z",
+      "topic_id": "sources/2026-07-30/sopilot-hot-2082677960839200811-fca64e77.md",
+      "slug": "PayBox授权后的完整撤销方法",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-30T11:26:48.369Z",
+      "topic_id": "sources/2026-07-30/anthropic-python-sdk-releases-537951e7.md",
+      "slug": "Anthropic-SDK上下文溢出处理",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-30T11:27:51.787Z",
+      "topic_id": "sources/2026-07-30/sopilot-hot-2082723492219478415-d08cd1ea.md",
+      "slug": "把Codex和Hermes记忆放进Memmy",
+      "error": ""
+    }
+  ]
+}

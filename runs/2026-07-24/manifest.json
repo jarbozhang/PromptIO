@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-24",
+  "created_at": "2026-07-24T11:20:04.643Z",
+  "updated_at": "2026-07-24T11:26:25.239Z",
+  "source_count": 151,
+  "topics": [
+    {
+      "id": "sources/2026-07-24/sopilot-hot-2080494332528976233-54e45bc6.md",
+      "file": "sources/2026-07-24/sopilot-hot-2080494332528976233-54e45bc6.md",
+      "slug": "中文创作者AI写作工具箱",
+      "title": "中文内容创作者的 10 个 AI 写作工具：从选题到配图一次跑通",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.027,
+      "reach_note": "覆盖省时间、少返工等明确利益，列出的开源工具都有可验证入口并能马上试用。",
+      "selection_reason": "主题直接服务公众号和小红书创作者，使用场景清晰，也能补足当天非开发者内容的比例。",
+      "selected_at": "2026-07-24T11:20:04.644Z",
+      "updated_at": "2026-07-24T11:21:01.479Z",
+      "draft_ready_at": "2026-07-24T11:21:01.478Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-24/中文内容创作者的 10 个 AI 写作工具：从选题到配图一次跑通",
+      "meta_path": "drafts/2026-07-24/中文内容创作者的 10 个 AI 写作工具：从选题到配图一次跑通/中文内容创作者的 10 个 AI 写作工具：从选题到配图一次跑通.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-24/x-IndieDevHailey-49fbf9d4.md",
+      "file": "sources/2026-07-24/x-IndieDevHailey-49fbf9d4.md",
+      "slug": "腾讯WorkBuddy增长逻辑",
+      "title": "腾讯 WorkBuddy 为什么增长快：普通人真正需要的不是聊天框，而是任务模板",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.032,
+      "reach_note": "腾讯品牌认知高，少做重复办公的利益明确，读者可以马上用自己的高频任务验证这套思路。",
+      "selection_reason": "它把产品增长、用户首次成功体验和服务机会连接起来，适合写成面向普通用户与小团队的商业案例。",
+      "selected_at": "2026-07-24T11:20:04.644Z",
+      "updated_at": "2026-07-24T11:21:54.251Z",
+      "draft_ready_at": "2026-07-24T11:21:54.251Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-24/腾讯 WorkBuddy 为什么增长快：普通人真正需要的不是聊天框，而是任务模板",
+      "meta_path": "drafts/2026-07-24/腾讯 WorkBuddy 为什么增长快：普通人真正需要的不是聊天框，而是任务模板/腾讯 WorkBuddy 为什么增长快：普通人真正需要的不是聊天框，而是任务模板.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-24/sopilot-hot-2080453847420420398-575ccdd8.md",
+      "file": "sources/2026-07-24/sopilot-hot-2080453847420420398-575ccdd8.md",
+      "slug": "ChatGPT桌面端实时语音实测",
+      "title": "ChatGPT 桌面端加入实时语音：不用键盘也能同时推进多个任务",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.023,
+      "reach_note": "ChatGPT 品牌认知高，免打字和多任务调度利益明确，符合条件的用户可以立即体验。",
+      "selection_reason": "热度和场景感都很强，既适合公众号解释交互变化，也适合小红书展示语音操控的直观使用过程。",
+      "selected_at": "2026-07-24T11:20:04.645Z",
+      "updated_at": "2026-07-24T11:22:47.668Z",
+      "draft_ready_at": "2026-07-24T11:22:47.668Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-24/ChatGPT 桌面端加入实时语音，不用键盘也能同时推进多个任务",
+      "meta_path": "drafts/2026-07-24/ChatGPT 桌面端加入实时语音，不用键盘也能同时推进多个任务/ChatGPT 桌面端加入实时语音，不用键盘也能同时推进多个任务.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-24/sopilot-hot-2080335070066507871-581a74cd.md",
+      "file": "sources/2026-07-24/sopilot-hot-2080335070066507871-581a74cd.md",
+      "slug": "DeepSeek谈AI审美与持续学习",
+      "title": "DeepSeek 的反常识判断：AI 不缺审美，真正缺的是持续学习",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "opinion-trend",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.031,
+      "reach_note": "DeepSeek 自带品牌关注度，岗位自测提供了明确利益和可立即执行的验证动作。",
+      "selection_reason": "观点具有冲突性但能落到个人行动，还能与当天的工具和版本内容拉开结构差异。",
+      "selected_at": "2026-07-24T11:20:04.645Z",
+      "updated_at": "2026-07-24T11:23:39.552Z",
+      "draft_ready_at": "2026-07-24T11:23:39.552Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-24/DeepSeek 的反常识判断：AI 不缺审美，真正缺的是持续学习",
+      "meta_path": "drafts/2026-07-24/DeepSeek 的反常识判断：AI 不缺审美，真正缺的是持续学习/DeepSeek 的反常识判断：AI 不缺审美，真正缺的是持续学习.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-24/vllm-releases-d5583501.md",
+      "file": "sources/2026-07-24/vllm-releases-d5583501.md",
+      "slug": "vLLM0.25升级避坑",
+      "title": "vLLM 0.25 大改后怎么升级：默认启用新运行器，旧版注意力实现正式移除",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.032,
+      "reach_note": "新运行器带来性能与模型支持收益，正在使用 vLLM 的团队可以立即核对配置并测试升级。",
+      "selection_reason": "这是信息量充足的官方版本主源，变化会直接影响推理服务，适合做一篇有明确升级判断的版本解读。",
+      "selected_at": "2026-07-24T11:20:04.645Z",
+      "updated_at": "2026-07-24T11:24:33.345Z",
+      "draft_ready_at": "2026-07-24T11:24:33.345Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-24/vLLM 0.25 大改后怎么升级：默认启用新运行器，旧版注意力实现正式移除",
+      "meta_path": "drafts/2026-07-24/vLLM 0.25 大改后怎么升级：默认启用新运行器，旧版注意力实现正式移除/vLLM 0.25 大改后怎么升级：默认启用新运行器，旧版注意力实现正式移除.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-24/openai-blog-07a59789.md",
+      "file": "sources/2026-07-24/openai-blog-07a59789.md",
+      "slug": "OpenAI模型评测安全事故复盘",
+      "title": "OpenAI 模型评测闯出安全事故：部署高权限 AI 前要先补哪几道防线",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.053,
+      "reach_note": "OpenAI 品牌和安全事故具备强关注度，开发团队可据此立即检查沙箱与权限配置。",
+      "selection_reason": "官方披露能作为事实基础，事故本身又提供了清晰的根因与修复路径，是当天最值得保留的风险复盘题。",
+      "selected_at": "2026-07-24T11:20:04.645Z",
+      "updated_at": "2026-07-24T11:25:40.921Z",
+      "draft_ready_at": "2026-07-24T11:25:40.920Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-24/OpenAI 模型评测闯出安全事故：部署高权限 AI 前要先补哪几道防线",
+      "meta_path": "drafts/2026-07-24/OpenAI 模型评测闯出安全事故：部署高权限 AI 前要先补哪几道防线/OpenAI 模型评测闯出安全事故：部署高权限 AI 前要先补哪几道防线.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-24/openai-blog-0723f553.md",
+      "file": "sources/2026-07-24/openai-blog-0723f553.md",
+      "slug": "NTT-DATA事故分析提速案例",
+      "title": "NTT DATA 把事故分析压到 30 分钟：9000 人推广 AI 的关键不是发账号",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.026,
+      "reach_note": "OpenAI 品牌与“事故分析缩短到30分钟”的利益点明确，团队可据此设计自己的小范围试点。",
+      "selection_reason": "官方客户案例兼具量化结果和组织实践，能避免当天内容全部落入工具安装与模型发布，也适合企业读者收藏。",
+      "selected_at": "2026-07-24T11:20:04.645Z",
+      "updated_at": "2026-07-24T11:26:25.239Z",
+      "draft_ready_at": "2026-07-24T11:26:25.239Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-24/NTT DATA 把事故分析压到 30 分钟：9000 人推广 AI 的关键不是发账号",
+      "meta_path": "drafts/2026-07-24/NTT DATA 把事故分析压到 30 分钟：9000 人推广 AI 的关键不是发账号/NTT DATA 把事故分析压到 30 分钟：9000 人推广 AI 的关键不是发账号.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-24T11:20:04.643Z",
+      "source_count": 151
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-24T11:20:04.644Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-24T11:20:04.644Z",
+      "topic_id": "sources/2026-07-24/sopilot-hot-2080494332528976233-54e45bc6.md",
+      "slug": "中文创作者AI写作工具箱"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-24T11:20:04.644Z",
+      "topic_id": "sources/2026-07-24/x-IndieDevHailey-49fbf9d4.md",
+      "slug": "腾讯WorkBuddy增长逻辑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-24T11:20:04.645Z",
+      "topic_id": "sources/2026-07-24/sopilot-hot-2080453847420420398-575ccdd8.md",
+      "slug": "ChatGPT桌面端实时语音实测"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-24T11:20:04.645Z",
+      "topic_id": "sources/2026-07-24/sopilot-hot-2080335070066507871-581a74cd.md",
+      "slug": "DeepSeek谈AI审美与持续学习"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-24T11:20:04.645Z",
+      "topic_id": "sources/2026-07-24/vllm-releases-d5583501.md",
+      "slug": "vLLM0.25升级避坑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-24T11:20:04.645Z",
+      "topic_id": "sources/2026-07-24/openai-blog-07a59789.md",
+      "slug": "OpenAI模型评测安全事故复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-24T11:20:04.645Z",
+      "topic_id": "sources/2026-07-24/openai-blog-0723f553.md",
+      "slug": "NTT-DATA事故分析提速案例"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-24T11:21:01.479Z",
+      "topic_id": "sources/2026-07-24/sopilot-hot-2080494332528976233-54e45bc6.md",
+      "slug": "中文创作者AI写作工具箱",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-24T11:21:54.251Z",
+      "topic_id": "sources/2026-07-24/x-IndieDevHailey-49fbf9d4.md",
+      "slug": "腾讯WorkBuddy增长逻辑",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-24T11:22:47.668Z",
+      "topic_id": "sources/2026-07-24/sopilot-hot-2080453847420420398-575ccdd8.md",
+      "slug": "ChatGPT桌面端实时语音实测",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-24T11:23:39.552Z",
+      "topic_id": "sources/2026-07-24/sopilot-hot-2080335070066507871-581a74cd.md",
+      "slug": "DeepSeek谈AI审美与持续学习",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-24T11:24:33.345Z",
+      "topic_id": "sources/2026-07-24/vllm-releases-d5583501.md",
+      "slug": "vLLM0.25升级避坑",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-24T11:25:40.921Z",
+      "topic_id": "sources/2026-07-24/openai-blog-07a59789.md",
+      "slug": "OpenAI模型评测安全事故复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-24T11:26:25.239Z",
+      "topic_id": "sources/2026-07-24/openai-blog-0723f553.md",
+      "slug": "NTT-DATA事故分析提速案例",
+      "error": ""
+    }
+  ]
+}

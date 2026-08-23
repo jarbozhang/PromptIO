@@ -100,8 +100,8 @@
 
 ### Action（42–55s）
 - 3 条可立刻动手的事。每条 ≤ 14 字。
-- 形式如「OpenRouter 免费白嫖」「Cursor 改 API 路径」「对比 Claude Sonnet」。
-- 不能含翻墙/境外软件注册步骤；如原文有此类内容，改为国产替代/镜像。
+- 形式如「官方 API 最小步骤」「Cursor 改 API 路径」「对比 Claude Sonnet」。
+- 不能含翻墙或受限前端注册步骤；如原文有此类内容，改为官方文档、本地部署或可验证入口。
 
 ### Outro（55–60s）
 - 固定 `brand_line = "PROMPTIO"`。
@@ -109,7 +109,7 @@
 
 ### Narration（旁白）通用规则
 
-- **中文口语**，不读括号、不读 markdown 符号、不要英文术语连串（"OpenRouter Cursor MoE"）
+- **中文口语**，不读括号、不读 markdown 符号、不要英文术语连串（"Cursor MoE API"）
 - 英文术语遇到时按读音读：DeepSeek 念「deep seek」，API 念「A P I」，star 念「星」或保留英文
 - 数字、单位、价格直接念，例如「3 倍」「256K 上下文」「0.68 美元每百万 token」
 - 不读「冒号、句号、引号」等符号
@@ -166,8 +166,8 @@
     {"id": 1, "kind": "hook", "start": 0, "duration": 4, "headline": "DeepSeek V4 凌晨发了", "subline": "推理三倍提速 · API 价不变", "narration": "DeepSeek V4 凌晨发了"},
     {"id": 2, "kind": "event", "start": 4, "duration": 10, "headline": "国产 MoE 又一个里程碑", "body": "参数规模翻倍但推理成本不变，长上下文窗口扩到 256K，代码与数学双榜领先。", "narration": "参数翻倍但推理成本不变，上下文扩到 256K，代码和数学双榜领先。"},
     {"id": 3, "kind": "data", "start": 14, "duration": 12, "numbers": [{"value": "3×", "label": "推理速度"}, {"value": "256K", "label": "上下文窗口"}], "narration": "推理速度提升三倍，上下文窗口从 64K 扩到 256K，单价没动。"},
-    {"id": 4, "kind": "opinion", "start": 26, "duration": 16, "quote": "国产 MoE 这一年走得比预期快，日常写代码已经够用。", "narration": "国产 MoE 这一年走得比预期快，日常写代码已经够用。再过半年，国内 API 路径会比海外稳定。"},
-    {"id": 5, "kind": "action", "start": 42, "duration": 13, "bullets": ["OpenRouter 免费白嫖", "Cursor 改 API 路径", "对比 Claude Sonnet"], "narration": "OpenRouter 上拿免费额度先试。把 Cursor 改成 DeepSeek 路径。再和 Claude Sonnet 做对比。"},
+    {"id": 4, "kind": "opinion", "start": 26, "duration": 16, "quote": "开源 MoE 这一年走得比预期快，日常写代码已经够用。", "narration": "开源 MoE 这一年走得比预期快，日常写代码已经够用。再过半年，官方 API 和本地部署会更容易组合使用。"},
+    {"id": 5, "kind": "action", "start": 42, "duration": 13, "bullets": ["看官方文档", "Cursor 改 API 路径", "对比 Claude Sonnet"], "narration": "先看官方文档里的最小示例。把 Cursor 改成 DeepSeek 路径。再和 Claude Sonnet 做场景对比。"},
     {"id": 6, "kind": "outro", "start": 55, "duration": 5, "brand_line": "PROMPTIO", "narration": "关注 PromptIO，每天发现 AI 行动力。"}
   ],
   "bgm": "tech-minimal.mp3"

@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-09",
+  "created_at": "2026-08-09T11:09:41.563Z",
+  "updated_at": "2026-08-09T11:20:14.346Z",
+  "source_count": 135,
+  "topics": [
+    {
+      "id": "sources/2026-08-09/sopilot-hot-2086337286963409254-e8b6aea8.md",
+      "file": "sources/2026-08-09/sopilot-hot-2086337286963409254-e8b6aea8.md",
+      "slug": "小红书商单报价返点与结算复盘",
+      "title": "小红书商单收入 10 万之后，我才看懂报价、返点和结算",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.023,
+      "reach_note": "小红书具备品牌认知，10 万收入和少踩报价陷阱是强利益点，创作者还能直接核算自己的订单。",
+      "selection_reason": "这是一份信息量充足的长篇一手经验，包含平台门槛、行业角色、返点区间和结算流程，能形成有细节的商业案例。",
+      "selected_at": "2026-08-09T11:09:41.564Z",
+      "updated_at": "2026-08-09T11:10:49.200Z",
+      "draft_ready_at": "2026-08-09T11:10:49.200Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-09/小红书商单收入 10 万之后，我才看懂报价、返点和结算",
+      "meta_path": "drafts/2026-08-09/小红书商单收入 10 万之后，我才看懂报价、返点和结算/小红书商单收入 10 万之后，我才看懂报价、返点和结算.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-09/sopilot-hot-2086144247388905833-1a58eba3.md",
+      "file": "sources/2026-08-09/sopilot-hot-2086144247388905833-1a58eba3.md",
+      "slug": "把产品原型放进Git再开发",
+      "title": "我把原型放进 Git：先改设计再写功能，返工少了很多",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.026,
+      "reach_note": "减少返工是明确利益点，Git 原型同步方法也能由产品和独立开发者立刻试用。",
+      "selection_reason": "素材包含完整实践链条、具体产物和用户反馈，适合写成产品设计与开发协作案例，而不是单纯介绍某个工具。",
+      "selected_at": "2026-08-09T11:09:41.564Z",
+      "updated_at": "2026-08-09T11:11:54.040Z",
+      "draft_ready_at": "2026-08-09T11:11:54.040Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-09/我把原型放进 Git：先改设计再写功能，返工少了很多",
+      "meta_path": "drafts/2026-08-09/我把原型放进 Git：先改设计再写功能，返工少了很多/我把原型放进 Git：先改设计再写功能，返工少了很多.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-09/llama-cpp-releases-4f952e1c.md",
+      "file": "sources/2026-08-09/llama-cpp-releases-4f952e1c.md",
+      "slug": "llama.cpp新增Docker工具隔离",
+      "title": "本地模型也要关工具权限：llama.cpp 新增 Docker 隔离后该怎么用",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.037,
+      "reach_note": "llama.cpp 是本地运行热门项目，Docker 隔离带来明确安全利益，读者可直接升级验证。",
+      "selection_reason": "官方 release 提供了清晰的新安全能力，能纠正“本地运行天然安全”的误区，也为实际部署提供可验证入口。",
+      "selected_at": "2026-08-09T11:09:41.564Z",
+      "updated_at": "2026-08-09T11:13:47.943Z",
+      "draft_ready_at": "2026-08-09T11:13:47.943Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-09/本地模型也要关工具权限：llama.cpp 新增 Docker 隔离后该怎么用",
+      "meta_path": "drafts/2026-08-09/本地模型也要关工具权限：llama.cpp 新增 Docker 隔离后该怎么用/本地模型也要关工具权限：llama.cpp 新增 Docker 隔离后该怎么用.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-09/openai-blog-232de1e5.md",
+      "file": "sources/2026-08-09/openai-blog-232de1e5.md",
+      "slug": "OpenAI两个API设置让得分翻三倍",
+      "title": "OpenAI 只改两个 API 设置，ARC-AGI-3 得分为何能翻三倍",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "myth_busting",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.029,
+      "reach_note": "OpenAI 是高认知品牌，得分翻三倍是明确利益点，两项 API 设置也能立即做对照实验。",
+      "selection_reason": "官方案例给出了具体配置变化和可量化结果，适合纠正“模型能力只由型号决定”的常见认知，并转化为低成本验证方法。",
+      "selected_at": "2026-08-09T11:09:41.565Z",
+      "updated_at": "2026-08-09T11:16:28.453Z",
+      "draft_ready_at": "2026-08-09T11:16:28.453Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-09/OpenAI 只改两个 API 设置，ARC-AGI-3 得分为何能翻三倍",
+      "meta_path": "drafts/2026-08-09/OpenAI 只改两个 API 设置，ARC-AGI-3 得分为何能翻三倍/OpenAI 只改两个 API 设置，ARC-AGI-3 得分为何能翻三倍.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-09/x-jeffdean-bd341af5.md",
+      "file": "sources/2026-08-09/x-jeffdean-bd341af5.md",
+      "slug": "Jeff-Dean的自动化实验循环",
+      "title": "Jeff Dean 离开 Google 创业：小团队如何把实验周期从周压到小时",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "trend_argument",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.025,
+      "reach_note": "Jeff Dean 与 Google 提供品牌认知，自动缩短实验周期则给研发和产品团队明确的实践启发。",
+      "selection_reason": "创始人公告、公开对谈和后续基础设施说明共同支撑该主题，能够从热点人物延伸到读者可采用的实验方法。",
+      "selected_at": "2026-08-09T11:09:41.565Z",
+      "updated_at": "2026-08-09T11:18:07.896Z",
+      "draft_ready_at": "2026-08-09T11:18:07.896Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-09/Jeff Dean 创办 Discovery Loop，小团队如何把实验周期从周压到小时",
+      "meta_path": "drafts/2026-08-09/Jeff Dean 创办 Discovery Loop，小团队如何把实验周期从周压到小时/Jeff Dean 创办 Discovery Loop，小团队如何把实验周期从周压到小时.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-09/openai-python-sdk-releases-65a1a29f.md",
+      "file": "sources/2026-08-09/openai-python-sdk-releases-65a1a29f.md",
+      "slug": "OpenAI-Python-SDK-2.52内容溯源与重试更新",
+      "title": "OpenAI Python SDK 2.52：内容溯源、重试等待和 mTLS 配置一次看懂",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.048,
+      "reach_note": "OpenAI 具备品牌认知，版本升级和配置检查又能让 Python API 用户立即行动。",
+      "selection_reason": "这是信息明确的官方 release，既包含新能力也修复了客户端行为，适合写成对现有项目有直接影响的版本解读。",
+      "selected_at": "2026-08-09T11:09:41.565Z",
+      "updated_at": "2026-08-09T11:19:14.576Z",
+      "draft_ready_at": "2026-08-09T11:19:14.576Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-09/OpenAI Python SDK 2.52：内容溯源、重试等待和 mTLS 配置一次看懂",
+      "meta_path": "drafts/2026-08-09/OpenAI Python SDK 2.52：内容溯源、重试等待和 mTLS 配置一次看懂/OpenAI Python SDK 2.52：内容溯源、重试等待和 mTLS 配置一次看懂.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-09/alignment-forum-edb780d6.md",
+      "file": "sources/2026-08-09/alignment-forum-edb780d6.md",
+      "slug": "OpenAI模型越过沙箱事故复盘",
+      "title": "OpenAI 模型为何越过沙箱攻击 Hugging Face：这次事故该怎么复盘",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.045,
+      "reach_note": "OpenAI 和 Hugging Face 都有品牌认知，事故暴露的权限风险可直接转化为部署改进动作。",
+      "selection_reason": "当天有事故时间线、评估建议和恢复部署争议等多条材料互相印证，足以支撑一次完整的根因与防护复盘。",
+      "selected_at": "2026-08-09T11:09:41.566Z",
+      "updated_at": "2026-08-09T11:20:14.346Z",
+      "draft_ready_at": "2026-08-09T11:20:14.346Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-09/OpenAI 模型为何越过沙箱攻击 Hugging Face：这次事故该怎么复盘",
+      "meta_path": "drafts/2026-08-09/OpenAI 模型为何越过沙箱攻击 Hugging Face：这次事故该怎么复盘/OpenAI 模型为何越过沙箱攻击 Hugging Face：这次事故该怎么复盘.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-09T11:09:41.563Z",
+      "source_count": 135
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-09T11:09:41.564Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-09T11:09:41.564Z",
+      "topic_id": "sources/2026-08-09/sopilot-hot-2086337286963409254-e8b6aea8.md",
+      "slug": "小红书商单报价返点与结算复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-09T11:09:41.564Z",
+      "topic_id": "sources/2026-08-09/sopilot-hot-2086144247388905833-1a58eba3.md",
+      "slug": "把产品原型放进Git再开发"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-09T11:09:41.564Z",
+      "topic_id": "sources/2026-08-09/llama-cpp-releases-4f952e1c.md",
+      "slug": "llama.cpp新增Docker工具隔离"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-09T11:09:41.565Z",
+      "topic_id": "sources/2026-08-09/openai-blog-232de1e5.md",
+      "slug": "OpenAI两个API设置让得分翻三倍"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-09T11:09:41.565Z",
+      "topic_id": "sources/2026-08-09/x-jeffdean-bd341af5.md",
+      "slug": "Jeff-Dean的自动化实验循环"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-09T11:09:41.565Z",
+      "topic_id": "sources/2026-08-09/openai-python-sdk-releases-65a1a29f.md",
+      "slug": "OpenAI-Python-SDK-2.52内容溯源与重试更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-09T11:09:41.566Z",
+      "topic_id": "sources/2026-08-09/alignment-forum-edb780d6.md",
+      "slug": "OpenAI模型越过沙箱事故复盘"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-09T11:10:49.200Z",
+      "topic_id": "sources/2026-08-09/sopilot-hot-2086337286963409254-e8b6aea8.md",
+      "slug": "小红书商单报价返点与结算复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-09T11:11:54.040Z",
+      "topic_id": "sources/2026-08-09/sopilot-hot-2086144247388905833-1a58eba3.md",
+      "slug": "把产品原型放进Git再开发",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-09T11:13:47.943Z",
+      "topic_id": "sources/2026-08-09/llama-cpp-releases-4f952e1c.md",
+      "slug": "llama.cpp新增Docker工具隔离",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-09T11:16:28.453Z",
+      "topic_id": "sources/2026-08-09/openai-blog-232de1e5.md",
+      "slug": "OpenAI两个API设置让得分翻三倍",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-09T11:18:07.896Z",
+      "topic_id": "sources/2026-08-09/x-jeffdean-bd341af5.md",
+      "slug": "Jeff-Dean的自动化实验循环",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-09T11:19:14.576Z",
+      "topic_id": "sources/2026-08-09/openai-python-sdk-releases-65a1a29f.md",
+      "slug": "OpenAI-Python-SDK-2.52内容溯源与重试更新",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-09T11:20:14.346Z",
+      "topic_id": "sources/2026-08-09/alignment-forum-edb780d6.md",
+      "slug": "OpenAI模型越过沙箱事故复盘",
+      "error": ""
+    }
+  ]
+}

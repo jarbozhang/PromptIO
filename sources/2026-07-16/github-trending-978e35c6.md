@@ -1,0 +1,15 @@
+---
+title: 'NousResearch/hermes-agent: The agent that grows with you'
+url: 'https://github.com/NousResearch/hermes-agent'
+source: GitHub Trending
+source_type: github
+language: en
+stars: 215440
+published: '2026-07-15T22:52:49Z'
+fetched_at: '2026-07-15T23:03:00.920Z'
+---
+The agent that grows with you
+
+Stars: 215440 | Forks: 40176 | Language: Python
+Created: 2025-07-22 | Last push: 2026-07-15
+Topics: ai, ai-agent, ai-agents, anthropic, chatgpt, claude, claude-code, clawdbot, codex, hermes, hermes-agent, llm, moltbot, nous-research, openai, openclaw

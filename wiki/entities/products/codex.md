@@ -32,6 +32,8 @@
 | 2026-05-20 | [[openai-codex-windows-sandbox-dell-on-prem\|OpenAI 给 Codex 上了 Windows sandbox 和 Dell on-prem 企业内网 AI 编程的门终于开了]] | Windows sandbox / Dell on-prem / 企业内网 |
 | 2026-05-20 | [[nousresearch-hermes-agent-15万星-跨host\|NousResearch hermes-agent 跨 host：Claude Code / Codex / openclaw]] | 跨 host agent 宿主 |
 | 2026-05-20 | [[simon-willison-过去6个月-llm-五分钟回顾\|Simon Willison 5 分钟回顾 LLM 半年（Codex 作为对照）]] | 对照实体 |
+| 2026-06-16 | [[Codex 免费重置次数可以攒着用了，什么时候用最划算？|Codex 免费重置次数可以攒着用了，什么时候用最划算？]] | rate limit reset / 额度排班 |
+| 2026-06-16 | [[ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了|ChatGPT 订阅也能直接生图，chatgpt-imagegen 把 Pro 会员价值榨出来了]] | 复用 Codex auth 的本地生图工具 |
 
 ## 注意
 

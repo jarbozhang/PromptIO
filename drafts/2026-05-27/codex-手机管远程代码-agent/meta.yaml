@@ -1,0 +1,41 @@
+title: Codex 可以在手机上管任务了，远程盯代码 Agent 的正确用法
+status: draft
+date: '2026-05-27'
+source: manual
+source_file: sources/2026-05-27/openai-blog-09ab76a1.md
+source_title: Work with Codex from anywhere
+source_url: https://openai.com/index/work-with-codex-from-anywhere
+angle: 从移动端监控、接管、审批远程编码任务切入，写给已经用 Codex 或想尝试代码 Agent 的开发者。重点是如何把碎片时间变成代码审查、任务推进和风险确认。
+voice: first-person
+reach: 1
+tags:
+  - Codex
+  - OpenAI
+  - 代码 Agent
+  - 移动开发
+llm:
+  provider: codex
+  model: ''
+platforms:
+  wechat: primary
+  xhs: primary
+  x: blocked
+draft_files:
+  wechat: codex-手机管远程代码-agent.md
+cover:
+  status: skipped
+  model: gpt-image-2
+  prompt: >-
+    Horizontal technology media cover for a WeChat 900x383 crop. A developer smartphone in the
+    foreground acting as a remote control hub for coding agents, with abstract non-readable approval
+    cards, diff blocks, terminal status shapes, and test result indicators shown only as graphic
+    patterns. In the background, a laptop, a compact dev box, and remote server racks are connected
+    by subtle secure relay light paths. Editorial realistic 3D render, crisp lighting, professional
+    developer workspace, neutral dark gray materials with restrained green approval accents. No
+    readable text, no letters, no numbers, no logos, no QR codes, no UI screenshots.
+  target_size: 900x383
+  source_size: 1808x768
+  source_path: cover-source.png
+  path: cover.png
+  error: ''
+xhs_title: Codex 可以在手机上管任务了，远程盯代码 Agent 的正确用法

@@ -1,0 +1,22 @@
+---
+title: >-
+  FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in
+  Flow-Matching TTS
+url: 'https://arxiv.org/abs/2606.20518v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Harshit Singh
+  - Ayush Pratap Singh
+  - Nityanand Mathur
+categories:
+  - cs.AI
+  - cs.AI
+published: '2026-06-18T17:36:02Z'
+fetched_at: '2026-06-21T03:19:27.899Z'
+---
+Flow-matching text-to-speech systems achieve remarkable zero-shot quality but remain static after deployment: pronunciation errors on out-of-vocabulary proper nouns persist unless the model is retrained. We introduce FlowEdit, a life-long adaptation framework for frozen flow-matching TTS that learns pronunciation corrections as latent conditioning edits rather than weight updates. When corrective feedback is provided, FlowEdit optimizes a token-level perturbation in the text embedding space, then stores the correction in a Modern Hopfield Network serving as content-addressable episodic memory. At inference, corrections are retrieved via soft attention with a similarity gate, enabling fuzzy morphological matching. On our curated benchmark of 312 multilingual proper nouns across 18 language families, FlowEdit reduces target-word Phoneme Error Rate by 92.7% relative to the zero-shot baseline while maintaining identical general-speech quality. Corrections complete in approximately 15 seconds on a single GPU.
+
+Authors: Harshit Singh, Ayush Pratap Singh, Nityanand Mathur
+Categories: cs.AI, cs.AI

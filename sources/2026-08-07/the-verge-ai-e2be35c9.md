@@ -1,0 +1,15 @@
+---
+title: >-
+  Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in
+  months
+url: >-
+  https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead
+source: The Verge AI
+source_type: rss
+language: en
+published: '2026-08-06T00:25:10.000Z'
+fetched_at: '2026-08-07T11:00:14.541Z'
+---
+xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a "massive improvement" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. "As far as we can tell, no entry has changed in more than three months," Lawfare said.
+Grokipedia launched in v0.1 in October 2025 with an initial batch of 885,000 articles, and is now on v0.2 (released in November 2025) and has more than 6,000,000 total articles, according to grokipedia.com/live. But that live page also has a section titled "Recent changes to…" with a message under it that reads "No live edits av …
+Read the full story at The Verge.

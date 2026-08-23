@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T03:49:54.174Z",
+  "topics": [
+    {
+      "file": "sources/2026-06-21/no-mistakes-official-curated.md",
+      "title": "AI 写代码太快，PR 闸门得先自动跑起来",
+      "slug": "AI 写代码太快，PR 闸门得先自动跑起来",
+      "angle": "从 no-mistakes 的本地 git 代理切入，把 AI 代码从产出 diff 转向验证 diff。重点写 disposable worktree、review/test/docs/lint/PR/CI 顺序、finding 分流和人仍然拍板，整理成团队接入 AI 编程后的 PR 门控检查清单。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "AI 编程痛点明确，PR 闸门和自动验证可直接迁移到读者工作流。",
+      "reason": "官方 README 主源充分，X 讨论提供问题意识，适合做成工程实践文。"
+    },
+    {
+      "file": "sources/2026-06-21/x-dotey-73a04995.md",
+      "title": "Agent 犯错以后，别急着往 AGENTS.md 里加规则",
+      "slug": "Agent 犯错以后，别急着往 AGENTS.md 里加规则",
+      "angle": "把“AI 犯错就更新 AGENTS.md”的冲动拆成事故处理流程：先恢复、再找根因、最后决定是补测试、改 review、重构，还是沉淀项目约定。读者能拿它审视自己的技能文件和项目规则。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "AGENTS.md、Codex 和工程事故处理都有明确读者利益点，适合收藏。",
+      "reason": "中文一手讨论，观点具体，有利于补今天的工程方法论角度。"
+    },
+    {
+      "file": "sources/2026-06-21/ollama-current-readme-curated.md",
+      "title": "本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短",
+      "slug": "本地跑 DeepSeek、Qwen、Kimi，Ollama 这条路最短",
+      "angle": "不要写模型排行，写成普通开发者的本地模型入口：安装、跑一个模型、接 REST API，再决定要不要连到编码助手、个人助手或脚本里。重点说明它减少的是模型试用前的环境成本。",
+      "voice": "first-person",
+      "reach": 9,
+      "reach_note": "Ollama、DeepSeek、Qwen、Kimi 都有认知度，本地运行和低成本试用很强。",
+      "reason": "GitHub 和官方 README 主源清晰，读者能立刻操作。"
+    },
+    {
+      "file": "sources/2026-06-21/vllm-releases-9b0ff932.md",
+      "title": "部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项",
+      "slug": "部署 DeepSeek 和 Qwen，vLLM 0.23 先查这几项",
+      "angle": "把 vLLM 0.23.0 release 翻译成部署检查清单，重点覆盖 DeepSeek-V4 加固、Model Runner V2 扩展、Rust frontend、Transformers v5 兼容和多层 KV cache offloading。读者据此判断是否升级和该验证什么。",
+      "voice": "analytical",
+      "reach": 7,
+      "reach_note": "vLLM、DeepSeek、Qwen 对部署读者有明确价值，升级检查清单可操作。",
+      "reason": "版本主源质量高，适合提供基础设施深度。"
+    },
+    {
+      "file": "sources/2026-06-21/confucius4-tts-official-curated.md",
+      "title": "一段参考音频换 14 种语言，子曰 4.0 TTS 开源了",
+      "slug": "一段参考音频换 14 种语言，子曰 4.0 TTS 开源了",
+      "angle": "从内容创作者和课程团队的跨语言口播痛点切入，基于官方 README 写清 14 种语言、零样本声音迁移、情绪迁移、本地部署要求和最小推理路径。不要编实测效果，只写可验证入口和适合先试的样例任务。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "有道品牌、开源 TTS、跨语言口播和本地部署都具备传播点。",
+      "reason": "工具实操和内容生产场景强，能平衡今天偏工程的选题。"
+    },
+    {
+      "file": "sources/2026-06-21/hf-agentic-resource-discovery-curated.md",
+      "title": "MCP 工具越来越多，Agent 不能全靠你手动装",
+      "slug": "MCP 工具越来越多，Agent 不能全靠你手动装",
+      "angle": "从“install-first, use-later”的问题切入，讲 ARD 为什么要把工具选择移到模型外面。重点写 ai-catalog.json、POST /search、publisher identity、representative queries、compliance attestations 和 Hugging Face Discover Tool，对应团队内部工具注册表怎么设计。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "MCP 和 Agent 是热门入口，工具发现层解决真实扩展问题，适合收藏。",
+      "reason": "官方博客信息密度高，是今天较新的 agent 基础设施题。"
+    },
+    {
+      "file": "sources/2026-06-21/hf-agentic-enough-curated.md",
+      "title": "你的 CLI 不适合 Agent，可能会多烧 6 倍 token",
+      "slug": "你的 CLI 不适合 Agent，可能会多烧 6 倍 token",
+      "angle": "把 Hugging Face 的 agentic benchmark 写成开发者工具设计检查清单：同样完成任务，Agent 走长脚本和走一条命令的成本完全不同。重点写 CLI、Skill、自包含示例、结构化输出、文档可发现性和测试，给维护 SDK/CLI 的团队一份改造路径。",
+      "voice": "first-person",
+      "reach": 8,
+      "reach_note": "6 倍 token 成本有强利益点，CLI/SDK 维护者能直接行动。",
+      "reason": "官方博客有数字和案例，适合做成观点鲜明的工程设计文章。"
+    }
+  ]
+}

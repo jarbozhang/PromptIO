@@ -1,0 +1,11 @@
+---
+title: 'Robust AI Security and Alignment: A Sisyphean Endeavor?'
+url: 'https://ieeexplore.ieee.org/document/11475847/'
+source: Lobsters AI
+source_type: rss
+language: en
+published: '2026-06-29T20:56:52.000Z'
+fetched_at: '2026-07-03T23:01:07.844Z'
+---
+NIST article covers this paper well
+Comments

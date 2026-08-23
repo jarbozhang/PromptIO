@@ -1,0 +1,23 @@
+---
+title: >-
+  MixFrag: Fragility-Guided Mixed-Precision Post-Training Quantization for
+  Vision Transformers
+url: 'https://arxiv.org/abs/2607.28589v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Md. Mehrab Hossain Opi
+  - Robiul Islam Ryad
+  - Md. Umar Faruk
+categories:
+  - cs.CV
+  - cs.LG
+  - cs.CV
+published: '2026-07-30T17:43:36Z'
+fetched_at: '2026-08-01T11:02:16.284Z'
+---
+Post-training quantization (PTQ) has emerged as an effective solution for deploying Vision Transformers (ViTs) on resource-constrained devices. However, existing PTQ methods typically employ uniform bit-widths across transformer components, overlooking their heterogeneous sensitivity to quantization and leading to inefficient precision allocation. In this paper, we propose {MixFrag, a fragility-guided mixed-precision PTQ framework for Vision Transformers. MixFrag first estimates component-level quantization fragility by measuring the Kullback--Leibler (KL) divergence between full-precision and isolated quantized output distributions using a small calibration set. It then formulates bit allocation as a Multiple-Choice Knapsack Problem (MCKP), enabling adaptive layer-wise precision assignment under a target bit budget. Extensive experiments on ImageNet-1K across multiple Vision Transformer architectures demonstrate that MixFrag achieves competitive classification performance under practical mixed-precision settings. Furthermore, evaluations on COCO object detection and instance segmentation show that MixFrag achieves state-of-the-art performance among existing mixed-precision PTQ methods, improving the previous best method by up to 9.6 AP under the challenging MP3/MP3 setting. Additional analyses validate the proposed fragility metric and demonstrate its strong correlation with the learned bit allocation. These results establish MixFrag as an effective framework for mixed-preci
+
+Authors: Md. Mehrab Hossain Opi, Robiul Islam Ryad, Md. Umar Faruk
+Categories: cs.CV, cs.LG, cs.CV

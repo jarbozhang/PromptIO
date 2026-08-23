@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-15",
+  "created_at": "2026-08-15T11:12:33.251Z",
+  "updated_at": "2026-08-15T11:23:26.159Z",
+  "source_count": 145,
+  "topics": [
+    {
+      "id": "sources/2026-08-15/vllm-releases-0026251e.md",
+      "file": "sources/2026-08-15/vllm-releases-0026251e.md",
+      "slug": "vLLM启动阻塞与静默算错复盘",
+      "title": "vLLM 两个小故障为何值得立刻升级：一次启动阻塞，一次静默算错",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.034,
+      "reach_note": "vLLM 是常用部署组件，升级可规避启动失败和静默错误，运维读者能够立即检查版本。",
+      "selection_reason": "发布说明给出了明确症状、根因、影响范围与修复结果，特别适合写成一次可迁移到其他推理系统的故障复盘。",
+      "selected_at": "2026-08-15T11:12:33.251Z",
+      "updated_at": "2026-08-15T11:17:06.937Z",
+      "draft_ready_at": "2026-08-15T11:17:06.936Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-15/vLLM 两个小故障为何值得立刻升级：一次启动阻塞，一次静默算错",
+      "meta_path": "drafts/2026-08-15/vLLM 两个小故障为何值得立刻升级：一次启动阻塞，一次静默算错/vLLM 两个小故障为何值得立刻升级：一次启动阻塞，一次静默算错.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-15/x-hardmaru-8d4b3e0c.md",
+      "file": "sources/2026-08-15/x-hardmaru-8d4b3e0c.md",
+      "slug": "Sakana-Chat免费生成网页应用与Excel报告",
+      "title": "不用登录、免费生成网页应用：Sakana Chat 还能把 Excel 直接做成报告",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.032,
+      "reach_note": "免费、无需登录且可立即生成应用和处理 Excel，利益点与可操作性都很明确。",
+      "selection_reason": "题目覆盖非开发者也能理解的教育和办公场景，并有免费、免登录、代码执行等具体能力，适合公众号和小红书同时落地。",
+      "selected_at": "2026-08-15T11:12:33.252Z",
+      "updated_at": "2026-08-15T11:18:20.576Z",
+      "draft_ready_at": "2026-08-15T11:18:20.576Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-15/不用登录、免费生成网页应用：Sakana Chat 还能把 Excel 直接做成报告",
+      "meta_path": "drafts/2026-08-15/不用登录、免费生成网页应用：Sakana Chat 还能把 Excel 直接做成报告/不用登录、免费生成网页应用：Sakana Chat 还能把 Excel 直接做成报告.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-15/x-chenchengpro-675f40b9.md",
+      "file": "sources/2026-08-15/x-chenchengpro-675f40b9.md",
+      "slug": "DeepSeek-Harness一行命令上手与插件架构",
+      "title": "DeepSeek Harness 一行命令上手：真正值得学的是它的插件架构",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "developer-tooling",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.04,
+      "reach_note": "DeepSeek 具备品牌认知，一行命令可启动，读者还能据此完成工具选型。",
+      "selection_reason": "素材同时包含启动方式、界面取舍、插件机制、沙箱替换和生态策略，足以形成一篇有实操入口也有明确取舍的深度文章。",
+      "selected_at": "2026-08-15T11:12:33.252Z",
+      "updated_at": "2026-08-15T11:19:26.558Z",
+      "draft_ready_at": "2026-08-15T11:19:26.558Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-15/DeepSeek Harness 一行命令上手：真正值得学的是它的插件架构",
+      "meta_path": "drafts/2026-08-15/DeepSeek Harness 一行命令上手：真正值得学的是它的插件架构/DeepSeek Harness 一行命令上手：真正值得学的是它的插件架构.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-15/sopilot-hot-2088439905924022445-95faab08.md",
+      "file": "sources/2026-08-15/sopilot-hot-2088439905924022445-95faab08.md",
+      "slug": "OpenAI企业收入反超后的AI采购判断",
+      "title": "OpenAI 企业收入首次超过个人业务：团队采购 AI 该换一套算法了",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.031,
+      "reach_note": "OpenAI 品牌认知高，题目直指企业预算和采购收益，管理者可据此重新评估投入。",
+      "selection_reason": "企业收入超过消费者业务代表产品价值重心变化，适合转化成团队如何配置 AI 预算的决策文章，而非停留在收入新闻。",
+      "selected_at": "2026-08-15T11:12:33.252Z",
+      "updated_at": "2026-08-15T11:20:32.708Z",
+      "draft_ready_at": "2026-08-15T11:20:32.707Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-15/OpenAI 企业收入首次超过个人业务：团队采购 AI 该换一套算法了",
+      "meta_path": "drafts/2026-08-15/OpenAI 企业收入首次超过个人业务：团队采购 AI 该换一套算法了/OpenAI 企业收入首次超过个人业务：团队采购 AI 该换一套算法了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-15/sopilot-hot-2088367014327005262-fb2116ad.md",
+      "file": "sources/2026-08-15/sopilot-hot-2088367014327005262-fb2116ad.md",
+      "slug": "Anthropic安全流程失效复盘",
+      "title": "Anthropic 自曝多起安全流程失效：强模型进生产前最容易漏掉哪几道闸",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.034,
+      "reach_note": "Anthropic 具备品牌认知，事故涉及生产代码和训练流程，研发团队可立即对照检查控制措施。",
+      "selection_reason": "公开风险报告提供了罕见的内部失败案例，既有传播性，也能沉淀为模型训练、评估和生产接入时的工程判断。",
+      "selected_at": "2026-08-15T11:12:33.252Z",
+      "updated_at": "2026-08-15T11:21:28.185Z",
+      "draft_ready_at": "2026-08-15T11:21:28.184Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-15/Anthropic 自曝多起安全流程失效：强模型进生产前最容易漏掉哪几道闸",
+      "meta_path": "drafts/2026-08-15/Anthropic 自曝多起安全流程失效：强模型进生产前最容易漏掉哪几道闸/Anthropic 自曝多起安全流程失效：强模型进生产前最容易漏掉哪几道闸.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-15/x-libapi_-0b74274c.md",
+      "file": "sources/2026-08-15/x-libapi_-0b74274c.md",
+      "slug": "Hermes-Studio移动版90%进度解读",
+      "title": "Hermes Studio 移动版进度到 90%：手机上管理任务、文件和多智能体还差什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.044,
+      "reach_note": "Hermes 属重点生态，移动管理带来明确便利，现有桌面版用户可提前规划使用方式。",
+      "selection_reason": "这是清晰的新版本进展，能力列表完整，适合围绕移动端如何承接桌面端复杂任务做版本解读，而不是重复介绍 Hermes Studio 本身。",
+      "selected_at": "2026-08-15T11:12:33.253Z",
+      "updated_at": "2026-08-15T11:22:36.584Z",
+      "draft_ready_at": "2026-08-15T11:22:36.584Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-15/Hermes Studio 移动版进度到 90%：手机上管理任务、文件和多智能体还差什么",
+      "meta_path": "drafts/2026-08-15/Hermes Studio 移动版进度到 90%：手机上管理任务、文件和多智能体还差什么/Hermes Studio 移动版进度到 90%：手机上管理任务、文件和多智能体还差什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-15/github-trending-6eec8646.md",
+      "file": "sources/2026-08-15/github-trending-6eec8646.md",
+      "slug": "Ollama本地运行DeepSeek-Qwen-Kimi",
+      "title": "用 Ollama 在本地运行 DeepSeek、Qwen 和 Kimi：先从这一套最小方案开始",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "same_entity_in_batch,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 98,
+      "recent_similarity": 0.034,
+      "reach_note": "DeepSeek、Qwen、Kimi 提供品牌认知，本地运行能节省调用成本，读者可直接安装尝试。",
+      "selection_reason": "Ollama 项目活跃且支持多个中文读者熟悉的模型，兼具本地运行、数据留存和减少 API 支出的直接价值。",
+      "selected_at": "2026-08-15T11:12:33.254Z",
+      "updated_at": "2026-08-15T11:23:26.159Z",
+      "draft_ready_at": "2026-08-15T11:23:26.159Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-15/用 Ollama 在本地运行 DeepSeek、Qwen 和 Kimi：先从这一套最小方案开始",
+      "meta_path": "drafts/2026-08-15/用 Ollama 在本地运行 DeepSeek、Qwen 和 Kimi：先从这一套最小方案开始/用 Ollama 在本地运行 DeepSeek、Qwen 和 Kimi：先从这一套最小方案开始.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-15T11:12:33.251Z",
+      "source_count": 145
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-15T11:12:33.251Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-15T11:12:33.251Z",
+      "topic_id": "sources/2026-08-15/vllm-releases-0026251e.md",
+      "slug": "vLLM启动阻塞与静默算错复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-15T11:12:33.252Z",
+      "topic_id": "sources/2026-08-15/x-hardmaru-8d4b3e0c.md",
+      "slug": "Sakana-Chat免费生成网页应用与Excel报告"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-15T11:12:33.252Z",
+      "topic_id": "sources/2026-08-15/x-chenchengpro-675f40b9.md",
+      "slug": "DeepSeek-Harness一行命令上手与插件架构"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-15T11:12:33.252Z",
+      "topic_id": "sources/2026-08-15/sopilot-hot-2088439905924022445-95faab08.md",
+      "slug": "OpenAI企业收入反超后的AI采购判断"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-15T11:12:33.252Z",
+      "topic_id": "sources/2026-08-15/sopilot-hot-2088367014327005262-fb2116ad.md",
+      "slug": "Anthropic安全流程失效复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-15T11:12:33.253Z",
+      "topic_id": "sources/2026-08-15/x-libapi_-0b74274c.md",
+      "slug": "Hermes-Studio移动版90%进度解读"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-15T11:12:33.254Z",
+      "topic_id": "sources/2026-08-15/github-trending-6eec8646.md",
+      "slug": "Ollama本地运行DeepSeek-Qwen-Kimi"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-15T11:17:06.937Z",
+      "topic_id": "sources/2026-08-15/vllm-releases-0026251e.md",
+      "slug": "vLLM启动阻塞与静默算错复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-15T11:18:20.576Z",
+      "topic_id": "sources/2026-08-15/x-hardmaru-8d4b3e0c.md",
+      "slug": "Sakana-Chat免费生成网页应用与Excel报告",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-15T11:19:26.558Z",
+      "topic_id": "sources/2026-08-15/x-chenchengpro-675f40b9.md",
+      "slug": "DeepSeek-Harness一行命令上手与插件架构",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-15T11:20:32.708Z",
+      "topic_id": "sources/2026-08-15/sopilot-hot-2088439905924022445-95faab08.md",
+      "slug": "OpenAI企业收入反超后的AI采购判断",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-15T11:21:28.185Z",
+      "topic_id": "sources/2026-08-15/sopilot-hot-2088367014327005262-fb2116ad.md",
+      "slug": "Anthropic安全流程失效复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-15T11:22:36.584Z",
+      "topic_id": "sources/2026-08-15/x-libapi_-0b74274c.md",
+      "slug": "Hermes-Studio移动版90%进度解读",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-15T11:23:26.159Z",
+      "topic_id": "sources/2026-08-15/github-trending-6eec8646.md",
+      "slug": "Ollama本地运行DeepSeek-Qwen-Kimi",
+      "error": ""
+    }
+  ]
+}

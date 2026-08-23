@@ -1,0 +1,25 @@
+---
+title: >-
+  Convergent Detour Hijacking: Task-Preserving Resource Amplification in
+  Skill-Based LLM Agents
+url: 'https://arxiv.org/abs/2608.12273v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Junliang Liu
+  - Ruoyu Li
+  - Wenxin Tang
+  - Jingyu Xiao
+  - Zhenyu Liu
+categories:
+  - cs.CR
+  - cs.AI
+  - cs.CR
+published: '2026-08-12T17:12:49Z'
+fetched_at: '2026-08-13T11:03:17.820Z'
+---
+LLM agents increasingly rely on third-party skills, using natural-language descriptions for selection and instruction bodies for planning. This progressive-disclosure design exposes two sequential control points to untrusted publishers: a static skill may steer an otherwise correct task onto an unnecessarily costly trajectory. Prior work studies selection manipulation, malicious skill instructions, and tool-chain resource amplification largely separately, leaving their end-to-end composition unclear. We introduce Convergent Detour Hijacking (CDH), a text-only, runtime-independent attack that couples these stages. Under shared semantic cover, a description establishes relevance during selection, while an aligned body reuses that rationale to fabricate plausible dependencies during planning. CDH attracts an attacker-controlled coordinator alongside legitimate skills, recruits unnecessary benign skills into a bounded detour, and then re-enters the original route to preserve task completion. We evaluate it across multiple LLM backends and 491 held-out tasks under single-task and multi-turn conditions. On DeepSeek-V4-Pro, the matched coordinator is selected in 80.02% of tasks; among coordinator-hit runs that complete tasks, token consumption and end-to-end execution time increase by 66.91% and 92.45%, respectively, while aggregate task completion remains comparable. Thus, correct outcomes do not guarantee trajectory integrity or cost safety.
+
+Authors: Junliang Liu, Ruoyu Li, Wenxin Tang, Jingyu Xiao, Zhenyu Liu
+Categories: cs.CR, cs.AI, cs.CR

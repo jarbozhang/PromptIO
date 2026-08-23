@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-04",
+  "created_at": "2026-08-04T11:20:45.431Z",
+  "updated_at": "2026-08-04T11:27:47.244Z",
+  "source_count": 143,
+  "topics": [
+    {
+      "id": "sources/2026-08-04/x-levelsio-72b17347.md",
+      "file": "sources/2026-08-04/x-levelsio-72b17347.md",
+      "slug": "AI视频编辑真正难在时间线",
+      "title": "只靠一句话剪视频还不够：AI 视频编辑真正难在时间线",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.031,
+      "reach_note": "AI 自动剪视频有明确利益点，案例中的时间线错误又能让创作者立即用自己的素材验证。",
+      "selection_reason": "它没有把生成结果包装成完美演示，而是暴露了自动剪辑最影响成片质量的真实短板，适合做反常识纠偏。",
+      "selected_at": "2026-08-04T11:20:45.432Z",
+      "updated_at": "2026-08-04T11:21:46.280Z",
+      "draft_ready_at": "2026-08-04T11:21:46.280Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-04/只靠一句话剪视频还不够：AI 视频编辑真正难在时间线",
+      "meta_path": "drafts/2026-08-04/只靠一句话剪视频还不够：AI 视频编辑真正难在时间线/只靠一句话剪视频还不够：AI 视频编辑真正难在时间线.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-04/x-leerob-fd0fb8e8.md",
+      "file": "sources/2026-08-04/x-leerob-fd0fb8e8.md",
+      "slug": "开源模型不等于自己掌控",
+      "title": "开源模型不等于自己掌控：团队选型前先算清这三笔账",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "opinion-trend",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.029,
+      "reach_note": "开源模型具有广泛认知，成本与控制权是明确利益点，团队可据此重新核算部署方案。",
+      "selection_reason": "观点能纠正常见的二元争论，并转化为具体的基础设施与采购取舍，适合承担当天的趋势判断内容。",
+      "selected_at": "2026-08-04T11:20:45.432Z",
+      "updated_at": "2026-08-04T11:22:51.140Z",
+      "draft_ready_at": "2026-08-04T11:22:51.140Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-04/开源模型不等于自己掌控：团队选型前先算清这三笔账",
+      "meta_path": "drafts/2026-08-04/开源模型不等于自己掌控：团队选型前先算清这三笔账/开源模型不等于自己掌控：团队选型前先算清这三笔账.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-04/x-chenchengpro-d0f96a86.md",
+      "file": "sources/2026-08-04/x-chenchengpro-d0f96a86.md",
+      "slug": "入职一周用9个Skill组织工作记忆",
+      "title": "入职一周写了 9 个 Skill：真正省时间的不是聊天，而是组织记忆",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.033,
+      "reach_note": "一周、9 个模块和入职提效构成清晰利益点，职场读者可直接挑选其中一个场景复用。",
+      "selection_reason": "素材细节充足，覆盖真实工作链条，适合写成案例故事，而不是又一篇泛泛的工具合集。",
+      "selected_at": "2026-08-04T11:20:45.432Z",
+      "updated_at": "2026-08-04T11:23:45.171Z",
+      "draft_ready_at": "2026-08-04T11:23:45.171Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-04/入职一周写了 9 个 Skill：真正省时间的不是聊天，而是组织记忆",
+      "meta_path": "drafts/2026-08-04/入职一周写了 9 个 Skill：真正省时间的不是聊天，而是组织记忆/入职一周写了 9 个 Skill：真正省时间的不是聊天，而是组织记忆.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-04/sopilot-hot-2084491878830105044-daee84ea.md",
+      "file": "sources/2026-08-04/sopilot-hot-2084491878830105044-daee84ea.md",
+      "slug": "DeepSeek官方价与云厂价差10倍",
+      "title": "DeepSeek 官方价和云厂价差 10 倍，多花的钱到底买了什么？",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "product-business",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.036,
+      "reach_note": "DeepSeek 品牌、10 倍价差和明确选型动作同时具备，省钱利益点非常直接。",
+      "selection_reason": "讨论焦点不是简单比价，而是解释溢价对应的服务边界，能形成对个人和团队都实用的采购判断。",
+      "selected_at": "2026-08-04T11:20:45.433Z",
+      "updated_at": "2026-08-04T11:24:43.953Z",
+      "draft_ready_at": "2026-08-04T11:24:43.953Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-04/DeepSeek 官方价和云厂价差 10 倍，多花的钱到底买了什么？",
+      "meta_path": "drafts/2026-08-04/DeepSeek 官方价和云厂价差 10 倍，多花的钱到底买了什么？/DeepSeek 官方价和云厂价差 10 倍，多花的钱到底买了什么？.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-04/anthropic-python-sdk-releases-3afc102f.md",
+      "file": "sources/2026-08-04/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Anthropic-Python-SDK-0.117安全更新",
+      "title": "Anthropic Python SDK 0.117：凭证不再混进报错，隧道能力也来了",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.033,
+      "reach_note": "Anthropic 品牌认知明确，升级动作简单，并直接降低日志和错误追踪泄露凭证的风险。",
+      "selection_reason": "官方 release 同时包含安全修复和新 API 能力，信息可靠，读者能立刻检查版本并完成升级。",
+      "selected_at": "2026-08-04T11:20:45.433Z",
+      "updated_at": "2026-08-04T11:25:45.794Z",
+      "draft_ready_at": "2026-08-04T11:25:45.793Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-04/Anthropic Python SDK 0.117：凭证不再混进报错，隧道能力也来了",
+      "meta_path": "drafts/2026-08-04/Anthropic Python SDK 0.117：凭证不再混进报错，隧道能力也来了/Anthropic Python SDK 0.117：凭证不再混进报错，隧道能力也来了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-04/x-libapi_-05e2f05c.md",
+      "file": "sources/2026-08-04/x-libapi_-05e2f05c.md",
+      "slug": "Hermes-Studio新版群聊与滚动记忆",
+      "title": "Hermes Studio 新版群聊：多模型协作终于能记住长期讨论",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.037,
+      "reach_note": "Hermes 属于重点生态，新版能力直接解决长对话记忆和多角色协作问题，读者可在版本发布后立即验证。",
+      "selection_reason": "同时具备明确版本变化、真实使用痛点和生态关注度，适合做一篇有判断而非功能罗列的更新解读。",
+      "selected_at": "2026-08-04T11:20:45.433Z",
+      "updated_at": "2026-08-04T11:26:43.827Z",
+      "draft_ready_at": "2026-08-04T11:26:43.827Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-04/Hermes Studio 新版群聊：多模型协作终于能记住长期讨论",
+      "meta_path": "drafts/2026-08-04/Hermes Studio 新版群聊：多模型协作终于能记住长期讨论/Hermes Studio 新版群聊：多模型协作终于能记住长期讨论.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-04/ai-now-institute-da82a4f2.md",
+      "file": "sources/2026-08-04/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex安全审计反被劫持",
+      "title": "Claude Code 和 Codex 做安全审计，为什么反而可能执行恶意代码？",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 74,
+      "recent_similarity": 0.033,
+      "reach_note": "Claude Code、Codex 都有高认知度，风险关系到本机代码和凭证，读者可立即收紧权限与隔离环境。",
+      "selection_reason": "这是开发者容易忽略的反直觉风险，既有具体攻击链，也能沉淀为可执行的隔离与审计原则。",
+      "selected_at": "2026-08-04T11:20:45.434Z",
+      "updated_at": "2026-08-04T11:27:47.244Z",
+      "draft_ready_at": "2026-08-04T11:27:47.244Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-04/Claude Code 和 Codex 做安全审计，为什么反而可能执行恶意代码？",
+      "meta_path": "drafts/2026-08-04/Claude Code 和 Codex 做安全审计，为什么反而可能执行恶意代码？/Claude Code 和 Codex 做安全审计，为什么反而可能执行恶意代码？.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-04T11:20:45.431Z",
+      "source_count": 143
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-04T11:20:45.431Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-04T11:20:45.432Z",
+      "topic_id": "sources/2026-08-04/x-levelsio-72b17347.md",
+      "slug": "AI视频编辑真正难在时间线"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-04T11:20:45.432Z",
+      "topic_id": "sources/2026-08-04/x-leerob-fd0fb8e8.md",
+      "slug": "开源模型不等于自己掌控"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-04T11:20:45.432Z",
+      "topic_id": "sources/2026-08-04/x-chenchengpro-d0f96a86.md",
+      "slug": "入职一周用9个Skill组织工作记忆"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-04T11:20:45.433Z",
+      "topic_id": "sources/2026-08-04/sopilot-hot-2084491878830105044-daee84ea.md",
+      "slug": "DeepSeek官方价与云厂价差10倍"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-04T11:20:45.433Z",
+      "topic_id": "sources/2026-08-04/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Anthropic-Python-SDK-0.117安全更新"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-04T11:20:45.433Z",
+      "topic_id": "sources/2026-08-04/x-libapi_-05e2f05c.md",
+      "slug": "Hermes-Studio新版群聊与滚动记忆"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-04T11:20:45.434Z",
+      "topic_id": "sources/2026-08-04/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex安全审计反被劫持"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-04T11:21:46.280Z",
+      "topic_id": "sources/2026-08-04/x-levelsio-72b17347.md",
+      "slug": "AI视频编辑真正难在时间线",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-04T11:22:51.140Z",
+      "topic_id": "sources/2026-08-04/x-leerob-fd0fb8e8.md",
+      "slug": "开源模型不等于自己掌控",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-04T11:23:45.171Z",
+      "topic_id": "sources/2026-08-04/x-chenchengpro-d0f96a86.md",
+      "slug": "入职一周用9个Skill组织工作记忆",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-04T11:24:43.953Z",
+      "topic_id": "sources/2026-08-04/sopilot-hot-2084491878830105044-daee84ea.md",
+      "slug": "DeepSeek官方价与云厂价差10倍",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-04T11:25:45.794Z",
+      "topic_id": "sources/2026-08-04/anthropic-python-sdk-releases-3afc102f.md",
+      "slug": "Anthropic-Python-SDK-0.117安全更新",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-04T11:26:43.827Z",
+      "topic_id": "sources/2026-08-04/x-libapi_-05e2f05c.md",
+      "slug": "Hermes-Studio新版群聊与滚动记忆",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-04T11:27:47.244Z",
+      "topic_id": "sources/2026-08-04/ai-now-institute-da82a4f2.md",
+      "slug": "Claude-Code与Codex安全审计反被劫持",
+      "error": ""
+    }
+  ]
+}

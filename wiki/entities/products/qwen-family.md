@@ -36,6 +36,7 @@
 | 2026-05-07 | [[nouscoder-14b开源-48张b200训4天-接住claude-code时刻\|NousResearch 用 48 张 B200 训 4 天搞出 NousCoder-14B，开源接住 Claude Code 时刻]] | base 模型 / 海外微调引用 |
 | 2026-05-07 | [[gb10-solution-atlas开源-rust-cuda让qwen3-6-35b单卡100tok每秒\|DGX Spark 单卡跑 Qwen3.6-35B 100+ tok/s，这个 Rust 推理引擎把 PyTorch 整条栈丢出去了]] | 本地推理性能 / Qwen3.6 落地 |
 | 2026-05-21 | [[阿里-qwen3-7-max-openrouter-100万上下文-白菜价\|阿里 Qwen3.7 Max 上 OpenRouter 100 万 token 上下文 Agent 优先 价格白菜]] | Qwen3.7 Max 新旗舰 / 1M context / 出海首发 |
+| 2026-06-16 | [[本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek|本地跑模型第一台机器怎么选，Ollama 已支持 Kimi-K2.6、GLM-5.1、DeepSeek]] | Ollama 本地选型 / 真实任务验证 |
 
 ## 相关主题
 

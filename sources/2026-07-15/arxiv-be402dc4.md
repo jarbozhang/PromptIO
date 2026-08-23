@@ -1,0 +1,26 @@
+---
+title: >-
+  A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous
+  Manipulation
+url: 'https://arxiv.org/abs/2607.11874v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Yunhai Feng
+  - Natalie Leung
+  - Jiaxuan Wang
+  - Lujie Yang
+  - Haozhi Qi
+categories:
+  - cs.RO
+  - cs.AI
+  - cs.LG
+  - cs.RO
+published: '2026-07-13T17:56:08Z'
+fetched_at: '2026-07-14T23:03:22.227Z'
+---
+Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipulation involves complex, contact-rich dynamics and requires delicate regulation of contact modes and forces. We present REGRIND, a minimalist retargeting-guided RL pipeline that learns dexterous manipulation policies from a single human demonstration. REGRIND retargets human hand-object motion to a robot reference that preserves hand-object spatial and contact relationships, trains a residual RL policy in simulation to track object-centric keypoints along that reference, and transfers the resulting policy zero-shot to hardware with careful system identification. The resulting policies produce fluid, human-like behavior on two different multi-fingered hands across contact-rich tool-use tasks, including operating a pair of scissors and turning a screwdriver. Through systematic hardware experiments, we identify and analyze the key factors that govern sim-to-real transfer in dexterous manipulation, offering practical guidance for retargeting-based learning in contact-rich settings. Videos and code are available at https://yunhaifeng.com/REGRIND.
+
+Authors: Yunhai Feng, Natalie Leung, Jiaxuan Wang, Lujie Yang, Haozhi Qi
+Categories: cs.RO, cs.AI, cs.LG, cs.RO

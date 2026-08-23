@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PromptIO Daily Content Pipeline：ce-ideate 流程分析</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f4ef;
+      --paper: #fffdf8;
+      --ink: #202124;
+      --muted: #667085;
+      --line: #ded8cd;
+      --accent: #7c3aed;
+      --accent-2: #0f766e;
+      --warn: #b45309;
+      --bad: #b42318;
+      --good: #047857;
+      --chip: #eee8ff;
+      --chip-2: #e7f5f1;
+      --shadow: 0 24px 70px rgba(37, 31, 24, .10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(124, 58, 237, .14), transparent 34rem),
+        radial-gradient(circle at 95% 10%, rgba(15, 118, 110, .12), transparent 28rem),
+        var(--bg);
+      color: var(--ink);
+      line-height: 1.62;
+    }
+    .wrap { width: min(1180px, calc(100vw - 36px)); margin: 0 auto; }
+    header.hero { padding: 56px 0 28px; }
+    .eyebrow { display: inline-flex; gap: 10px; align-items: center; padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,.62); color: var(--muted); font-size: 13px; }
+    h1 { font-size: clamp(34px, 5vw, 64px); letter-spacing: -0.055em; line-height: 1.02; margin: 18px 0 18px; max-width: 980px; }
+    .subtitle { font-size: 19px; color: #475467; max-width: 860px; margin: 0; }
+    .meta-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 28px; }
+    .meta-card { background: rgba(255,255,255,.72); border: 1px solid var(--line); border-radius: 18px; padding: 14px 16px; box-shadow: 0 10px 26px rgba(37,31,24,.05); }
+    .meta-card b { display: block; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+    .meta-card span { display: block; margin-top: 6px; font-weight: 650; }
+    main { padding: 18px 0 72px; }
+    section { background: rgba(255,253,248,.88); border: 1px solid var(--line); border-radius: 26px; padding: 28px; margin: 18px 0; box-shadow: var(--shadow); }
+    h2 { font-size: 28px; line-height: 1.15; letter-spacing: -.03em; margin: 0 0 16px; }
+    h3 { font-size: 19px; margin: 22px 0 10px; letter-spacing: -.01em; }
+    p { margin: 10px 0; }
+    ul, ol { margin: 10px 0 0 1.2rem; padding: 0; }
+    li { margin: 7px 0; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .callout { border-left: 5px solid var(--accent); background: #fbf9ff; padding: 16px 18px; border-radius: 14px; margin: 16px 0; }
+    .callout.warn { border-left-color: var(--warn); background: #fff8ed; }
+    .callout.good { border-left-color: var(--good); background: #effaf5; }
+    .problem-list { display: grid; gap: 12px; margin-top: 14px; }
+    .problem { display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: start; padding: 14px; border: 1px solid #eadfd2; border-radius: 16px; background: #fffaf1; }
+    .num { width: 34px; height: 34px; border-radius: 50%; background: #fee4b4; color: #7a3e00; display: inline-grid; place-items: center; font-weight: 800; }
+    .axis { padding: 14px; border: 1px solid var(--line); border-radius: 16px; background: #fff; min-height: 118px; }
+    .axis b { color: var(--accent-2); }
+    .flow { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 16px; }
+    .step { padding: 10px 12px; border-radius: 999px; background: var(--chip-2); border: 1px solid #bfe5db; font-weight: 650; }
+    .arrow { color: var(--muted); font-weight: 800; }
+    .ideas { display: grid; gap: 16px; }
+    .idea { border: 1px solid var(--line); background: #fff; border-radius: 22px; padding: 20px; position: relative; overflow: hidden; }
+    .idea::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 5px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); }
+    .idea-head { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+    .rank { width: 38px; height: 38px; border-radius: 12px; display: inline-grid; place-items: center; color: #fff; font-weight: 850; background: var(--accent); flex: 0 0 auto; }
+    .idea-title { display: flex; gap: 12px; align-items: center; }
+    .idea-title h3 { margin: 0; font-size: 22px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+    .chip { background: var(--chip); color: #4c1d95; border: 1px solid #ddd0ff; border-radius: 999px; padding: 5px 9px; font-size: 12px; font-weight: 700; white-space: nowrap; }
+    .chip.teal { background: #e6f7f3; color: #0f766e; border-color: #b9e7dc; }
+    .chip.gray { background: #f2f4f7; color: #475467; border-color: #e4e7ec; }
+    .details { display: grid; grid-template-columns: 1.2fr 1fr; gap: 14px; margin-top: 12px; }
+    .detail-box { background: #fafafa; border: 1px solid #ececec; border-radius: 14px; padding: 12px 14px; }
+    .detail-box b { display: block; color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+    table { width: 100%; border-collapse: separate; border-spacing: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: #fff; }
+    th, td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    th { background: #f4f0ea; font-size: 13px; color: #475467; }
+    tr:last-child td { border-bottom: 0; }
+    code { background: #f2f4f7; padding: 2px 6px; border-radius: 6px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .92em; }
+    footer { color: var(--muted); font-size: 13px; padding: 18px 0 42px; }
+    @media (max-width: 860px) {
+      .meta-grid, .grid-2, .grid-3, .details { grid-template-columns: 1fr; }
+      .idea-head { flex-direction: column; }
+      .chips { justify-content: flex-start; }
+      section { padding: 22px; border-radius: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">ce-ideate · repo-grounded · PromptIO</div>
+      <h1>Daily Content Pipeline 流程分析：问题、简化路径与增强点</h1>
+      <p class="subtitle">本报告基于 PromptIO 仓库内的 skill、脚本、prompt、历史计划与内容质量规则做证据化发散，再对候选方案逐项批判、合并、排序。结论不是“加更多步骤”，而是把现有文档化流程收敛成少数可执行、可恢复、可审计的中间产物。</p>
+      <div class="meta-grid">
+        <div class="meta-card"><b>日期</b><span>2026-06-14</span></div>
+        <div class="meta-card"><b>主题</b><span>promptio-daily-content-pipeline</span></div>
+        <div class="meta-card"><b>分析模式</b><span>ce-ideate / repo grounded</span></div>
+        <div class="meta-card"><b>输出</b><span>7 个推荐方案 · 10 个合并/淘汰项</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>一句话结论</h2>
+      <div class="callout good">
+        <strong>首选方案是建立 Assignment Desk Run Manifest。</strong> 它把“每日无人值守内容生产”从散落在 skill、prompt、脚本里的隐式流程，变成一个可恢复的状态机：每个选题从 candidate 到 evidence-ready、draft-ready、qa-ready、publishable 都有明确状态、失败原因、补证路径和发布许可。
+      </div>
+      <p>在此基础上，流程可以简化为 5 个稳定产物：</p>
+      <div class="flow" aria-label="simplified pipeline">
+        <span class="step">SourceItems</span><span class="arrow">→</span>
+        <span class="step">StoryPackage / Assignment</span><span class="arrow">→</span>
+        <span class="step">ClaimLedger / ArticlePlan</span><span class="arrow">→</span>
+        <span class="step">Draft + QAReport + PlatformPassport</span><span class="arrow">→</span>
+        <span class="step">WikiPatch + PublishReceipt</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Grounding Context：证据基础</h2>
+      <div class="grid-2">
+        <div>
+          <h3>仓库内观察</h3>
+          <ul>
+            <li><code>.claude/skills/daily-content-pipeline/SKILL.md</code> 描述了端到端无人值守流程：RSS/GitHub/arXiv、X/Bird、wiki-informed scoring、last30days、并行写作、QA 三轮质修、平台标记、wiki 更新和 commit。</li>
+            <li><code>scripts/pipeline.js</code> 实际是 fetch-only：它只做采集、lock、source existence skip 和自动 commit，不跑选题、生成、QA、发布 gate、wiki patch。</li>
+            <li><code>scripts/daily.js</code> 做顺序选题和生成，但 selection schema 是单个 <code>file</code>；而 scoring prompt 要求 2-3 个互证源。</li>
+            <li><code>config/prompts/qa-check.md</code> 与 <code>scripts/lib/l1-replace.js</code> 已有 QA/合规规则；但 <code>scripts/publish.js</code> 没有形成强制 QA/platform gate。</li>
+            <li>wiki 更新被放在 daily path 中直接执行，但缺少 patch queue、registry 和 quarantine 边界。</li>
+          </ul>
+        </div>
+        <div>
+          <h3>历史经验与外部类比</h3>
+          <ul>
+            <li>历史计划强调：初稿 → L1 机械替换 → 独立 QA agent → 最多 3 轮质修 → 人工审核/失败状态 → commit。</li>
+            <li>LLM 自评分不可靠，分数更适合作排序；硬闸门应由机械可验证状态、证据厚度、QA 结论与平台 passport 驱动。</li>
+            <li>新闻自动化实践中，AP/Reuters/WaPo/BBC 的共同点不是“大模型一步到位”，而是 assignment desk、结构化数据、claim/evidence tracking、docs-as-code、长尾自动化与审计边界。</li>
+            <li>典型失败模式包括：把采集源当事实源、缺 claim ledger、模板变量泄漏、scaled low-value content、外部内容 prompt injection、wiki 长期记忆污染。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>当前流程的主要问题</h2>
+      <div class="problem-list">
+        <div class="problem"><span class="num">1</span><div><strong>文档流程大于可执行流程。</strong> skill 描述了完整无人值守链路，但现有脚本主要覆盖采集、顺序生成和发布打包，缺中心编排器。</div></div>
+        <div class="problem"><span class="num">2</span><div><strong>两套路线上下文不一致。</strong> skill 里是 10 个子代理并行、QA 三轮、wiki 更新；<code>daily.js</code> 更像一个轻量顺序脚本。</div></div>
+        <div class="problem"><span class="num">3</span><div><strong>选题单位与证据要求冲突。</strong> scoring prompt 要求多源互证，但 selection schema 以单个 source file 为单位，导致“证据厚度”没有成为数据结构。</div></div>
+        <div class="problem"><span class="num">4</span><div><strong>QA/合规规则存在，但没有闭环。</strong> prompts、L1 替换、平台标记都在，但 publish gate 没有强制消费这些状态。</div></div>
+        <div class="problem"><span class="num">5</span><div><strong>wiki 写入风险偏高。</strong> daily path 直接更新长期知识库，容易把未发布、未 QA 通过、或 blocked 事实写成“组织记忆”。</div></div>
+        <div class="problem"><span class="num">6</span><div><strong>soft-fail 没有转化为编辑信号。</strong> 外部依赖失败时流程能继续，但稿件不知道缺了社区证据、平台趋势或价格/下载量等关键上下文。</div></div>
+        <div class="problem"><span class="num">7</span><div><strong>规则重复，未来会漂移。</strong> prompt、skill、脚本中都写了合规/质量约束；缺少单一规则源和脚本化 gate。</div></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Topic Axes：本次发散的 5 个轴</h2>
+      <div class="grid-3">
+        <div class="axis"><b>编排边界与可恢复执行</b><br/>谁负责从采集到发布？失败后如何恢复？每日流程哪些是 core path，哪些应改为 enhancer / weekly path？</div>
+        <div class="axis"><b>来源、选题与证据模型</b><br/>如何从 source file 变成多源 story package？如何表达证据厚度、缺口和禁止写入的边界？</div>
+        <div class="axis"><b>QA、合规与发布闸门</b><br/>哪些由脚本机械校验，哪些由 LLM 审语义？publish 是否必须读取 QA 与平台 passport？</div>
+        <div class="axis"><b>wiki 维护与知识库治理</b><br/>哪些事实可以进入长期记忆？blocked/未发布内容如何隔离？wiki patch 如何审计和回放？</div>
+        <div class="axis"><b>外部依赖与可观测性</b><br/>bird、TrendRadar、PyPI、OpenRouter、GitHub、last30days 失败时如何降级内容模式，而不是静默变薄？</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Ranked Ideas：推荐方案排序</h2>
+      <div class="ideas">
+        <article class="idea">
+          <div class="idea-head">
+            <div class="idea-title"><span class="rank">1</span><h3>Assignment Desk Run Manifest</h3></div>
+            <div class="chips"><span class="chip">Axis: 编排</span><span class="chip teal">Confidence 88%</span><span class="chip gray">Complexity M</span></div>
+          </div>
+          <p>建立每日 run manifest 和 per-topic assignment manifest，把每个选题的状态、证据需求、生成状态、QA 状态、平台许可、wiki patch、发布 receipt 全部挂到同一个可恢复对象上。</p>
+          <div class="details">
+            <div class="detail-box"><b>依据</b>skill 声称端到端无人值守，而 <code>pipeline.js</code> 是 fetch-only，<code>daily.js</code> 是顺序生成；缺少中心控制面。外部 newsroom automation 也普遍先有 assignment desk / planning layer。</div>
+            <div class="detail-box"><b>为什么值得做</b>统一文档流程与可执行流程；自然容纳 core path vs enhancer path、stop-the-press alert、失败恢复、per-topic retry。</div>
+            <div class="detail-box"><b>潜在代价</b>需要定义 manifest schema，并改造 daily/single/publish/wiki 读取同一状态；初期会增加少量结构化文件。</div>
+            <div class="detail-box"><b>建议落点</b>先新增 <code>runs/YYYY-MM-DD/manifest.json</code>，只接入 source health、story package、QA status、publish passport 四个字段，不一次性重写所有脚本。</div>
+          </div>
+        </article>
+
+        <article class="idea">
+          <div class="idea-head">
+            <div class="idea-title"><span class="rank">2</span><h3>Story Package Builder</h3></div>
+            <div class="chips"><span class="chip">Axis: 证据模型</span><span class="chip teal">Confidence 84%</span><span class="chip gray">Complexity M</span></div>
+          </div>
+          <p>在 scoring 前先把 SourceItems 聚合成 story package：主源、佐证源、社区证据、可写角度、证据缺口、不可写边界都显式列出。选题单位从“一个 file”升级为“一组证据”。</p>
+          <div class="details">
+            <div class="detail-box"><b>依据</b><code>daily.js</code> selection schema 是单个 <code>file</code>，但 scoring prompt 要求 2-3 个互证源，天然不匹配。</div>
+            <div class="detail-box"><b>为什么值得做</b>减少薄证据成稿；让 last30days、X/Bird、wiki recall 都成为补强 package 的输入，而不是独立步骤。</div>
+            <div class="detail-box"><b>潜在代价</b>需要聚类、去重、相似度或人工可理解规则；package 过度聚合会让新鲜度下降。</div>
+            <div class="detail-box"><b>建议落点</b>先做启发式聚合：同 repo / 同产品 / 同关键词 / 同日期窗口；没有 2 个以上证据源的选题进入 evidence_needed。</div>
+          </div>
+        </article>
+
+        <article class="idea">
+          <div class="idea-head">
+            <div class="idea-title"><span class="rank">3</span><h3>Claim Ledger</h3></div>
+            <div class="chips"><span class="chip">Axis: 证据模型</span><span class="chip teal">Confidence 82%</span><span class="chip gray">Complexity M/H</span></div>
+          </div>
+          <p>正文生成前先生成 claim ledger：每个可验证断言绑定 source snippet、URL、置信度、可写范围和 unknown boundaries。稿件只能使用 ledger 中已许可的断言。</p>
+          <div class="details">
+            <div class="detail-box"><b>依据</b>现有 prompt 已要求禁止虚构事实；外部 claim verification 实践显示，无 ledger 的自动写作最容易把“看起来合理”写成事实。</div>
+            <div class="detail-box"><b>为什么值得做</b>让 QA 从抽象评价变成逐条查证；可直接支持事实纠错、引用审计、wiki patch 过滤。</div>
+            <div class="detail-box"><b>潜在代价</b>claim extraction 和证据绑定本身也会出错；需要最小 schema 与抽样审计。</div>
+            <div class="detail-box"><b>建议落点</b>先只要求 8-15 条核心 claims，不覆盖所有句子；未入 ledger 的事实性句子在 QA 中直接标红。</div>
+          </div>
+        </article>
+
+        <article class="idea">
+          <div class="idea-head">
+            <div class="idea-title"><span class="rank">4</span><h3>Platform Passport / Publish Gate</h3></div>
+            <div class="chips"><span class="chip">Axis: QA/发布</span><span class="chip teal">Confidence 90%</span><span class="chip gray">Complexity L/M</span></div>
+          </div>
+          <p>让 <code>publish.js</code> 成为真正的执行闸门：读取 QA 状态、平台 passport、L6/XHS 合规、blocked reason、人工批准状态；没有明确 publishable 就不产出发布包。</p>
+          <div class="details">
+            <div class="detail-box"><b>依据</b>meta 与 QA prompt 已有平台字段和 L6 规则，但发布脚本没有看到强制消费这些状态。</div>
+            <div class="detail-box"><b>为什么值得做</b>这是事故防线中收益最高、改造面较小的一步；把“规则写在 prompt 里”变成“发布前必须通过”。</div>
+            <div class="detail-box"><b>潜在代价</b>历史 draft 可能缺字段；要决定缺字段时默认 blocked 还是 legacy allow。建议保守默认 blocked。</div>
+            <div class="detail-box"><b>建议落点</b>不推翻当前 L6 主稿硬门槛；先增加 <code>--force</code> 或 <code>manual_approved</code> 作为显式例外路径。</div>
+          </div>
+        </article>
+
+        <article class="idea">
+          <div class="idea-head">
+            <div class="idea-title"><span class="rank">5</span><h3>QA Repair Task Loop + Scripted Mechanical Gates</h3></div>
+            <div class="chips"><span class="chip">Axis: QA/合规</span><span class="chip teal">Confidence 80%</span><span class="chip gray">Complexity M</span></div>
+          </div>
+          <p>把 L1 禁词、合规词、metadata、平台 passport 等机械规则脚本化；LLM QA 只审语义、结构、读者价值和事实链，并输出 repair_tasks、目标段落、验收条件和轮次 diff。</p>
+          <div class="details">
+            <div class="detail-box"><b>依据</b><code>l1-replace.js</code> 已经存在，prompt 中又重复定义了大量规则；历史经验指出 LLM 自评分不能作为硬阈值。</div>
+            <div class="detail-box"><b>为什么值得做</b>减少 QA prompt 膨胀与漂移；让三轮质修变成可执行任务列表，而不是反复“重写得更好”。</div>
+            <div class="detail-box"><b>潜在代价</b>需要统一规则源和测试样例；repair task 过细会增加生成成本。</div>
+            <div class="detail-box"><b>建议落点</b>先定义 <code>qa.report.json</code>：mechanical_gates、semantic_findings、repair_tasks、round、overall_pass。</div>
+          </div>
+        </article>
+
+        <article class="idea">
+          <div class="idea-head">
+            <div class="idea-title"><span class="rank">6</span><h3>Wiki Patch Queue</h3></div>
+            <div class="chips"><span class="chip">Axis: wiki治理</span><span class="chip teal">Confidence 78%</span><span class="chip gray">Complexity M</span></div>
+          </div>
+          <p>daily 不再直接改长期 wiki，而是产出可审阅、可回放、可 lint 的 wiki patch。registry 只登记 published 或 QA-pass 的事实；blocked、quarantine、draft-only 信息不污染长期记忆。</p>
+          <div class="details">
+            <div class="detail-box"><b>依据</b>skill 把 wiki update 放在 daily path 中；历史经验强调 docs/solutions 和 wiki 需要防止低质量自动写入。</div>
+            <div class="detail-box"><b>为什么值得做</b>保护长期知识库质量；把“学到什么”与“今天临时看到什么”分离。</div>
+            <div class="detail-box"><b>潜在代价</b>wiki 更新会有延迟；需要 patch apply / lint tooling。</div>
+            <div class="detail-box"><b>建议落点</b>新增 <code>wiki/patches/YYYY-MM-DD/*.md</code> 或 JSON patch；weekly job 批量审阅并合并。</div>
+          </div>
+        </article>
+
+        <article class="idea">
+          <div class="idea-head">
+            <div class="idea-title"><span class="rank">7</span><h3>Source Health Ledger / Dependency Preflight</h3></div>
+            <div class="chips"><span class="chip">Axis: 外部依赖</span><span class="chip teal">Confidence 76%</span><span class="chip gray">Complexity L/M</span></div>
+          </div>
+          <p>每日开始时运行 preflight，记录 bird/X、TrendRadar、PyPI、OpenRouter、GitHub、last30days 等依赖健康；并把缺失源映射到内容模式降级，例如“无社区证据时禁止写社区反应”。</p>
+          <div class="details">
+            <div class="detail-box"><b>依据</b>现有采集脚本多采用 soft-fail，能保命但不能告诉后续环节证据缺口；last30days 成本也不应每题固定触发。</div>
+            <div class="detail-box"><b>为什么值得做</b>把外部失败从日志事件变成编辑上下文；按证据缺口触发补采，而不是机械跑满所有增强步骤。</div>
+            <div class="detail-box"><b>潜在代价</b>需要定义源类型对内容模式的影响；有些依赖失败可能只是临时网络抖动。</div>
+            <div class="detail-box"><b>建议落点</b>manifest 中增加 <code>source_health</code> 与 <code>content_mode_constraints</code>；三次失败才进入 degraded mode。</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Rejected / Merged：被合并或暂缓的想法</h2>
+      <table>
+        <thead><tr><th>想法</th><th>处理</th><th>原因</th></tr></thead>
+        <tbody>
+          <tr><td>Wiki Published-Fact Registry</td><td>并入 Wiki Patch Queue</td><td>registry/quarantine 是 patch queue 的治理规则，不需要独立成核心项目。</td></tr>
+          <tr><td>Content Mode Switcher</td><td>并入 Source Health Ledger</td><td>内容模式降级应由 source health 和 evidence thickness 驱动。</td></tr>
+          <tr><td>Evidence-triggered last30days</td><td>并入 Source Health / Story Package</td><td>last30days 是补证动作，不应成为每题固定步骤。</td></tr>
+          <tr><td>LLM Scores as Ranking Only</td><td>并入 QA Repair / Publish Gate</td><td>原则正确，但本身不是完整方案；要落到机械 gate 与 publish gate。</td></tr>
+          <tr><td>Fewer Publishable Pieces</td><td>暂缓</td><td>“3 篇”这类数字缺直接证据；可以作为 manifest 中的策略参数。</td></tr>
+          <tr><td>Article Registry as Learning System</td><td>改为 weekly enhancer</td><td>有价值，但不是 daily core simplification 的第一优先级。</td></tr>
+          <tr><td>Core Path vs Enhancer Path</td><td>并入 Assignment Desk Manifest</td><td>这是 manifest 的核心职责之一。</td></tr>
+          <tr><td>Stop-the-Press Alerts</td><td>并入 Manifest / Claim Ledger / Source Health</td><td>应作为 alert 条件，而不是独立系统。</td></tr>
+          <tr><td>Platform Compliance as Distribution Layer</td><td>保守并入 Platform Passport</td><td>当前 QA prompt 把 L6 设为主稿硬门槛，不能直接推翻；先做 publish-time eligibility。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>推荐实施顺序</h2>
+      <ol>
+        <li><strong>第 1 步：先做 Publish Gate。</strong> 改造面最小、风险收益最高：没有 QA/passport 就不发布。</li>
+        <li><strong>第 2 步：引入 Run Manifest。</strong> 先把每日运行状态和选题状态结构化，不急着重写生成逻辑。</li>
+        <li><strong>第 3 步：把单 file 选题升级为 Story Package。</strong> 让多源互证成为数据结构。</li>
+        <li><strong>第 4 步：为高风险稿件启用 Claim Ledger。</strong> 不必一开始覆盖所有稿件；先覆盖 API、价格、benchmark、安全、合规相关主题。</li>
+        <li><strong>第 5 步：QA repair tasks 与 wiki patch queue。</strong> 当状态机稳定后，再把 QA 质修和长期知识库治理接入。</li>
+      </ol>
+      <div class="callout warn">
+        <strong>不建议的方向：</strong>不要把现有 skill 里的所有步骤再硬编码一遍；也不要先追求 10 个子代理并行。现在最缺的是“状态边界、证据边界、发布闸门”，不是更多生成并发。
+      </div>
+    </section>
+
+    <section>
+      <h2>最小可行目标</h2>
+      <p>如果只做一个小版本，建议目标是：</p>
+      <ul>
+        <li>新增 <code>runs/YYYY-MM-DD/manifest.json</code>，记录 source health、story packages、draft ids、QA status、platform passport、publish receipts。</li>
+        <li><code>publish.js</code> 在没有 <code>qa.overall_pass === true</code> 和平台 <code>status === "primary"</code> / <code>manual_approved</code> 时直接失败。</li>
+        <li><code>daily.js</code> selection 输出从 <code>{file}</code> 改为 <code>{package_id, primary_source, corroborating_sources, missing_evidence}</code>。</li>
+        <li>QA 输出 <code>repair_tasks</code>，三轮质修围绕任务关闭，而不是泛泛重写。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>Composition signal: produced with ce-ideate workflow — repo grounding → divergent candidates → critique and merge → ranked survivors. Local evidence dossiers were written under <code>/tmp/compound-engineering/ce-ideate/557cd411</code>.</p>
+  </footer>
+</body>
+</html>

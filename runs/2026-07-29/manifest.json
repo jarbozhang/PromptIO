@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-29",
+  "created_at": "2026-07-29T11:14:02.116Z",
+  "updated_at": "2026-07-29T11:22:23.388Z",
+  "source_count": 140,
+  "topics": [
+    {
+      "id": "sources/2026-07-29/llama-cpp-releases-15b97909.md",
+      "file": "sources/2026-07-29/llama-cpp-releases-15b97909.md",
+      "slug": "llama.cpp运行GLM-5.2推测解码",
+      "title": "llama.cpp 已支持 GLM-5.2 推测解码：本地运行先测这三个指标",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "hands_on_recipe",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.032,
+      "reach_note": "GLM 与 llama.cpp 兼具品牌和开源生态认知，读者升级后即可在本地验证速度收益。",
+      "selection_reason": "这是当天发布的正式版本能力，适合转化为有数据、有命令、有明确取舍的本地推理实测。",
+      "selected_at": "2026-07-29T11:14:02.116Z",
+      "updated_at": "2026-07-29T11:15:25.695Z",
+      "draft_ready_at": "2026-07-29T11:15:25.694Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-29/llama.cpp 已支持 GLM-5.2 推测解码：本地运行先测这三个指标",
+      "meta_path": "drafts/2026-07-29/llama.cpp 已支持 GLM-5.2 推测解码：本地运行先测这三个指标/llama.cpp 已支持 GLM-5.2 推测解码：本地运行先测这三个指标.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-29/x-lxfater-41df1e01.md",
+      "file": "sources/2026-07-29/x-lxfater-41df1e01.md",
+      "slug": "PDF转Markdown省Token真相",
+      "title": "PDF 转 Markdown 真能省 80% Token？省下成本，别赔掉图表信息",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.026,
+      "reach_note": "省 Token 是明确利益点，读者可以立刻用自己的 PDF 对照测试两种处理方式。",
+      "selection_reason": "当天素材同时存在省成本主张和信息损耗反例，适合做有条件结论，而不是重复未经区分的节省比例。",
+      "selected_at": "2026-07-29T11:14:02.117Z",
+      "updated_at": "2026-07-29T11:16:17.556Z",
+      "draft_ready_at": "2026-07-29T11:16:17.556Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-29/PDF 转 Markdown 真能省 80% Token？别先省钱，再丢掉图表信息",
+      "meta_path": "drafts/2026-07-29/PDF 转 Markdown 真能省 80% Token？别先省钱，再丢掉图表信息/PDF 转 Markdown 真能省 80% Token？别先省钱，再丢掉图表信息.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-29/x-dotey-004cac58.md",
+      "file": "sources/2026-07-29/x-dotey-004cac58.md",
+      "slug": "MCP无状态协议迁移指南",
+      "title": "MCP 2026-07-28 大改版：无状态请求终于能直接上 Serverless",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.037,
+      "reach_note": "MCP 有明确的开发者认知度，新协议能降低扩容和部署难度，现有服务维护者可以立即核对迁移项。",
+      "selection_reason": "这是当天信息完整度和行动价值都很高的版本变化，直接影响 MCP 服务的架构、部署与鉴权方式。",
+      "selected_at": "2026-07-29T11:14:02.117Z",
+      "updated_at": "2026-07-29T11:17:36.316Z",
+      "draft_ready_at": "2026-07-29T11:17:36.316Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-29/MCP 2026-07-28 大改版：无状态请求终于能直接上 Serverless",
+      "meta_path": "drafts/2026-07-29/MCP 2026-07-28 大改版：无状态请求终于能直接上 Serverless/MCP 2026-07-28 大改版：无状态请求终于能直接上 Serverless.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-29/anthropic-python-sdk-releases-5ff135da.md",
+      "file": "sources/2026-07-29/anthropic-python-sdk-releases-5ff135da.md",
+      "slug": "Claude-Opus-5接入Python-SDK",
+      "title": "Claude Opus 5 接入 Python SDK：动态增删工具会改变什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.054,
+      "reach_note": "Claude 品牌认知明确，SDK 已可升级验证，动态调整工具能减少长任务中的无效上下文和调用成本。",
+      "selection_reason": "官方 release 是可靠的版本主源，而且新增能力会影响工具调用型应用的状态处理和兼容性设计。",
+      "selected_at": "2026-07-29T11:14:02.117Z",
+      "updated_at": "2026-07-29T11:18:47.564Z",
+      "draft_ready_at": "2026-07-29T11:18:47.564Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-29/Claude Opus 5 接入 Python SDK：动态增删工具会改变什么",
+      "meta_path": "drafts/2026-07-29/Claude Opus 5 接入 Python SDK：动态增删工具会改变什么/Claude Opus 5 接入 Python SDK：动态增删工具会改变什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-29/google-ai-blog-85f9e223.md",
+      "file": "sources/2026-07-29/google-ai-blog-85f9e223.md",
+      "slug": "Gemini-API后台任务与Hooks选型",
+      "title": "Gemini API 新增后台任务和 Hooks：哪些长任务值得迁移",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.038,
+      "reach_note": "Google Gemini 具备品牌认知，后台任务和 Hooks 能减少自建编排工作，开发团队可立即评估迁移收益。",
+      "selection_reason": "官方发布提供了可验证的新能力，选题重点放在自建与托管之间的成本和控制权取舍，避免写成单纯功能新闻。",
+      "selected_at": "2026-07-29T11:14:02.117Z",
+      "updated_at": "2026-07-29T11:20:13.837Z",
+      "draft_ready_at": "2026-07-29T11:20:13.836Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-29/Gemini API 新增后台任务和 Hooks：哪些长任务值得迁移",
+      "meta_path": "drafts/2026-07-29/Gemini API 新增后台任务和 Hooks：哪些长任务值得迁移/Gemini API 新增后台任务和 Hooks：哪些长任务值得迁移.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-29/sopilot-hot-2082320026368151632-9e0c7499.md",
+      "file": "sources/2026-07-29/sopilot-hot-2082320026368151632-9e0c7499.md",
+      "slug": "未认证代码入口攻击复盘",
+      "title": "一个未认证代码入口如何变成攻击跳板：这次 AI 安全事故该修什么",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "failure_postmortem",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.049,
+      "reach_note": "OpenAI 带来品牌关注，暴露代码执行入口的风险与修复动作对云端开发团队都很直接。",
+      "selection_reason": "该事件有多条当天材料和安全报道相互印证，最有价值的落点是可复用的工程教训，而不是夸大模型意图。",
+      "selected_at": "2026-07-29T11:14:02.117Z",
+      "updated_at": "2026-07-29T11:21:17.027Z",
+      "draft_ready_at": "2026-07-29T11:21:17.027Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-29/一个未认证代码入口如何变成攻击跳板：这次 AI 安全事故该修什么",
+      "meta_path": "drafts/2026-07-29/一个未认证代码入口如何变成攻击跳板：这次 AI 安全事故该修什么/一个未认证代码入口如何变成攻击跳板：这次 AI 安全事故该修什么.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-29/sopilot-hot-2082281547080872347-4e03c524.md",
+      "file": "sources/2026-07-29/sopilot-hot-2082281547080872347-4e03c524.md",
+      "slug": "tldraw离线制作知识讲解图",
+      "title": "tldraw 离线版来了：让 Claude 直接画出可编辑的知识讲解图",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation",
+      "diversity_penalty": 52,
+      "recent_similarity": 0.023,
+      "reach_note": "Claude 提供品牌认知，离线、可编辑和直接安装试用构成明确利益点与操作入口。",
+      "selection_reason": "它把生成式绘图从不可修改的成品变成可继续编辑的创作素材，对教师、知识博主和演示文稿作者都有直接价值。",
+      "selected_at": "2026-07-29T11:14:02.118Z",
+      "updated_at": "2026-07-29T11:22:23.388Z",
+      "draft_ready_at": "2026-07-29T11:22:23.388Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-29/tldraw 离线版来了：让 Claude 直接画出可编辑的知识讲解图",
+      "meta_path": "drafts/2026-07-29/tldraw 离线版来了：让 Claude 直接画出可编辑的知识讲解图/tldraw 离线版来了：让 Claude 直接画出可编辑的知识讲解图.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-29T11:14:02.116Z",
+      "source_count": 140
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-29T11:14:02.116Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-29T11:14:02.116Z",
+      "topic_id": "sources/2026-07-29/llama-cpp-releases-15b97909.md",
+      "slug": "llama.cpp运行GLM-5.2推测解码"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-29T11:14:02.117Z",
+      "topic_id": "sources/2026-07-29/x-lxfater-41df1e01.md",
+      "slug": "PDF转Markdown省Token真相"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-29T11:14:02.117Z",
+      "topic_id": "sources/2026-07-29/x-dotey-004cac58.md",
+      "slug": "MCP无状态协议迁移指南"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-29T11:14:02.117Z",
+      "topic_id": "sources/2026-07-29/anthropic-python-sdk-releases-5ff135da.md",
+      "slug": "Claude-Opus-5接入Python-SDK"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-29T11:14:02.117Z",
+      "topic_id": "sources/2026-07-29/google-ai-blog-85f9e223.md",
+      "slug": "Gemini-API后台任务与Hooks选型"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-29T11:14:02.117Z",
+      "topic_id": "sources/2026-07-29/sopilot-hot-2082320026368151632-9e0c7499.md",
+      "slug": "未认证代码入口攻击复盘"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-29T11:14:02.118Z",
+      "topic_id": "sources/2026-07-29/sopilot-hot-2082281547080872347-4e03c524.md",
+      "slug": "tldraw离线制作知识讲解图"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-29T11:15:25.695Z",
+      "topic_id": "sources/2026-07-29/llama-cpp-releases-15b97909.md",
+      "slug": "llama.cpp运行GLM-5.2推测解码",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-29T11:16:17.556Z",
+      "topic_id": "sources/2026-07-29/x-lxfater-41df1e01.md",
+      "slug": "PDF转Markdown省Token真相",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-29T11:17:36.316Z",
+      "topic_id": "sources/2026-07-29/x-dotey-004cac58.md",
+      "slug": "MCP无状态协议迁移指南",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-29T11:18:47.564Z",
+      "topic_id": "sources/2026-07-29/anthropic-python-sdk-releases-5ff135da.md",
+      "slug": "Claude-Opus-5接入Python-SDK",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-29T11:20:13.837Z",
+      "topic_id": "sources/2026-07-29/google-ai-blog-85f9e223.md",
+      "slug": "Gemini-API后台任务与Hooks选型",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-29T11:21:17.027Z",
+      "topic_id": "sources/2026-07-29/sopilot-hot-2082320026368151632-9e0c7499.md",
+      "slug": "未认证代码入口攻击复盘",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-29T11:22:23.388Z",
+      "topic_id": "sources/2026-07-29/sopilot-hot-2082281547080872347-4e03c524.md",
+      "slug": "tldraw离线制作知识讲解图",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+---
+title: >-
+  GLM 5.2 is the ultimate culmination of what i have argued here for the last
+  three years. no technical moat and widely known formula -) convergence -)
+  price wars -) small or negativ
+source: X @GaryMarcus
+url: 'https://x.com/GaryMarcus/status/2071347041611960371'
+date: 'Sun Jun 28 21:36:33 +0000 2026'
+likes: 817
+reposts: 55
+replies: 45
+source_type: x
+language: en
+account_name: Gary Marcus
+fetched_at: '2026-06-30T23:13:50.320Z'
+---
+GLM 5.2 is the ultimate culmination of what i have argued here for the last three years. no technical moat and widely known formula -) convergence -) price wars -) small or negative margins.

@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-23",
+  "created_at": "2026-08-23T11:10:44.978Z",
+  "updated_at": "2026-08-23T11:17:32.268Z",
+  "source_count": 150,
+  "topics": [
+    {
+      "id": "sources/2026-08-23/sopilot-hot-2091338382689423373-a3549313.md",
+      "file": "sources/2026-08-23/sopilot-hot-2091338382689423373-a3549313.md",
+      "slug": "AI写代码先判断有没有必要",
+      "title": "AI 写代码最贵的不是 Token，而是那些根本没必要写的代码",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "risk-postmortem",
+      "content_archetype": "myth_busting",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.041,
+      "reach_note": "GitHub 和主流编程工具提供认知入口，减少代码、成本与维护负担是明确利益点，并可立即用于下一次开发任务。",
+      "selection_reason": "它击中了 AI 编程普及后的高频痛点，重点不是再推荐一个工具，而是提供可以迁移到各种项目的工程判断。",
+      "selected_at": "2026-08-23T11:10:44.978Z",
+      "updated_at": "2026-08-23T11:11:36.309Z",
+      "draft_ready_at": "2026-08-23T11:11:36.308Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-23/AI 写代码最贵的不是 Token，而是那些根本没必要写的代码",
+      "meta_path": "drafts/2026-08-23/AI 写代码最贵的不是 Token，而是那些根本没必要写的代码/AI 写代码最贵的不是 Token，而是那些根本没必要写的代码.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-23/sopilot-hot-2091280318880006488-40fbe3ab.md",
+      "file": "sources/2026-08-23/sopilot-hot-2091280318880006488-40fbe3ab.md",
+      "slug": "Seedance成片成本怎么算",
+      "title": "一条 Seedance 视频标价 40 元，真正该算的是可用成片成本",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "creator-workflow",
+      "content_archetype": "decision_memo",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.033,
+      "reach_note": "40 元是醒目的成本利益点，创作者可以立即按自己的出片率复算真实预算并决定是否采用。",
+      "selection_reason": "高互动样片提供了强场景入口，而成本核算能把展示型内容改造成对创作者采购和报价真正有用的判断。",
+      "selected_at": "2026-08-23T11:10:44.978Z",
+      "updated_at": "2026-08-23T11:12:38.763Z",
+      "draft_ready_at": "2026-08-23T11:12:38.763Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-23/一条 Seedance 视频标价 40 元，真正该算的是可用成片成本",
+      "meta_path": "drafts/2026-08-23/一条 Seedance 视频标价 40 元，真正该算的是可用成片成本/一条 Seedance 视频标价 40 元，真正该算的是可用成片成本.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-23/x-chenchengpro-675f40b9.md",
+      "file": "sources/2026-08-23/x-chenchengpro-675f40b9.md",
+      "slug": "DeepSeek-Harness一行命令上手",
+      "title": "DeepSeek Harness 一行命令上手：它更像参考实现，而不是另一个 Claude Code",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "developer-tooling",
+      "content_archetype": "buyer_guide",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.032,
+      "reach_note": "DeepSeek 具备品牌认知，一行命令即可启动，读者能快速判断是否值得纳入开发环境。",
+      "selection_reason": "素材包含具体命令、架构细节和明确取舍，既能做上手体验，也能避免把新项目误判成成熟替代品。",
+      "selected_at": "2026-08-23T11:10:44.979Z",
+      "updated_at": "2026-08-23T11:13:39.015Z",
+      "draft_ready_at": "2026-08-23T11:13:39.014Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-23/DeepSeek Harness 一行命令上手：它更像参考实现，而不是另一个 Claude Code",
+      "meta_path": "drafts/2026-08-23/DeepSeek Harness 一行命令上手：它更像参考实现，而不是另一个 Claude Code/DeepSeek Harness 一行命令上手：它更像参考实现，而不是另一个 Claude Code.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-23/sopilot-hot-2091323283287535666-49835d60.md",
+      "file": "sources/2026-08-23/sopilot-hot-2091323283287535666-49835d60.md",
+      "slug": "用AI搭建英语训练闭环",
+      "title": "别再只让 AI 翻译：用 Gemini 和 ChatGPT 组一套英语训练闭环",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.026,
+      "reach_note": "Google、Gemini 和 ChatGPT 具备品牌认知，提升英语使用能力是清晰利益点，读者当天就能按环节开始练习。",
+      "selection_reason": "它把 AI 从翻译器改造成练习搭档，覆盖普通用户的长期学习场景，也能与当天偏开发者的内容形成明显区分。",
+      "selected_at": "2026-08-23T11:10:44.979Z",
+      "updated_at": "2026-08-23T11:14:41.561Z",
+      "draft_ready_at": "2026-08-23T11:14:41.560Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-23/别再只让 AI 翻译：用 Gemini 和 ChatGPT 组一套英语训练闭环",
+      "meta_path": "drafts/2026-08-23/别再只让 AI 翻译：用 Gemini 和 ChatGPT 组一套英语训练闭环/别再只让 AI 翻译：用 Gemini 和 ChatGPT 组一套英语训练闭环.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-23/vllm-releases-b8548f88.md",
+      "file": "sources/2026-08-23/vllm-releases-b8548f88.md",
+      "slug": "vLLM-0.27部署Kimi-K3",
+      "title": "vLLM 0.27 支持 Kimi K3：升级前先看这项破坏性环境变化",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 26,
+      "recent_similarity": 0.028,
+      "reach_note": "Kimi 是中文读者熟悉的模型品牌，新版本可直接部署，但升级前必须处理明确的依赖兼容问题。",
+      "selection_reason": "这是信息量充足的正式发布记录，既有新模型收益，也有真实升级风险，适合做可执行的版本判断。",
+      "selected_at": "2026-08-23T11:10:44.979Z",
+      "updated_at": "2026-08-23T11:15:37.598Z",
+      "draft_ready_at": "2026-08-23T11:15:37.597Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-23/vLLM 0.27 支持 Kimi K3，升级前先看这项破坏性环境变化",
+      "meta_path": "drafts/2026-08-23/vLLM 0.27 支持 Kimi K3，升级前先看这项破坏性环境变化/vLLM 0.27 支持 Kimi K3，升级前先看这项破坏性环境变化.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-23/sopilot-hot-2091291216478707917-b15ba365.md",
+      "file": "sources/2026-08-23/sopilot-hot-2091291216478707917-b15ba365.md",
+      "slug": "Instant加入OpenAI后的迁移选择",
+      "title": "Instant 团队加入 OpenAI、云服务将关闭：你的应用现在该怎么迁移",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "product-business",
+      "content_archetype": "decision_memo",
+      "diversity_note": "same_entity_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 62,
+      "recent_similarity": 0.026,
+      "reach_note": "OpenAI 提供品牌认知，服务关闭直接关系数据与业务连续性，现有用户需要立即制定迁移决策。",
+      "selection_reason": "相比讨论交易本身，迁移与数据处置对开发者和产品团队更紧迫，也能延伸为选择 AI 应用后端时的供应商风险案例。",
+      "selected_at": "2026-08-23T11:10:44.980Z",
+      "updated_at": "2026-08-23T11:16:29.935Z",
+      "draft_ready_at": "2026-08-23T11:16:29.934Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-23/Instant 团队加入 OpenAI、云服务将关闭：你的应用现在该怎么迁移",
+      "meta_path": "drafts/2026-08-23/Instant 团队加入 OpenAI、云服务将关闭：你的应用现在该怎么迁移/Instant 团队加入 OpenAI、云服务将关闭：你的应用现在该怎么迁移.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-08-23/ai-now-institute-dbb3bfe8.md",
+      "file": "sources/2026-08-23/ai-now-institute-dbb3bfe8.md",
+      "slug": "防御型AI的授权边界",
+      "title": "OpenAI、Anthropic 的防御型 AI 也可能反过来攻击你：授权边界怎么设",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "same_entity_in_batch,title_pattern_repeat_in_batch,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 120,
+      "recent_similarity": 0.043,
+      "reach_note": "OpenAI 与 Anthropic 提供品牌认知，读者可立即检查工具权限和审批边界，直接降低系统风险。",
+      "selection_reason": "风险来自真实的自主执行链条，不是泛泛的安全警告；题目能把研究结论转成团队部署前需要回答的具体问题。",
+      "selected_at": "2026-08-23T11:10:44.980Z",
+      "updated_at": "2026-08-23T11:17:32.268Z",
+      "draft_ready_at": "2026-08-23T11:17:32.267Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-08-23/OpenAI、Anthropic 的防御型 AI 也可能反过来攻击你：授权边界怎么设",
+      "meta_path": "drafts/2026-08-23/OpenAI、Anthropic 的防御型 AI 也可能反过来攻击你：授权边界怎么设/OpenAI、Anthropic 的防御型 AI 也可能反过来攻击你：授权边界怎么设.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-08-23T11:10:44.978Z",
+      "source_count": 150
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-08-23T11:10:44.978Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-23T11:10:44.978Z",
+      "topic_id": "sources/2026-08-23/sopilot-hot-2091338382689423373-a3549313.md",
+      "slug": "AI写代码先判断有没有必要"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-23T11:10:44.979Z",
+      "topic_id": "sources/2026-08-23/sopilot-hot-2091280318880006488-40fbe3ab.md",
+      "slug": "Seedance成片成本怎么算"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-23T11:10:44.979Z",
+      "topic_id": "sources/2026-08-23/x-chenchengpro-675f40b9.md",
+      "slug": "DeepSeek-Harness一行命令上手"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-23T11:10:44.979Z",
+      "topic_id": "sources/2026-08-23/sopilot-hot-2091323283287535666-49835d60.md",
+      "slug": "用AI搭建英语训练闭环"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-23T11:10:44.979Z",
+      "topic_id": "sources/2026-08-23/vllm-releases-b8548f88.md",
+      "slug": "vLLM-0.27部署Kimi-K3"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-23T11:10:44.980Z",
+      "topic_id": "sources/2026-08-23/sopilot-hot-2091291216478707917-b15ba365.md",
+      "slug": "Instant加入OpenAI后的迁移选择"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-08-23T11:10:44.980Z",
+      "topic_id": "sources/2026-08-23/ai-now-institute-dbb3bfe8.md",
+      "slug": "防御型AI的授权边界"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-23T11:11:36.309Z",
+      "topic_id": "sources/2026-08-23/sopilot-hot-2091338382689423373-a3549313.md",
+      "slug": "AI写代码先判断有没有必要",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-23T11:12:38.763Z",
+      "topic_id": "sources/2026-08-23/sopilot-hot-2091280318880006488-40fbe3ab.md",
+      "slug": "Seedance成片成本怎么算",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-23T11:13:39.015Z",
+      "topic_id": "sources/2026-08-23/x-chenchengpro-675f40b9.md",
+      "slug": "DeepSeek-Harness一行命令上手",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-23T11:14:41.561Z",
+      "topic_id": "sources/2026-08-23/sopilot-hot-2091323283287535666-49835d60.md",
+      "slug": "用AI搭建英语训练闭环",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-23T11:15:37.598Z",
+      "topic_id": "sources/2026-08-23/vllm-releases-b8548f88.md",
+      "slug": "vLLM-0.27部署Kimi-K3",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-23T11:16:29.935Z",
+      "topic_id": "sources/2026-08-23/sopilot-hot-2091291216478707917-b15ba365.md",
+      "slug": "Instant加入OpenAI后的迁移选择",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-08-23T11:17:32.268Z",
+      "topic_id": "sources/2026-08-23/ai-now-institute-dbb3bfe8.md",
+      "slug": "防御型AI的授权边界",
+      "error": ""
+    }
+  ]
+}

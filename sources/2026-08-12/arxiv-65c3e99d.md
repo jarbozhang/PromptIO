@@ -1,0 +1,26 @@
+---
+title: >-
+  From Interpretability to Control: Insights from Six Years of the TrustNLP
+  Workshop
+url: 'https://arxiv.org/abs/2608.11171v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Rahul Gupta
+  - Abhinav Mohanty
+  - Anaelia Ovalle
+  - Anil Ramakrishna
+  - Anubrata Das
+categories:
+  - cs.CL
+  - cs.AI
+  - cs.CY
+  - cs.CL
+published: '2026-08-11T17:30:16Z'
+fetched_at: '2026-08-12T11:02:39.399Z'
+---
+The Workshop on Trustworthy Natural Language Processing (TrustNLP), co-located with major ACL conferences since 2021, has grown from 8 proceedings papers to 41 over six editions, documenting a field-wide transition from post-hoc interpretability of static models to mechanistic understanding and proactive control of generative systems. We synthesize insights from all 144 proceedings papers, classifying them along six trust dimensions grounded in established frameworks (TrustLLM, DecodingTrust). We observe co-occurrences with capability emergence. The release of the first high-impact chat models activated all trust dimensions simultaneously, while subsequent model generations shifted focus toward truthfulness and safety alignment. Analysis from the classification study reveals that truthfulness is the fastest-growing dimension (absent in 2021-2022, comprising 37% of papers by 2025-2026), fairness remains the most consistent theme, and explainability exhibits a U-shaped trajectory; declining as post-hoc methods lost relevance but resurging in 2026 through mechanistic interpretability. A cross-venue comparison with ACL, NAACL, EACL, and EMNLP (~2K papers) in the same period shows that TrustNLP's topical distribution closely follows the field average. We identify four structural insights and conclude with actionable directions for the research community.
+
+Authors: Rahul Gupta, Abhinav Mohanty, Anaelia Ovalle, Anil Ramakrishna, Anubrata Das
+Categories: cs.CL, cs.AI, cs.CY, cs.CL

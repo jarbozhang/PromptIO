@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-04",
+  "created_at": "2026-07-03T23:16:23.771Z",
+  "updated_at": "2026-07-03T23:25:55.142Z",
+  "source_count": 160,
+  "topics": [
+    {
+      "id": "sources/2026-07-04/x-tychozzz-3704e448.md",
+      "file": "sources/2026-07-04/x-tychozzz-3704e448.md",
+      "slug": "Meta-出租-AI-算力该怎么看",
+      "title": "Meta 出租 AI 算力，未必说明过剩：真正该看的是裸金属还是全栈云",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "product-business",
+      "content_archetype": "trend_argument",
+      "diversity_note": "",
+      "diversity_penalty": 0,
+      "recent_similarity": 0.029,
+      "reach_note": "Meta、AI 算力、云业务有品牌和商业利益点，能给读者一个可复用判断框架。",
+      "selection_reason": "这篇补足产品商业和趋势判断维度，也能让当天内容不被开发者工具、模型部署占满。",
+      "selected_at": "2026-07-03T23:16:23.772Z",
+      "updated_at": "2026-07-03T23:17:17.717Z",
+      "draft_ready_at": "2026-07-03T23:17:17.716Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-04/Meta 出租 AI 算力，未必说明过剩，真正该看的是裸金属还是全栈云",
+      "meta_path": "drafts/2026-07-04/Meta 出租 AI 算力，未必说明过剩，真正该看的是裸金属还是全栈云/Meta 出租 AI 算力，未必说明过剩，真正该看的是裸金属还是全栈云.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-04/transformers-releases-25627478.md",
+      "file": "sources/2026-07-04/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-支持-Kimi-K2",
+      "title": "Transformers v5.13 支持 Kimi K2.5-K2.7：本地跑多模态 Agent 模型前先看这次更新",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "version_brief",
+      "diversity_note": "recent_title_pattern_saturation",
+      "diversity_penalty": 10,
+      "recent_similarity": 0.041,
+      "reach_note": "Hugging Face、Kimi 都有认知度，且读者可以直接升级库和查看模型支持。",
+      "selection_reason": "官方 release 信息量足，Kimi 与本地模型部署对中文读者有强吸引力，比单纯 GitHub trending 更适合形成可操作版本稿。",
+      "selected_at": "2026-07-03T23:16:23.772Z",
+      "updated_at": "2026-07-03T23:18:22.140Z",
+      "draft_ready_at": "2026-07-03T23:18:22.140Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-04/本地跑多模态 Agent 前，先看 Transformers v5.13 支持 Kimi K2.5-K2.7",
+      "meta_path": "drafts/2026-07-04/本地跑多模态 Agent 前，先看 Transformers v5.13 支持 Kimi K2.5-K2.7/本地跑多模态 Agent 前，先看 Transformers v5.13 支持 Kimi K2.5-K2.7.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-04/x-shao__meng-00af09a7.md",
+      "file": "sources/2026-07-04/x-shao__meng-00af09a7.md",
+      "slug": "video-use-让-AI-读视频再剪辑",
+      "title": "让 AI 剪视频别再硬看 30000 帧：video-use 的“读视频”思路值得创作者偷师",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "case_story",
+      "diversity_note": "recent_entity_saturation",
+      "diversity_penalty": 16,
+      "recent_similarity": 0.028,
+      "reach_note": "视频剪辑是强需求，Codex/Claude Code/Cursor 等工具有识别度，且有明确工作流可试。",
+      "selection_reason": "这是当天少数能跳出开发者工具范畴、直接服务内容生产的题目，技术点也足够新鲜。",
+      "selected_at": "2026-07-03T23:16:23.772Z",
+      "updated_at": "2026-07-03T23:19:26.495Z",
+      "draft_ready_at": "2026-07-03T23:19:26.494Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-04/让 AI 剪视频别再硬看 30000 帧，video-use 的“读视频”思路值得创作者偷师",
+      "meta_path": "drafts/2026-07-04/让 AI 剪视频别再硬看 30000 帧，video-use 的“读视频”思路值得创作者偷师/让 AI 剪视频别再硬看 30000 帧，video-use 的“读视频”思路值得创作者偷师.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-04/arxiv-976f3f78.md",
+      "file": "sources/2026-07-04/arxiv-976f3f78.md",
+      "slug": "AI-代码-Agent-分布式攻击风险",
+      "title": "AI 代码 Agent 的新风险：坏代码不一定一次提交，它可以分几次混进去",
+      "status": "draft_ready",
+      "reach": 7,
+      "content_lane": "research-security",
+      "content_archetype": "safety_review",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_title_pattern_saturation",
+      "diversity_penalty": 22,
+      "recent_similarity": 0.035,
+      "reach_note": "AI 代码 Agent 是高关注主题，风险场景具体，团队可以立即调整评审策略。",
+      "selection_reason": "研究源有明确问题、基准和安全含义，适合做当天的风险提醒，避免选题全部变成功能发布。",
+      "selected_at": "2026-07-03T23:16:23.773Z",
+      "updated_at": "2026-07-03T23:20:49.791Z",
+      "draft_ready_at": "2026-07-03T23:20:49.790Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-04/AI 代码 Agent 的新风险，坏代码不一定一次提交，它可以分几次混进去",
+      "meta_path": "drafts/2026-07-04/AI 代码 Agent 的新风险，坏代码不一定一次提交，它可以分几次混进去/AI 代码 Agent 的新风险，坏代码不一定一次提交，它可以分几次混进去.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-04/vllm-releases-d6f25b58.md",
+      "file": "sources/2026-07-04/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-v0-24-0-部署更新重点",
+      "title": "vLLM v0.24.0 更新重点：MiniMax-M3、DeepSeek-V4 和 AMD 部署该怎么看",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "model-deployment",
+      "content_archetype": "decision_memo",
+      "diversity_note": "title_pattern_repeat_in_batch,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 38,
+      "recent_similarity": 0.064,
+      "reach_note": "vLLM、DeepSeek、MiniMax 有品牌识别，升级决策和部署收益明确。",
+      "selection_reason": "vLLM release 是 A 级版本主源，覆盖模型部署和成本/性能判断，适合给工程读者做升级取舍。",
+      "selected_at": "2026-07-03T23:16:23.773Z",
+      "updated_at": "2026-07-03T23:21:55.019Z",
+      "draft_ready_at": "2026-07-03T23:21:55.018Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-04/部署团队看 vLLM v0.24.0，MiniMax-M3、DeepSeek-V4 和 AMD 值不值得升",
+      "meta_path": "drafts/2026-07-04/部署团队看 vLLM v0.24.0，MiniMax-M3、DeepSeek-V4 和 AMD 值不值得升/部署团队看 vLLM v0.24.0，MiniMax-M3、DeepSeek-V4 和 AMD 值不值得升.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-04/github-trending-978e35c6.md",
+      "file": "sources/2026-07-04/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-联网能力升级",
+      "title": "Hermes Agent 联网能力升级：网页读取提速后，Agent 终于不用整页烧上下文了",
+      "status": "draft_ready",
+      "reach": 9,
+      "content_lane": "version-update",
+      "content_archetype": "version_brief",
+      "diversity_note": "title_pattern_repeat_in_batch,agent_like_daily_cap,developer_lane_daily_cap,recent_entity_saturation,recent_title_pattern_saturation",
+      "diversity_penalty": 126,
+      "recent_similarity": 0.049,
+      "reach_note": "Hermes/NousResearch 命中重点生态，且有明确提速、省成本和可上手验证路径。",
+      "selection_reason": "这是当天最贴合 openclaw/Hermes 生态的版本题，既有品牌识别，也有非常具体的用户收益：更快、更便宜、更适合长网页任务。",
+      "selected_at": "2026-07-03T23:16:23.774Z",
+      "updated_at": "2026-07-03T23:24:54.695Z",
+      "draft_ready_at": "2026-07-03T23:24:54.694Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-04/网页读取提速后，Hermes Agent 终于不用整页烧上下文了",
+      "meta_path": "drafts/2026-07-04/网页读取提速后，Hermes Agent 终于不用整页烧上下文了/网页读取提速后，Hermes Agent 终于不用整页烧上下文了.md",
+      "error": ""
+    },
+    {
+      "id": "sources/2026-07-04/x-shao__meng-418fc110.md",
+      "file": "sources/2026-07-04/x-shao__meng-418fc110.md",
+      "slug": "AI-写-UI-什么时候不该动",
+      "title": "AI 写 UI 最大的问题不是不会动效，而是不知道什么时候不该动",
+      "status": "draft_ready",
+      "reach": 8,
+      "content_lane": "creator-workflow",
+      "content_archetype": "myth_busting",
+      "diversity_note": "same_entity_in_batch,agent_like_daily_cap,developer_lane_daily_cap,recent_entity_saturation",
+      "diversity_penalty": 140,
+      "recent_similarity": 0.069,
+      "reach_note": "Vercel、Linear、Codex、Claude Code 都有认知度，且能立刻用于 UI 评审和提示词改写。",
+      "selection_reason": "这篇能给设计、前端、独立开发者都提供可复用判断标准，也能平衡当天偏工程部署的选题结构。",
+      "selected_at": "2026-07-03T23:16:23.774Z",
+      "updated_at": "2026-07-03T23:25:55.142Z",
+      "draft_ready_at": "2026-07-03T23:25:55.141Z",
+      "draft_failed_at": "",
+      "draft_dir": "drafts/2026-07-04/AI 写 UI 最大的问题不是不会动效，而是不知道什么时候不该动",
+      "meta_path": "drafts/2026-07-04/AI 写 UI 最大的问题不是不会动效，而是不知道什么时候不该动/AI 写 UI 最大的问题不是不会动效，而是不知道什么时候不该动.md",
+      "error": ""
+    }
+  ],
+  "events": [
+    {
+      "type": "sources_seen",
+      "at": "2026-07-03T23:16:23.771Z",
+      "source_count": 160
+    },
+    {
+      "type": "topics_replaced",
+      "at": "2026-07-03T23:16:23.772Z",
+      "topic_count": 7
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-03T23:16:23.772Z",
+      "topic_id": "sources/2026-07-04/x-tychozzz-3704e448.md",
+      "slug": "Meta-出租-AI-算力该怎么看"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-03T23:16:23.772Z",
+      "topic_id": "sources/2026-07-04/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-支持-Kimi-K2"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-03T23:16:23.772Z",
+      "topic_id": "sources/2026-07-04/x-shao__meng-00af09a7.md",
+      "slug": "video-use-让-AI-读视频再剪辑"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-03T23:16:23.773Z",
+      "topic_id": "sources/2026-07-04/arxiv-976f3f78.md",
+      "slug": "AI-代码-Agent-分布式攻击风险"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-03T23:16:23.773Z",
+      "topic_id": "sources/2026-07-04/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-v0-24-0-部署更新重点"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-03T23:16:23.774Z",
+      "topic_id": "sources/2026-07-04/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-联网能力升级"
+    },
+    {
+      "type": "topic_selected",
+      "at": "2026-07-03T23:16:23.774Z",
+      "topic_id": "sources/2026-07-04/x-shao__meng-418fc110.md",
+      "slug": "AI-写-UI-什么时候不该动"
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-03T23:17:17.717Z",
+      "topic_id": "sources/2026-07-04/x-tychozzz-3704e448.md",
+      "slug": "Meta-出租-AI-算力该怎么看",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-03T23:18:22.140Z",
+      "topic_id": "sources/2026-07-04/transformers-releases-25627478.md",
+      "slug": "Transformers-v5-13-支持-Kimi-K2",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-03T23:19:26.495Z",
+      "topic_id": "sources/2026-07-04/x-shao__meng-00af09a7.md",
+      "slug": "video-use-让-AI-读视频再剪辑",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-03T23:20:49.791Z",
+      "topic_id": "sources/2026-07-04/arxiv-976f3f78.md",
+      "slug": "AI-代码-Agent-分布式攻击风险",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-03T23:21:55.019Z",
+      "topic_id": "sources/2026-07-04/vllm-releases-d6f25b58.md",
+      "slug": "vLLM-v0-24-0-部署更新重点",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-03T23:24:54.695Z",
+      "topic_id": "sources/2026-07-04/github-trending-978e35c6.md",
+      "slug": "Hermes-Agent-联网能力升级",
+      "error": ""
+    },
+    {
+      "type": "draft_ready",
+      "at": "2026-07-03T23:25:55.142Z",
+      "topic_id": "sources/2026-07-04/x-shao__meng-418fc110.md",
+      "slug": "AI-写-UI-什么时候不该动",
+      "error": ""
+    }
+  ]
+}
