@@ -1,0 +1,24 @@
+---
+title: I trained a 1.57B-parameter Dreamer 4 World Model from scratch for under $150
+url: >-
+  https://www.reddit.com/r/LocalLLaMA/comments/1vwrc6i/i_trained_a_157bparameter_dreamer_4_world_model/
+source: Reddit r/LocalLLaMA
+source_type: rss
+language: en
+published: '2026-08-24T03:19:01.000Z'
+fetched_at: '2026-08-24T11:01:49.505Z'
+---
+My first attempt didn't work. I built on Genie's architecture and the videos looked great, but the controls barely did anything. The effect of a keypress was basically zero. 
+ Genie learns its actions unsupervised into 8 codes, and that was too loose a grip for us. So I scrapped it and started again with Dreamer 4. 
+ The second attempt: 
+ Tokenizer at 40.41 PSNR (Genie's paper reports 35.7)
+ FVD 32.19 end to end
+ 144 frames before it falls apart
+ 1.57B parameters, 9.6M frames, ~$150 
+ Two important learnings: 
+ (1) One is that $150 is enough. You don't need a frontier lab to do this anymore, and I don't think enough people have noticed. 
+ (2) The other is the data. We generated every frame ourselves with Procgen instead of scraping video. We know the true action at every step, so we can actually check whether the model is responding to us or just making pretty motion. 
+ Website: https://worldmodel-platformer.vizuara.ai/
+ Code: https://github.com/RajatDandekar/dreamer4-coinrun
+    submitted by    /u/OtherRaisin3426  
+ [link]   [comments]
