@@ -1,0 +1,24 @@
+---
+title: >-
+  EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and
+  Natural Hazards
+url: 'https://arxiv.org/abs/2608.23525v1'
+source: arXiv
+source_type: arxiv
+language: en
+authors:
+  - Zhiqing Cui
+  - Xinxiang Yin
+  - Yihong Tang
+  - Xinglang Zhang
+  - Yuanzhe Hu
+categories:
+  - cs.AI
+  - cs.AI
+published: '2026-08-24T17:29:16Z'
+fetched_at: '2026-08-25T11:02:03.417Z'
+---
+Earth-system analysis reconstructs changing physical processes from observations that differ in source, scale, timing, and modality. Natural hazards make this work consequential because incomplete evidence can change estimates of severity, exposure, and mechanism. We introduce EarthVerse, a benchmark that evaluates scientific agents through package-scoped investigations. Its 405 reproducible tasks are grounded in 199 documented events and 19 hazard families. Agents inspect heterogeneous event packages, choose compatible evidence, execute transparent calculations, reconcile source differences, and preserve provenance in the final answer. We provide executable ground truth that decomposes each task into fine-grained answer units, together with task-specific rubrics that assess the supporting research process while allowing multiple valid paths. We evaluate 25 model and agent systems under a controlled tool-using protocol, then use controlled studies to locate failures in evidence access, tool selection, memory, reasoning, interaction, and scientific execution. Across systems, the best mean answer-unit accuracy is 84.65%, while the highest Strict@95 is only 34.81%. The gap shows that current agents often complete individual steps without maintaining a consistent chain across evidence, scales, units, calculations, and physical interpretation. EarthVerse provides a reproducible basis for measuring end-to-end scientific reliability in dynamic Earth systems.
+
+Authors: Zhiqing Cui, Xinxiang Yin, Yihong Tang, Xinglang Zhang, Yuanzhe Hu
+Categories: cs.AI, cs.AI
